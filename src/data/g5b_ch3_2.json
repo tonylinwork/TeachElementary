@@ -1,5 +1,138 @@
 {
   "title": "小五下 3-2 比率與百分率",
-  "summary": "<h1>小五　比率與百分率　教學重點</h1>\n\n    <!-- 知識點 1 -->\n    <h2>知識點 1：比率的定義與表示</h2>\n\n    <h3>核心定義／公式</h3>\n    <ul>\n      <li><strong>比率</strong> = 比較量 ÷ 基準量</li>\n      <li>「<strong>基準量</strong>」是被當作標準（分母）的那一個量；「<strong>比較量</strong>」是被拿來和它比較（分子）的量</li>\n      <li>一個比率可以用 <strong>分數、小數、百分率</strong> 三種形式表示，意義完全相同</li>\n      <li>例：班上 25 人有 15 人到校 → 出席率 = <code>15 ÷ 25 = 15/25 = 3/5 = 0.6 = 60%</code></li>\n    </ul>\n\n    <h3>判讀基準量的提示詞</h3>\n    <ul>\n      <li>「<strong>佔</strong>全班的幾分之幾」、「<strong>對於</strong>全部來說」、「以 ... <strong>為基準</strong>」→ 那個對象就是基準量</li>\n      <li>「A <strong>是</strong> B 的 ⃞ 倍／⃞ %」→ <strong>B 是基準量</strong>（B 在「是」字後面、後接「的」）</li>\n      <li>「比 ... <strong>多／少</strong>百分之幾」→ 被比的對象是基準量</li>\n    </ul>\n\n    <h3>常見考法／注意事項</h3>\n    <ul>\n      <li>同一個情境，基準量換了答案就會不同 → 讀題時先圈出基準量</li>\n      <li>比率沒有單位（純數）；它不是「多少公分」「多少元」</li>\n      <li>比率可大於 1（=超過基準量），也可小於 1（=不到基準量），等於 1 即「一樣多」</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 2 -->\n    <h2>知識點 2：百分率的定義與讀法</h2>\n\n    <h3>核心定義／公式</h3>\n    <ul>\n      <li><strong>百分率</strong>：把基準量看成 100 等份，比較量佔其中幾份就是百分之幾，記作 <code>%</code></li>\n      <li>從分數轉百分率：<strong>分數 × 100，加上 % 符號</strong></li>\n      <li>從小數轉百分率：<strong>小數 × 100，加上 % 符號</strong>（小數點向右移 2 位）</li>\n      <li>讀法：<code>35%</code> 讀作「百分之三十五」；<code>0.5%</code> 讀作「百分之零點五」</li>\n    </ul>\n\n    <h3>百分率的範圍解讀</h3>\n    <table>\n      <thead>\n        <tr>\n          <th>百分率</th>\n          <th>意義</th>\n          <th>例子</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td>小於 1%</td>\n          <td>非常少（不到百分之一）</td>\n          <td>0.5%、0.01%</td>\n        </tr>\n        <tr>\n          <td>1% ~ 99%</td>\n          <td>部分／不到整個基準量</td>\n          <td>出席率 90%</td>\n        </tr>\n        <tr>\n          <td>100%</td>\n          <td>剛好等於基準量</td>\n          <td>全班到齊出席率 100%</td>\n        </tr>\n        <tr>\n          <td>大於 100%</td>\n          <td>超過基準量</td>\n          <td>業績 120%（達成 1.2 倍）</td>\n        </tr>\n      </tbody>\n    </table>\n\n    <h3>常見考法／注意事項</h3>\n    <ul>\n      <li>看到「<code>%</code>」就要想到「÷ 100」（換回小數或分數）</li>\n      <li>百分率可以小於 1（如 <code>0.5%</code>）也可以大於 100%（如 <code>150%</code>）</li>\n      <li>「<strong>百分點</strong>」≠「<strong>百分率</strong>」：利率從 3% 升到 5%，是「上升 2 個百分點」，不是「上升 2%」（國小階段先有概念即可）</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 3 -->\n    <h2>知識點 3：分數 ↔ 小數 ↔ 百分率 三者互換</h2>\n\n    <h3>核心換算公式</h3>\n    <ul>\n      <li><strong>分數 → 小數</strong>：分子 ÷ 分母</li>\n      <li><strong>小數 → 百分率</strong>：× 100，加 <code>%</code>（小數點右移 2 位）</li>\n      <li><strong>百分率 → 小數</strong>：÷ 100，去 <code>%</code>（小數點左移 2 位）</li>\n      <li><strong>百分率 → 分數</strong>：寫成「該數 / 100」後約分</li>\n    </ul>\n\n    <h3>常用換算速記表</h3>\n    <table>\n      <thead>\n        <tr>\n          <th>分數</th>\n          <th>小數</th>\n          <th>百分率</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr><td>1/2</td><td>0.5</td><td>50%</td></tr>\n        <tr><td>1/4</td><td>0.25</td><td>25%</td></tr>\n        <tr><td>3/4</td><td>0.75</td><td>75%</td></tr>\n        <tr><td>1/5</td><td>0.2</td><td>20%</td></tr>\n        <tr><td>2/5</td><td>0.4</td><td>40%</td></tr>\n        <tr><td>1/10</td><td>0.1</td><td>10%</td></tr>\n        <tr><td>1/100</td><td>0.01</td><td>1%</td></tr>\n        <tr><td>1/1000</td><td>0.001</td><td>0.1%</td></tr>\n        <tr><td>1/3</td><td>0.333...</td><td>33.3%（約）</td></tr>\n      </tbody>\n    </table>\n\n    <h3>常見考法／注意事項</h3>\n    <ul>\n      <li>看到 <code>3/4</code> 要能直接反應 = <code>75%</code>，反之亦然 → 速記表要背</li>\n      <li><code>1/3</code>、<code>2/3</code> 是無限循環小數，百分率約寫 <code>33.3%</code>、<code>66.7%</code></li>\n      <li>換算時要對齊「× 100 或 ÷ 100」的方向，常因小數點移錯位而出錯</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 4 -->\n    <h2>知識點 4：三種逆題（基準量、比較量、比率）</h2>\n\n    <h3>三個關係式</h3>\n    <p style=\"margin: 8px 4px 12px;\">由 <strong>比率 = 比較量 ÷ 基準量</strong> 變形出三條公式：</p>\n    <table>\n      <thead>\n        <tr>\n          <th>已知</th>\n          <th>求</th>\n          <th>公式</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr><td>基準量、比較量</td><td>比率</td><td>比較量 ÷ 基準量</td></tr>\n        <tr><td>基準量、比率</td><td>比較量</td><td>基準量 × 比率</td></tr>\n        <tr><td>比較量、比率</td><td>基準量</td><td>比較量 ÷ 比率</td></tr>\n      </tbody>\n    </table>\n\n    <h3>解題步驟</h3>\n    <ol>\n      <li>圈出題目中的「<strong>基準量</strong>」和「<strong>比較量</strong>」（哪個是 100% 的那個對象）</li>\n      <li>看題目要的是三者中的哪一個 → 套對應公式</li>\n      <li>把百分率先換成小數或分數再計算（如 <code>25%</code> → <code>0.25</code>）</li>\n    </ol>\n\n    <h3>範例</h3>\n    <ul>\n      <li>全班 40 人，男生 24 人 → 男生比率 = <code>24 ÷ 40 = 0.6 = 60%</code></li>\n      <li>全班 40 人，男生佔 60% → 男生人數 = <code>40 × 0.6 = 24</code> 人</li>\n      <li>男生 24 人佔全班 60% → 全班人數 = <code>24 ÷ 0.6 = 40</code> 人</li>\n    </ul>\n\n    <h3>常見考法／注意事項</h3>\n    <ul>\n      <li>第三種（由比較量求基準量）<strong>最容易錯</strong> → 學生會誤算成 <code>24 × 60% = 14.4</code></li>\n      <li>訣竅：「比較量 ÷ 比率」才能放大回基準量（基準量比較大）</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 5 -->\n    <h2>知識點 5：百分率的應用情境</h2>\n\n    <h3>折扣（打折）</h3>\n    <ul>\n      <li>「<strong>打 8 折</strong>」= 賣價是原價的 <strong>80%</strong>（不是少 80%，是只收 80%）</li>\n      <li>「打 75 折」= 賣價 = <code>原價 × 0.75</code></li>\n      <li>公式：<strong>售價 = 原價 × 折扣率</strong></li>\n      <li>反推原價：<strong>原價 = 售價 ÷ 折扣率</strong></li>\n    </ul>\n\n    <h3>利率（單利）</h3>\n    <ul>\n      <li><strong>利息 = 本金 × 年利率 × 年數</strong></li>\n      <li>年利率 2% 表示存 100 元一年得 2 元利息</li>\n      <li>「本利和」= 本金 + 利息</li>\n    </ul>\n\n    <h3>達成率／成功率／命中率／及格率／出席率</h3>\n    <table>\n      <thead>\n        <tr>\n          <th>名稱</th>\n          <th>比較量</th>\n          <th>基準量</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr><td>達成率</td><td>實際完成量</td><td>目標量</td></tr>\n        <tr><td>成功率</td><td>成功次數</td><td>嘗試總次數</td></tr>\n        <tr><td>命中率</td><td>命中次數</td><td>出手總次數</td></tr>\n        <tr><td>及格率</td><td>及格人數</td><td>總人數</td></tr>\n        <tr><td>出席率</td><td>到場人數</td><td>應到人數</td></tr>\n      </tbody>\n    </table>\n    <ul>\n      <li>公式都一樣：<strong>比率 = 比較量 ÷ 基準量</strong>，再轉成 <code>%</code></li>\n    </ul>\n\n    <h3>增加／減少百分之幾</h3>\n    <ul>\n      <li>「增加 20%」表示：新量 = <code>原量 × (1 + 20%) = 原量 × 1.2</code></li>\n      <li>「減少 20%」表示：新量 = <code>原量 × (1 − 20%) = 原量 × 0.8</code></li>\n      <li>漲價後再打折題：依序乘上每個倍率</li>\n    </ul>\n\n    <hr>\n\n    <!-- 易錯點 -->\n    <h2>易錯點整理</h2>\n    <ol>\n      <li><strong>基準量找錯</strong>：題目換個說法（「A 是 B 的幾%」vs「B 是 A 的幾%」）答案就不一樣 → 一定要先圈基準量</li>\n      <li><strong>打折的方向</strong>：打 8 折是「乘 <code>0.8</code>」不是「乘 <code>0.2</code>」，更不是「減 80%」</li>\n      <li><strong>逆推基準量用乘法</strong>：24 人是全班的 60%，要求全班 → 應該 <code>24 ÷ 0.6</code>（除法），不是乘法</li>\n      <li><strong>百分率大於 100%</strong>：業績達 120% 是合理的（超過目標），不要看到 &gt; 100% 就以為錯</li>\n      <li><strong>小數點移錯位</strong>：<code>0.5 = 50%</code>，不是 <code>5%</code>；<code>0.05 = 5%</code></li>\n      <li><strong>「增加幾%」的基準</strong>：A 從 100 漲到 120，是「增加 20%」（用原價當基準），不是「增加 120%」</li>\n      <li><strong>連續變動不能直接加減百分率</strong>：先漲 10% 再降 10% 不會回到原價（變成 <code>原價 × 1.1 × 0.9 = 0.99</code> 倍）</li>\n      <li><strong>率 vs 量分清楚</strong>：「及格率 80%」是比率，「及格 80 人」是人數，題目要看清楚問的是哪個</li>\n    </ol>\n\n    <!-- 常見題型 -->\n    <div class=\"exam-section\">\n      <h2>常見題型</h2>\n      <ol>\n        <li><strong>求出席率／及格率</strong>：給應到 ⃞ 人、實到 ⃞ 人，求出席率（比較量 ÷ 基準量 → 化成 <code>%</code>）。</li>\n        <li><strong>打折求售價</strong>：原價 600 元打 7 折，求售價 → <code>600 × 0.7 = 420</code> 元。</li>\n        <li><strong>打折求原價</strong>：某商品打 8 折後 480 元，求原價 → <code>480 ÷ 0.8 = 600</code> 元。</li>\n        <li><strong>求利息／本利和</strong>：本金 5000 元，年利率 2%，存 3 年的利息 → <code>5000 × 0.02 × 3 = 300</code> 元。</li>\n        <li><strong>由比率求總數（基準量）</strong>：男生 18 人佔全班 45%，求全班人數 → <code>18 ÷ 0.45 = 40</code> 人。</li>\n        <li><strong>由總數和比率求部分（比較量）</strong>：全班 50 人，及格率 80%，求及格人數 → <code>50 × 0.8 = 40</code> 人。</li>\n        <li><strong>增加／減少百分之幾</strong>：原本 200 元漲到 250 元，漲了百分之幾？→ <code>(250 − 200) ÷ 200 = 25%</code>。</li>\n        <li><strong>三者互換填空</strong>：把 <code>3/4</code>、<code>0.6</code>、<code>85%</code> 互相換算成另外兩種形式。</li>\n      </ol>\n    </div>\n\n    <!-- 教材來源說明 -->\n    <div class=\"source-section\">\n      <h2>💡 教材來源說明</h2>\n      <p>本章依台灣國小數學標準課綱整理，無對應影片逐字稿。</p>\n    </div>",
-  "sections": []
+  "summary": "<ul><li><strong>比率的意義</strong>：比率 $=$ 比較量 $\\div$ 基準量。基準量是「被當作標準」的那一個量。例：全班 $40$ 人，男生 $24$ 人 $\\to$ 男生比率 $= 24 \\div 40 = 0.6$。</li><li><strong>百分率</strong>：把基準量看成 $100$ 等份，比較量佔幾份就是百分之幾，記作「$\\%$」。小數 $\\to$ 百分率：$\\times 100\\%$（小數點向右移 $2$ 位）。例：$0.6 = 60\\%$。</li><li><strong>三種表示互換</strong>：$\\dfrac{3}{4} = 0.75 = 75\\%$；$\\dfrac{1}{2} = 0.5 = 50\\%$；$\\dfrac{1}{5} = 0.2 = 20\\%$。</li><li><strong>三大公式</strong>：① 比率 $=$ 比較量 $\\div$ 基準量；② 比較量 $=$ 基準量 $\\times$ 比率；③ 基準量 $=$ 比較量 $\\div$ 比率。</li><li><strong>折扣（打折）</strong>：打 $8$ 折 $=$ 賣價是原價的 $80\\%$，售價 $=$ 原價 $\\times 0.8$。打 $7$ 折 $=$ 原價 $\\times 0.7$。</li><li><strong>濃度入門</strong>：濃度 $=$ 溶質 $\\div$ 溶液 $\\times 100\\%$。例：$10$ 克糖溶於 $90$ 克水（共 $100$ 克糖水）$\\to$ 糖水濃度 $= 10 \\div 100 = 10\\%$。</li></ul>",
+  "sections": [
+    {
+      "type": "true_false",
+      "name": "是非題",
+      "questions": [
+        {
+          "id": "g5b_ch3_2_q1",
+          "number": 1,
+          "type": "true_false",
+          "content": "<p>$0.45$ 換成百分率是 $45\\%$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。小數轉百分率要 $\\times 100\\%$，等於把<strong>小數點向右移 $2$ 位</strong>再加 $\\%$：$0.45 \\to 45\\%$。同理 $0.05 = 5\\%$、$1.2 = 120\\%$。</p>"
+        },
+        {
+          "id": "g5b_ch3_2_q2",
+          "number": 2,
+          "type": "true_false",
+          "content": "<p>「打 $8$ 折」表示售價比原價便宜 $80\\%$。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。打 $8$ 折表示「<strong>售價是原價的 $80\\%$</strong>」，也就是只付原價的 $0.8$ 倍，便宜的是 $20\\%$ 不是 $80\\%$。例：原價 $100$ 元打 $8$ 折 $\\to$ 售價 $80$ 元，便宜 $20$ 元（$20\\%$）。</p>"
+        },
+        {
+          "id": "g5b_ch3_2_q3",
+          "number": 3,
+          "type": "true_false",
+          "content": "<p>百分率不可以大於 $100\\%$。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。當比較量<strong>超過基準量</strong>時，百分率就會大於 $100\\%$。例：目標賣 $100$ 個，實際賣 $120$ 個 $\\to$ 達成率 $= 120 \\div 100 = 1.2 = 120\\%$。</p>"
+        },
+        {
+          "id": "g5b_ch3_2_q4",
+          "number": 4,
+          "type": "true_false",
+          "content": "<p>$\\dfrac{3}{4} = 75\\%$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。分數轉小數：$3 \\div 4 = 0.75$；再轉百分率 $\\to 0.75 \\times 100\\% = 75\\%$。這是常用換算之一，建議背：$\\dfrac{1}{4} = 25\\%$、$\\dfrac{1}{2} = 50\\%$、$\\dfrac{3}{4} = 75\\%$。</p>"
+        },
+        {
+          "id": "g5b_ch3_2_q5",
+          "number": 5,
+          "type": "true_false",
+          "content": "<p>$20$ 克的鹽溶於 $80$ 克的水中，鹽水的濃度為 $20\\%$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。鹽水總重 $= 20 + 80 = 100$ 克（這是<strong>基準量</strong>），鹽 $20$ 克是比較量。濃度 $= 20 \\div 100 = 0.2 = 20\\%$。注意：分母是「鹽水」總量，不是「水」的重量。</p>"
+        }
+      ]
+    },
+    {
+      "type": "single_choice",
+      "name": "單選題",
+      "questions": [
+        {
+          "id": "g5b_ch3_2_q6",
+          "number": 6,
+          "type": "single_choice",
+          "content": "<p>下列哪一個和 $\\dfrac{2}{5}$ 相等？</p><p>A. $25\\%$</p><p>B. $40\\%$</p><p>C. $52\\%$</p><p>D. $4\\%$</p>",
+          "answer": "B",
+          "explanation": "<p>$\\dfrac{2}{5} = 2 \\div 5 = 0.4 = 40\\%$。也可以把分母擴成 $100$：$\\dfrac{2}{5} = \\dfrac{2 \\times 20}{5 \\times 20} = \\dfrac{40}{100} = 40\\%$。答案 B。</p>"
+        },
+        {
+          "id": "g5b_ch3_2_q7",
+          "number": 7,
+          "type": "single_choice",
+          "content": "<p>$0.08$ 等於百分之多少？</p><p>A. $0.08\\%$</p><p>B. $0.8\\%$</p><p>C. $8\\%$</p><p>D. $80\\%$</p>",
+          "answer": "C",
+          "explanation": "<p>小數轉百分率，<strong>小數點向右移 $2$ 位</strong>：$0.08 \\to 08. = 8\\%$。要小心：$0.8 = 80\\%$、$0.08 = 8\\%$、$0.008 = 0.8\\%$，差一位差 $10$ 倍。答案 C。</p>"
+        },
+        {
+          "id": "g5b_ch3_2_q8",
+          "number": 8,
+          "type": "single_choice",
+          "content": "<p>全班 $25$ 人中有 $20$ 人到校，今天的出席率是多少？</p><p>A. $25\\%$</p><p>B. $50\\%$</p><p>C. $75\\%$</p><p>D. $80\\%$</p>",
+          "answer": "D",
+          "explanation": "<p>出席率 $=$ 到校人數 $\\div$ 全班人數 $= 20 \\div 25 = 0.8 = 80\\%$。全班 $25$ 人是<strong>基準量</strong>（$100\\%$），到校 $20$ 人是比較量。答案 D。</p>"
+        },
+        {
+          "id": "g5b_ch3_2_q9",
+          "number": 9,
+          "type": "single_choice",
+          "content": "<p>一件外套原價 $1500$ 元，打 $7$ 折，售價是多少元？</p><p>A. $700$ 元</p><p>B. $1050$ 元</p><p>C. $450$ 元</p><p>D. $1450$ 元</p>",
+          "answer": "B",
+          "explanation": "<p>打 $7$ 折 $=$ 售價是原價的 $70\\%$，即售價 $=$ 原價 $\\times 0.7$。$1500 \\times 0.7 = 1050$ 元。檢驗：$1500 - 1050 = 450$ 元（便宜了 $30\\%$）。答案 B。</p>"
+        },
+        {
+          "id": "g5b_ch3_2_q10",
+          "number": 10,
+          "type": "single_choice",
+          "content": "<p>一籃水果共 $50$ 個，其中蘋果佔 $40\\%$，蘋果有幾個？</p><p>A. $10$ 個</p><p>B. $20$ 個</p><p>C. $25$ 個</p><p>D. $40$ 個</p>",
+          "answer": "B",
+          "explanation": "<p>「比較量 $=$ 基準量 $\\times$ 比率」：$50$ 個（基準量）$\\times 40\\% = 50 \\times 0.4 = 20$ 個。答案 B。</p>"
+        },
+        {
+          "id": "g5b_ch3_2_q11",
+          "number": 11,
+          "type": "single_choice",
+          "content": "<p>小明投籃 $20$ 次，命中 $13$ 次，他的命中率是多少？</p><p>A. $13\\%$</p><p>B. $20\\%$</p><p>C. $65\\%$</p><p>D. $70\\%$</p>",
+          "answer": "C",
+          "explanation": "<p>命中率 $=$ 命中次數 $\\div$ 投籃總次數 $= 13 \\div 20 = 0.65 = 65\\%$。也可以用 $\\dfrac{13}{20} = \\dfrac{65}{100} = 65\\%$。答案 C。</p>"
+        },
+        {
+          "id": "g5b_ch3_2_q12",
+          "number": 12,
+          "type": "single_choice",
+          "content": "<p>下列哪一個數<strong>最大</strong>？</p><p>A. $\\dfrac{3}{5}$</p><p>B. $0.55$</p><p>C. $65\\%$</p><p>D. $\\dfrac{1}{2}$</p>",
+          "answer": "C",
+          "explanation": "<p>全部換成小數比較：A. $\\dfrac{3}{5} = 0.6$；B. $0.55$；C. $65\\% = 0.65$；D. $\\dfrac{1}{2} = 0.5$。最大的是 $0.65$，即 <strong>C</strong>。要比較不同形式的數，<strong>統一單位</strong>（都換成小數或都換成百分率）最不易出錯。答案 C。</p>"
+        },
+        {
+          "id": "g5b_ch3_2_q13",
+          "number": 13,
+          "type": "single_choice",
+          "content": "<p>水瓶現價 $80$ 元，是原價打 $8$ 折後的售價。請問原價是多少？</p><p>A. $64$ 元</p><p>B. $96$ 元</p><p>C. $100$ 元</p><p>D. $120$ 元</p>",
+          "answer": "C",
+          "explanation": "<p>「基準量 $=$ 比較量 $\\div$ 比率」。打 $8$ 折表示售價 $=$ 原價 $\\times 0.8$，所以原價 $= 80 \\div 0.8 = 100$ 元。檢驗：$100 \\times 0.8 = 80$ ✓。<strong>逆推原價要用除法</strong>，不是 $80 \\times 0.8$。答案 C。</p>"
+        },
+        {
+          "id": "g5b_ch3_2_q14",
+          "number": 14,
+          "type": "single_choice",
+          "content": "<p>一杯糖水共 $200$ 克，其中糖佔 $15\\%$，這杯糖水裡有幾克糖？</p><p>A. $15$ 克</p><p>B. $20$ 克</p><p>C. $30$ 克</p><p>D. $50$ 克</p>",
+          "answer": "C",
+          "explanation": "<p>糖水總重 $200$ 克是<strong>基準量</strong>，糖佔 $15\\%$ 是比率，求糖的重量（比較量）。糖 $= 200 \\times 15\\% = 200 \\times 0.15 = 30$ 克。答案 C。</p>"
+        },
+        {
+          "id": "g5b_ch3_2_q15",
+          "number": 15,
+          "type": "single_choice",
+          "content": "<p>小華數學考 $90$ 分，是滿分的 $90\\%$。請問滿分是幾分？</p><p>A. $81$ 分</p><p>B. $99$ 分</p><p>C. $100$ 分</p><p>D. $120$ 分</p>",
+          "answer": "C",
+          "explanation": "<p>「基準量 $=$ 比較量 $\\div$ 比率」。$90$ 分是比較量，$90\\%$ 是比率，求滿分（基準量）：$90 \\div 0.9 = 100$ 分。檢驗：$100 \\times 0.9 = 90$ ✓。答案 C。</p>"
+        }
+      ]
+    }
+  ]
 }

@@ -1,5 +1,138 @@
 {
   "title": "小六上 3-1 基準量與比較量",
-  "summary": "<h1>小六上　基準量與比較量　教學重點</h1>\n\n    <!-- 知識點 1 -->\n    <h2>知識點 1：基準量、比較量與比的轉換</h2>\n\n    <h3>核心定義</h3>\n    <ul>\n      <li><strong>基準量</strong>：以它為標準、當作「1 份」的量 → 句子中「是…的」後面那個就是基準量</li>\n      <li><strong>比較量</strong>：用來跟基準量比較的量 → 句子中「是…的」前面那個</li>\n      <li><strong>比值</strong>：比較量 ÷ 基準量（=「幾倍」的那個數）</li>\n    </ul>\n    <p style=\"margin: 10px 0 4px;\">口訣：<strong>「A 是 B 的 ○ 倍」→ 後面的 B 是老大（基準量），前面的 A 是比較量</strong></p>\n\n    <h3>比、分數、除法三者對照</h3>\n    <table>\n      <thead>\n        <tr>\n          <th>寫法</th>\n          <th>前項 / 分子 / 被除數</th>\n          <th>後項 / 分母 / 除數</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td>比 <code>a : b</code></td>\n          <td>比較量</td>\n          <td>基準量</td>\n        </tr>\n        <tr>\n          <td>分數 <code>a/b</code></td>\n          <td>比較量</td>\n          <td>基準量</td>\n        </tr>\n        <tr>\n          <td>除法 <code>a ÷ b</code></td>\n          <td>比較量</td>\n          <td>基準量</td>\n        </tr>\n      </tbody>\n    </table>\n\n    <h3>關鍵轉換規則</h3>\n    <ul>\n      <li>「A 是 B 的 <code>m/n</code> 倍」 → <code>A : B = m : n</code>（前項當分子，後項當分母）</li>\n      <li>「A 是 B 的 <code>k</code> 倍」（k 是整數）→ <code>A : B = k : 1</code></li>\n      <li>反過來「B 是 A 的幾倍」→ 比顛倒：<code>B : A = n : m</code>，倍數變成 <code>n/m</code></li>\n      <li>A 是 B 的 <code>m/n</code> 倍 ⟺ B 是 A 的 <code>n/m</code> 倍（兩個比值<strong>互為倒數</strong>，相乘 = 1）</li>\n    </ul>\n\n    <h3>小數、百分率、成數轉分數（先換成分數比較好算）</h3>\n    <table>\n      <thead>\n        <tr>\n          <th>小數</th>\n          <th>分數</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr><td>0.2</td><td>⅕</td></tr>\n        <tr><td>0.25</td><td>¼</td></tr>\n        <tr><td>0.4</td><td>⅖</td></tr>\n        <tr><td>0.5</td><td>½</td></tr>\n        <tr><td>0.6</td><td>⅗</td></tr>\n        <tr><td>0.75</td><td>¾</td></tr>\n        <tr><td>0.8</td><td>⅘</td></tr>\n      </tbody>\n    </table>\n    <ul>\n      <li><strong>n 成</strong> = <code>n × 10%</code> = <code>0.n</code> 倍（例：兩成 = 20% = 0.2 倍；八成五 = 85% = 0.85 倍）</li>\n      <li><strong>百分率轉比</strong>：<code>a% : b%</code> 可以同乘 100 直接拿 <code>a : b</code> 來約</li>\n    </ul>\n\n    <h3>核心解題策略：寫比 → 化最簡整數比 → 線段圖每份多少</h3>\n    <ul>\n      <li>只要能寫出最簡整數比，看每人占幾份、總共幾份、相差幾份，再算「一份是多少」，所有問題（求和、求差、求單獨一個）都通殺。</li>\n      <li>不用背「和 ÷ (1 + 比)」、「差 ÷ (比 − 1)」這類公式。</li>\n    </ul>\n\n    <h3>範例計算</h3>\n    <ol>\n      <li>\n        <strong>爸爸體重是媽媽的 1.5 倍，兩人共 125 公斤，問各幾公斤？</strong>\n        <ul>\n          <li>1.5 倍 → 父 : 母 = <code>1.5 : 1 = 3 : 2</code></li>\n          <li>共 3 + 2 = 5 份 = 125 公斤 → 一份 = 25</li>\n          <li>爸爸 = 3 × 25 = <strong>75 公斤</strong>，媽媽 = 2 × 25 = <strong>50 公斤</strong></li>\n        </ul>\n      </li>\n      <li>\n        <strong>哥哥體重是妹妹的 2.6 倍，兩人相差 40 公斤，問各幾公斤？</strong>\n        <ul>\n          <li>哥 : 妹 = <code>2.6 : 1 = 26 : 10 = 13 : 5</code></li>\n          <li>相差 13 − 5 = 8 份 = 40 公斤 → 一份 = 5</li>\n          <li>哥 = 13 × 5 = <strong>65 公斤</strong>，妹 = 5 × 5 = <strong>25 公斤</strong></li>\n        </ul>\n      </li>\n      <li>\n        <strong>成本加兩成當定價，成本與定價的比值？</strong>\n        <ul>\n          <li>設成本 = 1 份 → 定價 = 1 + 0.2 = 1.2 份</li>\n          <li>成本 : 定價 = <code>1 : 1.2 = 10 : 12 = 5 : 6</code> → 比值 = <strong>⅚</strong></li>\n        </ul>\n      </li>\n      <li>\n        <strong>藍繩長度是「兩繩總長」的 9/17 倍，藍比紅多 70 公尺，求兩繩總長？</strong>\n        <ul>\n          <li>藍 : 全 = <code>9 : 17</code> → 紅占 17 − 9 = 8 份</li>\n          <li>藍 − 紅 = 9 − 8 = 1 份 = 70 公尺</li>\n          <li>總長 = 17 份 = 17 × 70 = <strong>1190 公尺</strong></li>\n        </ul>\n      </li>\n      <li>\n        <strong>傑克 300 元，魔豆的錢是傑克的 3⅓ 倍</strong>\n        <ul>\n          <li>帶分數先化假分數 = <code>10/3</code> 倍</li>\n          <li>魔 : 傑 = <code>10 : 3</code>，傑克 3 份 = 300 → 一份 100</li>\n          <li>魔豆 = 10 × 100 = <strong>1000</strong>，相差 = 7 × 100 = <strong>700</strong>，總和 = 13 × 100 = <strong>1300</strong></li>\n        </ul>\n      </li>\n    </ol>\n\n    <h3>常見考法／注意事項</h3>\n    <ul>\n      <li>帶分數先化假分數、小數先化分數，比較好抓比</li>\n      <li>「A 是 B 的 <code>k</code> 倍」中的 <code>k</code> <strong>沒有單位</strong>（k 是倍數、是比值），不要把後面當人數、重量</li>\n      <li>「兩個人」題型一定要分辨：問<strong>和</strong>、<strong>差</strong>、<strong>單獨一個</strong>、<strong>比值</strong>，份數套法不同</li>\n      <li>線段圖把每份畫出來，看清楚是「加幾份」「減幾份」「乘幾倍」</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 2 -->\n    <h2>知識點 2：基準量與比較量的應用問題</h2>\n\n    <h3>核心觀念</h3>\n    <ul>\n      <li>應用題千變萬化，<strong>萬法不離其宗</strong>：找出基準量與比較量的關係 → 寫成最簡整數比 → 線段圖找出「一份多少」→ 題目問什麼就用份數算什麼</li>\n      <li>不背「和 ÷ (1 + 倍數) = 基準量」「差 ÷ (倍數 − 1) = 基準量」這類公式，全部用「比 + 一份」處理</li>\n    </ul>\n\n    <h3>百分率（%）的基本觀念</h3>\n    <ul>\n      <li><strong>%</strong> = <code>1/100</code>，例：<code>20% = 20/100</code></li>\n      <li>全部 = <code>100%</code>；若一部分占 <code>a%</code>，另一部分（若只有兩類）= <code>(100 − a)%</code></li>\n      <li>「破損率 1.5%」「打八折 = 少 20% = 剩 80%」「加價 25%」都先翻成分數再做</li>\n    </ul>\n\n    <h3>「全部 = 自己 + 另一部分」型題目</h3>\n    <ul>\n      <li>當題目給「A 占全部的 <code>m/n</code>」「B 占全部的 <code>p/q</code>」：</li>\n      <li>若這兩部分<strong>就是全部</strong>（如男生、女生）→ <code>m/n + p/q = 1</code>，可直接相減</li>\n      <li>若<strong>不只這兩種</strong>（如漫畫書、美妝雜誌中還有其他書）→ 不能假設加起來等於全部，但兩部分都以<strong>同一個基準量（全部）</strong>為準，因此可直接拿來比：<code>A : B = (m/n) : (p/q)</code></li>\n    </ul>\n\n    <h3>A : B = 分數比的化簡技巧</h3>\n    <ul>\n      <li>同乘最小公倍數（如 <code>5/9 : 1/6</code> 同乘 18 → <code>10 : 3</code>）</li>\n      <li>或交叉相乘：<code>a/b : c/d → (a × d) : (b × c)</code></li>\n    </ul>\n\n    <h3>知道部分回求全部用除法（也可寫成乘以倒數）</h3>\n    <ul>\n      <li>例：某量是全部的 <code>1/6</code>，已知該量 = 390 → 全部 = <code>390 ÷ (1/6) = 390 × 6 = 2340</code></li>\n    </ul>\n\n    <h3>範例計算</h3>\n    <ol>\n      <li>\n        <strong>範例 9（兩數和、求差）</strong>：甲是乙的 <code>3/11</code> 倍，兩數和 = 224，求兩數差。\n        <ul>\n          <li>甲 : 乙 = <code>3 : 11</code>，共 3 + 11 = 14 份 = 224 → 一份 = 16</li>\n          <li>差 = 11 − 3 = 8 份 = 8 × 16 = <strong>128</strong></li>\n        </ul>\n      </li>\n      <li>\n        <strong>範例 10（破損率）</strong>：破損率 1.5%，全部 500 公斤，破損幾公斤？\n        <ul>\n          <li>破損 : 全部 = <code>1.5% : 100% = 1.5 : 100 = 3 : 200</code></li>\n          <li>破損 / 全部 = <code>3/200</code>，全部 500 → 破損 = <code>500 × 3/200</code> = <strong>7.5 公斤</strong></li>\n        </ul>\n      </li>\n      <li>\n        <strong>範例 11（分數比 + 和）</strong>：看課外讀物時間是畫畫的 <code>3/4</code> 倍，共花 5⅗ 小時，問畫畫花多少？\n        <ul>\n          <li>課 : 畫 = <code>3 : 4</code>，共 7 份 = 5⅗ = <code>28/5</code> 小時</li>\n          <li>一份 = <code>(28/5) ÷ 7 = 4/5</code> 小時</li>\n          <li>畫畫 = 4 × <code>4/5</code> = <code>16/5</code> = <strong>3⅕ 小時</strong></li>\n        </ul>\n      </li>\n      <li>\n        <strong>範例 12（差題型）</strong>：汽車價錢是重機的 2⅕ 倍 = <code>11/5</code> 倍，相差 408000 元，重機幾元？\n        <ul>\n          <li>汽 : 重 = <code>11 : 5</code>，差 11 − 5 = 6 份 = 408000 → 一份 = 68000</li>\n          <li>重機 = 5 × 68000 = <strong>340000 元</strong></li>\n        </ul>\n      </li>\n      <li>\n        <strong>範例 13（兩部分不是全部）</strong>：漫畫書占全部 <code>5/9</code>，美妝雜誌占全部 <code>1/6</code>，相差 910 本，求全部。\n        <ul>\n          <li>漫 : 美 = <code>5/9 : 1/6 = 10 : 3</code>（同乘 18，或交叉相乘 30 : 9 約 = 10 : 3）</li>\n          <li>相差 10 − 3 = 7 份 = 910 → 一份 = 130</li>\n          <li>美妝 = 3 × 130 = 390 本，且美妝是全部的 <code>1/6</code></li>\n          <li>全部 = <code>390 ÷ (1/6) = 390 × 6</code> = <strong>2340 本</strong></li>\n        </ul>\n      </li>\n      <li>\n        <strong>範例 14（成本加成）</strong>：售價 = 成本加 25%，每包獲利 250 元，求售價。\n        <ul>\n          <li>成 : 售 = <code>1 : (1 + 1/4) = 4 : 5</code>，差 = 5 − 4 = 1 份 = 250</li>\n          <li>售價 = 5 × 250 = <strong>1250 元</strong></li>\n          <li>注意：獲利 250 是<strong>成本</strong>的 25%，<code>250 ÷ 25% = 1000</code> 算出來是<strong>成本</strong>不是售價</li>\n        </ul>\n      </li>\n      <li>\n        <strong>範例 15（總和不變）</strong>：哥 2000、弟 1675，弟給哥多少後，哥變弟的 2.5 倍？\n        <ul>\n          <li><strong>重點：兩人總和不變</strong> = 2000 + 1675 = 3675</li>\n          <li>分配後 哥 : 弟 = <code>2.5 : 1 = 5 : 2</code>，共 7 份 = 3675 → 一份 = 525</li>\n          <li>分配後弟 = 2 × 525 = 1050</li>\n          <li>弟原本 2000，要變 1050 → 給哥 2000 − 1050 = <strong>950 元</strong></li>\n        </ul>\n      </li>\n      <li>\n        <strong>範例 16（兩極互補）</strong>：女生占全部 62%，男生比女生少 228 人，求男女各多少？\n        <ul>\n          <li>男占 <code>100% − 62% = 38%</code></li>\n          <li>男 : 女 = <code>38 : 62 = 19 : 31</code>，差 31 − 19 = 12 份 = 228 → 一份 = 19</li>\n          <li>男 = 19 × 19 = <strong>361 人</strong>，女 = 31 × 19 = <strong>589 人</strong></li>\n        </ul>\n      </li>\n    </ol>\n\n    <h3>常見考法／注意事項</h3>\n    <ul>\n      <li>看到「總和不變」「重新分配」題型（範例 15），先用分配後的比算出每人新數量，再跟原本相減得「誰給誰多少」</li>\n      <li>「成本加 <code>a%</code>」「打 <code>b</code> 折」「加價」「破損率」核心都一樣：寫出 成本 : 售價（或 部分 : 全部）的比再操作</li>\n      <li>「打 <code>n</code> 折」= 剩下 <code>10n%</code>，「打 8 折」= 售價變成原本 × 0.8 = 少 20%</li>\n      <li>「兩極互補」型題目（男/女、白天/黑夜、破損/完好）：兩部分加起來一定 = <code>100%</code>，給一邊就能算另一邊</li>\n      <li>帶分數一律先化假分數；小數能化分數就化分數（如 2.5 → <code>5/2</code>，運算快很多）</li>\n      <li>「知道部分回求全部」一律用除法（= 乘以倒數）</li>\n    </ul>\n\n    <hr>\n\n    <!-- 統整：解題萬用流程 -->\n    <div class=\"exam-section\">\n      <h2>統整：解題萬用流程</h2>\n      <ol>\n        <li>找出句子中的<strong>基準量</strong>（「是…的」後面）與<strong>比較量</strong>（前面）</li>\n        <li>把倍數寫成<strong>最簡整數比</strong> <code>A : B = m : n</code>（小數、帶分數、百分率先轉成分數）</li>\n        <li>畫<strong>線段圖</strong>，標出兩邊各幾份、相差幾份、總共幾份</li>\n        <li>用題目給的條件算出<strong>一份是多少</strong></li>\n        <li>題目問什麼（單獨、和、差、全部）就用對應份數 × 一份</li>\n      </ol>\n      <p style=\"margin-top: 12px;\"><strong>「一招打天下」</strong>—— 不用背公式，只要會寫比、會算一份。</p>\n    </div>",
-  "sections": []
+  "summary": "<ul><li><strong>基準量與比較量</strong>：句子「A 是 B 的 $\\dfrac{m}{n}$ 倍」中，<strong>後面</strong>的 B 是<strong>基準量</strong>（當作 $1$ 的標準），<strong>前面</strong>的 A 是<strong>比較量</strong>。基準量在「是 …… 的」後面。</li><li><strong>倍數公式</strong>：$\\dfrac{比較量}{基準量} = 倍數$。所以「比較量 $=$ 基準量 $\\times$ 倍數」、「基準量 $=$ 比較量 $\\div$ 倍數」。</li><li><strong>比、分數、除法對照</strong>：$A : B = \\dfrac{A}{B} = A \\div B$，前項／分子／被除數都是<strong>比較量</strong>，後項／分母／除數都是<strong>基準量</strong>。</li><li><strong>互為倒數</strong>：A 是 B 的 $\\dfrac{m}{n}$ 倍 $\\iff$ B 是 A 的 $\\dfrac{n}{m}$ 倍，兩個倍數相乘 $= 1$。換主角時倍數要顛倒。</li><li><strong>百分率與成數</strong>：$1\\\\% = \\dfrac{1}{100}$；「$n$ 成」$= n \\times 10\\\\%$。例 兩成 $= 20\\\\% = 0.2$ 倍；打八折 $=$ 剩 $80\\\\% = 0.8$ 倍。</li><li><strong>解題萬用流程</strong>：① 找基準量、比較量；② 寫成最簡整數比；③ 算出「<strong>一份</strong>是多少」；④ 題目問什麼（和、差、單一）就用對應份數乘上一份。</li></ul>",
+  "sections": [
+    {
+      "type": "true_false",
+      "name": "是非題",
+      "questions": [
+        {
+          "id": "g6a_ch3_1_q1",
+          "number": 1,
+          "type": "true_false",
+          "content": "<p>「哥哥的身高是弟弟的 $1.2$ 倍」這句話中，弟弟是基準量、哥哥是比較量。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。<strong>「是 …… 的」後面的是基準量</strong>，這裡「是<u>弟弟</u>的 $1.2$ 倍」，弟弟在後面，所以弟弟是基準量；哥哥則是被拿來比的比較量。哥哥的身高 $=$ 弟弟的身高 $\\times 1.2$。</p>"
+        },
+        {
+          "id": "g6a_ch3_1_q2",
+          "number": 2,
+          "type": "true_false",
+          "content": "<p>若 A 是 B 的 $\\dfrac{3}{4}$ 倍，則 B 是 A 的 $\\dfrac{4}{3}$ 倍。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。基準量與比較量<strong>對調時，倍數變成原來的倒數</strong>。$\\dfrac{3}{4}$ 的倒數是 $\\dfrac{4}{3}$，兩者相乘 $\\dfrac{3}{4} \\times \\dfrac{4}{3} = 1$。也可從公式驗證：$A = \\dfrac{3}{4}B \\Rightarrow B = \\dfrac{4}{3}A$。</p>"
+        },
+        {
+          "id": "g6a_ch3_1_q3",
+          "number": 3,
+          "type": "true_false",
+          "content": "<p>商品打八折，表示售價是原價的 $\\dfrac{8}{10}$ 倍。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。「打 $n$ 折」表示<strong>賣原價的 $\\dfrac{n}{10}$</strong>，八折就是 $\\dfrac{8}{10} = 0.8 = 80\\\\%$。例如原價 $500$ 元打八折 $= 500 \\times 0.8 = 400$ 元。</p>"
+        },
+        {
+          "id": "g6a_ch3_1_q4",
+          "number": 4,
+          "type": "true_false",
+          "content": "<p>已知某數的 $\\dfrac{2}{5}$ 是 $40$，那麼這個數是 $16$。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。已知<strong>比較量 $40$</strong> 與<strong>倍數 $\\dfrac{2}{5}$</strong>，要求<strong>基準量</strong>：基準量 $=$ 比較量 $\\div$ 倍數 $= 40 \\div \\dfrac{2}{5} = 40 \\times \\dfrac{5}{2} = 100$，不是 $16$。$16$ 是把比較量再乘倍數得到的錯誤答案。</p>"
+        },
+        {
+          "id": "g6a_ch3_1_q5",
+          "number": 5,
+          "type": "true_false",
+          "content": "<p>哥哥 $200$ 元，妹妹 $150$ 元，「妹妹是哥哥的 $\\dfrac{3}{4}$ 倍」這個說法是對的。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。妹妹是比較量、哥哥是基準量：$\\dfrac{比較量}{基準量} = \\dfrac{150}{200} = \\dfrac{3}{4}$。也就是「妹妹 $=$ 哥哥 $\\times \\dfrac{3}{4}$」$= 200 \\times \\dfrac{3}{4} = 150$ ✓。</p>"
+        }
+      ]
+    },
+    {
+      "type": "single_choice",
+      "name": "單選題",
+      "questions": [
+        {
+          "id": "g6a_ch3_1_q6",
+          "number": 6,
+          "type": "single_choice",
+          "content": "<p>「蘋果的重量是橘子的 $\\dfrac{5}{6}$ 倍」這句話中，下列敘述何者正確？</p><p>A. 蘋果是基準量</p><p>B. 橘子是基準量</p><p>C. $\\dfrac{5}{6}$ 是基準量</p><p>D. 蘋果比橘子重</p>",
+          "answer": "B",
+          "explanation": "<p>「是 …… 的」後面是基準量，這裡「是<u>橘子</u>的 $\\dfrac{5}{6}$ 倍」，所以<strong>橘子是基準量</strong>，蘋果是比較量。$\\dfrac{5}{6} < 1$ 表示蘋果比橘子<strong>輕</strong>，所以 D 也錯。答案 B。</p>"
+        },
+        {
+          "id": "g6a_ch3_1_q7",
+          "number": 7,
+          "type": "single_choice",
+          "content": "<p>已知 $\\dfrac{比較量}{基準量} = \\dfrac{3}{8}$，且基準量是 $240$，則比較量是多少？</p><p>A. $30$</p><p>B. $90$</p><p>C. $640$</p><p>D. $720$</p>",
+          "answer": "B",
+          "explanation": "<p>由公式：比較量 $=$ 基準量 $\\times$ 倍數 $= 240 \\times \\dfrac{3}{8} = \\dfrac{720}{8} = 90$。可以這樣想：基準量 $240$ 平分成 $8$ 份，每份 $30$，比較量是其中 $3$ 份 $= 90$。答案 B。</p>"
+        },
+        {
+          "id": "g6a_ch3_1_q8",
+          "number": 8,
+          "type": "single_choice",
+          "content": "<p>小明的身高是小華的 $\\dfrac{4}{5}$ 倍，小明 $144$ 公分，小華幾公分？</p><p>A. $115$ 公分</p><p>B. $148$ 公分</p><p>C. $180$ 公分</p><p>D. $720$ 公分</p>",
+          "answer": "C",
+          "explanation": "<p>小華是基準量、小明是比較量。<strong>基準量 $=$ 比較量 $\\div$ 倍數</strong>：$144 \\div \\dfrac{4}{5} = 144 \\times \\dfrac{5}{4} = 180$ 公分。驗算：$180 \\times \\dfrac{4}{5} = 144$ ✓。答案 C。</p>"
+        },
+        {
+          "id": "g6a_ch3_1_q9",
+          "number": 9,
+          "type": "single_choice",
+          "content": "<p>商品原價 $800$ 元，打七五折後售價多少元？</p><p>A. $560$ 元</p><p>B. $600$ 元</p><p>C. $620$ 元</p><p>D. $750$ 元</p>",
+          "answer": "B",
+          "explanation": "<p>打七五折 $=$ 賣原價的 $\\dfrac{75}{100} = 0.75$ 倍。售價 $= 800 \\times 0.75 = 600$ 元。也可拆：原價的 $\\dfrac{1}{4} = 200$ 元 $\\to$ 折掉 $200$ 元 $\\to$ 剩 $600$ 元。答案 B。</p>"
+        },
+        {
+          "id": "g6a_ch3_1_q10",
+          "number": 10,
+          "type": "single_choice",
+          "content": "<p>媽媽煮了一鍋飯，吃掉 $\\dfrac{3}{5}$ 後還剩 $400$ 公克，原來這鍋飯有多少公克？</p><p>A. $640$</p><p>B. $1000$</p><p>C. $800$</p><p>D. $250$</p>",
+          "answer": "B",
+          "explanation": "<p><strong>單位量還原</strong>。剩下的占全部的 $1 - \\dfrac{3}{5} = \\dfrac{2}{5}$，這 $\\dfrac{2}{5}$ 對應 $400$ 公克。全部 $=$ 剩餘量 $\\div$ 剩餘占比 $= 400 \\div \\dfrac{2}{5} = 400 \\times \\dfrac{5}{2} = 1000$ 公克。答案 B。</p>"
+        },
+        {
+          "id": "g6a_ch3_1_q11",
+          "number": 11,
+          "type": "single_choice",
+          "content": "<p>爸爸體重是媽媽的 $1.5$ 倍，兩人共 $125$ 公斤，爸爸多少公斤？</p><p>A. $50$ 公斤</p><p>B. $62.5$ 公斤</p><p>C. $75$ 公斤</p><p>D. $90$ 公斤</p>",
+          "answer": "C",
+          "explanation": "<p>把倍數寫成比：爸 : 媽 $= 1.5 : 1 = 3 : 2$。兩人共 $3 + 2 = 5$ 份 $= 125$ 公斤，<strong>一份 $= 25$ 公斤</strong>。爸爸 $= 3 \\times 25 = 75$ 公斤、媽媽 $= 2 \\times 25 = 50$ 公斤。答案 C。</p>"
+        },
+        {
+          "id": "g6a_ch3_1_q12",
+          "number": 12,
+          "type": "single_choice",
+          "content": "<p>哥哥的錢是弟弟的 $2.6$ 倍，兩人相差 $400$ 元，弟弟有多少錢？</p><p>A. $200$ 元</p><p>B. $250$ 元</p><p>C. $500$ 元</p><p>D. $650$ 元</p>",
+          "answer": "B",
+          "explanation": "<p>哥 : 弟 $= 2.6 : 1 = 26 : 10 = 13 : 5$。相差 $13 - 5 = 8$ 份 $= 400$ 元，<strong>一份 $= 50$ 元</strong>。弟弟 $= 5 \\times 50 = 250$ 元，哥哥 $= 13 \\times 50 = 650$ 元。答案 B。</p>"
+        },
+        {
+          "id": "g6a_ch3_1_q13",
+          "number": 13,
+          "type": "single_choice",
+          "content": "<p>商品成本 $400$ 元，老闆想要賺成本的 $25\\\\%$，售價應該訂多少？</p><p>A. $425$ 元</p><p>B. $500$ 元</p><p>C. $480$ 元</p><p>D. $600$ 元</p>",
+          "answer": "B",
+          "explanation": "<p>$25\\\\% = \\dfrac{1}{4}$，獲利 $= 400 \\times \\dfrac{1}{4} = 100$ 元。售價 $=$ 成本 $+$ 獲利 $= 400 + 100 = 500$ 元。也可直接算：售價 $=$ 成本 $\\times (1 + 25\\\\%) = 400 \\times 1.25 = 500$ 元。答案 B。</p>"
+        },
+        {
+          "id": "g6a_ch3_1_q14",
+          "number": 14,
+          "type": "single_choice",
+          "content": "<p>某校學生中，女生占全校的 $62\\\\%$，男生比女生少 $228$ 人，全校共多少人？</p><p>A. $700$ 人</p><p>B. $850$ 人</p><p>C. $950$ 人</p><p>D. $1000$ 人</p>",
+          "answer": "C",
+          "explanation": "<p>男生占 $100\\\\% - 62\\\\% = 38\\\\%$。男 : 女 $= 38 : 62 = 19 : 31$，差 $31 - 19 = 12$ 份 $= 228$ 人，<strong>一份 $= 19$ 人</strong>。全校 $= 19 + 31 = 50$ 份 $= 50 \\times 19 = 950$ 人。答案 C。</p>"
+        },
+        {
+          "id": "g6a_ch3_1_q15",
+          "number": 15,
+          "type": "single_choice",
+          "content": "<p>圖書館裡漫畫占全部書的 $\\dfrac{5}{9}$，故事書占全部的 $\\dfrac{1}{6}$，漫畫比故事書多 $910$ 本，全部書共幾本？</p><p>A. $1170$ 本</p><p>B. $1820$ 本</p><p>C. $2340$ 本</p><p>D. $3000$ 本</p>",
+          "answer": "C",
+          "explanation": "<p>兩部分都以「全部」為基準，比值 $=$ 漫 : 故 $= \\dfrac{5}{9} : \\dfrac{1}{6}$，同乘 $18$（$9$ 與 $6$ 的最小公倍數）得 $10 : 3$。差 $10 - 3 = 7$ 份 $= 910$，<strong>一份 $= 130$</strong>。故事書 $= 3 \\times 130 = 390$ 本，占全部的 $\\dfrac{1}{6}$，所以全部 $= 390 \\div \\dfrac{1}{6} = 390 \\times 6 = 2340$ 本。答案 C。</p>"
+        }
+      ]
+    }
+  ]
 }

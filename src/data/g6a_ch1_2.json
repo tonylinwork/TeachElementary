@@ -1,5 +1,138 @@
 {
   "title": "小六上 1-2 分數的除法",
-  "summary": "<h1>小六 — 分數的除法　教學重點</h1>\n\n    <!-- 知識點 1 -->\n    <h2>知識點 1：分數除法的基本概念（複習與深化）</h2>\n\n    <h3>核心定理／公式</h3>\n    <ul>\n      <li><strong>整數 ÷ 分數</strong>：<code>a ÷ (c/b) = a × (b/c)</code>\n        <ul><li>例：<code>6 ÷ (2/3) = 6 × (3/2) = 9</code></li></ul>\n      </li>\n      <li><strong>分數 ÷ 整數</strong>：<code>(a/b) ÷ c = (a/b) × (1/c) = a / (b×c)</code>\n        <ul><li>例：<code>(4/5) ÷ 2 = 4/10 = 2/5</code></li></ul>\n      </li>\n      <li><strong>分數 ÷ 分數</strong>：<code>(a/b) ÷ (c/d) = (a/b) × (d/c) = (a×d)/(b×c)</code>\n        <ul><li>例：<code>(3/4) ÷ (2/5) = (3/4) × (5/2) = 15/8</code></li></ul>\n      </li>\n    </ul>\n\n    <h3>口訣</h3>\n    <ul>\n      <li><strong>「除以一個數，等於乘以它的倒數」</strong></li>\n      <li>倒數：將分子與分母對調；整數 <code>n</code> 的倒數是 <code>1/n</code></li>\n    </ul>\n\n    <h3>為什麼可以「顛倒相乘」？（證明思路）</h3>\n    <ul>\n      <li>把除法寫成分數形式：<code>(a/b) ÷ (c/d) = (a/b) / (c/d)</code></li>\n      <li>分子分母同乘 <code>(d/c)</code>：<code>= [(a/b) × (d/c)] / [(c/d) × (d/c)] = (a/b) × (d/c) / 1</code></li>\n      <li>因為 <code>(c/d) × (d/c) = 1</code>，所以化簡後就是「乘以倒數」</li>\n    </ul>\n\n    <h3>常見考法／注意事項</h3>\n    <ul>\n      <li>倒數方向要對：是把「除數」翻過來，<strong>不是被除數</strong></li>\n      <li>整數要先當成「分母 1」再翻：例 <code>3 = 3/1</code>，倒數是 <code>1/3</code></li>\n      <li><strong>0 沒有倒數</strong>（除數不能為 0）</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 2 -->\n    <h2>知識點 2：帶分數的除法</h2>\n\n    <h3>核心定理／公式</h3>\n    <ul>\n      <li>帶分數除法<strong>必須先化成假分數</strong>，再用「乘以倒數」法則</li>\n      <li>帶分數 → 假分數：<code>整數 × 分母 + 分子</code>，分母不變\n        <ul><li>例：<code>2 又 1/3 = (2×3+1)/3 = 7/3</code></li></ul>\n      </li>\n    </ul>\n\n    <h3>運算步驟</h3>\n    <ol>\n      <li>將所有帶分數化為假分數</li>\n      <li>將除號改為乘號，除數翻成倒數</li>\n      <li>約分後相乘</li>\n      <li>必要時將假分數還原為帶分數</li>\n    </ol>\n\n    <h3>範例</h3>\n    <ul>\n      <li><code>2 又 1/2 ÷ 1 又 1/4</code>\n        <ul>\n          <li>= <code>5/2 ÷ 5/4</code></li>\n          <li>= <code>5/2 × 4/5</code></li>\n          <li>= <code>20/10 = 2</code></li>\n        </ul>\n      </li>\n    </ul>\n\n    <h3>常見考法／注意事項</h3>\n    <ul>\n      <li><strong>不可以</strong>直接把帶分數的整數部分跟分數部分分開除</li>\n      <li>化假分數後要記得約分，避免最後數字太大</li>\n      <li>答案若大於 1，看題目情境決定要不要還原成帶分數</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 3 -->\n    <h2>知識點 3：分數連除</h2>\n\n    <h3>核心定理／公式</h3>\n    <ul>\n      <li>連除：<code>a ÷ b ÷ c = a × (1/b) × (1/c)</code></li>\n      <li><strong>每一個除數都要翻成倒數</strong>，再依序相乘</li>\n      <li>等同於：<code>a / (b × c)</code></li>\n    </ul>\n\n    <h3>範例</h3>\n    <ul>\n      <li><code>(3/4) ÷ (1/2) ÷ (3/5)</code>\n        <ul>\n          <li>= <code>(3/4) × (2/1) × (5/3)</code></li>\n          <li>= <code>(3 × 2 × 5) / (4 × 1 × 3)</code></li>\n          <li>= <code>30/12 = 5/2 = 2 又 1/2</code></li>\n        </ul>\n      </li>\n    </ul>\n\n    <h3>運算順序原則</h3>\n    <ul>\n      <li>加減乘除<strong>由左至右</strong>依序計算</li>\n      <li>有括號時先算括號</li>\n      <li>連除中只有「除數」要翻倒數，<strong>被除數不翻</strong></li>\n    </ul>\n\n    <h3>常見考法／注意事項</h3>\n    <ul>\n      <li>錯誤常見：把整串數字全翻倒數（只翻除號後面的）</li>\n      <li>連除不可亂用結合律：<code>a ÷ (b ÷ c) ≠ a ÷ b ÷ c</code>\n        <ul>\n          <li>例：<code>12 ÷ (6 ÷ 2) = 12 ÷ 3 = 4</code></li>\n          <li>但 <code>12 ÷ 6 ÷ 2 = 2 ÷ 2 = 1</code></li>\n        </ul>\n      </li>\n      <li>翻完倒數後變成連乘，這時可以自由交換、約分</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 4 -->\n    <h2>知識點 4：分數與小數的混合除法</h2>\n\n    <h3>核心定理／公式</h3>\n    <ul>\n      <li>混合運算時，<strong>統一化為分數</strong>比較好計算</li>\n      <li>小數 → 分數：看小數點後幾位，分母放 10、100、1000…… 再化簡\n        <ul>\n          <li><code>0.5 = 5/10 = 1/2</code></li>\n          <li><code>0.25 = 25/100 = 1/4</code></li>\n          <li><code>0.6 = 6/10 = 3/5</code></li>\n        </ul>\n      </li>\n    </ul>\n\n    <h3>範例</h3>\n    <ul>\n      <li><code>0.75 ÷ (2/3)</code>\n        <ul>\n          <li>= <code>75/100 ÷ 2/3</code></li>\n          <li>= <code>3/4 × 3/2</code></li>\n          <li>= <code>9/8 = 1 又 1/8</code></li>\n        </ul>\n      </li>\n    </ul>\n\n    <h3>常用小數 ↔ 分數對照</h3>\n    <table>\n      <thead>\n        <tr>\n          <th>小數</th>\n          <th>分數</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr><td>0.1</td><td>1/10</td></tr>\n        <tr><td>0.2</td><td>1/5</td></tr>\n        <tr><td>0.25</td><td>1/4</td></tr>\n        <tr><td>0.5</td><td>1/2</td></tr>\n        <tr><td>0.75</td><td>3/4</td></tr>\n        <tr><td>0.125</td><td>1/8</td></tr>\n      </tbody>\n    </table>\n\n    <h3>常見考法／注意事項</h3>\n    <ul>\n      <li>循環小數或不易化分數的小數，題目通常會避開（國小階段）</li>\n      <li>答案可以用分數或小數呈現，看題目要求</li>\n      <li>換算時記得約分到最簡</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 5 -->\n    <h2>知識點 5：單位量還原問題</h2>\n\n    <h3>核心概念</h3>\n    <ul>\n      <li>已知「部分量」對應「部分比率（分數）」，要求「全部量（單位量）」</li>\n      <li>解法：<strong>部分量 ÷ 該部分占的分數 = 全部量</strong></li>\n      <li>數學意義：<code>÷ (a/b)</code> 等同 <code>× (b/a)</code>，把比率還原回 1（整體）</li>\n    </ul>\n\n    <h3>思考流程</h3>\n    <ol>\n      <li>找出「已知量」對應的分數（占全部的幾分之幾）</li>\n      <li>用「已知量 ÷ 該分數」即得全部量</li>\n      <li>再用全部量 × 其他分數，可求其他部分</li>\n    </ol>\n\n    <h3>範例 1（基本）</h3>\n    <ul>\n      <li>一條繩子用掉 <code>3/5</code>，剩下 12 公尺，原來繩子多長？\n        <ul>\n          <li>剩下占全部的 <code>1 − 3/5 = 2/5</code></li>\n          <li>原長 = <code>12 ÷ (2/5) = 12 × 5/2 = 30</code> 公尺</li>\n        </ul>\n      </li>\n    </ul>\n\n    <h3>範例 2（兩層還原）</h3>\n    <ul>\n      <li>妹妹的錢是哥哥的 <code>2/3</code>，哥哥的錢是爸爸的 <code>1/4</code>，妹妹有 80 元，爸爸有多少錢？\n        <ul>\n          <li>哥哥 = <code>80 ÷ (2/3) = 120</code> 元</li>\n          <li>爸爸 = <code>120 ÷ (1/4) = 480</code> 元</li>\n        </ul>\n      </li>\n    </ul>\n\n    <h3>常見考法／注意事項</h3>\n    <ul>\n      <li>「剩下 / 用掉 / 賣出」題型：先算剩下或用掉占全部的幾分之幾</li>\n      <li>看到「比……多 <code>1/5</code>」、「比……少 <code>1/4</code>」：把基準量當 1，多的就是 <code>1 + 1/5</code>、少的就是 <code>1 − 1/4</code></li>\n      <li><strong>單位量還原核心</strong>：除以小於 1 的分數，結果一定<strong>變大</strong>（與整數除法直覺相反）</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 6 -->\n    <h2>知識點 6：分數除法的應用題</h2>\n\n    <h3>常見應用情境</h3>\n    <ul>\n      <li><strong>平均分配</strong>：總量 ÷ 份數 = 每份量\n        <ul><li>例：<code>3/4</code> 公升的果汁平分給 5 人，每人 <code>(3/4) ÷ 5 = 3/20</code> 公升</li></ul>\n      </li>\n      <li><strong>單價計算</strong>：總價 ÷ 數量 = 單價\n        <ul><li>例：<code>2/3</code> 公斤的糖賣 60 元，每公斤 <code>60 ÷ (2/3) = 90</code> 元</li></ul>\n      </li>\n      <li><strong>面積／長度問題</strong>：面積 ÷ 一邊 = 另一邊\n        <ul><li>例：長方形面積 <code>5/6</code> 平方公尺，寬 <code>2/3</code> 公尺，長為 <code>(5/6) ÷ (2/3) = 5/4</code> 公尺</li></ul>\n      </li>\n      <li><strong>倍數比較</strong>：A 是 B 的幾倍 = A ÷ B\n        <ul><li>例：<code>3/4</code> 是 <code>1/2</code> 的幾倍？ → <code>(3/4) ÷ (1/2) = 3/2</code> 倍</li></ul>\n      </li>\n      <li><strong>剩餘量推算</strong>：用掉部分後算剩餘對應的實際量\n        <ul><li>例：水桶倒掉 <code>1/3</code> 後還剩 6 公升，原本 <code>6 ÷ (2/3) = 9</code> 公升</li></ul>\n      </li>\n    </ul>\n\n    <h3>列式思考訣竅</h3>\n    <ul>\n      <li>看到「幾倍」、「幾分之幾」：除法</li>\n      <li>看到「每……」、「平均」：除法</li>\n      <li>看到「占全部的 <code>a/b</code>，已知部分量」：用部分量除以 <code>a/b</code></li>\n    </ul>\n\n    <hr>\n\n    <!-- 常見題型 -->\n    <div class=\"exam-section\">\n      <h2>常見題型</h2>\n      <ol>\n        <li><strong>基本分數除法計算</strong>：直接用「乘以倒數」法則，記得最後約分到最簡分數。</li>\n        <li><strong>帶分數除法</strong>：先化成假分數再翻倒數，<strong>不可</strong>直接拆分計算。</li>\n        <li><strong>分數連除</strong>：每個除數都要翻倒數，注意運算順序（由左至右），不可亂加括號。</li>\n        <li><strong>小數分數混合</strong>：將小數化為分數後再計算，最後依題意決定用分數或小數表示。</li>\n        <li><strong>單位量還原</strong>：已知部分量與占比，部分量 ÷ 占比 = 全體量；答案會比已知量大。</li>\n        <li><strong>面積／長度反推</strong>：已知面積與一邊求另一邊；已知體積與底面積求高，都用除法。</li>\n        <li><strong>倍數比較題</strong>：A 是 B 的幾倍 → <code>A ÷ B</code>；可能得分數倍（小於 1 表示 A 比 B 小）。</li>\n        <li><strong>剩餘量推算</strong>：先判斷剩餘部分占全體的幾分之幾，再用「剩餘量 ÷ 剩餘占比」求原量。</li>\n      </ol>\n    </div>\n\n    <!-- 易錯點 -->\n    <h2>易錯點整理</h2>\n\n    <h3>運算層面</h3>\n    <ul>\n      <li>❌ 把被除數也翻倒數</li>\n      <li>❌ 帶分數不化假分數就直接拆開算</li>\n      <li>❌ 連除時所有數都翻倒數</li>\n      <li>❌ 把 <code>a ÷ b ÷ c</code> 錯算成 <code>a ÷ (b ÷ c)</code></li>\n    </ul>\n\n    <h3>單位層面</h3>\n    <ul>\n      <li>❌ 公斤、公升、公尺等單位忘記跟著結果寫</li>\n      <li>❌ 速率題型搞錯「每單位時間走多少」還是「走 1 公尺要多少時間」（兩者互為倒數）</li>\n    </ul>\n\n    <h3>判斷層面</h3>\n    <ul>\n      <li>❌ 看到「除以分數」直覺認為結果會變小（實際上除以小於 1 的分數會<strong>變大</strong>）</li>\n      <li>❌ 應用題列式時搞反被除數與除數（「A 是 B 的幾倍」→ <code>A ÷ B</code>，不是 <code>B ÷ A</code>）</li>\n    </ul>\n\n    <hr>\n\n    <!-- 教材來源 -->\n    <h2>💡 教材來源說明</h2>\n    <ul>\n      <li>本章依台灣國小數學標準課綱整理，無對應影片逐字稿。</li>\n    </ul>",
-  "sections": []
+  "summary": "<ul><li><strong>除以分數＝乘以倒數</strong>：$\\dfrac{a}{b} \\div \\dfrac{c}{d} = \\dfrac{a}{b} \\times \\dfrac{d}{c}$。原因是分數 $\\dfrac{c}{d}$ 的倒數是 $\\dfrac{d}{c}$，兩者相乘等於 $1$，所以「÷ $\\dfrac{c}{d}$」與「× $\\dfrac{d}{c}$」結果相同。</li><li><strong>倒數的定義</strong>：兩數相乘等於 $1$ 時互為倒數。整數 $n$ 的倒數是 $\\dfrac{1}{n}$（要先寫成 $\\dfrac{n}{1}$ 再翻）；$0$ 沒有倒數。</li><li><strong>整數除以分數</strong>：$a \\div \\dfrac{c}{d} = a \\times \\dfrac{d}{c}$。例 $6 \\div \\dfrac{2}{3} = 6 \\times \\dfrac{3}{2} = 9$，要先把整數想成 $\\dfrac{6}{1}$。</li><li><strong>分數除以整數</strong>：$\\dfrac{a}{b} \\div c = \\dfrac{a}{b} \\times \\dfrac{1}{c} = \\dfrac{a}{b \\times c}$。例 $\\dfrac{4}{5} \\div 2 = \\dfrac{4}{10} = \\dfrac{2}{5}$。</li><li><strong>帶分數除法</strong>：一定要<strong>先把帶分數化成假分數</strong>，再翻倒數。例 $2\\dfrac{1}{2} \\div 1\\dfrac{1}{4} = \\dfrac{5}{2} \\div \\dfrac{5}{4} = \\dfrac{5}{2} \\times \\dfrac{4}{5} = 2$。不可以把整數與分數部分分開來除。</li><li><strong>單位量還原</strong>：知道部分量與占比，求全部量 → <strong>部分量 $\\div$ 占比 $=$ 全部量</strong>。因為除以小於 $1$ 的分數結果會<strong>變大</strong>。</li></ul>",
+  "sections": [
+    {
+      "type": "true_false",
+      "name": "是非題",
+      "questions": [
+        {
+          "id": "g6a_ch1_2_q1",
+          "number": 1,
+          "type": "true_false",
+          "content": "<p>計算 $\\dfrac{3}{4} \\div \\dfrac{2}{5}$ 時，可以改寫成 $\\dfrac{3}{4} \\times \\dfrac{5}{2}$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。<strong>除以一個分數等於乘以它的倒數</strong>，所以把除號改成乘號，後面那個分數 $\\dfrac{2}{5}$ 翻成倒數 $\\dfrac{5}{2}$，得 $\\dfrac{3}{4} \\times \\dfrac{5}{2} = \\dfrac{15}{8}$。</p>"
+        },
+        {
+          "id": "g6a_ch1_2_q2",
+          "number": 2,
+          "type": "true_false",
+          "content": "<p>$0$ 也有倒數，$0$ 的倒數是 $0$。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。倒數的定義是「兩數相乘等於 $1$」，但任何數乘以 $0$ 都等於 $0$，不可能得到 $1$，所以 <strong>$0$ 沒有倒數</strong>。這也是為什麼除數不能為 $0$。</p>"
+        },
+        {
+          "id": "g6a_ch1_2_q3",
+          "number": 3,
+          "type": "true_false",
+          "content": "<p>計算帶分數除法時，可以直接把整數部分與分數部分分開來除。例如 $2\\dfrac{1}{2} \\div 1\\dfrac{1}{4} = (2 \\div 1) + (\\dfrac{1}{2} \\div \\dfrac{1}{4}) = 2 + 2 = 4$。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。帶分數除法<strong>必須先化成假分數</strong>，再用「乘以倒數」。正確算法：$2\\dfrac{1}{2} \\div 1\\dfrac{1}{4} = \\dfrac{5}{2} \\div \\dfrac{5}{4} = \\dfrac{5}{2} \\times \\dfrac{4}{5} = 2$，答案是 $2$ 不是 $4$。</p>"
+        },
+        {
+          "id": "g6a_ch1_2_q4",
+          "number": 4,
+          "type": "true_false",
+          "content": "<p>一個正數除以小於 $1$ 的分數，結果一定比原來的數還大。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。除以小於 $1$ 的分數，等於乘以大於 $1$ 的倒數，所以結果會<strong>變大</strong>。例如 $6 \\div \\dfrac{2}{3} = 6 \\times \\dfrac{3}{2} = 9 > 6$。這與整數除法直覺相反，要特別記得。</p>"
+        },
+        {
+          "id": "g6a_ch1_2_q5",
+          "number": 5,
+          "type": "true_false",
+          "content": "<p>$\\dfrac{4}{5} \\div 2 = \\dfrac{2}{5}$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。<strong>分數除以整數</strong>：$\\dfrac{4}{5} \\div 2 = \\dfrac{4}{5} \\times \\dfrac{1}{2} = \\dfrac{4}{10} = \\dfrac{2}{5}$。也可以想成把 $\\dfrac{4}{5}$ 平分成 $2$ 份，每份是 $\\dfrac{2}{5}$。</p>"
+        }
+      ]
+    },
+    {
+      "type": "single_choice",
+      "name": "單選題",
+      "questions": [
+        {
+          "id": "g6a_ch1_2_q6",
+          "number": 6,
+          "type": "single_choice",
+          "content": "<p>計算 $\\dfrac{3}{4} \\div \\dfrac{2}{5} = ?$</p><p>A. $\\dfrac{6}{20}$</p><p>B. $\\dfrac{15}{8}$</p><p>C. $\\dfrac{8}{15}$</p><p>D. $\\dfrac{3}{10}$</p>",
+          "answer": "B",
+          "explanation": "<p>除以分數要乘以倒數：$\\dfrac{3}{4} \\div \\dfrac{2}{5} = \\dfrac{3}{4} \\times \\dfrac{5}{2} = \\dfrac{3 \\times 5}{4 \\times 2} = \\dfrac{15}{8}$。注意只翻<strong>除數</strong>（後面那個），不翻被除數。答案 B。</p>"
+        },
+        {
+          "id": "g6a_ch1_2_q7",
+          "number": 7,
+          "type": "single_choice",
+          "content": "<p>$6 \\div \\dfrac{2}{3} = ?$</p><p>A. $4$</p><p>B. $9$</p><p>C. $\\dfrac{1}{4}$</p><p>D. $\\dfrac{4}{9}$</p>",
+          "answer": "B",
+          "explanation": "<p>把整數想成 $\\dfrac{6}{1}$，除以分數等於乘以倒數：$6 \\div \\dfrac{2}{3} = 6 \\times \\dfrac{3}{2} = \\dfrac{18}{2} = 9$。意思是「$6$ 裡面有幾個 $\\dfrac{2}{3}$」，答案是 $9$ 個。答案 B。</p>"
+        },
+        {
+          "id": "g6a_ch1_2_q8",
+          "number": 8,
+          "type": "single_choice",
+          "content": "<p>$2\\dfrac{1}{3} \\div 1\\dfrac{2}{5} = ?$</p><p>A. $\\dfrac{5}{3}$</p><p>B. $\\dfrac{3}{5}$</p><p>C. $2\\dfrac{2}{15}$</p><p>D. $\\dfrac{49}{15}$</p>",
+          "answer": "A",
+          "explanation": "<p>第一步<strong>化假分數</strong>：$2\\dfrac{1}{3} = \\dfrac{7}{3}$，$1\\dfrac{2}{5} = \\dfrac{7}{5}$。第二步乘以倒數：$\\dfrac{7}{3} \\div \\dfrac{7}{5} = \\dfrac{7}{3} \\times \\dfrac{5}{7} = \\dfrac{35}{21} = \\dfrac{5}{3}$。約分時 $7$ 上下可消。答案 A。</p>"
+        },
+        {
+          "id": "g6a_ch1_2_q9",
+          "number": 9,
+          "type": "single_choice",
+          "content": "<p>下列哪一組數互為倒數？</p><p>A. $\\dfrac{2}{5}$ 與 $\\dfrac{5}{2}$</p><p>B. $\\dfrac{1}{3}$ 與 $\\dfrac{3}{1}$</p><p>C. $4$ 與 $\\dfrac{1}{4}$</p><p>D. 以上皆是</p>",
+          "answer": "D",
+          "explanation": "<p>倒數的判斷：兩數相乘等於 $1$。A：$\\dfrac{2}{5} \\times \\dfrac{5}{2} = 1$ ✓；B：$\\dfrac{1}{3} \\times 3 = 1$ ✓；C：$4 \\times \\dfrac{1}{4} = 1$ ✓。三組都互為倒數，答案 D。整數 $n$ 的倒數就是 $\\dfrac{1}{n}$。</p>"
+        },
+        {
+          "id": "g6a_ch1_2_q10",
+          "number": 10,
+          "type": "single_choice",
+          "content": "<p>一條繩子長 $\\dfrac{6}{7}$ 公尺，要剪成每段 $\\dfrac{2}{7}$ 公尺，可以剪成幾段？</p><p>A. $\\dfrac{12}{49}$ 段</p><p>B. $\\dfrac{1}{3}$ 段</p><p>C. $3$ 段</p><p>D. $4$ 段</p>",
+          "answer": "C",
+          "explanation": "<p>「總長 $\\div$ 每段長 $=$ 段數」：$\\dfrac{6}{7} \\div \\dfrac{2}{7} = \\dfrac{6}{7} \\times \\dfrac{7}{2} = \\dfrac{6}{2} = 3$ 段。也可以想成「$\\dfrac{6}{7}$ 裡面有幾個 $\\dfrac{2}{7}$」，分子 $6$ 裡面有 $3$ 個 $2$。答案 C。</p>"
+        },
+        {
+          "id": "g6a_ch1_2_q11",
+          "number": 11,
+          "type": "single_choice",
+          "content": "<p>$\\dfrac{5}{6}$ 是 $\\dfrac{1}{3}$ 的幾倍？</p><p>A. $\\dfrac{5}{18}$ 倍</p><p>B. $\\dfrac{1}{2}$ 倍</p><p>C. $\\dfrac{2}{5}$ 倍</p><p>D. $\\dfrac{5}{2}$ 倍</p>",
+          "answer": "D",
+          "explanation": "<p>「A 是 B 的幾倍」要列式為 $A \\div B$（A 在前）：$\\dfrac{5}{6} \\div \\dfrac{1}{3} = \\dfrac{5}{6} \\times \\dfrac{3}{1} = \\dfrac{15}{6} = \\dfrac{5}{2}$ 倍。$\\dfrac{5}{2} > 1$ 表示 $\\dfrac{5}{6}$ 比 $\\dfrac{1}{3}$ 大。答案 D。</p>"
+        },
+        {
+          "id": "g6a_ch1_2_q12",
+          "number": 12,
+          "type": "single_choice",
+          "content": "<p>一塊長方形菜園面積為 $\\dfrac{5}{6}$ 平方公尺，寬是 $\\dfrac{2}{3}$ 公尺，長是多少公尺？</p><p>A. $\\dfrac{5}{9}$ 公尺</p><p>B. $\\dfrac{4}{5}$ 公尺</p><p>C. $\\dfrac{5}{4}$ 公尺</p><p>D. $\\dfrac{9}{5}$ 公尺</p>",
+          "answer": "C",
+          "explanation": "<p>長方形面積 $=$ 長 $\\times$ 寬，所以「長 $=$ 面積 $\\div$ 寬」：$\\dfrac{5}{6} \\div \\dfrac{2}{3} = \\dfrac{5}{6} \\times \\dfrac{3}{2} = \\dfrac{15}{12} = \\dfrac{5}{4}$ 公尺。記得驗算：$\\dfrac{5}{4} \\times \\dfrac{2}{3} = \\dfrac{10}{12} = \\dfrac{5}{6}$ ✓。答案 C。</p>"
+        },
+        {
+          "id": "g6a_ch1_2_q13",
+          "number": 13,
+          "type": "single_choice",
+          "content": "<p>一條繩子用掉 $\\dfrac{3}{5}$ 後，還剩 $12$ 公尺，原來繩子有多長？</p><p>A. $20$ 公尺</p><p>B. $24$ 公尺</p><p>C. $30$ 公尺</p><p>D. $36$ 公尺</p>",
+          "answer": "C",
+          "explanation": "<p><strong>單位量還原</strong>。先算剩下占全部的幾分之幾：$1 - \\dfrac{3}{5} = \\dfrac{2}{5}$。即 $\\dfrac{2}{5}$ 對應 $12$ 公尺，求全部用「剩餘量 $\\div$ 剩餘占比」：$12 \\div \\dfrac{2}{5} = 12 \\times \\dfrac{5}{2} = 30$ 公尺。答案 C。</p>"
+        },
+        {
+          "id": "g6a_ch1_2_q14",
+          "number": 14,
+          "type": "single_choice",
+          "content": "<p>計算 $\\dfrac{3}{4} \\div \\dfrac{1}{2} \\div \\dfrac{3}{5} = ?$</p><p>A. $\\dfrac{9}{40}$</p><p>B. $\\dfrac{5}{2}$</p><p>C. $\\dfrac{2}{5}$</p><p>D. $\\dfrac{8}{15}$</p>",
+          "answer": "B",
+          "explanation": "<p>連除時<strong>每個除數都要翻倒數</strong>（被除數不翻）：$\\dfrac{3}{4} \\div \\dfrac{1}{2} \\div \\dfrac{3}{5} = \\dfrac{3}{4} \\times \\dfrac{2}{1} \\times \\dfrac{5}{3} = \\dfrac{3 \\times 2 \\times 5}{4 \\times 1 \\times 3} = \\dfrac{30}{12} = \\dfrac{5}{2}$。答案 B。</p>"
+        },
+        {
+          "id": "g6a_ch1_2_q15",
+          "number": 15,
+          "type": "single_choice",
+          "content": "<p>$\\dfrac{2}{3}$ 公斤的糖果賣 $60$ 元，這種糖果每公斤多少元？</p><p>A. $40$ 元</p><p>B. $80$ 元</p><p>C. $90$ 元</p><p>D. $120$ 元</p>",
+          "answer": "C",
+          "explanation": "<p>「總價 $\\div$ 數量 $=$ 單價」：$60 \\div \\dfrac{2}{3} = 60 \\times \\dfrac{3}{2} = \\dfrac{180}{2} = 90$ 元。也可以這樣想：$\\dfrac{2}{3}$ 公斤是 $60$ 元，$\\dfrac{1}{3}$ 公斤就是 $30$ 元，$1$ 公斤（$3$ 個 $\\dfrac{1}{3}$）就是 $90$ 元。答案 C。</p>"
+        }
+      ]
+    }
+  ]
 }

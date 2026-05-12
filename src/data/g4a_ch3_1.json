@@ -1,5 +1,138 @@
 {
   "title": "小四上 3-1 整數的四則運算",
-  "summary": "<h1>小四 — 整數的四則運算（暑假總複習）</h1>\n\n    <!-- 知識點 1 -->\n    <h2>知識點 1：四則運算的順序規則</h2>\n\n    <h3>核心規則</h3>\n    <ul>\n      <li><strong>先乘除，後加減</strong></li>\n      <li><strong>遇到括號先處理</strong>（括號內部最優先）</li>\n      <li>沒有括號、同一層級時：<strong>由左而右</strong>計算</li>\n    </ul>\n\n    <h3>為什麼要這樣</h3>\n    <ul>\n      <li>國小到國中都會一直用到，務必把規則背熟、寫成筆記</li>\n      <li>「先乘除後加減」決定了沒有括號時的優先順序</li>\n      <li>括號代表「優先順序刻意改變」，所以列式時若要讓某段先算，就要主動加括號</li>\n    </ul>\n\n    <h3>常見錯誤</h3>\n    <ul>\n      <li>沒有括號時，把後面的加減當成先算 → 整題錯</li>\n      <li>看到一串算式急著從左掃過去，忘記乘除要先處理</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 2 -->\n    <h2>知識點 2：純乘除算式的「巧算」（移動法）</h2>\n\n    <h3>前提</h3>\n    <ul>\n      <li>整個算式<strong>全部都是乘除法</strong>（沒有加減、沒有括號）才能用</li>\n      <li>有加減或括號時，乖乖按照規則順序算</li>\n    </ul>\n\n    <h3>規則</h3>\n    <ul>\n      <li>把「運算符號 + 數字」看成一整顆<strong>積木</strong>，可以前後互換位置</li>\n      <li><strong>第一個數字（最前面那個）不能動</strong>，後面的積木才可以「乾坤大挪移」</li>\n      <li>移動時<strong>符號必須跟著數字一起搬</strong>（例：<code>× 250</code> 一起搬、<code>÷ 17</code> 一起搬）</li>\n    </ul>\n\n    <h3>示範</h3>\n    <ul>\n      <li>原式：<code>68 × 250 ÷ 17</code></li>\n      <li>直接由左而右算 → <code>68 × 250 = 17000</code>，再 <code>÷ 17</code> 不好心算</li>\n      <li>觀察：68 與 17 有倍數關係（<code>68 ÷ 17 = 4</code>）</li>\n      <li>把 <code>÷ 17</code> 往前搬到 250 之前：<code>68 ÷ 17 × 250</code></li>\n      <li>先算 <code>68 ÷ 17 = 4</code>，再 <code>4 × 250 = 1000</code>（心算秒殺）</li>\n    </ul>\n\n    <h3>核心訣竅</h3>\n    <ul>\n      <li>看到數字有倍數關係、或可以湊整數時，優先嘗試重排</li>\n      <li>重排目的是讓計算變簡單，不是為了重排而重排</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 3 -->\n    <h2>知識點 3：連除與連減的「分配律」技巧</h2>\n\n    <h3>連除 = 除以兩數的乘積</h3>\n    <ul>\n      <li><code>A ÷ B ÷ C = A ÷ (B × C)</code></li>\n      <li>應用：要算「全校 6156 人，先分 18 隊、每隊再分 6 組，每組幾人？」\n        <ul>\n          <li>一般做法：<code>6156 ÷ 18 ÷ 6</code>，要除兩次</li>\n          <li>巧算：<code>6156 ÷ (18 × 6) = 6156 ÷ 108 = 57</code>（只除一次）</li>\n        </ul>\n      </li>\n    </ul>\n\n    <h3>連減 = 減去兩數的和</h3>\n    <ul>\n      <li><code>A − B − C = A − (B + C)</code></li>\n      <li>應用：<code>100000 − 59960 − 12080</code>\n        <ul>\n          <li>先算 <code>59960 + 12080 = 72040</code></li>\n          <li>再 <code>100000 − 72040 = 27960</code></li>\n          <li>比連續做兩次大數借位減法輕鬆</li>\n        </ul>\n      </li>\n    </ul>\n\n    <h3>湊整數的小技巧</h3>\n    <ul>\n      <li>看到 <code>59960</code> 接近 <code>60000</code>，差 40</li>\n      <li>把 40 從另一個加數借過來：<code>59960 + 12080 = 60000 + 12040 = 72040</code></li>\n      <li>心算就能完成</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 4 -->\n    <h2>知識點 4：直式計算的關鍵動作</h2>\n\n    <h3>加法</h3>\n    <ul>\n      <li>對齊個位、十位、百位…</li>\n      <li>滿 10 進 1，逐位往上加</li>\n    </ul>\n\n    <h3>減法（借位）</h3>\n    <ul>\n      <li>個位不夠減 → 跟十位「借 1」</li>\n      <li>十位也不夠 → 再跟百位借，連鎖借位</li>\n      <li>注意：被借的位數要記得自己少 1</li>\n      <li>連續借位時（例 <code>50000 − 38950</code>），中間每一位都是「先借出 → 自己變 9 → 再借出去」</li>\n    </ul>\n\n    <h3>乘法（兩位乘兩位、三位乘兩位）</h3>\n    <ul>\n      <li>第一行：個位數字 × 上面整個數</li>\n      <li>第二行：十位數字 × 上面整個數，<strong>結果向左退一格</strong></li>\n      <li>第三行（若有）：百位數字 × 上面整個數，再退一格</li>\n      <li>最後逐欄相加</li>\n    </ul>\n\n    <h3>除法（直式）</h3>\n    <ul>\n      <li>兩位對兩位先試，不夠就再退一位看三位</li>\n      <li>試商時看「最接近且不超過」的倍數</li>\n      <li>算完餘數要 &lt; 除數，否則商還不夠大</li>\n    </ul>\n\n    <h3>心算目標（暑假練習）</h3>\n    <ul>\n      <li>兩位數 × 一位數 → 一定要能心算</li>\n      <li>兩位數 ÷ 一位數 → 一定要能心算</li>\n      <li>兩位 × 兩位 → 練到熟練（不一定要心算）</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 5 -->\n    <h2>知識點 5：應用題列式策略</h2>\n\n    <h3>步驟</h3>\n    <ol>\n      <li>看清楚題目<strong>最後問什麼</strong>（總和？差？平均？幾盒？）</li>\n      <li>找出<strong>核心關鍵詞</strong>：「總共」「合起來」「比 X 多 / 少」「平均」「每 X 一份」</li>\n      <li>練習把整題列成<strong>一個式子</strong>（不要分段列），算的時候再分段算</li>\n      <li>列式後再判斷要不要加括號（看運算順序是否符合題意）</li>\n    </ol>\n\n    <h3>關鍵詞對照</h3>\n    <table>\n      <thead>\n        <tr>\n          <th>關鍵詞</th>\n          <th>運算</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td>總共、合起來、再加上</td>\n          <td>加法</td>\n        </tr>\n        <tr>\n          <td>比 X 多 N → 求 X</td>\n          <td>用大的減 N</td>\n        </tr>\n        <tr>\n          <td>比 X 少 N → 求 X</td>\n          <td>用小的加 N</td>\n        </tr>\n        <tr>\n          <td>平均分、每 N 個一份</td>\n          <td>除法</td>\n        </tr>\n        <tr>\n          <td>每份 N 個，共 K 份</td>\n          <td>乘法</td>\n        </tr>\n      </tbody>\n    </table>\n\n    <h3>括號的判斷</h3>\n    <ul>\n      <li>寫成一行算式後，<strong>自己讀一遍</strong>：如果直接按「先乘除後加減」算，結果會不會等於題目要的？</li>\n      <li>不會 → 加括號改變優先順序</li>\n      <li>會 → 不用括號</li>\n    </ul>\n\n    <hr>\n\n    <!-- 範例題型彙整 -->\n    <h2>範例題型彙整</h2>\n\n    <h3>類型 A：純加法／純減法（題 1、2）</h3>\n    <ul>\n      <li><strong>範例 1</strong>：觀光果園蘋果 2250、梨子 1895、哈密瓜 1688，共幾個？\n        <ul>\n          <li>列式：<code>2250 + 1895 + 1688 = 5833</code></li>\n          <li>重點：有左而右計算</li>\n        </ul>\n      </li>\n      <li><strong>範例 2</strong>：水果商蘋果 1825、葡萄柚 877，合起來比梨子多 1506，求梨子幾個？\n        <ul>\n          <li>列式：<code>1825 + 877 − 1506</code></li>\n          <li><code>1825 + 877 = 2702</code>，<code>2702 − 1506 = 1196</code></li>\n        </ul>\n      </li>\n    </ul>\n\n    <h3>類型 B：括號 + 混合運算（題 3、4、7）</h3>\n    <ul>\n      <li><strong>範例 3</strong>：白色乒乓球 976 顆，橘色比白色多 658 顆，把橘色每 86 顆裝一籃，可裝幾籃？\n        <ul>\n          <li>列式：<code>(976 + 658) ÷ 86 = 1634 ÷ 86 = 19</code></li>\n          <li><strong>必須加括號</strong>，否則會先算 <code>658 ÷ 86</code></li>\n        </ul>\n      </li>\n      <li><strong>範例 4</strong>：分 18 隊，每隊男生 27 人、女生 17 人，共幾人？\n        <ul>\n          <li>列式：<code>(27 + 17) × 18 = 44 × 18 = 792</code></li>\n          <li>用括號因為要先求一隊人數再乘</li>\n        </ul>\n      </li>\n      <li><strong>範例 7</strong>：椅子賣價 960、成本 486，賣 142 張賺多少？\n        <ul>\n          <li>列式：<code>(960 − 486) × 142 = 474 × 142 = 67308</code></li>\n          <li><strong>沒有括號就會先算成本 × 數量，意義錯誤</strong></li>\n        </ul>\n      </li>\n    </ul>\n\n    <h3>類型 C：連續加減運算（題 5、6）</h3>\n    <ul>\n      <li><strong>範例 5</strong>：爸爸薪水 59860，給媽媽 36000，公司報差旅費 3765，爸爸剩多少？\n        <ul>\n          <li>列式：<code>59860 − 36000 + 3765 = 23860 + 3765 = 27625</code></li>\n        </ul>\n      </li>\n      <li><strong>範例 6</strong>：原有 50000，買電腦 38950、買遊戲 4865，剩多少？\n        <ul>\n          <li>列式：<code>50000 − (38950 + 4865) = 50000 − 43815 = 6185</code></li>\n          <li>或寫 <code>50000 − 38950 − 4865</code>，結果相同</li>\n        </ul>\n      </li>\n    </ul>\n\n    <h3>類型 D：先乘除再加減（題 8、10、11）</h3>\n    <ul>\n      <li><strong>範例 8</strong>：1435 顆草莓現場吃掉 427 顆，剩下每 18 顆一盒，可裝幾盒？\n        <ul>\n          <li>列式：<code>(1435 − 427) ÷ 18 = 1008 ÷ 18 = 56</code></li>\n          <li>一定要加括號</li>\n        </ul>\n      </li>\n      <li><strong>範例 10</strong>：賣 50 隻豬每隻 6000，付運費 3800，共收多少？\n        <ul>\n          <li>列式：<code>6000 × 50 − 3800 = 300000 − 3800 = 296200</code></li>\n          <li>不用括號（先乘除）</li>\n        </ul>\n      </li>\n      <li><strong>範例 11</strong>：自動鉛筆每支 35 元，買 24 打（1 打 = 12 支），共多少錢？\n        <ul>\n          <li>列式：<code>35 × 24 × 12 = 840 × 12 = 10080</code></li>\n          <li>補充：1 手 = 6 支（不同包裝單位）</li>\n        </ul>\n      </li>\n    </ul>\n\n    <h3>類型 E：總量 ÷ 份數（題 12、13、14、15、19、20）</h3>\n    <ul>\n      <li><strong>範例 12</strong>：24 班 × 每班 32 人，每車載 48 人，要幾輛車？\n        <ul>\n          <li>列式：<code>24 × 32 ÷ 48 = 768 ÷ 48 = 16</code></li>\n          <li>觀察法：人數一樣，每車裝兩倍人 → 車數變一半（<code>32 ÷ 2 = 16</code>）</li>\n        </ul>\n      </li>\n      <li><strong>範例 13</strong>：1537 隻蠶寶寶平均分給 29 人，小威自己又買 354 隻，小威有幾隻？\n        <ul>\n          <li>列式：<code>1537 ÷ 29 + 354 = 53 + 354 = 407</code></li>\n          <li>不用括號（先除後加）</li>\n        </ul>\n      </li>\n      <li><strong>範例 14</strong>：番薯 54 袋共 7452 公克，其中一袋被老鼠吃 43，那袋剩多少？\n        <ul>\n          <li>列式：<code>7452 ÷ 54 − 43 = 138 − 43 = 95</code></li>\n        </ul>\n      </li>\n      <li><strong>範例 15</strong>：梨子 2548 個，每 98 個裝一箱，每箱賣 3286 元，共可賣多少？\n        <ul>\n          <li>列式：<code>2548 ÷ 98 × 3286 = 26 × 3286 = 85436</code></li>\n        </ul>\n      </li>\n      <li><strong>範例 19</strong>：玉米 4830 公斤分 46 袋，一袋被吃 17 公斤，剩多少？\n        <ul>\n          <li>列式：<code>4830 ÷ 46 − 17 = 105 − 17 = 88</code></li>\n        </ul>\n      </li>\n      <li><strong>範例 20</strong>：6630 元買 17 盒、每盒 26 支牙刷，平均一支多少錢？\n        <ul>\n          <li>列式：<code>6630 ÷ 17 ÷ 26</code></li>\n          <li>巧算：<code>6630 ÷ (17 × 26) = 6630 ÷ 442 = 15</code></li>\n        </ul>\n      </li>\n    </ul>\n\n    <h3>類型 F：連除 / 連減的巧算（題 16、17、18）</h3>\n    <ul>\n      <li><strong>範例 16</strong>：6156 人均分 18 隊，每隊再分 6 組，每組幾人？\n        <ul>\n          <li>列式：<code>6156 ÷ 18 ÷ 6 = 6156 ÷ (18 × 6) = 6156 ÷ 108 = 57</code></li>\n        </ul>\n      </li>\n      <li><strong>範例 17</strong>：小慧的錢是小喬的 16 倍，小慧可買 24 個 386 元的洋娃娃，小喬有多少？\n        <ul>\n          <li>列式：<code>386 × 24 ÷ 16 = 9264 ÷ 16 = 579</code></li>\n        </ul>\n      </li>\n      <li><strong>範例 18</strong>：原有 100000 元，買筆電 59960、買印表機 12080，剩多少？\n        <ul>\n          <li>列式：<code>100000 − (59960 + 12080) = 100000 − 72040 = 27960</code></li>\n          <li>連減 = 減去兩數的和</li>\n        </ul>\n      </li>\n    </ul>\n\n    <hr>\n\n    <!-- 常見題型 -->\n    <div class=\"exam-section\">\n      <h2>常見題型</h2>\n      <ol>\n        <li><strong>純加減計算題</strong>：依題意列式，由左而右計算，注意進位／借位。</li>\n        <li><strong>加減 + 「比 X 多/少」</strong>：判斷該加還是該減，列成一行算式再計算。</li>\n        <li><strong>括號 + 加減乘除混合</strong>：判斷是否需要括號改變運算順序；先括號內、再乘除、後加減。</li>\n        <li><strong>總量 ÷ 份數 = 每份</strong>：辨識「平均」「每 N 個一份」的關鍵詞，找對被除數與除數。</li>\n        <li><strong>連續乘 / 連續除 / 連續減</strong>：嘗試用「移動法」「除以兩數乘積」「減去兩數和」簡化計算。</li>\n        <li><strong>多步驟應用題</strong>：訓練把整題列成<strong>一個式子</strong>，先想清楚每段代表的意義再算。</li>\n      </ol>\n    </div>",
-  "sections": []
+  "summary": "<ul><li><strong>四則運算的順序</strong>：①<strong>括號內</strong>最優先；②再做<strong>乘除</strong>；③最後做<strong>加減</strong>；同一層級時由<strong>左而右</strong>計算。簡記「先乘除、後加減；有括號先算」。</li><li><strong>為什麼要有規則</strong>：同一個式子若沒有規則，每個人算出來會不一樣。例：$2 + 3 \\times 4$ 若由左而右 $= 20$，但依規則先乘 $= 2 + 12 = 14$。</li><li><strong>括號的作用</strong>：當題目要求「先做加減、再做乘除」時，就要加括號。例：「先求和再乘 $5$」要寫成 $(8 + 7) \\times 5 = 75$，不能寫 $8 + 7 \\times 5 = 43$。</li><li><strong>常用巧算</strong>：① 連減 $= $ 減去兩數的和，$A - B - C = A - (B + C)$；② 連除 $= $ 除以兩數的積，$A \\div B \\div C = A \\div (B \\times C)$。</li><li><strong>應用題列式</strong>：先找關鍵字 — 「總共／合起來」→ 加；「比 X 多／少」→ 加或減；「平均、每幾個一份」→ 除；「幾倍、每份幾個共幾份」→ 乘。把整題列成<strong>一行算式</strong>後再計算。</li><li><strong>檢查策略</strong>：算完後想「這個答案合理嗎？」例：算成「$1$ 個人吃 $1000$ 顆糖」一定是哪裡錯了，重新檢查列式與括號。</li></ul>",
+  "sections": [
+    {
+      "type": "true_false",
+      "name": "是非題",
+      "questions": [
+        {
+          "id": "g4a_ch3_1_q1",
+          "number": 1,
+          "type": "true_false",
+          "content": "<p>$5 + 3 \\times 4 = 32$。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。要<strong>先乘除後加減</strong>。先算 $3 \\times 4 = 12$，再算 $5 + 12 = 17$。題目把 $5 + 3$ 先算成 $8$ 再 $\\times 4$，違反規則。正確答案是 $17$。</p>"
+        },
+        {
+          "id": "g4a_ch3_1_q2",
+          "number": 2,
+          "type": "true_false",
+          "content": "<p>$(12 - 4) \\div 2 = 4$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。<strong>括號內先算</strong>：$12 - 4 = 8$，再 $8 \\div 2 = 4$。若沒括號 $12 - 4 \\div 2 = 12 - 2 = 10$ 結果就不同了。</p>"
+        },
+        {
+          "id": "g4a_ch3_1_q3",
+          "number": 3,
+          "type": "true_false",
+          "content": "<p>$24 - 8 + 6 = 24 - (8 + 6) = 10$。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。沒有括號時，加減同一層級<strong>由左而右</strong>算：$24 - 8 = 16$，$16 + 6 = 22$。隨便加括號會改變運算順序，題目原式答案是 $22$，不是 $10$。注意「連減」才能改寫成「減去和」，「減一個又加一個」不行。</p>"
+        },
+        {
+          "id": "g4a_ch3_1_q4",
+          "number": 4,
+          "type": "true_false",
+          "content": "<p>$100 - 25 - 15 = 100 - (25 + 15) = 60$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。<strong>連減等於減去兩數的和</strong>：$A - B - C = A - (B + C)$。$100 - 25 - 15$ 先 $100 - 25 = 75$ 再 $75 - 15 = 60$；用巧算 $100 - (25 + 15) = 100 - 40 = 60$，結果一樣。</p>"
+        },
+        {
+          "id": "g4a_ch3_1_q5",
+          "number": 5,
+          "type": "true_false",
+          "content": "<p>「小華有 $50$ 元，買 $3$ 支 $8$ 元的鉛筆後剩多少？」可列式為 $50 - 3 \\times 8$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。$3$ 支鉛筆共花 $3 \\times 8 = 24$ 元，剩 $50 - 24 = 26$ 元。式子 $50 - 3 \\times 8$ 依「先乘除後加減」會先算 $3 \\times 8 = 24$，再 $50 - 24 = 26$，符合題意，<strong>不必加括號</strong>。</p>"
+        }
+      ]
+    },
+    {
+      "type": "single_choice",
+      "name": "單選題",
+      "questions": [
+        {
+          "id": "g4a_ch3_1_q6",
+          "number": 6,
+          "type": "single_choice",
+          "content": "<p>$18 + 6 \\times 5 = ?$</p><p>A. $48$</p><p>B. $120$</p><p>C. $90$</p><p>D. $30$</p>",
+          "answer": "A",
+          "explanation": "<p>先乘後加：$6 \\times 5 = 30$，再 $18 + 30 = 48$。答案 A。$B$ 是錯誤地 $(18 + 6) \\times 5 = 120$。</p>"
+        },
+        {
+          "id": "g4a_ch3_1_q7",
+          "number": 7,
+          "type": "single_choice",
+          "content": "<p>$(24 + 16) \\div 8 = ?$</p><p>A. $5$</p><p>B. $26$</p><p>C. $40$</p><p>D. $3$</p>",
+          "answer": "A",
+          "explanation": "<p>括號內先算：$24 + 16 = 40$，再 $40 \\div 8 = 5$。答案 A。</p>"
+        },
+        {
+          "id": "g4a_ch3_1_q8",
+          "number": 8,
+          "type": "single_choice",
+          "content": "<p>$36 \\div 6 + 4 \\times 2 = ?$</p><p>A. $20$</p><p>B. $14$</p><p>C. $13$</p><p>D. $18$</p>",
+          "answer": "B",
+          "explanation": "<p>先處理乘除：$36 \\div 6 = 6$，$4 \\times 2 = 8$；再加：$6 + 8 = 14$。答案 B。</p>"
+        },
+        {
+          "id": "g4a_ch3_1_q9",
+          "number": 9,
+          "type": "single_choice",
+          "content": "<p>$72 - (15 + 24) \\div 3 = ?$</p><p>A. $59$</p><p>B. $11$</p><p>C. $19$</p><p>D. $24$</p>",
+          "answer": "A",
+          "explanation": "<p>依序：① 括號 $15 + 24 = 39$；② 除 $39 \\div 3 = 13$；③ 減 $72 - 13 = 59$。答案 A。</p>"
+        },
+        {
+          "id": "g4a_ch3_1_q10",
+          "number": 10,
+          "type": "single_choice",
+          "content": "<p>$200 - 50 - 30 = ?$（請用最快方法）</p><p>A. $120$</p><p>B. $180$</p><p>C. $150$</p><p>D. $80$</p>",
+          "answer": "A",
+          "explanation": "<p>連減 $=$ 減去兩數的和：$200 - (50 + 30) = 200 - 80 = 120$。或由左而右 $200 - 50 = 150$、$150 - 30 = 120$，結果相同。答案 A。</p>"
+        },
+        {
+          "id": "g4a_ch3_1_q11",
+          "number": 11,
+          "type": "single_choice",
+          "content": "<p>$480 \\div 8 \\div 3 = ?$（請用最快方法）</p><p>A. $60$</p><p>B. $20$</p><p>C. $24$</p><p>D. $40$</p>",
+          "answer": "B",
+          "explanation": "<p>連除 $=$ 除以兩數的積：$480 \\div (8 \\times 3) = 480 \\div 24 = 20$。或由左而右 $480 \\div 8 = 60$、$60 \\div 3 = 20$，結果相同。答案 B。</p>"
+        },
+        {
+          "id": "g4a_ch3_1_q12",
+          "number": 12,
+          "type": "single_choice",
+          "content": "<p>下列哪個算式的結果<strong>最大</strong>？</p><p>A. $4 + 3 \\times 2$</p><p>B. $(4 + 3) \\times 2$</p><p>C. $4 \\times 3 + 2$</p><p>D. $4 \\times (3 + 2)$</p>",
+          "answer": "D",
+          "explanation": "<p>A. $4 + 6 = 10$；B. $7 \\times 2 = 14$；C. $12 + 2 = 14$；D. $4 \\times 5 = 20$。最大是 D。答案 D。</p>"
+        },
+        {
+          "id": "g4a_ch3_1_q13",
+          "number": 13,
+          "type": "single_choice",
+          "content": "<p>媽媽買 $3$ 盒蛋糕，每盒 $120$ 元，又買 $1$ 條麵包 $45$ 元，共花多少元？</p><p>A. $405$ 元</p><p>B. $360$ 元</p><p>C. $495$ 元</p><p>D. $165$ 元</p>",
+          "answer": "A",
+          "explanation": "<p>列式 $120 \\times 3 + 45$（先乘後加，不必括號）$= 360 + 45 = 405$ 元。答案 A。</p>"
+        },
+        {
+          "id": "g4a_ch3_1_q14",
+          "number": 14,
+          "type": "single_choice",
+          "content": "<p>小英有 $5$ 個 $10$ 元和 $8$ 個 $5$ 元硬幣，把所有錢平分給 $3$ 個弟弟妹妹，每人可得多少元？</p><p>A. $30$ 元</p><p>B. $33$ 元</p><p>C. $90$ 元</p><p>D. $25$ 元</p>",
+          "answer": "A",
+          "explanation": "<p>列式 $(5 \\times 10 + 8 \\times 5) \\div 3 = (50 + 40) \\div 3 = 90 \\div 3 = 30$ 元。注意「平分」前要先算<strong>總金額</strong>，所以最外層要加括號。答案 A。</p>"
+        },
+        {
+          "id": "g4a_ch3_1_q15",
+          "number": 15,
+          "type": "single_choice",
+          "content": "<p>$1000 - (250 + 130) \\times 2 = ?$</p><p>A. $1240$</p><p>B. $240$</p><p>C. $620$</p><p>D. $760$</p>",
+          "answer": "B",
+          "explanation": "<p>依序：① 括號 $250 + 130 = 380$；② 乘 $380 \\times 2 = 760$；③ 減 $1000 - 760 = 240$。答案 B。</p>"
+        }
+      ]
+    }
+  ]
 }

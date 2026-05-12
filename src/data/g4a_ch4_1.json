@@ -1,5 +1,138 @@
 {
   "title": "小四上 4-1 角度",
-  "summary": "<div class=\"text-slate-500\"><p>本章節摘要待補。</p><p class=\"text-xs mt-2\">📝 將在後續補上完整教學重點。</p></div>",
-  "sections": []
+  "summary": "<ul><li><strong>角的構成</strong>：兩條<strong>射線</strong>從同一點（<strong>頂點</strong>）出發所形成的圖形叫做「角」。寫作 $\\angle ABC$ 時，中間字母 $B$ 是頂點。</li><li><strong>角度單位</strong>：把<strong>圓</strong>等分成 $360$ 等份，每一份就是 $1$ 度，記作 $1^\\circ$。所以「一圈 $= 360^\\circ$」「半圈 $= 180^\\circ$」「直角 $= 90^\\circ$」。</li><li><strong>量角器的使用</strong>：① <strong>中心點</strong>對準角的頂點；② 量角器的<strong>$0^\\circ$ 線</strong>對齊一條邊；③ 看另一邊指到的刻度。量角器有內外兩圈刻度，要看與 $0^\\circ$ 同側的那一圈。</li><li><strong>角的分類</strong>：<br>• <strong>銳角</strong>：$0^\\circ < \\angle < 90^\\circ$<br>• <strong>直角</strong>：$\\angle = 90^\\circ$<br>• <strong>鈍角</strong>：$90^\\circ < \\angle < 180^\\circ$<br>• <strong>平角</strong>：$\\angle = 180^\\circ$（兩邊成一直線）<br>• <strong>周角</strong>：$\\angle = 360^\\circ$（旋轉一整圈）</li><li><strong>角度的加減</strong>：相鄰角拼起來等於兩角和。例如 $\\angle AOB = 35^\\circ$、$\\angle BOC = 47^\\circ$，則 $\\angle AOC = 35^\\circ + 47^\\circ = 82^\\circ$。求未知角時用減法。</li><li><strong>角的大小與邊長無關</strong>：角的大小只看「兩邊張開的程度」，畫得長或短都不會改變角度。這是小四生最常見的迷思 — 別被邊的長度騙了！</li></ul>",
+  "sections": [
+    {
+      "type": "true_false",
+      "name": "是非題",
+      "questions": [
+        {
+          "id": "g4a_ch4_1_q1",
+          "number": 1,
+          "type": "true_false",
+          "content": "<p>把一個圓平分成 $360$ 等份，每一份的角是 $1$ 度（$1^\\circ$）。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。這就是<strong>角度單位</strong>的定義。所以「一整圈 $= 360^\\circ$」、「半圈 $= 180^\\circ$」、「四分之一圈 $= 90^\\circ$（直角）」。</p>"
+        },
+        {
+          "id": "g4a_ch4_1_q2",
+          "number": 2,
+          "type": "true_false",
+          "content": "<p>角的邊畫得越長，角度就越大。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。角的大小<strong>只看兩邊張開的程度</strong>，和邊的長短<strong>無關</strong>。把邊延長或縮短都不會改變角度。這是小四生常犯的迷思，要特別記住。</p>"
+        },
+        {
+          "id": "g4a_ch4_1_q3",
+          "number": 3,
+          "type": "true_false",
+          "content": "<p>$120^\\circ$ 的角是鈍角。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。<strong>鈍角的範圍是 $90^\\circ < \\angle < 180^\\circ$</strong>。$120^\\circ$ 在這個範圍內（比直角 $90^\\circ$ 大，比平角 $180^\\circ$ 小），所以是鈍角。</p>"
+        },
+        {
+          "id": "g4a_ch4_1_q4",
+          "number": 4,
+          "type": "true_false",
+          "content": "<p>平角是 $90^\\circ$。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。<strong>平角是 $180^\\circ$</strong>（兩邊成一直線、剛好半圈）。$90^\\circ$ 是<strong>直角</strong>。要分清楚：直角像「L」形，平角像「一」字形。</p>"
+        },
+        {
+          "id": "g4a_ch4_1_q5",
+          "number": 5,
+          "type": "true_false",
+          "content": "<p>$\\angle AOB = 30^\\circ$，$\\angle BOC = 50^\\circ$，且 $OB$ 在 $\\angle AOC$ 之內，則 $\\angle AOC = 80^\\circ$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。相鄰兩角拼起來等於它們的和：$\\angle AOC = \\angle AOB + \\angle BOC = 30^\\circ + 50^\\circ = 80^\\circ$。$80^\\circ < 90^\\circ$ 是銳角。</p>"
+        }
+      ]
+    },
+    {
+      "type": "single_choice",
+      "name": "單選題",
+      "questions": [
+        {
+          "id": "g4a_ch4_1_q6",
+          "number": 6,
+          "type": "single_choice",
+          "content": "<p>下列哪個角是<strong>銳角</strong>？</p><p>A. $90^\\circ$</p><p>B. $45^\\circ$</p><p>C. $120^\\circ$</p><p>D. $180^\\circ$</p>",
+          "answer": "B",
+          "explanation": "<p>銳角的範圍是 $0^\\circ < \\angle < 90^\\circ$。A 是直角、B 在範圍內是銳角、C 是鈍角、D 是平角。答案 B。</p>"
+        },
+        {
+          "id": "g4a_ch4_1_q7",
+          "number": 7,
+          "type": "single_choice",
+          "content": "<p>下列哪個角是<strong>鈍角</strong>？</p><p>A. $89^\\circ$</p><p>B. $90^\\circ$</p><p>C. $135^\\circ$</p><p>D. $180^\\circ$</p>",
+          "answer": "C",
+          "explanation": "<p>鈍角範圍 $90^\\circ < \\angle < 180^\\circ$。A 是銳角（差 $1^\\circ$ 才到直角）、B 是直角（剛好 $90^\\circ$，不算鈍角）、<strong>C $= 135^\\circ$ 在範圍內</strong>、D 是平角。答案 C。</p>"
+        },
+        {
+          "id": "g4a_ch4_1_q8",
+          "number": 8,
+          "type": "single_choice",
+          "content": "<p>時鐘的時針從 $12$ 走到 $3$，時針轉過了多少度？</p><p>A. $30^\\circ$</p><p>B. $60^\\circ$</p><p>C. $90^\\circ$</p><p>D. $120^\\circ$</p>",
+          "answer": "C",
+          "explanation": "<p>時鐘一圈是 $360^\\circ$，平分成 $12$ 格，每格 $360 \\div 12 = 30^\\circ$。$12$ 到 $3$ 是 $3$ 格，$3 \\times 30^\\circ = 90^\\circ$（剛好直角）。答案 C。</p>"
+        },
+        {
+          "id": "g4a_ch4_1_q9",
+          "number": 9,
+          "type": "single_choice",
+          "content": "<p>$\\angle AOB = 45^\\circ$、$\\angle BOC = 38^\\circ$，且 $OB$ 在 $\\angle AOC$ 之內，則 $\\angle AOC = ?$</p><p>A. $7^\\circ$</p><p>B. $73^\\circ$</p><p>C. $83^\\circ$</p><p>D. $93^\\circ$</p>",
+          "answer": "C",
+          "explanation": "<p>相鄰兩角相加：$\\angle AOC = 45^\\circ + 38^\\circ = 83^\\circ$。答案 C。（$83^\\circ < 90^\\circ$ 是銳角）</p>"
+        },
+        {
+          "id": "g4a_ch4_1_q10",
+          "number": 10,
+          "type": "single_choice",
+          "content": "<p>$\\angle AOC = 100^\\circ$，$\\angle AOB = 35^\\circ$，且 $OB$ 在 $\\angle AOC$ 之內，則 $\\angle BOC = ?$</p><p>A. $65^\\circ$</p><p>B. $135^\\circ$</p><p>C. $75^\\circ$</p><p>D. $55^\\circ$</p>",
+          "answer": "A",
+          "explanation": "<p>大角 $-$ 小角 $=$ 剩下的角：$\\angle BOC = \\angle AOC - \\angle AOB = 100^\\circ - 35^\\circ = 65^\\circ$。答案 A。</p>"
+        },
+        {
+          "id": "g4a_ch4_1_q11",
+          "number": 11,
+          "type": "single_choice",
+          "content": "<p>下列敘述何者<strong>正確</strong>？</p><p>A. 直角是 $180^\\circ$</p><p>B. 平角是 $360^\\circ$</p><p>C. 周角是 $360^\\circ$</p><p>D. 銳角一定比鈍角大</p>",
+          "answer": "C",
+          "explanation": "<p>A 錯，直角 $= 90^\\circ$；B 錯，平角 $= 180^\\circ$；<strong>C 對，周角 $= 360^\\circ$（轉一整圈）</strong>；D 錯，銳角 $< 90^\\circ <$ 鈍角，銳角比鈍角<strong>小</strong>。答案 C。</p>"
+        },
+        {
+          "id": "g4a_ch4_1_q12",
+          "number": 12,
+          "type": "single_choice",
+          "content": "<p>用量角器量角時，下列做法何者<strong>正確</strong>？</p><p>A. 量角器隨便放就可以</p><p>B. 中心點對準角的<strong>頂點</strong>，$0^\\circ$ 線對齊一邊</p><p>C. 只要對準角的一邊就好</p><p>D. 中心點對準角的邊上任一點</p>",
+          "answer": "B",
+          "explanation": "<p>量角器使用三步驟：① <strong>中心點</strong>對準<strong>頂點</strong>；② <strong>$0^\\circ$ 線</strong>對齊一條邊；③ 讀另一邊指到的刻度。B 描述正確。答案 B。</p>"
+        },
+        {
+          "id": "g4a_ch4_1_q13",
+          "number": 13,
+          "type": "single_choice",
+          "content": "<p>一個直角等於 $2$ 個相等的角，每個角是多少度？</p><p>A. $30^\\circ$</p><p>B. $45^\\circ$</p><p>C. $60^\\circ$</p><p>D. $90^\\circ$</p>",
+          "answer": "B",
+          "explanation": "<p>直角 $= 90^\\circ$，平分成 $2$ 個相等的角，每個 $= 90 \\div 2 = 45^\\circ$。答案 B。</p>"
+        },
+        {
+          "id": "g4a_ch4_1_q14",
+          "number": 14,
+          "type": "single_choice",
+          "content": "<p>下列角度由小到大正確排列的是？</p><p>A. $45^\\circ, 90^\\circ, 120^\\circ, 180^\\circ$</p><p>B. $90^\\circ, 45^\\circ, 120^\\circ, 180^\\circ$</p><p>C. $180^\\circ, 120^\\circ, 90^\\circ, 45^\\circ$</p><p>D. $120^\\circ, 90^\\circ, 45^\\circ, 180^\\circ$</p>",
+          "answer": "A",
+          "explanation": "<p>由小到大：$45^\\circ$（銳）$< 90^\\circ$（直）$< 120^\\circ$（鈍）$< 180^\\circ$（平）。答案 A。</p>"
+        },
+        {
+          "id": "g4a_ch4_1_q15",
+          "number": 15,
+          "type": "single_choice",
+          "content": "<p>一個平角分成 $3$ 個相等的角，每個角是？並判斷種類。</p><p>A. $60^\\circ$，銳角</p><p>B. $60^\\circ$，鈍角</p><p>C. $90^\\circ$，直角</p><p>D. $120^\\circ$，鈍角</p>",
+          "answer": "A",
+          "explanation": "<p>平角 $= 180^\\circ$，平分成 $3$ 等份：$180 \\div 3 = 60^\\circ$。$60^\\circ < 90^\\circ$ 是<strong>銳角</strong>。答案 A。</p>"
+        }
+      ]
+    }
+  ]
 }

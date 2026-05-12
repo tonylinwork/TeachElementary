@@ -1,5 +1,138 @@
 {
   "title": "小五下 4-1 體積與容積",
-  "summary": "<h1>小五　重量與容積（暑假總複習）　教學重點</h1>\n\n    <!-- 知識點 1 -->\n    <h2>知識點 1：重量單位與換算</h2>\n\n    <h3>常用三單位（由大到小）</h3>\n    <ul>\n      <li>公噸（<code>t</code>）、公斤（<code>kg</code>）、公克（<code>g</code>）</li>\n      <li><code>1 公噸 = 1000 公斤</code></li>\n      <li><code>1 公斤 = 1000 公克</code></li>\n    </ul>\n\n    <h3>換算口訣</h3>\n    <ul>\n      <li><strong>大變小用乘法</strong>：<code>× 1000</code>（小數點向右移 3 位，缺位補零）</li>\n      <li><strong>小變大用除法</strong>：<code>÷ 1000</code>（小數點向左移 3 位）</li>\n    </ul>\n\n    <h3>生活感</h3>\n    <ul>\n      <li>公噸：汽車、大象的重量</li>\n      <li>公斤：人的體重</li>\n      <li>公克：一罐小瓶飲料</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 2 -->\n    <h2>知識點 2：容積單位與換算</h2>\n\n    <h3>常用三單位（由大到小）</h3>\n    <ul>\n      <li>公秉（<code>kL</code>）、公升（<code>L</code>）、毫升（<code>mL</code>）</li>\n      <li><code>1 公秉 = 1000 公升</code></li>\n      <li><code>1 公升 = 1000 毫升</code></li>\n      <li><strong>毫升 = cc = mL</strong>（三者同義）</li>\n    </ul>\n\n    <h3>體積與容積的銜接（極重要）</h3>\n    <ul>\n      <li><code>1 公秉 = 1 立方公尺（m³）</code></li>\n      <li><code>1 公升 = 1000 立方公分（cm³）</code></li>\n      <li><code>1 毫升 = 1 cm³ = 1 cc</code></li>\n      <li><strong>「水」的特殊關係</strong>：<code>1 公升的水 = 1 公斤</code>；<code>1 cm³ 的水 ≈ 1 公克</code></li>\n    </ul>\n\n    <h3>生活感</h3>\n    <ul>\n      <li>立方公尺：游泳池的容積</li>\n      <li>1500 mL 寶特瓶水 ≈ 1.5 公斤</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 3 -->\n    <h2>知識點 3：有蓋／無蓋容器的內部尺寸</h2>\n\n    <p style=\"margin-bottom: 10px;\">當題目給「外部尺寸 + 厚度」要算容積／內部體積時：</p>\n\n    <table>\n      <thead>\n        <tr>\n          <th>容器類型</th>\n          <th>內長</th>\n          <th>內寬</th>\n          <th>內高</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td>有蓋</td>\n          <td>− 2 × 厚度</td>\n          <td>− 2 × 厚度</td>\n          <td>− 2 × 厚度</td>\n        </tr>\n        <tr>\n          <td>無蓋</td>\n          <td>− 2 × 厚度</td>\n          <td>− 2 × 厚度</td>\n          <td>− 1 × 厚度</td>\n        </tr>\n      </tbody>\n    </table>\n\n    <h3>為什麼無蓋只扣 1 倍</h3>\n    <ul>\n      <li>上面沒有蓋子 → 上面那層厚度不存在 → 高只減底部 1 層厚度</li>\n    </ul>\n\n    <h3>判題關鍵字</h3>\n    <ul>\n      <li>題目寫「<strong>外部</strong>」尺寸：要扣厚度</li>\n      <li>題目寫「<strong>內部</strong>」尺寸：已經扣過，<strong>不要再扣</strong></li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 4 -->\n    <h2>知識點 4：物體體積與排水法</h2>\n\n    <h3>核心結論</h3>\n    <ul>\n      <li><strong>放入水中的物體體積 = 排開的液體體積</strong></li>\n      <li>也 = <code>水位變化量 × 容器底面積</code></li>\n    </ul>\n\n    <h3>排水法</h3>\n    <ul>\n      <li>把不規則物體丟入裝水的容器，看水位上升多少</li>\n      <li>上升的體積（水面變化 × 底面積）= 物體體積</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 5 -->\n    <h2>知識點 5：柱體體積公式</h2>\n\n    <ul>\n      <li><strong>柱體體積 = 底面積 × 高</strong></li>\n      <li>圓柱、長方體、正方體都適用</li>\n      <li>正方體 = <code>邊長 × 邊長 × 邊長</code></li>\n      <li>算完記得<strong>換算單位</strong>（cm³ → 公升要 ÷ 1000）</li>\n    </ul>\n\n    <hr>\n\n    <!-- 範例計算示範 -->\n    <h2>範例計算示範</h2>\n\n    <h3>範例 1｜「A 是 B 的 ¾ 倍」的線段圖理解</h3>\n    <ul>\n      <li>A 是 B 的 <code>¾</code> 倍：把 B 看成 4 份，A 就是 3 份（分子在前、分母在後）</li>\n      <li>已知 A + B = 175，全部共 3 + 4 = 7 份</li>\n    </ul>\n    <ol>\n      <li>一份 = <code>175 ÷ 7 = 25</code></li>\n      <li>A = <code>25 × 3 = 75</code>；B = <code>25 × 4 = 100</code></li>\n      <li>B − A = <code>25</code>（1 段）</li>\n    </ol>\n\n    <h3>範例 2｜分數倍數應用</h3>\n    <ul>\n      <li>弟弟出生 3000 公克，是姊姊的 <code>6/5</code> 倍 → 弟弟 6 份、姊姊 5 份</li>\n    </ul>\n    <ol>\n      <li>一份 = <code>3000 ÷ 6 = 500</code></li>\n      <li>姊姊 = <code>500 × 5 = 2500 公克</code></li>\n    </ol>\n\n    <h3>範例 3｜單位換算 + 比例（捲心酥 vs 通心麵）</h3>\n    <ul>\n      <li>捲心酥 100 g／80 元；通心麵 1500 g／45 元</li>\n      <li>各買 0.5 公斤 = <code>500 g</code></li>\n    </ul>\n    <ol>\n      <li>捲心酥：500 g 是 100 g 的 5 倍 → <code>80 × 5 = 400</code> 元</li>\n      <li>通心麵：500 g 是 1500 g 的 1/3 → <code>45 ÷ 3 = 15</code> 元</li>\n      <li>合計：<code>400 + 15 = 415 元</code></li>\n    </ol>\n    <p style=\"margin-top: 8px;\"><strong>重點</strong>：題目沒問「一公克多少錢」，就不必先算單價，直接觀察倍數關係比較快。</p>\n\n    <h3>範例 4｜比較單價（變成同重量）</h3>\n    <table>\n      <thead>\n        <tr>\n          <th>超市</th>\n          <th>重量</th>\n          <th>價錢</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr><td>A</td><td>1 台斤（600 g）</td><td>109.8 元</td></tr>\n        <tr><td>B</td><td>500 g</td><td>90 元</td></tr>\n        <tr><td>C</td><td>1 公斤（1000 g）</td><td>179 元</td></tr>\n      </tbody>\n    </table>\n    <p style=\"margin-bottom: 10px;\">把三者全變成 <strong>3000 g</strong> 比較：</p>\n    <ul>\n      <li>A：600 × 5 = 3000 g → <code>109.8 × 5 = 549</code> 元</li>\n      <li>B：500 × 6 = 3000 g → <code>90 × 6 = 540</code> 元</li>\n      <li>C：1000 × 3 = 3000 g → <code>179 × 3 = 537</code> 元</li>\n      <li>→ <strong>C 最便宜</strong></li>\n    </ul>\n    <p style=\"margin-top: 8px;\"><strong>原則</strong>：重量相同時，錢越少越便宜；錢相同時，買到越多越便宜。</p>\n\n    <h3>範例 5｜貓熊與三人體重（差量線段圖）</h3>\n    <ul>\n      <li>貓熊 = 三人體重和 = 210 公斤</li>\n      <li>甲比乙重 2 公斤、甲比丙重 4 公斤（最小的是丙）</li>\n      <li>以丙為基準：丙＝<code>x</code>、甲＝<code>x+4</code>、乙＝<code>x+2</code></li>\n    </ul>\n    <ol>\n      <li><code>3x + 4 + 2 = 210</code> → <code>3x = 204</code></li>\n      <li>丙 = <code>204 ÷ 3 = 68</code></li>\n      <li>三人體重：<strong>68、70、72 公斤</strong></li>\n    </ol>\n\n    <h3>範例 6｜排水法求石頭體積</h3>\n    <ul>\n      <li>長方體水槽（內部）長 80、寬 25、高 60 cm</li>\n      <li>取出石頭後水位下降 12 cm</li>\n      <li>石頭體積 = 下降部分的長方體體積</li>\n    </ul>\n    <ol>\n      <li><code>80 × 25 × 12</code></li>\n      <li>計算技巧：<code>25 × 12 = 300</code>，<code>80 × 300 = 24000 cm³</code></li>\n    </ol>\n\n    <h3>範例 7｜無蓋容器容積</h3>\n    <ul>\n      <li>外部 60 × 15 × 20 cm，玻璃厚 0.5 cm，無蓋，問容積幾公升？</li>\n    </ul>\n    <ol>\n      <li>內長 = <code>60 − 0.5 × 2 = 59</code></li>\n      <li>內寬 = <code>15 − 0.5 × 2 = 14</code></li>\n      <li>內高 = <code>20 − 0.5 × 1 = 19.5</code>（無蓋只扣 1 倍）</li>\n      <li>體積 = <code>59 × 14 × 19.5 = 16107 cm³</code></li>\n      <li>換公升：<code>16107 ÷ 1000 = 16.107 公升</code></li>\n    </ol>\n\n    <h3>範例 8｜有蓋容器容積</h3>\n    <ul>\n      <li>外部 30 × 26 × 15 cm，玻璃厚 3 cm，有蓋，問容積幾公升？</li>\n    </ul>\n    <ol>\n      <li>內長 = <code>30 − 3 × 2 = 24</code></li>\n      <li>內寬 = <code>26 − 3 × 2 = 20</code></li>\n      <li>內高 = <code>15 − 3 × 2 = 9</code>（有蓋扣 2 倍）</li>\n      <li>體積 = <code>24 × 20 × 9 = 4320 cm³</code></li>\n      <li>換公升：<code>4320 ÷ 1000 = 4.32 公升</code></li>\n    </ol>\n\n    <h3>範例 9｜圓柱體積與單位拆解</h3>\n    <ul>\n      <li>圓柱底面積 125 cm²、高 22 cm，可裝水幾公升幾毫升？</li>\n    </ul>\n    <ol>\n      <li>體積 = <code>125 × 22 = 2750 cm³</code></li>\n      <li><code>2750 cm³ = 2.75 公升 = 2 公升 750 毫升</code></li>\n    </ol>\n\n    <h3>範例 10｜水管注水時間</h3>\n    <ul>\n      <li>水管每秒注水 16 mL，要把邊長 32 cm 的正方體裝滿，需要幾秒？</li>\n      <li>正方體體積 = <code>32 × 32 × 32 cm³</code></li>\n    </ul>\n    <ol>\n      <li>時間 = <code>(32 × 32 × 32) ÷ 16</code></li>\n      <li>計算技巧：先把 <code>32 ÷ 16 = 2</code> 約掉</li>\n      <li>= <code>32 × 32 × 2 = 1024 × 2 = 2048 秒</code></li>\n      <li>換成分：<code>2048 ÷ 60 = 34 分 8 秒</code></li>\n    </ol>\n\n    <hr>\n\n    <!-- 常見題型 -->\n    <div class=\"exam-section\">\n      <h2>常見題型整理</h2>\n      <ol>\n        <li><strong>單位換算</strong>：看到不同單位的重量／容積在加減比較，先把單位統一再算。</li>\n        <li><strong>倍數線段圖</strong>：「A 是 B 的 m/n 倍」→ A 佔 m 份、B 佔 n 份，分子在前、分母在後。</li>\n        <li><strong>比較單價</strong>：把所有商品換成同重量（或同金額）再比錢（或比量）。</li>\n        <li><strong>差量問題</strong>：多個對象有差量關係，先找最小的當基準畫線段圖，再列總和方程。</li>\n        <li><strong>排水法求體積</strong>：物體體積 = 排開液體體積 = 水位變化 × 底面積。</li>\n        <li><strong>有蓋／無蓋容器容積</strong>：先判斷外部還內部尺寸，再決定要不要扣厚度（有蓋 ×2、無蓋上下不對稱）。</li>\n        <li><strong>容積 ↔ 體積互換</strong>：<code>1 公升 = 1000 mL = 1000 cm³ = 1 公斤（水）</code>。最後一步常忘記換單位。</li>\n        <li><strong>柱體裝水時間</strong>：先算體積，再除以每秒注水量；可先約分減輕計算。</li>\n      </ol>\n    </div>",
-  "sections": []
+  "summary": "<ul><li><strong>體積的定義</strong>：物體所佔空間的大小，常用單位有立方公分（$\\text{cm}^3$）和立方公尺（$\\text{m}^3$）。$1$ 立方公分就是邊長 $1$ 公分的正方體佔的空間。</li><li><strong>長方體體積公式</strong>：體積 $=$ 長 $\\times$ 寬 $\\times$ 高。例：長 $5$、寬 $3$、高 $2$ $\\to$ 體積 $= 5 \\times 3 \\times 2 = 30 \\text{ cm}^3$。</li><li><strong>正方體體積公式</strong>：體積 $=$ 邊長 $\\times$ 邊長 $\\times$ 邊長。例：邊長 $4$ $\\to$ $4 \\times 4 \\times 4 = 64 \\text{ cm}^3$。</li><li><strong>體積單位換算</strong>：$1 \\text{ m}^3 = 1000000 \\text{ cm}^3$（因為 $100 \\times 100 \\times 100 = 1000000$）。換算時要小心，<strong>不是 $\\times 100$</strong>。</li><li><strong>容積</strong>：容器內部可裝液體（或物品）的體積。常用單位：毫升（$\\text{mL}$）、公升（$\\text{L}$）；$1 \\text{ L} = 1000 \\text{ mL}$。</li><li><strong>體積與容積的橋樑</strong>：$1 \\text{ mL} = 1 \\text{ cm}^3$、$1 \\text{ L} = 1000 \\text{ cm}^3$、$1 \\text{ m}^3 = 1000 \\text{ L}$（公秉）。</li></ul>",
+  "sections": [
+    {
+      "type": "true_false",
+      "name": "是非題",
+      "questions": [
+        {
+          "id": "g5b_ch4_1_q1",
+          "number": 1,
+          "type": "true_false",
+          "content": "<p>$1 \\text{ mL}$ 的水所佔的體積等於 $1 \\text{ cm}^3$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。$1 \\text{ mL} = 1 \\text{ cm}^3$ 是國小階段必背的<strong>體積與容積的橋樑</strong>。延伸：$1 \\text{ L} = 1000 \\text{ mL} = 1000 \\text{ cm}^3$。</p>"
+        },
+        {
+          "id": "g5b_ch4_1_q2",
+          "number": 2,
+          "type": "true_false",
+          "content": "<p>邊長 $3$ 公分的正方體，體積是 $9$ 立方公分。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。正方體體積 $=$ 邊長 $\\times$ 邊長 $\\times$ 邊長，共<strong>三個邊相乘</strong>：$3 \\times 3 \\times 3 = 27 \\text{ cm}^3$。$3 \\times 3 = 9$ 是「面積」（一個面），不是體積。</p>"
+        },
+        {
+          "id": "g5b_ch4_1_q3",
+          "number": 3,
+          "type": "true_false",
+          "content": "<p>$1 \\text{ m}^3 = 100 \\text{ cm}^3$。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。$1 \\text{ m} = 100 \\text{ cm}$，但體積是<strong>三維</strong>，所以 $1 \\text{ m}^3 = 100 \\times 100 \\times 100 = 1000000 \\text{ cm}^3$。單位變立方時要把換算倍率「三次方」。</p>"
+        },
+        {
+          "id": "g5b_ch4_1_q4",
+          "number": 4,
+          "type": "true_false",
+          "content": "<p>一個長方體容器內部尺寸是 $10 \\text{ cm} \\times 10 \\text{ cm} \\times 10 \\text{ cm}$，最多可裝 $1$ 公升的水。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。內部體積 $= 10 \\times 10 \\times 10 = 1000 \\text{ cm}^3$。因為 $1 \\text{ cm}^3 = 1 \\text{ mL}$，所以 $1000 \\text{ cm}^3 = 1000 \\text{ mL} = 1$ 公升。這也是「公升」的由來。</p>"
+        },
+        {
+          "id": "g5b_ch4_1_q5",
+          "number": 5,
+          "type": "true_false",
+          "content": "<p>長 $6$ 公分、寬 $4$ 公分、高 $5$ 公分的長方體，體積比邊長 $5$ 公分的正方體還大。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。長方體 $= 6 \\times 4 \\times 5 = 120 \\text{ cm}^3$，正方體 $= 5 \\times 5 \\times 5 = 125 \\text{ cm}^3$，$120 < 125$，<strong>長方體比較小</strong>。不能只看「最長邊」就判斷。</p>"
+        }
+      ]
+    },
+    {
+      "type": "single_choice",
+      "name": "單選題",
+      "questions": [
+        {
+          "id": "g5b_ch4_1_q6",
+          "number": 6,
+          "type": "single_choice",
+          "content": "<p>長 $8$ 公分、寬 $5$ 公分、高 $3$ 公分的長方體，體積是多少立方公分？</p><p>A. $16 \\text{ cm}^3$</p><p>B. $40 \\text{ cm}^3$</p><p>C. $120 \\text{ cm}^3$</p><p>D. $158 \\text{ cm}^3$</p>",
+          "answer": "C",
+          "explanation": "<p>長方體體積 $=$ 長 $\\times$ 寬 $\\times$ 高 $= 8 \\times 5 \\times 3 = 40 \\times 3 = 120 \\text{ cm}^3$。答案 C。</p>"
+        },
+        {
+          "id": "g5b_ch4_1_q7",
+          "number": 7,
+          "type": "single_choice",
+          "content": "<p>邊長 $6$ 公分的正方體，體積是多少立方公分？</p><p>A. $18 \\text{ cm}^3$</p><p>B. $36 \\text{ cm}^3$</p><p>C. $108 \\text{ cm}^3$</p><p>D. $216 \\text{ cm}^3$</p>",
+          "answer": "D",
+          "explanation": "<p>正方體體積 $=$ 邊長 $\\times$ 邊長 $\\times$ 邊長 $= 6 \\times 6 \\times 6 = 36 \\times 6 = 216 \\text{ cm}^3$。要乘三次，不是兩次。答案 D。</p>"
+        },
+        {
+          "id": "g5b_ch4_1_q8",
+          "number": 8,
+          "type": "single_choice",
+          "content": "<p>一個長方體的體積是 $60 \\text{ cm}^3$，已知長 $5$ 公分、寬 $4$ 公分，高是多少公分？</p><p>A. $3$ 公分</p><p>B. $4$ 公分</p><p>C. $12$ 公分</p><p>D. $20$ 公分</p>",
+          "answer": "A",
+          "explanation": "<p>由「體積 $=$ 長 $\\times$ 寬 $\\times$ 高」反推高：高 $=$ 體積 $\\div$（長 $\\times$ 寬）$= 60 \\div (5 \\times 4) = 60 \\div 20 = 3$ 公分。檢驗：$5 \\times 4 \\times 3 = 60$ ✓。答案 A。</p>"
+        },
+        {
+          "id": "g5b_ch4_1_q9",
+          "number": 9,
+          "type": "single_choice",
+          "content": "<p>$3000 \\text{ cm}^3$ 等於幾公升？</p><p>A. $0.3$ 公升</p><p>B. $3$ 公升</p><p>C. $30$ 公升</p><p>D. $3000$ 公升</p>",
+          "answer": "B",
+          "explanation": "<p>$1 \\text{ L} = 1000 \\text{ cm}^3$，所以 $3000 \\text{ cm}^3 = 3000 \\div 1000 = 3$ 公升。也可以想成 $3000 \\text{ cm}^3 = 3000 \\text{ mL} = 3 \\text{ L}$。答案 B。</p>"
+        },
+        {
+          "id": "g5b_ch4_1_q10",
+          "number": 10,
+          "type": "single_choice",
+          "content": "<p>$2.5$ 公升等於幾立方公分？</p><p>A. $25 \\text{ cm}^3$</p><p>B. $250 \\text{ cm}^3$</p><p>C. $2500 \\text{ cm}^3$</p><p>D. $25000 \\text{ cm}^3$</p>",
+          "answer": "C",
+          "explanation": "<p>$1 \\text{ L} = 1000 \\text{ cm}^3$，所以 $2.5 \\text{ L} = 2.5 \\times 1000 = 2500 \\text{ cm}^3$。也可以想 $2.5$ 公升 $= 2500 \\text{ mL} = 2500 \\text{ cm}^3$。答案 C。</p>"
+        },
+        {
+          "id": "g5b_ch4_1_q11",
+          "number": 11,
+          "type": "single_choice",
+          "content": "<p>$1 \\text{ m}^3$ 等於幾立方公分？</p><p>A. $100 \\text{ cm}^3$</p><p>B. $1000 \\text{ cm}^3$</p><p>C. $10000 \\text{ cm}^3$</p><p>D. $1000000 \\text{ cm}^3$</p>",
+          "answer": "D",
+          "explanation": "<p>$1 \\text{ m} = 100 \\text{ cm}$，立方時長寬高都要換：$1 \\text{ m}^3 = 100 \\times 100 \\times 100 = 1000000 \\text{ cm}^3$。<strong>長度倍率 $\\times 100$，體積倍率變 $\\times 1000000$</strong>。答案 D。</p>"
+        },
+        {
+          "id": "g5b_ch4_1_q12",
+          "number": 12,
+          "type": "single_choice",
+          "content": "<p>一個魚缸內部長 $40$ 公分、寬 $20$ 公分、高 $25$ 公分，最多可裝水多少公升？</p><p>A. $2$ 公升</p><p>B. $20$ 公升</p><p>C. $200$ 公升</p><p>D. $2000$ 公升</p>",
+          "answer": "B",
+          "explanation": "<p>容積 $= 40 \\times 20 \\times 25 = 800 \\times 25 = 20000 \\text{ cm}^3$。換成公升：$20000 \\div 1000 = 20$ 公升。答案 B。</p>"
+        },
+        {
+          "id": "g5b_ch4_1_q13",
+          "number": 13,
+          "type": "single_choice",
+          "content": "<p>下列哪一個物體的體積最接近 $1 \\text{ m}^3$？</p><p>A. 一顆橘子</p><p>B. 一台冰箱</p><p>C. 一支鉛筆</p><p>D. 一張 $A4$ 紙</p>",
+          "answer": "B",
+          "explanation": "<p>$1 \\text{ m}^3$ 等於邊長 $1$ 公尺（$100$ 公分）的正方體 — 大約是一台中型冰箱或洗衣機的大小。橘子、鉛筆的體積都很小（幾十 $\\text{cm}^3$），$A4$ 紙幾乎沒有厚度。答案 B。</p>"
+        },
+        {
+          "id": "g5b_ch4_1_q14",
+          "number": 14,
+          "type": "single_choice",
+          "content": "<p>把一塊長 $4 \\text{ cm}$、寬 $3 \\text{ cm}$、高 $2 \\text{ cm}$ 的鐵塊放入裝滿水的杯子中，會溢出多少水？</p><p>A. $9 \\text{ mL}$</p><p>B. $12 \\text{ mL}$</p><p>C. $24 \\text{ mL}$</p><p>D. $48 \\text{ mL}$</p>",
+          "answer": "C",
+          "explanation": "<p>放入物體會排出與物體<strong>體積相同</strong>的水。鐵塊體積 $= 4 \\times 3 \\times 2 = 24 \\text{ cm}^3 = 24 \\text{ mL}$，所以溢出 $24 \\text{ mL}$ 的水。答案 C。</p>"
+        },
+        {
+          "id": "g5b_ch4_1_q15",
+          "number": 15,
+          "type": "single_choice",
+          "content": "<p>一個長方體水槽內部長 $50$ 公分、寬 $30$ 公分，原本水深 $10$ 公分。放入一塊石頭後水位上升到 $12$ 公分，石頭的體積是多少立方公分？</p><p>A. $600 \\text{ cm}^3$</p><p>B. $1500 \\text{ cm}^3$</p><p>C. $3000 \\text{ cm}^3$</p><p>D. $18000 \\text{ cm}^3$</p>",
+          "answer": "C",
+          "explanation": "<p>石頭體積 $=$ 水位上升的高度 $\\times$ 底面積。水位上升 $12 - 10 = 2$ 公分，底面積 $= 50 \\times 30 = 1500 \\text{ cm}^2$。石頭體積 $= 1500 \\times 2 = 3000 \\text{ cm}^3$。答案 C。</p>"
+        }
+      ]
+    }
+  ]
 }

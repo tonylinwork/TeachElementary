@@ -1,5 +1,138 @@
 {
   "title": "小六上 4-1 圓周長與圓面積",
-  "summary": "<h1>小六　圓形與扇形　教學重點</h1>\n\n    <!-- 知識點 1 -->\n    <h2>知識點 1：圓的基本元素與圓周率</h2>\n\n    <h3>核心定理／公式</h3>\n    <ul>\n      <li><strong>圓</strong>：平面上到圓心距離固定的所有點所形成的封閉曲線</li>\n      <li><strong>圓周</strong>：圓的外圍曲線</li>\n      <li><strong>圓心</strong>：圓的中心點</li>\n      <li><strong>半徑（r）</strong>：圓心到圓周上任一點的距離</li>\n      <li><strong>直徑（d）</strong>：通過圓心、兩端在圓周上的線段，<code>d = 2r</code></li>\n      <li><strong>圓周率（π）</strong>：圓周長與直徑的比值，是「概數」（無理數）\n        <ul>\n          <li>國小用 <code>π ≈ 3.14</code></li>\n          <li>國中改用符號 <code>π</code>（讀作「派」）表示，最終答案保留 π 不再代入 3.14</li>\n        </ul>\n      </li>\n    </ul>\n\n    <h3>注意事項</h3>\n    <ul>\n      <li>答案有用到 3.14（概數）時，前面要寫「<strong>約</strong>」</li>\n      <li>國中以後寫 <code>16π</code>、<code>25π</code> 即可，不再算出小數</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 2 -->\n    <h2>知識點 2：圓周長</h2>\n\n    <h3>核心公式</h3>\n    <ul>\n      <li><strong>圓周長 = 直徑 × π = 2 × r × π</strong></li>\n      <li>國小寫法：<code>圓周長 = 直徑 × 3.14</code></li>\n      <li>國中寫法：<code>圓周長 = 2rπ</code></li>\n    </ul>\n\n    <h3>計算習慣</h3>\n    <ul>\n      <li><strong>π（或 3.14）放最後才算</strong>：先把整數部分湊乾淨再乘 π，可大幅減少計算錯誤</li>\n      <li>中間結果盡量保留乘法形式，能約分先約分</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 3 -->\n    <h2>知識點 3：圓面積</h2>\n\n    <h3>核心公式</h3>\n    <ul>\n      <li><strong>圓面積 = 半徑 × 半徑 × π = r² × π</strong></li>\n      <li>國小寫法：<code>圓面積 = 半徑 × 半徑 × 3.14</code></li>\n      <li>國中寫法：<code>圓面積 = r²π</code></li>\n    </ul>\n\n    <h3>注意事項</h3>\n    <ul>\n      <li>周長 vs 面積要看清楚題目問什麼（答錯第一步全錯）</li>\n      <li>周長單位是「公分／公尺」，面積單位是「<strong>平方</strong>公分／<strong>平方</strong>公尺」</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 4 -->\n    <h2>知識點 4：扇形（弧長與面積）</h2>\n\n    <h3>核心概念</h3>\n    <ul>\n      <li><strong>扇形 = 部分的圓形</strong>（由兩條半徑和一段弧圍成）</li>\n      <li><strong>弧長 = 部分的圓周長</strong></li>\n      <li><strong>扇形面積 = 部分的圓面積</strong></li>\n      <li><strong>圓心角（θ）</strong>：兩條半徑與圓心的夾角；一整圈 = <code>360°</code></li>\n    </ul>\n\n    <h3>核心公式</h3>\n    <ul>\n      <li><strong>弧長</strong> = <code>2rπ × (θ / 360°)</code></li>\n      <li><strong>扇形面積</strong> = <code>r²π × (θ / 360°)</code></li>\n    </ul>\n\n    <h3>常見特殊比例（要熟）</h3>\n    <table>\n      <thead>\n        <tr>\n          <th>圓心角</th>\n          <th>佔整圓的幾分之幾</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td>360°</td>\n          <td>1（整圓）</td>\n        </tr>\n        <tr>\n          <td>270°</td>\n          <td>3/4</td>\n        </tr>\n        <tr>\n          <td>180°</td>\n          <td>1/2（半圓）</td>\n        </tr>\n        <tr>\n          <td>120°</td>\n          <td>1/3</td>\n        </tr>\n        <tr>\n          <td>90°</td>\n          <td>1/4</td>\n        </tr>\n        <tr>\n          <td>60°</td>\n          <td>1/6</td>\n        </tr>\n      </tbody>\n    </table>\n\n    <h3>注意事項</h3>\n    <ul>\n      <li>看到角度先換成「幾分之幾圓」再算，比直接用 <code>θ/360</code> 好處理</li>\n      <li>扇形面積跟弧長的差別：面積是 <code>r²π × 比例</code>，弧長是 <code>2rπ × 比例</code></li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 5 -->\n    <h2>知識點 5：複合圖形面積（核心解題策略）</h2>\n\n    <p style=\"margin: 8px 0 14px;\">複雜圖形拆解的三大套路：<strong>挖掉</strong>、<strong>填補（移補）</strong>、<strong>切割</strong>。</p>\n\n    <h3>挖掉法</h3>\n    <ul>\n      <li>大圖形扣掉內部小圖形</li>\n      <li>例：正方形挖掉四個四分之一圓 → 邊長為 <code>d</code> 的正方形 − 一個半徑為 <code>r = d/2</code> 的圓</li>\n      <li>例：環狀面積（甜甜圈）= 大圓 − 小圓</li>\n    </ul>\n\n    <h3>填補（移補）法</h3>\n    <ul>\n      <li>把曲線部分挪到對稱位置，使陰影變成熟悉圖形</li>\n      <li>「葉子／眼睛」圖形可用切割填補，最後變成三角形或正方形的一半</li>\n    </ul>\n\n    <h3>切割法</h3>\n    <ul>\n      <li>把陰影拆成幾塊扇形 / 半圓 / 三角形相加</li>\n      <li>對稱圖形先算一塊再 × 倍數</li>\n    </ul>\n\n    <h3>「眼睛」圖形（兩個四分之一圓重疊）速算結論</h3>\n    <ul>\n      <li>正方形內畫兩個對角四分之一圓，重疊處（葉子形）面積：</li>\n      <li><strong>葉子（重疊處內部）面積</strong> = <code>正方形面積 × 0.57</code></li>\n      <li><strong>外側兩個角落空白面積</strong> = <code>正方形面積 × 0.43</code></li>\n      <li>來源：兩個 1/4 圓 = 1/2 圓 = <code>(1/2)πr²</code>；用 <code>r²</code> 提出後得 <code>(π/2 − 1) ≈ 0.57</code></li>\n      <li>注意：學校老師若要求標準寫法，<strong>仍要寫出完整計算過程</strong>，直接用 0.57 可能被扣分</li>\n    </ul>\n\n    <h3>半圓組合常見結論</h3>\n    <ul>\n      <li>兩個直徑相同的半圓 → 合起來 = 一個完整圓</li>\n      <li>對稱位置的弧線可互補成整圓 / 半圓 / 三角形</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 6 -->\n    <h2>知識點 6：圓的比例關係（圓與正方形通用）</h2>\n\n    <h3>核心結論</h3>\n    <ul>\n      <li>半徑比 = 直徑比 = 周長比</li>\n      <li><strong>面積比 = 半徑²比 = 直徑²比 = 周長²比</strong></li>\n    </ul>\n\n    <h3>範例</h3>\n    <p style=\"margin: 8px 4px 12px;\">甲圓半徑 = 1，乙圓半徑 = 甲的 2 倍（= 2），丙圓半徑 = 乙的 2 倍（= 4）。問丙周長是甲周長的幾倍？</p>\n    <ul>\n      <li>周長比 = 半徑比 = <strong>4 倍</strong></li>\n      <li>若改問面積比：面積比 = 半徑²比 = <code>4² = 16</code> → <strong>16 倍</strong></li>\n    </ul>\n\n    <h3>注意事項</h3>\n    <ul>\n      <li>題目問「幾倍」時，不必算出實際長度，列出比值即可</li>\n      <li>面積永遠記得「平方」一次</li>\n    </ul>\n\n    <hr>\n\n    <!-- 常見題型 -->\n    <div class=\"exam-section\">\n      <h2>常見題型</h2>\n      <ol>\n        <li><strong>滾輪 / 繞圈題</strong>：腳踏車輪、繩子繞圓。先算「一圈長度 = 圓周長」，再乘「圈數」得總距離。注意單位換算（公分 ↔ 公尺）。</li>\n        <li><strong>複合圖形周長</strong>：把外圍拆成「直線段」+「弧線段」，分別計算再相加。常見組合為半圓弧 + 四分之一圓弧 + 直線。</li>\n        <li><strong>複合圖形面積（挖掉型）</strong>：正方形扣掉扇形、大圓扣小圓（環狀）。先看出「整個 − 缺口 × 幾塊」的結構。</li>\n        <li><strong>複合圖形面積（填補型）</strong>：把曲線陰影移補成規則圖形。「葉子／眼睛」題型可記速算結論 <code>0.57</code> / <code>0.43</code>。</li>\n        <li><strong>同周長換形狀</strong>：給定繩長 ↔ 圍成正方形 ↔ 圍成圓形。先用周長公式反推半徑，再求面積。<br>例：正方形邊長 <code>31.4</code> → 周長 <code>31.4 × 4</code> → 同周長的圓直徑 = <code>(31.4 × 4) / 3.14 = 40</code> → 半徑 = 20 → 面積 = <code>20² × 3.14</code>。</li>\n        <li><strong>繞圈差題</strong>：繩子繞 a 圈不足 X 公尺、繞 b 圈多 Y 公尺。兩條件相減得「<code>(a−b)</code> 圈的長度 = <code>X + Y</code>」，再除 <code>(a−b)</code> 得一圈周長。</li>\n        <li><strong>比例題</strong>：給半徑或直徑倍數關係，問周長 / 面積倍數。周長倍數 = 半徑倍數；面積倍數 = 半徑倍數²。</li>\n        <li><strong>狗繞屋 / 扇形組合</strong>：繩繫屋角，狗的活動範圍由多個不同半徑的扇形組成。轉角處半徑會「縮短」（原半徑 − 牆長），分段列式。</li>\n        <li><strong>環狀面積</strong>：<code>(大圓 r²π) − (小圓 r²π)</code>，常用 π 提出後直接整數相減。</li>\n      </ol>\n    </div>\n\n    <hr>\n\n    <!-- 計算習慣提醒 -->\n    <h2>計算習慣提醒</h2>\n    <ul>\n      <li><strong>π / 3.14 永遠最後才算</strong>：能提出去就提，整數部分先約分湊乾淨</li>\n      <li><strong>單位要看清</strong>：周長單位 = 公分／公尺；面積單位 = 平方公分／平方公尺</li>\n      <li>題目用到 3.14（概數）時，答案前要加「<strong>約</strong>」</li>\n      <li>周長 vs 面積要先圈出題目關鍵字，再動筆</li>\n      <li>列式過程寫乾淨，計算錯誤是這個單元失分最大主因</li>\n    </ul>",
-  "sections": []
+  "summary": "<ul><li><strong>圓的元素</strong>：圓心、半徑 $r$（圓心到圓周的距離）、直徑 $d$（過圓心的弦，$d = 2r$）。圓周率 $\\pi$ 是圓周長與直徑的比值，國小用 $\\pi \\approx 3.14$ 計算。</li><li><strong>圓周長公式</strong>：$C = \\pi \\times d = 2\\pi r$。例 半徑 $5$ 公分的圓周長 $\\approx 2 \\times 3.14 \\times 5 = 31.4$ 公分。題目用 $3.14$ 時答案前要寫「<strong>約</strong>」。</li><li><strong>圓面積公式</strong>：$S = \\pi r^2$（半徑 $\\times$ 半徑 $\\times \\pi$）。例 半徑 $5$ 公分的圓面積 $\\approx 5 \\times 5 \\times 3.14 = 78.5$ 平方公分。<strong>面積單位是「平方」公分</strong>。</li><li><strong>半圓與扇形</strong>：圓心角 $\\theta$ 的扇形，弧長 $= 2\\pi r \\times \\dfrac{\\theta}{360^\\circ}$、面積 $= \\pi r^2 \\times \\dfrac{\\theta}{360^\\circ}$。常用比例 $90^\\circ = \\dfrac{1}{4}$ 圓、$180^\\circ = \\dfrac{1}{2}$ 圓。</li><li><strong>半圓周長</strong>：等於「半圓弧」$+$「<strong>一條直徑</strong>」$= \\dfrac{1}{2} \\times 2\\pi r + 2r = \\pi r + 2r$。直徑那條直線不可以漏掉，這是常考陷阱。</li><li><strong>比例關係</strong>：兩圓<strong>周長比 $=$ 半徑比</strong>；<strong>面積比 $=$ 半徑平方比</strong>。半徑放大 $2$ 倍，周長變 $2$ 倍但面積變 $4$ 倍。計算習慣：$\\pi$ 留到最後才乘，先把整數部分約分。</li></ul>",
+  "sections": [
+    {
+      "type": "true_false",
+      "name": "是非題",
+      "questions": [
+        {
+          "id": "g6a_ch4_1_q1",
+          "number": 1,
+          "type": "true_false",
+          "content": "<p>圓的直徑是半徑的 $2$ 倍，所以同一個圓的圓周長是直徑的 $\\pi$ 倍。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。$d = 2r$，圓周長 $C = 2\\pi r = \\pi \\times d$，即<strong>圓周率 $\\pi$ 就是圓周長與直徑的比值</strong>。這也是 $\\pi$ 的定義，國小用 $\\pi \\approx 3.14$ 計算。</p>"
+        },
+        {
+          "id": "g6a_ch4_1_q2",
+          "number": 2,
+          "type": "true_false",
+          "content": "<p>圓周長的單位是「公分」，圓面積的單位是「平方公分」。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。<strong>周長</strong>是長度，單位是公分／公尺等一次方單位；<strong>面積</strong>是平面範圍，單位是「平方」公分／公尺。面積公式 $\\pi r^2$ 用到 $r$ 兩次，所以單位也是「兩次方」。</p>"
+        },
+        {
+          "id": "g6a_ch4_1_q3",
+          "number": 3,
+          "type": "true_false",
+          "content": "<p>半徑 $10$ 公分的半圓，它的周長等於 $10 \\times 3.14 = 31.4$ 公分。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。<strong>半圓周長 $=$ 半圓弧 $+$ 直徑</strong>，不可以只算弧。半圓弧 $= \\dfrac{1}{2} \\times 2\\pi r = \\pi r \\approx 10 \\times 3.14 = 31.4$ 公分，再加直徑 $20$ 公分，總共約 $51.4$ 公分。$31.4$ 漏掉了直徑那一段直線。</p>"
+        },
+        {
+          "id": "g6a_ch4_1_q4",
+          "number": 4,
+          "type": "true_false",
+          "content": "<p>當圓的半徑變成原來的 $3$ 倍時，圓面積也會變成原來的 $3$ 倍。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。<strong>面積與半徑的「平方」成正比</strong>。半徑變 $3$ 倍，面積變 $3^2 = 9$ 倍，不是 $3$ 倍。例 原半徑 $1$，面積 $\\pi$；新半徑 $3$，面積 $9\\pi$。$\\dfrac{9\\pi}{\\pi} = 9$ 倍。</p>"
+        },
+        {
+          "id": "g6a_ch4_1_q5",
+          "number": 5,
+          "type": "true_false",
+          "content": "<p>圓心角 $90^\\circ$ 的扇形面積等於整圓面積的 $\\dfrac{1}{4}$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。整圓圓心角 $= 360^\\circ$，所以 $90^\\circ$ 的扇形占整圓的 $\\dfrac{90}{360} = \\dfrac{1}{4}$。同理 $180^\\circ$ 是 $\\dfrac{1}{2}$（半圓）、$120^\\circ$ 是 $\\dfrac{1}{3}$、$60^\\circ$ 是 $\\dfrac{1}{6}$。</p>"
+        }
+      ]
+    },
+    {
+      "type": "single_choice",
+      "name": "單選題",
+      "questions": [
+        {
+          "id": "g6a_ch4_1_q6",
+          "number": 6,
+          "type": "single_choice",
+          "content": "<p>半徑 $4$ 公分的圓，圓周長約多少公分？（$\\pi \\approx 3.14$）</p><p>A. $約 12.56$ 公分</p><p>B. $約 25.12$ 公分</p><p>C. $約 50.24$ 公分</p><p>D. $約 6.28$ 公分</p>",
+          "answer": "B",
+          "explanation": "<p>$C = 2\\pi r \\approx 2 \\times 3.14 \\times 4 = 25.12$ 公分。可以先算 $2 \\times 4 = 8$，再乘 $3.14$ 得 $25.12$。<strong>$\\pi$ 放最後乘</strong>是個好習慣。答案 B。</p>"
+        },
+        {
+          "id": "g6a_ch4_1_q7",
+          "number": 7,
+          "type": "single_choice",
+          "content": "<p>直徑 $20$ 公分的圓，圓面積約多少平方公分？（$\\pi \\approx 3.14$）</p><p>A. $約 31.4$</p><p>B. $約 62.8$</p><p>C. $約 314$</p><p>D. $約 1256$</p>",
+          "answer": "C",
+          "explanation": "<p>直徑 $20$ 公分 $\\Rightarrow$ 半徑 $r = 10$ 公分。$S = \\pi r^2 \\approx 3.14 \\times 10 \\times 10 = 3.14 \\times 100 = 314$ 平方公分。注意要用<strong>半徑</strong>不是直徑。答案 C。</p>"
+        },
+        {
+          "id": "g6a_ch4_1_q8",
+          "number": 8,
+          "type": "single_choice",
+          "content": "<p>一個半徑 $10$ 公分的半圓，周長約多少公分？（$\\pi \\approx 3.14$）</p><p>A. $約 31.4$ 公分</p><p>B. $約 41.4$ 公分</p><p>C. $約 51.4$ 公分</p><p>D. $約 62.8$ 公分</p>",
+          "answer": "C",
+          "explanation": "<p><strong>半圓周長 $=$ 半圓弧 $+$ 直徑</strong>。半圓弧 $= \\pi r \\approx 3.14 \\times 10 = 31.4$ 公分；直徑 $= 2r = 20$ 公分。合計 $31.4 + 20 = 51.4$ 公分。<strong>不要忘記加直徑</strong>。答案 C。</p>"
+        },
+        {
+          "id": "g6a_ch4_1_q9",
+          "number": 9,
+          "type": "single_choice",
+          "content": "<p>圓心角 $90^\\circ$、半徑 $6$ 公分的扇形面積約多少平方公分？（$\\pi \\approx 3.14$）</p><p>A. $約 9.42$</p><p>B. $約 14.13$</p><p>C. $約 18.84$</p><p>D. $約 28.26$</p>",
+          "answer": "D",
+          "explanation": "<p>$90^\\circ$ 扇形佔整圓的 $\\dfrac{1}{4}$。先算整圓面積 $\\pi r^2 \\approx 3.14 \\times 6 \\times 6 = 113.04$ 平方公分；扇形 $= 113.04 \\div 4 = 28.26$ 平方公分。答案 D。</p>"
+        },
+        {
+          "id": "g6a_ch4_1_q10",
+          "number": 10,
+          "type": "single_choice",
+          "content": "<p>腳踏車輪直徑 $50$ 公分，車輪滾 $100$ 圈，腳踏車前進約多少公尺？（$\\pi \\approx 3.14$）</p><p>A. $約 15.7$ 公尺</p><p>B. $約 157$ 公尺</p><p>C. $約 314$ 公尺</p><p>D. $約 1570$ 公尺</p>",
+          "answer": "B",
+          "explanation": "<p>輪子滾一圈前進距離 $=$ 圓周長 $\\approx 3.14 \\times 50 = 157$ 公分。滾 $100$ 圈 $= 157 \\times 100 = 15700$ 公分 $= 157$ 公尺（$100$ 公分 $= 1$ 公尺）。<strong>單位換算</strong>是常考點。答案 B。</p>"
+        },
+        {
+          "id": "g6a_ch4_1_q11",
+          "number": 11,
+          "type": "single_choice",
+          "content": "<p>甲圓半徑是乙圓半徑的 $3$ 倍，則甲圓面積是乙圓面積的幾倍？</p><p>A. $3$ 倍</p><p>B. $6$ 倍</p><p>C. $9$ 倍</p><p>D. $12$ 倍</p>",
+          "answer": "C",
+          "explanation": "<p>面積比 $=$ 半徑的平方比。半徑變 $3$ 倍，面積變 $3^2 = 9$ 倍。驗證：若乙 $r = 1$，面積 $= \\pi$；甲 $r = 3$，面積 $= 9\\pi$，倍數 $\\dfrac{9\\pi}{\\pi} = 9$ 倍。答案 C。</p>"
+        },
+        {
+          "id": "g6a_ch4_1_q12",
+          "number": 12,
+          "type": "single_choice",
+          "content": "<p>一個正方形邊長 $20$ 公分，內切一個最大的圓，這個圓的面積約多少平方公分？（$\\pi \\approx 3.14$）</p><p>A. $約 78.5$</p><p>B. $約 157$</p><p>C. $約 314$</p><p>D. $約 400$</p>",
+          "answer": "C",
+          "explanation": "<p>正方形<strong>內切圓</strong>的直徑 $=$ 正方形邊長 $= 20$ 公分，所以圓半徑 $r = 10$ 公分。圓面積 $= \\pi r^2 \\approx 3.14 \\times 10 \\times 10 = 314$ 平方公分。答案 C。</p>"
+        },
+        {
+          "id": "g6a_ch4_1_q13",
+          "number": 13,
+          "type": "single_choice",
+          "content": "<p>環狀面積：大圓半徑 $10$ 公分、小圓半徑 $6$ 公分，環狀（甜甜圈）面積約多少平方公分？（$\\pi \\approx 3.14$）</p><p>A. $約 12.56$</p><p>B. $約 100.48$</p><p>C. $約 200.96$</p><p>D. $約 314$</p>",
+          "answer": "C",
+          "explanation": "<p>環狀面積 $=$ 大圓面積 $-$ 小圓面積 $= \\pi \\times 10^2 - \\pi \\times 6^2 = \\pi(100 - 36) = 64\\pi \\approx 64 \\times 3.14 = 200.96$ 平方公分。<strong>$\\pi$ 提出先做整數相減</strong>較不易算錯。答案 C。</p>"
+        },
+        {
+          "id": "g6a_ch4_1_q14",
+          "number": 14,
+          "type": "single_choice",
+          "content": "<p>一條繩子長 $62.8$ 公分，圍成一個圓，這個圓的半徑約多少公分？（$\\pi \\approx 3.14$）</p><p>A. $約 5$ 公分</p><p>B. $約 10$ 公分</p><p>C. $約 20$ 公分</p><p>D. $約 31.4$ 公分</p>",
+          "answer": "B",
+          "explanation": "<p>繩長 $=$ 圓周長 $= 2\\pi r$。反求 $r = \\dfrac{周長}{2\\pi} = \\dfrac{62.8}{2 \\times 3.14} = \\dfrac{62.8}{6.28} = 10$ 公分。也可先求直徑 $= 62.8 \\div 3.14 = 20$，再除以 $2$ 得半徑 $10$ 公分。答案 B。</p>"
+        },
+        {
+          "id": "g6a_ch4_1_q15",
+          "number": 15,
+          "type": "single_choice",
+          "content": "<p>一個半圓的直徑為 $20$ 公分，半圓的面積約多少平方公分？（$\\pi \\approx 3.14$）</p><p>A. $約 31.4$</p><p>B. $約 78.5$</p><p>C. $約 157$</p><p>D. $約 314$</p>",
+          "answer": "C",
+          "explanation": "<p>直徑 $20$ 公分 $\\Rightarrow$ 半徑 $r = 10$ 公分。整圓面積 $\\pi r^2 \\approx 3.14 \\times 100 = 314$ 平方公分；半圓 $= 314 \\div 2 = 157$ 平方公分。<strong>半圓面積 $= \\dfrac{1}{2} \\pi r^2$</strong>。答案 C。</p>"
+        }
+      ]
+    }
+  ]
 }

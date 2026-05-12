@@ -1,5 +1,138 @@
 {
   "title": "小六下 3-2 放大縮小與比例尺",
-  "summary": "<h1>小六 — 放大縮小與比例尺　教學重點</h1>\n\n    <!-- 知識點 1 -->\n    <h2>知識點 1：放大圖與縮小圖</h2>\n\n    <h3>核心定義</h3>\n    <ul>\n      <li><strong>放大圖</strong>：把原圖按相同比率放大，每條邊都拉長相同倍數</li>\n      <li><strong>縮小圖</strong>：把原圖按相同比率縮小，每條邊都縮短相同倍數</li>\n      <li><strong>放大倍率</strong> = <code>放大圖邊長 ÷ 原圖對應邊長</code>（倍率 &gt; 1）</li>\n      <li><strong>縮小倍率</strong> = <code>縮小圖邊長 ÷ 原圖對應邊長</code>（倍率 &lt; 1，常寫成 1/2、1/3 等分數）</li>\n      <li>放大／縮小後的圖與原圖<strong>形狀完全相同</strong>，只是大小不同</li>\n    </ul>\n\n    <h3>重要結論</h3>\n    <ul>\n      <li><strong>對應邊長</strong>：每一條對應邊都按相同倍率變化</li>\n      <li><strong>對應角度</strong>：放大或縮小後，所有對應角度<strong>都不變</strong></li>\n      <li><strong>面積變化</strong>：長度倍率為 <code>n</code> 倍，面積會變成 <code>n²</code> 倍</li>\n    </ul>\n\n    <h3>常見考法／注意事項</h3>\n    <ul>\n      <li>判斷是否為放大／縮小圖：檢查<strong>所有對應邊</strong>是否同一個倍率，缺一不可</li>\n      <li>只放大長、不放大寬（或只放大一邊）→ <strong>不是</strong>放大圖</li>\n      <li>角度題目常問「放大後 ∠A 是幾度」→ 答案就是原圖 ∠A，倍率不影響角度</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 2 -->\n    <h2>知識點 2：面積與長度倍率的關係</h2>\n\n    <h3>核心公式</h3>\n    <ul>\n      <li>長度倍率 = <code>n</code> 倍 → <strong>面積倍率 = <code>n²</code> 倍</strong></li>\n      <li>長度倍率 = <code>1/n</code> 倍 → 面積倍率 = <code>1/n²</code> 倍</li>\n    </ul>\n\n    <h3>速查表</h3>\n    <table>\n      <thead>\n        <tr>\n          <th>長度倍率</th>\n          <th>面積倍率</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td>2 倍</td>\n          <td>4 倍</td>\n        </tr>\n        <tr>\n          <td>3 倍</td>\n          <td>9 倍</td>\n        </tr>\n        <tr>\n          <td>5 倍</td>\n          <td>25 倍</td>\n        </tr>\n        <tr>\n          <td>1/2 倍</td>\n          <td>1/4 倍</td>\n        </tr>\n        <tr>\n          <td>1/3 倍</td>\n          <td>1/9 倍</td>\n        </tr>\n      </tbody>\n    </table>\n\n    <h3>常見考法／注意事項</h3>\n    <ul>\n      <li><strong>最常見易錯點</strong>：邊長放大 3 倍 → 面積變 <strong>9 倍</strong>（不是 3 倍）</li>\n      <li>反向題：面積變 16 倍 → 邊長是原來 <strong>4 倍</strong>（開根號）</li>\n      <li>體積延伸（小六不一定教）：長度 <code>n</code> 倍 → 體積 <code>n³</code> 倍</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 3 -->\n    <h2>知識點 3：比例尺的定義與表示法</h2>\n\n    <h3>核心定義</h3>\n    <ul>\n      <li><strong>比例尺</strong> = <code>圖上距離 ∶ 實際距離</code></li>\n      <li>圖上距離與實際距離的單位要<strong>先化成相同單位</strong>再寫成比</li>\n      <li>比例尺的前項通常化成 <code>1</code>（如 <code>1∶100</code>、<code>1∶50000</code>）</li>\n    </ul>\n\n    <h3>三種表示法</h3>\n    <table>\n      <thead>\n        <tr>\n          <th>表示法</th>\n          <th>範例</th>\n          <th>說明</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td>數字比</td>\n          <td>1∶50000</td>\n          <td>圖上 1 單位 = 實際 50000 單位（單位相同）</td>\n        </tr>\n        <tr>\n          <td>文字說明</td>\n          <td>1 公分代表 5 公里</td>\n          <td>直接寫出圖上長度對應的實際長度</td>\n        </tr>\n        <tr>\n          <td>線段比例尺</td>\n          <td>├─────┤ 0 1 2 公里</td>\n          <td>圖上畫一條線，標示對應的實際距離</td>\n        </tr>\n      </tbody>\n    </table>\n\n    <h3>核心公式</h3>\n    <ul>\n      <li><strong>實際距離</strong> = <code>圖上距離 × 比例尺後項</code>（當比例尺為 <code>1∶n</code> 時）</li>\n      <li><strong>圖上距離</strong> = <code>實際距離 ÷ 比例尺後項</code></li>\n    </ul>\n\n    <h3>常見考法／注意事項</h3>\n    <ul>\n      <li><strong>單位換算最容易出錯</strong>：<code>1 公里 = 1000 公尺 = 100000 公分</code></li>\n      <li>計算前<strong>先統一單位</strong>，建議都換成公分再算</li>\n      <li>比例尺 <code>1∶50000</code> → 圖上 1 公分 = 實際 50000 公分 = 500 公尺 = <strong>0.5 公里</strong></li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 4 -->\n    <h2>知識點 4：比例尺的應用</h2>\n\n    <h3>核心應用情境</h3>\n    <ul>\n      <li><strong>地圖</strong>：台灣地圖、世界地圖、登山地圖（比例尺常為 <code>1∶25000</code> 或 <code>1∶50000</code>）</li>\n      <li><strong>平面圖</strong>：房屋格局圖、教室配置圖（比例尺常為 <code>1∶100</code> 或 <code>1∶50</code>）</li>\n      <li><strong>建築設計</strong>：建築藍圖、機械製圖（比例尺常為 <code>1∶100</code>、<code>1∶200</code>）</li>\n      <li><strong>模型製作</strong>：玩具車、火車模型（如 <code>1∶64</code>、<code>1∶87</code>）</li>\n    </ul>\n\n    <h3>由比例尺求實際距離（範例）</h3>\n    <ol>\n      <li>地圖比例尺 <code>1∶50000</code>，圖上量得 A、B 兩地相距 6 公分</li>\n      <li>實際距離 = <code>6 × 50000 = 300000</code> 公分</li>\n      <li>換算單位 = 3000 公尺 = <strong>3 公里</strong></li>\n    </ol>\n\n    <h3>由實際距離求圖上距離（範例）</h3>\n    <ol>\n      <li>比例尺 <code>1∶100</code>，房間實際長 8 公尺 = 800 公分</li>\n      <li>圖上長度 = <code>800 ÷ 100 = 8</code> 公分</li>\n    </ol>\n\n    <hr>\n\n    <!-- 常見題型 -->\n    <div class=\"exam-section\">\n      <h2>常見題型</h2>\n      <ol>\n        <li><strong>求放大／縮小倍率</strong>：給原圖與放大圖一組對應邊長，倍率 = <code>放大圖邊長 ÷ 原圖邊長</code>。</li>\n        <li><strong>求對應邊長</strong>：已知倍率 <code>n</code>，把原圖每邊乘 <code>n</code> 得放大圖；或用放大圖每邊除 <code>n</code> 還原。</li>\n        <li><strong>求面積比</strong>：長度倍率 <code>n</code> → 面積倍率 <code>n²</code>；反之面積倍率 <code>k</code> → 長度倍率 <code>√k</code>。</li>\n        <li><strong>角度題</strong>：放大／縮小後角度不變，直接抄原圖角度，倍率干擾項要識破。</li>\n        <li><strong>比例尺求實際距離</strong>：<code>圖上距離 × 後項</code>，注意最後<strong>單位換算</strong>（公分 → 公尺 → 公里）。</li>\n        <li><strong>比例尺求圖上距離</strong>：<code>實際距離 ÷ 後項</code>，先把實際距離換成與比例尺同單位。</li>\n        <li><strong>求比例尺</strong>：給圖上距離與實際距離各一，化成相同單位後寫成 <code>1∶n</code> 的比。</li>\n        <li><strong>線段比例尺判讀</strong>：依線段所標示的實際距離直接換算，不必另算後項。</li>\n      </ol>\n    </div>\n\n    <hr>\n\n    <!-- 易錯點 -->\n    <h2>易錯點整理</h2>\n    <ul>\n      <li><strong>面積倍率 ≠ 長度倍率</strong>：邊長 ×3，面積要 <strong>×9</strong>，不是 ×3</li>\n      <li><strong>單位不統一就算</strong>：寫比例尺 <code>1∶n</code> 前，前後兩項單位<strong>必須相同</strong></li>\n      <li><strong>公里 ↔ 公分換算</strong>：<code>1 公里 = 100000 公分</code>（五個 0），常少寫一個 0</li>\n      <li><strong>角度被倍率干擾</strong>：放大後角度不變，看到「放大 5 倍後 ∠A =？」答案就是原 ∠A</li>\n      <li><strong>只放大單邊不是放大圖</strong>：必須<strong>所有邊</strong>都同倍率才算</li>\n    </ul>\n\n    <hr>\n\n    <!-- 教材來源 -->\n    <h2>💡 教材來源說明</h2>\n    <ul>\n      <li>本章依台灣國小數學標準課綱整理，無對應影片逐字稿。</li>\n    </ul>",
-  "sections": []
+  "summary": "<ul><li><strong>放大圖與縮小圖</strong>：將原圖<strong>所有邊長</strong>按相同倍率放大或縮小所得的新圖。對應邊成比例、對應角不變、形狀相同（這也是「相似圖形」的概念）。例：長 $4$、寬 $3$ 的長方形放大 $2$ 倍，變成長 $8$、寬 $6$ 的長方形。</li><li><strong>放大倍率</strong>：新圖邊長 $\\div$ 原圖對應邊長。若倍率 $>1$ 為放大；倍率 $<1$ 為縮小。所有對應邊倍率必須相同，只放大一邊（如只變長）不算放大圖。</li><li><strong>角度不變</strong>：放大或縮小後，<strong>對應角度完全相同</strong>。看到「放大 $5$ 倍後 $\\angle A$ 等於多少」直接抄原圖角度，倍率是干擾項。</li><li><strong>面積變化</strong>：邊長放大 $n$ 倍 → 面積變成 $n \\times n = n^2$ 倍。例：邊長放大 $3$ 倍，面積變 $9$ 倍（不是 $3$ 倍）；反過來面積變 $16$ 倍，邊長變 $4$ 倍。</li><li><strong>比例尺</strong>：圖上距離 $\\colon$ 實際距離，常寫成 $1\\colon n$（前項為 $1$）。例如比例尺 $1\\colon 50000$ 表示圖上 $1$ 公分代表實際 $50000$ 公分 $= 500$ 公尺 $= 0.5$ 公里。寫比例尺前<strong>單位必須相同</strong>。</li><li><strong>比例尺三公式</strong>：實際距離 $=$ 圖上距離 $\\times n$；圖上距離 $=$ 實際距離 $\\div n$；比例尺 $=$ 圖上距離 $\\colon$ 實際距離（化成 $1\\colon n$）。單位換算：$1$ 公里 $= 1000$ 公尺 $= 100000$ 公分（五個 $0$，常少寫）。</li></ul>",
+  "sections": [
+    {
+      "type": "true_false",
+      "name": "是非題",
+      "questions": [
+        {
+          "id": "g6b_ch3_2_q1",
+          "number": 1,
+          "type": "true_false",
+          "content": "<p>把一個三角形的每一邊都放大成 $3$ 倍，所得三角形與原三角形形狀相同、對應角度也相同。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。放大圖的特性是<strong>對應邊成比例（相同倍率）、對應角不變</strong>。所以邊長放大 $3$ 倍後，三角形變成「相似」的放大圖，形狀完全相同，每個角度都跟原圖一樣。</p>"
+        },
+        {
+          "id": "g6b_ch3_2_q2",
+          "number": 2,
+          "type": "true_false",
+          "content": "<p>一個正方形邊長從 $4\\text{ cm}$ 放大成 $12\\text{ cm}$，面積變成原來的 $3$ 倍。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。邊長 $4 \\to 12$ 是放大 $3$ 倍，但<strong>面積要變成 $3 \\times 3 = 9$ 倍</strong>。檢驗：原面積 $= 4 \\times 4 = 16$，新面積 $= 12 \\times 12 = 144$，$144 \\div 16 = 9$ 倍 ✓。記住「邊長 $n$ 倍 → 面積 $n^2$ 倍」。</p>"
+        },
+        {
+          "id": "g6b_ch3_2_q3",
+          "number": 3,
+          "type": "true_false",
+          "content": "<p>比例尺 $1\\colon 1000$ 表示圖上 $1$ 公分代表實際 $1000$ 公分（也就是 $10$ 公尺）。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。比例尺 $1\\colon 1000$ 表示「圖上 $1$ 單位 $=$ 實際 $1000$ 單位」（前後項單位必須相同）。所以圖上 $1$ 公分 $=$ 實際 $1000$ 公分 $= 10$ 公尺。</p>"
+        },
+        {
+          "id": "g6b_ch3_2_q4",
+          "number": 4,
+          "type": "true_false",
+          "content": "<p>把一個長方形只把「長」放大 $2$ 倍、「寬」不變，所得的新長方形是原長方形的放大圖。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。放大圖必須<strong>所有對應邊都用相同倍率</strong>。只放大長、不放大寬，形狀會被「拉長」而走樣，新長方形跟原長方形不相似，所以<strong>不是</strong>放大圖。</p>"
+        },
+        {
+          "id": "g6b_ch3_2_q5",
+          "number": 5,
+          "type": "true_false",
+          "content": "<p>$1$ 公里等於 $100000$ 公分。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。$1$ 公里 $= 1000$ 公尺，$1$ 公尺 $= 100$ 公分，所以 $1$ 公里 $= 1000 \\times 100 = \\mathbf{100000}$ 公分（五個 $0$）。在算比例尺時，常常因少寫一個 $0$ 算錯，要小心。</p>"
+        }
+      ]
+    },
+    {
+      "type": "single_choice",
+      "name": "單選題",
+      "questions": [
+        {
+          "id": "g6b_ch3_2_q6",
+          "number": 6,
+          "type": "single_choice",
+          "content": "<p>把長 $5\\text{ cm}$、寬 $3\\text{ cm}$ 的長方形放大成原來的 $4$ 倍，新長方形的長和寬分別是？</p><p>A. 長 $9\\text{ cm}$、寬 $7\\text{ cm}$</p><p>B. 長 $20\\text{ cm}$、寬 $12\\text{ cm}$</p><p>C. 長 $9\\text{ cm}$、寬 $12\\text{ cm}$</p><p>D. 長 $20\\text{ cm}$、寬 $7\\text{ cm}$</p>",
+          "answer": "B",
+          "explanation": "<p>放大 $4$ 倍表示<strong>每一邊都乘以 $4$</strong>：長 $= 5 \\times 4 = 20\\text{ cm}$，寬 $= 3 \\times 4 = 12\\text{ cm}$。A 是邊長 $+4$（加法錯誤）。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch3_2_q7",
+          "number": 7,
+          "type": "single_choice",
+          "content": "<p>一個三角形的三邊長分別是 $6\\text{ cm}$、$8\\text{ cm}$、$10\\text{ cm}$，三個角分別是 $30^\\circ$、$60^\\circ$、$90^\\circ$。把它放大 $5$ 倍後，最大角是多少度？</p><p>A. $30^\\circ$</p><p>B. $60^\\circ$</p><p>C. $90^\\circ$</p><p>D. $450^\\circ$</p>",
+          "answer": "C",
+          "explanation": "<p>放大或縮小都<strong>不改變角度</strong>，只改變邊長。原三角形最大角 $= 90^\\circ$，放大 $5$ 倍後最大角還是 $\\mathbf{90^\\circ}$。D 是把 $90 \\times 5$（錯，倍率不乘到角度）。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch3_2_q8",
+          "number": 8,
+          "type": "single_choice",
+          "content": "<p>原圖某邊長 $4\\text{ cm}$，放大圖對應邊長 $24\\text{ cm}$，這張圖被放大成原圖的幾倍？</p><p>A. $3$ 倍</p><p>B. $5$ 倍</p><p>C. $6$ 倍</p><p>D. $8$ 倍</p>",
+          "answer": "C",
+          "explanation": "<p>放大倍率 $=$ 放大圖邊長 $\\div$ 原圖對應邊長 $= 24 \\div 4 = \\mathbf{6}$ 倍。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch3_2_q9",
+          "number": 9,
+          "type": "single_choice",
+          "content": "<p>把一個邊長 $6\\text{ cm}$ 的正方形放大為邊長 $18\\text{ cm}$ 的正方形，新正方形的面積是原來的幾倍？</p><p>A. $3$ 倍</p><p>B. $6$ 倍</p><p>C. $9$ 倍</p><p>D. $12$ 倍</p>",
+          "answer": "C",
+          "explanation": "<p>邊長從 $6 \\to 18$ 是放大 $3$ 倍。<strong>面積倍率 $=$ 長度倍率的平方 $= 3 \\times 3 = 9$ 倍</strong>。檢驗：原面積 $36$、新面積 $324$，$324 \\div 36 = 9$ ✓。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch3_2_q10",
+          "number": 10,
+          "type": "single_choice",
+          "content": "<p>把一個面積 $80\\text{ cm}^2$ 的圖形縮小，每邊縮成原來的 $\\dfrac{1}{2}$，縮小後的圖形面積是多少？</p><p>A. $40\\text{ cm}^2$</p><p>B. $20\\text{ cm}^2$</p><p>C. $10\\text{ cm}^2$</p><p>D. $160\\text{ cm}^2$</p>",
+          "answer": "B",
+          "explanation": "<p>邊長變 $\\dfrac{1}{2}$，<strong>面積變 $\\dfrac{1}{2} \\times \\dfrac{1}{2} = \\dfrac{1}{4}$ 倍</strong>，新面積 $= 80 \\times \\dfrac{1}{4} = \\mathbf{20}\\text{ cm}^2$。A 是只縮一半（錯）。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch3_2_q11",
+          "number": 11,
+          "type": "single_choice",
+          "content": "<p>地圖比例尺是 $1\\colon 50000$，圖上量得 A、B 兩地相距 $6$ 公分，A、B 兩地實際距離是多少公里？</p><p>A. $0.3$ 公里</p><p>B. $3$ 公里</p><p>C. $30$ 公里</p><p>D. $300$ 公里</p>",
+          "answer": "B",
+          "explanation": "<p>實際距離 $= 6 \\times 50000 = 300000$ 公分。<strong>換算單位：$300000$ 公分 $= 3000$ 公尺 $= 3$ 公里</strong>。換算時 $1$ 公里 $= 100000$ 公分（除以 $100000$）。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch3_2_q12",
+          "number": 12,
+          "type": "single_choice",
+          "content": "<p>一棟建築物實際長度 $40$ 公尺，畫在比例尺 $1\\colon 200$ 的平面圖上，圖上長度是多少公分？</p><p>A. $5$ 公分</p><p>B. $10$ 公分</p><p>C. $20$ 公分</p><p>D. $50$ 公分</p>",
+          "answer": "C",
+          "explanation": "<p>先統一單位：$40$ 公尺 $= 4000$ 公分。圖上長度 $=$ 實際距離 $\\div$ 後項 $= 4000 \\div 200 = \\mathbf{20}$ 公分。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch3_2_q13",
+          "number": 13,
+          "type": "single_choice",
+          "content": "<p>學校到圖書館實際距離 $800$ 公尺，畫在地圖上是 $4$ 公分，這張地圖的比例尺是多少？</p><p>A. $1\\colon 200$</p><p>B. $1\\colon 2000$</p><p>C. $1\\colon 20000$</p><p>D. $1\\colon 200000$</p>",
+          "answer": "C",
+          "explanation": "<p>先統一單位：$800$ 公尺 $= 80000$ 公分。比例尺 $=$ 圖上 $\\colon$ 實際 $= 4 \\colon 80000 = \\mathbf{1 \\colon 20000}$（同除以 $4$）。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch3_2_q14",
+          "number": 14,
+          "type": "single_choice",
+          "content": "<p>一張縮小圖是原圖的 $\\dfrac{1}{4}$，縮小圖的邊長 $5\\text{ cm}$，原圖對應邊長是多少？</p><p>A. $1.25\\text{ cm}$</p><p>B. $9\\text{ cm}$</p><p>C. $15\\text{ cm}$</p><p>D. $20\\text{ cm}$</p>",
+          "answer": "D",
+          "explanation": "<p>縮小成 $\\dfrac{1}{4}$ 表示縮小圖邊長 $=$ 原圖邊長 $\\times \\dfrac{1}{4}$，所以<strong>原圖邊長 $=$ 縮小圖邊長 $\\div \\dfrac{1}{4} =$ 縮小圖邊長 $\\times 4$</strong>，$5 \\times 4 = \\mathbf{20}\\text{ cm}$。A 是把它再縮成 $\\dfrac{1}{4}$（方向反了）。答案 D。</p>"
+        },
+        {
+          "id": "g6b_ch3_2_q15",
+          "number": 15,
+          "type": "single_choice",
+          "content": "<p>兩個相似的三角形，邊長比是 $2\\colon 5$，較小三角形的面積是 $12\\text{ cm}^2$，較大三角形的面積是多少？</p><p>A. $30\\text{ cm}^2$</p><p>B. $48\\text{ cm}^2$</p><p>C. $60\\text{ cm}^2$</p><p>D. $75\\text{ cm}^2$</p>",
+          "answer": "D",
+          "explanation": "<p>邊長比 $2\\colon 5$ → 面積比 $= 2 \\times 2 \\colon 5 \\times 5 = \\mathbf{4\\colon 25}$。設大三角形面積為 $S$，則 $\\dfrac{12}{S} = \\dfrac{4}{25}$，$S = 12 \\times \\dfrac{25}{4} = 3 \\times 25 = \\mathbf{75}\\text{ cm}^2$。答案 D。</p>"
+        }
+      ]
+    }
+  ]
 }

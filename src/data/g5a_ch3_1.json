@@ -1,5 +1,138 @@
 {
   "title": "小五上 3-1 異分母分數的加減",
-  "summary": "<div class=\"text-slate-500\"><p>本章節摘要待補。</p><p class=\"text-xs mt-2\">📝 將在後續補上完整教學重點。</p></div>",
-  "sections": []
+  "summary": "<ul><li><strong>同分母 vs 異分母</strong>：分母相同的分數叫<strong>同分母分數</strong>（可直接相加減：分母不變，分子相加減）；分母不同的分數叫<strong>異分母分數</strong>，必須先<strong>通分</strong>才能加減。</li><li><strong>通分</strong>：把不同分母的分數，化成<strong>相同分母</strong>的分數。最常見的方法是用兩分母的<strong>最小公倍數</strong>作為公分母。例：$\\dfrac{1}{2}$ 與 $\\dfrac{1}{3}$ 通分 → 公分母 $[2,3]=6$，得 $\\dfrac{3}{6}$ 與 $\\dfrac{2}{6}$。</li><li><strong>異分母分數加減步驟</strong>：① 找公分母（最小公倍數）；② 把兩分數都化為公分母分數；③ 分子相加減，分母不變；④ 結果若可<strong>約分</strong>就化為最簡分數；⑤ 假分數可化為帶分數。</li><li><strong>擴分</strong>：分子分母同乘以相同的數（不為 $0$），分數大小不變。例：$\\dfrac{1}{2} = \\dfrac{1 \\times 3}{2 \\times 3} = \\dfrac{3}{6}$。通分就是用擴分達成。</li><li><strong>帶分數加減</strong>：① 整數部分和分數部分分開算；② 分數部分需通分後相加減；③ 不夠減時，從整數借 $1$（變成 $\\dfrac{分母}{分母}$）給分數部分。</li><li><strong>檢驗答案</strong>：① 結果是否最簡分數（分子分母互質）；② 假分數是否化為帶分數；③ 是否合理（如 $\\dfrac{1}{2} + \\dfrac{1}{3}$ 應在 $\\dfrac{1}{2}$ 到 $1$ 之間）。</li></ul>",
+  "sections": [
+    {
+      "type": "true_false",
+      "name": "是非題",
+      "questions": [
+        {
+          "id": "g5a_ch3_1_q1",
+          "number": 1,
+          "type": "true_false",
+          "content": "<p>$\\dfrac{1}{2} + \\dfrac{1}{3} = \\dfrac{2}{5}$。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。異分母分數<strong>不可以直接把分子相加、分母相加</strong>。要先通分：$\\dfrac{1}{2} = \\dfrac{3}{6}$、$\\dfrac{1}{3} = \\dfrac{2}{6}$，所以 $\\dfrac{1}{2} + \\dfrac{1}{3} = \\dfrac{3}{6} + \\dfrac{2}{6} = \\dfrac{5}{6}$，不是 $\\dfrac{2}{5}$。</p>"
+        },
+        {
+          "id": "g5a_ch3_1_q2",
+          "number": 2,
+          "type": "true_false",
+          "content": "<p>分數 $\\dfrac{2}{3}$ 和 $\\dfrac{2 \\times 4}{3 \\times 4} = \\dfrac{8}{12}$ 一樣大。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。這就是<strong>擴分</strong>的原理：分子分母同乘以相同的數（不為 $0$），分數大小不變。$\\dfrac{2}{3} = \\dfrac{8}{12}$，等值分數。通分就是利用擴分把分母變相同。</p>"
+        },
+        {
+          "id": "g5a_ch3_1_q3",
+          "number": 3,
+          "type": "true_false",
+          "content": "<p>計算 $\\dfrac{5}{6} - \\dfrac{1}{4}$ 時，可以用 $24$ 當公分母。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。$6$ 和 $4$ 的公倍數有 $12, 24, 36, \\dots$，雖然<strong>最小公倍數是 $12$</strong>（最方便），但只要是兩者的公倍數都可以做公分母，$24$ 也可以，只是算完要記得約分。</p>"
+        },
+        {
+          "id": "g5a_ch3_1_q4",
+          "number": 4,
+          "type": "true_false",
+          "content": "<p>$\\dfrac{3}{4} + \\dfrac{1}{12} = \\dfrac{10}{12}$。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。雖然算出 $\\dfrac{3}{4} = \\dfrac{9}{12}$，所以 $\\dfrac{9}{12} + \\dfrac{1}{12} = \\dfrac{10}{12}$ 的計算過程沒錯，但 $\\dfrac{10}{12}$ 可以<strong>約分</strong>為 $\\dfrac{5}{6}$。標準答案應寫最簡分數 $\\dfrac{5}{6}$。</p>"
+        },
+        {
+          "id": "g5a_ch3_1_q5",
+          "number": 5,
+          "type": "true_false",
+          "content": "<p>計算 $2\\dfrac{1}{4} - \\dfrac{3}{4}$ 時，要從整數部分借 $1$ 給分數。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。$2\\dfrac{1}{4}$ 的分數部分 $\\dfrac{1}{4}$ 比 $\\dfrac{3}{4}$ 小，不夠減。<strong>從整數借 $1$</strong>：$2\\dfrac{1}{4} = 1 + 1 + \\dfrac{1}{4} = 1 + \\dfrac{4}{4} + \\dfrac{1}{4} = 1\\dfrac{5}{4}$。再算 $1\\dfrac{5}{4} - \\dfrac{3}{4} = 1\\dfrac{2}{4} = 1\\dfrac{1}{2}$。</p>"
+        }
+      ]
+    },
+    {
+      "type": "single_choice",
+      "name": "單選題",
+      "questions": [
+        {
+          "id": "g5a_ch3_1_q6",
+          "number": 6,
+          "type": "single_choice",
+          "content": "<p>$\\dfrac{1}{2} + \\dfrac{1}{3} = ?$</p><p>A. $\\dfrac{2}{5}$</p><p>B. $\\dfrac{5}{6}$</p><p>C. $\\dfrac{1}{5}$</p><p>D. $\\dfrac{2}{6}$</p>",
+          "answer": "B",
+          "explanation": "<p>$2$ 和 $3$ 的最小公倍數是 $6$，<strong>通分</strong>：$\\dfrac{1}{2} = \\dfrac{3}{6}$、$\\dfrac{1}{3} = \\dfrac{2}{6}$。相加：$\\dfrac{3}{6} + \\dfrac{2}{6} = \\dfrac{5}{6}$。$\\dfrac{5}{6}$ 已是最簡分數。答案 B。</p>"
+        },
+        {
+          "id": "g5a_ch3_1_q7",
+          "number": 7,
+          "type": "single_choice",
+          "content": "<p>計算 $\\dfrac{3}{4} - \\dfrac{1}{6}$ 時，最方便的公分母是？</p><p>A. $10$</p><p>B. $12$</p><p>C. $24$</p><p>D. $48$</p>",
+          "answer": "B",
+          "explanation": "<p>找 $4$ 和 $6$ 的<strong>最小公倍數</strong>。$4 = 2 \\times 2$、$6 = 2 \\times 3$，$[4,6] = 2 \\times 2 \\times 3 = \\mathbf{12}$。$24, 48$ 也是公倍數但不是最小，會多算一步約分。答案 B。</p>"
+        },
+        {
+          "id": "g5a_ch3_1_q8",
+          "number": 8,
+          "type": "single_choice",
+          "content": "<p>$\\dfrac{3}{4} - \\dfrac{1}{6} = ?$</p><p>A. $\\dfrac{2}{10}$</p><p>B. $\\dfrac{7}{12}$</p><p>C. $\\dfrac{1}{2}$</p><p>D. $\\dfrac{5}{6}$</p>",
+          "answer": "B",
+          "explanation": "<p>公分母 $12$：$\\dfrac{3}{4} = \\dfrac{9}{12}$、$\\dfrac{1}{6} = \\dfrac{2}{12}$。相減：$\\dfrac{9}{12} - \\dfrac{2}{12} = \\dfrac{7}{12}$。$7$ 和 $12$ 互質，已是最簡。答案 B。</p>"
+        },
+        {
+          "id": "g5a_ch3_1_q9",
+          "number": 9,
+          "type": "single_choice",
+          "content": "<p>$\\dfrac{5}{8} + \\dfrac{1}{4} = ?$</p><p>A. $\\dfrac{6}{12}$</p><p>B. $\\dfrac{6}{8}$</p><p>C. $\\dfrac{7}{8}$</p><p>D. $\\dfrac{3}{4}$</p>",
+          "answer": "C",
+          "explanation": "<p>$4$ 和 $8$ 的最小公倍數是 $8$（$8$ 本身就是 $4$ 的倍數）。$\\dfrac{1}{4} = \\dfrac{2}{8}$，所以 $\\dfrac{5}{8} + \\dfrac{2}{8} = \\dfrac{7}{8}$。已是最簡分數。答案 C。</p>"
+        },
+        {
+          "id": "g5a_ch3_1_q10",
+          "number": 10,
+          "type": "single_choice",
+          "content": "<p>$1\\dfrac{2}{3} + \\dfrac{1}{6} = ?$</p><p>A. $1\\dfrac{3}{9}$</p><p>B. $1\\dfrac{5}{6}$</p><p>C. $2\\dfrac{1}{6}$</p><p>D. $\\dfrac{11}{6}$</p>",
+          "answer": "B",
+          "explanation": "<p>整數部分 $1$ 保留，分數部分通分：$\\dfrac{2}{3} = \\dfrac{4}{6}$，$\\dfrac{4}{6} + \\dfrac{1}{6} = \\dfrac{5}{6}$。合起來 $1\\dfrac{5}{6}$。雖然 D. $\\dfrac{11}{6}$ 也等於 $1\\dfrac{5}{6}$，但帶分數寫法為 $\\mathbf{1\\dfrac{5}{6}}$。答案 B。</p>"
+        },
+        {
+          "id": "g5a_ch3_1_q11",
+          "number": 11,
+          "type": "single_choice",
+          "content": "<p>一條繩子原長 $\\dfrac{7}{8}$ 公尺，剪掉 $\\dfrac{1}{2}$ 公尺，還剩多少公尺？</p><p>A. $\\dfrac{3}{8}$ 公尺</p><p>B. $\\dfrac{6}{8}$ 公尺</p><p>C. $\\dfrac{1}{4}$ 公尺</p><p>D. $\\dfrac{1}{2}$ 公尺</p>",
+          "answer": "A",
+          "explanation": "<p>剩下 $=$ 原長 $-$ 剪掉 $= \\dfrac{7}{8} - \\dfrac{1}{2}$。通分（公分母 $8$）：$\\dfrac{1}{2} = \\dfrac{4}{8}$。$\\dfrac{7}{8} - \\dfrac{4}{8} = \\dfrac{3}{8}$ 公尺。答案 A。</p>"
+        },
+        {
+          "id": "g5a_ch3_1_q12",
+          "number": 12,
+          "type": "single_choice",
+          "content": "<p>$\\dfrac{2}{3} + \\dfrac{1}{4} + \\dfrac{1}{6} = ?$</p><p>A. $\\dfrac{4}{13}$</p><p>B. $\\dfrac{13}{12}$</p><p>C. $1\\dfrac{1}{12}$</p><p>D. $1\\dfrac{1}{6}$</p>",
+          "answer": "C",
+          "explanation": "<p>三個分母的最小公倍數：$[3,4,6] = 12$。通分：$\\dfrac{2}{3} = \\dfrac{8}{12}$、$\\dfrac{1}{4} = \\dfrac{3}{12}$、$\\dfrac{1}{6} = \\dfrac{2}{12}$。相加：$\\dfrac{8+3+2}{12} = \\dfrac{13}{12} = 1\\dfrac{1}{12}$。答案 C。</p>"
+        },
+        {
+          "id": "g5a_ch3_1_q13",
+          "number": 13,
+          "type": "single_choice",
+          "content": "<p>$3 - \\dfrac{2}{5} = ?$</p><p>A. $2\\dfrac{3}{5}$</p><p>B. $2\\dfrac{2}{5}$</p><p>C. $\\dfrac{1}{5}$</p><p>D. $3\\dfrac{2}{5}$</p>",
+          "answer": "A",
+          "explanation": "<p>$3 = 2 + 1 = 2 + \\dfrac{5}{5} = 2\\dfrac{5}{5}$（從整數借 $1$ 化為 $\\dfrac{5}{5}$）。再減：$2\\dfrac{5}{5} - \\dfrac{2}{5} = 2\\dfrac{3}{5}$。答案 A。</p>"
+        },
+        {
+          "id": "g5a_ch3_1_q14",
+          "number": 14,
+          "type": "single_choice",
+          "content": "<p>$2\\dfrac{1}{4} - 1\\dfrac{2}{3} = ?$</p><p>A. $1\\dfrac{1}{12}$</p><p>B. $\\dfrac{7}{12}$</p><p>C. $1\\dfrac{5}{12}$</p><p>D. $\\dfrac{5}{12}$</p>",
+          "answer": "B",
+          "explanation": "<p>先通分（公分母 $12$）：$2\\dfrac{1}{4} = 2\\dfrac{3}{12}$、$1\\dfrac{2}{3} = 1\\dfrac{8}{12}$。分數部分 $\\dfrac{3}{12} < \\dfrac{8}{12}$ 不夠減，<strong>借 $1$</strong>：$2\\dfrac{3}{12} = 1\\dfrac{15}{12}$。$1\\dfrac{15}{12} - 1\\dfrac{8}{12} = 0\\dfrac{7}{12} = \\dfrac{7}{12}$。答案 B。</p>"
+        },
+        {
+          "id": "g5a_ch3_1_q15",
+          "number": 15,
+          "type": "single_choice",
+          "content": "<p>小明喝了一瓶飲料的 $\\dfrac{1}{3}$，小華喝了同一瓶的 $\\dfrac{2}{5}$，兩人共喝了多少？</p><p>A. $\\dfrac{3}{8}$</p><p>B. $\\dfrac{2}{15}$</p><p>C. $\\dfrac{11}{15}$</p><p>D. $\\dfrac{3}{15}$</p>",
+          "answer": "C",
+          "explanation": "<p>共喝 $= \\dfrac{1}{3} + \\dfrac{2}{5}$。$[3,5] = 15$ 為公分母。$\\dfrac{1}{3} = \\dfrac{5}{15}$、$\\dfrac{2}{5} = \\dfrac{6}{15}$。相加：$\\dfrac{5+6}{15} = \\dfrac{11}{15}$。$11$ 和 $15$ 互質，已最簡。答案 C。</p>"
+        }
+      ]
+    }
+  ]
 }

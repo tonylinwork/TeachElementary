@@ -1,5 +1,138 @@
 {
   "title": "小四下 4-1 容量與重量",
-  "summary": "<div class=\"text-slate-500\"><p>本章節摘要待補。</p><p class=\"text-xs mt-2\">📝 將在後續補上完整教學重點。</p></div>",
-  "sections": []
+  "summary": "<ul><li><strong>容量單位</strong>：常用單位有<strong>公升（L）</strong>和<strong>毫升（mL）</strong>。$1$ 公升 $= 1000$ 毫升，即 $1\\text{ L} = 1000\\text{ mL}$。容量是「容器能裝多少液體」。</li><li><strong>重量單位</strong>：常用單位有<strong>公斤（kg）</strong>、<strong>公克（g）</strong>。$1$ 公斤 $= 1000$ 公克，即 $1\\text{ kg} = 1000\\text{ g}$。較大的單位有公噸（$1$ 公噸 $= 1000$ 公斤）。</li><li><strong>單位換算技巧</strong>：大單位換小單位 → <strong>乘 $1000$</strong>（例：$2\\text{ kg} = 2 \\times 1000 = 2000\\text{ g}$）；小單位換大單位 → <strong>除 $1000$</strong>（例：$2500\\text{ mL} = 2500 \\div 1000 = 2.5\\text{ L}$）。</li><li><strong>複名數表示法</strong>：可寫成「幾單位幾單位」。例：$2350\\text{ g} = 2\\text{ kg } 350\\text{ g}$；$1500\\text{ mL} = 1\\text{ L } 500\\text{ mL}$。計算時通常先換成<strong>同一單位</strong>再運算。</li><li><strong>加減運算</strong>：同單位才能直接加減。$3$ 公斤 $200$ 公克 $+ 1$ 公斤 $500$ 公克 $= 4$ 公斤 $700$ 公克。若公克部分超過 $1000$，要進位成 $1$ 公斤；不夠減時要從公斤借 $1$ 變 $1000$ 公克。</li><li><strong>實際估量</strong>：一杯水約 $200\\text{ mL}$；一瓶礦泉水約 $600\\text{ mL}$；一個雞蛋約 $60\\text{ g}$；一個西瓜約 $5\\text{ kg}$；小四生體重約 $30\\text{ kg}$。培養對單位大小的直覺。</li></ul>",
+  "sections": [
+    {
+      "type": "true_false",
+      "name": "是非題",
+      "questions": [
+        {
+          "id": "g4b_ch4_1_q1",
+          "number": 1,
+          "type": "true_false",
+          "content": "<p>$1$ 公升等於 $1000$ 毫升。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。$1\\text{ L} = 1000\\text{ mL}$ 是容量基本換算。日常例：一瓶 $600\\text{ mL}$ 的礦泉水，約 $\\dfrac{600}{1000} = 0.6$ 公升；一桶 $2$ 公升的牛奶 $= 2000$ 毫升。</p>"
+        },
+        {
+          "id": "g4b_ch4_1_q2",
+          "number": 2,
+          "type": "true_false",
+          "content": "<p>$3$ 公斤比 $3000$ 公克重。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。$1\\text{ kg} = 1000\\text{ g}$，所以 $3\\text{ kg} = 3 \\times 1000 = 3000\\text{ g}$，兩者<strong>一樣重</strong>，不是其中一個比較重。只是單位寫法不同。</p>"
+        },
+        {
+          "id": "g4b_ch4_1_q3",
+          "number": 3,
+          "type": "true_false",
+          "content": "<p>$2500$ 毫升換算成公升是 $2.5$ 公升。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。毫升換公升要<strong>除以 $1000$</strong>：$2500 \\div 1000 = 2.5$ 公升。也可寫成複名數 $2$ 公升 $500$ 毫升。記住：小單位換大單位用除法。</p>"
+        },
+        {
+          "id": "g4b_ch4_1_q4",
+          "number": 4,
+          "type": "true_false",
+          "content": "<p>$1$ 公斤 $300$ 公克 $+ 2$ 公斤 $800$ 公克 $= 3$ 公斤 $1100$ 公克。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。雖然算到 $3$ 公斤 $1100$ 公克，但<strong>公克部分超過 $1000$ 要進位</strong>。$1100$ 公克 $= 1$ 公斤 $100$ 公克，所以正確答案是 $3+1 = 4$ 公斤 $100$ 公克。</p>"
+        },
+        {
+          "id": "g4b_ch4_1_q5",
+          "number": 5,
+          "type": "true_false",
+          "content": "<p>一個雞蛋的重量大約是 $6$ 公斤。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。$6$ 公斤大約是一個大西瓜或十幾顆雞蛋的總重。一個雞蛋實際重量大約是 $\\mathbf{60}$ 公克（不到 $\\dfrac{1}{10}$ 公斤）。要培養對單位大小的直覺，避免單位混淆。</p>"
+        }
+      ]
+    },
+    {
+      "type": "single_choice",
+      "name": "單選題",
+      "questions": [
+        {
+          "id": "g4b_ch4_1_q6",
+          "number": 6,
+          "type": "single_choice",
+          "content": "<p>$5$ 公升等於多少毫升？</p><p>A. $50$ mL</p><p>B. $500$ mL</p><p>C. $5000$ mL</p><p>D. $50000$ mL</p>",
+          "answer": "C",
+          "explanation": "<p>大單位換小單位用<strong>乘法</strong>：$1\\text{ L} = 1000\\text{ mL}$，所以 $5\\text{ L} = 5 \\times 1000 = \\mathbf{5000}\\text{ mL}$。答案 C。</p>"
+        },
+        {
+          "id": "g4b_ch4_1_q7",
+          "number": 7,
+          "type": "single_choice",
+          "content": "<p>$4000$ 公克等於多少公斤？</p><p>A. $0.4$ kg</p><p>B. $4$ kg</p><p>C. $40$ kg</p><p>D. $400$ kg</p>",
+          "answer": "B",
+          "explanation": "<p>小單位換大單位用<strong>除法</strong>：$1000\\text{ g} = 1\\text{ kg}$，所以 $4000 \\div 1000 = \\mathbf{4}$ 公斤。答案 B。</p>"
+        },
+        {
+          "id": "g4b_ch4_1_q8",
+          "number": 8,
+          "type": "single_choice",
+          "content": "<p>$2$ 公升 $350$ 毫升等於多少毫升？</p><p>A. $2350$ mL</p><p>B. $2035$ mL</p><p>C. $352$ mL</p><p>D. $23500$ mL</p>",
+          "answer": "A",
+          "explanation": "<p>先把公升換成毫升：$2\\text{ L} = 2000\\text{ mL}$，再加上 $350\\text{ mL}$ → $2000 + 350 = \\mathbf{2350}$ 毫升。複名數合單位的標準作法。答案 A。</p>"
+        },
+        {
+          "id": "g4b_ch4_1_q9",
+          "number": 9,
+          "type": "single_choice",
+          "content": "<p>一桶水 $3$ 公升 $400$ 毫升，倒掉 $1$ 公升 $200$ 毫升後，還剩多少？</p><p>A. $2$ L $200$ mL</p><p>B. $4$ L $600$ mL</p><p>C. $2$ L $600$ mL</p><p>D. $1$ L $200$ mL</p>",
+          "answer": "A",
+          "explanation": "<p>同單位相減：公升 $3 - 1 = 2$ 公升；毫升 $400 - 200 = 200$ 毫升。所以剩 $\\mathbf{2}$ 公升 $\\mathbf{200}$ 毫升。也可全換成毫升：$3400 - 1200 = 2200\\text{ mL} = 2\\text{ L } 200\\text{ mL}$。答案 A。</p>"
+        },
+        {
+          "id": "g4b_ch4_1_q10",
+          "number": 10,
+          "type": "single_choice",
+          "content": "<p>$2$ 公斤 $300$ 公克 $+ 1$ 公斤 $850$ 公克 $= ?$</p><p>A. $3$ kg $1150$ g</p><p>B. $4$ kg $150$ g</p><p>C. $3$ kg $150$ g</p><p>D. $4$ kg $1150$ g</p>",
+          "answer": "B",
+          "explanation": "<p>同單位相加：公克 $300 + 850 = 1150$ 公克，<strong>超過 $1000$ 要進位</strong>，$1150 = 1$ 公斤 $150$ 公克。公斤 $2 + 1 + 1 = 4$ 公斤，加上剩餘 $150$ 公克。答案 $\\mathbf{4}$ 公斤 $\\mathbf{150}$ 公克。答案 B。</p>"
+        },
+        {
+          "id": "g4b_ch4_1_q11",
+          "number": 11,
+          "type": "single_choice",
+          "content": "<p>下列哪一個重量最重？</p><p>A. $1500$ 公克</p><p>B. $1$ 公斤 $400$ 公克</p><p>C. $2$ 公斤</p><p>D. $980$ 公克</p>",
+          "answer": "C",
+          "explanation": "<p>全換成公克再比較：A. $1500$ g；B. $1\\text{ kg } 400\\text{ g} = 1400$ g；C. $2\\text{ kg} = 2000$ g；D. $980$ g。最大的是 $\\mathbf{2000}$ g $= 2$ 公斤。<strong>單位不同時，務必先換成相同單位再比較</strong>。答案 C。</p>"
+        },
+        {
+          "id": "g4b_ch4_1_q12",
+          "number": 12,
+          "type": "single_choice",
+          "content": "<p>媽媽買了 $5$ 瓶果汁，每瓶 $750$ 毫升，共多少公升？</p><p>A. $3.75$ 公升</p><p>B. $37.5$ 公升</p><p>C. $0.375$ 公升</p><p>D. $3750$ 公升</p>",
+          "answer": "A",
+          "explanation": "<p>先算總毫升：$750 \\times 5 = 3750$ 毫升。再換成公升：$3750 \\div 1000 = \\mathbf{3.75}$ 公升（也可寫 $3$ 公升 $750$ 毫升）。答案 A。</p>"
+        },
+        {
+          "id": "g4b_ch4_1_q13",
+          "number": 13,
+          "type": "single_choice",
+          "content": "<p>一個西瓜重 $5$ 公斤 $200$ 公克，一個鳳梨重 $1$ 公斤 $800$ 公克，西瓜比鳳梨重多少？</p><p>A. $3$ kg $400$ g</p><p>B. $4$ kg $400$ g</p><p>C. $3$ kg $600$ g</p><p>D. $7$ kg</p>",
+          "answer": "A",
+          "explanation": "<p>求差用減法：$5\\text{ kg }200\\text{ g} - 1\\text{ kg }800\\text{ g}$。公克部分 $200 - 800$ 不夠減，向公斤<strong>借 $1$ 公斤 $= 1000$ 公克</strong>：公斤剩 $4$，公克變 $1200$。$1200 - 800 = 400$ g；公斤 $4 - 1 = 3$ kg。得 $\\mathbf{3}$ 公斤 $\\mathbf{400}$ 公克。答案 A。</p>"
+        },
+        {
+          "id": "g4b_ch4_1_q14",
+          "number": 14,
+          "type": "single_choice",
+          "content": "<p>下列哪一個物品的重量最接近 $1$ 公斤？</p><p>A. 一顆紅豆</p><p>B. 一本國語課本</p><p>C. 一台冰箱</p><p>D. 一隻成年大象</p>",
+          "answer": "B",
+          "explanation": "<p>估量：A. 紅豆約 $0.1$ g（極輕）；B. 國語課本約 $500$ g $\\sim 1$ kg（<strong>最接近 $1$ kg</strong>）；C. 冰箱約 $50$ 公斤；D. 大象可達 $5000$ 公斤以上。培養生活中對重量的直覺。答案 B。</p>"
+        },
+        {
+          "id": "g4b_ch4_1_q15",
+          "number": 15,
+          "type": "single_choice",
+          "content": "<p>一桶油有 $20$ 公升，每天用 $250$ 毫升，可以用幾天？</p><p>A. $8$ 天</p><p>B. $50$ 天</p><p>C. $80$ 天</p><p>D. $500$ 天</p>",
+          "answer": "C",
+          "explanation": "<p>單位要先統一。$20$ 公升 $= 20 \\times 1000 = 20000$ 毫升。可用天數 $= 20000 \\div 250 = \\mathbf{80}$ 天。<strong>不同單位要先換成同一單位</strong>才能相除。答案 C。</p>"
+        }
+      ]
+    }
+  ]
 }

@@ -1,5 +1,138 @@
 {
   "title": "小六下 3-1 速率",
-  "summary": "<h1>小六　速率　教學重點</h1>\n\n    <!-- 知識點 1 -->\n    <h2>知識點 1：速率的定義與「神奇寶貝球」公式</h2>\n\n    <h3>核心定義</h3>\n    <ul>\n      <li><strong>速率</strong> = 單位時間內所走的距離</li>\n      <li>例：1 秒能跑幾公分、1 分鐘能跑幾公尺、1 小時能跑幾公里都叫速率</li>\n      <li>公式：<strong>速率 = 距離 ÷ 時間</strong></li>\n    </ul>\n\n    <h3>神奇寶貝球記憶法</h3>\n    <ul>\n      <li>上面放<strong>距離</strong>，下面放<strong>時間</strong>跟<strong>速率</strong></li>\n      <li><strong>上下關係相除、左右關係相乘</strong></li>\n      <li>遮起來要求的量，剩下就是算式：\n        <ul>\n          <li>遮速率 → <code>速率 = 距離 ÷ 時間</code></li>\n          <li>遮時間 → <code>時間 = 距離 ÷ 速率</code></li>\n          <li>遮距離 → <code>距離 = 速率 × 時間</code></li>\n        </ul>\n      </li>\n      <li><strong>公式可以不用硬背</strong>，看單位就能推：單位本身就是公式（公尺 ÷ 秒 = 公尺/秒 = 速率）</li>\n    </ul>\n\n    <h3>距離、速率、時間的比例關係（延伸）</h3>\n    <ul>\n      <li><strong>距離固定</strong> → 速率與時間<strong>成反比</strong>（跑越快，時間越短）</li>\n      <li><strong>速率固定</strong> → 距離與時間<strong>成正比</strong></li>\n      <li>口訣：等號<strong>兩邊</strong>成正比、等號<strong>同一邊</strong>成反比</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 2 -->\n    <h2>知識點 2：單位換算</h2>\n\n    <h3>常用換算</h3>\n    <ul>\n      <li>1 分鐘 = <code>60</code> 秒</li>\n      <li>1 小時 = <code>60</code> 分鐘 = <code>3600</code> 秒</li>\n      <li>1 天 = <code>24</code> 小時 = <code>86400</code> 秒</li>\n      <li>1 公里 = <code>1000</code> 公尺</li>\n      <li><strong>36 公里/小時 = 10 公尺/秒</strong>（時速 36 換算秒速正好 10 倍，要記住）</li>\n    </ul>\n\n    <h3>操作流程</h3>\n    <ol>\n      <li><strong>先處理下面的時間單位</strong>（秒 ↔ 分 ↔ 時）</li>\n      <li><strong>再處理上面的長度單位</strong>（公分 ↔ 公尺 ↔ 公里）</li>\n      <li>看題目要求的最終單位，統一換到那個單位</li>\n    </ol>\n\n    <h3>範例：5 公分/秒 一路換算</h3>\n    <table>\n      <thead>\n        <tr>\n          <th>起點</th>\n          <th>過程</th>\n          <th>結果</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td>5 cm/秒</td>\n          <td>× 60（秒 → 分）</td>\n          <td>300 cm/分</td>\n        </tr>\n        <tr>\n          <td>300 cm/分</td>\n          <td>÷ 100（cm → m）</td>\n          <td>3 m/分</td>\n        </tr>\n        <tr>\n          <td>3 m/分</td>\n          <td>× 60（分 → 時）</td>\n          <td>180 m/時</td>\n        </tr>\n        <tr>\n          <td>180 m/時</td>\n          <td>÷ 1000（m → km）</td>\n          <td>0.18 km/時</td>\n        </tr>\n      </tbody>\n    </table>\n\n    <h3>比大小常見題型</h3>\n    <ul>\n      <li>給三個不同單位的速率（每秒 X 公分、每分 Y 公尺、每時 Z 公里）要比快慢</li>\n      <li><strong>先全部換到相同時間單位</strong>（個人習慣換成「每分鐘公尺」），再比較數字大小</li>\n      <li>另一種反向考法：同距離下，<strong>時間越短的越快</strong></li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 3 -->\n    <h2>知識點 3：平均速率</h2>\n\n    <h3>核心定義</h3>\n    <ul>\n      <li><strong>平均速率 = 總距離 ÷ 總時間</strong></li>\n      <li><strong>不是</strong>兩個速率相加除以 2（這是錯誤答案，老師強調超容易踩雷）</li>\n    </ul>\n\n    <h3>應用題兩大注意事項</h3>\n    <ol>\n      <li><strong>來回</strong>：題目說「沿原路回來」表示去回距離相同，<strong>總距離要 × 2</strong></li>\n      <li><strong>單位統一</strong>：時間單位（秒/分/時）跟距離單位都要先統一再代公式</li>\n    </ol>\n\n    <h3>範例：兩段不同速率求平均</h3>\n    <p>某人從甲到乙花 40 分鐘、速率 60 公里/時；從乙到丙花 1.2 小時、速率 50 公里/時，求全程平均速率。</p>\n    <ol>\n      <li>第一段距離 = <code>60 × (40/60) = 60 × 2/3 = 40 公里</code></li>\n      <li>第二段距離 = <code>50 × 1.2 = 60 公里</code></li>\n      <li>總距離 = <code>40 + 60 = 100 公里</code></li>\n      <li>總時間 = <code>2/3 + 6/5 = 10/15 + 18/15 = 28/15 小時</code></li>\n      <li>平均速率 = <code>100 ÷ 28/15 = 1500/28 = 53 又 4/7 公里/時</code></li>\n    </ol>\n\n    <h3>範例：上山下山求平均</h3>\n    <p>長 12 公里的山路，上山 3 公里/時、下山 4 公里/時，求平均速率。</p>\n    <ol>\n      <li>上山時間 = <code>12 ÷ 3 = 4 小時</code></li>\n      <li>下山時間 = <code>12 ÷ 4 = 3 小時</code></li>\n      <li>平均速率 = <code>(12 + 12) ÷ (4 + 3) = 24/7 公里/時</code>（≠ (3+4)/2 = 3.5）</li>\n    </ol>\n\n    <hr>\n\n    <!-- 知識點 4 -->\n    <h2>知識點 4：順流與逆流</h2>\n\n    <h3>核心公式</h3>\n    <ul>\n      <li><strong>順流速率 = 船速 + 水速</strong>（水流方向跟船相同，水推著船走）</li>\n      <li><strong>逆流速率 = 船速 − 水速</strong>（水擋著船，所以慢）</li>\n      <li><strong>前提</strong>：船速必須 &gt; 水速，否則「不進則退」會被沖走</li>\n    </ul>\n\n    <h3>範例：求逆流多花的時間</h3>\n    <p>全長 360 公里的河道，順水航行需要 12 小時，水速 6 公里/時，求逆流花的時間比順流多幾小時。</p>\n    <ol>\n      <li>順流速率 = <code>360 ÷ 12 = 30 公里/時</code></li>\n      <li>船速 = <code>30 − 6 = 24 公里/時</code></li>\n      <li>逆流速率 = <code>24 − 6 = 18 公里/時</code></li>\n      <li>逆流時間 = <code>360 ÷ 18 = 20 小時</code></li>\n      <li>比順流多 = <code>20 − 12 = 8 小時</code></li>\n    </ol>\n\n    <hr>\n\n    <!-- 知識點 5 -->\n    <h2>知識點 5：追趕與相遇（同向／反向）</h2>\n\n    <h3>核心結論</h3>\n    <ul>\n      <li><strong>同向（追趕）→ 速率差</strong>（速率相減）</li>\n      <li><strong>反向（相遇或漸行漸遠）→ 速率和</strong>（速率相加）</li>\n      <li>追趕問題前提：後面的人速率必須比較快才追得到，否則漸行漸遠</li>\n    </ul>\n\n    <h3>核心公式</h3>\n    <ul>\n      <li>追到時間 = <code>兩人距離 ÷ 速率差</code></li>\n      <li>相遇時間 = <code>兩人距離 ÷ 速率和</code></li>\n    </ul>\n\n    <h3>範例：強強跟大雄追趕</h3>\n    <p>強強 115 公尺/分鐘出發，6 分鐘後大雄 145 公尺/分鐘出發追他，問大雄幾分鐘追到。</p>\n    <ol>\n      <li>強強先跑的距離 = <code>115 × 6 = 690 公尺</code>（這就是出發時相距）</li>\n      <li>速率差 = <code>145 − 115 = 30 公尺/分鐘</code></li>\n      <li>追到時間 = <code>690 ÷ 30 = 23 分鐘</code></li>\n    </ol>\n\n    <h3>範例：三車同地出發（同向 + 反向綜合）</h3>\n    <p>甲 45 km/時往東、乙 38 km/時往東、丙 50 km/時往西，24 分鐘後各兩車相距幾公里？</p>\n    <p>先把 24 分鐘換成小時：<code>24/60 = 2/5 小時</code></p>\n    <table>\n      <thead>\n        <tr>\n          <th>情境</th>\n          <th>方向</th>\n          <th>算法</th>\n          <th>距離</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td>甲乙</td>\n          <td>同向</td>\n          <td>(45−38) × 2/5</td>\n          <td>14/5 = 2 又 4/5 公里</td>\n        </tr>\n        <tr>\n          <td>甲丙</td>\n          <td>反向</td>\n          <td>(45+50) × 2/5</td>\n          <td>38 公里</td>\n        </tr>\n        <tr>\n          <td>乙丙</td>\n          <td>反向</td>\n          <td>(38+50) × 2/5</td>\n          <td>176/5 = 35 又 1/5 公里</td>\n        </tr>\n      </tbody>\n    </table>\n\n    <h3>範例：環形跑道追趕</h3>\n    <p>周長 300 公尺圓形跑道，甲 125 m/分、乙 90 m/分，同方向同地出發，甲幾分鐘追到乙？</p>\n    <ul>\n      <li>同向 → 速率差 = <code>125 − 90 = 35 公尺/分</code></li>\n      <li>環形跑道「追上」表示甲比乙多繞一圈，所以距離就是 1 圈 = <strong>300 公尺</strong></li>\n      <li>追到時間 = <code>300 ÷ 35 = 60/7 分鐘</code></li>\n    </ul>\n\n    <hr>\n\n    <!-- 常見題型 -->\n    <div class=\"exam-section\">\n      <h2>常見題型</h2>\n      <ol>\n        <li><strong>單位換算比大小</strong>：給不同單位的速率比快慢，全部換成同一時間單位再比；或同距離下比時間長短。</li>\n        <li><strong>隧道區間時間估算</strong>：給隧道長度與速率區間（如 <code>50~80 km/時</code>），分別算出最快與最慢時間，看哪個選項落在範圍內。先看選項單位，全程算到對應單位。</li>\n        <li><strong>比例法求剩餘時間</strong>：給「走了全程的幾分之幾用了 N 分鐘」，可用比例 <code>走過時間 : 走過距離 = 剩餘時間 : 剩餘距離</code> 秒殺，比逐步算速率再算時間還快。</li>\n        <li><strong>休息穿插的總時間</strong>：求完純走時間後，再算「能休息幾次 × 每次休息時間」，加總才是總耗時。</li>\n        <li><strong>平均速率（去回／兩段）</strong>：<code>總距離 ÷ 總時間</code>，<strong>不能直接平均兩個速率</strong>。注意來回要 × 2、單位要統一。</li>\n        <li><strong>順流逆流問船速水速</strong>：用「順流 = 船 + 水、逆流 = 船 − 水」聯立。</li>\n        <li><strong>追趕問題</strong>：先算「出發時相距多少」（前車先跑的距離），再用「相距 ÷ 速率差」得追到時間。</li>\n        <li><strong>同地反向相遇</strong>：兩人或車從同地反向出發，相距 = <code>速率和 × 時間</code>。</li>\n        <li><strong>環形跑道追趕</strong>：同向繞圈，追到代表多繞 1 圈，距離 = 跑道周長。</li>\n        <li><strong>改變時間或速率求新值</strong>：題目改要求提早 X 分鐘到達，先算原本速率，再用新時間反推新速率（距離不變、速率與時間成反比）。</li>\n      </ol>\n    </div>",
-  "sections": []
+  "summary": "<ul><li><strong>速率的意義</strong>：每單位時間移動的距離，用來描述「快慢」。例如 $60$ 公里/小時表示「每 $1$ 小時走 $60$ 公里」。常用單位有 $\\text{公里/小時}$（$\\text{km/hr}$）、$\\text{公尺/秒}$（$\\text{m/s}$）、$\\text{公尺/分}$ 等。</li><li><strong>三量關係</strong>：路程 $=$ 速率 $\\times$ 時間；速率 $=$ 路程 $\\div$ 時間；時間 $=$ 路程 $\\div$ 速率。記法：列出已知兩量，求第三量直接代公式。</li><li><strong>平均速率</strong>：總路程 $\\div$ 總時間（<strong>不是</strong>兩段速率的平均）。例：去 $60\\text{ km/hr}$、回 $40\\text{ km/hr}$，要用總路程除總時間算，不能直接寫成 $50\\text{ km/hr}$。</li><li><strong>單位換算</strong>：$1$ 小時 $= 60$ 分 $= 3600$ 秒；$1$ 公里 $= 1000$ 公尺。$60\\text{ km/hr} = \\dfrac{60000\\text{ m}}{3600\\text{ s}} = \\dfrac{50}{3}\\text{ m/s} \\approx 16.67\\text{ m/s}$。題目單位不一致時，<strong>先換算成相同單位再計算</strong>。</li><li><strong>相遇問題</strong>：兩人從兩地相向而行，速率分別 $v_1$、$v_2$，相距 $D$，相遇時間 $= \\dfrac{D}{v_1 + v_2}$（兩速率相加因為共同消耗距離）。</li><li><strong>追及問題</strong>：兩人同向而行，慢的先出發或在前，快的在後追，追上時間 $= \\dfrac{\\text{距離差}}{\\text{速率差}}$（用速率差消耗距離差）。例：甲 $5\\text{ km/hr}$、乙 $3\\text{ km/hr}$，乙先走 $6\\text{ km}$，甲追上時間 $= \\dfrac{6}{5-3} = 3$ 小時。</li></ul>",
+  "sections": [
+    {
+      "type": "true_false",
+      "name": "是非題",
+      "questions": [
+        {
+          "id": "g6b_ch3_1_q1",
+          "number": 1,
+          "type": "true_false",
+          "content": "<p>「速率」表示每單位時間走的路程，所以速率愈大表示愈快。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。速率 $=$ 路程 $\\div$ 時間，意思是「每 $1$ 單位時間走多少路程」。例如 $A$ 每小時走 $80$ 公里、$B$ 每小時走 $50$ 公里，$A$ 速率比較大，自然比較快。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q2",
+          "number": 2,
+          "type": "true_false",
+          "content": "<p>$1$ 公里 $/$ 小時等於 $1000$ 公尺 $/$ 秒。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。$1$ 公里 $= 1000$ 公尺，$1$ 小時 $= 3600$ 秒，所以 $1\\text{ km/hr} = \\dfrac{1000\\text{ m}}{3600\\text{ s}} = \\dfrac{5}{18}\\text{ m/s} \\approx 0.278\\text{ m/s}$，<strong>遠小於</strong> $1000\\text{ m/s}$。換算時要同時處理「上下」單位。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q3",
+          "number": 3,
+          "type": "true_false",
+          "content": "<p>小明去學校速率 $4\\text{ km/hr}$、回家速率 $6\\text{ km/hr}$，他來回的平均速率是 $5\\text{ km/hr}$。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。平均速率 $=$ 總路程 $\\div$ 總時間，<strong>不能</strong>直接把兩個速率平均。設單程 $12\\text{ km}$，去時間 $12 \\div 4 = 3\\text{ hr}$，回時間 $12 \\div 6 = 2\\text{ hr}$，總路程 $24\\text{ km}$、總時間 $5\\text{ hr}$，平均速率 $= 24 \\div 5 = \\mathbf{4.8\\text{ km/hr}}$（不是 $5$）。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q4",
+          "number": 4,
+          "type": "true_false",
+          "content": "<p>甲、乙兩人從相距 $30\\text{ km}$ 的兩地相向而行，甲 $7\\text{ km/hr}$、乙 $8\\text{ km/hr}$，他們經過 $2$ 小時相遇。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。相向而行兩人共同消耗距離，<strong>合速率 $= 7 + 8 = 15\\text{ km/hr}$</strong>，相遇時間 $= 30 \\div 15 = \\mathbf{2}$ 小時。檢驗：甲走 $7 \\times 2 = 14$、乙走 $8 \\times 2 = 16$，合計剛好 $30\\text{ km}$ ✓。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q5",
+          "number": 5,
+          "type": "true_false",
+          "content": "<p>$72\\text{ km/hr}$ 換算成 $\\text{m/s}$ 是 $20\\text{ m/s}$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。$72\\text{ km/hr} = \\dfrac{72 \\times 1000\\text{ m}}{3600\\text{ s}} = \\dfrac{72000}{3600} = \\mathbf{20}\\text{ m/s}$。快速口訣：<strong>km/hr 換 m/s 時除以 $3.6$</strong>，$72 \\div 3.6 = 20$ ✓。</p>"
+        }
+      ]
+    },
+    {
+      "type": "single_choice",
+      "name": "單選題",
+      "questions": [
+        {
+          "id": "g6b_ch3_1_q6",
+          "number": 6,
+          "type": "single_choice",
+          "content": "<p>一輛汽車以 $80\\text{ km/hr}$ 的速率行駛了 $3$ 小時，共走了多少公里？</p><p>A. $83\\text{ km}$</p><p>B. $240\\text{ km}$</p><p>C. $77\\text{ km}$</p><p>D. $26.7\\text{ km}$</p>",
+          "answer": "B",
+          "explanation": "<p>路程 $=$ 速率 $\\times$ 時間 $= 80 \\times 3 = \\mathbf{240}\\text{ km}$。A 把速率和時間相加（錯）；D 是把速率除以時間（錯）。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q7",
+          "number": 7,
+          "type": "single_choice",
+          "content": "<p>小芳騎腳踏車 $2$ 小時走了 $24$ 公里，她的平均速率是多少？</p><p>A. $48\\text{ km/hr}$</p><p>B. $26\\text{ km/hr}$</p><p>C. $12\\text{ km/hr}$</p><p>D. $22\\text{ km/hr}$</p>",
+          "answer": "C",
+          "explanation": "<p>速率 $=$ 路程 $\\div$ 時間 $= 24 \\div 2 = \\mathbf{12}\\text{ km/hr}$。A 把兩數相乘（錯）；B 是相加（錯）。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q8",
+          "number": 8,
+          "type": "single_choice",
+          "content": "<p>家裡到學校 $1500$ 公尺，小明每分鐘走 $75$ 公尺，要多久才能走到？</p><p>A. $15$ 分鐘</p><p>B. $20$ 分鐘</p><p>C. $25$ 分鐘</p><p>D. $30$ 分鐘</p>",
+          "answer": "B",
+          "explanation": "<p>時間 $=$ 路程 $\\div$ 速率 $= 1500 \\div 75 = \\mathbf{20}$ 分鐘。檢驗：每分鐘 $75\\text{ m}$，$20$ 分鐘正好 $1500\\text{ m}$ ✓。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q9",
+          "number": 9,
+          "type": "single_choice",
+          "content": "<p>一輛車以 $54\\text{ km/hr}$ 的速率行駛，相當於每秒走多少公尺？</p><p>A. $9\\text{ m/s}$</p><p>B. $15\\text{ m/s}$</p><p>C. $54\\text{ m/s}$</p><p>D. $90\\text{ m/s}$</p>",
+          "answer": "B",
+          "explanation": "<p>$54\\text{ km/hr} = \\dfrac{54 \\times 1000}{3600} = \\dfrac{54000}{3600} = \\mathbf{15}\\text{ m/s}$。或用口訣 $54 \\div 3.6 = 15$。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q10",
+          "number": 10,
+          "type": "single_choice",
+          "content": "<p>甲、乙兩地相距 $36\\text{ km}$，小華從甲走到乙花了 $4$ 小時，回程速率改為去程的 $2$ 倍，回程花了多少小時？</p><p>A. $1$ 小時</p><p>B. $2$ 小時</p><p>C. $3$ 小時</p><p>D. $4$ 小時</p>",
+          "answer": "B",
+          "explanation": "<p>去程速率 $= 36 \\div 4 = 9\\text{ km/hr}$；回程速率 $= 9 \\times 2 = 18\\text{ km/hr}$；回程時間 $= 36 \\div 18 = \\mathbf{2}$ 小時。<strong>速率變 $2$ 倍 → 時間變 $\\frac{1}{2}$ 倍</strong>，這是反比關係。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q11",
+          "number": 11,
+          "type": "single_choice",
+          "content": "<p>甲、乙兩人從相距 $48\\text{ km}$ 的兩地同時相向而行，甲 $6\\text{ km/hr}$、乙 $10\\text{ km/hr}$，幾小時後相遇？</p><p>A. $2$ 小時</p><p>B. $3$ 小時</p><p>C. $4$ 小時</p><p>D. $4.8$ 小時</p>",
+          "answer": "B",
+          "explanation": "<p>相向而行兩速率相加：<strong>合速率 $= 6 + 10 = 16\\text{ km/hr}$</strong>，相遇時間 $= 48 \\div 16 = \\mathbf{3}$ 小時。檢驗：甲走 $18$、乙走 $30$，合計 $48\\text{ km}$ ✓。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q12",
+          "number": 12,
+          "type": "single_choice",
+          "content": "<p>哥哥以 $5\\text{ km/hr}$ 的速率走，弟弟比哥哥晚 $2$ 小時出發，以 $7\\text{ km/hr}$ 的速率追，幾小時後弟弟追上哥哥？</p><p>A. $2$ 小時</p><p>B. $3$ 小時</p><p>C. $5$ 小時</p><p>D. $10$ 小時</p>",
+          "answer": "C",
+          "explanation": "<p>弟弟出發時哥哥已走 $5 \\times 2 = 10\\text{ km}$（距離差）；弟弟每小時比哥哥多走 $7 - 5 = 2\\text{ km}$（速率差）。<strong>追及時間 $=$ 距離差 $\\div$ 速率差 $= 10 \\div 2 = \\mathbf{5}$ 小時</strong>。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q13",
+          "number": 13,
+          "type": "single_choice",
+          "content": "<p>一段路程小明先用 $50\\text{ km/hr}$ 走了 $2$ 小時，再用 $80\\text{ km/hr}$ 走了 $3$ 小時，整段路的平均速率是多少？</p><p>A. $65\\text{ km/hr}$</p><p>B. $68\\text{ km/hr}$</p><p>C. $70\\text{ km/hr}$</p><p>D. $130\\text{ km/hr}$</p>",
+          "answer": "B",
+          "explanation": "<p>總路程 $= 50 \\times 2 + 80 \\times 3 = 100 + 240 = 340\\text{ km}$；總時間 $= 2 + 3 = 5\\text{ hr}$。<strong>平均速率 $=$ 總路程 $\\div$ 總時間 $= 340 \\div 5 = 68\\text{ km/hr}$</strong>（不是 $\\dfrac{50+80}{2}=65$，因為兩段時間不同要加權）。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q14",
+          "number": 14,
+          "type": "single_choice",
+          "content": "<p>一隻獵豹每秒跑 $25$ 公尺，換算成「公里 $/$ 小時」是多少？</p><p>A. $25\\text{ km/hr}$</p><p>B. $60\\text{ km/hr}$</p><p>C. $90\\text{ km/hr}$</p><p>D. $250\\text{ km/hr}$</p>",
+          "answer": "C",
+          "explanation": "<p>$25\\text{ m/s} = 25 \\times 3600 = 90000\\text{ m/hr} = 90000 \\div 1000 = \\mathbf{90}\\text{ km/hr}$。或用口訣：<strong>m/s 換 km/hr 時乘以 $3.6$</strong>，$25 \\times 3.6 = 90$。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q15",
+          "number": 15,
+          "type": "single_choice",
+          "content": "<p>火車甲以 $90\\text{ km/hr}$ 行駛，火車乙以 $60\\text{ km/hr}$ 行駛，兩列火車同時從同一地點往同方向開出，$2$ 小時後甲比乙多走多少公里？</p><p>A. $30\\text{ km}$</p><p>B. $60\\text{ km}$</p><p>C. $150\\text{ km}$</p><p>D. $300\\text{ km}$</p>",
+          "answer": "B",
+          "explanation": "<p>方法一（直接相減）：甲走 $90 \\times 2 = 180$、乙走 $60 \\times 2 = 120$，差 $180 - 120 = \\mathbf{60}\\text{ km}$。方法二（速率差）：每小時甲比乙多走 $90 - 60 = 30\\text{ km}$，$2$ 小時多走 $30 \\times 2 = 60\\text{ km}$。答案 B。</p>"
+        }
+      ]
+    }
+  ]
 }

@@ -1,5 +1,138 @@
 {
   "title": "小五上 4-1 多邊形",
-  "summary": "<div class=\"text-slate-500\"><p>本章節摘要待補。</p><p class=\"text-xs mt-2\">📝 將在後續補上完整教學重點。</p></div>",
-  "sections": []
+  "summary": "<ul><li><strong>多邊形的定義</strong>：由<strong>三條（含）以上</strong>線段首尾相連、形成<strong>封閉</strong>圖形，且線段不互相交叉。依邊數命名：三角形、四邊形、五邊形、六邊形…。$n$ 邊形有 $n$ 個邊、$n$ 個頂點、$n$ 個內角。</li><li><strong>三角形分類（依邊長）</strong>：① <strong>正三角形</strong>：三邊都相等；② <strong>等腰三角形</strong>：至少兩邊相等；③ <strong>不等邊三角形</strong>：三邊都不相等。正三角形也是特殊的等腰三角形。</li><li><strong>三角形分類（依角）</strong>：① <strong>銳角三角形</strong>：三個角都小於 $90°$；② <strong>直角三角形</strong>：有一個角等於 $90°$；③ <strong>鈍角三角形</strong>：有一個角大於 $90°$。</li><li><strong>三角形內角和</strong>：三個內角的和永遠是 $\\mathbf{180°}$。例：已知兩角 $50°, 70°$，第三角 $= 180° - 50° - 70° = 60°$。</li><li><strong>四邊形家族</strong>：① <strong>梯形</strong>：恰有一組對邊平行；② <strong>平行四邊形</strong>：兩組對邊都平行（對邊等長、對角相等）；③ <strong>菱形</strong>：四邊等長的平行四邊形；④ <strong>長方形</strong>：四個角都是 $90°$ 的平行四邊形；⑤ <strong>正方形</strong>：四邊等長且四個角都是 $90°$（同時是菱形和長方形）。</li><li><strong>四邊形內角和</strong>：四個內角的和是 $\\mathbf{360°}$。可由一條對角線將四邊形分成兩個三角形（$180° \\times 2 = 360°$）推得。長方形、正方形的四個角都是 $90°$，加起來剛好 $360°$。</li></ul>",
+  "sections": [
+    {
+      "type": "true_false",
+      "name": "是非題",
+      "questions": [
+        {
+          "id": "g5a_ch4_1_q1",
+          "number": 1,
+          "type": "true_false",
+          "content": "<p>三角形的三個內角和等於 $180°$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。<strong>任何三角形</strong>的三個內角和都是 $180°$，不論是銳角、直角或鈍角三角形。可以撕下三角形三個角，拼起來剛好是一條直線（$180°$）來驗證。</p>"
+        },
+        {
+          "id": "g5a_ch4_1_q2",
+          "number": 2,
+          "type": "true_false",
+          "content": "<p>正方形是一種特殊的長方形。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。長方形的定義是「四個角都是 $90°$ 的平行四邊形」，正方形除了四個角都是 $90°$，還多了「四邊等長」的條件，所以<strong>正方形是長方形的一種</strong>（特殊的長方形）。同樣地，正方形也是菱形的一種。</p>"
+        },
+        {
+          "id": "g5a_ch4_1_q3",
+          "number": 3,
+          "type": "true_false",
+          "content": "<p>一個三角形可以同時是直角三角形和鈍角三角形。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。三角形內角和是 $180°$。如果一個角是 $90°$（直角），另一個角又大於 $90°$（鈍角），兩個就已超過 $180°$，加上第三個角不可能。所以一個三角形<strong>只能有一個</strong>直角或鈍角，兩者不能並存。</p>"
+        },
+        {
+          "id": "g5a_ch4_1_q4",
+          "number": 4,
+          "type": "true_false",
+          "content": "<p>梯形的兩組對邊都互相平行。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。梯形的定義是「<strong>恰有一組</strong>對邊平行」，另一組對邊不平行。兩組對邊都平行的四邊形是<strong>平行四邊形</strong>（包括長方形、菱形、正方形），不是梯形。</p>"
+        },
+        {
+          "id": "g5a_ch4_1_q5",
+          "number": 5,
+          "type": "true_false",
+          "content": "<p>所有四邊形的內角和都是 $360°$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。任何四邊形都可以從一個頂點畫一條對角線，分成 $2$ 個三角形。每個三角形內角和是 $180°$，所以四邊形內角和 $= 180° \\times 2 = \\mathbf{360°}$。長方形、正方形、平行四邊形、梯形通通適用。</p>"
+        }
+      ]
+    },
+    {
+      "type": "single_choice",
+      "name": "單選題",
+      "questions": [
+        {
+          "id": "g5a_ch4_1_q6",
+          "number": 6,
+          "type": "single_choice",
+          "content": "<p>一個三角形中，兩個內角分別是 $40°$ 和 $75°$，第三個角是？</p><p>A. $55°$</p><p>B. $65°$</p><p>C. $75°$</p><p>D. $115°$</p>",
+          "answer": "B",
+          "explanation": "<p>三角形內角和 $= 180°$。第三角 $= 180° - 40° - 75° = 65°$。答案 B。</p>"
+        },
+        {
+          "id": "g5a_ch4_1_q7",
+          "number": 7,
+          "type": "single_choice",
+          "content": "<p>下列哪一個圖形<strong>不是</strong>多邊形？</p><p>A. 三角形</p><p>B. 五邊形</p><p>C. 圓形</p><p>D. 梯形</p>",
+          "answer": "C",
+          "explanation": "<p>多邊形必須由<strong>線段</strong>圍成。圓形的邊是曲線不是線段，所以圓形<strong>不是多邊形</strong>。三角形、五邊形、梯形都是由線段圍成的封閉圖形，都是多邊形。答案 C。</p>"
+        },
+        {
+          "id": "g5a_ch4_1_q8",
+          "number": 8,
+          "type": "single_choice",
+          "content": "<p>一個三角形的三個角分別為 $40°, 60°, 80°$，它是？</p><p>A. 銳角三角形</p><p>B. 直角三角形</p><p>C. 鈍角三角形</p><p>D. 正三角形</p>",
+          "answer": "A",
+          "explanation": "<p>三個角 $40°, 60°, 80°$ 都<strong>小於 $90°$</strong>，所以是<strong>銳角三角形</strong>。正三角形需要三角都是 $60°$，本題不是。答案 A。</p>"
+        },
+        {
+          "id": "g5a_ch4_1_q9",
+          "number": 9,
+          "type": "single_choice",
+          "content": "<p>下列關於正三角形的敘述，何者<strong>錯誤</strong>？</p><p>A. 三邊等長</p><p>B. 三個內角都是 $60°$</p><p>C. 是一種等腰三角形</p><p>D. 是一種直角三角形</p>",
+          "answer": "D",
+          "explanation": "<p>正三角形三角都 $60°$（$180° \\div 3 = 60°$），<strong>沒有 $90°$</strong> 所以不是直角三角形，是<strong>銳角三角形</strong>。A. ✓；B. ✓；C. 等腰指「至少兩邊相等」，正三角形三邊都相等當然滿足，是特殊的等腰 ✓。答案 D。</p>"
+        },
+        {
+          "id": "g5a_ch4_1_q10",
+          "number": 10,
+          "type": "single_choice",
+          "content": "<p>下列哪一個四邊形<strong>不一定</strong>是平行四邊形？</p><p>A. 長方形</p><p>B. 正方形</p><p>C. 菱形</p><p>D. 梯形</p>",
+          "answer": "D",
+          "explanation": "<p>平行四邊形 $=$ 兩組對邊都平行。長方形、正方形、菱形都滿足兩組對邊都平行，所以都是平行四邊形。<strong>梯形只有一組對邊平行</strong>，不是平行四邊形。答案 D。</p>"
+        },
+        {
+          "id": "g5a_ch4_1_q11",
+          "number": 11,
+          "type": "single_choice",
+          "content": "<p>等腰三角形的頂角是 $80°$，則底角各是幾度？</p><p>A. $40°$</p><p>B. $50°$</p><p>C. $80°$</p><p>D. $100°$</p>",
+          "answer": "B",
+          "explanation": "<p>等腰三角形的<strong>兩底角相等</strong>。設底角為 $x$，則 $80° + x + x = 180°$ → $2x = 100°$ → $x = 50°$。所以兩個底角各為 $\\mathbf{50°}$。答案 B。</p>"
+        },
+        {
+          "id": "g5a_ch4_1_q12",
+          "number": 12,
+          "type": "single_choice",
+          "content": "<p>一個四邊形中，已知三個內角分別為 $80°, 95°, 100°$，第四個內角是？</p><p>A. $75°$</p><p>B. $85°$</p><p>C. $90°$</p><p>D. $185°$</p>",
+          "answer": "B",
+          "explanation": "<p>四邊形內角和 $= 360°$。第四個角 $= 360° - 80° - 95° - 100° = 360° - 275° = \\mathbf{85°}$。答案 B。</p>"
+        },
+        {
+          "id": "g5a_ch4_1_q13",
+          "number": 13,
+          "type": "single_choice",
+          "content": "<p>下列哪一個圖形<strong>四邊都等長，但四個角不一定都是 $90°$</strong>？</p><p>A. 長方形</p><p>B. 菱形</p><p>C. 梯形</p><p>D. 平行四邊形</p>",
+          "answer": "B",
+          "explanation": "<p><strong>菱形</strong>的定義是「四邊都等長的平行四邊形」，四個角不一定是 $90°$（如果是 $90°$ 就成為正方形）。A. 長方形四角必為 $90°$ 但邊不一定等長；C. 梯形邊長和角度都不一定；D. 平行四邊形對邊等長但鄰邊不一定。答案 B。</p>"
+        },
+        {
+          "id": "g5a_ch4_1_q14",
+          "number": 14,
+          "type": "single_choice",
+          "content": "<p>一個六邊形可以從一個頂點畫對角線分成幾個三角形？由此可知六邊形的內角和是幾度？</p><p>A. $4$ 個三角形，$720°$</p><p>B. $5$ 個三角形，$900°$</p><p>C. $3$ 個三角形，$540°$</p><p>D. $6$ 個三角形，$1080°$</p>",
+          "answer": "A",
+          "explanation": "<p>$n$ 邊形從一個頂點畫對角線可分成 $(n-2)$ 個三角形。六邊形 $\\to 6-2 = \\mathbf{4}$ 個三角形。內角和 $= 180° \\times 4 = \\mathbf{720°}$。答案 A。</p>"
+        },
+        {
+          "id": "g5a_ch4_1_q15",
+          "number": 15,
+          "type": "single_choice",
+          "content": "<p>關於四邊形家族的關係，下列敘述何者<strong>正確</strong>？</p><p>A. 長方形一定是正方形</p><p>B. 正方形一定是菱形</p><p>C. 菱形一定是長方形</p><p>D. 平行四邊形一定是梯形</p>",
+          "answer": "B",
+          "explanation": "<p>正方形 $=$ 四邊等長 $+$ 四角 $90°$。「四邊等長」就是菱形的條件，所以<strong>正方形一定是菱形</strong> ✓。A. 錯，長方形四邊不一定等長；C. 錯，菱形角不一定 $90°$；D. 錯，梯形<strong>只有一組</strong>對邊平行，平行四邊形兩組都平行，不算梯形。答案 B。</p>"
+        }
+      ]
+    }
+  ]
 }

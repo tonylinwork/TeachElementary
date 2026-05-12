@@ -1,5 +1,138 @@
 {
   "title": "小四上 2-2 整數的除法",
-  "summary": "<h1>小四 — 整數乘除法（暑假總複習） 教學重點</h1>\n\n    <!-- 知識點 1 -->\n    <h2>知識點 1：整數的乘法</h2>\n\n    <h3>核心概念</h3>\n    <ul>\n      <li>乘法本質 = <strong>累加</strong>（重複相加的簡寫）\n        <ul>\n          <li>例：<code>5 + 5 + 5</code> 可寫成 <code>5 × 3</code>，或 <code>3 × 5</code>（任一寫法都對，不必爭論順序）</li>\n        </ul>\n      </li>\n      <li><strong>關鍵字</strong>：「○○ 的幾倍」→ 通常是乘法</li>\n      <li><strong>名稱</strong>：前面數叫<strong>被乘數</strong>、後面數叫<strong>乘數</strong>、結果叫<strong>積</strong></li>\n      <li>三大運算名詞速記：相加得<strong>和</strong>、相減得<strong>差</strong>、相乘得<strong>積</strong></li>\n    </ul>\n\n    <h3>直式乘法步驟（以 324 × 23 為例）</h3>\n    <ol>\n      <li>對齊個位、十位、百位（老師習慣：被乘數寫上、乘數寫下）</li>\n      <li>由乘數最右位（個位）開始一位一位乘，逢十進位</li>\n      <li>第二列乘十位時，記得<strong>往左錯一格</strong>（代表進到十位）</li>\n      <li>各列相加得最後答案</li>\n    </ol>\n\n    <p>範例計算：<code>324 × 23 = 7452</code></p>\n<pre>      3 2 4\n    ×   2 3\n    ───────\n      9 7 2     ← 3 × 324\n    6 4 8       ← 2 × 324，往左錯一格\n    ───────\n    7 4 5 2</pre>\n\n    <h3>常見考法／注意事項</h3>\n    <ul>\n      <li>計算時對齊位數最不易錯；錯位是低年級常見扣分點</li>\n      <li>看到應用題出現「○ 是 △ 的 k 倍」就想到乘法或除法，再依「已知一份還是已知總量」判斷</li>\n      <li>用<strong>線段圖</strong>理解倍數關係：一份畫一段，k 倍就畫 k 段</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 2 -->\n    <h2>知識點 2：整數的除法</h2>\n\n    <h3>核心概念</h3>\n    <ul>\n      <li>除法本質 = <strong>平分／分配</strong>的概念（把總量分成幾份，求一份多少）</li>\n      <li><strong>關鍵字</strong>：「平均」「分給」「每…多少」→ 通常是除法</li>\n      <li><strong>名稱</strong>：<code>1190 ÷ 85</code>\n        <ul>\n          <li>1190 是<strong>被除數</strong>、85 是<strong>除數</strong>、結果是<strong>商</strong></li>\n          <li>沒整除時剩下的叫<strong>餘數</strong></li>\n        </ul>\n      </li>\n      <li><strong>「除以」vs「除」陷阱</strong>（應用題容易混淆）：\n        <ul>\n          <li>「1190 <strong>除以</strong> 85」= <code>1190 ÷ 85</code>（前面是被除數）</li>\n          <li>「85 <strong>除</strong> 1190」= <code>1190 ÷ 85</code>（後面是被除數）</li>\n          <li>兩種講法答案一樣，但<strong>讀法相反</strong>，應用題要看清楚</li>\n        </ul>\n      </li>\n      <li><strong>餘數規則</strong>：餘數一定要<strong>比除數小</strong>（否則代表還能再除一次）</li>\n      <li><strong>整除</strong>：餘數為 0，又稱<strong>自然數除法</strong></li>\n    </ul>\n\n    <h3>除法原理（驗算公式）</h3>\n    <ul>\n      <li><code>被除數 = 除數 × 商 + 餘數</code></li>\n      <li>整除時餘數 = 0</li>\n    </ul>\n\n    <h3>直式除法步驟（以 1190 ÷ 85 為例）</h3>\n    <ol>\n      <li>先看被除數前兩位（11）夠不夠除以 85 → 不夠，擴到三位（119）</li>\n      <li>85 約等於 80，<code>119 ÷ 80 ≈ 1</code> → 試商 1</li>\n      <li><code>85 × 1 = 85</code>，<code>119 − 85 = 34</code></li>\n      <li>把下一位 0 拉下來變 340</li>\n      <li>85 約等於 80，<code>340 ÷ 80 ≈ 4</code> → 試商 4</li>\n      <li><code>85 × 4 = 340</code>，<code>340 − 340 = 0</code>（整除）</li>\n      <li>商 = <strong>14</strong></li>\n    </ol>\n\n    <h3>試商技巧</h3>\n    <ul>\n      <li><strong>看頭數估</strong>：被除數頭與除數頭比較，先估一個近似值</li>\n      <li>試商太大要往下調（例：<code>85 × 6</code> 超過 340，改試 5）</li>\n      <li><strong>兩位數乘一位數</strong>最好能心算，否則直式除法會卡很久</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 3 -->\n    <h2>知識點 3：乘除法的特殊技巧</h2>\n\n    <h3>含尾數 0 的乘法</h3>\n    <ul>\n      <li>把尾端的 0 先拉出來，剩下的部分用乘法算，最後再補回 0 的個數</li>\n      <li>例：<code>520 × 300</code>\n        <ul>\n          <li>尾端有 <code>1 + 2 = 3</code> 個 0</li>\n          <li>剩下 <code>52 × 3 = 156</code></li>\n          <li>答案 = 156 後面接 3 個 0 = <strong>156000</strong></li>\n        </ul>\n      </li>\n    </ul>\n\n    <h3>巧算（湊整數的搭檔）</h3>\n    <table>\n      <thead>\n        <tr>\n          <th>看到</th>\n          <th>拿什麼配對</th>\n          <th>為什麼</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td>×5</td>\n          <td>×2</td>\n          <td>5 × 2 = 10</td>\n        </tr>\n        <tr>\n          <td>×25</td>\n          <td>×4</td>\n          <td>25 × 4 = 100</td>\n        </tr>\n        <tr>\n          <td>×125</td>\n          <td>×8</td>\n          <td>125 × 8 = 1000</td>\n        </tr>\n      </tbody>\n    </table>\n    <p>例：<code>246 × 5 = (123 × 2) × 5 = 123 × (2 × 5) = 123 × 10 = 1230</code></p>\n\n    <h3>中間有 0 的除法</h3>\n    <ul>\n      <li>商的中間出現 0 時，<strong>0 要寫上去佔位</strong>，再把下一位數拉下來繼續除</li>\n      <li>例：<code>5239 ÷ 13 = 403</code>（百位除完後十位是 0，要寫進商裡）</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 4 -->\n    <h2>知識點 4：應用題餘數處理（重要）</h2>\n\n    <p>餘數要怎麼處理，<strong>完全看題目情境</strong>，不能死記。</p>\n\n    <table>\n      <thead>\n        <tr>\n          <th>情境</th>\n          <th>處理方式</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td>「最少要幾車／幾袋才裝得完」</td>\n          <td>商 + 1（剩下的還要再叫一台車）</td>\n        </tr>\n        <tr>\n          <td>「最多能買幾個／幾隻」</td>\n          <td>直接取商（剩下的錢不夠再買一個）</td>\n        </tr>\n        <tr>\n          <td>「平均分配後剩多少」</td>\n          <td>商是每份的量、餘數是剩下的量</td>\n        </tr>\n      </tbody>\n    </table>\n\n    <h3>範例對照</h3>\n    <ul>\n      <li>960 包麵粉，每車載 50 包 → <code>960 ÷ 50 = 19 餘 10</code>\n        <ul>\n          <li>剩 10 包不能不載 → 答案 <strong>20 車</strong></li>\n        </ul>\n      </li>\n      <li>3000 元，每支筆 35 元 → <code>3000 ÷ 35 = 85 餘 25</code>\n        <ul>\n          <li>剩 25 元不夠再買一支 → 答案 <strong>85 支</strong></li>\n        </ul>\n      </li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 5 -->\n    <h2>知識點 5：單位換算（容易漏看）</h2>\n\n    <ul>\n      <li>應用題若題目給的單位不一致，<strong>先換成同單位</strong>再運算</li>\n      <li>常用換算：\n        <ul>\n          <li>1 小時 = 60 分鐘</li>\n          <li>1 公里 = 1000 公尺</li>\n        </ul>\n      </li>\n      <li>例：每分鐘 348 公尺，2 小時前進多少公尺？\n        <ul>\n          <li>2 小時 = 120 分鐘</li>\n          <li><code>348 × 120 = 41760</code> 公尺</li>\n        </ul>\n      </li>\n      <li>寫答案時務必檢查題目問的是<strong>公尺還是公里</strong></li>\n    </ul>\n\n    <hr>\n\n    <!-- 常見題型 -->\n    <div class=\"exam-section\">\n      <h2>常見題型</h2>\n      <ol>\n        <li><strong>倍數型乘法</strong>：A 是 B 的 k 倍，已知 B → <code>A = B × k</code>。畫線段圖：B 一份、A 是 k 份。</li>\n        <li><strong>倍數型除法</strong>：A 是 B 的幾倍？已知 A、B 兩個量 → <code>倍數 = A ÷ B</code>。</li>\n        <li><strong>總量分配（平均）</strong>：總量 ÷ 份數 = 每份；總量 ÷ 每份 = 份數。看題目問哪個量。</li>\n        <li><strong>餘數情境題（進位型）</strong>：求最少車輛／容器數 → 商 + 1。</li>\n        <li><strong>餘數情境題（捨去型）</strong>：求最多買幾個／能裝幾組 → 直接取商。</li>\n        <li><strong>含 0 大數乘法</strong>：先抽出尾端 0，主體算完再補 0。</li>\n        <li><strong>巧算</strong>：看到 ×5、×25、×125 主動找 ×2、×4、×8 搭配湊整十／百／千。</li>\n        <li><strong>單位換算題</strong>：時間（時↔分）、長度（公里↔公尺）先統一單位再運算。</li>\n      </ol>\n    </div>",
-  "sections": []
+  "summary": "<ul><li><strong>除法的意義</strong>：把一個數「平分」成幾份，或看「裡面有幾個」。例：$24 \\div 6 = 4$ 表示「$24$ 平分成 $6$ 份，每份是 $4$」或「$24$ 裡面有 $4$ 個 $6$」。</li><li><strong>除法用語</strong>：在 $a \\div b = q \\cdots\\cdots r$ 中，$a$ 是<strong>被除數</strong>、$b$ 是<strong>除數</strong>、$q$ 是<strong>商</strong>、$r$ 是<strong>餘數</strong>。除數不能是 $0$。</li><li><strong>除法直式</strong>：從被除數的最高位開始，逐位試商；商寫在對應位上方，乘回去後與該段相減，再把下一位「移下來」繼續除。</li><li><strong>餘數性質</strong>：餘數一定要<strong>小於除數</strong>（$r < b$）。如果算到的餘數大於或等於除數，表示商還可以再加。</li><li><strong>驗算公式</strong>：$\\text{被除數} = \\text{除數} \\times \\text{商} + \\text{餘數}$。例：$87 \\div 5 = 17 \\cdots\\cdots 2$，驗算：$5 \\times 17 + 2 = 85 + 2 = 87$ ✓。</li><li><strong>估商與應用</strong>：除以兩位數時可先「四捨五入」估商。應用題若要「夠用幾組」用<strong>無條件捨去</strong>（取商）；若要「至少幾輛車載完」則<strong>無條件進位</strong>（商加 $1$）。</li></ul>",
+  "sections": [
+    {
+      "type": "true_false",
+      "name": "是非題",
+      "questions": [
+        {
+          "id": "g4a_ch2_2_q1",
+          "number": 1,
+          "type": "true_false",
+          "content": "<p>在除法算式裡，餘數一定要比除數小。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。如果餘數和除數一樣大或更大，表示<strong>還可以再除一次</strong>，商就要再加 $1$。例：$23 \\div 5$ 不能寫成「商 $3$ 餘 $8$」，因為 $8 \\geq 5$，正確應該是「商 $4$ 餘 $3$」。所以餘數必須 $r < b$。</p>"
+        },
+        {
+          "id": "g4a_ch2_2_q2",
+          "number": 2,
+          "type": "true_false",
+          "content": "<p>$0 \\div 7 = 0$，所以 $7 \\div 0 = 0$。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。$0 \\div 7 = 0$（$0$ 平分成 $7$ 份每份是 $0$）沒錯，但<strong>除數不能是 $0$</strong>。$7 \\div 0$ 沒有意義（不可能把 $7$ 平分成 $0$ 份）。記住：$0$ 可以當被除數，但不能當除數。</p>"
+        },
+        {
+          "id": "g4a_ch2_2_q3",
+          "number": 3,
+          "type": "true_false",
+          "content": "<p>$96 \\div 8 = 12$，所以 $8 \\times 12 = 96$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。除法和乘法<strong>互為逆運算</strong>。除法的驗算公式是「除數 $\\times$ 商 $+$ 餘數 $=$ 被除數」，這題餘數是 $0$，所以 $8 \\times 12 + 0 = 96$，剛好就是被除數。</p>"
+        },
+        {
+          "id": "g4a_ch2_2_q4",
+          "number": 4,
+          "type": "true_false",
+          "content": "<p>$85 \\div 6$ 的商是 $14$，餘數是 $1$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。直式計算：$6 \\times 14 = 84$，$85 - 84 = 1$。驗算：$6 \\times 14 + 1 = 84 + 1 = 85$ ✓。而且餘數 $1 < 6$（除數），合乎規定。</p>"
+        },
+        {
+          "id": "g4a_ch2_2_q5",
+          "number": 5,
+          "type": "true_false",
+          "content": "<p>有 $50$ 顆糖果要平分給 $8$ 個小朋友，每人最多可分到 $7$ 顆，會剩下 $2$ 顆。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。$50 \\div 8$：$8 \\times 6 = 48$，$50 - 48 = 2$，所以商是 $\\mathbf{6}$ 餘 $2$。每人最多分到 $\\mathbf{6}$ 顆，剩下 $2$ 顆。題目寫 $7$ 是錯的（$8 \\times 7 = 56 > 50$，不夠分）。</p>"
+        }
+      ]
+    },
+    {
+      "type": "single_choice",
+      "name": "單選題",
+      "questions": [
+        {
+          "id": "g4a_ch2_2_q6",
+          "number": 6,
+          "type": "single_choice",
+          "content": "<p>$72 \\div 9 = ?$</p><p>A. $7$</p><p>B. $8$</p><p>C. $9$</p><p>D. $6$</p>",
+          "answer": "B",
+          "explanation": "<p>想：「$9$ 乘以幾等於 $72$？」由九九乘法 $9 \\times 8 = 72$，所以 $72 \\div 9 = 8$。答案 B。</p>"
+        },
+        {
+          "id": "g4a_ch2_2_q7",
+          "number": 7,
+          "type": "single_choice",
+          "content": "<p>$365 \\div 7$ 的商和餘數分別是？</p><p>A. 商 $52$ 餘 $1$</p><p>B. 商 $52$ 餘 $2$</p><p>C. 商 $51$ 餘 $8$</p><p>D. 商 $53$ 餘 $0$</p>",
+          "answer": "A",
+          "explanation": "<p>直式：$7 \\times 50 = 350$，$365 - 350 = 15$；$15 \\div 7 = 2 \\cdots 1$，所以商 $= 50 + 2 = \\mathbf{52}$，餘 $\\mathbf{1}$。驗算：$7 \\times 52 + 1 = 364 + 1 = 365$ ✓。C 選項餘 $8 \\geq 7$，不合格。答案 A。</p>"
+        },
+        {
+          "id": "g4a_ch2_2_q8",
+          "number": 8,
+          "type": "single_choice",
+          "content": "<p>$648 \\div 8 = ?$</p><p>A. $80$</p><p>B. $81$</p><p>C. $82$</p><p>D. $79$</p>",
+          "answer": "B",
+          "explanation": "<p>$8 \\times 80 = 640$，$648 - 640 = 8$，$8 \\div 8 = 1$，所以商 $= 80 + 1 = 81$，餘 $0$。驗算：$8 \\times 81 = 648$ ✓。答案 B。</p>"
+        },
+        {
+          "id": "g4a_ch2_2_q9",
+          "number": 9,
+          "type": "single_choice",
+          "content": "<p>$500 \\div 6$ 的商是？</p><p>A. $82$</p><p>B. $83$</p><p>C. $84$</p><p>D. $85$</p>",
+          "answer": "B",
+          "explanation": "<p>$6 \\times 80 = 480$，$500 - 480 = 20$；$20 \\div 6 = 3 \\cdots 2$，所以商 $= 80 + 3 = 83$，餘 $2$。驗算：$6 \\times 83 + 2 = 498 + 2 = 500$ ✓。答案 B。</p>"
+        },
+        {
+          "id": "g4a_ch2_2_q10",
+          "number": 10,
+          "type": "single_choice",
+          "content": "<p>某數除以 $12$，商是 $25$，餘數是 $7$，這個數是？</p><p>A. $300$</p><p>B. $307$</p><p>C. $293$</p><p>D. $312$</p>",
+          "answer": "B",
+          "explanation": "<p>用驗算公式：<strong>被除數 $=$ 除數 $\\times$ 商 $+$ 餘數</strong> $= 12 \\times 25 + 7 = 300 + 7 = 307$。答案 B。</p>"
+        },
+        {
+          "id": "g4a_ch2_2_q11",
+          "number": 11,
+          "type": "single_choice",
+          "content": "<p>$840 \\div 24 = ?$</p><p>A. $30$</p><p>B. $35$</p><p>C. $40$</p><p>D. $42$</p>",
+          "answer": "B",
+          "explanation": "<p>估商：$24 \\approx 25$，$840 \\div 25 \\approx 33.6$，試 $35$。驗算 $24 \\times 35 = 24 \\times 30 + 24 \\times 5 = 720 + 120 = 840$ ✓。所以商 $= 35$，餘 $0$。答案 B。</p>"
+        },
+        {
+          "id": "g4a_ch2_2_q12",
+          "number": 12,
+          "type": "single_choice",
+          "content": "<p>$96$ 顆蘋果，每盒裝 $8$ 顆，可以裝成幾盒？</p><p>A. $11$ 盒</p><p>B. $12$ 盒</p><p>C. $13$ 盒</p><p>D. $14$ 盒</p>",
+          "answer": "B",
+          "explanation": "<p>列式：$96 \\div 8 = 12$（餘 $0$）。可以剛好裝成 $\\mathbf{12}$ 盒，沒有剩餘。答案 B。</p>"
+        },
+        {
+          "id": "g4a_ch2_2_q13",
+          "number": 13,
+          "type": "single_choice",
+          "content": "<p>$125$ 個學生要坐遊覽車，每輛車最多坐 $30$ 人，至少需要幾輛車才能全部載完？</p><p>A. $3$ 輛</p><p>B. $4$ 輛</p><p>C. $5$ 輛</p><p>D. $6$ 輛</p>",
+          "answer": "C",
+          "explanation": "<p>$125 \\div 30 = 4 \\cdots\\cdots 5$。$4$ 輛只能載 $120$ 人，還有 $5$ 個學生<strong>不能丟下</strong>，必須再加 $1$ 輛，所以共需 $4 + 1 = \\mathbf{5}$ 輛。這是「無條件進位」的應用。答案 C。</p>"
+        },
+        {
+          "id": "g4a_ch2_2_q14",
+          "number": 14,
+          "type": "single_choice",
+          "content": "<p>$70$ 元可以買幾枝 $9$ 元的鉛筆？還剩多少錢？</p><p>A. $7$ 枝，剩 $7$ 元</p><p>B. $8$ 枝，剩 $2$ 元</p><p>C. $7$ 枝，剩 $2$ 元</p><p>D. $8$ 枝，剩 $0$ 元</p>",
+          "answer": "A",
+          "explanation": "<p>$70 \\div 9$：$9 \\times 7 = 63$，$70 - 63 = 7$，所以商 $7$ 餘 $7$。可以買 $\\mathbf{7}$ 枝（不夠買第 $8$ 枝，因為再買要 $9$ 元但只剩 $7$ 元），剩下 $\\mathbf{7}$ 元。這是「無條件捨去」的應用。答案 A。</p>"
+        },
+        {
+          "id": "g4a_ch2_2_q15",
+          "number": 15,
+          "type": "single_choice",
+          "content": "<p>一個數除以 $15$，餘數最大可能是多少？</p><p>A. $13$</p><p>B. $14$</p><p>C. $15$</p><p>D. $16$</p>",
+          "answer": "B",
+          "explanation": "<p>餘數規則：<strong>餘數一定小於除數</strong>。除數是 $15$，所以餘數最大只能是 $15 - 1 = \\mathbf{14}$。如果餘 $15$ 就還可以再除一次（商加 $1$、餘數變 $0$）。答案 B。</p>"
+        }
+      ]
+    }
+  ]
 }

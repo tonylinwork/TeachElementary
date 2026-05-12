@@ -1,5 +1,138 @@
 {
   "title": "小四上 4-2 平面圖形",
-  "summary": "<div class=\"text-slate-500\"><p>本章節摘要待補。</p><p class=\"text-xs mt-2\">📝 將在後續補上完整教學重點。</p></div>",
-  "sections": []
+  "summary": "<ul><li><strong>線的三種</strong>：<br>• <strong>直線</strong>：兩端都可無限延伸（無端點）<br>• <strong>射線</strong>：一個端點，另一端可無限延伸<br>• <strong>線段</strong>：有兩個端點，<strong>可以量長度</strong></li><li><strong>平行與垂直</strong>：<br>• <strong>平行</strong>：兩條直線無論怎麼延長都不會相交，記作 $L_1 \\parallel L_2$<br>• <strong>垂直</strong>：兩條直線相交成<strong>直角（$90^\\circ$）</strong>，記作 $L_1 \\perp L_2$</li><li><strong>三角形的分類</strong>：<br>• 依<strong>邊</strong>：正三角形（$3$ 邊等）／等腰三角形（$2$ 邊等）／不等邊三角形<br>• 依<strong>角</strong>：銳角三角形（三角都銳）／直角三角形（有一個直角）／鈍角三角形（有一個鈍角）<br>• <strong>三角形三內角和恆為 $180^\\circ$</strong></li><li><strong>四邊形的分類（從特殊到一般）</strong>：<br>• <strong>正方形</strong>：四邊等、四角直角<br>• <strong>長方形</strong>：對邊等、四角直角<br>• <strong>菱形</strong>：四邊等<br>• <strong>平行四邊形</strong>：兩組對邊平行（且相等）<br>• <strong>梯形</strong>：<strong>只有一組</strong>對邊平行</li><li><strong>包含關係</strong>：正方形是特殊的長方形、菱形、平行四邊形；長方形也是平行四邊形。所以「所有正方形都是長方形」對，但「所有長方形都是正方形」錯。</li><li><strong>多邊形</strong>：由<strong>線段</strong>圍成的封閉圖形，邊數從 $3$ 開始（三角形、四邊形、五邊形、六邊形…）。圓不是多邊形（圓沒有直邊）。</li></ul>",
+  "sections": [
+    {
+      "type": "true_false",
+      "name": "是非題",
+      "questions": [
+        {
+          "id": "g4a_ch4_2_q1",
+          "number": 1,
+          "type": "true_false",
+          "content": "<p>線段有兩個端點，可以量出長度。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。<strong>線段</strong>是「有頭有尾」的線，兩端點之間的距離就是長度，可以用尺量。直線沒有端點、射線只有一個端點，兩者都無法量長度。</p>"
+        },
+        {
+          "id": "g4a_ch4_2_q2",
+          "number": 2,
+          "type": "true_false",
+          "content": "<p>兩條直線相交所成的角是 $90^\\circ$ 時，這兩條直線互相垂直。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。<strong>垂直</strong>的定義就是「兩直線相交成直角」，記作 $L_1 \\perp L_2$。例：長方形的相鄰兩邊互相垂直。</p>"
+        },
+        {
+          "id": "g4a_ch4_2_q3",
+          "number": 3,
+          "type": "true_false",
+          "content": "<p>正方形是一種特殊的長方形。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。長方形的條件是「四角都是直角、對邊相等」。正方形除了四角直角外，<strong>四邊都相等</strong>（當然包含「對邊相等」），所以正方形<strong>滿足長方形的所有條件</strong>，是一種特殊的長方形。但反過來「長方形是正方形」就不對了。</p>"
+        },
+        {
+          "id": "g4a_ch4_2_q4",
+          "number": 4,
+          "type": "true_false",
+          "content": "<p>梯形有兩組對邊互相平行。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。<strong>梯形只有「一組」對邊平行</strong>（如果兩組都平行就變成平行四邊形了）。記法：梯子的「踏板」彼此平行，但兩側的「梯腳」不平行。</p>"
+        },
+        {
+          "id": "g4a_ch4_2_q5",
+          "number": 5,
+          "type": "true_false",
+          "content": "<p>圓形是一種多邊形。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。多邊形是由<strong>線段</strong>圍成的封閉圖形（邊是「直的」），例如三角形、四邊形、五邊形。<strong>圓的邊是曲線、不是線段</strong>，所以不是多邊形。</p>"
+        }
+      ]
+    },
+    {
+      "type": "single_choice",
+      "name": "單選題",
+      "questions": [
+        {
+          "id": "g4a_ch4_2_q6",
+          "number": 6,
+          "type": "single_choice",
+          "content": "<p>下列哪一個有「兩個端點」？</p><p>A. 直線</p><p>B. 射線</p><p>C. 線段</p><p>D. 以上皆是</p>",
+          "answer": "C",
+          "explanation": "<p>直線：無端點（兩端無限延伸）；射線：$1$ 個端點；<strong>線段：$2$ 個端點</strong>。答案 C。</p>"
+        },
+        {
+          "id": "g4a_ch4_2_q7",
+          "number": 7,
+          "type": "single_choice",
+          "content": "<p>下列何者是<strong>銳角三角形</strong>？</p><p>A. 三個角分別是 $60^\\circ, 60^\\circ, 60^\\circ$</p><p>B. 三個角分別是 $90^\\circ, 45^\\circ, 45^\\circ$</p><p>C. 三個角分別是 $30^\\circ, 60^\\circ, 90^\\circ$</p><p>D. 三個角分別是 $120^\\circ, 30^\\circ, 30^\\circ$</p>",
+          "answer": "A",
+          "explanation": "<p>銳角三角形的<strong>三個角都要小於 $90^\\circ$</strong>。A：$60^\\circ, 60^\\circ, 60^\\circ$ 三角都銳，是<strong>正三角形（也是銳角三角形）</strong>；B、C 有一個 $90^\\circ$ 直角三角形；D 有一個 $120^\\circ$ 是鈍角三角形。答案 A。</p>"
+        },
+        {
+          "id": "g4a_ch4_2_q8",
+          "number": 8,
+          "type": "single_choice",
+          "content": "<p>一個三角形其中兩個角分別是 $50^\\circ$ 和 $60^\\circ$，第三個角是多少度？</p><p>A. $60^\\circ$</p><p>B. $70^\\circ$</p><p>C. $80^\\circ$</p><p>D. $110^\\circ$</p>",
+          "answer": "B",
+          "explanation": "<p>三角形<strong>三內角和 $= 180^\\circ$</strong>。第三角 $= 180^\\circ - 50^\\circ - 60^\\circ = 70^\\circ$。答案 B。</p>"
+        },
+        {
+          "id": "g4a_ch4_2_q9",
+          "number": 9,
+          "type": "single_choice",
+          "content": "<p>下列哪種四邊形的<strong>四個邊都相等</strong>，但<strong>四個角不一定都是直角</strong>？</p><p>A. 正方形</p><p>B. 長方形</p><p>C. 菱形</p><p>D. 梯形</p>",
+          "answer": "C",
+          "explanation": "<p>A 正方形四邊等、四角直角；B 長方形對邊等、四角直角（四邊不一定等）；<strong>C 菱形四邊等，但四角不一定直角</strong>（如果角也是直角就變正方形）；D 梯形四邊不一定等。答案 C。</p>"
+        },
+        {
+          "id": "g4a_ch4_2_q10",
+          "number": 10,
+          "type": "single_choice",
+          "content": "<p>下列敘述何者<strong>錯誤</strong>？</p><p>A. 正方形是長方形</p><p>B. 長方形是平行四邊形</p><p>C. 平行四邊形是梯形</p><p>D. 正方形是菱形</p>",
+          "answer": "C",
+          "explanation": "<p>A 對（正方形滿足長方形條件）；B 對（長方形兩組對邊平行）；<strong>C 錯</strong>，梯形只有一組對邊平行，平行四邊形<strong>有兩組</strong>，所以「平行四邊形不是梯形」；D 對（正方形四邊等，滿足菱形條件）。答案 C。</p>"
+        },
+        {
+          "id": "g4a_ch4_2_q11",
+          "number": 11,
+          "type": "single_choice",
+          "content": "<p>一個多邊形有 $6$ 個邊，叫做？</p><p>A. 四邊形</p><p>B. 五邊形</p><p>C. 六邊形</p><p>D. 七邊形</p>",
+          "answer": "C",
+          "explanation": "<p>多邊形的命名直接依「邊數」：$3$ 邊三角形、$4$ 邊四邊形、$5$ 邊五邊形、$\\mathbf{6}$ 邊<strong>六邊形</strong>。答案 C。</p>"
+        },
+        {
+          "id": "g4a_ch4_2_q12",
+          "number": 12,
+          "type": "single_choice",
+          "content": "<p>下列何者一定有<strong>兩組對邊互相平行</strong>？</p><p>A. 梯形</p><p>B. 一般三角形</p><p>C. 平行四邊形</p><p>D. 不等邊三角形</p>",
+          "answer": "C",
+          "explanation": "<p><strong>平行四邊形</strong>的定義就是「兩組對邊都平行」。梯形只有一組對邊平行；三角形只有 $3$ 邊、沒有「對邊」的概念。答案 C。</p>"
+        },
+        {
+          "id": "g4a_ch4_2_q13",
+          "number": 13,
+          "type": "single_choice",
+          "content": "<p>一個等腰三角形的頂角是 $80^\\circ$，那麼<strong>每個底角</strong>是多少度？</p><p>A. $40^\\circ$</p><p>B. $50^\\circ$</p><p>C. $80^\\circ$</p><p>D. $100^\\circ$</p>",
+          "answer": "B",
+          "explanation": "<p>等腰三角形兩底角相等。三內角和 $180^\\circ$，扣掉頂角 $80^\\circ$ 剩 $100^\\circ$，平分給兩底角：$100^\\circ \\div 2 = 50^\\circ$。答案 B。</p>"
+        },
+        {
+          "id": "g4a_ch4_2_q14",
+          "number": 14,
+          "type": "single_choice",
+          "content": "<p>下列敘述何者<strong>正確</strong>？</p><p>A. 兩條直線一定會相交</p><p>B. 兩條平行線會在某一點相交</p><p>C. 兩條平行線無論延長多遠都不會相交</p><p>D. 平行的兩條直線之間距離會越來越遠</p>",
+          "answer": "C",
+          "explanation": "<p>A 錯，平行的兩直線不會相交；B 錯，平行線「永遠不相交」就是平行的定義；<strong>C 對</strong>；D 錯，平行線之間的距離<strong>處處相等</strong>（始終一樣）。答案 C。</p>"
+        },
+        {
+          "id": "g4a_ch4_2_q15",
+          "number": 15,
+          "type": "single_choice",
+          "content": "<p>下列圖形中，<strong>不一定</strong>是平行四邊形的是？</p><p>A. 正方形</p><p>B. 長方形</p><p>C. 菱形</p><p>D. 梯形</p>",
+          "answer": "D",
+          "explanation": "<p>平行四邊形的條件是「兩組對邊都平行」。A 正方形、B 長方形、C 菱形都滿足（兩組對邊都平行），所以都是平行四邊形。<strong>D 梯形只有一組對邊平行</strong>，不是平行四邊形。答案 D。</p>"
+        }
+      ]
+    }
+  ]
 }

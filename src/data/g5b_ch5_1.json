@@ -1,5 +1,138 @@
 {
   "title": "小五下 5-1 線對稱",
-  "summary": "<h1>小五　線對稱　教學重點</h1>\n\n    <!-- 知識點 1 -->\n    <h2>知識點 1：線對稱圖形的定義</h2>\n\n    <h3>核心定義</h3>\n    <ul>\n      <li><strong>線對稱圖形</strong>：一個平面圖形，若能沿著某一條直線對摺，使兩側<strong>完全重疊</strong>，則此圖形稱為線對稱圖形。</li>\n      <li><strong>對稱軸</strong>：對摺時所沿的那條直線，稱為這個圖形的對稱軸。</li>\n      <li><strong>判別方法</strong>：實際對摺（或想像對摺）後，左右兩半是否完全密合，是檢驗線對稱最直接的方式。</li>\n    </ul>\n\n    <h3>重要觀念</h3>\n    <ul>\n      <li>一個線對稱圖形，<strong>對稱軸可能不只一條</strong>。</li>\n      <li>對稱軸<strong>不一定是水平或垂直</strong>，斜的也可以。</li>\n      <li>對稱軸<strong>一定通過圖形內部或邊上</strong>，不會在圖形外面。</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 2 -->\n    <h2>知識點 2：對稱軸的性質</h2>\n\n    <h3>核心性質</h3>\n    <ul>\n      <li>對稱軸把線對稱圖形分成<strong>兩個完全相同</strong>（全等）且<strong>鏡像對稱</strong>的部分。</li>\n      <li>對稱軸兩側的對應點、對應邊、對應角都相等。</li>\n      <li>一個圖形所有對稱軸都會<strong>通過同一個中心</strong>（圓心、正多邊形中心等）。</li>\n    </ul>\n\n    <h3>對應關係</h3>\n    <ul>\n      <li><strong>對應點</strong>：對摺後重合的兩個點。</li>\n      <li><strong>對應線段</strong>：對摺後重合的兩條線段，長度相等。</li>\n      <li><strong>對應角</strong>：對摺後重合的兩個角，角度相等。</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 3 -->\n    <h2>知識點 3：常見圖形的對稱軸數量</h2>\n\n    <h3>速記表</h3>\n    <table>\n      <thead>\n        <tr>\n          <th>圖形</th>\n          <th>對稱軸數量</th>\n          <th>說明</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td>正方形</td>\n          <td>4 條</td>\n          <td>2 條對角線 + 2 條對邊中點連線</td>\n        </tr>\n        <tr>\n          <td>長方形（非正方形）</td>\n          <td>2 條</td>\n          <td>2 條對邊中點連線（對角線<strong>不是</strong>對稱軸）</td>\n        </tr>\n        <tr>\n          <td>菱形（非正方形）</td>\n          <td>2 條</td>\n          <td>2 條對角線</td>\n        </tr>\n        <tr>\n          <td>平行四邊形（一般）</td>\n          <td>0 條</td>\n          <td>沒有對稱軸</td>\n        </tr>\n        <tr>\n          <td>等腰梯形</td>\n          <td>1 條</td>\n          <td>上下底中點的連線</td>\n        </tr>\n        <tr>\n          <td>一般梯形</td>\n          <td>0 條</td>\n          <td>沒有對稱軸</td>\n        </tr>\n        <tr>\n          <td>等腰三角形（非正三角形）</td>\n          <td>1 條</td>\n          <td>頂點到底邊中點</td>\n        </tr>\n        <tr>\n          <td>等邊（正）三角形</td>\n          <td>3 條</td>\n          <td>三個頂點到對邊中點</td>\n        </tr>\n        <tr>\n          <td>一般三角形</td>\n          <td>0 條</td>\n          <td>沒有對稱軸</td>\n        </tr>\n        <tr>\n          <td>圓</td>\n          <td>無限多條</td>\n          <td>任何通過圓心的直線都是</td>\n        </tr>\n        <tr>\n          <td>正 n 邊形</td>\n          <td>n 條</td>\n          <td>一般通則</td>\n        </tr>\n      </tbody>\n    </table>\n\n    <h3>易混淆提醒</h3>\n    <ul>\n      <li><strong>長方形的對角線不是對稱軸</strong>：沿對角線摺，兩半不會完全重合（除非是正方形）。</li>\n      <li><strong>平行四邊形（傾斜的）沒有對稱軸</strong>：常被誤認為有，要特別小心。</li>\n      <li><strong>正多邊形邊數 n = 對稱軸數</strong>：例如正五邊形 5 條、正六邊形 6 條、正八邊形 8 條。</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 4 -->\n    <h2>知識點 4：對稱點的性質</h2>\n\n    <h3>核心性質（對稱軸為 ℓ，點 A 在一側，對應點 A′ 在另一側）</h3>\n    <ul>\n      <li><strong>對稱軸是線段 AA′ 的中垂線</strong>。由此推出兩個重要性質：\n        <ul>\n          <li><strong>A、A′ 到對稱軸的垂直距離相等</strong>。</li>\n          <li><strong>線段 AA′ 垂直於對稱軸</strong>。</li>\n        </ul>\n      </li>\n      <li>對應點的連線<strong>被對稱軸平分</strong>（垂足是 AA′ 的中點）。</li>\n    </ul>\n\n    <h3>對稱線段的性質</h3>\n    <ul>\n      <li>線段 AB 的對稱線段 A′B′，<strong>長度相等</strong>：<code>AB = A′B′</code>。</li>\n      <li>對應線段與對稱軸所夾角度相等（鏡像角）。</li>\n      <li>若線段本身與對稱軸垂直，則對稱後與原線段<strong>共線或重合</strong>。</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 5 -->\n    <h2>知識點 5：對稱點與對稱圖形的畫法</h2>\n\n    <h3>畫對稱點的步驟</h3>\n    <ol>\n      <li>從原點 A 向對稱軸 ℓ 畫一條<strong>垂直線</strong>。</li>\n      <li>量出 A 到對稱軸的距離 <code>d</code>。</li>\n      <li>在垂直線的另一側，距離對稱軸<strong>也是 <code>d</code></strong> 的位置，標出對應點 A′。</li>\n    </ol>\n\n    <h3>畫對稱圖形的步驟</h3>\n    <ol>\n      <li>找出原圖形上<strong>所有頂點</strong>（多邊形）或<strong>關鍵點</strong>（曲線圖形多取幾個點）。</li>\n      <li>對每一個點，分別畫出其對稱點。</li>\n      <li>把對稱點依照原圖形的連接順序<strong>依序連起來</strong>，即得對稱圖形。</li>\n    </ol>\n\n    <h3>方格紙作圖技巧</h3>\n    <ul>\n      <li>對稱軸是水平線時：對應點的「左右位置（同欄）」相同，「上下到軸的格數」相等。</li>\n      <li>對稱軸是垂直線時：對應點的「上下位置（同列）」相同，「左右到軸的格數」相等。</li>\n      <li>對稱軸是 45° 斜線時：對應點「沿垂直於該斜線方向」量等距離。</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 6 -->\n    <h2>知識點 6：英文字母與數字的對稱性</h2>\n\n    <h3>字母的對稱性</h3>\n    <table>\n      <thead>\n        <tr>\n          <th>對稱類型</th>\n          <th>字母</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td>有<strong>垂直</strong>對稱軸</td>\n          <td>A, H, I, M, O, T, U, V, W, X, Y</td>\n        </tr>\n        <tr>\n          <td>有<strong>水平</strong>對稱軸</td>\n          <td>B, C, D, E, H, I, K, O, X</td>\n        </tr>\n        <tr>\n          <td>有<strong>水平且垂直</strong>兩條對稱軸</td>\n          <td>H, I, O, X</td>\n        </tr>\n        <tr>\n          <td>沒有對稱軸</td>\n          <td>F, G, J, L, N, P, Q, R, S, Z</td>\n        </tr>\n      </tbody>\n    </table>\n\n    <h3>數字的對稱性（標準寫法）</h3>\n    <ul>\n      <li>有<strong>垂直</strong>對稱軸：<code>0</code>, <code>8</code></li>\n      <li>有<strong>水平</strong>對稱軸：<code>0</code>, <code>3</code>, <code>8</code></li>\n      <li>兩條都有：<code>0</code>, <code>8</code></li>\n      <li>沒有對稱軸：<code>1</code>（看寫法）, <code>2</code>, <code>4</code>, <code>5</code>, <code>6</code>, <code>7</code>, <code>9</code></li>\n    </ul>\n\n    <p style=\"margin-top:8px;color:#666;font-size:0.92rem;\"><strong>注意</strong>：字母／數字的對稱性會因字體（字型）不同而略有差異，題目通常用標準印刷體判斷。</p>\n\n    <hr>\n\n    <!-- 知識點 7 -->\n    <h2>知識點 7：生活中的線對稱應用</h2>\n\n    <h3>剪紙藝術</h3>\n    <ul>\n      <li>把紙對摺，沿摺線剪圖案，展開即得線對稱圖形。</li>\n      <li>對摺<strong>兩次</strong>（垂直再水平）剪出的圖形有<strong>兩條</strong>對稱軸。</li>\n      <li>對摺<strong>多次</strong>或斜摺可得多條對稱軸的圖案（如雪花）。</li>\n    </ul>\n\n    <h3>設計與標誌</h3>\n    <ul>\n      <li>許多商標、招牌字、國旗（如英國、瑞士、加拿大）都採用線對稱設計，視覺平衡。</li>\n      <li>建築立面（廟宇、教堂、宮殿）多左右對稱，呈現莊嚴。</li>\n    </ul>\n\n    <h3>自然界</h3>\n    <ul>\n      <li>蝴蝶、人臉、葉子等多呈左右對稱。</li>\n    </ul>\n\n    <hr>\n\n    <!-- 常見題型 -->\n    <div class=\"exam-section\">\n      <h2>常見題型</h2>\n      <ol>\n        <li><strong>判斷是否為線對稱圖形</strong>：給一圖形，判斷能否沿某直線對摺重合；不能只看「左右像不像」，要嚴格對摺。</li>\n        <li><strong>數對稱軸條數</strong>：給一圖形（如正多邊形、組合圖形、字母），數出有幾條對稱軸。注意長方形對角線<strong>不是</strong>對稱軸的陷阱。</li>\n        <li><strong>方格紙畫對稱圖形</strong>：給對稱軸與圖形一半，畫出另一半。技巧是「每個頂點先畫對稱點，再依序連線」。</li>\n        <li><strong>求對稱點座標／位置</strong>：對稱軸為水平／垂直直線時，求對應點到軸的距離相等。</li>\n        <li><strong>生活情境判斷</strong>：給商標、標誌、字母、剪紙圖案，判斷對稱軸條數或位置。</li>\n        <li><strong>字母對稱性</strong>：列出有垂直／水平對稱軸的字母或數字。</li>\n      </ol>\n\n      <h3 style=\"margin-top:18px;\">易錯點整理</h3>\n      <ul>\n        <li>把「形狀類似」當成線對稱（必須<strong>完全重合</strong>）。</li>\n        <li>長方形對角線當成對稱軸。</li>\n        <li>平行四邊形（非長方形、非菱形）誤判為有對稱軸。</li>\n        <li>畫對稱點時忘了<strong>垂直</strong>對稱軸，只量水平距離。</li>\n        <li>對稱軸畫成圖形外面的線（對稱軸要通過圖形本身）。</li>\n      </ul>\n    </div>\n\n    <hr>\n\n    <!-- 教材來源 -->\n    <h2>💡 教材來源說明</h2>\n    <ul>\n      <li>本章依台灣國小數學標準課綱整理，無對應影片逐字稿。</li>\n    </ul>",
-  "sections": []
+  "summary": "<ul><li><strong>線對稱圖形</strong>：一個平面圖形若能沿某一條直線對摺，使兩側<strong>完全重合</strong>，就稱為線對稱圖形。例：愛心、蝴蝶、英文字母 A。</li><li><strong>對稱軸</strong>：對摺時所沿的那條直線。一個圖形可能有<strong>一條、多條、無限多條</strong>對稱軸，甚至沒有對稱軸。</li><li><strong>對稱點</strong>：對摺後會重合的兩個點。對稱點到對稱軸的<strong>距離相等</strong>，且兩點連線會<strong>垂直</strong>於對稱軸。</li><li><strong>常見圖形的對稱軸數</strong>：正方形 $4$ 條（兩條對角線 + 兩條對邊中線）；長方形（非正方形）$2$ 條（對邊中線，對角線<strong>不是</strong>）；等邊三角形 $3$ 條；等腰三角形 $1$ 條；圓<strong>無限多條</strong>（通過圓心的任一直線）。</li><li><strong>正 $n$ 邊形</strong>：對稱軸有 $n$ 條。例：正五邊形 $5$ 條、正六邊形 $6$ 條。</li><li><strong>沒有對稱軸的圖形</strong>：一般平行四邊形（傾斜的）、一般三角形、一般梯形。判斷方法：實際對摺看兩側能否完全密合。</li></ul>",
+  "sections": [
+    {
+      "type": "true_false",
+      "name": "是非題",
+      "questions": [
+        {
+          "id": "g5b_ch5_1_q1",
+          "number": 1,
+          "type": "true_false",
+          "content": "<p>正方形有 $4$ 條對稱軸。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。正方形的對稱軸包括：$2$ 條<strong>對邊中點連線</strong>（水平與垂直各 $1$ 條）和 $2$ 條<strong>對角線</strong>，共 $4$ 條。它是正多邊形（正 $4$ 邊形），所以剛好有 $4$ 條對稱軸。</p>"
+        },
+        {
+          "id": "g5b_ch5_1_q2",
+          "number": 2,
+          "type": "true_false",
+          "content": "<p>長方形（不是正方形）的兩條對角線都是對稱軸。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。長方形（非正方形）只有 $2$ 條對稱軸，是<strong>對邊中點的連線</strong>（水平與垂直各 $1$ 條）。對角線沿著摺，兩半不會完全重合（會錯位），所以<strong>不是</strong>對稱軸。</p>"
+        },
+        {
+          "id": "g5b_ch5_1_q3",
+          "number": 3,
+          "type": "true_false",
+          "content": "<p>圓有無限多條對稱軸。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。<strong>任何通過圓心的直線</strong>都是圓的對稱軸，沿著它對摺兩半都會完全重合。因為通過圓心的直線有無限多條，所以圓有無限多條對稱軸。</p>"
+        },
+        {
+          "id": "g5b_ch5_1_q4",
+          "number": 4,
+          "type": "true_false",
+          "content": "<p>一個線對稱圖形上，對應的兩個點到對稱軸的距離一定相等。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。對稱軸就像一面「鏡子」，對應點和原點對於對稱軸<strong>左右距離相同</strong>，且兩點的連線<strong>垂直</strong>於對稱軸。這是線對稱最重要的性質。</p>"
+        },
+        {
+          "id": "g5b_ch5_1_q5",
+          "number": 5,
+          "type": "true_false",
+          "content": "<p>所有三角形都是線對稱圖形。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。只有<strong>等腰三角形（$1$ 條對稱軸）</strong>和<strong>等邊三角形（$3$ 條對稱軸）</strong>才是線對稱圖形。一般三角形（三邊都不相等）<strong>沒有</strong>對稱軸，不是線對稱圖形。</p>"
+        }
+      ]
+    },
+    {
+      "type": "single_choice",
+      "name": "單選題",
+      "questions": [
+        {
+          "id": "g5b_ch5_1_q6",
+          "number": 6,
+          "type": "single_choice",
+          "content": "<p>下列哪一個圖形<strong>不是</strong>線對稱圖形？</p><p>A. 正方形</p><p>B. 圓</p><p>C. 一般平行四邊形（傾斜的，非長方形也非菱形）</p><p>D. 等邊三角形</p>",
+          "answer": "C",
+          "explanation": "<p>A. 正方形 $4$ 條對稱軸 ✓；B. 圓無限多條 ✓；D. 等邊三角形 $3$ 條 ✓；<strong>C. 一般平行四邊形沿任何直線對摺都無法完全重合，沒有對稱軸</strong>。注意：長方形、菱形是特殊的平行四邊形，有對稱軸；但「一般」平行四邊形沒有。答案 C。</p>"
+        },
+        {
+          "id": "g5b_ch5_1_q7",
+          "number": 7,
+          "type": "single_choice",
+          "content": "<p>等邊三角形有幾條對稱軸？</p><p>A. $1$ 條</p><p>B. $2$ 條</p><p>C. $3$ 條</p><p>D. $4$ 條</p>",
+          "answer": "C",
+          "explanation": "<p>等邊三角形三邊相等，每個頂點到對邊中點的連線都是對稱軸，共 $3$ 條。一般通則：正 $n$ 邊形有 $n$ 條對稱軸。答案 C。</p>"
+        },
+        {
+          "id": "g5b_ch5_1_q8",
+          "number": 8,
+          "type": "single_choice",
+          "content": "<p>正六邊形有幾條對稱軸？</p><p>A. $3$ 條</p><p>B. $4$ 條</p><p>C. $6$ 條</p><p>D. $12$ 條</p>",
+          "answer": "C",
+          "explanation": "<p>正 $n$ 邊形有 $n$ 條對稱軸。正六邊形的對稱軸包括：$3$ 條<strong>對角線</strong>（連對角頂點）和 $3$ 條<strong>對邊中點連線</strong>，共 $6$ 條。答案 C。</p>"
+        },
+        {
+          "id": "g5b_ch5_1_q9",
+          "number": 9,
+          "type": "single_choice",
+          "content": "<p>下列哪一個英文大寫字母<strong>有垂直方向的對稱軸</strong>？</p><p>A. F</p><p>B. G</p><p>C. P</p><p>D. A</p>",
+          "answer": "D",
+          "explanation": "<p>A 的形狀左右對稱，沿中間的垂直線對摺兩側完全重合，所以 <strong>A 有垂直對稱軸</strong>。其他像 F、G、P 都不對稱。其他有垂直對稱軸的字母還有：H、I、M、O、T、U、V、W、X、Y。答案 D。</p>"
+        },
+        {
+          "id": "g5b_ch5_1_q10",
+          "number": 10,
+          "type": "single_choice",
+          "content": "<p>等腰梯形（不是長方形）有幾條對稱軸？</p><p>A. $0$ 條</p><p>B. $1$ 條</p><p>C. $2$ 條</p><p>D. $4$ 條</p>",
+          "answer": "B",
+          "explanation": "<p>等腰梯形的兩腰相等，沿著<strong>上下底中點的連線</strong>對摺，左右兩半完全重合，所以有 $1$ 條對稱軸（垂直的）。注意：一般梯形（兩腰不等）沒有對稱軸。答案 B。</p>"
+        },
+        {
+          "id": "g5b_ch5_1_q11",
+          "number": 11,
+          "type": "single_choice",
+          "content": "<p>下列哪一組圖形<strong>都是</strong>線對稱圖形？</p><p>A. 正方形、一般三角形、圓</p><p>B. 長方形、等腰三角形、圓</p><p>C. 平行四邊形、菱形、正五邊形</p><p>D. 一般梯形、長方形、等邊三角形</p>",
+          "answer": "B",
+          "explanation": "<p>A 中「一般三角形」沒有對稱軸；C 中「一般平行四邊形」沒有對稱軸；D 中「一般梯形」沒有對稱軸。B 中三者都有對稱軸（長方形 $2$ 條、等腰三角形 $1$ 條、圓無限多條）。答案 B。</p>"
+        },
+        {
+          "id": "g5b_ch5_1_q12",
+          "number": 12,
+          "type": "single_choice",
+          "content": "<p>在一個線對稱圖形上，點 A 到對稱軸的距離是 $5$ 公分，那麼點 A 的對應點 A' 到對稱軸的距離是多少？</p><p>A. $2.5$ 公分</p><p>B. $5$ 公分</p><p>C. $10$ 公分</p><p>D. 無法判斷</p>",
+          "answer": "B",
+          "explanation": "<p>線對稱的核心性質：<strong>對應點到對稱軸的距離相等</strong>。A 距離 $5$ 公分，A' 也是 $5$ 公分。把對稱軸想成一面鏡子，鏡前和鏡中的物體到鏡面距離一定相等。答案 B。</p>"
+        },
+        {
+          "id": "g5b_ch5_1_q13",
+          "number": 13,
+          "type": "single_choice",
+          "content": "<p>菱形（不是正方形）有幾條對稱軸？</p><p>A. $0$ 條</p><p>B. $1$ 條</p><p>C. $2$ 條</p><p>D. $4$ 條</p>",
+          "answer": "C",
+          "explanation": "<p>菱形四邊相等，沿著兩條<strong>對角線</strong>對摺都能完全重合，所以菱形有 $2$ 條對稱軸（兩條對角線）。注意：菱形的對邊中點連線<strong>不是</strong>對稱軸（除非它同時是正方形）。答案 C。</p>"
+        },
+        {
+          "id": "g5b_ch5_1_q14",
+          "number": 14,
+          "type": "single_choice",
+          "content": "<p>下列哪一個阿拉伯數字<strong>有水平方向的對稱軸</strong>（即沿水平線對摺兩半重合）？</p><p>A. $1$</p><p>B. $3$</p><p>C. $6$</p><p>D. $7$</p>",
+          "answer": "B",
+          "explanation": "<p>「$3$」上下兩個半圓對稱，沿中間水平線對摺兩半重合，有水平對稱軸。其他像 $0$、$8$ 也都有水平對稱軸。$1$、$6$、$7$ 都沒有對稱軸。答案 B。</p>"
+        },
+        {
+          "id": "g5b_ch5_1_q15",
+          "number": 15,
+          "type": "single_choice",
+          "content": "<p>把一張長方形的紙先<strong>左右</strong>對摺，再<strong>上下</strong>對摺成 $4$ 層，沿摺線剪一個小三角形後展開。展開後的圖形有幾條對稱軸？</p><p>A. $1$ 條</p><p>B. $2$ 條</p><p>C. $3$ 條</p><p>D. $4$ 條</p>",
+          "answer": "B",
+          "explanation": "<p>左右對摺產生 $1$ 條<strong>垂直</strong>摺線（對稱軸）；上下再對摺產生 $1$ 條<strong>水平</strong>摺線（對稱軸）。展開後的圖案沿這兩條摺線都能對摺重合，所以有 $2$ 條對稱軸。答案 B。</p>"
+        }
+      ]
+    }
+  ]
 }

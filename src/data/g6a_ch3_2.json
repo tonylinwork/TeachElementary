@@ -1,5 +1,138 @@
 {
   "title": "小六上 3-2 比與比例式",
-  "summary": "<h1>小六 — 比與比例式　教學重點</h1>\n\n    <!-- 知識點 1 -->\n    <h2>知識點 1：比的定義與比值</h2>\n\n    <h3>核心定理／公式</h3>\n    <ul>\n      <li><strong>比</strong>：用「∶」連接兩個量的相對關係，記作 <code>a ∶ b</code>，唸作「a 比 b」</li>\n      <li><strong>前項</strong>：比號前的數（a）；<strong>後項</strong>：比號後的數（b）</li>\n      <li><strong>比值</strong>：前項 ÷ 後項 = <code>a ÷ b</code> = <code>a/b</code>（可寫成分數、小數或整數）</li>\n      <li>比可以表示兩個相同單位量的對應關係（如人數、長度、重量）</li>\n      <li>若 b = 0 時無意義（<strong>後項不得為 0</strong>）</li>\n    </ul>\n\n    <h3>常見考法／注意事項</h3>\n    <ul>\n      <li>「甲比乙」與「乙比甲」<strong>順序不可顛倒</strong>：<code>5∶3 ≠ 3∶5</code></li>\n      <li>比值是一個「數」，比是一種「關係」；比值相同的比視為相等的比</li>\n      <li>兩量單位不同時要先換成相同單位再比（例：1 公尺 ∶ 50 公分 → <code>100∶50</code>）</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 2 -->\n    <h2>知識點 2：相等的比與比的化簡</h2>\n\n    <h3>核心定理／公式</h3>\n    <ul>\n      <li><strong>相等的比性質</strong>：比的前項與後項<strong>同乘或同除以同一個非零數</strong>，比值不變</li>\n      <li>若 <code>a ∶ b = (a × k) ∶ (b × k)</code>（k ≠ 0），則稱為相等的比</li>\n      <li><strong>最簡整數比</strong>：前後項皆為整數且<strong>互質</strong>（最大公因數 = 1）</li>\n    </ul>\n\n    <h3>化簡步驟</h3>\n    <ol>\n      <li>若含小數 → 同乘 10、100… 化成整數</li>\n      <li>若含分數 → 同乘分母的最小公倍數化成整數</li>\n      <li>整數比再除以最大公因數，得最簡整數比</li>\n    </ol>\n\n    <h3>常見考法／注意事項</h3>\n    <ul>\n      <li><strong>化簡 vs 比值</strong> 容易混淆：\n        <ul>\n          <li>化簡 <code>12∶8</code> → <code>3∶2</code>（仍是「比」）</li>\n          <li>比值 <code>12∶8</code> → <code>12 ÷ 8 = 3/2</code>（是一個「數」）</li>\n        </ul>\n      </li>\n      <li>含異類單位先換算（公升↔毫升、公斤↔公克、時↔分）</li>\n      <li>分數比 <code>1/2 ∶ 1/3</code> → 同乘 6 → <code>3∶2</code></li>\n      <li>小數比 <code>0.6 ∶ 1.5</code> → 同乘 10 → <code>6∶15</code> → 除以 3 → <code>2∶5</code></li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 3 -->\n    <h2>知識點 3：比例式</h2>\n\n    <h3>核心定理／公式</h3>\n    <ul>\n      <li><strong>比例式</strong>：兩個相等的比用等號連接 → <code>a ∶ b = c ∶ d</code></li>\n      <li><strong>外項</strong>：兩端的 a 與 d；<strong>內項</strong>：中間的 b 與 c</li>\n      <li><strong>比例式基本性質</strong>（內外項積相等）：<code>a × d = b × c</code></li>\n      <li>利用此性質可<strong>驗證</strong>兩比是否相等，也可<strong>求未知項</strong></li>\n    </ul>\n\n    <h3>比例式各部分名稱（例：3 ∶ 4 = 6 ∶ 8）</h3>\n    <table>\n      <thead>\n        <tr>\n          <th>位置</th>\n          <th>名稱</th>\n          <th>數值</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td>第 1 項</td>\n          <td>外項</td>\n          <td>3</td>\n        </tr>\n        <tr>\n          <td>第 2 項</td>\n          <td>內項</td>\n          <td>4</td>\n        </tr>\n        <tr>\n          <td>第 3 項</td>\n          <td>內項</td>\n          <td>6</td>\n        </tr>\n        <tr>\n          <td>第 4 項</td>\n          <td>外項</td>\n          <td>8</td>\n        </tr>\n      </tbody>\n    </table>\n\n    <h3>常見考法／注意事項</h3>\n    <ul>\n      <li>驗證：<code>3∶4 = 6∶8</code> ？→ <code>3×8 = 24</code>，<code>4×6 = 24</code>，相等 → 成立</li>\n      <li><strong>解未知項</strong>：<code>3 ∶ 4 = x ∶ 20</code> → <code>4x = 60</code> → <code>x = 15</code></li>\n      <li>先判斷未知項是內項還是外項，再列「內項積 = 外項積」方程式</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 4 -->\n    <h2>知識點 4：比例的應用</h2>\n\n    <h3>核心觀念</h3>\n    <ul>\n      <li>把比例式當成「分配工具」或「換算工具」</li>\n      <li>常見三大類：<strong>按比例分配</strong>、<strong>單位換算／配料</strong>、<strong>地圖比例尺</strong></li>\n    </ul>\n\n    <h3>按比例分配</h3>\n    <ol>\n      <li>算出<strong>總份數</strong>（比的各項相加）</li>\n      <li>算出<strong>每份的量</strong>（總量 ÷ 總份數）</li>\n      <li>各項對應份數 × 每份量</li>\n    </ol>\n    <ul>\n      <li>例：把 240 元按 <code>3∶5</code> 分給甲、乙\n        <ul>\n          <li>總份數 = <code>3 + 5 = 8</code></li>\n          <li>每份 = <code>240 ÷ 8 = 30</code> 元</li>\n          <li>甲 = <code>30 × 3 = 90</code> 元；乙 = <code>30 × 5 = 150</code> 元</li>\n        </ul>\n      </li>\n    </ul>\n\n    <h3>單位換算與配料</h3>\n    <ul>\n      <li>配方比例：水與果汁 <code>1∶4</code>，要做 200 毫升 → 水 = 40，果汁 = 160</li>\n      <li>食譜倍增：原配方 2 人份 → 5 人份，所有材料同乘 <code>5/2</code></li>\n    </ul>\n\n    <h3>地圖比例尺（前導概念）</h3>\n    <ul>\n      <li>比例尺 <code>1∶10000</code> 表示圖上 1 公分代表實際 10000 公分（= 100 公尺）</li>\n      <li>圖上長度 × 比例尺後項 = 實際長度（單位要一致）</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 5 -->\n    <h2>知識點 5：連比</h2>\n\n    <h3>核心定理／公式</h3>\n    <ul>\n      <li><strong>連比</strong>：用兩個比號連接三個（以上）量，記作 <code>a ∶ b ∶ c</code></li>\n      <li>表示三個量之間的相對關係（不是兩個比的乘除）</li>\n      <li>連比也可同乘同除非零數而值不變</li>\n      <li><strong>最簡連比</strong>：a、b、c 三數的最大公因數 = 1</li>\n    </ul>\n\n    <h3>兩比合併為連比（關鍵：對齊共同項）</h3>\n    <ul>\n      <li>給 <code>A ∶ B = 2 ∶ 3</code>、<code>B ∶ C = 4 ∶ 5</code>，要合併成 <code>A ∶ B ∶ C</code></li>\n    </ul>\n    <ol>\n      <li>算 B 的最小公倍數：<code>lcm(3, 4) = 12</code></li>\n      <li>第一比同乘 4 → <code>A ∶ B = 8 ∶ 12</code></li>\n      <li>第二比同乘 3 → <code>B ∶ C = 12 ∶ 15</code></li>\n      <li>合併 → <code>A ∶ B ∶ C = 8 ∶ 12 ∶ 15</code></li>\n    </ol>\n\n    <h3>常見考法／注意事項</h3>\n    <ul>\n      <li>合併連比時務必先<strong>對齊共同項</strong>，不能直接寫 <code>2∶3∶5</code></li>\n      <li>三項分配題：總量按 <code>a∶b∶c</code> 分 → 總份數 = <code>a + b + c</code>，每份 = 總量 ÷ 總份數</li>\n    </ul>\n\n    <hr>\n\n    <!-- 易錯點 -->\n    <h2>易錯點整理</h2>\n    <ul>\n      <li><strong>前項後項順序顛倒</strong>：題目問「甲比乙」就是 <code>甲∶乙</code>，不可寫成 <code>乙∶甲</code></li>\n      <li><strong>相等的比 vs 比值</strong>：化簡後仍是「比」（含比號）；比值是「一個數」（除出來的結果）</li>\n      <li><strong>單位不一致</strong>：1 公尺 ∶ 30 公分 要先換成 <code>100∶30</code> 而不是 <code>1∶30</code></li>\n      <li><strong>比的前後項不可加減同一個數</strong>：只能同乘除非零數。例：<code>3∶5</code> 不等於 <code>(3+2)∶(5+2) = 5∶7</code></li>\n      <li><strong>後項不可為 0</strong>：比值會無意義</li>\n      <li><strong>連比合併忘了對齊共同項</strong>：直接拼成 <code>2∶3∶5</code> 是錯的</li>\n    </ul>\n\n    <hr>\n\n    <!-- 常見題型 -->\n    <div class=\"exam-section\">\n      <h2>常見題型</h2>\n      <ol>\n        <li><strong>比的化簡</strong>：含小數、分數或不同單位時，先化整數再除公因數，求最簡整數比。</li>\n        <li><strong>求比值</strong>：給定一個比，算出比值（用分數或小數表示），常用來比較哪一比較「濃」或「快」。</li>\n        <li><strong>解比例式求未知數</strong>：用「內項積 = 外項積」列方程式，求 <code>x</code>。</li>\n        <li><strong>按比例分配</strong>：給總量與比，求各部分的量。先算總份數再算每份。</li>\n        <li><strong>配料／調配題</strong>：糖水、果汁、混合液體，給比例與其中一項量，求另一項或總量。</li>\n        <li><strong>面積比與人數比</strong>：長方形邊長比 <code>a∶b</code> → 面積比 <code>a²∶b²</code>（前導概念）；人數比題注意分母 vs 分子。</li>\n        <li><strong>連比合併</strong>：給兩個比含同一項，找最小公倍數對齊共同項後合併成連比。</li>\n        <li><strong>地圖比例尺前導</strong>：比例尺 <code>1∶n</code>，已知圖上距離求實際距離，或反向求圖上距離；注意單位換算（公分↔公尺↔公里）。</li>\n      </ol>\n    </div>\n\n    <hr>\n\n    <!-- 教材來源說明 -->\n    <h2>💡 教材來源說明</h2>\n    <ul>\n      <li>本章依台灣國小數學標準課綱整理，無對應影片逐字稿。</li>\n    </ul>",
-  "sections": []
+  "summary": "<ul><li><strong>比的寫法與名稱</strong>：兩個量的相對關係寫成 $a \\colon b$（讀「$a$ 比 $b$」）。<strong>前項</strong> $a$ 在比號前、<strong>後項</strong> $b$ 在比號後。後項<strong>不可為 $0$</strong>。</li><li><strong>比值</strong>：前項除以後項，$\\dfrac{a}{b} = a \\div b$。比值是一個「數」，比是一種「關係」。比值相同的兩個比視為相等的比。</li><li><strong>相等的比</strong>：前後項<strong>同乘或同除以同一個非零數</strong>，比值不變。<strong>不可以同加或同減</strong>同一個數，例 $3 \\colon 5 \\neq (3+2) \\colon (5+2) = 5 \\colon 7$。</li><li><strong>最簡整數比</strong>：化簡步驟 ① 含小數同乘 $10, 100\\ldots$；② 含分數同乘分母最小公倍數；③ 整數比再除以最大公因數。前後項<strong>互質</strong>就是最簡。</li><li><strong>比例式</strong>：兩個相等的比連等號 $a \\colon b = c \\colon d$。$a, d$ 是<strong>外項</strong>，$b, c$ 是<strong>內項</strong>，並滿足<strong>內項積 $=$ 外項積</strong>：$a \\times d = b \\times c$。</li><li><strong>按比例分配</strong>：總量按 $a \\colon b$ 分配，總份數 $= a + b$，<strong>一份 $=$ 總量 $\\div$ 總份數</strong>，再各乘對應份數。</li></ul>",
+  "sections": [
+    {
+      "type": "true_false",
+      "name": "是非題",
+      "questions": [
+        {
+          "id": "g6a_ch3_2_q1",
+          "number": 1,
+          "type": "true_false",
+          "content": "<p>「$5 \\colon 3$」與「$3 \\colon 5$」是相同的比。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。比的前後項<strong>不可以顛倒</strong>。$5 \\colon 3$ 的比值是 $\\dfrac{5}{3}$，$3 \\colon 5$ 的比值是 $\\dfrac{3}{5}$，兩者不同。在情境中，「甲比乙」與「乙比甲」是不同的意思。</p>"
+        },
+        {
+          "id": "g6a_ch3_2_q2",
+          "number": 2,
+          "type": "true_false",
+          "content": "<p>比的前項與後項<strong>同時加上</strong>或<strong>減去</strong>同一個非零數，比值不變。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。比的性質是<strong>同乘或同除</strong>非零數時比值不變，不是同加減。例如 $3 \\colon 5$ 比值 $\\dfrac{3}{5}$；同加 $2$ 變 $5 \\colon 7$ 比值 $\\dfrac{5}{7}$，兩者不同。</p>"
+        },
+        {
+          "id": "g6a_ch3_2_q3",
+          "number": 3,
+          "type": "true_false",
+          "content": "<p>比例式 $a \\colon b = c \\colon d$ 中，內項積等於外項積，即 $b \\times c = a \\times d$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。比例式的核心性質：<strong>內項積 $=$ 外項積</strong>。例 $2 \\colon 3 = 4 \\colon 6$，內項積 $3 \\times 4 = 12$，外項積 $2 \\times 6 = 12$，相等。這個性質是解未知項的關鍵工具。</p>"
+        },
+        {
+          "id": "g6a_ch3_2_q4",
+          "number": 4,
+          "type": "true_false",
+          "content": "<p>$1$ 公尺 $\\colon 50$ 公分 化成最簡整數比是 $1 \\colon 50$。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。前後項的<strong>單位要先統一</strong>。$1$ 公尺 $= 100$ 公分，所以是 $100 \\colon 50$，再除以最大公因數 $50$ 得 $2 \\colon 1$，不是 $1 \\colon 50$。</p>"
+        },
+        {
+          "id": "g6a_ch3_2_q5",
+          "number": 5,
+          "type": "true_false",
+          "content": "<p>$\\dfrac{1}{2} \\colon \\dfrac{1}{3}$ 化成最簡整數比是 $3 \\colon 2$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。前後項<strong>同乘分母的最小公倍數</strong> $6$：$\\dfrac{1}{2} \\times 6 = 3$，$\\dfrac{1}{3} \\times 6 = 2$，得 $3 \\colon 2$，前後項已互質。也可從比值驗證：$\\dfrac{1/2}{1/3} = \\dfrac{1}{2} \\times 3 = \\dfrac{3}{2}$ ✓。</p>"
+        }
+      ]
+    },
+    {
+      "type": "single_choice",
+      "name": "單選題",
+      "questions": [
+        {
+          "id": "g6a_ch3_2_q6",
+          "number": 6,
+          "type": "single_choice",
+          "content": "<p>$24 \\colon 18$ 的最簡整數比是？</p><p>A. $12 \\colon 9$</p><p>B. $8 \\colon 6$</p><p>C. $4 \\colon 3$</p><p>D. $3 \\colon 2$</p>",
+          "answer": "C",
+          "explanation": "<p>$24$ 與 $18$ 的最大公因數是 $6$（$24 = 6 \\times 4$、$18 = 6 \\times 3$），同除以 $6$ 得 $4 \\colon 3$。A、B 雖然是相等的比但還沒最簡（公因數還沒除盡）。答案 C。</p>"
+        },
+        {
+          "id": "g6a_ch3_2_q7",
+          "number": 7,
+          "type": "single_choice",
+          "content": "<p>下列哪一組比的比值是 $\\dfrac{3}{4}$？</p><p>A. $4 \\colon 3$</p><p>B. $6 \\colon 8$</p><p>C. $3 \\colon 7$</p><p>D. $4 \\colon 7$</p>",
+          "answer": "B",
+          "explanation": "<p>比值 $=$ 前項 $\\div$ 後項。A：$\\dfrac{4}{3}$ ✗；B：$\\dfrac{6}{8} = \\dfrac{3}{4}$ ✓；C：$\\dfrac{3}{7}$ ✗；D：$\\dfrac{4}{7}$ ✗。$6 \\colon 8$ 化簡為 $3 \\colon 4$，與 $\\dfrac{3}{4}$ 同值。答案 B。</p>"
+        },
+        {
+          "id": "g6a_ch3_2_q8",
+          "number": 8,
+          "type": "single_choice",
+          "content": "<p>下列哪一個比例式<strong>不成立</strong>？</p><p>A. $2 \\colon 3 = 4 \\colon 6$</p><p>B. $5 \\colon 8 = 10 \\colon 16$</p><p>C. $3 \\colon 4 = 9 \\colon 16$</p><p>D. $6 \\colon 9 = 8 \\colon 12$</p>",
+          "answer": "C",
+          "explanation": "<p>用<strong>內項積 $=$ 外項積</strong>檢驗。A：$2 \\times 6 = 12 = 3 \\times 4$ ✓；B：$5 \\times 16 = 80 = 8 \\times 10$ ✓；<strong>C：$3 \\times 16 = 48$ 但 $4 \\times 9 = 36$，不相等</strong>；D：$6 \\times 12 = 72 = 9 \\times 8$ ✓。答案 C。</p>"
+        },
+        {
+          "id": "g6a_ch3_2_q9",
+          "number": 9,
+          "type": "single_choice",
+          "content": "<p>解比例式 $3 \\colon 4 = x \\colon 20$，$x$ 的值是？</p><p>A. $5$</p><p>B. $12$</p><p>C. $15$</p><p>D. $80$</p>",
+          "answer": "C",
+          "explanation": "<p>用<strong>內項積 $=$ 外項積</strong>：$3 \\times 20 = 4 \\times x$，$60 = 4x$，$x = 15$。也可從相等的比看出：後項 $4 \\to 20$ 是同乘 $5$，前項也要同乘 $5$，$3 \\times 5 = 15$。答案 C。</p>"
+        },
+        {
+          "id": "g6a_ch3_2_q10",
+          "number": 10,
+          "type": "single_choice",
+          "content": "<p>把 $240$ 元按 $3 \\colon 5$ 分給甲、乙兩人，乙得到多少元？</p><p>A. $80$ 元</p><p>B. $90$ 元</p><p>C. $120$ 元</p><p>D. $150$ 元</p>",
+          "answer": "D",
+          "explanation": "<p>總份數 $= 3 + 5 = 8$；<strong>一份 $= 240 \\div 8 = 30$ 元</strong>；甲 $= 3 \\times 30 = 90$ 元，乙 $= 5 \\times 30 = 150$ 元。驗算：$90 + 150 = 240$ ✓。答案 D。</p>"
+        },
+        {
+          "id": "g6a_ch3_2_q11",
+          "number": 11,
+          "type": "single_choice",
+          "content": "<p>$0.6 \\colon 1.5$ 化成最簡整數比是？</p><p>A. $6 \\colon 15$</p><p>B. $3 \\colon 7$</p><p>C. $2 \\colon 5$</p><p>D. $5 \\colon 2$</p>",
+          "answer": "C",
+          "explanation": "<p>先去小數，前後項<strong>同乘 $10$</strong>：$0.6 \\colon 1.5 = 6 \\colon 15$；再除以最大公因數 $3$：$6 \\div 3 = 2$、$15 \\div 3 = 5$，得 $2 \\colon 5$。答案 C。</p>"
+        },
+        {
+          "id": "g6a_ch3_2_q12",
+          "number": 12,
+          "type": "single_choice",
+          "content": "<p>調糖水時，糖與水的重量比是 $1 \\colon 4$。要調出 $200$ 公克糖水，需要多少公克糖？</p><p>A. $40$ 公克</p><p>B. $50$ 公克</p><p>C. $80$ 公克</p><p>D. $160$ 公克</p>",
+          "answer": "A",
+          "explanation": "<p>總份數 $= 1 + 4 = 5$；一份 $= 200 \\div 5 = 40$ 公克；糖 $= 1 \\times 40 = 40$ 公克，水 $= 4 \\times 40 = 160$ 公克。注意「糖水」是糖加水的總和，總份數要把糖也算進去。答案 A。</p>"
+        },
+        {
+          "id": "g6a_ch3_2_q13",
+          "number": 13,
+          "type": "single_choice",
+          "content": "<p>長方形長與寬的比是 $5 \\colon 3$，若周長是 $48$ 公分，則長是多少公分？</p><p>A. $9$ 公分</p><p>B. $15$ 公分</p><p>C. $18$ 公分</p><p>D. $30$ 公分</p>",
+          "answer": "B",
+          "explanation": "<p>周長 $=$（長 $+$ 寬）$\\times 2$，所以長 $+$ 寬 $= 48 \\div 2 = 24$ 公分。長 : 寬 $= 5 \\colon 3$，總份數 $5 + 3 = 8$，<strong>一份 $= 24 \\div 8 = 3$</strong>。長 $= 5 \\times 3 = 15$ 公分，寬 $= 3 \\times 3 = 9$ 公分。答案 B。</p>"
+        },
+        {
+          "id": "g6a_ch3_2_q14",
+          "number": 14,
+          "type": "single_choice",
+          "content": "<p>解比例式 $\\dfrac{2}{3} \\colon x = 4 \\colon 9$，$x$ 等於多少？</p><p>A. $\\dfrac{3}{2}$</p><p>B. $\\dfrac{8}{3}$</p><p>C. $6$</p><p>D. $\\dfrac{2}{27}$</p>",
+          "answer": "A",
+          "explanation": "<p>內項積 $=$ 外項積：$\\dfrac{2}{3} \\times 9 = 4 \\times x$，$\\dfrac{18}{3} = 4x$，$6 = 4x$，$x = \\dfrac{6}{4} = \\dfrac{3}{2}$。答案 A。</p>"
+        },
+        {
+          "id": "g6a_ch3_2_q15",
+          "number": 15,
+          "type": "single_choice",
+          "content": "<p>已知 $A \\colon B = 2 \\colon 3$，$B \\colon C = 4 \\colon 5$，則連比 $A \\colon B \\colon C$ 是？</p><p>A. $2 \\colon 3 \\colon 5$</p><p>B. $2 \\colon 4 \\colon 5$</p><p>C. $8 \\colon 12 \\colon 15$</p><p>D. $10 \\colon 15 \\colon 12$</p>",
+          "answer": "C",
+          "explanation": "<p>合併連比要<strong>對齊共同項 $B$</strong>。$B$ 在第一比是 $3$、在第二比是 $4$，最小公倍數 $= 12$。第一比同乘 $4$：$A \\colon B = 8 \\colon 12$；第二比同乘 $3$：$B \\colon C = 12 \\colon 15$。合併得 $A \\colon B \\colon C = 8 \\colon 12 \\colon 15$。答案 C。</p>"
+        }
+      ]
+    }
+  ]
 }

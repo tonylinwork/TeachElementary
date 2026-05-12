@@ -1,5 +1,138 @@
 {
   "title": "小四下 5-1 統計圖表",
-  "summary": "<div class=\"text-slate-500\"><p>本章節摘要待補。</p><p class=\"text-xs mt-2\">📝 將在後續補上完整教學重點。</p></div>",
-  "sections": []
+  "summary": "<ul><li><strong>統計圖表的用途</strong>：把資料整理成「一眼看得懂」的圖形，方便比較大小、看出趨勢。常用的有<strong>長條圖</strong>、<strong>折線圖</strong>、統計表。</li><li><strong>長條圖</strong>：用<strong>長條（柱子）的高度</strong>表示數量多少。橫軸通常是項目（例：水果種類、班級），縱軸是數量。適合<strong>比較不同類別的多寡</strong>。</li><li><strong>折線圖</strong>：用<strong>點和線</strong>表示資料隨時間的<strong>變化趨勢</strong>。橫軸通常是時間（月份、星期），縱軸是數量。線往上 → 增加；線往下 → 減少；平 → 不變。</li><li><strong>讀圖三步驟</strong>：① 看<strong>標題</strong>（這張圖在說什麼）；② 看<strong>橫軸和縱軸</strong>（單位是什麼，刻度多少）；③ 對照<strong>長條高度或折線數值</strong>讀出資料。</li><li><strong>常見計算</strong>：總數 $=$ 各項相加；最多 $=$ 看最高的長條/最高點；最少 $=$ 看最低；增加多少 $=$ 後一筆 $-$ 前一筆；倍數 $=$ 一邊 $\\div$ 另一邊。</li><li><strong>圖表選擇</strong>：要<strong>比較不同類別</strong>用長條圖（如各班人數）；要看<strong>時間變化趨勢</strong>用折線圖（如每月氣溫）。畫圖時刻度要等距、長條要等寬，標題與單位都不能少。</li></ul>",
+  "sections": [
+    {
+      "type": "true_false",
+      "name": "是非題",
+      "questions": [
+        {
+          "id": "g4b_ch5_1_q1",
+          "number": 1,
+          "type": "true_false",
+          "content": "<p>長條圖適合用來比較不同類別（例如各種水果）的數量多寡。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。<strong>長條圖</strong>用長條的高度表示數量，並排放在一起後，眼睛一掃就能看出哪個項目最多、哪個最少，所以非常適合「比較不同類別」的資料，例如比較各班人數、各種水果銷售量。</p>"
+        },
+        {
+          "id": "g4b_ch5_1_q2",
+          "number": 2,
+          "type": "true_false",
+          "content": "<p>折線圖最適合用來看資料<strong>隨時間變化</strong>的趨勢。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。<strong>折線圖</strong>把資料點用直線連起來，可以清楚看出隨時間「上升 / 下降 / 持平」的趨勢。例如每月氣溫變化、學生身高隨年級的成長，都適合用折線圖呈現。</p>"
+        },
+        {
+          "id": "g4b_ch5_1_q3",
+          "number": 3,
+          "type": "true_false",
+          "content": "<p>畫長條圖時，每條長條的寬度可以不一樣寬。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。長條圖的每條長條<strong>必須等寬</strong>，這樣大家才能公平地用「高度」比較數量。如果寬度不一致，眼睛會誤判面積大小。同樣地，縱軸的刻度也要等距。</p>"
+        },
+        {
+          "id": "g4b_ch5_1_q4",
+          "number": 4,
+          "type": "true_false",
+          "content": "<p>折線圖中，如果線往下走表示資料數值在增加。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。折線往<strong>下</strong>表示數值在<strong>減少</strong>；往<strong>上</strong>才是增加；<strong>持平</strong>則表示沒變化。例如氣溫折線從 $28°C$ 降到 $20°C$，線往下，代表氣溫下降。</p>"
+        },
+        {
+          "id": "g4b_ch5_1_q5",
+          "number": 5,
+          "type": "true_false",
+          "content": "<p>看統計圖時，可以不看標題、橫軸和縱軸，直接看長條高低就好。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。讀圖必須先看<strong>標題</strong>（知道在統計什麼）、<strong>橫軸</strong>（項目是什麼）、<strong>縱軸的單位和刻度</strong>（每格代表多少）。否則同樣長條看起來高度差不多，但縱軸刻度若不同，實際數值差很多。</p>"
+        }
+      ]
+    },
+    {
+      "type": "single_choice",
+      "name": "單選題",
+      "questions": [
+        {
+          "id": "g4b_ch5_1_q6",
+          "number": 6,
+          "type": "single_choice",
+          "content": "<p>某班水果調查結果：蘋果 $12$ 人、香蕉 $8$ 人、芒果 $5$ 人、葡萄 $7$ 人。從長條圖看，哪一種水果最受歡迎？</p><p>A. 蘋果</p><p>B. 香蕉</p><p>C. 芒果</p><p>D. 葡萄</p>",
+          "answer": "A",
+          "explanation": "<p>最受歡迎 $=$ 人數最多 $=$ 長條<strong>最高</strong>。$12 > 8 > 7 > 5$，所以<strong>蘋果</strong>長條最高，最受歡迎。答案 A。</p>"
+        },
+        {
+          "id": "g4b_ch5_1_q7",
+          "number": 7,
+          "type": "single_choice",
+          "content": "<p>承上題，全班一共調查了多少人？</p><p>A. $24$ 人</p><p>B. $30$ 人</p><p>C. $32$ 人</p><p>D. $35$ 人</p>",
+          "answer": "C",
+          "explanation": "<p>把各類別人數相加：$12 + 8 + 5 + 7 = \\mathbf{32}$ 人。長條圖統計的總人數就是把每個長條代表的數量相加。答案 C。</p>"
+        },
+        {
+          "id": "g4b_ch5_1_q8",
+          "number": 8,
+          "type": "single_choice",
+          "content": "<p>下列哪一種資料最適合用「折線圖」呈現？</p><p>A. 班上同學最喜歡的顏色</p><p>B. 一週每天的氣溫變化</p><p>C. 各種運動的參加人數</p><p>D. 全校各班的男女生人數</p>",
+          "answer": "B",
+          "explanation": "<p>折線圖看<strong>隨時間的變化趨勢</strong>。B「一週每天的氣溫」橫軸是時間（星期一到日），縱軸是氣溫，正是折線圖最適合的場景。A、C、D 都是「比較不同類別的數量」，比較適合用長條圖。答案 B。</p>"
+        },
+        {
+          "id": "g4b_ch5_1_q9",
+          "number": 9,
+          "type": "single_choice",
+          "content": "<p>小明的身高折線圖：小一 $115$ cm、小二 $122$ cm、小三 $130$ cm、小四 $138$ cm。從小一到小四，身高共長高了多少公分？</p><p>A. $7$ cm</p><p>B. $15$ cm</p><p>C. $23$ cm</p><p>D. $138$ cm</p>",
+          "answer": "C",
+          "explanation": "<p>長高 $=$ 最後身高 $-$ 起始身高 $= 138 - 115 = \\mathbf{23}$ 公分。讀折線圖時，要找出對應的兩個點數值再相減。答案 C。</p>"
+        },
+        {
+          "id": "g4b_ch5_1_q10",
+          "number": 10,
+          "type": "single_choice",
+          "content": "<p>承上題，從小二到小三身高長了多少公分？</p><p>A. $7$ cm</p><p>B. $8$ cm</p><p>C. $15$ cm</p><p>D. $23$ cm</p>",
+          "answer": "B",
+          "explanation": "<p>小三 $-$ 小二 $= 130 - 122 = \\mathbf{8}$ 公分。折線圖求「兩個時間點之間的變化量」，就是後一點減前一點。答案 B。</p>"
+        },
+        {
+          "id": "g4b_ch5_1_q11",
+          "number": 11,
+          "type": "single_choice",
+          "content": "<p>某商店一週麵包銷售量長條圖：星期一 $40$ 個、星期二 $35$ 個、星期三 $45$ 個、星期四 $30$ 個、星期五 $50$ 個。哪一天賣最多？</p><p>A. 星期一</p><p>B. 星期三</p><p>C. 星期四</p><p>D. 星期五</p>",
+          "answer": "D",
+          "explanation": "<p>比較各長條高度：$50 > 45 > 40 > 35 > 30$，<strong>星期五</strong>最高（$50$ 個），賣最多。長條圖找最大值就是找最高的長條。答案 D。</p>"
+        },
+        {
+          "id": "g4b_ch5_1_q12",
+          "number": 12,
+          "type": "single_choice",
+          "content": "<p>承上題，這一週五天總共賣了多少個麵包？</p><p>A. $150$ 個</p><p>B. $180$ 個</p><p>C. $200$ 個</p><p>D. $250$ 個</p>",
+          "answer": "C",
+          "explanation": "<p>每天銷售量相加：$40 + 35 + 45 + 30 + 50 = \\mathbf{200}$ 個。可分組相加：$(40 + 50) + (35 + 45) + 30 = 90 + 80 + 30 = 200$。答案 C。</p>"
+        },
+        {
+          "id": "g4b_ch5_1_q13",
+          "number": 13,
+          "type": "single_choice",
+          "content": "<p>長條圖的縱軸每一格代表 $5$ 人，某長條畫到第 $7$ 格的高度，代表多少人？</p><p>A. $7$ 人</p><p>B. $12$ 人</p><p>C. $35$ 人</p><p>D. $57$ 人</p>",
+          "answer": "C",
+          "explanation": "<p>每格 $5$ 人 $\\times$ $7$ 格 $= \\mathbf{35}$ 人。讀長條圖時，<strong>「格數 $\\times$ 每格代表的數量」</strong> $=$ 實際數值，不是直接讀格數。所以縱軸的刻度單位非常重要。答案 C。</p>"
+        },
+        {
+          "id": "g4b_ch5_1_q14",
+          "number": 14,
+          "type": "single_choice",
+          "content": "<p>下列關於統計圖的敘述，哪一個<strong>不正確</strong>？</p><p>A. 長條圖的每條長條要等寬</p><p>B. 折線圖的橫軸通常是時間</p><p>C. 統計圖一定要有標題</p><p>D. 長條圖只能畫直的，不能畫橫的</p>",
+          "answer": "D",
+          "explanation": "<p>D 不正確。長條圖<strong>可直可橫</strong>：直式叫直條圖（縱軸是數量），橫式叫橫條圖（橫軸是數量），都可以呈現比較。A、B、C 都是正確的統計圖原則。答案 D。</p>"
+        },
+        {
+          "id": "g4b_ch5_1_q15",
+          "number": 15,
+          "type": "single_choice",
+          "content": "<p>某日 $6$ 小時氣溫折線圖：$8$ 點 $22°C$、$10$ 點 $25°C$、$12$ 點 $28°C$、$14$ 點 $30°C$、$16$ 點 $27°C$、$18$ 點 $24°C$。從圖中看出，氣溫從何時開始下降？</p><p>A. $10$ 點</p><p>B. $12$ 點</p><p>C. $14$ 點</p><p>D. $16$ 點</p>",
+          "answer": "C",
+          "explanation": "<p>逐點比較：$8 \\to 10$ 升（$22 \\to 25$）；$10 \\to 12$ 升（$25 \\to 28$）；$12 \\to 14$ 升（$28 \\to 30$）；$\\mathbf{14 \\to 16}$ <strong>降</strong>（$30 \\to 27$）；$16 \\to 18$ 繼續降。所以氣溫從 $\\mathbf{14}$ 點到達最高之後開始下降，<strong>$14$ 點是轉折點</strong>。答案 C。</p>"
+        }
+      ]
+    }
+  ]
 }

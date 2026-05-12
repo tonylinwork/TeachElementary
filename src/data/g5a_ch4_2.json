@@ -1,5 +1,138 @@
 {
   "title": "小五上 4-2 統計圖表",
-  "summary": "<h1>小五 — 統計圖表　教學重點</h1>\n\n    <!-- 知識點 1 -->\n    <h2>知識點 1：長條圖（Bar chart）</h2>\n\n    <h3>核心概念／公式</h3>\n    <ul>\n      <li><strong>用途</strong>：比較<strong>不同類別</strong>的數量大小（適合「離散」的項目）</li>\n      <li><strong>橫軸</strong>：類別（例：科目、水果種類、月份）</li>\n      <li><strong>縱軸</strong>：數量（次數、人數、件數）</li>\n      <li>每一條長條<strong>寬度相同</strong>、條與條之間要有<strong>間隔</strong></li>\n      <li>條的<strong>高度</strong>代表該類別的數量</li>\n    </ul>\n\n    <h3>製作步驟</h3>\n    <ol>\n      <li>整理資料，列出每個類別及其數量</li>\n      <li>畫橫軸與縱軸，標上<strong>單位</strong></li>\n      <li>依資料最大值決定<strong>比例尺</strong>（每格代表多少）</li>\n      <li>依數量畫出長條，每條等寬</li>\n      <li>加上<strong>標題</strong>與<strong>圖例</strong>（若有多組資料）</li>\n    </ol>\n\n    <h3>常見考法／注意事項</h3>\n    <ul>\n      <li>看圖題：找最高條 → 最多；最矮條 → 最少</li>\n      <li>比較類題：兩條相減 → 差幾個</li>\n      <li>縱軸<strong>比例尺</strong>沒看清楚 → 數量讀錯（最常見錯誤）</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 2 -->\n    <h2>知識點 2：折線圖（Line chart）</h2>\n\n    <h3>核心概念／公式</h3>\n    <ul>\n      <li><strong>用途</strong>：表示<strong>同一項目</strong>在<strong>時間或順序</strong>上的<strong>連續變化</strong></li>\n      <li><strong>橫軸</strong>：時間（日期、月份、年份、時刻）</li>\n      <li><strong>縱軸</strong>：數量</li>\n      <li>用<strong>點</strong>標出每個時間的資料，再用<strong>線段</strong>依序連起來</li>\n      <li>折線<strong>往上 = 上升</strong>；<strong>往下 = 下降</strong>；<strong>水平 = 持平</strong></li>\n      <li>線段的<strong>斜率</strong>愈陡，變化愈快</li>\n    </ul>\n\n    <h3>製作步驟</h3>\n    <ol>\n      <li>整理時間順序的資料</li>\n      <li>畫橫軸（時間）與縱軸（數量），標上單位與比例尺</li>\n      <li>在每個時間點上方對應數量處畫<strong>圓點</strong></li>\n      <li>依時間順序用<strong>直線</strong>連接相鄰的點</li>\n      <li>加上標題</li>\n    </ol>\n\n    <h3>常見考法／注意事項</h3>\n    <ul>\n      <li>找<strong>最大值／最小值</strong>：看最高點、最低點</li>\n      <li>找<strong>變化量</strong>：相鄰兩點的縱軸數值相減</li>\n      <li>找<strong>變化最大的區間</strong>：看哪一段線<strong>最陡</strong></li>\n      <li>折線圖適合看<strong>趨勢</strong>，不適合比較不同類別</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 3 -->\n    <h2>知識點 3：圓形圖／百分率長條圖</h2>\n\n    <h3>核心概念／公式</h3>\n    <ul>\n      <li><strong>用途</strong>：表示<strong>部分占整體的比例</strong>（分布情形）</li>\n      <li>整個圓 = <code>100%</code>（= <code>360°</code>）</li>\n      <li>每個項目占圓的角度 = <strong>項目百分率 × 360°</strong></li>\n      <li>各項目百分率<strong>加總 = 100%</strong></li>\n    </ul>\n\n    <h3>百分率與角度的對應</h3>\n    <table>\n      <thead>\n        <tr>\n          <th>百分率</th>\n          <th>對應角度</th>\n          <th>對應分數</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td>100%</td>\n          <td>360°</td>\n          <td>1</td>\n        </tr>\n        <tr>\n          <td>50%</td>\n          <td>180°</td>\n          <td>1/2</td>\n        </tr>\n        <tr>\n          <td>25%</td>\n          <td>90°</td>\n          <td>1/4</td>\n        </tr>\n        <tr>\n          <td>20%</td>\n          <td>72°</td>\n          <td>1/5</td>\n        </tr>\n        <tr>\n          <td>10%</td>\n          <td>36°</td>\n          <td>1/10</td>\n        </tr>\n      </tbody>\n    </table>\n\n    <h3>百分率長條圖</h3>\n    <ul>\n      <li>整條長條 = <code>100%</code></li>\n      <li>依比例切分區塊，每塊代表一個項目的百分率</li>\n      <li>適合比較<strong>多組資料</strong>的內部比例（例：男女比例在不同年級）</li>\n    </ul>\n\n    <h3>常見考法／注意事項</h3>\n    <ul>\n      <li>已知總數與百分率，求<strong>某項目數量</strong> = <code>總數 × 百分率</code></li>\n      <li>已知某項目數量與百分率，求<strong>總數</strong> = <code>數量 ÷ 百分率</code></li>\n      <li>各百分率加起來<strong>一定要等於 100%</strong>，少了要補上「其他」</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 4 -->\n    <h2>知識點 4：圖表選擇的時機</h2>\n\n    <h3>判斷三步驟</h3>\n    <table>\n      <thead>\n        <tr>\n          <th>想看的東西</th>\n          <th>適用圖表</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td>比較<strong>不同類別</strong>的數量多寡</td>\n          <td>長條圖</td>\n        </tr>\n        <tr>\n          <td>看<strong>隨時間變化</strong>的趨勢</td>\n          <td>折線圖</td>\n        </tr>\n        <tr>\n          <td>看<strong>各部分占整體</strong>的比例分布</td>\n          <td>圓形圖／百分率長條圖</td>\n        </tr>\n      </tbody>\n    </table>\n\n    <h3>判斷例子</h3>\n    <ul>\n      <li>各科考試分數比較 → <strong>長條圖</strong>（不同科目是不同類別）</li>\n      <li>一週每天的氣溫變化 → <strong>折線圖</strong>（時間連續）</li>\n      <li>班上學生最喜歡的水果比例 → <strong>圓形圖</strong>（看分布）</li>\n      <li>一年中每月的降雨量 → <strong>折線圖</strong>（看變化趨勢）</li>\n    </ul>\n\n    <h3>注意事項</h3>\n    <ul>\n      <li>同一份資料可用不同圖表呈現，但<strong>重點不同</strong></li>\n      <li>類別資料用折線圖會讓人誤以為有「順序」或「連續變化」，是錯誤用法</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 5 -->\n    <h2>知識點 5：平均數的計算</h2>\n\n    <h3>核心公式</h3>\n    <ul>\n      <li><strong>平均數</strong> = <code>總和 ÷ 個數</code></li>\n      <li>總和 = <code>平均數 × 個數</code></li>\n      <li>個數 = <code>總和 ÷ 平均數</code></li>\n    </ul>\n\n    <h3>範例</h3>\n    <ul>\n      <li>五次數學考試分數：80、85、90、75、95</li>\n      <li>總和 = 80 + 85 + 90 + 75 + 95 = <code>425</code></li>\n      <li>平均 = 425 ÷ 5 = <strong>85</strong></li>\n    </ul>\n\n    <h3>常見考法／注意事項</h3>\n    <ul>\n      <li>已知平均，求<strong>漏掉的某一筆</strong>：先算「應有的總和」，再減掉已知的</li>\n      <li>兩組資料合併求平均：<strong>不能</strong>直接把兩個平均數再平均，要先各自求總和再合併除以總個數</li>\n      <li>平均數會受<strong>極端值</strong>影響（特別大或特別小的數會把平均拉偏）</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 6 -->\n    <h2>知識點 6：從圖表讀資料的技巧</h2>\n\n    <h3>讀圖三步驟</h3>\n    <ol>\n      <li><strong>看標題</strong>：知道這張圖在講什麼</li>\n      <li><strong>看軸</strong>：橫軸是什麼、縱軸是什麼，單位是什麼（人數？元？公分？）</li>\n      <li><strong>看比例尺</strong>：縱軸一格代表多少（1 格 = 1？= 10？= 100？）</li>\n      <li><strong>看圖例</strong>：若有多組資料（如男生 vs 女生），對照顏色／符號</li>\n    </ol>\n\n    <h3>讀數值的小技巧</h3>\n    <ul>\n      <li>長條圖：條頂端對應到縱軸的刻度</li>\n      <li>折線圖：點對應的縱軸值</li>\n      <li>圓形圖：看標示的百分率或角度</li>\n    </ul>\n\n    <hr>\n\n    <!-- 常見題型 -->\n    <div class=\"exam-section\">\n      <h2>常見題型</h2>\n      <ol>\n        <li><strong>從圖表答問題</strong>：給一張長條圖／折線圖／圓形圖，問最多、最少、相差多少、總和、平均等。</li>\n        <li><strong>把資料畫成圖表</strong>：給一組數據，依資料性質選擇合適圖表並畫出（注意比例尺、單位、標題）。</li>\n        <li><strong>補充資料</strong>：圖表中有一項被遮住，由其他項與總和（或 <code>100%</code>）反推。</li>\n        <li><strong>平均數計算</strong>：給一組資料求平均；或給平均反推未知數值。</li>\n        <li><strong>百分率與圓形圖</strong>：已知總人數，求某項目占多少人；或已知某項目人數與百分率，求總人數。</li>\n        <li><strong>判斷圖表是否合適</strong>：給情境（如「想看一週氣溫變化」），選出最適合的圖表類型。</li>\n      </ol>\n    </div>\n\n    <hr>\n\n    <!-- 易錯點 -->\n    <h2>易錯點整理</h2>\n    <table>\n      <thead>\n        <tr>\n          <th>易錯點</th>\n          <th>說明</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td><strong>比例尺看錯</strong></td>\n          <td>縱軸一格不一定是 1，要先確認單位</td>\n        </tr>\n        <tr>\n          <td><strong>單位忘了看</strong></td>\n          <td>是「人」、「元」還是「公斤」會影響答案意義</td>\n        </tr>\n        <tr>\n          <td><strong>圖例沒看</strong></td>\n          <td>多組資料時誤把男生數據當女生</td>\n        </tr>\n        <tr>\n          <td><strong>類別與時間混淆</strong></td>\n          <td>不連續類別誤用折線圖</td>\n        </tr>\n        <tr>\n          <td><strong>百分率不等於 100%</strong></td>\n          <td>各部分相加要剛好 <code>100%</code>，少了補「其他」</td>\n        </tr>\n        <tr>\n          <td><strong>平均的合併</strong></td>\n          <td>兩組資料合併求平均不能直接平均兩個平均數</td>\n        </tr>\n        <tr>\n          <td><strong>長條圖長條等寬</strong></td>\n          <td>條寬要一致，間隔要有</td>\n        </tr>\n      </tbody>\n    </table>\n\n    <hr>\n\n    <!-- 教材來源說明 -->\n    <h2>💡 教材來源說明</h2>\n    <ul>\n      <li>本章依台灣國小數學標準課綱整理，無對應影片逐字稿。</li>\n    </ul>",
-  "sections": []
+  "summary": "<ul><li><strong>長條圖</strong>：用於比較<strong>不同類別</strong>的數量大小（如各科成績、各種水果銷售量）。橫軸是類別、縱軸是數量，每條<strong>寬度相同、條與條之間有間隔</strong>。條的高度代表數量大小，最高條即最多、最矮條即最少。</li><li><strong>折線圖</strong>：用於表示同一項目<strong>隨時間變化</strong>的趨勢（如氣溫、體重、銷售額）。橫軸是時間、縱軸是數量。用點標出資料，再用直線依序連接。線往上 $=$ 上升，往下 $=$ 下降，<strong>線段越陡</strong>表示變化越快。</li><li><strong>圖表選擇</strong>：① 比較不同類別 → 長條圖；② 看時間變化趨勢 → 折線圖；③ 看各部分佔整體比例 → 圓形圖（百分率圖）。類別資料用折線圖會誤導讀者，是錯誤用法。</li><li><strong>平均數</strong>：表示一組資料的「集中值」。公式：$\\text{平均數} = \\dfrac{\\text{總和}}{\\text{個數}}$。例：四次考試 $80, 85, 90, 75$，總和 $330$，平均 $330 \\div 4 = 82.5$ 分。也可推出：總和 $=$ 平均 $\\times$ 個數。</li><li><strong>讀圖三步驟</strong>：① <strong>看標題</strong>知道主題；② <strong>看軸</strong>確認單位（人？元？公分？）；③ <strong>看比例尺</strong>，縱軸<strong>一格代表多少</strong>（一格 $= 1$、$10$、$100$？）。比例尺看錯是最常見的失分原因。</li><li><strong>常見易錯點</strong>：① 比例尺沒看清楚；② 單位忘了看；③ 多組資料時沒看圖例（顏色）對應；④ 兩組資料的平均<strong>不能</strong>直接平均（要先各自算總和再合併）；⑤ 平均數會被特別大或特別小的<strong>極端值</strong>拉偏。</li></ul>",
+  "sections": [
+    {
+      "type": "true_false",
+      "name": "是非題",
+      "questions": [
+        {
+          "id": "g5a_ch4_2_q1",
+          "number": 1,
+          "type": "true_false",
+          "content": "<p>要看一週每天的氣溫變化，最適合用長條圖。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。「一週每天的氣溫」是<strong>隨時間連續變化</strong>的資料，最適合用<strong>折線圖</strong>來呈現趨勢（升降變化）。長條圖適合比較不同<strong>類別</strong>的數量（例：各科成績）。</p>"
+        },
+        {
+          "id": "g5a_ch4_2_q2",
+          "number": 2,
+          "type": "true_false",
+          "content": "<p>平均數的公式是「總和 $\\div$ 個數」。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。平均數 $= \\dfrac{\\text{資料總和}}{\\text{資料個數}}$。例：$80, 90, 100$ 三筆資料，總和 $= 270$，平均 $= 270 \\div 3 = 90$。記住公式變形：總和 $=$ 平均 $\\times$ 個數。</p>"
+        },
+        {
+          "id": "g5a_ch4_2_q3",
+          "number": 3,
+          "type": "true_false",
+          "content": "<p>長條圖的每一條長條，寬度可以不一樣。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。長條圖中每一條的<strong>寬度必須相同</strong>，這樣才能公平比較高度（數量）。寬度不一樣會造成視覺誤導。條與條之間還要有<strong>間隔</strong>，以表示類別之間是獨立的。</p>"
+        },
+        {
+          "id": "g5a_ch4_2_q4",
+          "number": 4,
+          "type": "true_false",
+          "content": "<p>甲班 $20$ 人平均 $80$ 分，乙班 $30$ 人平均 $90$ 分，兩班合併後的平均分數是 $(80+90) \\div 2 = 85$ 分。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。兩組資料合併<strong>不能直接平均兩個平均數</strong>，因為人數不同要加權。正解：甲班總分 $= 80 \\times 20 = 1600$，乙班總分 $= 90 \\times 30 = 2700$。合併平均 $= (1600+2700) \\div (20+30) = 4300 \\div 50 = 86$ 分（不是 $85$ 分）。</p>"
+        },
+        {
+          "id": "g5a_ch4_2_q5",
+          "number": 5,
+          "type": "true_false",
+          "content": "<p>折線圖中，線段越陡表示變化越快。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。折線圖的<strong>斜率</strong>反映變化速度。例：氣溫從早上 $8°$ 兩小時內升到 $20°$（差 $12°$），會比慢慢從 $8°$ 升到 $10°$（差 $2°$）的線段陡得多。線越陡 $\\to$ 同樣時間裡變化的數量越大。</p>"
+        }
+      ]
+    },
+    {
+      "type": "single_choice",
+      "name": "單選題",
+      "questions": [
+        {
+          "id": "g5a_ch4_2_q6",
+          "number": 6,
+          "type": "single_choice",
+          "content": "<p>小明五次數學考試分數為 $75, 80, 85, 90, 70$，平均分數是？</p><p>A. $80$ 分</p><p>B. $82$ 分</p><p>C. $85$ 分</p><p>D. $400$ 分</p>",
+          "answer": "A",
+          "explanation": "<p>總和 $= 75 + 80 + 85 + 90 + 70 = 400$。個數 $= 5$。平均 $= 400 \\div 5 = \\mathbf{80}$ 分。答案 A。</p>"
+        },
+        {
+          "id": "g5a_ch4_2_q7",
+          "number": 7,
+          "type": "single_choice",
+          "content": "<p>要呈現「全班同學最喜歡的水果」的人數，最適合用哪種圖表？</p><p>A. 折線圖</p><p>B. 長條圖</p><p>C. 直線</p><p>D. 三角圖</p>",
+          "answer": "B",
+          "explanation": "<p>「最喜歡的水果」是<strong>不同類別</strong>（蘋果、香蕉、西瓜…）的比較，最適合用<strong>長條圖</strong>，比較高低一目了然。折線圖用於時間趨勢，不適合類別資料。答案 B。</p>"
+        },
+        {
+          "id": "g5a_ch4_2_q8",
+          "number": 8,
+          "type": "single_choice",
+          "content": "<p>小華四次小考的平均分數是 $85$ 分，已知前三次分別為 $80, 90, 88$ 分，第四次考幾分？</p><p>A. $80$ 分</p><p>B. $82$ 分</p><p>C. $85$ 分</p><p>D. $90$ 分</p>",
+          "answer": "B",
+          "explanation": "<p>四次的總和 $=$ 平均 $\\times$ 個數 $= 85 \\times 4 = 340$。前三次總和 $= 80 + 90 + 88 = 258$。第四次 $= 340 - 258 = \\mathbf{82}$ 分。答案 B。</p>"
+        },
+        {
+          "id": "g5a_ch4_2_q9",
+          "number": 9,
+          "type": "single_choice",
+          "content": "<p>下列哪一種資料最適合用「折線圖」呈現？</p><p>A. 班上同學的身高比較</p><p>B. 各國國旗顏色的數量</p><p>C. 一年中每個月的平均氣溫</p><p>D. 各種運動的喜好人數</p>",
+          "answer": "C",
+          "explanation": "<p>折線圖適合呈現<strong>隨時間連續變化</strong>的資料。C. 「每個月的氣溫」是時間序列，可以看出一年的氣溫趨勢 ✓。A、B、D 都是不同類別的比較，適合長條圖。答案 C。</p>"
+        },
+        {
+          "id": "g5a_ch4_2_q10",
+          "number": 10,
+          "type": "single_choice",
+          "content": "<p>某班 $30$ 人國語平均 $84$ 分，數學平均 $76$ 分。全班國語總分比數學總分多多少？</p><p>A. $8$ 分</p><p>B. $80$ 分</p><p>C. $240$ 分</p><p>D. $300$ 分</p>",
+          "answer": "C",
+          "explanation": "<p>國語總分 $= 84 \\times 30 = 2520$；數學總分 $= 76 \\times 30 = 2280$。差 $= 2520 - 2280 = \\mathbf{240}$ 分。也可以直接用 $(84-76) \\times 30 = 8 \\times 30 = 240$。答案 C。</p>"
+        },
+        {
+          "id": "g5a_ch4_2_q11",
+          "number": 11,
+          "type": "single_choice",
+          "content": "<p>折線圖中，一段線段「水平」表示？</p><p>A. 數量上升</p><p>B. 數量下降</p><p>C. 數量沒有變化</p><p>D. 沒有資料</p>",
+          "answer": "C",
+          "explanation": "<p>折線圖中：往上 $=$ 上升；往下 $=$ 下降；<strong>水平 $=$ 持平（沒有變化）</strong>。例：兩個月氣溫都是 $25°$，折線就是水平。答案 C。</p>"
+        },
+        {
+          "id": "g5a_ch4_2_q12",
+          "number": 12,
+          "type": "single_choice",
+          "content": "<p>下列關於長條圖的敘述，何者<strong>錯誤</strong>？</p><p>A. 每條長條寬度要相同</p><p>B. 條與條之間要有間隔</p><p>C. 條的高度代表數量大小</p><p>D. 適合用來表示時間的連續變化</p>",
+          "answer": "D",
+          "explanation": "<p>長條圖適合<strong>不同類別</strong>的比較，<strong>不是</strong>用來表示時間連續變化（那是折線圖的工作）。A、B、C 都是長條圖的正確特性。答案 D。</p>"
+        },
+        {
+          "id": "g5a_ch4_2_q13",
+          "number": 13,
+          "type": "single_choice",
+          "content": "<p>讀統計圖表時，下列哪一項<strong>最容易讓人讀錯數字</strong>？</p><p>A. 沒看標題</p><p>B. 沒看比例尺（縱軸一格代表多少）</p><p>C. 不知道作者是誰</p><p>D. 圖表是彩色或黑白</p>",
+          "answer": "B",
+          "explanation": "<p>讀圖最容易錯的是<strong>比例尺看錯</strong>。縱軸一格可能代表 $1$ 人、$10$ 人或 $100$ 人，不仔細看就會把數量讀錯。要記得讀圖三步驟：看標題 $\\to$ 看軸（單位） $\\to$ 看比例尺。答案 B。</p>"
+        },
+        {
+          "id": "g5a_ch4_2_q14",
+          "number": 14,
+          "type": "single_choice",
+          "content": "<p>$5$ 個小朋友的體重分別為 $30, 32, 28, 35, 25$ 公斤，平均體重是？</p><p>A. $28$ 公斤</p><p>B. $30$ 公斤</p><p>C. $32$ 公斤</p><p>D. $150$ 公斤</p>",
+          "answer": "B",
+          "explanation": "<p>總和 $= 30 + 32 + 28 + 35 + 25 = 150$ 公斤。平均 $= 150 \\div 5 = \\mathbf{30}$ 公斤。答案 B。</p>"
+        },
+        {
+          "id": "g5a_ch4_2_q15",
+          "number": 15,
+          "type": "single_choice",
+          "content": "<p>某班 $4$ 位同學的零用錢分別為 $100, 120, 90, 1000$ 元。請問平均數是 $327.5$ 元，但<strong>大多數同學</strong>的零用錢都不到 $327.5$ 元。為什麼會這樣？</p><p>A. 平均數算錯了</p><p>B. 因為有一筆「極端值」$1000$ 元把平均拉高</p><p>C. 同學亂報零用錢</p><p>D. 平均數一定等於中間那位的金額</p>",
+          "answer": "B",
+          "explanation": "<p>$1000$ 是<strong>極端值</strong>（特別大的數），會把平均數明顯往上拉。$100+120+90+1000 = 1310$，$1310 \\div 4 = 327.5$。除了 $1000$ 那位，其他三位都只有 $90 \\sim 120$ 元。這就是「平均數會被極端值影響」的典型例子。答案 B。</p>"
+        }
+      ]
+    }
+  ]
 }
