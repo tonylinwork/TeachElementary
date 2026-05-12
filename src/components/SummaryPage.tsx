@@ -1,11 +1,32 @@
 import { useState } from 'react';
 import { MathRenderer } from '@/components/quiz/MathRenderer';
-import summaryData from '@/data/summaryData.json';
+import chapters from '@/data/chapters.json';
 import { Download, Loader2, Archive } from 'lucide-react';
 import { toPng } from 'html-to-image';
 import JSZip from 'jszip';
 import { saveAs } from 'file-saver';
-import { InteractiveChart } from '@/components/InteractiveChart';
+import type { QuizData } from '@/types';
+
+type SummaryItem = {
+    id: string;
+    title: string;
+    content: string;
+};
+
+const chapterModules = import.meta.glob('../data/g*.json', { eager: true }) as Record<string, { default: QuizData }>;
+
+const summaryData: SummaryItem[] = chapters
+    .map(chapter => {
+        const chapterData = chapterModules[`../data/${chapter.id}.json`]?.default;
+        const content = [chapterData?.summary, chapterData?.warmup].filter(Boolean).join('<hr />');
+
+        return {
+            id: chapter.id,
+            title: chapter.title,
+            content
+        };
+    })
+    .filter(chapter => chapter.content);
 
 export function SummaryPage() {
     const [downloadingId, setDownloadingId] = useState<string | null>(null);
@@ -53,7 +74,7 @@ export function SummaryPage() {
             const zip = new JSZip();
 
             for (let i = 0; i < summaryData.length; i++) {
-                const chapter = summaryData[i] as any;
+                const chapter = summaryData[i];
                 const dataUrl = await generateImage(chapter.id);
                 if (dataUrl) {
                     const base64Data = dataUrl.split(',')[1];
@@ -101,7 +122,7 @@ export function SummaryPage() {
                         <p className="text-slate-500 font-bold text-xl">目前沒有任何重點整理或考前暖身資料。</p>
                     </div>
                 ) : (
-                    summaryData.map((chapter: any) => (
+                    summaryData.map((chapter) => (
                         <div
                             key={chapter.id}
                             id={`chapter-card-${chapter.id}`}
@@ -145,43 +166,6 @@ export function SummaryPage() {
                                         content={chapter.content}
                                     />
 
-                                    {/* 互動式圖表展示：針對三次函數 (math1_ch11)、二次函數 (math1_ch10) 與 直線方程式 (math1_ch6) */}
-                                    {chapter.id === 'math1_ch11' && (
-                                        <InteractiveChart
-                                            title="互動探索：三次函數的圖形特徵"
-                                            description="請拖拉下方的滑桿，觀察三次函數標準式 y = a(x-h)³ + p(x-h) + k 中，各個參數如何影響圖形的延伸方向、平移與局部特徵！"
-                                            expressions={['y = a(x-h)^3 + p(x-h) + k', '(h, k)']}
-                                            sliders={[
-                                                { id: 'a', label: '首項係數 (a) - 決定延伸方向', min: -5, max: 5, step: 0.1, defaultValue: 1 },
-                                                { id: 'p', label: '一次項係數 (p) - 決定局部圖形', min: -5, max: 5, step: 0.1, defaultValue: 1 },
-                                                { id: 'h', label: '對稱中心水平位移 (h)', min: -5, max: 5, step: 0.5, defaultValue: 0 },
-                                                { id: 'k', label: '對稱中心垂直位移 (k)', min: -5, max: 5, step: 0.5, defaultValue: 0 }
-                                            ]}
-                                        />
-                                    )}
-                                    {chapter.id === 'math1_ch10' && (
-                                        <InteractiveChart
-                                            title="互動探索：二次函數的參數變化"
-                                            description="請拖拉下方的滑桿，觀察二次函數 y = a(x-h)² + k 的開口方向、大小以及頂點位置如何隨著 a, h, k 的改變而移動！"
-                                            expressions={['y = a(x-h)^2 + k']}
-                                            sliders={[
-                                                { id: 'a', label: '開口大小與方向 (a)', min: -5, max: 5, step: 0.1, defaultValue: 1 },
-                                                { id: 'h', label: '頂點的水平位移 (h)', min: -10, max: 10, step: 1, defaultValue: 0 },
-                                                { id: 'k', label: '頂點的垂直位移 (k)', min: -10, max: 10, step: 1, defaultValue: 0 }
-                                            ]}
-                                        />
-                                    )}
-                                    {chapter.id === 'math1_ch6' && (
-                                        <InteractiveChart
-                                            title="互動探索：直線方程式與斜率"
-                                            description="試著拉動滑桿，觀察直線方程式 y = mx + b 中，斜率 m 和 y 截距 b 的數值改變會如何影響直線的傾斜程度與位置！"
-                                            expressions={['y = mx + b']}
-                                            sliders={[
-                                                { id: 'm', label: '直線的斜率 (m)', min: -5, max: 5, step: 0.1, defaultValue: 1 },
-                                                { id: 'b', label: 'y 截距 (b)', min: -10, max: 10, step: 1, defaultValue: 0 }
-                                            ]}
-                                        />
-                                    )}
                                 </div>
                             </div>
                         </div>

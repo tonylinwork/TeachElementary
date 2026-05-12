@@ -29,10 +29,10 @@ export function QuizLayout({ children, title }: QuizLayoutProps) {
                     <div className="flex items-center gap-4">
                         <a className="flex items-center space-x-2" href="/">
                             <div className="bg-gradient-to-tr from-violet-500 to-fuchsia-500 p-2 rounded-xl shadow-lg shadow-violet-200">
-                                <div className="text-white font-black text-xs">TA</div>
+                                <div className="text-white font-black text-xs">LE</div>
                             </div>
                             <span className="font-black text-slate-800 tracking-tighter text-xl">
-                                TeachAssistant
+                                林哲數學 Elementary
                             </span>
                         </a>
                         {title && (

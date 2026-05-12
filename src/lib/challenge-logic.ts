@@ -111,7 +111,7 @@ export const useChallengeGame = () => {
         setGameState(prev => {
             if (prev.isGameOver || prev.isFinished) return prev;
 
-            const currentQuestion = questions[prev.currentLevel - 1];
+            const currentQuestion = questions[prev.questionIndex];
             const newHistory = [...prev.history, { question: currentQuestion, userAnswer, isCorrect }];
 
             let newHp = prev.hp;
