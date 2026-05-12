@@ -1,5 +1,138 @@
 {
   "title": "小四上 2-1 整數的乘法",
-  "summary": "<h1>小四 — 整數乘除法（暑假總複習） 教學重點</h1>\n\n    <!-- 知識點 1 -->\n    <h2>知識點 1：整數的乘法</h2>\n\n    <h3>核心概念</h3>\n    <ul>\n      <li>乘法本質 = <strong>累加</strong>（重複相加的簡寫）\n        <ul>\n          <li>例：<code>5 + 5 + 5</code> 可寫成 <code>5 × 3</code>，或 <code>3 × 5</code>（任一寫法都對，不必爭論順序）</li>\n        </ul>\n      </li>\n      <li><strong>關鍵字</strong>：「○○ 的幾倍」→ 通常是乘法</li>\n      <li><strong>名稱</strong>：前面數叫<strong>被乘數</strong>、後面數叫<strong>乘數</strong>、結果叫<strong>積</strong></li>\n      <li>三大運算名詞速記：相加得<strong>和</strong>、相減得<strong>差</strong>、相乘得<strong>積</strong></li>\n    </ul>\n\n    <h3>直式乘法步驟（以 324 × 23 為例）</h3>\n    <ol>\n      <li>對齊個位、十位、百位（老師習慣：被乘數寫上、乘數寫下）</li>\n      <li>由乘數最右位（個位）開始一位一位乘，逢十進位</li>\n      <li>第二列乘十位時，記得<strong>往左錯一格</strong>（代表進到十位）</li>\n      <li>各列相加得最後答案</li>\n    </ol>\n\n    <p>範例計算：<code>324 × 23 = 7452</code></p>\n<pre>      3 2 4\n    ×   2 3\n    ───────\n      9 7 2     ← 3 × 324\n    6 4 8       ← 2 × 324，往左錯一格\n    ───────\n    7 4 5 2</pre>\n\n    <h3>常見考法／注意事項</h3>\n    <ul>\n      <li>計算時對齊位數最不易錯；錯位是低年級常見扣分點</li>\n      <li>看到應用題出現「○ 是 △ 的 k 倍」就想到乘法或除法，再依「已知一份還是已知總量」判斷</li>\n      <li>用<strong>線段圖</strong>理解倍數關係：一份畫一段，k 倍就畫 k 段</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 2 -->\n    <h2>知識點 2：整數的除法</h2>\n\n    <h3>核心概念</h3>\n    <ul>\n      <li>除法本質 = <strong>平分／分配</strong>的概念（把總量分成幾份，求一份多少）</li>\n      <li><strong>關鍵字</strong>：「平均」「分給」「每…多少」→ 通常是除法</li>\n      <li><strong>名稱</strong>：<code>1190 ÷ 85</code>\n        <ul>\n          <li>1190 是<strong>被除數</strong>、85 是<strong>除數</strong>、結果是<strong>商</strong></li>\n          <li>沒整除時剩下的叫<strong>餘數</strong></li>\n        </ul>\n      </li>\n      <li><strong>「除以」vs「除」陷阱</strong>（應用題容易混淆）：\n        <ul>\n          <li>「1190 <strong>除以</strong> 85」= <code>1190 ÷ 85</code>（前面是被除數）</li>\n          <li>「85 <strong>除</strong> 1190」= <code>1190 ÷ 85</code>（後面是被除數）</li>\n          <li>兩種講法答案一樣，但<strong>讀法相反</strong>，應用題要看清楚</li>\n        </ul>\n      </li>\n      <li><strong>餘數規則</strong>：餘數一定要<strong>比除數小</strong>（否則代表還能再除一次）</li>\n      <li><strong>整除</strong>：餘數為 0，又稱<strong>自然數除法</strong></li>\n    </ul>\n\n    <h3>除法原理（驗算公式）</h3>\n    <ul>\n      <li><code>被除數 = 除數 × 商 + 餘數</code></li>\n      <li>整除時餘數 = 0</li>\n    </ul>\n\n    <h3>直式除法步驟（以 1190 ÷ 85 為例）</h3>\n    <ol>\n      <li>先看被除數前兩位（11）夠不夠除以 85 → 不夠，擴到三位（119）</li>\n      <li>85 約等於 80，<code>119 ÷ 80 ≈ 1</code> → 試商 1</li>\n      <li><code>85 × 1 = 85</code>，<code>119 − 85 = 34</code></li>\n      <li>把下一位 0 拉下來變 340</li>\n      <li>85 約等於 80，<code>340 ÷ 80 ≈ 4</code> → 試商 4</li>\n      <li><code>85 × 4 = 340</code>，<code>340 − 340 = 0</code>（整除）</li>\n      <li>商 = <strong>14</strong></li>\n    </ol>\n\n    <h3>試商技巧</h3>\n    <ul>\n      <li><strong>看頭數估</strong>：被除數頭與除數頭比較，先估一個近似值</li>\n      <li>試商太大要往下調（例：<code>85 × 6</code> 超過 340，改試 5）</li>\n      <li><strong>兩位數乘一位數</strong>最好能心算，否則直式除法會卡很久</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 3 -->\n    <h2>知識點 3：乘除法的特殊技巧</h2>\n\n    <h3>含尾數 0 的乘法</h3>\n    <ul>\n      <li>把尾端的 0 先拉出來，剩下的部分用乘法算，最後再補回 0 的個數</li>\n      <li>例：<code>520 × 300</code>\n        <ul>\n          <li>尾端有 <code>1 + 2 = 3</code> 個 0</li>\n          <li>剩下 <code>52 × 3 = 156</code></li>\n          <li>答案 = 156 後面接 3 個 0 = <strong>156000</strong></li>\n        </ul>\n      </li>\n    </ul>\n\n    <h3>巧算（湊整數的搭檔）</h3>\n    <table>\n      <thead>\n        <tr>\n          <th>看到</th>\n          <th>拿什麼配對</th>\n          <th>為什麼</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td>×5</td>\n          <td>×2</td>\n          <td>5 × 2 = 10</td>\n        </tr>\n        <tr>\n          <td>×25</td>\n          <td>×4</td>\n          <td>25 × 4 = 100</td>\n        </tr>\n        <tr>\n          <td>×125</td>\n          <td>×8</td>\n          <td>125 × 8 = 1000</td>\n        </tr>\n      </tbody>\n    </table>\n    <p>例：<code>246 × 5 = (123 × 2) × 5 = 123 × (2 × 5) = 123 × 10 = 1230</code></p>\n\n    <h3>中間有 0 的除法</h3>\n    <ul>\n      <li>商的中間出現 0 時，<strong>0 要寫上去佔位</strong>，再把下一位數拉下來繼續除</li>\n      <li>例：<code>5239 ÷ 13 = 403</code>（百位除完後十位是 0，要寫進商裡）</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 4 -->\n    <h2>知識點 4：應用題餘數處理（重要）</h2>\n\n    <p>餘數要怎麼處理，<strong>完全看題目情境</strong>，不能死記。</p>\n\n    <table>\n      <thead>\n        <tr>\n          <th>情境</th>\n          <th>處理方式</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td>「最少要幾車／幾袋才裝得完」</td>\n          <td>商 + 1（剩下的還要再叫一台車）</td>\n        </tr>\n        <tr>\n          <td>「最多能買幾個／幾隻」</td>\n          <td>直接取商（剩下的錢不夠再買一個）</td>\n        </tr>\n        <tr>\n          <td>「平均分配後剩多少」</td>\n          <td>商是每份的量、餘數是剩下的量</td>\n        </tr>\n      </tbody>\n    </table>\n\n    <h3>範例對照</h3>\n    <ul>\n      <li>960 包麵粉，每車載 50 包 → <code>960 ÷ 50 = 19 餘 10</code>\n        <ul>\n          <li>剩 10 包不能不載 → 答案 <strong>20 車</strong></li>\n        </ul>\n      </li>\n      <li>3000 元，每支筆 35 元 → <code>3000 ÷ 35 = 85 餘 25</code>\n        <ul>\n          <li>剩 25 元不夠再買一支 → 答案 <strong>85 支</strong></li>\n        </ul>\n      </li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 5 -->\n    <h2>知識點 5：單位換算（容易漏看）</h2>\n\n    <ul>\n      <li>應用題若題目給的單位不一致，<strong>先換成同單位</strong>再運算</li>\n      <li>常用換算：\n        <ul>\n          <li>1 小時 = 60 分鐘</li>\n          <li>1 公里 = 1000 公尺</li>\n        </ul>\n      </li>\n      <li>例：每分鐘 348 公尺，2 小時前進多少公尺？\n        <ul>\n          <li>2 小時 = 120 分鐘</li>\n          <li><code>348 × 120 = 41760</code> 公尺</li>\n        </ul>\n      </li>\n      <li>寫答案時務必檢查題目問的是<strong>公尺還是公里</strong></li>\n    </ul>\n\n    <hr>\n\n    <!-- 常見題型 -->\n    <div class=\"exam-section\">\n      <h2>常見題型</h2>\n      <ol>\n        <li><strong>倍數型乘法</strong>：A 是 B 的 k 倍，已知 B → <code>A = B × k</code>。畫線段圖：B 一份、A 是 k 份。</li>\n        <li><strong>倍數型除法</strong>：A 是 B 的幾倍？已知 A、B 兩個量 → <code>倍數 = A ÷ B</code>。</li>\n        <li><strong>總量分配（平均）</strong>：總量 ÷ 份數 = 每份；總量 ÷ 每份 = 份數。看題目問哪個量。</li>\n        <li><strong>餘數情境題（進位型）</strong>：求最少車輛／容器數 → 商 + 1。</li>\n        <li><strong>餘數情境題（捨去型）</strong>：求最多買幾個／能裝幾組 → 直接取商。</li>\n        <li><strong>含 0 大數乘法</strong>：先抽出尾端 0，主體算完再補 0。</li>\n        <li><strong>巧算</strong>：看到 ×5、×25、×125 主動找 ×2、×4、×8 搭配湊整十／百／千。</li>\n        <li><strong>單位換算題</strong>：時間（時↔分）、長度（公里↔公尺）先統一單位再運算。</li>\n      </ol>\n    </div>",
-  "sections": []
+  "summary": "<ul><li><strong>乘法的意義</strong>：$a \\times b$ 表示「$b$ 個 $a$ 相加」，例如 $4 \\times 3 = 4 + 4 + 4 = 12$。也可看作 $a$ 的「$b$ 倍」。</li><li><strong>直式對齊規則</strong>：兩位數乘三位數 $abc \\times de$ 時，先用個位數 $e$ 乘 $abc$，得到第一行；再用十位數 $d$ 乘 $abc$，第二行<strong>向左退一位</strong>對齊十位；最後兩行相加。例：$253 \\times 24$ 先算 $253 \\times 4 = 1012$，再算 $253 \\times 20 = 5060$，相加得 $6072$。</li><li><strong>結合律</strong>：$(a \\times b) \\times c = a \\times (b \\times c)$。利用結合律可以挑容易算的兩數先乘，例：$25 \\times 13 \\times 4 = (25 \\times 4) \\times 13 = 100 \\times 13 = 1300$。</li><li><strong>交換律</strong>：$a \\times b = b \\times a$。$7 \\times 12 = 12 \\times 7 = 84$，順序不影響結果。</li><li><strong>估算</strong>：把因數四捨五入到最高位後再相乘，可快速判斷答案範圍。例：$298 \\times 41 \\approx 300 \\times 40 = 12000$（實際 $= 12218$）。</li><li><strong>0 與 1 的性質</strong>：任何數乘以 $0$ 都是 $0$；任何數乘以 $1$ 都是它自己。$a \\times 10 = a0$（後面加一個 $0$），$a \\times 100 = a00$。</li></ul>",
+  "sections": [
+    {
+      "type": "true_false",
+      "name": "是非題",
+      "questions": [
+        {
+          "id": "g4a_ch2_1_q1",
+          "number": 1,
+          "type": "true_false",
+          "content": "<p>$25 \\times 4 \\times 13 = 25 \\times (4 \\times 13)$，這是乘法的<strong>結合律</strong>。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。<strong>結合律</strong>：$(a \\times b) \\times c = a \\times (b \\times c)$，括號位置改變但結果相同。本題 $25 \\times 4 = 100$，所以 $25 \\times 4 \\times 13 = 100 \\times 13 = 1300$；右式 $4 \\times 13 = 52$，$25 \\times 52 = 1300$ ✓。</p>"
+        },
+        {
+          "id": "g4a_ch2_1_q2",
+          "number": 2,
+          "type": "true_false",
+          "content": "<p>$345 \\times 0 = 345$。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。<strong>任何數乘以 $0$ 都等於 $0$</strong>。$345 \\times 0 = 0$，不是 $345$。要分清楚：$345 \\times 1 = 345$，$345 \\times 0 = 0$，$345 + 0 = 345$。</p>"
+        },
+        {
+          "id": "g4a_ch2_1_q3",
+          "number": 3,
+          "type": "true_false",
+          "content": "<p>用直式算 $253 \\times 24$ 時，第二行（十位 $2$ 乘 $253$）的結果要<strong>向左退一位</strong>，與第一行對齊。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。直式乘法時，<strong>第二行其實是 $253 \\times 20 = 5060$</strong>，因為十位 $2$ 代表 $20$。為了表示「位值」，書寫時把第二行往左退一位（或在個位補 $0$）對齊十位。$253 \\times 4 = 1012$、$253 \\times 20 = 5060$，相加得 $6072$。</p>"
+        },
+        {
+          "id": "g4a_ch2_1_q4",
+          "number": 4,
+          "type": "true_false",
+          "content": "<p>$36 \\times 100 = 3600$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。一個整數乘以 $100$，只要在原數後面<strong>加兩個 $0$</strong>。$36 \\times 100 = 3600$。同理 $36 \\times 10 = 360$、$36 \\times 1000 = 36000$。</p>"
+        },
+        {
+          "id": "g4a_ch2_1_q5",
+          "number": 5,
+          "type": "true_false",
+          "content": "<p>因為 $7 \\times 8 = 56$，所以 $700 \\times 8 = 560$。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。$700$ 比 $7$ 大 $100$ 倍，所以 $700 \\times 8$ 也要比 $7 \\times 8$ 大 $100$ 倍。<strong>$700 \\times 8 = 5600$</strong>（在 $56$ 後面加兩個 $0$），不是 $560$。</p>"
+        }
+      ]
+    },
+    {
+      "type": "single_choice",
+      "name": "單選題",
+      "questions": [
+        {
+          "id": "g4a_ch2_1_q6",
+          "number": 6,
+          "type": "single_choice",
+          "content": "<p>$253 \\times 24 = ?$</p><p>A. $5072$</p><p>B. $6072$</p><p>C. $6172$</p><p>D. $7072$</p>",
+          "answer": "B",
+          "explanation": "<p>直式：$253 \\times 4 = 1012$（個位行）；$253 \\times 20 = 5060$（十位行）。相加 $1012 + 5060 = 6072$。另一個算法：$253 \\times 24 = 253 \\times (25 - 1) = 253 \\times 25 - 253 = 6325 - 253 = 6072$。答案 B。</p>"
+        },
+        {
+          "id": "g4a_ch2_1_q7",
+          "number": 7,
+          "type": "single_choice",
+          "content": "<p>$408 \\times 35 = ?$</p><p>A. $14080$</p><p>B. $14280$</p><p>C. $13280$</p><p>D. $12780$</p>",
+          "answer": "B",
+          "explanation": "<p>直式：$408 \\times 5 = 2040$；$408 \\times 30 = 12240$。相加 $2040 + 12240 = 14280$。也可以用 $408 \\times 35 = 408 \\times (36 - 1) = 408 \\times 36 - 408 = 14688 - 408 = 14280$ 驗算。答案 B。</p>"
+        },
+        {
+          "id": "g4a_ch2_1_q8",
+          "number": 8,
+          "type": "single_choice",
+          "content": "<p>下列算法中，哪一個利用<strong>結合律</strong>最快算出 $25 \\times 17 \\times 4$？</p><p>A. $(25 \\times 17) \\times 4 = 425 \\times 4 = 1700$</p><p>B. $25 \\times (17 \\times 4) = 25 \\times 68 = 1700$</p><p>C. $(25 \\times 4) \\times 17 = 100 \\times 17 = 1700$</p><p>D. $17 \\times 25 + 17 \\times 4 = 425 + 68 = 493$</p>",
+          "answer": "C",
+          "explanation": "<p>A、B、C 都用結合律，結果都對；但 <strong>C 把 $25$ 和 $4$ 先乘，得 $100$</strong>，再 $\\times 17$，計算最快也最不容易出錯。D 是錯的算式（不是結合律的正確用法）。答案 C。</p>"
+        },
+        {
+          "id": "g4a_ch2_1_q9",
+          "number": 9,
+          "type": "single_choice",
+          "content": "<p>$500 \\times 80 = ?$</p><p>A. $4000$</p><p>B. $40000$</p><p>C. $400000$</p><p>D. $58000$</p>",
+          "answer": "B",
+          "explanation": "<p>用「先去 $0$ 再補回」的技巧：$5 \\times 8 = 40$，$500$ 後面有 $2$ 個 $0$、$80$ 後面有 $1$ 個 $0$，共 $3$ 個 $0$，所以 $500 \\times 80 = 40000$。答案 B。</p>"
+        },
+        {
+          "id": "g4a_ch2_1_q10",
+          "number": 10,
+          "type": "single_choice",
+          "content": "<p>$295 \\times 41$ 的估算結果最接近？</p><p>A. $8000$</p><p>B. $12000$</p><p>C. $16000$</p><p>D. $20000$</p>",
+          "answer": "B",
+          "explanation": "<p>估算：$295 \\approx 300$、$41 \\approx 40$，所以 $295 \\times 41 \\approx 300 \\times 40 = 12000$。實際 $295 \\times 41 = 12095$，與估算 $12000$ 非常接近。答案 B。</p>"
+        },
+        {
+          "id": "g4a_ch2_1_q11",
+          "number": 11,
+          "type": "single_choice",
+          "content": "<p>$786 \\times 60 = ?$</p><p>A. $46160$</p><p>B. $47160$</p><p>C. $47060$</p><p>D. $4716$</p>",
+          "answer": "B",
+          "explanation": "<p>$786 \\times 60 = 786 \\times 6 \\times 10$。先算 $786 \\times 6$：個位 $6 \\times 6 = 36$ 寫 $6$ 進 $3$；十位 $8 \\times 6 + 3 = 51$ 寫 $1$ 進 $5$；百位 $7 \\times 6 + 5 = 47$。$786 \\times 6 = 4716$；再 $\\times 10$ 得 $47160$。答案 B。</p>"
+        },
+        {
+          "id": "g4a_ch2_1_q12",
+          "number": 12,
+          "type": "single_choice",
+          "content": "<p>一個合作社賣巧克力，每盒裝 $24$ 顆，賣出 $156$ 盒，總共賣出多少顆巧克力？</p><p>A. $3644$ 顆</p><p>B. $3744$ 顆</p><p>C. $3854$ 顆</p><p>D. $3640$ 顆</p>",
+          "answer": "B",
+          "explanation": "<p>列式：$24 \\times 156$（或 $156 \\times 24$）。直式 $156 \\times 24$：$156 \\times 4 = 624$；$156 \\times 20 = 3120$；相加 $624 + 3120 = 3744$（顆）。答案 B。</p>"
+        },
+        {
+          "id": "g4a_ch2_1_q13",
+          "number": 13,
+          "type": "single_choice",
+          "content": "<p>一輛遊覽車一趟可以載 $45$ 人，請問 $16$ 輛遊覽車一共可以載多少人？</p><p>A. $620$ 人</p><p>B. $700$ 人</p><p>C. $720$ 人</p><p>D. $820$ 人</p>",
+          "answer": "C",
+          "explanation": "<p>列式：$45 \\times 16$。利用結合：$45 \\times 16 = 45 \\times (10 + 6) = 45 \\times 10 + 45 \\times 6 = 450 + 270 = 720$（人）。答案 C。</p>"
+        },
+        {
+          "id": "g4a_ch2_1_q14",
+          "number": 14,
+          "type": "single_choice",
+          "content": "<p>下列算式哪一個結果<strong>等於</strong> $3600$？</p><p>A. $36 \\times 10$</p><p>B. $9 \\times 400$</p><p>C. $60 \\times 50$</p><p>D. $36 \\times 1000$</p>",
+          "answer": "B",
+          "explanation": "<p>分別計算：A. $36 \\times 10 = 360$；<strong>B. $9 \\times 400 = 3600$</strong> ✓；C. $60 \\times 50 = 3000$；D. $36 \\times 1000 = 36000$。答案 B。</p>"
+        },
+        {
+          "id": "g4a_ch2_1_q15",
+          "number": 15,
+          "type": "single_choice",
+          "content": "<p>學校採購文具：每盒鉛筆 $48$ 元，買 $25$ 盒；每本筆記本 $35$ 元，買 $20$ 本。總共要付多少錢？</p><p>A. $1500$ 元</p><p>B. $1700$ 元</p><p>C. $1900$ 元</p><p>D. $2100$ 元</p>",
+          "answer": "C",
+          "explanation": "<p>鉛筆費用：$48 \\times 25 = 1200$（元）（$48 \\times 25 = 48 \\times 100 \\div 4 = 4800 \\div 4 = 1200$）。筆記本費用：$35 \\times 20 = 700$（元）。總和 $= 1200 + 700 = 1900$（元）。答案 C。</p>"
+        }
+      ]
+    }
+  ]
 }

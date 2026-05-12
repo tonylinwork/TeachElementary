@@ -1,5 +1,138 @@
 {
   "title": "小五下 2-1 分數的計算",
-  "summary": "<h1>小五下　分數的計算　教學重點</h1>\n\n    <!-- 知識點 1 -->\n    <h2>知識點 1：整數除整數用分數表示</h2>\n\n    <h3>核心觀念</h3>\n    <ul>\n      <li>兩整數相除的「商」可以用分數表示：<code>a ÷ b = a/b</code>（被除數當分子，除數當分母）</li>\n      <li>分數中：上面是<strong>分子</strong>（被除數），下面是<strong>分母</strong>（除數）</li>\n      <li>答案習慣：能約分就約分，寫成<strong>最簡分數</strong>；若為<strong>假分數</strong>（分子 ≥ 分母）→ 改寫成<strong>帶分數</strong>；真分數則確認已是最簡分數即可</li>\n      <li><strong>整數的倒數</strong>：每個整數 n 可看成 <code>n/1</code>，倒數即 <code>1/n</code>（如 3 → 1/3、5 → 1/5）</li>\n      <li><strong>除以一整數 = 乘以它的倒數</strong>（為知識點 2、3 預鋪路）：例如 <code>3 ÷ 5 = 3 × 1/5 = 3/5</code></li>\n    </ul>\n\n    <h3>範例</h3>\n    <ol>\n      <li>4 瓶果汁分給 9 個人 → 每人 <code>4/9</code> 瓶；9 個蘋果分給 4 人 → 每人 <code>9/4</code> 個。看「每一個人」這個單位決定分母。</li>\n      <li><code>8 ÷ 6 = 8/6 = 4/3 = 1⅓</code>（記得約分 + 化帶分數）</li>\n      <li><code>9 ÷ 10 = 9/10</code>（兩數相差 1，必為最簡分數）</li>\n      <li>一盒蘋果 24 個分成 8 份：以「盒」為單位每份 <code>1/8</code> 盒；以「個」為單位每份 3 個 →<strong>看單位再列式</strong>。</li>\n      <li>分針從 12 走到 4 是幾小時？\n        <ul>\n          <li>想法一：12 大格走 4 格 → <code>4/12 = 1/3</code> 小時</li>\n          <li>想法二：每格 5 分鐘 → 走 20 分鐘 → <code>20/60 = 1/3</code> 小時</li>\n          <li>單位換算：<strong>大單位 → 小單位用乘法；小單位 → 大單位用除法</strong></li>\n        </ul>\n      </li>\n    </ol>\n\n    <h3>注意事項</h3>\n    <ul>\n      <li>列算式前先確認「最後要的單位」，分子分母的擺法才不會反</li>\n      <li>看到「假分數」要反射性化為帶分數</li>\n      <li>約分養成習慣：上下都是偶數先同除 2，看得到共同因數就先約</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 2 -->\n    <h2>知識點 2：分數與整數的乘法</h2>\n\n    <h3>核心規則</h3>\n    <ul>\n      <li><strong>整數寫成 n/1 形式</strong>：n = <code>n/1</code>（分母 1 可省略，但運算時把 1 補出來最不容易出錯）</li>\n    </ul>\n\n    <h3>計算流程</h3>\n    <ol>\n      <li>帶分數 → 假分數（先變身再運算）</li>\n      <li>整數 → 寫成 <code>整數/1</code></li>\n      <li>能約分先約分（分子與分母交叉檢查共同因數）</li>\n      <li>分子乘分子、分母乘分母</li>\n      <li>結果若為假分數 → 化為帶分數；不是最簡 → 約到最簡</li>\n    </ol>\n\n    <h3>單位換算複習</h3>\n    <ul>\n      <li>大單位 → 小單位：用<strong>乘法</strong>（如 2/3 小時 → 分鐘：<code>2/3 × 60 = 40</code> 分）</li>\n      <li>小單位 → 大單位：用<strong>除法</strong>（如 15 分鐘 → 小時：<code>15 ÷ 60 = 1/4</code> 小時）</li>\n    </ul>\n\n    <h3>範例</h3>\n    <ol>\n      <li><code>18 × 3/5 = 18/1 × 3/5 = 54/5 = 10⅘</code></li>\n      <li><code>10 × 5/8</code>：先約分 10 與 8 同除 2 → <code>5 × 5/4 = 25/4 = 6¼</code></li>\n      <li><code>24 × 2⅘</code>：把 2⅘ 化假分數 <code>22/9</code>，再用 <code>24/1 × 22/9</code>，約分 24 與 9 同除 3 → <code>8 × 22/3 = 176/3 = 58⅔</code>。<strong>帶分數化假分數速算</strong>：分母不變、分子 = 分母 × 整數 + 原分子。</li>\n      <li><code>21 × 3⅙ = 21/1 × 19/6</code>，約分 21 與 6 同除 3 → <code>7 × 19/2 = 133/2 = 66½</code></li>\n      <li>應用：1 公斤西瓜 49 元，買 <code>4⁵⁄₇</code> 公斤要多少錢？\n        <ul>\n          <li><code>49 × 33/7</code>（先把 4⁵⁄₇ 化 33/7），49 與 7 約分得 7 → <code>7 × 33 = 231</code> 元</li>\n        </ul>\n      </li>\n      <li>單位換算：2/5 日 = 幾小時？1 日 = 24 小時 → <code>2/5 × 24 = 48/5 = 9⅗</code> 小時</li>\n    </ol>\n\n    <h3>「全體 × 分數 = 部分」題型</h3>\n    <ul>\n      <li>知道全部求部分 → <strong>乘法</strong>；知道部分求全部 → <strong>除法</strong></li>\n      <li>例：全班 32 人，5/8 是女生 → 女生 <code>32 × 5/8 = 20</code> 人；其中 3/5 近視 → 近視 <code>20 × 3/5 = 12</code> 人</li>\n      <li><strong>二元對立</strong>技巧：5/8 是女生 → 立刻反射 3/8 是男生；3/5 近視 → 2/5 沒近視，題目轉個方向就直接用</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 3 -->\n    <h2>知識點 3：分數乘以分數、分數除以分數</h2>\n\n    <h3>分數 × 分數 步驟</h3>\n    <ol>\n      <li>帶分數 → 假分數</li>\n      <li>能約分先約分（分子與分母交叉約）</li>\n      <li>分子乘分子、分母乘分母</li>\n      <li>結果是假分數 → 化帶分數；非最簡 → 約到最簡</li>\n    </ol>\n\n    <h3>分數 ÷ 分數 步驟</h3>\n    <ol>\n      <li>帶分數 → 假分數</li>\n      <li><strong>除以一個數 = 乘以它的倒數</strong>（顛倒分子分母的是「除數」，不是被除數！）</li>\n      <li>之後步驟同乘法</li>\n    </ol>\n\n    <h3>範例（乘法）</h3>\n    <ol>\n      <li><code>7/6 × 6/15</code>：6 與 6 約掉 → <code>7 × 1/15</code>，交叉約分後得 <code>7/15</code>（影片邊算邊約）</li>\n      <li><code>11/14 × 21/33</code>：11 與 33 同除 11，14 與 21 同除 7 → 結果化為帶分數 <code>1½</code></li>\n      <li><code>43/4 × 47/8</code>（<code>10¾ × 5⅞</code> 之類無法約分）：硬乘 → <code>2021/32</code>，化帶分數，重點在<strong>演算速度與準確度</strong></li>\n      <li><code>3⅓ × 3⁹⁄₁₀ = 10/3 × 39/10</code>：約分 10 與 10、3 與 39 → <code>1 × 13 / 1 × 1 = 13</code></li>\n    </ol>\n\n    <h3>範例（除法）</h3>\n    <ol>\n      <li><code>4½ ÷ 9/10 = 9/2 × 10/9</code>：約分 9 與 9、2 與 10 → <code>1 × 5 / 1 × 1 = 5</code></li>\n      <li><code>9 ÷ 6 = 9/6 = 3/2 = 1½</code></li>\n      <li><code>8/35 ÷ 16/15 = 8/35 × 15/16</code>：交叉約分 → <code>1 × 3 / 7 × 2 = 3/14</code></li>\n    </ol>\n\n    <h3>應用題：面積</h3>\n    <ol>\n      <li>長方形長 <code>5⁷⁄₉</code> 公尺、寬 <code>3⁶⁄₁₃</code> 公尺，面積？\n        <ul>\n          <li>化假分數：<code>52/9 × 45/13</code></li>\n          <li>約分：52 與 13 同除 13、45 與 9 同除 9 → <code>4 × 5 = 20</code></li>\n          <li>答案 <strong>20 平方公尺</strong>（單位 m²，公尺 × 公尺）</li>\n        </ul>\n      </li>\n      <li>正方形馬賽克邊長 <code>2½</code> 公分，144 塊拼成一幅畫的總面積？\n        <ul>\n          <li>一塊面積：<code>5/2 × 5/2 = 25/4</code></li>\n          <li>總面積：<code>25/4 × 144 = 25 × 36 = 900</code> 平方公分</li>\n        </ul>\n      </li>\n    </ol>\n\n    <h3>應用題：求倍數關係</h3>\n    <ol>\n      <li>乙是甲的 13/18 倍，甲 = 6/7，乙 = ?\n        <ul>\n          <li>乙 = 甲 × 13/18 = <code>6/7 × 13/18 = 13/21</code>（約分 6 與 18 同除 6）</li>\n        </ul>\n      </li>\n      <li>若反過來「乙 = 6/7，甲乙之間是 ⋯ 倍」→ 用除法回推</li>\n    </ol>\n\n    <h3>應用題：竹竿插水中</h3>\n    <ol>\n      <li>全長 <code>8¾</code> 公尺，5/7 插入水中、2/7 露出水面</li>\n      <li>水中比露出多 <code>5/7 − 2/7 = 3/7</code>（佔全長）</li>\n      <li>多出長度：<code>8¾ × 3/7 = 35/4 × 3/7 = 15/4 = 3¾</code> 公尺</li>\n    </ol>\n\n    <hr>\n\n    <!-- 知識點 4 -->\n    <h2>知識點 4：乘除與「被乘數／被除數」的大小關係</h2>\n\n    <h3>乘法判斷（被乘數 a × 乘數 b = 積）</h3>\n    <table>\n      <thead>\n        <tr>\n          <th>乘數 b</th>\n          <th>積與 a 的關係</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td>b &gt; 1</td>\n          <td>積 &gt; a</td>\n        </tr>\n        <tr>\n          <td>b &lt; 1</td>\n          <td>積 &lt; a</td>\n        </tr>\n        <tr>\n          <td>b = 1</td>\n          <td>積 = a</td>\n        </tr>\n      </tbody>\n    </table>\n    <ul>\n      <li>沒寫乘數時視為 ×1</li>\n    </ul>\n\n    <h3>除法判斷（被除數 a ÷ 除數 b = 商）</h3>\n    <table>\n      <thead>\n        <tr>\n          <th>除數 b</th>\n          <th>商與 a 的關係</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td>b &gt; 1</td>\n          <td>商 &lt; a（除越多剩越少）</td>\n        </tr>\n        <tr>\n          <td>b &lt; 1</td>\n          <td>商 &gt; a（除越少剩越多）</td>\n        </tr>\n        <tr>\n          <td>b = 1</td>\n          <td>商 = a</td>\n        </tr>\n      </tbody>\n    </table>\n\n    <h3>範例：比 8/9 大或小</h3>\n    <ul>\n      <li><code>8/9 × 5/6</code>：5/6 &lt; 1 → 結果<strong>小於</strong> 8/9（×）</li>\n      <li><code>8/9 × 6/5</code>：6/5 &gt; 1 → 結果<strong>大於</strong> 8/9（○）</li>\n      <li><code>8/9 × 9/8</code>：9/8 &gt; 1 → 結果<strong>大於</strong> 8/9（○）</li>\n      <li><code>8/9 × 9/9</code>：等於 1 → <strong>等於</strong> 8/9（=）</li>\n      <li><code>1⅕ × 8/9 = 8/9 × 6/5</code>（交換律）→ &gt; 8/9</li>\n      <li><code>8/9 × 2/5</code>：&lt; 1 → &lt; 8/9</li>\n    </ul>\n\n    <h3>比大小（同一邊固定）</h3>\n    <ul>\n      <li><code>5/6 × 3/3</code> vs <code>5/6 × 1</code>：3/3 = 1 → 兩邊相等</li>\n      <li>一個數固定，<strong>乘的數越大、積越大</strong>；除的數越大、商越小</li>\n    </ul>\n\n    <h3>真分數 ÷ 大於 0 的整數 → 商仍是真分數</h3>\n    <ul>\n      <li>「大於 0 的整數」最小是 1，所以除數 ≥ 1 → 商 ≤ 被除數（被除數本身是真分數）→ 商必然是真分數</li>\n      <li>注意：若題目只說「大於 0 的數」（沒限定整數），答案可能是真分數、整數、帶分數都有可能（例：<code>½ ÷ ½ = 1</code>、<code>½ ÷ ⅓ = 3/2</code>）</li>\n    </ul>\n\n    <h3>應用：木雕重量比較</h3>\n    <ul>\n      <li>狗 <code>2½</code> 公斤、熊是狗的 <code>1½</code> 倍、貓是狗的 <code>4/5</code> 倍</li>\n      <li>三個都拿「狗」做被乘數 → 直接比乘數大小：<code>1½ &gt; 1 &gt; 4/5</code></li>\n      <li>最重：熊；最輕：貓（不用真的算出來）</li>\n    </ul>\n\n    <h3>分數除以整數</h3>\n    <ul>\n      <li>除以 n = 乘以 1/n（n 看成 n/1，倒數是 1/n）</li>\n    </ul>\n    <ol>\n      <li><code>8/17 ÷ 16 = 8/17 × 1/16</code>，約分後 = <code>1/34</code></li>\n      <li><code>25/7 ÷ 20 = 25/7 × 1/20 = 5/28</code></li>\n      <li><code>17/14 ÷ 6 = 17/14 × 1/6 = 17/84</code></li>\n      <li><code>1/7 ÷ 5 = 1/7 × 1/5 = 1/35</code></li>\n    </ol>\n\n    <h3>應用：關係列式</h3>\n    <ol>\n      <li>甲是乙的 10 倍、甲 = <code>2²⁄₉</code> → 乙 = 甲 ÷ 10 = <code>20/9 ÷ 10 = 2/9</code></li>\n      <li>兩數之積：甲 × 乙 = <code>20/9 × 2/9 = 40/81</code></li>\n    </ol>\n\n    <h3>應用：油耗（生活素養題）</h3>\n    <ol>\n      <li>1 公升汽油 <code>26⅔</code> 元、可跑 10 公里 → 每公里平均多少錢？</li>\n      <li><code>26⅔ ÷ 10 = 80/3 × 1/10 = 8/3 = 2⅔</code> 元 / 公里</li>\n      <li>觀念延伸：「每公里多少錢」<strong>越小越省油</strong>；「每元跑多少公里」<strong>越大越省油</strong></li>\n    </ol>\n\n    <hr>\n\n    <!-- 常見題型 -->\n    <div class=\"exam-section\">\n      <h2>常見題型總整理</h2>\n      <ol>\n        <li><strong>整數相除化分數</strong>：被除數當分子、除數當分母，記得約分與化帶分數。</li>\n        <li><strong>單位換算</strong>：大單位 → 小單位用乘法；小單位 → 大單位用除法（時間、長度、重量都通用）。</li>\n        <li><strong>整數 × 分數 / 分數 × 分數</strong>：整數先寫成 <code>n/1</code>、帶分數先化假分數，能約先約再乘。</li>\n        <li><strong>分數 ÷ 分數</strong>：除數倒數再相乘；其他流程同乘法。</li>\n        <li><strong>全體 × 比例 = 部分</strong>：知道全部求部分用乘法；二元對立的條件（如女生 5/8 ↔ 男生 3/8）可直接互推。</li>\n        <li><strong>連續比例</strong>：先算第一層（如女生人數），再用結果乘第二層比例（如其中近視的比例）。</li>\n        <li><strong>比大小不用算</strong>：乘以 &gt; 1 的數會變大、乘以 &lt; 1 的數會變小；除法則相反。</li>\n        <li><strong>長方形 / 正方形面積</strong>：邊長 × 邊長（單位變平方）；多塊拼成的圖案要先算單塊再乘塊數。</li>\n        <li><strong>倍數關係</strong>：「A 是 B 的 k 倍」→ <code>A = B × k</code>；反過來要求 B 就是 <code>A ÷ k</code>。</li>\n        <li><strong>油耗類生活題</strong>：注意「每單位」的方向，列式時讓要求的單位變成 1。</li>\n      </ol>\n    </div>",
-  "sections": []
+  "summary": "<ul><li><strong>整數相除化分數</strong>：$a \\div b = \\dfrac{a}{b}$，被除數當分子、除數當分母。能約分要約到最簡分數，假分數要化成帶分數。</li><li><strong>整數寫成分數</strong>：整數 $n = \\dfrac{n}{1}$，方便和分數一起計算。整數 $n$ 的倒數是 $\\dfrac{1}{n}$（$n \\neq 0$）。</li><li><strong>分數乘法</strong>：先化假分數，能約分先約分，然後分子乘分子、分母乘分母：$\\dfrac{a}{b} \\times \\dfrac{c}{d} = \\dfrac{a \\times c}{b \\times d}$。</li><li><strong>分數除法</strong>：除以一個數等於乘以它的倒數，$\\dfrac{a}{b} \\div \\dfrac{c}{d} = \\dfrac{a}{b} \\times \\dfrac{d}{c}$。被除數不動，只把除數倒過來。</li><li><strong>帶分數運算</strong>：所有帶分數計算前都要先化成假分數，計算完再視需要化回帶分數。</li><li><strong>乘除與大小</strong>：乘以 $> 1$ 的數會變大、乘以 $< 1$ 的數會變小；除以 $> 1$ 的數會變小、除以 $< 1$ 的數會變大。</li></ul>",
+  "sections": [
+    {
+      "type": "true_false",
+      "name": "是非題",
+      "questions": [
+        {
+          "id": "g5b_ch2_1_q1",
+          "number": 1,
+          "type": "true_false",
+          "content": "<p>$\\dfrac{8}{6}$ 是最簡分數。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。$\\dfrac{8}{6}$ 的分子分母都可以被 $2$ 整除：$\\dfrac{8}{6} = \\dfrac{4}{3}$，<strong>最簡分數是 $\\dfrac{4}{3}$</strong>（再化成帶分數為 $1\\dfrac{1}{3}$）。檢查最簡：分子分母的<strong>最大公因數要是 $1$</strong>。</p>"
+        },
+        {
+          "id": "g5b_ch2_1_q2",
+          "number": 2,
+          "type": "true_false",
+          "content": "<p>$\\dfrac{5}{6} \\times \\dfrac{3}{4}$ 的結果一定比 $\\dfrac{5}{6}$ 大。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。乘數 $\\dfrac{3}{4} < 1$，所以結果<strong>會比被乘數 $\\dfrac{5}{6}$ 小</strong>。實算：$\\dfrac{5}{6} \\times \\dfrac{3}{4} = \\dfrac{15}{24} = \\dfrac{5}{8}$，確實 $\\dfrac{5}{8} < \\dfrac{5}{6}$。口訣：乘小於 $1$ 變小、乘大於 $1$ 變大。</p>"
+        },
+        {
+          "id": "g5b_ch2_1_q3",
+          "number": 3,
+          "type": "true_false",
+          "content": "<p>計算 $2\\dfrac{1}{3} \\times 4$ 時，可以把 $2$ 和 $\\dfrac{1}{3}$ 分開：$2 \\times 4 + \\dfrac{1}{3} \\times 4 = 8\\dfrac{4}{3}$。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。分開算的「想法」可行，但答案沒整理成標準形式：$8\\dfrac{4}{3}$ 中的 $\\dfrac{4}{3}$ 是假分數，要再化：$\\dfrac{4}{3} = 1\\dfrac{1}{3}$，所以總和 $= 8 + 1\\dfrac{1}{3} = 9\\dfrac{1}{3}$。<strong>建議直接把帶分數化成假分數</strong>：$2\\dfrac{1}{3} \\times 4 = \\dfrac{7}{3} \\times 4 = \\dfrac{28}{3} = 9\\dfrac{1}{3}$，比較不會出錯。</p>"
+        },
+        {
+          "id": "g5b_ch2_1_q4",
+          "number": 4,
+          "type": "true_false",
+          "content": "<p>$\\dfrac{3}{5} \\div \\dfrac{2}{7} = \\dfrac{3}{5} \\times \\dfrac{7}{2}$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。「除以一個數等於乘以它的倒數」：除號改乘號、<strong>除數 $\\dfrac{2}{7}$ 取倒數 $\\dfrac{7}{2}$</strong>、被除數 $\\dfrac{3}{5}$ 不動。結果 $= \\dfrac{21}{10} = 2\\dfrac{1}{10}$。</p>"
+        },
+        {
+          "id": "g5b_ch2_1_q5",
+          "number": 5,
+          "type": "true_false",
+          "content": "<p>全班 $32$ 人，$\\dfrac{5}{8}$ 是女生，則女生有 $20$ 人。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。「全體 $\\times$ 比例 $=$ 部分」：女生 $= 32 \\times \\dfrac{5}{8} = \\dfrac{32 \\times 5}{8} = \\dfrac{160}{8} = 20$ 人。$32$ 與 $8$ 先約分：$32 \\div 8 = 4$，$4 \\times 5 = 20$ 更快。</p>"
+        }
+      ]
+    },
+    {
+      "type": "single_choice",
+      "name": "單選題",
+      "questions": [
+        {
+          "id": "g5b_ch2_1_q6",
+          "number": 6,
+          "type": "single_choice",
+          "content": "<p>$5 \\div 8$ 用分數表示是？</p><p>A. $\\dfrac{8}{5}$</p><p>B. $\\dfrac{5}{8}$</p><p>C. $\\dfrac{1}{40}$</p><p>D. $40$</p>",
+          "answer": "B",
+          "explanation": "<p>整數除法可用分數表示：$a \\div b = \\dfrac{a}{b}$，<strong>被除數當分子、除數當分母</strong>。$5 \\div 8 = \\dfrac{5}{8}$。分子 $5 < $ 分母 $8$，是真分數，已是最簡。答案 B。</p>"
+        },
+        {
+          "id": "g5b_ch2_1_q7",
+          "number": 7,
+          "type": "single_choice",
+          "content": "<p>$\\dfrac{7}{6} \\times \\dfrac{6}{15} = ?$</p><p>A. $\\dfrac{7}{15}$</p><p>B. $\\dfrac{42}{90}$</p><p>C. $\\dfrac{13}{21}$</p><p>D. $\\dfrac{7}{6}$</p>",
+          "answer": "A",
+          "explanation": "<p>先約分：分子的 $6$ 和分母的 $6$ 可消掉 → $\\dfrac{7 \\times 1}{1 \\times 15} = \\dfrac{7}{15}$。$\\dfrac{7}{15}$ 已是最簡分數。答案 A。</p>"
+        },
+        {
+          "id": "g5b_ch2_1_q8",
+          "number": 8,
+          "type": "single_choice",
+          "content": "<p>$3\\dfrac{1}{3} \\times 3\\dfrac{9}{10} = ?$</p><p>A. $9\\dfrac{1}{10}$</p><p>B. $13$</p><p>C. $\\dfrac{39}{10}$</p><p>D. $9\\dfrac{3}{10}$</p>",
+          "answer": "B",
+          "explanation": "<p>先把帶分數化假分數：$3\\dfrac{1}{3} = \\dfrac{10}{3}$、$3\\dfrac{9}{10} = \\dfrac{39}{10}$。相乘前先約分：$\\dfrac{10}{3} \\times \\dfrac{39}{10}$，$10$ 與 $10$ 約掉、$3$ 與 $39$ 約掉（$39 \\div 3 = 13$）→ $\\dfrac{1 \\times 13}{1 \\times 1} = 13$。答案 B。</p>"
+        },
+        {
+          "id": "g5b_ch2_1_q9",
+          "number": 9,
+          "type": "single_choice",
+          "content": "<p>$\\dfrac{8}{35} \\div \\dfrac{16}{15} = ?$</p><p>A. $\\dfrac{3}{14}$</p><p>B. $\\dfrac{128}{525}$</p><p>C. $\\dfrac{14}{3}$</p><p>D. $\\dfrac{8}{15}$</p>",
+          "answer": "A",
+          "explanation": "<p>除以一個數等於乘以它的倒數：$\\dfrac{8}{35} \\div \\dfrac{16}{15} = \\dfrac{8}{35} \\times \\dfrac{15}{16}$。交叉約分：$8$ 與 $16$ 同除 $8$（變 $1$ 與 $2$）、$35$ 與 $15$ 同除 $5$（變 $7$ 與 $3$）→ $\\dfrac{1 \\times 3}{7 \\times 2} = \\dfrac{3}{14}$。答案 A。</p>"
+        },
+        {
+          "id": "g5b_ch2_1_q10",
+          "number": 10,
+          "type": "single_choice",
+          "content": "<p>下列算式中，結果<strong>大於</strong> $\\dfrac{8}{9}$ 的是哪一個？</p><p>A. $\\dfrac{8}{9} \\times \\dfrac{5}{6}$</p><p>B. $\\dfrac{8}{9} \\times 1$</p><p>C. $\\dfrac{8}{9} \\times \\dfrac{9}{8}$</p><p>D. $\\dfrac{8}{9} \\times \\dfrac{2}{5}$</p>",
+          "answer": "C",
+          "explanation": "<p>乘以 $> 1$ 的數結果變大、乘以 $< 1$ 的數結果變小、乘以 $1$ 不變。A：$\\dfrac{5}{6} < 1$ 變小；B：$\\times 1$ 相等；<strong>C：$\\dfrac{9}{8} > 1$ 變大</strong>；D：$\\dfrac{2}{5} < 1$ 變小。答案 C。</p>"
+        },
+        {
+          "id": "g5b_ch2_1_q11",
+          "number": 11,
+          "type": "single_choice",
+          "content": "<p>$\\dfrac{2}{3}$ 日是幾小時？（$1$ 日 $= 24$ 小時）</p><p>A. $12$ 小時</p><p>B. $16$ 小時</p><p>C. $18$ 小時</p><p>D. $36$ 小時</p>",
+          "answer": "B",
+          "explanation": "<p>大單位（日）$\\to$ 小單位（小時）用<strong>乘法</strong>：$\\dfrac{2}{3} \\times 24 = \\dfrac{2 \\times 24}{3}$，$24 \\div 3 = 8$，$2 \\times 8 = 16$ 小時。答案 B。</p>"
+        },
+        {
+          "id": "g5b_ch2_1_q12",
+          "number": 12,
+          "type": "single_choice",
+          "content": "<p>計算 $4\\dfrac{1}{2} \\div \\dfrac{9}{10} = ?$</p><p>A. $4$</p><p>B. $5$</p><p>C. $\\dfrac{9}{20}$</p><p>D. $\\dfrac{81}{20}$</p>",
+          "answer": "B",
+          "explanation": "<p>$4\\dfrac{1}{2} = \\dfrac{9}{2}$。$\\dfrac{9}{2} \\div \\dfrac{9}{10} = \\dfrac{9}{2} \\times \\dfrac{10}{9}$。約分：$9$ 與 $9$ 消掉、$2$ 與 $10$ 同除 $2$（變 $1$ 與 $5$）→ $\\dfrac{1 \\times 5}{1 \\times 1} = 5$。答案 B。</p>"
+        },
+        {
+          "id": "g5b_ch2_1_q13",
+          "number": 13,
+          "type": "single_choice",
+          "content": "<p>$1$ 公斤西瓜 $49$ 元，買 $4\\dfrac{5}{7}$ 公斤要多少錢？</p><p>A. $196$ 元</p><p>B. $217$ 元</p><p>C. $231$ 元</p><p>D. $245$ 元</p>",
+          "answer": "C",
+          "explanation": "<p>總價 $= $ 單價 $\\times $ 重量 $= 49 \\times 4\\dfrac{5}{7} = 49 \\times \\dfrac{33}{7}$。約分：$49 \\div 7 = 7$ → $7 \\times 33 = 231$ 元。答案 C。</p>"
+        },
+        {
+          "id": "g5b_ch2_1_q14",
+          "number": 14,
+          "type": "single_choice",
+          "content": "<p>長方形長 $5\\dfrac{7}{9}$ 公尺、寬 $3\\dfrac{6}{13}$ 公尺，面積是多少平方公尺？</p><p>A. $15$</p><p>B. $18$</p><p>C. $20$</p><p>D. $24$</p>",
+          "answer": "C",
+          "explanation": "<p>面積 $= $ 長 $\\times $ 寬。先化假分數：$5\\dfrac{7}{9} = \\dfrac{52}{9}$、$3\\dfrac{6}{13} = \\dfrac{45}{13}$。相乘 $\\dfrac{52}{9} \\times \\dfrac{45}{13}$：$52$ 與 $13$ 同除 $13$（$52 \\div 13 = 4$）、$45$ 與 $9$ 同除 $9$（$45 \\div 9 = 5$）→ $4 \\times 5 = 20$ 平方公尺。答案 C。</p>"
+        },
+        {
+          "id": "g5b_ch2_1_q15",
+          "number": 15,
+          "type": "single_choice",
+          "content": "<p>一根竹竿全長 $8\\dfrac{3}{4}$ 公尺，$\\dfrac{5}{7}$ 插入水中、$\\dfrac{2}{7}$ 露出水面。請問水中部分比露出部分長多少公尺？</p><p>A. $3\\dfrac{3}{4}$</p><p>B. $3\\dfrac{1}{4}$</p><p>C. $2\\dfrac{1}{2}$</p><p>D. $5$</p>",
+          "answer": "A",
+          "explanation": "<p>水中比露出多 $\\dfrac{5}{7} - \\dfrac{2}{7} = \\dfrac{3}{7}$（佔全長的比例）。多出的長度 $= 8\\dfrac{3}{4} \\times \\dfrac{3}{7} = \\dfrac{35}{4} \\times \\dfrac{3}{7}$。$35$ 與 $7$ 約分（$35 \\div 7 = 5$）→ $\\dfrac{5 \\times 3}{4} = \\dfrac{15}{4} = 3\\dfrac{3}{4}$ 公尺。答案 A。</p>"
+        }
+      ]
+    }
+  ]
 }

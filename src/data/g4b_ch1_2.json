@@ -1,5 +1,138 @@
 {
   "title": "小四下 1-2 分數的加減法",
-  "summary": "<h1>小四　分數的加減法　暑假總複習</h1>\n\n    <!-- 知識點 1 -->\n    <h2>知識點 1：分數加減法的大原則</h2>\n\n    <h3>核心定理／公式</h3>\n    <ul>\n      <li><strong>必須同分母</strong>才能相加減 → 分母相同時，<strong>分子</strong>才可以直接相加減，分母保持不變</li>\n      <li>若分母不同 → 高年級會學「擴分／約分」把分母變成相同再計算</li>\n      <li>結果若是<strong>假分數</strong>，要整理成帶分數；可以約分的盡量約成最簡分數</li>\n    </ul>\n\n    <h3>分數種類複習</h3>\n    <ul>\n      <li><strong>真分數</strong>：分子 &lt; 分母（&lt; 1），例如 <code>2/3</code></li>\n      <li><strong>假分數</strong>：分子 ≥ 分母（≥ 1），例如 <code>5/3</code></li>\n      <li><strong>帶分數</strong>：整數 + 真分數，例如 <code>1又1/2</code></li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 2 -->\n    <h2>知識點 2：帶分數的加法</h2>\n\n    <h3>核心口訣</h3>\n    <ul>\n      <li><strong>整數加整數，分數加分數</strong>（同分母前提）</li>\n      <li>算完檢查分數部分：若是<strong>假分數</strong>，要把多出來的 1 進位到整數部分</li>\n    </ul>\n\n    <h3>範例：1又7/3 + 1又7/2 = 2又7/5（牛奶題）</h3>\n    <ol>\n      <li>整數加整數：<code>1 + 1 = 2</code></li>\n      <li>分數加分數：<code>7/3 + 7/2 = 7/5</code>（分母相同、分子相加）</li>\n      <li>檢查 <code>7/5</code> 是真分數 → 結束</li>\n    </ol>\n\n    <h3>範例：5又20/7 + 4又20/19（射飛鏢題，含假分數整理）</h3>\n    <ol>\n      <li>整數：<code>5 + 4 = 9</code></li>\n      <li>分數：<code>20/7 + 20/19 = 20/26</code>（<strong>假分數</strong>！）</li>\n      <li>整理 <code>20/26 = 1又20/6</code></li>\n      <li>合併：<code>9 + 1又20/6 = 10又20/6</code></li>\n      <li>約分（同除 2）→ <strong>10又10/3 包</strong></li>\n    </ol>\n\n    <hr>\n\n    <!-- 知識點 3 -->\n    <h2>知識點 3：帶分數的減法（夠減的情況）</h2>\n\n    <h3>口訣一樣</h3>\n    <ul>\n      <li>整數減整數，分數減分數（同分母）</li>\n      <li>算完檢查分數部分是不是真分數</li>\n    </ul>\n\n    <h3>範例：2又15/8 + 2又15/6 = 4又15/14（大樹村甲地）</h3>\n    <p style=\"margin: 8px 0 12px 4px; color:#555; font-size:0.95em;\">題意：高樹村 <code>2又15/8</code> 甲，大樹村比高樹村多 <code>2又15/6</code> 甲，求大樹村。</p>\n    <ol>\n      <li>整數：<code>2 + 2 = 4</code></li>\n      <li>分數：<code>15/8 + 15/6 = 15/14</code>（真分數 OK）</li>\n      <li>答：<strong>4又15/14 甲</strong></li>\n    </ol>\n\n    <hr>\n\n    <!-- 知識點 4 -->\n    <h2>知識點 4：帶分數的減法（不夠減 → 跟整數借 1）</h2>\n\n    <h3>關鍵概念</h3>\n    <ul>\n      <li>分數部分<strong>不夠減</strong>時，向前面的整數「<strong>借 1</strong>」過來</li>\n      <li>借過來的 1 寫成「<strong>分母分之分母</strong>」（例如分母是 12 → 寫成 <code>12/12</code>）</li>\n      <li>加到原本的分數上，再去做減法</li>\n    </ul>\n\n    <h3>借 1 的式子（以 4又12/5 為例）</h3>\n    <ul>\n      <li><code>4又12/5 = 4 + 12/5</code></li>\n      <li><code>= 3 + 1 + 12/5</code></li>\n      <li><code>= 3 + 12/12 + 12/5</code></li>\n      <li><code>= 3又12/17</code></li>\n    </ul>\n\n    <h3>範例：4又12/5 − 2又12/7（不夠減示範）</h3>\n    <ol>\n      <li>分數 <code>12/5</code> 不夠減 <code>12/7</code> → 向整數 4 借 1</li>\n      <li>4 變成 3；<code>12/5</code> 變成 <code>12/17</code>（即 5 + 12 = 17）</li>\n      <li>整數：<code>3 − 2 = 1</code></li>\n      <li>分數：<code>12/17 − 12/7 = 12/10</code></li>\n      <li>結果 <code>1又12/10</code>，約分（同除 2）→ <strong>1又6/5</strong></li>\n    </ol>\n\n    <h3>熟練後的捷徑</h3>\n    <ul>\n      <li>不用每次寫完整的「3 + 1 + 12/12」過程</li>\n      <li>直接：整數減 1（4 → 3），分子加上分母（5 + 12 = 17），就得到 <code>3又12/17</code> 接著算</li>\n    </ul>\n\n    <h3>範例：7又16/9 − 2又16/11（跑操場題）</h3>\n    <ol>\n      <li><code>16/9</code> 不夠減 <code>16/11</code> → 7 借 1</li>\n      <li>7 變 6；<code>16/9</code> 變 <code>16/25</code>（9 + 16）</li>\n      <li>整數：<code>6 − 2 = 4</code></li>\n      <li>分數：<code>16/25 − 16/11 = 16/14</code></li>\n      <li>結果 <code>4又16/14</code>，約分（同除 2）→ <strong>4又8/7 圈</strong></li>\n    </ol>\n\n    <h3>範例：123又25/18 − 76又25/19（小火龍題）</h3>\n    <ol>\n      <li><code>25/18</code> 不夠減 <code>25/19</code> → 123 借 1</li>\n      <li>123 變 122；<code>25/18</code> 變 <code>25/43</code>（18 + 25）</li>\n      <li>整數：<code>122 − 76 = 46</code></li>\n      <li>分數：<code>25/43 − 25/19 = 25/24</code></li>\n      <li>答：<strong>46又25/24 公斤</strong></li>\n    </ol>\n\n    <h3>範例：13又50/17 − 12又50/39（鉛球／壘球題）</h3>\n    <ol>\n      <li><code>50/17</code> 不夠減 <code>50/39</code> → 13 借 1</li>\n      <li>13 變 12；<code>50/17</code> 變 <code>50/67</code>（17 + 50）</li>\n      <li>整數：<code>12 − 12 = 0</code></li>\n      <li>分數：<code>50/67 − 50/39 = 50/28</code></li>\n      <li>結果 <code>50/28</code>，約分（同除 2）→ <strong>25/14 公斤</strong></li>\n    </ol>\n\n    <h3>範例：3又15/4 − 1又15/7（火龍果樹題）</h3>\n    <ol>\n      <li><code>15/4</code> 不夠減 <code>15/7</code> → 3 借 1</li>\n      <li>3 變 2；<code>15/4</code> 變 <code>15/19</code>（4 + 15）</li>\n      <li>整數：<code>2 − 1 = 1</code>；分數：<code>15/19 − 15/7 = 15/12</code></li>\n      <li>結果 <code>1又15/12</code>，約分（同除 3）→ <strong>1又5/4 公尺</strong></li>\n    </ol>\n\n    <hr>\n\n    <!-- 知識點 5 -->\n    <h2>知識點 5：整數減帶分數（沒有分數怎麼辦）</h2>\n\n    <h3>關鍵概念</h3>\n    <ul>\n      <li>整數本身沒有分數部分 → 從整數借 1 出來，寫成「分母分之分母」湊出分數</li>\n      <li>借完之後就回到「不夠減 → 已借好」的標準減法</li>\n    </ul>\n\n    <h3>範例：4 − 2又5/3（短腳龍／長頸龍題）</h3>\n    <ol>\n      <li>4 沒有分數 → 拆成 3 + 1，把 1 寫成 <code>5/5</code></li>\n      <li><code>4 = 3又5/5</code></li>\n      <li>整數：<code>3 − 2 = 1</code>；分數：<code>5/5 − 5/3 = 5/2</code></li>\n      <li>答：<strong>1又5/2 公尺</strong></li>\n    </ol>\n\n    <hr>\n\n    <!-- 知識點 6 -->\n    <h2>知識點 6：應用題的判讀</h2>\n\n    <h3>核心步驟</h3>\n    <ol>\n      <li>找關鍵字判斷加或減：<strong>「合起來／一共／全長」→ 加</strong>；<strong>「相差／比…多／比…少／剩下」→ 減</strong></li>\n      <li>判斷誰大誰小（決定被減數與減數）</li>\n      <li>列式 → 套口訣「整數對整數、分數對分數」</li>\n      <li>檢查結果：假分數整理成帶分數；可約分就化最簡</li>\n      <li>單位不要漏（公斤、公尺、圈、包、甲…）</li>\n    </ol>\n\n    <h3>比較關係的判讀範例</h3>\n    <table>\n      <thead>\n        <tr>\n          <th>敘述方式</th>\n          <th>意思</th>\n          <th>列式方向</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td>小準比小胺重 <code>17又25/4</code></td>\n          <td>小準 = 小胺 + 17又25/4</td>\n          <td>加</td>\n        </tr>\n        <tr>\n          <td>大樹村比高樹村多 <code>2又15/6</code></td>\n          <td>大樹村 = 高樹村 + 2又15/6</td>\n          <td>加</td>\n        </tr>\n        <tr>\n          <td>噴火龍比小火龍重 <code>76又25/19</code></td>\n          <td>小火龍 = 噴火龍 − 76又25/19</td>\n          <td>減</td>\n        </tr>\n        <tr>\n          <td>短腳龍比長頸龍長 <code>2又5/3</code></td>\n          <td>長頸龍 = 短腳龍 − 2又5/3</td>\n          <td>減</td>\n        </tr>\n      </tbody>\n    </table>\n\n    <hr>\n\n    <!-- 常見題型 -->\n    <div class=\"exam-section\">\n      <h2>常見題型</h2>\n      <ol>\n        <li><strong>同分母帶分數相加</strong>：套「整數+整數、分數+分數」；結果若是假分數記得整理成帶分數。</li>\n        <li><strong>同分母帶分數相減（夠減）</strong>：直接整數對整數、分數對分數相減即可。</li>\n        <li><strong>同分母帶分數相減（不夠減）</strong>：向整數借 1，借過來的 1 寫成「<code>分母/分母</code>」併入原分數再減。</li>\n        <li><strong>整數減帶分數</strong>：把整數拆成「(整數−1) + 分母/分母」湊出分數部分，再依不夠減的方式處理。</li>\n        <li><strong>比較型應用題</strong>：先判斷誰多誰少、題目問的是誰，再決定加或減。</li>\n        <li><strong>結果化簡</strong>：分數部分變成假分數要先整理；上下同為偶數可同除 2 約分（高年級會更要求最簡分數）。</li>\n      </ol>\n    </div>",
-  "sections": []
+  "summary": "<ul><li><strong>同分母分數的加法</strong>：分母相同 $\\to$ 分母不變，<strong>只把分子相加</strong>。例：$\\dfrac{2}{7} + \\dfrac{3}{7} = \\dfrac{2 + 3}{7} = \\dfrac{5}{7}$。可以想成「$2$ 個 $\\dfrac{1}{7}$ 加 $3$ 個 $\\dfrac{1}{7}$，等於 $5$ 個 $\\dfrac{1}{7}$」。</li><li><strong>同分母分數的減法</strong>：分母不變，分子相減。例：$\\dfrac{6}{9} - \\dfrac{2}{9} = \\dfrac{4}{9}$。</li><li><strong>整數與分數互換</strong>：$1 = \\dfrac{n}{n}$，可隨需要寫成任何分母。例：$1 - \\dfrac{2}{5} = \\dfrac{5}{5} - \\dfrac{2}{5} = \\dfrac{3}{5}$。</li><li><strong>帶分數加法</strong>：整數加整數、分數加分數；如果分數部分相加 $\\geq 1$，要「<strong>進位</strong>」到整數。例：$1\\dfrac{2}{5} + 2\\dfrac{4}{5} = (1+2) + \\dfrac{6}{5} = 3 + 1\\dfrac{1}{5} = 4\\dfrac{1}{5}$。</li><li><strong>帶分數減法</strong>：分數不夠減時要「<strong>借位</strong>」，把整數借 $1$ 化成 $\\dfrac{分母}{分母}$ 給分數。例：$3\\dfrac{1}{4} - 1\\dfrac{3}{4}$：$\\dfrac{1}{4}$ 不夠減 $\\dfrac{3}{4}$，借 $1 = \\dfrac{4}{4}$ $\\to 2\\dfrac{5}{4} - 1\\dfrac{3}{4} = 1\\dfrac{2}{4} = 1\\dfrac{1}{2}$。</li><li><strong>應用與化簡</strong>：算完先化成最簡分數，若是假分數可再化成帶分數。應用題要先讀懂「合起來」（加）還是「剩下／差」（減）。</li></ul>",
+  "sections": [
+    {
+      "type": "true_false",
+      "name": "是非題",
+      "questions": [
+        {
+          "id": "g4b_ch1_2_q1",
+          "number": 1,
+          "type": "true_false",
+          "content": "<p>$\\dfrac{3}{8} + \\dfrac{2}{8} = \\dfrac{5}{16}$。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。同分母分數相加，<strong>分母不變</strong>，只把分子相加。$\\dfrac{3}{8} + \\dfrac{2}{8} = \\dfrac{3 + 2}{8} = \\dfrac{5}{8}$，不是 $\\dfrac{5}{16}$。常見錯誤是把分母也加起來，要小心。</p>"
+        },
+        {
+          "id": "g4b_ch1_2_q2",
+          "number": 2,
+          "type": "true_false",
+          "content": "<p>$1 - \\dfrac{3}{7} = \\dfrac{4}{7}$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。把 $1$ 寫成同分母分數：$1 = \\dfrac{7}{7}$，再相減 $\\dfrac{7}{7} - \\dfrac{3}{7} = \\dfrac{4}{7}$。</p>"
+        },
+        {
+          "id": "g4b_ch1_2_q3",
+          "number": 3,
+          "type": "true_false",
+          "content": "<p>$2\\dfrac{1}{5} + 1\\dfrac{3}{5} = 3\\dfrac{4}{5}$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。整數相加 $2 + 1 = 3$；分數相加 $\\dfrac{1}{5} + \\dfrac{3}{5} = \\dfrac{4}{5}$（為真分數，<strong>不需要進位</strong>），合起來 $3\\dfrac{4}{5}$。</p>"
+        },
+        {
+          "id": "g4b_ch1_2_q4",
+          "number": 4,
+          "type": "true_false",
+          "content": "<p>計算 $3\\dfrac{1}{6} - 1\\dfrac{5}{6}$ 時，因為 $\\dfrac{1}{6} < \\dfrac{5}{6}$，所以要先向整數「借 $1$」。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。分數部分 $\\dfrac{1}{6}$ 不夠減 $\\dfrac{5}{6}$，必須<strong>向整數借 $1 = \\dfrac{6}{6}$</strong>：$3\\dfrac{1}{6} = 2\\dfrac{7}{6}$，再 $2\\dfrac{7}{6} - 1\\dfrac{5}{6} = 1\\dfrac{2}{6} = 1\\dfrac{1}{3}$。</p>"
+        },
+        {
+          "id": "g4b_ch1_2_q5",
+          "number": 5,
+          "type": "true_false",
+          "content": "<p>$\\dfrac{4}{9} + \\dfrac{5}{9} = 1$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。$\\dfrac{4}{9} + \\dfrac{5}{9} = \\dfrac{9}{9} = 1$。當<strong>分子相加恰好等於分母</strong>時，結果就是 $1$。</p>"
+        }
+      ]
+    },
+    {
+      "type": "single_choice",
+      "name": "單選題",
+      "questions": [
+        {
+          "id": "g4b_ch1_2_q6",
+          "number": 6,
+          "type": "single_choice",
+          "content": "<p>$\\dfrac{5}{12} + \\dfrac{4}{12} = ?$</p><p>A. $\\dfrac{9}{12}$</p><p>B. $\\dfrac{9}{24}$</p><p>C. $\\dfrac{20}{12}$</p><p>D. $\\dfrac{1}{12}$</p>",
+          "answer": "A",
+          "explanation": "<p>同分母分數相加，<strong>分母不變</strong>、分子相加：$\\dfrac{5 + 4}{12} = \\dfrac{9}{12}$。注意分母不要也加。答案 A。</p>"
+        },
+        {
+          "id": "g4b_ch1_2_q7",
+          "number": 7,
+          "type": "single_choice",
+          "content": "<p>$\\dfrac{7}{10} - \\dfrac{3}{10} = ?$（化最簡）</p><p>A. $\\dfrac{4}{10}$</p><p>B. $\\dfrac{2}{5}$</p><p>C. $\\dfrac{4}{20}$</p><p>D. $\\dfrac{1}{2}$</p>",
+          "answer": "B",
+          "explanation": "<p>先相減：$\\dfrac{7 - 3}{10} = \\dfrac{4}{10}$。再化最簡：分子分母同除最大公因數 $2$，$\\dfrac{4 \\div 2}{10 \\div 2} = \\dfrac{2}{5}$。答案 B。</p>"
+        },
+        {
+          "id": "g4b_ch1_2_q8",
+          "number": 8,
+          "type": "single_choice",
+          "content": "<p>$1\\dfrac{2}{5} + 2\\dfrac{4}{5} = ?$</p><p>A. $3\\dfrac{6}{5}$</p><p>B. $3\\dfrac{1}{5}$</p><p>C. $4\\dfrac{1}{5}$</p><p>D. $4\\dfrac{6}{5}$</p>",
+          "answer": "C",
+          "explanation": "<p>整數相加 $1 + 2 = 3$；分數相加 $\\dfrac{2}{5} + \\dfrac{4}{5} = \\dfrac{6}{5} = 1\\dfrac{1}{5}$。因為分數部分 $\\geq 1$ 要<strong>進位</strong>：$3 + 1\\dfrac{1}{5} = 4\\dfrac{1}{5}$。答案 C。</p>"
+        },
+        {
+          "id": "g4b_ch1_2_q9",
+          "number": 9,
+          "type": "single_choice",
+          "content": "<p>$3\\dfrac{1}{4} - 1\\dfrac{3}{4} = ?$（化最簡）</p><p>A. $2\\dfrac{2}{4}$</p><p>B. $1\\dfrac{1}{2}$</p><p>C. $2\\dfrac{1}{2}$</p><p>D. $1\\dfrac{3}{4}$</p>",
+          "answer": "B",
+          "explanation": "<p>分數部分 $\\dfrac{1}{4} < \\dfrac{3}{4}$ 不夠減，向整數<strong>借 $1 = \\dfrac{4}{4}$</strong>：$3\\dfrac{1}{4} = 2\\dfrac{5}{4}$。再算 $2\\dfrac{5}{4} - 1\\dfrac{3}{4} = 1\\dfrac{2}{4} = 1\\dfrac{1}{2}$（化最簡）。答案 B。</p>"
+        },
+        {
+          "id": "g4b_ch1_2_q10",
+          "number": 10,
+          "type": "single_choice",
+          "content": "<p>$1 - \\dfrac{5}{8} = ?$</p><p>A. $\\dfrac{3}{8}$</p><p>B. $\\dfrac{5}{8}$</p><p>C. $\\dfrac{1}{8}$</p><p>D. $\\dfrac{13}{8}$</p>",
+          "answer": "A",
+          "explanation": "<p>把 $1$ 化成 $\\dfrac{8}{8}$（同分母才能算），再 $\\dfrac{8}{8} - \\dfrac{5}{8} = \\dfrac{3}{8}$。答案 A。</p>"
+        },
+        {
+          "id": "g4b_ch1_2_q11",
+          "number": 11,
+          "type": "single_choice",
+          "content": "<p>$2\\dfrac{3}{7} + \\dfrac{6}{7} = ?$</p><p>A. $2\\dfrac{9}{7}$</p><p>B. $3\\dfrac{2}{7}$</p><p>C. $2\\dfrac{2}{7}$</p><p>D. $3\\dfrac{9}{14}$</p>",
+          "answer": "B",
+          "explanation": "<p>整數仍是 $2$；分數相加 $\\dfrac{3}{7} + \\dfrac{6}{7} = \\dfrac{9}{7} = 1\\dfrac{2}{7}$（進位）。合起來 $2 + 1\\dfrac{2}{7} = 3\\dfrac{2}{7}$。答案 B。</p>"
+        },
+        {
+          "id": "g4b_ch1_2_q12",
+          "number": 12,
+          "type": "single_choice",
+          "content": "<p>$5 - 2\\dfrac{3}{8} = ?$</p><p>A. $3\\dfrac{3}{8}$</p><p>B. $3\\dfrac{5}{8}$</p><p>C. $2\\dfrac{5}{8}$</p><p>D. $2\\dfrac{3}{8}$</p>",
+          "answer": "C",
+          "explanation": "<p>把 $5$ 借 $1$ 化成 $4\\dfrac{8}{8}$（這樣分數位才有得減）：$4\\dfrac{8}{8} - 2\\dfrac{3}{8} = (4-2)\\dfrac{8-3}{8} = 2\\dfrac{5}{8}$。答案 C。</p>"
+        },
+        {
+          "id": "g4b_ch1_2_q13",
+          "number": 13,
+          "type": "single_choice",
+          "content": "<p>小華喝了 $\\dfrac{3}{10}$ 公升的牛奶，小明喝了 $\\dfrac{4}{10}$ 公升，兩人合起來喝了多少公升？</p><p>A. $\\dfrac{1}{10}$ 公升</p><p>B. $\\dfrac{7}{10}$ 公升</p><p>C. $\\dfrac{7}{20}$ 公升</p><p>D. $\\dfrac{12}{10}$ 公升</p>",
+          "answer": "B",
+          "explanation": "<p>「合起來」要用<strong>加法</strong>：$\\dfrac{3}{10} + \\dfrac{4}{10} = \\dfrac{7}{10}$ 公升。分母 $10$ 不變，只加分子。答案 B。</p>"
+        },
+        {
+          "id": "g4b_ch1_2_q14",
+          "number": 14,
+          "type": "single_choice",
+          "content": "<p>一條繩子長 $3\\dfrac{2}{6}$ 公尺，用掉 $1\\dfrac{5}{6}$ 公尺後，還剩多少公尺？（化最簡）</p><p>A. $1\\dfrac{3}{6}$ 公尺</p><p>B. $2\\dfrac{1}{2}$ 公尺</p><p>C. $1\\dfrac{1}{2}$ 公尺</p><p>D. $2\\dfrac{3}{6}$ 公尺</p>",
+          "answer": "C",
+          "explanation": "<p>列式：$3\\dfrac{2}{6} - 1\\dfrac{5}{6}$。分數 $\\dfrac{2}{6} < \\dfrac{5}{6}$ 不夠減，借 $1 = \\dfrac{6}{6}$ $\\to 2\\dfrac{8}{6} - 1\\dfrac{5}{6} = 1\\dfrac{3}{6} = 1\\dfrac{1}{2}$ 公尺（化最簡）。答案 C。</p>"
+        },
+        {
+          "id": "g4b_ch1_2_q15",
+          "number": 15,
+          "type": "single_choice",
+          "content": "<p>媽媽烤了一個蛋糕，爸爸吃了 $\\dfrac{2}{9}$，姊姊吃了 $\\dfrac{3}{9}$，弟弟吃了 $\\dfrac{1}{9}$。<strong>還剩下幾分之幾</strong>沒吃？（化最簡）</p><p>A. $\\dfrac{6}{9}$</p><p>B. $\\dfrac{2}{3}$</p><p>C. $\\dfrac{1}{3}$</p><p>D. $\\dfrac{2}{9}$</p>",
+          "answer": "C",
+          "explanation": "<p>三人吃掉合計 $\\dfrac{2}{9} + \\dfrac{3}{9} + \\dfrac{1}{9} = \\dfrac{6}{9}$。整個蛋糕 $= 1 = \\dfrac{9}{9}$，剩下 $\\dfrac{9}{9} - \\dfrac{6}{9} = \\dfrac{3}{9} = \\dfrac{1}{3}$（化最簡）。答案 C。</p>"
+        }
+      ]
+    }
+  ]
 }

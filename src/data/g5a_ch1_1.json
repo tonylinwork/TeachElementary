@@ -1,5 +1,138 @@
 {
   "title": "小五上 1-1 多位數的乘除",
-  "summary": "<h1>小五 — 整數的乘除法（暑假總複習）</h1>\n\n    <!-- 乘法基礎觀念 -->\n    <h2>乘法基礎觀念</h2>\n\n    <h3>乘法的本質</h3>\n    <ul>\n      <li>乘法就是「<strong>累加</strong>」：相同的數字重複相加。</li>\n      <li>例：<code>5 + 5 + 5 = 3 × 5</code>（三個 5 相加，即「三層五」）。</li>\n      <li><strong>乘法三名詞</strong>：\n        <ul>\n          <li>前面的數 → <strong>被乘數</strong></li>\n          <li>後面的數 → <strong>乘數</strong></li>\n          <li>結果 → <strong>積</strong></li>\n        </ul>\n      </li>\n    </ul>\n\n    <h3>關鍵字判斷</h3>\n    <ul>\n      <li>看到「幾倍」、「每……有……」、「總共多少」→ 想到<strong>乘法</strong>。</li>\n      <li>線段圖判斷：找誰是「一份」、誰是「很多份」。</li>\n    </ul>\n\n    <hr>\n\n    <!-- 乘法直式 -->\n    <h2>乘法直式</h2>\n\n    <h3>對齊規則</h3>\n    <ul>\n      <li>個位對個位（<strong>對齊末位</strong>）。</li>\n      <li>第二列（十位數那一行）要往左退一格。</li>\n      <li>各列結果再相加。</li>\n    </ul>\n\n    <h3>範例：74 × 35</h3>\n    <ol>\n      <li>第一列：<code>5 × 74</code>\n        <ul>\n          <li>5 × 4 = 20，寫 0 進 2</li>\n          <li>5 × 7 = 35，35 + 2 = 37 → 寫 <code>370</code></li>\n        </ul>\n      </li>\n      <li>第二列：<code>3 × 74</code>（退一格）\n        <ul>\n          <li>3 × 4 = 12，寫 2 進 1</li>\n          <li>3 × 7 = 21，21 + 1 = 22 → 寫 <code>2220</code></li>\n        </ul>\n      </li>\n      <li>相加：370 + 2220 = <strong>2590</strong></li>\n    </ol>\n\n    <hr>\n\n    <!-- 除法基礎觀念 -->\n    <h2>除法基礎觀念</h2>\n\n    <h3>除法的本質</h3>\n    <ul>\n      <li>看到「幾倍」、「平均分」→ 想到<strong>除法</strong>。</li>\n      <li>平分出去 → 除法的核心情境。</li>\n    </ul>\n\n    <h3>除法四名詞</h3>\n    <ul>\n      <li>前面的數 → <strong>被除數</strong></li>\n      <li>後面的數 → <strong>除數</strong></li>\n      <li>結果 → <strong>商</strong></li>\n      <li>剩下的 → <strong>餘數</strong></li>\n    </ul>\n\n    <h3>重要關係</h3>\n    <ul>\n      <li><strong>餘數一定小於除數</strong>（餘數 &lt; 除數）。</li>\n      <li>商和餘數之間沒有大小關係（商不一定大於或小於餘數）。</li>\n      <li>若餘數 = 0 → 表示<strong>整除</strong>。</li>\n      <li>兩數整除 → 互為<strong>因數／倍數</strong>關係：大的是小的倍數，小的是大的因數。</li>\n    </ul>\n\n    <h3>除法原理（極重要，高中還會用）</h3>\n    <ul>\n      <li><code>被除數 = 除數 × 商 + 餘數</code></li>\n    </ul>\n\n    <hr>\n\n    <!-- 除法直式 -->\n    <h2>除法直式</h2>\n\n    <h3>步驟</h3>\n    <ol>\n      <li>看被除數前幾位夠不夠除以除數；不夠就再多看一位。</li>\n      <li>商寫在對應位數上方。</li>\n      <li>商 × 除數，寫在被除數下方相減。</li>\n      <li>把下一位數「拉下來」繼續除，直到結束。</li>\n    </ol>\n\n    <h3>範例:5678 ÷ 35</h3>\n    <ul>\n      <li>5 不夠除 35 → 看 56</li>\n      <li>56 ÷ 35 → 商 1（35 × 2 = 70 太大），56 − 35 = 21</li>\n      <li>拉下 7 → 217 ÷ 35 → 商 6（35 × 7 = 245 太大；35 × 6 = 210），217 − 210 = 7</li>\n      <li>拉下 8 → 78 ÷ 35 → 商 2（35 × 2 = 70），78 − 70 = 8</li>\n      <li>答:<strong>商 162，餘 8</strong></li>\n    </ul>\n\n    <hr>\n\n    <!-- 單位換算 -->\n    <h2>單位換算與乘除選擇</h2>\n\n    <table>\n      <thead>\n        <tr>\n          <th>換算方向</th>\n          <th>用什麼法</th>\n          <th>例</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td><strong>大單位 → 小單位</strong></td>\n          <td>乘法（×）</td>\n          <td>1 公里 = 1000 公尺；公斤 → 公克</td>\n        </tr>\n        <tr>\n          <td><strong>小單位 → 大單位</strong></td>\n          <td>除法（÷）</td>\n          <td>1234 公尺 ÷ 1000 = 1.234 公里</td>\n        </tr>\n      </tbody>\n    </table>\n\n    <p style=\"margin-top:10px;\"><strong>口訣</strong>：<code>大變小用乘，小變大用除。</code></p>\n\n    <hr>\n\n    <!-- 常見題型 -->\n    <div class=\"exam-section\">\n      <h2>應用題常見題型</h2>\n      <ol>\n        <li>\n          <strong>單位換算 + 進位調整</strong><br>\n          範例：教室到廁所 24 公尺，每步 70 公分，要走幾步？\n          <ul>\n            <li>24 公尺 → 2400 公分（大變小，× 100）</li>\n            <li>2400 ÷ 70 = 34 餘 20</li>\n            <li>剩 20 公分還是要再跨一步 → 答：<strong>35 步</strong>（進位 +1）</li>\n          </ul>\n        </li>\n\n        <li>\n          <strong>乘除混合（先乘後除）</strong><br>\n          範例：5 箱飲料，每箱 24 瓶，平均分給 35 人，每人最多幾瓶？剩幾瓶？\n          <ul>\n            <li>全部：5 × 24 = 120 瓶（巧算：100 + 20 = 120）</li>\n            <li>120 ÷ 35 = 3 餘 15</li>\n            <li>答：<strong>每人 3 瓶，剩 15 瓶</strong></li>\n          </ul>\n        </li>\n\n        <li>\n          <strong>單價問題</strong><br>\n          範例：一盒 108 顆，買 3 盒，共花 1620 元；每顆多少錢？\n          <ul>\n            <li>總數：108 × 3 = 324 顆（巧算：300 + 24 = 324）</li>\n            <li>單價：1620 ÷ 324 = 5</li>\n            <li>答：<strong>324 顆，每顆 5 元</strong></li>\n          </ul>\n        </li>\n\n        <li>\n          <strong>進位補足（再加一）</strong><br>\n          範例：一包餅乾 500 卡，一天需 3350 卡，要吃幾包才夠？\n          <ul>\n            <li>19 包 × 500 = 9500 卡</li>\n            <li>3350 ÷ 500 = 6 餘 350 → 6 包不夠</li>\n            <li>要超過 3350 → 補 1 包 = <strong>7 包</strong></li>\n            <li><strong>關鍵</strong>：「要夠用」「要超過」→ 餘數不為 0 時商要 +1</li>\n          </ul>\n        </li>\n\n        <li>\n          <strong>時間換算</strong><br>\n          範例：折一隻紙鶴 2 分 30 秒，折 20 隻要幾分鐘？\n          <ul>\n            <li>方法 1：30 秒 × 20 = 600 秒 = 10 分；2 分 × 20 = 40 分；合計 <strong>50 分</strong></li>\n            <li>方法 2：2 分 30 秒 = 2.5 分；2.5 × 20 = <strong>50 分</strong></li>\n            <li>注意：60 秒進 1 分，60 分進 1 小時</li>\n          </ul>\n        </li>\n\n        <li>\n          <strong>兩階段乘除（容積換算）</strong><br>\n          範例：一桶牛奶用 175 cc 杯倒滿 24 杯；改用 150 cc 杯可倒幾杯？\n          <ul>\n            <li>總容量：175 × 24 = 4200 cc</li>\n            <li>4200 ÷ 150 = <strong>28 杯</strong></li>\n            <li>進階：用分數約分法 <code>(175 × 24) / 150 → (35 × 24) / 30 → (7 × 24) / 6 = 7 × 4 = 28</code></li>\n            <li>注意：只有除法才能上下約分；加減法不能</li>\n          </ul>\n        </li>\n\n        <li>\n          <strong>切割正方形（兩種解法）</strong><br>\n          範例：長 36、寬 28 的長方形，切成邊長 4 的正方形，可切幾個？\n          <ul>\n            <li>方法 1：長 36 ÷ 4 = 9 份，寬 28 ÷ 4 = 7 份，9 × 7 = <strong>63 個</strong></li>\n            <li>方法 2：(36 × 28) ÷ (4 × 4) = <strong>63 個</strong></li>\n          </ul>\n        </li>\n\n        <li>\n          <strong>正方形面積（用對角線）★ 難題</strong><br>\n          範例：長 12、寬 6 的長方形面積，等於某正方形的面積；求對角線長？\n          <ul>\n            <li>核心觀念：正方形也是菱形 → 面積 = <code>對角線 × 對角線 ÷ 2</code></li>\n            <li>長方形面積 = 12 × 6 = 72</li>\n            <li>d × d ÷ 2 = 72 → d × d = 144 → <strong>d = 12 公尺</strong></li>\n            <li>完全平方數要背：1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144</li>\n          </ul>\n        </li>\n\n        <li>\n          <strong>錢幣兌換</strong><br>\n          範例：7 張 100 元 + 13 個 10 元 + 69 個 1 元，全換 50 元硬幣，能換幾個？剩多少？\n          <ul>\n            <li>總金額：700 + 130 + 69 = 899 元</li>\n            <li>899 ÷ 50 = 17 餘 49</li>\n            <li>答：<strong>17 個，剩 49 元</strong></li>\n          </ul>\n        </li>\n\n        <li>\n          <strong>平均（含小數除法）</strong><br>\n          範例：國語 92、數學 100、社會 92、自然 99，求平均。\n          <ul>\n            <li>公式：<code>平均 = 總和 ÷ 個數</code></li>\n            <li>總和：383（巧算：4 × 100 − 17 = 383）</li>\n            <li>平均：383 ÷ 4 = <strong>95.75 分</strong></li>\n            <li>注意：除不盡時補 0 繼續除，商加上小數點，除到整除為止</li>\n          </ul>\n        </li>\n      </ol>\n    </div>\n\n    <hr>\n\n    <!-- 暑假複習重點 -->\n    <h2>暑假複習重點提醒</h2>\n    <ol>\n      <li><strong>單位換算</strong>：大變小用乘、小變大用除（口訣牢記）。</li>\n      <li><strong>餘數的處理</strong>：依題目情境判斷要不要 +1（補一步、補一包）。</li>\n      <li><strong>乘法直式</strong>：對齊末位、第二列退一格。</li>\n      <li><strong>除法直式</strong>：先看夠不夠除、商寫對位置、拉下一位繼續。</li>\n      <li><strong>巧算習慣</strong>：兩位數乘一位數可拆成（整十 + 個位）分開算。</li>\n      <li><strong>除法原理</strong>：<code>被除數 = 除數 × 商 + 餘數</code>。</li>\n      <li><strong>單位要記得寫</strong>：答案沒寫單位算不完整。</li>\n    </ol>",
-  "sections": []
+  "summary": "<ul><li><strong>乘法直式</strong>：個位對齊個位，從乘數的個位開始乘，第二列（十位）往左退一格、第三列（百位）再退一格，最後逐列相加。例：$345 \\times 267 = 92115$。</li><li><strong>除法直式</strong>：先看被除數前幾位夠不夠除；夠了商寫在對應位數上方；商 $\\times$ 除數寫在下方相減；把下一位「拉下來」繼續除。核心關係：<strong>被除數 $=$ 除數 $\\times$ 商 $+$ 餘數</strong>，且 <strong>餘數 $<$ 除數</strong>。</li><li><strong>估算技巧</strong>：把因數四捨五入到接近的整十、整百、整千，再相乘或相除。例：$498 \\times 31 \\approx 500 \\times 30 = 15000$，可快速判斷答案合不合理。</li><li><strong>大數相乘的零</strong>：$300 \\times 400 = 3 \\times 4 \\times 10000 = 120000$。先算非零部分，再在後面補上對應數量的 $0$。</li><li><strong>應用題判讀</strong>：看到「每…有…、共有幾倍、幾人各…」用<strong>乘法</strong>；看到「平均分、每…多少、可以分成幾組」用<strong>除法</strong>。</li><li><strong>餘數的處理</strong>：題目要「夠用、坐得下、裝得完」時，餘數不為 $0$ 要把商 $+1$（補一車、補一箱）。例：$53$ 人坐 $9$ 人座車，$53 \\div 9 = 5$ 餘 $8$，需要 $5+1=6$ 輛。</li></ul>",
+  "sections": [
+    {
+      "type": "true_false",
+      "name": "是非題",
+      "questions": [
+        {
+          "id": "g5a_ch1_1_q1",
+          "number": 1,
+          "type": "true_false",
+          "content": "<p>在除法中，餘數一定要比除數小。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。若<strong>餘數 $\\geq$ 除數</strong>，表示還可以再分一次給商，商就不對了。例如 $25 \\div 6$，若寫成「商 $3$ 餘 $7$」是錯的，因為 $7 > 6$ 還能再分；正確是「商 $4$ 餘 $1$」。</p>"
+        },
+        {
+          "id": "g5a_ch1_1_q2",
+          "number": 2,
+          "type": "true_false",
+          "content": "<p>乘法直式中，第二列（十位數那一行）的結果要往<strong>右</strong>退一格。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。第二列代表十位數的乘積，要往<strong>左</strong>退一格（也可想成在末尾補一個 $0$）。退錯方向會讓位值跑掉。</p>"
+        },
+        {
+          "id": "g5a_ch1_1_q3",
+          "number": 3,
+          "type": "true_false",
+          "content": "<p>$300 \\times 500 = 150000$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。先算非零部分：$3 \\times 5 = 15$；後面兩個因數各有 $2$ 個 $0$，合計 $4$ 個 $0$，所以 $300 \\times 500 = 15$ 後面接 $4$ 個 $0$ $= 150000$。</p>"
+        },
+        {
+          "id": "g5a_ch1_1_q4",
+          "number": 4,
+          "type": "true_false",
+          "content": "<p>$498 \\times 31$ 的估算結果，最接近 $15000$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。把 $498$ 估成 $500$、$31$ 估成 $30$，<strong>$500 \\times 30 = 15000$</strong>。實際值 $498 \\times 31 = 15438$，確實接近 $15000$。</p>"
+        },
+        {
+          "id": "g5a_ch1_1_q5",
+          "number": 5,
+          "type": "true_false",
+          "content": "<p>$3500 \\div 25 = 140$ 且餘數為 $0$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。$25 \\times 4 = 100$，所以 $25 \\times 140 = 25 \\times 100 + 25 \\times 40 = 2500 + 1000 = 3500$，故 <strong>$3500 \\div 25 = 140$，餘數 $0$</strong>。常見錯誤：少寫一個 $0$ 寫成 $14$，要注意位值。</p>"
+        }
+      ]
+    },
+    {
+      "type": "single_choice",
+      "name": "單選題",
+      "questions": [
+        {
+          "id": "g5a_ch1_1_q6",
+          "number": 6,
+          "type": "single_choice",
+          "content": "<p>下列哪一個是除法直式的正確口訣？</p><p>A. 被除數 $=$ 除數 $\\times$ 商 $-$ 餘數</p><p>B. 被除數 $=$ 除數 $\\times$ 商 $+$ 餘數</p><p>C. 被除數 $=$ 除數 $+$ 商 $\\times$ 餘數</p><p>D. 被除數 $=$ 除數 $\\div$ 商 $+$ 餘數</p>",
+          "answer": "B",
+          "explanation": "<p>除法的核心關係是<strong>被除數 $=$ 除數 $\\times$ 商 $+$ 餘數</strong>，可用來驗算。例：$25 \\div 6 = 4$ 餘 $1$ → $6 \\times 4 + 1 = 25$ ✓。答案 B。</p>"
+        },
+        {
+          "id": "g5a_ch1_1_q7",
+          "number": 7,
+          "type": "single_choice",
+          "content": "<p>$284 \\times 36 = ?$</p><p>A. $10024$</p><p>B. $10224$</p><p>C. $10424$</p><p>D. $10240$</p>",
+          "answer": "B",
+          "explanation": "<p>$284 \\times 6 = 1704$；$284 \\times 30 = 8520$；相加 $1704 + 8520 = \\mathbf{10224}$。驗算：$284 \\times 36 = 284 \\times (4 \\times 9) = 1136 \\times 9 = 10224$ ✓。答案 B。</p>"
+        },
+        {
+          "id": "g5a_ch1_1_q8",
+          "number": 8,
+          "type": "single_choice",
+          "content": "<p>$675 \\times 408 = ?$</p><p>A. $275400$</p><p>B. $275040$</p><p>C. $275004$</p><p>D. $270540$</p>",
+          "answer": "A",
+          "explanation": "<p>$675 \\times 408 = 675 \\times 400 + 675 \\times 8 = 270000 + 5400 = \\mathbf{275400}$。注意 $408$ 中間有 $0$，十位乘 $0$ 時該列為 $0$ 但仍要保留位數對齊。答案 A。</p>"
+        },
+        {
+          "id": "g5a_ch1_1_q9",
+          "number": 9,
+          "type": "single_choice",
+          "content": "<p>$5824 \\div 28 = ?$</p><p>A. 商 $208$，餘 $0$</p><p>B. 商 $28$，餘 $0$</p><p>C. 商 $208$，餘 $16$</p><p>D. 商 $200$，餘 $24$</p>",
+          "answer": "A",
+          "explanation": "<p>$28 \\times 200 = 5600$；$5824 - 5600 = 224$；$224 \\div 28 = 8$；所以商 $= 200 + 8 = \\mathbf{208}$，餘 $0$。驗算：$28 \\times 208 = 28 \\times 200 + 28 \\times 8 = 5600 + 224 = 5824$ ✓。答案 A。</p>"
+        },
+        {
+          "id": "g5a_ch1_1_q10",
+          "number": 10,
+          "type": "single_choice",
+          "content": "<p>$3128 \\div 47$ 的商和餘數是？</p><p>A. 商 $66$，餘 $26$</p><p>B. 商 $66$，餘 $36$</p><p>C. 商 $67$，餘 $26$</p><p>D. 商 $67$，餘 $0$</p>",
+          "answer": "A",
+          "explanation": "<p>$47 \\times 60 = 2820$；$3128 - 2820 = 308$；$47 \\times 6 = 282$；$308 - 282 = 26$；所以商 $= 60 + 6 = \\mathbf{66}$，餘 $\\mathbf{26}$。驗算：$47 \\times 66 + 26 = 3102 + 26 = 3128$ ✓。答案 A。</p>"
+        },
+        {
+          "id": "g5a_ch1_1_q11",
+          "number": 11,
+          "type": "single_choice",
+          "content": "<p>下列哪一個算式的估算結果最接近 $24000$？</p><p>A. $312 \\times 78$</p><p>B. $598 \\times 51$</p><p>C. $812 \\times 19$</p><p>D. $402 \\times 38$</p>",
+          "answer": "A",
+          "explanation": "<p>用估算（四捨五入到整十、整百）：A. $\\approx 300 \\times 80 = 24000$ ✓；B. $\\approx 600 \\times 50 = 30000$；C. $\\approx 800 \\times 20 = 16000$；D. $\\approx 400 \\times 40 = 16000$。實際 A $= 24336$ 最貼近 $24000$。答案 A。</p>"
+        },
+        {
+          "id": "g5a_ch1_1_q12",
+          "number": 12,
+          "type": "single_choice",
+          "content": "<p>一台電視 $32500$ 元，學校買 $24$ 台給各班裝設，總共要付多少元？</p><p>A. $760000$ 元</p><p>B. $780000$ 元</p><p>C. $800000$ 元</p><p>D. $820000$ 元</p>",
+          "answer": "B",
+          "explanation": "<p>看到「每…幾台」用<strong>乘法</strong>：$32500 \\times 24$。拆解：$32500 \\times 24 = 32500 \\times 20 + 32500 \\times 4 = 650000 + 130000 = \\mathbf{780000}$ 元。答案 B。</p>"
+        },
+        {
+          "id": "g5a_ch1_1_q13",
+          "number": 13,
+          "type": "single_choice",
+          "content": "<p>農場採收 $4536$ 顆蘋果，要平均裝入 $24$ 個箱子，每箱裝多少顆？</p><p>A. $179$ 顆</p><p>B. $189$ 顆</p><p>C. $190$ 顆</p><p>D. $192$ 顆</p>",
+          "answer": "B",
+          "explanation": "<p>「平均裝入」用<strong>除法</strong>：$4536 \\div 24$。$24 \\times 100 = 2400$；$4536 - 2400 = 2136$；$24 \\times 80 = 1920$；$2136 - 1920 = 216$；$216 \\div 24 = 9$；商 $= 100 + 80 + 9 = \\mathbf{189}$，餘 $0$。驗：$24 \\times 189 = 4536$ ✓。答案 B。</p>"
+        },
+        {
+          "id": "g5a_ch1_1_q14",
+          "number": 14,
+          "type": "single_choice",
+          "content": "<p>遊覽車一輛可坐 $42$ 人，學校共有 $385$ 位學生要校外教學，至少要租幾輛車才夠坐？</p><p>A. $8$ 輛</p><p>B. $9$ 輛</p><p>C. $10$ 輛</p><p>D. $11$ 輛</p>",
+          "answer": "C",
+          "explanation": "<p>$385 \\div 42 = 9$ 餘 $7$（$42 \\times 9 = 378$，$385 - 378 = 7$）。$9$ 輛只能坐 $378$ 人，剩 $7$ 人沒車坐。題目要「夠坐」 → <strong>餘數不為 $0$，商要 $+1$</strong>，故 $9 + 1 = \\mathbf{10}$ 輛。答案 C。</p>"
+        },
+        {
+          "id": "g5a_ch1_1_q15",
+          "number": 15,
+          "type": "single_choice",
+          "content": "<p>文具店一打鉛筆（$12$ 枝）$36$ 元。媽媽用 $1000$ 元最多可以買幾打鉛筆？還剩多少錢？</p><p>A. $27$ 打，剩 $28$ 元</p><p>B. $27$ 打，剩 $30$ 元</p><p>C. $28$ 打，剩 $0$ 元</p><p>D. $28$ 打，剩 $8$ 元</p>",
+          "answer": "A",
+          "explanation": "<p>$1000 \\div 36 = ?$ $36 \\times 20 = 720$；$1000 - 720 = 280$；$36 \\times 7 = 252$；$280 - 252 = 28$；商 $= 20 + 7 = \\mathbf{27}$，餘 $\\mathbf{28}$。意思是買 $27$ 打要 $36 \\times 27 = 972$ 元，剩 $1000 - 972 = 28$ 元，不夠再買一打（$36$ 元）。答案 A。</p>"
+        }
+      ]
+    }
+  ]
 }

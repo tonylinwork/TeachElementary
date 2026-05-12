@@ -1,5 +1,138 @@
 {
   "title": "小六下 1-1 分數與小數的四則運算",
-  "summary": "<h1>小六 — 分數與小數的四則運算（複習）</h1>\n\n    <!-- 知識點 1 -->\n    <h2>知識點 1：四則運算規則與去括號</h2>\n\n    <h3>核心口訣</h3>\n    <ul>\n      <li><strong>先乘除、後加減；遇到括號先處理</strong></li>\n      <li>括號內部算式優先處理；若括號內計算較複雜，才考慮去括號展開</li>\n      <li>國中後延伸：乘除可視為加減的延伸規則（× ↔ +、÷ ↔ −），分配律適用範圍會擴大</li>\n    </ul>\n\n    <h3>去括號規則（加減版）</h3>\n    <ul>\n      <li>括號<strong>前面是加號</strong>（或無符號，視為加號）：原封不動拿掉括號，內部符號<strong>不變</strong>\n        <br>例：<code>A + (B − C) = A + B − C</code></li>\n      <li>括號<strong>前面是減號</strong>：括號內每一項都要<strong>變號</strong>（加變減、減變加）\n        <br>例：<code>A − (B + C) = A − B − C</code>\n        <br>例：<code>A − (B − C) = A − B + C</code></li>\n      <li>國中講法即「分配律」，正負號規則：正正得正、正負得負、負正得負、負負得正</li>\n    </ul>\n\n    <h3>去括號規則（乘除版，前提：分母／除數不為 0）</h3>\n    <ul>\n      <li>乘號當加號處理（不變號）：<code>A × (B × C) = A × B × C</code></li>\n      <li>除號當減號處理（要「變號」，乘變除、除變乘）：\n        <br><code>A ÷ (B × C) = A ÷ B ÷ C</code>\n        <br><code>A ÷ (B ÷ C) = A ÷ B × C</code></li>\n    </ul>\n\n    <h3>常見考法</h3>\n    <ul>\n      <li>選擇題「下列何者正確／錯誤」：把左右兩邊都展開比對是否相等</li>\n      <li>結合律：兩項都含同一因數時，把該因數提出來\n        <br>例：<code>0.7 × 3.68 − 0.7 × 1.68 = 0.7 × (3.68 − 1.68)</code></li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 2 -->\n    <h2>知識點 2：分數的基本概念（升國中銜接）</h2>\n\n    <h3>分數的定義</h3>\n    <ul>\n      <li>分數 <code>q/p</code>：下方為<strong>分母</strong>（國中稱「除數」），上方為<strong>分子</strong>（國中稱「被除數」）</li>\n      <li>分數 <code>q/p</code> 也可看作 <code>q ÷ p</code> 的結果</li>\n      <li><strong>分子可為 0，分母不可為 0</strong>（被除數可為 0，除數不可為 0）</li>\n    </ul>\n\n    <h3>分數的種類</h3>\n    <ul>\n      <li><strong>真分數</strong>：分子 &lt; 分母（值小於 1）</li>\n      <li><strong>假分數</strong>：分子 ≥ 分母（值大於等於 1）</li>\n      <li><strong>帶分數</strong>：整數 + 真分數的寫法（國小慣例最後寫成帶分數，國中改為最簡假分數即可）</li>\n      <li><strong>最簡分數</strong>：分母分子已約到不能再約（分母分子<strong>互質</strong>，最大公因數 = 1）</li>\n    </ul>\n\n    <h3>比值與分數</h3>\n    <ul>\n      <li>比 <code>a : b</code> 的比值 = <code>a/b</code>（前項在上、後項在下；後項為基準量）</li>\n      <li>「我的體重是你的 3 倍」→ 我:你 = 3:1，反之「你是我的 1/3 倍」→ 兩數互為<strong>倒數</strong></li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 3 -->\n    <h2>知識點 3：分數比大小</h2>\n\n    <h3>三種方法依分子分母情況選用</h3>\n    <ol>\n      <li><strong>通分母</strong>（最常用）：分母通成最小公倍數，再比分子</li>\n      <li><strong>通分子</strong>：分子相同時，<strong>分母越小、值越大</strong>（披薩切越少塊每塊越大）</li>\n      <li><strong>分母分子差相同的特殊技巧</strong>：見下方</li>\n    </ol>\n\n    <h3>分母分子差相同的判斷</h3>\n    <ul>\n      <li>先判斷是真分數還是假分數</li>\n      <li><strong>真分數</strong>（每個都 = <code>1 − 1/分母</code>）：扣得越少剩越多 → <strong>分母越大、值越大</strong></li>\n      <li><strong>假分數</strong>（每個都 = <code>1 + 1/分母</code>）：<code>1/分母</code> 加得越少越小 → <strong>分母越大、值越小</strong></li>\n      <li>例：<code>99/100, 98/99, 97/98</code>（真）→ <code>99/100</code> 最大</li>\n      <li>例：<code>100/99, 99/98, 98/97</code>（假）→ <code>98/97</code> 最大</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 4 -->\n    <h2>知識點 4：分數加減乘除運算原則</h2>\n\n    <h3>加減法</h3>\n    <ul>\n      <li><strong>先通分母</strong>（分母相同分子才能相加減）</li>\n      <li>帶分數計算可拆成整數對整數、分數對分數</li>\n      <li>不夠減時：向整數借 1（變成「分母/分母」）併入分數部分再算\n        <br>例：<code>8 又 1/4 − 6 又 2/4</code> → 不夠減，借 1 → <code>7 又 5/4 − 6 又 2/4 = 1 又 3/4</code></li>\n    </ul>\n\n    <h3>乘除法</h3>\n    <ul>\n      <li><strong>帶分數先變假分數</strong></li>\n      <li><strong>除法變乘法</strong>（除以一個數 = 乘以該數的倒數）</li>\n      <li><strong>能約分先約分</strong>（上下對角相約）</li>\n      <li>最後分子乘分子、分母乘分母</li>\n      <li>國小寫成帶分數作答；國中只要最簡假分數即可</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 5 -->\n    <h2>知識點 5：分數 ↔ 小數的轉換（必背）</h2>\n\n    <h3>常見必背對照表</h3>\n    <table>\n      <thead>\n        <tr>\n          <th>分數</th>\n          <th>小數</th>\n          <th>分數</th>\n          <th>小數</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr><td>1/2</td><td>0.5</td><td>1/8</td><td>0.125</td></tr>\n        <tr><td>1/4</td><td>0.25</td><td>3/8</td><td>0.375</td></tr>\n        <tr><td>3/4</td><td>0.75</td><td>5/8</td><td>0.625</td></tr>\n        <tr><td>—</td><td>—</td><td>7/8</td><td>0.875</td></tr>\n      </tbody>\n    </table>\n\n    <h3>轉換原理（擴分到 10、100、1000）</h3>\n    <ul>\n      <li>4 → 100：上下同乘 25 → <code>n/4 = (n × 25)/100</code></li>\n      <li>8 → 1000：上下同乘 125 → <code>n/8 = (n × 125)/1000</code></li>\n      <li>20 → 100：上下同乘 5 → <code>n/20 = (5n)/100</code></li>\n      <li>25 → 100：上下同乘 4 → <code>n/25 = (4n)/100</code></li>\n      <li>例：<code>13/20 = 65/100 = 0.65</code>；<code>17/25 = 68/100 = 0.68</code></li>\n    </ul>\n\n    <h3>小數變分數</h3>\n    <ul>\n      <li>小數點後幾位 → 分母補幾個 0；再約分到最簡</li>\n      <li>例：<code>0.52 = 52/100 = 13/25</code></li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 6 -->\n    <h2>知識點 6：應用問題的核心口訣</h2>\n\n    <h3>全部 vs 部分</h3>\n    <ul>\n      <li><strong>知道全部、求部分</strong>：用<strong>乘法</strong>\n        <br>例：身上有 1000 元，花掉 1/4 → 花了 <code>1000 × 1/4 = 250</code> 元</li>\n      <li><strong>知道部分、求全部</strong>：用<strong>除法</strong>\n        <br>例：花了 400 元是全部存款的 2/5 → 全部 = <code>400 ÷ 2/5 = 1000</code> 元</li>\n    </ul>\n\n    <h3>善用結合律與分配律</h3>\n    <ul>\n      <li>結合律：將相同因數的兩項合併計算（先加再乘）</li>\n      <li>分配律：將共同因數提出來</li>\n    </ul>\n\n    <hr>\n\n    <!-- 常見題型 -->\n    <div class=\"exam-section\">\n      <h2>常見題型</h2>\n\n      <h3>題型 1：去括號 / 分配律的正誤判斷（選擇題）</h3>\n      <p>例：判斷 <code>0.7 × (3.68 − 1.68)</code> 何種展開正確。</p>\n      <ul>\n        <li>分配律展開 = <code>0.7 × 3.68 − 0.7 × 1.68</code>（兩項都要乘）</li>\n        <li>結合律：先算括號內 <code>3.68 − 1.68 = 2</code>，再算 <code>0.7 × 2 = 1.4</code></li>\n        <li>看到「<code>2.7 × 1.68 − 0.7 × 1.68</code>」這種前係數不一致 → 錯</li>\n      </ul>\n\n      <h3>題型 2：四則運算混合計算</h3>\n      <p>步驟：</p>\n      <ol>\n        <li>括號內先處理（含通分）</li>\n        <li>除法變乘法（取倒數）</li>\n        <li>帶分數變假分數</li>\n        <li>能約先約</li>\n        <li>分子乘分子、分母乘分母</li>\n      </ol>\n\n      <h3>題型 3：工程問題（合作完成 / 剩餘工程）</h3>\n      <p><strong>口訣</strong>：把一件工程視為 1，算出每個人每天能做幾分之幾。</p>\n      <p>例：甲一人 10 天、乙一人 15 天，合作 5 天後甲獨做還需幾天？</p>\n      <ol>\n        <li>甲一天 <code>1/10</code>，乙一天 <code>1/15</code></li>\n        <li>合作一天 = <code>1/10 + 1/15 = 3/30 + 2/30 = 5/30 = 1/6</code></li>\n        <li>合作 5 天 = <code>5 × 1/6 = 5/6</code></li>\n        <li>剩餘 = <code>1 − 5/6 = 1/6</code></li>\n        <li><code>1/6 ÷ 1/10 = 1/6 × 10 = 5/3 = 1 又 2/3</code> 天</li>\n      </ol>\n      <p><strong>延伸（人數 + 天數）</strong>：5 人 12 天完成 3/5。</p>\n      <ol>\n        <li>一人一天做 = <code>(3/5) ÷ 5 ÷ 12 = 1/100</code></li>\n        <li>剩餘 = <code>1 − 3/5 = 2/5</code></li>\n        <li>加 3 人共 8 人 → 還需 <code>(2/5) ÷ (8/100) = (2/5) × (100/8) = 5</code> 天</li>\n      </ol>\n\n      <h3>題型 4：放水 / 注水問題（與工程問題同型）</h3>\n      <p>例：池 <code>23 又 7/10</code> m³，甲管 <code>1 又 3/5</code>／分、乙管 <code>7/8</code>／分，兩管同放 8 分後乙獨放，再幾分流乾？</p>\n      <ol>\n        <li>兩管一分合計：<code>1 又 3/5 + 7/8 = 1 又 24/40 + 35/40 = 99/40</code></li>\n        <li>放 8 分：<code>99/40 × 8 = 99/5 = 19 又 4/5</code></li>\n        <li>剩餘：<code>23 又 7/10 − 19 又 4/5 = 23 又 7/10 − 19 又 8/10 = 3 又 9/10</code></li>\n        <li>乙獨放：<code>3 又 9/10 ÷ 7/8 = 39/10 × 8/7 = 156/35 = 4 又 16/35</code> 分鐘</li>\n      </ol>\n      <p><strong>注意</strong>：同方向（兩進或兩出）→ 相加；一進一出 → 相減。</p>\n\n      <h3>題型 5：分數與小數混合的購物題（單位、折扣）</h3>\n      <p>例：糖果 275.5 元/公斤，餅乾比糖果貴 49 元，各買 <code>2 又 1/4</code> 公斤，打 8 折共多少？</p>\n      <ol>\n        <li>餅乾 = <code>275.5 + 49 = 324.5</code> 元/公斤</li>\n        <li>一起 = <code>(275.5 + 324.5) × 2 又 1/4 × 0.8</code></li>\n        <li>= <code>600 × 9/4 × 4/5</code>（將 0.8 = 4/5）</li>\n        <li>約分後：<code>120 × 9 = 1080</code> 元</li>\n      </ol>\n      <p><strong>折扣換算</strong>：打 8 折 = × 0.8 = 20% off（少付 20%、付 80%）；打 8.5 折 = × 0.85。</p>\n\n      <h3>題型 6：知道部分求全部（竹竿 / 線段圖）</h3>\n      <p>例：竹竿插水中，水中部分 = 全長的 3/5，水上 1.6 公尺，全長多少？</p>\n      <p><strong>方法一（算式）</strong></p>\n      <ul>\n        <li>水上 = <code>1 − 3/5 = 2/5</code></li>\n        <li>全長 = <code>1.6 ÷ 2/5 = 8/5 × 5/2 = 4</code> 公尺</li>\n      </ul>\n      <p><strong>方法二（線段圖）</strong></p>\n      <ul>\n        <li>全長分 5 份 → 水下 3 份、水上 2 份</li>\n        <li>水上 2 份 = 1.6 → 1 份 = 0.8</li>\n        <li>全長 = <code>0.8 × 5 = 4</code> 公尺</li>\n      </ul>\n      <p>兩法等價：<code>1.6 ÷ 2 × 5 = 1.6 × 5/2 = 1.6 ÷ 2/5</code></p>\n\n      <h3>題型 7：差量問題（線段圖 / 一元一次的前身）</h3>\n      <p>例：甲乙共 142 元，甲比乙的 1/3 還少 6 元，各多少？</p>\n      <ol>\n        <li>把 6 元先「補給」甲，總額變 <code>142 + 6 = 148</code></li>\n        <li>此時甲 = 乙的 1/3 → 乙 3 段、甲 1 段，共 4 段</li>\n        <li><code>148 ÷ 4 = 37</code> → 乙 = <code>3 × 37 = 111</code> 元</li>\n        <li>甲 = <code>37 − 6 = 31</code> 元</li>\n      </ol>\n      <p><strong>升國中延伸</strong>：未來用 <code>x</code>（一元一次方程式）解；目前線段圖更直觀。</p>\n\n      <h3>題型 8：線段疊合（共同切段）</h3>\n      <p>例：藍色彩帶 45.3 公分，藍的 1/3 = 紅的 1/4 = 重疊部分。</p>\n      <ul>\n        <li>一小段 = <code>45.3 ÷ 3</code></li>\n        <li>總疊合長度 = 一小段 × 6（藍 3 段 + 紅 4 段 − 重疊 1 段）</li>\n        <li>利用結合律：<code>45.3 × (1/3) × 6 = 45.3 × 2 = 90.6</code> 公分</li>\n      </ul>\n\n      <h3>題型 9：單位換算 + 比例（葡萄釀酒）</h3>\n      <p>例：1 斤葡萄需 4 兩糖，葡萄 85 元/斤，買 289 元葡萄需幾克糖？（1 斤 = 16 兩 = 600 克）</p>\n      <ol>\n        <li>葡萄重量 = <code>289 ÷ 85 = 3.4</code> 斤</li>\n        <li>比例：葡萄 : 糖 = <code>16 : 4 = 4 : 1</code></li>\n        <li>設糖 = x 斤：<code>4 : 1 = 3.4 : x</code> → <code>x = 3.4 ÷ 4 = 0.85</code> 斤</li>\n        <li>換成克：<code>0.85 × 600 = 510</code> 克</li>\n      </ol>\n      <p><strong>重點</strong>：1 斤 = 16 兩（半斤八兩的由來）、1 斤 = 600 克（台斤）。國中後素養題敘述變長，耐心讀完通常算式不難。</p>\n\n    </div>",
-  "sections": []
+  "summary": "<ul><li><strong>分數與小數互換</strong>：小數變分數時，小數點後幾位 → 分母補幾個 $0$，再約到最簡。例：$0.52 = \\dfrac{52}{100} = \\dfrac{13}{25}$。常用記憶：$\\dfrac{1}{4} = 0.25$、$\\dfrac{3}{4} = 0.75$、$\\dfrac{1}{8} = 0.125$、$\\dfrac{1}{5} = 0.2$。</li><li><strong>四則混合運算的順序</strong>：①先算括號內 ②再乘除 ③最後加減。同級運算由左到右依序算。例：$12 - 3 \\times 2 + 4 = 12 - 6 + 4 = 10$。</li><li><strong>分數加減</strong>：先<strong>通分母</strong>再加減分子，分母不變。例：$\\dfrac{1}{2} + \\dfrac{1}{3} = \\dfrac{3}{6} + \\dfrac{2}{6} = \\dfrac{5}{6}$。</li><li><strong>分數乘除</strong>：①帶分數先化為假分數 ②除法變乘法（乘以倒數）③能約分先約分 ④分子乘分子、分母乘分母。例：$\\dfrac{2}{3} \\div \\dfrac{4}{9} = \\dfrac{2}{3} \\times \\dfrac{9}{4} = \\dfrac{3}{2}$。</li><li><strong>依情境選擇分數或小數</strong>：題目中若出現如 $\\dfrac{1}{3}$ 這種不能化為有限小數的數，全部用分數計算最準；若全是 $0.25$、$0.5$ 等可整除的數，用小數較方便。</li><li><strong>分配律 / 結合律</strong>：$a \\times (b + c) = a \\times b + a \\times c$；$a \\times b - a \\times c = a \\times (b - c)$。例：$0.7 \\times 3.68 - 0.7 \\times 1.68 = 0.7 \\times (3.68 - 1.68) = 0.7 \\times 2 = 1.4$，簡化計算。</li></ul>",
+  "sections": [
+    {
+      "type": "true_false",
+      "name": "是非題",
+      "questions": [
+        {
+          "id": "g6b_ch1_1_q1",
+          "number": 1,
+          "type": "true_false",
+          "content": "<p>計算 $\\dfrac{2}{3} \\div \\dfrac{4}{5}$ 等於 $\\dfrac{2}{3} \\times \\dfrac{5}{4}$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。<strong>除以一個分數等於乘以它的倒數</strong>，$\\dfrac{4}{5}$ 的倒數是 $\\dfrac{5}{4}$，所以 $\\dfrac{2}{3} \\div \\dfrac{4}{5} = \\dfrac{2}{3} \\times \\dfrac{5}{4} = \\dfrac{10}{12} = \\dfrac{5}{6}$。</p>"
+        },
+        {
+          "id": "g6b_ch1_1_q2",
+          "number": 2,
+          "type": "true_false",
+          "content": "<p>計算 $12 - 3 \\times 2$ 時，要先算 $12 - 3 = 9$，再算 $9 \\times 2 = 18$。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。四則運算規則是<strong>先乘除、後加減</strong>，所以要先算 $3 \\times 2 = 6$，再算 $12 - 6 = 6$。正確答案是 $6$ 而不是 $18$。</p>"
+        },
+        {
+          "id": "g6b_ch1_1_q3",
+          "number": 3,
+          "type": "true_false",
+          "content": "<p>$0.6$ 化成最簡分數是 $\\dfrac{3}{5}$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。$0.6 = \\dfrac{6}{10}$，分子分母同除以最大公因數 $2$，得 $\\dfrac{3}{5}$，分子分母互質，已是最簡分數。</p>"
+        },
+        {
+          "id": "g6b_ch1_1_q4",
+          "number": 4,
+          "type": "true_false",
+          "content": "<p>計算分數加法 $\\dfrac{1}{2} + \\dfrac{1}{3}$ 時，可以直接把分子相加、分母相加得到 $\\dfrac{2}{5}$。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。分數加減必須<strong>先通分母</strong>再相加分子，分母不能相加。正確：$\\dfrac{1}{2} + \\dfrac{1}{3} = \\dfrac{3}{6} + \\dfrac{2}{6} = \\dfrac{5}{6}$，而不是 $\\dfrac{2}{5}$。</p>"
+        },
+        {
+          "id": "g6b_ch1_1_q5",
+          "number": 5,
+          "type": "true_false",
+          "content": "<p>$\\dfrac{1}{3}$ 化成小數會變成一個有限小數。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。$\\dfrac{1}{3} = 0.3333\\ldots$ 是<strong>循環小數</strong>（無限不終止）。要把分數化為有限小數，分母約分後只能含有 $2$ 或 $5$ 的因數，$3$ 不行，所以 $\\dfrac{1}{3}$ 不能寫成有限小數。</p>"
+        }
+      ]
+    },
+    {
+      "type": "single_choice",
+      "name": "單選題",
+      "questions": [
+        {
+          "id": "g6b_ch1_1_q6",
+          "number": 6,
+          "type": "single_choice",
+          "content": "<p>下列哪一個小數等於 $\\dfrac{3}{8}$？</p><p>A. $0.38$</p><p>B. $0.375$</p><p>C. $0.35$</p><p>D. $0.3$</p>",
+          "answer": "B",
+          "explanation": "<p>$\\dfrac{3}{8}$ 上下同乘 $125$，得 $\\dfrac{3 \\times 125}{8 \\times 125} = \\dfrac{375}{1000} = 0.375$。<strong>$\\dfrac{1}{8} = 0.125$</strong> 是常用記憶，所以 $\\dfrac{3}{8} = 3 \\times 0.125 = 0.375$。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch1_1_q7",
+          "number": 7,
+          "type": "single_choice",
+          "content": "<p>計算 $0.6 + \\dfrac{1}{4}$ 等於多少？</p><p>A. $0.65$</p><p>B. $0.85$</p><p>C. $0.7$</p><p>D. $1.0$</p>",
+          "answer": "B",
+          "explanation": "<p>把分數化成小數再加最方便：$\\dfrac{1}{4} = 0.25$，所以 $0.6 + 0.25 = 0.85$。或用分數算：$\\dfrac{6}{10} + \\dfrac{1}{4} = \\dfrac{12}{20} + \\dfrac{5}{20} = \\dfrac{17}{20} = 0.85$。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch1_1_q8",
+          "number": 8,
+          "type": "single_choice",
+          "content": "<p>計算 $\\dfrac{2}{3} \\times \\dfrac{9}{4}$ 的結果是？</p><p>A. $\\dfrac{11}{12}$</p><p>B. $\\dfrac{3}{2}$</p><p>C. $\\dfrac{18}{12}$</p><p>D. $\\dfrac{1}{6}$</p>",
+          "answer": "B",
+          "explanation": "<p>先約分再相乘：$\\dfrac{2}{3} \\times \\dfrac{9}{4}$，$2$ 與 $4$ 約得 $1$ 與 $2$；$3$ 與 $9$ 約得 $1$ 與 $3$，剩下 $\\dfrac{1}{1} \\times \\dfrac{3}{2} = \\dfrac{3}{2}$。<strong>能約分先約分</strong>會比硬算 $\\dfrac{18}{12}$ 再化簡省力。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch1_1_q9",
+          "number": 9,
+          "type": "single_choice",
+          "content": "<p>計算 $12 + 8 \\div 4 - 3 \\times 2$ 的結果是？</p><p>A. $4$</p><p>B. $8$</p><p>C. $9$</p><p>D. $11$</p>",
+          "answer": "B",
+          "explanation": "<p>依「先乘除、後加減」：$8 \\div 4 = 2$，$3 \\times 2 = 6$，原式變成 $12 + 2 - 6 = 14 - 6 = 8$。<strong>順序錯（如全部由左到右）會算成 $4$，那是常見陷阱</strong>。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch1_1_q10",
+          "number": 10,
+          "type": "single_choice",
+          "content": "<p>計算 $\\left(\\dfrac{1}{2} + \\dfrac{1}{3}\\right) \\div \\dfrac{5}{6}$ 的結果是？</p><p>A. $\\dfrac{5}{36}$</p><p>B. $\\dfrac{25}{36}$</p><p>C. $1$</p><p>D. $\\dfrac{6}{5}$</p>",
+          "answer": "C",
+          "explanation": "<p><strong>先算括號內</strong>：$\\dfrac{1}{2} + \\dfrac{1}{3} = \\dfrac{3}{6} + \\dfrac{2}{6} = \\dfrac{5}{6}$。再除以 $\\dfrac{5}{6}$ 即乘以倒數 $\\dfrac{6}{5}$：$\\dfrac{5}{6} \\times \\dfrac{6}{5} = 1$。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch1_1_q11",
+          "number": 11,
+          "type": "single_choice",
+          "content": "<p>利用分配律計算 $0.7 \\times 3.68 - 0.7 \\times 1.68$，下列何者最快？</p><p>A. $0.7 \\times (3.68 + 1.68)$</p><p>B. $0.7 \\times (3.68 - 1.68)$</p><p>C. $0.7 \\times 3.68 \\times 1.68$</p><p>D. $(0.7 + 0.7) \\times (3.68 - 1.68)$</p>",
+          "answer": "B",
+          "explanation": "<p>兩項都有共同因數 $0.7$，可<strong>提出共同因數</strong>：$0.7 \\times 3.68 - 0.7 \\times 1.68 = 0.7 \\times (3.68 - 1.68) = 0.7 \\times 2 = 1.4$。注意原式是「減」，所以括號內也要用減，A 用加是錯的。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch1_1_q12",
+          "number": 12,
+          "type": "single_choice",
+          "content": "<p>計算 $1\\dfrac{1}{2} \\times \\dfrac{4}{9}$ 的結果是？</p><p>A. $\\dfrac{2}{3}$</p><p>B. $\\dfrac{4}{18}$</p><p>C. $\\dfrac{3}{4}$</p><p>D. $1\\dfrac{4}{18}$</p>",
+          "answer": "A",
+          "explanation": "<p><strong>帶分數先化為假分數</strong>：$1\\dfrac{1}{2} = \\dfrac{3}{2}$。然後 $\\dfrac{3}{2} \\times \\dfrac{4}{9}$，$3$ 與 $9$ 約得 $1$ 與 $3$，$2$ 與 $4$ 約得 $1$ 與 $2$，剩 $\\dfrac{1 \\times 2}{1 \\times 3} = \\dfrac{2}{3}$。答案 A。</p>"
+        },
+        {
+          "id": "g6b_ch1_1_q13",
+          "number": 13,
+          "type": "single_choice",
+          "content": "<p>媽媽買了 $2$ 公斤的蘋果，吃掉 $\\dfrac{3}{4}$ 公斤，又買回 $1.5$ 公斤，現在有多少公斤蘋果？</p><p>A. $2.75$ 公斤</p><p>B. $3$ 公斤</p><p>C. $2.25$ 公斤</p><p>D. $3.25$ 公斤</p>",
+          "answer": "A",
+          "explanation": "<p>把分數化成小數計算：$\\dfrac{3}{4} = 0.75$。現在的量 $= 2 - 0.75 + 1.5 = 1.25 + 1.5 = 2.75$ 公斤。<strong>步驟：先吃掉（減）再買回（加）</strong>。答案 A。</p>"
+        },
+        {
+          "id": "g6b_ch1_1_q14",
+          "number": 14,
+          "type": "single_choice",
+          "content": "<p>一條彩帶長 $\\dfrac{4}{5}$ 公尺，平均剪成 $4$ 段，每段長多少公尺？</p><p>A. $\\dfrac{1}{5}$ 公尺</p><p>B. $\\dfrac{1}{4}$ 公尺</p><p>C. $\\dfrac{4}{20}$ 公尺</p><p>D. $\\dfrac{16}{5}$ 公尺</p>",
+          "answer": "A",
+          "explanation": "<p>平均剪成 $4$ 段，每段 $= \\dfrac{4}{5} \\div 4 = \\dfrac{4}{5} \\times \\dfrac{1}{4} = \\dfrac{4}{20} = \\dfrac{1}{5}$ 公尺。$\\dfrac{4}{20}$ 雖然數值對但不是最簡分數，<strong>作答要約到最簡</strong>。答案 A。</p>"
+        },
+        {
+          "id": "g6b_ch1_1_q15",
+          "number": 15,
+          "type": "single_choice",
+          "content": "<p>小明有 $1000$ 元，先花了全部的 $\\dfrac{1}{4}$ 買書，再花剩下的 $\\dfrac{1}{3}$ 買飲料，最後還剩多少元？</p><p>A. $500$ 元</p><p>B. $400$ 元</p><p>C. $450$ 元</p><p>D. $550$ 元</p>",
+          "answer": "A",
+          "explanation": "<p>步驟一：買書花 $1000 \\times \\dfrac{1}{4} = 250$ 元，<strong>剩下 $1000 - 250 = 750$ 元</strong>。步驟二：買飲料花「剩下」的 $\\dfrac{1}{3}$，即 $750 \\times \\dfrac{1}{3} = 250$ 元。最後剩 $750 - 250 = 500$ 元。<strong>陷阱：第二次的 $\\dfrac{1}{3}$ 是「剩下的」不是「全部的」</strong>。答案 A。</p>"
+        }
+      ]
+    }
+  ]
 }

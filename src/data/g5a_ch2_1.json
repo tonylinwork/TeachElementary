@@ -1,5 +1,138 @@
 {
   "title": "小五上 2-1 因數與公因數",
-  "summary": "<h1>小五　因數與公因數　教學重點</h1>\n\n    <!-- 知識點 1 -->\n    <h2>知識點 1：因數的判斷與列出</h2>\n\n    <h3>核心觀念</h3>\n    <ul>\n      <li><strong>因倍數關係用「除法」判斷</strong>：大數能被小數整除（餘數 = 0），則小數是大數的<strong>因數</strong>，大數是小數的<strong>倍數</strong></li>\n      <li>由乘法看：若 <code>a × b = c</code>，則 a、b 都是 c 的因數，c 是 a、b 的倍數</li>\n      <li>每個整數（0 和 1 除外）<strong>至少有 2 個因數</strong>：1 和本身</li>\n      <li><strong>最小因數 = 1；最大因數 = 本身</strong></li>\n    </ul>\n\n    <h3>列出因數的方法（成對寫法）</h3>\n    <ul>\n      <li>從 1 開始逐一試除，把成對的因數一起寫出來</li>\n      <li>規律：第 1 對 × 倒數第 1 對 = 第 2 對 × 倒數第 2 對 = ⋯ = 本身</li>\n      <li>當「正向找」碰到已出現過的因數時即可停止</li>\n    </ul>\n\n    <h3>範例：列出 24 的所有因數</h3>\n    <table>\n      <thead>\n        <tr>\n          <th>配對</th>\n          <th>因數</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr><td>1 × 24</td><td>1、24</td></tr>\n        <tr><td>2 × 12</td><td>2、12</td></tr>\n        <tr><td>3 × 8</td><td>3、8</td></tr>\n        <tr><td>4 × 6</td><td>4、6</td></tr>\n        <tr><td>5 不行</td><td>—</td></tr>\n        <tr><td>6 × 4 已重複</td><td>停</td></tr>\n      </tbody>\n    </table>\n    <ul>\n      <li>→ 24 的因數共 <strong>8 個</strong>：1、2、3、4、6、8、12、24</li>\n    </ul>\n\n    <h3>範例：列出 84 的所有因數</h3>\n    <ul>\n      <li>1 × 84、2 × 42、3 × 28、4 × 21、6 × 14、7 × 12</li>\n      <li>5 不行（尾數非 0、5）；8、9、10、11 都不行；12 × 7 已重複 → 停</li>\n      <li>→ 84 的因數：1、2、3、4、6、7、12、14、21、28、42、84</li>\n    </ul>\n\n    <h3>常見考法</h3>\n    <ol>\n      <li><strong>判斷誰能被某數整除</strong>：把候選數逐一除以該數，餘 0 就圈起來（例：判斷哪些數能被 8 整除）</li>\n      <li><strong>最少加（減）多少才能被整除</strong>：先除一次得餘數 <code>r</code>\n        <ul>\n          <li><strong>減</strong>：最少減 <code>r</code>；第二少減 <code>r + 除數</code></li>\n          <li><strong>加</strong>：最少加 <code>(除數 − r)</code>，把餘數補成一個完整除數</li>\n        </ul>\n      </li>\n      <li><strong>應用題（湊成乘法 = N）</strong>：總人數 / 總顆數 = (組數) × (每組數量)，列出 N 的所有因數即為所有可能分法。注意<strong>有單位的兩種寫法不同</strong>（例：32 人 = 2 車 × 16 人/車 與 32 人 = 16 車 × 2 人/車 是兩種答案）</li>\n      <li><strong>「261 ÷ (□ − 11) 為整數」這類題</strong>：轉成「找 261 的因數」，再回推 □ 的值（注意題目限制如「□ &gt; 15」要篩選）</li>\n    </ol>\n\n    <hr>\n\n    <!-- 知識點 2 -->\n    <h2>知識點 2：公因數與最大公因數</h2>\n\n    <h3>核心定義</h3>\n    <ul>\n      <li><strong>公因數</strong>：兩數（或多數）<strong>共同的因數</strong></li>\n      <li><strong>最大公因數</strong>：公因數裡最大的那一個</li>\n      <li><strong>重要結論</strong>（極好用）：<strong>最大公因數的因數 = 全部公因數</strong>\n        <ul><li>所以求公因數時，先求最大公因數，再列它的因數即可</li></ul>\n      </li>\n    </ul>\n\n    <h3>互質</h3>\n    <ul>\n      <li>若兩數的<strong>最大公因數 = 1</strong>，則稱兩數<strong>互質</strong></li>\n      <li>意思：除了 1 之外沒有共同因數</li>\n    </ul>\n\n    <h3>方法 1：列舉法（基本款）</h3>\n    <ul>\n      <li>把兩數的因數都列出來，圈共同的，挑最大</li>\n    </ul>\n    <p><strong>範例：12 與 20 的公因數</strong></p>\n    <ul>\n      <li>12 的因數：1、2、3、4、6、12</li>\n      <li>20 的因數：1、2、4、5、10、20</li>\n      <li>共同：1、2、4 → <strong>最大公因數 = 4</strong>，公因數 = {1、2、4}</li>\n    </ul>\n\n    <h3>方法 2：短除法（速度快）</h3>\n    <ul>\n      <li>把兩數並排，找一個共同因數提出來，重複到無法再提為止</li>\n      <li><strong>左側乘積 = 最大公因數</strong></li>\n      <li>口訣：兩偶 → 先提 <code>2</code>；一奇一偶 → 先試 <code>3、5、7</code>（再不行才試 11…）</li>\n    </ul>\n    <p><strong>範例：12 與 20</strong></p>\n<pre>2 │ 12   20\n2 │  6   10\n  │  3    5      ← 3 與 5 互質，結束</pre>\n    <ul>\n      <li>→ 最大公因數 = 2 × 2 = <strong>4</strong>；公因數 = 4 的因數 = {1、2、4}</li>\n    </ul>\n\n    <p><strong>範例：18 與 24</strong></p>\n<pre>2 │ 18   24\n3 │  9   12\n  │  3    4      ← 互質，結束</pre>\n    <ul>\n      <li>→ 最大公因數 = 2 × 3 = <strong>6</strong>；公因數 = {1、2、3、6}</li>\n    </ul>\n\n    <h3>方法 3：輾轉相除法（數字大／醜時超好用）</h3>\n    <ul>\n      <li>大數當被除數，小數當除數，<strong>來回相除</strong>直到整除為止</li>\n      <li>最後的除數就是最大公因數</li>\n    </ul>\n    <p><strong>範例：80 與 50</strong></p>\n    <ul>\n      <li>80 ÷ 50 = 1 餘 30</li>\n      <li>50 ÷ 30 = 1 餘 20</li>\n      <li>30 ÷ 20 = 1 餘 10</li>\n      <li>20 ÷ 10 = 2 餘 0 → <strong>最大公因數 = 10</strong></li>\n    </ul>\n    <p><strong>範例：184 與 138</strong></p>\n    <ul>\n      <li>184 ÷ 138 = 1 餘 46</li>\n      <li>138 ÷ 46 = 3 餘 0 → <strong>最大公因數 = 46</strong></li>\n    </ul>\n\n    <hr>\n\n    <!-- 常見題型 -->\n    <div class=\"exam-section\">\n      <h2>常見應用題型</h2>\n      <ol>\n        <li><strong>正方形鋪滿長方形（邊長共同）</strong>：長 24、寬 18 的長方形要鋪滿大小相同的正方形（不留空隙）。正方形邊長必須<strong>同時整除 24 和 18</strong> → 邊長 = 24 和 18 的<strong>公因數</strong> = {1、2、3、6}。</li>\n        <li><strong>紙張剪正方形（最少塊數）</strong>：長 80、寬 50 的紙剪出 N 個正方形（<strong>面積可不同</strong>）→ 用輾轉相除法（或畫圖法），答案 = 各步商相加：<code>1 + 1 + 1 + 2 = 5</code> 塊。<br>若<strong>面積必須相同</strong>：邊長 = 最大公因數 = 10；長切 8 段、寬切 5 段 → <strong>40 塊</strong>。</li>\n        <li><strong>分裝題（不足要補、多出要扣）</strong>：980 顆球平分會不足 10 顆，605 顆會剩 11 顆，求箱子數。<br>不足 → 補：980 + 10 = <strong>990</strong>；多出 → 扣：605 − 11 = <strong>594</strong>。<br>求 990 與 594 的最大公因數（短除法）→ 2 × 3 × 3 × 11 = <strong>198</strong>。<br>答案 = 198 的因數中<strong>符合限制</strong>（箱子數要 &gt; 11，箱子數 ≥ 10 個）。</li>\n        <li><strong>分紅包（同時整除兩個鈔票數）</strong>：184 張千元 + 138 張百元發紅包，戶數 &gt; 30。<br>求 184 與 138 的最大公因數（輾轉相除法）= <strong>46</strong>；46 的因數中 &gt; 30 的只有 <strong>46 戶</strong>。<br>每戶分 184 ÷ 46 = 4 張千元、138 ÷ 46 = 3 張百元 → <strong>4,300 元</strong>。</li>\n      </ol>\n    </div>\n\n    <hr>\n\n    <h2>共通注意事項</h2>\n    <ul>\n      <li>列因數時<strong>成對寫</strong>，從 1 開始試到「正向遇重複」就停</li>\n      <li>應用題碰到「平分／剛好分完／不留空隙」→ 想到<strong>整除 → 因數／公因數</strong></li>\n      <li>兩數很大或很「醜」（不好試除）→ 用<strong>輾轉相除法</strong>比較快</li>\n      <li>應用題裡<strong>有單位</strong>的不同寫法是不同答案（例：3 袋 × 15 顆 ≠ 15 袋 × 3 顆）</li>\n      <li>答案要回頭看<strong>題目限制</strong>（如「邊長要 &gt; 某值」「戶數要 &gt; 30」「面積可否相同」）</li>\n    </ul>",
-  "sections": []
+  "summary": "<ul><li><strong>因數定義</strong>：若 $a$ 能被 $b$ 整除（餘數為 $0$），則 $b$ 是 $a$ 的<strong>因數</strong>，$a$ 是 $b$ 的<strong>倍數</strong>。每個正整數都有<strong>最小因數 $1$</strong> 和<strong>最大因數本身</strong>。</li><li><strong>列因數要成對寫</strong>：從 $1$ 開始試，把 $a \\times b = N$ 中的 $a, b$ 一起寫。例：$24 = 1 \\times 24 = 2 \\times 12 = 3 \\times 8 = 4 \\times 6$，因數共 $8$ 個：$1, 2, 3, 4, 6, 8, 12, 24$。</li><li><strong>公因數</strong>：兩數共同擁有的因數。<strong>最大公因數</strong>（$\\gcd$）是公因數中最大的；其他公因數就是<strong>最大公因數的因數</strong>。例：$\\gcd(12, 20) = 4$，公因數 $= \\{1, 2, 4\\}$。</li><li><strong>短除法求最大公因數</strong>：把兩數並排，找共同因數提到左邊，重複直到下方互質。<strong>左側因數相乘 $=$ 最大公因數</strong>。例：$\\gcd(18, 24)$ 用 $2$ 提一次再用 $3$ 提一次，$\\gcd = 2 \\times 3 = 6$。</li><li><strong>互質</strong>：兩數的最大公因數 $= 1$，稱為互質。例：$8$ 與 $9$ 互質、$15$ 與 $14$ 互質。</li><li><strong>應用情境</strong>：看到「平分剛好分完」「正方形鋪滿長方形不留縫」「邊長必須整除兩邊」等關鍵字，就要用<strong>公因數／最大公因數</strong>。</li></ul>",
+  "sections": [
+    {
+      "type": "true_false",
+      "name": "是非題",
+      "questions": [
+        {
+          "id": "g5a_ch2_1_q1",
+          "number": 1,
+          "type": "true_false",
+          "content": "<p>$1$ 是任何正整數的因數。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。對任何正整數 $N$，$N \\div 1 = N$ 整除，所以 $1$ 都是它的因數。$1$ 也是<strong>最小的因數</strong>，而 $N$ 本身則是<strong>最大的因數</strong>。</p>"
+        },
+        {
+          "id": "g5a_ch2_1_q2",
+          "number": 2,
+          "type": "true_false",
+          "content": "<p>$36$ 的因數有 $8$ 個。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。$36 = 1 \\times 36 = 2 \\times 18 = 3 \\times 12 = 4 \\times 9 = 6 \\times 6$。因數為 $\\{1, 2, 3, 4, 6, 9, 12, 18, 36\\}$，共 <strong>$9$ 個</strong>。$6 \\times 6$ 中的 $6$ 只算一次。</p>"
+        },
+        {
+          "id": "g5a_ch2_1_q3",
+          "number": 3,
+          "type": "true_false",
+          "content": "<p>$8$ 和 $15$ 互質。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。$8$ 的因數 $= \\{1, 2, 4, 8\\}$；$15$ 的因數 $= \\{1, 3, 5, 15\\}$。共同因數只有 $1$，所以 $\\gcd(8, 15) = 1$，<strong>互質</strong>。</p>"
+        },
+        {
+          "id": "g5a_ch2_1_q4",
+          "number": 4,
+          "type": "true_false",
+          "content": "<p>兩數的公因數一定<strong>不超過</strong>它們的最大公因數。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。「最大公因數」就是公因數裡<strong>最大的那一個</strong>，其他公因數都比它小或等於它。而且<strong>所有公因數都是最大公因數的因數</strong>，這是好用的結論。</p>"
+        },
+        {
+          "id": "g5a_ch2_1_q5",
+          "number": 5,
+          "type": "true_false",
+          "content": "<p>$2$ 是 $30$ 和 $45$ 的公因數。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。$45$ 是奇數，$45 \\div 2 = 22$ 餘 $1$，<strong>$2$ 不是 $45$ 的因數</strong>。所以 $2$ 不可能是 $30$ 和 $45$ 的公因數。$\\gcd(30, 45) = 15$，公因數 $= \\{1, 3, 5, 15\\}$。</p>"
+        }
+      ]
+    },
+    {
+      "type": "single_choice",
+      "name": "單選題",
+      "questions": [
+        {
+          "id": "g5a_ch2_1_q6",
+          "number": 6,
+          "type": "single_choice",
+          "content": "<p>下列哪一個數<strong>不是</strong> $48$ 的因數？</p><p>A. $6$</p><p>B. $8$</p><p>C. $9$</p><p>D. $16$</p>",
+          "answer": "C",
+          "explanation": "<p>$48 = 1 \\times 48 = 2 \\times 24 = 3 \\times 16 = 4 \\times 12 = 6 \\times 8$。因數 $= \\{1, 2, 3, 4, 6, 8, 12, 16, 24, 48\\}$。$9$ 不在其中（$48 \\div 9 = 5$ 餘 $3$）。答案 C。</p>"
+        },
+        {
+          "id": "g5a_ch2_1_q7",
+          "number": 7,
+          "type": "single_choice",
+          "content": "<p>$36$ 的因數共有幾個？</p><p>A. $7$ 個</p><p>B. $8$ 個</p><p>C. $9$ 個</p><p>D. $10$ 個</p>",
+          "answer": "C",
+          "explanation": "<p>$36 = 1\\times36 = 2\\times18 = 3\\times12 = 4\\times9 = 6\\times6$。因數 $= \\{1, 2, 3, 4, 6, 9, 12, 18, 36\\}$，共 <strong>$9$ 個</strong>。$6 \\times 6$ 的 $6$ 只算一次。答案 C。</p>"
+        },
+        {
+          "id": "g5a_ch2_1_q8",
+          "number": 8,
+          "type": "single_choice",
+          "content": "<p>下列各組數中，<strong>互質</strong>的是？</p><p>A. $6$ 和 $9$</p><p>B. $8$ 和 $12$</p><p>C. $7$ 和 $15$</p><p>D. $10$ 和 $25$</p>",
+          "answer": "C",
+          "explanation": "<p>互質 $= \\gcd = 1$。A. $\\gcd(6,9)=3$；B. $\\gcd(8,12)=4$；C. $\\gcd(7,15)=1$ ✓（$7$ 是質數且不整除 $15$）；D. $\\gcd(10,25)=5$。答案 C。</p>"
+        },
+        {
+          "id": "g5a_ch2_1_q9",
+          "number": 9,
+          "type": "single_choice",
+          "content": "<p>$\\gcd(24, 36) = ?$</p><p>A. $4$</p><p>B. $6$</p><p>C. $8$</p><p>D. $12$</p>",
+          "answer": "D",
+          "explanation": "<p>短除法：$2|24,36 \\to 12,18$；$2|12,18 \\to 6,9$；$3|6,9 \\to 2,3$（互質止）。<strong>$\\gcd = 2 \\times 2 \\times 3 = 12$</strong>。驗：$24 = 12 \\times 2$，$36 = 12 \\times 3$ ✓。答案 D。</p>"
+        },
+        {
+          "id": "g5a_ch2_1_q10",
+          "number": 10,
+          "type": "single_choice",
+          "content": "<p>$\\gcd(45, 60) = ?$</p><p>A. $5$</p><p>B. $9$</p><p>C. $15$</p><p>D. $20$</p>",
+          "answer": "C",
+          "explanation": "<p>短除法：$3|45,60 \\to 15,20$；$5|15,20 \\to 3,4$（互質）。$\\gcd = 3 \\times 5 = \\mathbf{15}$。驗：$45 = 15 \\times 3$，$60 = 15 \\times 4$ ✓。答案 C。</p>"
+        },
+        {
+          "id": "g5a_ch2_1_q11",
+          "number": 11,
+          "type": "single_choice",
+          "content": "<p>$18$ 和 $30$ 的<strong>公因數</strong>有幾個？</p><p>A. $2$ 個</p><p>B. $3$ 個</p><p>C. $4$ 個</p><p>D. $5$ 個</p>",
+          "answer": "C",
+          "explanation": "<p>$\\gcd(18, 30) = 6$（短除：$2 \\times 3$）。公因數 $=$ 最大公因數的因數 $= 6$ 的因數 $= \\{1, 2, 3, 6\\}$，共 <strong>$4$ 個</strong>。答案 C。</p>"
+        },
+        {
+          "id": "g5a_ch2_1_q12",
+          "number": 12,
+          "type": "single_choice",
+          "content": "<p>$\\gcd(72, 108) = ?$</p><p>A. $12$</p><p>B. $18$</p><p>C. $24$</p><p>D. $36$</p>",
+          "answer": "D",
+          "explanation": "<p>短除法：$2|72,108 \\to 36,54$；$2|36,54 \\to 18,27$；$3|18,27 \\to 6,9$；$3|6,9 \\to 2,3$（互質）。$\\gcd = 2 \\times 2 \\times 3 \\times 3 = \\mathbf{36}$。驗：$72 = 36 \\times 2$，$108 = 36 \\times 3$ ✓。答案 D。</p>"
+        },
+        {
+          "id": "g5a_ch2_1_q13",
+          "number": 13,
+          "type": "single_choice",
+          "content": "<p>有 $24$ 顆糖果要平分給幾個小朋友（每人分到的數量要相同）。下列<strong>不可能</strong>的人數是？</p><p>A. $6$ 人</p><p>B. $8$ 人</p><p>C. $9$ 人</p><p>D. $12$ 人</p>",
+          "answer": "C",
+          "explanation": "<p>要平分，人數必須是 $24$ 的<strong>因數</strong>。$24$ 的因數 $= \\{1, 2, 3, 4, 6, 8, 12, 24\\}$。$9$ 不在其中（$24 \\div 9 = 2$ 餘 $6$）。答案 C。</p>"
+        },
+        {
+          "id": "g5a_ch2_1_q14",
+          "number": 14,
+          "type": "single_choice",
+          "content": "<p>長 $36$ 公分、寬 $24$ 公分的長方形紙板，要剪成大小相同的正方形且不留空隙。正方形邊長<strong>最大</strong>可以是幾公分？</p><p>A. $4$ 公分</p><p>B. $6$ 公分</p><p>C. $8$ 公分</p><p>D. $12$ 公分</p>",
+          "answer": "D",
+          "explanation": "<p>正方形邊長必須<strong>同時整除</strong> $36$ 和 $24$，即兩數的公因數。要最大就是<strong>最大公因數</strong>：$\\gcd(36, 24) = 12$。驗：$36 \\div 12 = 3$，$24 \\div 12 = 2$，可剪 $3 \\times 2 = 6$ 塊。答案 D。</p>"
+        },
+        {
+          "id": "g5a_ch2_1_q15",
+          "number": 15,
+          "type": "single_choice",
+          "content": "<p>有 $48$ 顆蘋果和 $60$ 顆橘子，要平均分裝成若干袋（每袋蘋果數相同、橘子數也相同），最多可以分成幾袋？每袋各幾顆？</p><p>A. $12$ 袋，蘋果 $4$ 顆橘子 $5$ 顆</p><p>B. $12$ 袋，蘋果 $5$ 顆橘子 $4$ 顆</p><p>C. $6$ 袋，蘋果 $8$ 顆橘子 $10$ 顆</p><p>D. $4$ 袋，蘋果 $12$ 顆橘子 $15$ 顆</p>",
+          "answer": "A",
+          "explanation": "<p>袋數要同時整除 $48$ 和 $60$，最多就是<strong>最大公因數</strong>。$\\gcd(48, 60)$：$2 \\times 2 \\times 3 = 12$。每袋蘋果 $= 48 \\div 12 = \\mathbf{4}$ 顆，橘子 $= 60 \\div 12 = \\mathbf{5}$ 顆。答案 A。</p>"
+        }
+      ]
+    }
+  ]
 }

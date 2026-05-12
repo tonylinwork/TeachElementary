@@ -1,5 +1,138 @@
 {
   "title": "小四下 1-1 分數的認識",
-  "summary": "<div class=\"text-slate-500\"><p>本章節摘要待補。</p><p class=\"text-xs mt-2\">📝 將在後續補上完整教學重點。</p></div>",
-  "sections": []
+  "summary": "<ul><li><strong>分數的意義</strong>：把一個整體（單位 $1$）平均分成若干等份，取出其中幾份就用分數表示。寫成 $\\dfrac{\\text{分子}}{\\text{分母}}$，分母是「總共平均分成幾份」，分子是「取了幾份」。例：把蛋糕平分 $5$ 份取 $2$ 份 $\\to \\dfrac{2}{5}$。</li><li><strong>單位分數</strong>：分子為 $1$ 的分數，如 $\\dfrac{1}{4}$、$\\dfrac{1}{8}$。任何分數都可看成「幾個單位分數累加」：$\\dfrac{3}{5} = \\dfrac{1}{5} + \\dfrac{1}{5} + \\dfrac{1}{5}$，是 $3$ 個 $\\dfrac{1}{5}$。</li><li><strong>真分數與假分數</strong>：分子<strong>小於</strong>分母的是真分數（值小於 $1$），如 $\\dfrac{3}{7}$；分子<strong>大於或等於</strong>分母的是假分數（值大於或等於 $1$），如 $\\dfrac{7}{4}$、$\\dfrac{5}{5}$。</li><li><strong>帶分數</strong>：整數加真分數的合寫，如 $1\\dfrac{2}{3}$ 表示 $1 + \\dfrac{2}{3}$。假分數化帶分數：用分子 $\\div$ 分母，商當整數、餘數當分子。例：$\\dfrac{11}{4} = 2\\dfrac{3}{4}$（因為 $11 \\div 4 = 2 \\cdots 3$）。</li><li><strong>帶分數化假分數</strong>：用「整數 $\\times$ 分母 $+$ 分子」當新分子。例：$2\\dfrac{3}{4} = \\dfrac{2 \\times 4 + 3}{4} = \\dfrac{11}{4}$。</li><li><strong>等值分數</strong>：分子分母同乘或同除一個不是 $0$ 的數，值不變。例：$\\dfrac{1}{2} = \\dfrac{2}{4} = \\dfrac{3}{6} = \\dfrac{5}{10}$。可用來「擴分」或「約分」，最簡分數是分子分母只有公因數 $1$ 的形式。</li></ul>",
+  "sections": [
+    {
+      "type": "true_false",
+      "name": "是非題",
+      "questions": [
+        {
+          "id": "g4b_ch1_1_q1",
+          "number": 1,
+          "type": "true_false",
+          "content": "<p>把一條繩子平分成 $6$ 段，取其中 $5$ 段可以用 $\\dfrac{5}{6}$ 表示。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。分數的意義是「<strong>把整體平分成幾份，取出幾份</strong>」。平分 $6$ 段 $\\to$ 分母 $= 6$；取 $5$ 段 $\\to$ 分子 $= 5$，所以是 $\\dfrac{5}{6}$。</p>"
+        },
+        {
+          "id": "g4b_ch1_1_q2",
+          "number": 2,
+          "type": "true_false",
+          "content": "<p>$\\dfrac{7}{7}$ 是真分數。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。真分數的條件是<strong>分子小於分母</strong>。$\\dfrac{7}{7}$ 的分子等於分母，值為 $1$，屬於<strong>假分數</strong>。只有像 $\\dfrac{1}{7}$、$\\dfrac{6}{7}$ 這樣分子比分母小的才是真分數。</p>"
+        },
+        {
+          "id": "g4b_ch1_1_q3",
+          "number": 3,
+          "type": "true_false",
+          "content": "<p>$\\dfrac{4}{6}$ 和 $\\dfrac{2}{3}$ 是等值分數。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。$\\dfrac{4}{6}$ 的分子分母同除以 $2$：$\\dfrac{4 \\div 2}{6 \\div 2} = \\dfrac{2}{3}$。兩者代表同樣大小，只是分得的份數不同，所以是<strong>等值分數</strong>。</p>"
+        },
+        {
+          "id": "g4b_ch1_1_q4",
+          "number": 4,
+          "type": "true_false",
+          "content": "<p>帶分數 $3\\dfrac{1}{4}$ 化成假分數是 $\\dfrac{13}{4}$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。帶分數化假分數：<strong>整數 $\\times$ 分母 $+$ 分子</strong> 當新分子，分母不變。$3 \\times 4 + 1 = 13$，所以 $3\\dfrac{1}{4} = \\dfrac{13}{4}$。</p>"
+        },
+        {
+          "id": "g4b_ch1_1_q5",
+          "number": 5,
+          "type": "true_false",
+          "content": "<p>$\\dfrac{3}{8}$ 表示 $3$ 個 $\\dfrac{1}{3}$。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。$\\dfrac{3}{8}$ 是「$3$ 個 <strong>$\\dfrac{1}{8}$</strong>」，因為單位分數要看<strong>分母</strong>。$3$ 個 $\\dfrac{1}{3}$ 會等於 $\\dfrac{3}{3} = 1$，不是 $\\dfrac{3}{8}$。</p>"
+        }
+      ]
+    },
+    {
+      "type": "single_choice",
+      "name": "單選題",
+      "questions": [
+        {
+          "id": "g4b_ch1_1_q6",
+          "number": 6,
+          "type": "single_choice",
+          "content": "<p>下列哪一個分數是<strong>真分數</strong>？</p><p>A. $\\dfrac{9}{5}$</p><p>B. $\\dfrac{4}{4}$</p><p>C. $\\dfrac{3}{7}$</p><p>D. $\\dfrac{8}{6}$</p>",
+          "answer": "C",
+          "explanation": "<p>真分數的條件是<strong>分子 $<$ 分母</strong>。A. $9 > 5$ 假分數；B. $4 = 4$ 假分數；<strong>C. $3 < 7$ 真分數 ✓</strong>；D. $8 > 6$ 假分數。答案 C。</p>"
+        },
+        {
+          "id": "g4b_ch1_1_q7",
+          "number": 7,
+          "type": "single_choice",
+          "content": "<p>$\\dfrac{17}{5}$ 化成帶分數是？</p><p>A. $2\\dfrac{3}{5}$</p><p>B. $3\\dfrac{1}{5}$</p><p>C. $3\\dfrac{2}{5}$</p><p>D. $4\\dfrac{2}{5}$</p>",
+          "answer": "C",
+          "explanation": "<p>假分數化帶分數：用<strong>分子 $\\div$ 分母</strong>，商當整數、餘數當分子。$17 \\div 5 = 3 \\cdots 2$，所以 $\\dfrac{17}{5} = 3\\dfrac{2}{5}$。答案 C。</p>"
+        },
+        {
+          "id": "g4b_ch1_1_q8",
+          "number": 8,
+          "type": "single_choice",
+          "content": "<p>下列哪一組是<strong>等值分數</strong>？</p><p>A. $\\dfrac{2}{3}$ 和 $\\dfrac{4}{9}$</p><p>B. $\\dfrac{3}{5}$ 和 $\\dfrac{9}{15}$</p><p>C. $\\dfrac{1}{4}$ 和 $\\dfrac{3}{8}$</p><p>D. $\\dfrac{2}{7}$ 和 $\\dfrac{4}{21}$</p>",
+          "answer": "B",
+          "explanation": "<p>等值分數須<strong>分子分母同乘（或同除）一個不為 $0$ 的數</strong>。B. $\\dfrac{3}{5}$ 分子分母同乘 $3$ $= \\dfrac{9}{15}$ ✓。A 分母 $\\times 3$、分子 $\\times 2$，不等值。C、D 也都不是同一倍數放大。答案 B。</p>"
+        },
+        {
+          "id": "g4b_ch1_1_q9",
+          "number": 9,
+          "type": "single_choice",
+          "content": "<p>$2\\dfrac{3}{7}$ 化成假分數是？</p><p>A. $\\dfrac{13}{7}$</p><p>B. $\\dfrac{17}{7}$</p><p>C. $\\dfrac{23}{7}$</p><p>D. $\\dfrac{42}{7}$</p>",
+          "answer": "B",
+          "explanation": "<p>帶分數化假分數：<strong>整數 $\\times$ 分母 $+$ 分子</strong>。$2 \\times 7 + 3 = 14 + 3 = 17$，分母仍是 $7$，所以 $2\\dfrac{3}{7} = \\dfrac{17}{7}$。答案 B。</p>"
+        },
+        {
+          "id": "g4b_ch1_1_q10",
+          "number": 10,
+          "type": "single_choice",
+          "content": "<p>$\\dfrac{12}{18}$ 的最簡分數是？</p><p>A. $\\dfrac{6}{9}$</p><p>B. $\\dfrac{4}{6}$</p><p>C. $\\dfrac{2}{3}$</p><p>D. $\\dfrac{3}{4}$</p>",
+          "answer": "C",
+          "explanation": "<p>找 $12$ 和 $18$ 的<strong>最大公因數</strong>：$12 = 2 \\times 2 \\times 3$、$18 = 2 \\times 3 \\times 3$，公因數最大是 $6$。$\\dfrac{12 \\div 6}{18 \\div 6} = \\dfrac{2}{3}$，分子分母只有公因數 $1$，已最簡。答案 C。</p>"
+        },
+        {
+          "id": "g4b_ch1_1_q11",
+          "number": 11,
+          "type": "single_choice",
+          "content": "<p>$\\dfrac{5}{6}$ 是<strong>幾個</strong> $\\dfrac{1}{6}$？</p><p>A. $1$ 個</p><p>B. $5$ 個</p><p>C. $6$ 個</p><p>D. $11$ 個</p>",
+          "answer": "B",
+          "explanation": "<p>單位分數是 $\\dfrac{1}{6}$（看分母），分子 $5$ 就代表「<strong>$5$ 個</strong>單位分數累加」：$\\dfrac{1}{6} + \\dfrac{1}{6} + \\dfrac{1}{6} + \\dfrac{1}{6} + \\dfrac{1}{6} = \\dfrac{5}{6}$。答案 B。</p>"
+        },
+        {
+          "id": "g4b_ch1_1_q12",
+          "number": 12,
+          "type": "single_choice",
+          "content": "<p>下列分數中，<strong>最大</strong>的是哪一個？</p><p>A. $\\dfrac{3}{5}$</p><p>B. $\\dfrac{7}{5}$</p><p>C. $1$</p><p>D. $1\\dfrac{1}{5}$</p>",
+          "answer": "B",
+          "explanation": "<p>全部化成以 $5$ 為分母的假分數比：A $= \\dfrac{3}{5}$；<strong>B $= \\dfrac{7}{5}$</strong>；C $= 1 = \\dfrac{5}{5}$；D $= 1\\dfrac{1}{5} = \\dfrac{6}{5}$。比較 $3, 7, 5, 6$，最大是 $7$，所以 B 最大。答案 B。</p>"
+        },
+        {
+          "id": "g4b_ch1_1_q13",
+          "number": 13,
+          "type": "single_choice",
+          "content": "<p>媽媽買了一個披薩平分成 $8$ 片，小明吃了 $3$ 片，妹妹吃了 $2$ 片。剩下幾分之幾？</p><p>A. $\\dfrac{3}{8}$</p><p>B. $\\dfrac{5}{8}$</p><p>C. $\\dfrac{2}{8}$</p><p>D. $\\dfrac{6}{8}$</p>",
+          "answer": "A",
+          "explanation": "<p>整個披薩 $= \\dfrac{8}{8}$，吃掉 $3 + 2 = 5$ 片，剩下 $8 - 5 = 3$ 片，所以剩 $\\dfrac{3}{8}$。也可以算：$\\dfrac{8}{8} - \\dfrac{5}{8} = \\dfrac{3}{8}$。答案 A。</p>"
+        },
+        {
+          "id": "g4b_ch1_1_q14",
+          "number": 14,
+          "type": "single_choice",
+          "content": "<p>一條彩帶長 $1$ 公尺，平分成 $10$ 段後送給小華 $7$ 段。小華得到的彩帶長度可以用下列哪一個分數表示？</p><p>A. $\\dfrac{7}{10}$ 公尺</p><p>B. $\\dfrac{3}{10}$ 公尺</p><p>C. $\\dfrac{10}{7}$ 公尺</p><p>D. $\\dfrac{7}{1}$ 公尺</p>",
+          "answer": "A",
+          "explanation": "<p>把 $1$ 公尺平分成 $10$ 段 $\\to$ 每段是 $\\dfrac{1}{10}$ 公尺。拿到 $7$ 段就是 <strong>$7$ 個 $\\dfrac{1}{10}$</strong>，合起來是 $\\dfrac{7}{10}$ 公尺。答案 A。</p>"
+        },
+        {
+          "id": "g4b_ch1_1_q15",
+          "number": 15,
+          "type": "single_choice",
+          "content": "<p>下列敘述何者<strong>錯誤</strong>？</p><p>A. $\\dfrac{6}{6} = 1$</p><p>B. $\\dfrac{1}{3}$ 比 $\\dfrac{1}{5}$ 大</p><p>C. 假分數一定大於 $1$</p><p>D. $\\dfrac{0}{5} = 0$</p>",
+          "answer": "C",
+          "explanation": "<p>A. 整體平分 $6$ 份取 $6$ 份就是整個 $= 1$ ✓；B. 同一整體平分越多份，每份越小，所以 $\\dfrac{1}{3} > \\dfrac{1}{5}$ ✓；<strong>C. 錯誤</strong>，假分數是「分子 $\\geq$ 分母」，當分子 $=$ 分母時值正好是 $1$，並非「一定大於 $1$」；D. 一份都沒取 $= 0$ ✓。答案 C。</p>"
+        }
+      ]
+    }
+  ]
 }

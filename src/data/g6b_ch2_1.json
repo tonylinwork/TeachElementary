@@ -1,5 +1,138 @@
 {
   "title": "小六下 2-1 圓柱與圓錐",
-  "summary": "<div class=\"text-slate-500\"><p>本章節摘要待補。</p><p class=\"text-xs mt-2\">📝 將在後續補上完整教學重點。</p></div>",
-  "sections": []
+  "summary": "<ul><li><strong>圓柱的構造</strong>：上下兩個<strong>完全相同的圓形底面</strong>，加上一個側面。連接兩底面圓心的線段叫做<strong>高</strong>（與底面垂直）。直立圓柱中，高等於側面的長度。</li><li><strong>圓錐的構造</strong>：一個圓形底面，加上一個由底面圓周收斂到一個頂點的側面。<strong>頂點到底面圓心的垂直距離稱為高</strong>；頂點到底面圓周上任一點的線段叫做<strong>母線（斜邊）</strong>。三者滿足直角三角形關係。</li><li><strong>圓柱的展開圖</strong>：兩個圓 + 一個長方形。長方形的<strong>長 $=$ 底面圓周長 $= 2\\pi r$</strong>，<strong>寬 $=$ 圓柱的高 $h$</strong>。</li><li><strong>圓錐的展開圖</strong>：一個圓（底面）+ 一個<strong>扇形</strong>（側面）。扇形的半徑就是母線長，扇形的弧長等於底面圓的圓周長。</li><li><strong>體積關係</strong>：底面積相同、高相同時，<strong>圓錐體積 $=$ 圓柱體積的 $\\dfrac{1}{3}$</strong>；反過來，圓柱體積 $=$ 圓錐體積的 $3$ 倍。記憶法：「三個錐裝滿一個柱」。</li><li><strong>常用公式（圓周率 $\\pi \\approx 3.14$）</strong>：圓面積 $= \\pi r^2$；圓周長 $= 2\\pi r$。圓柱體積 $= \\pi r^2 \\times h$；圓錐體積 $= \\dfrac{1}{3} \\times \\pi r^2 \\times h$。</li></ul>",
+  "sections": [
+    {
+      "type": "true_false",
+      "name": "是非題",
+      "questions": [
+        {
+          "id": "g6b_ch2_1_q1",
+          "number": 1,
+          "type": "true_false",
+          "content": "<p>圓柱的兩個底面是大小相同的圓形。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。圓柱由<strong>兩個全等（大小完全一樣）的圓形底面</strong>與一個側面構成。若兩底不一樣大就不是圓柱，而是圓臺。</p>"
+        },
+        {
+          "id": "g6b_ch2_1_q2",
+          "number": 2,
+          "type": "true_false",
+          "content": "<p>圓柱側面展開後是一個長方形，這個長方形的長就是圓柱底面圓的<strong>直徑</strong>。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。圓柱側面展開圖的<strong>長等於底面圓的「圓周長」</strong>，也就是 $2\\pi r$，不是直徑 $2r$。寬才是圓柱的高。</p>"
+        },
+        {
+          "id": "g6b_ch2_1_q3",
+          "number": 3,
+          "type": "true_false",
+          "content": "<p>底面積與高都相同時，圓錐的體積是圓柱體積的 $\\dfrac{1}{3}$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。這是圓柱與圓錐最重要的關係：<strong>圓錐體積 $= \\dfrac{1}{3} \\times$ 底面積 $\\times$ 高</strong>，而圓柱體積 $=$ 底面積 $\\times$ 高，所以圓錐恰為圓柱的 $\\dfrac{1}{3}$。可以記成「三個錐剛好倒滿一個柱」。</p>"
+        },
+        {
+          "id": "g6b_ch2_1_q4",
+          "number": 4,
+          "type": "true_false",
+          "content": "<p>圓錐有一個頂點，圓柱沒有頂點。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。<strong>圓錐有一個尖尖的頂點</strong>，側面從這個頂點延伸到底面圓周；圓柱兩端都是平面圓形，<strong>沒有頂點</strong>。</p>"
+        },
+        {
+          "id": "g6b_ch2_1_q5",
+          "number": 5,
+          "type": "true_false",
+          "content": "<p>圓錐展開後，側面是一個三角形。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。圓錐的側面是「<strong>曲面</strong>」展開後變成<strong>扇形</strong>（不是三角形）。扇形的半徑等於母線長，弧長等於底面圓周長。</p>"
+        }
+      ]
+    },
+    {
+      "type": "single_choice",
+      "name": "單選題",
+      "questions": [
+        {
+          "id": "g6b_ch2_1_q6",
+          "number": 6,
+          "type": "single_choice",
+          "content": "<p>下列哪一項<strong>不是</strong>圓柱的特徵？</p><p>A. 有兩個底面</p><p>B. 兩底面是大小相同的圓形</p><p>C. 側面展開後是長方形</p><p>D. 有一個頂點</p>",
+          "answer": "D",
+          "explanation": "<p>圓柱兩端是<strong>兩個全等的圓形</strong>，側面展開為長方形，<strong>沒有頂點</strong>。有頂點的是圓錐，故 D 不是圓柱的特徵。答案 D。</p>"
+        },
+        {
+          "id": "g6b_ch2_1_q7",
+          "number": 7,
+          "type": "single_choice",
+          "content": "<p>圓錐的「母線」是指哪一條線段？</p><p>A. 底面圓的半徑</p><p>B. 從頂點到底面圓心的垂直線</p><p>C. 從頂點到底面圓周上任一點的線段</p><p>D. 底面圓的直徑</p>",
+          "answer": "C",
+          "explanation": "<p><strong>母線</strong>是圓錐側面上由<strong>頂點延伸到底面圓周</strong>的線段，是側面展開後扇形的半徑。B 是「高」，A、D 都在底面，不是母線。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch2_1_q8",
+          "number": 8,
+          "type": "single_choice",
+          "content": "<p>一個圓柱底面半徑 $5$ 公分、高 $10$ 公分，側面展開後的長方形，長是多少公分？（$\\pi \\approx 3.14$）</p><p>A. $31.4$</p><p>B. $15.7$</p><p>C. $10$</p><p>D. $50$</p>",
+          "answer": "A",
+          "explanation": "<p>側面展開後長方形的<strong>長 $=$ 底面圓周長 $= 2\\pi r$</strong>。代入 $r = 5$：$2 \\times 3.14 \\times 5 = 31.4$ 公分。（寬則是高 $= 10$，不要混淆。）答案 A。</p>"
+        },
+        {
+          "id": "g6b_ch2_1_q9",
+          "number": 9,
+          "type": "single_choice",
+          "content": "<p>底面半徑 $2$ 公分、高 $5$ 公分的圓柱，體積是多少立方公分？（$\\pi \\approx 3.14$）</p><p>A. $20$</p><p>B. $31.4$</p><p>C. $62.8$</p><p>D. $125.6$</p>",
+          "answer": "C",
+          "explanation": "<p>圓柱體積 $= \\pi r^2 \\times h = 3.14 \\times 2^2 \\times 5 = 3.14 \\times 4 \\times 5 = 3.14 \\times 20 = 62.8$ 立方公分。<strong>注意先算 $r^2 = 4$，再乘 $\\pi$ 與 $h$</strong>。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch2_1_q10",
+          "number": 10,
+          "type": "single_choice",
+          "content": "<p>一個圓錐的底面半徑 $3$ 公分、高 $4$ 公分，體積是多少立方公分？（$\\pi \\approx 3.14$）</p><p>A. $12.56$</p><p>B. $37.68$</p><p>C. $113.04$</p><p>D. $9.42$</p>",
+          "answer": "B",
+          "explanation": "<p>圓錐體積 $= \\dfrac{1}{3} \\times \\pi r^2 \\times h = \\dfrac{1}{3} \\times 3.14 \\times 3^2 \\times 4 = \\dfrac{1}{3} \\times 3.14 \\times 9 \\times 4 = \\dfrac{1}{3} \\times 113.04 = 37.68$ 立方公分。<strong>別忘了乘 $\\dfrac{1}{3}$</strong>，否則會算成 $113.04$（那是同尺寸圓柱的體積）。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch2_1_q11",
+          "number": 11,
+          "type": "single_choice",
+          "content": "<p>圓柱與圓錐的底面積與高都相同，圓柱的體積是 $30$ 立方公分，圓錐的體積是多少立方公分？</p><p>A. $10$</p><p>B. $15$</p><p>C. $30$</p><p>D. $90$</p>",
+          "answer": "A",
+          "explanation": "<p>底面積與高都一樣時，<strong>圓錐 $= \\dfrac{1}{3} \\times$ 圓柱</strong>。所以 $30 \\times \\dfrac{1}{3} = 10$ 立方公分。答案 A。</p>"
+        },
+        {
+          "id": "g6b_ch2_1_q12",
+          "number": 12,
+          "type": "single_choice",
+          "content": "<p>一個圓柱形水桶底面半徑 $10$ 公分、高 $20$ 公分，裝滿水。將水全部倒入一個底面積與高都相同的圓錐形容器，會發生什麼？</p><p>A. 圓錐裝得下，還有空間</p><p>B. 圓錐剛好裝滿</p><p>C. 圓錐裝不下，水會滿出來</p><p>D. 無法判斷</p>",
+          "answer": "C",
+          "explanation": "<p>同底同高時，<strong>圓柱體積 $= 3 \\times$ 圓錐體積</strong>。圓柱裝滿的水有圓錐的 $3$ 倍，當然<strong>裝不下</strong>，會溢出 $2$ 個圓錐的量。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch2_1_q13",
+          "number": 13,
+          "type": "single_choice",
+          "content": "<p>下列敘述何者<strong>正確</strong>？</p><p>A. 圓柱的高一定比底面半徑長</p><p>B. 圓錐的母線比高短</p><p>C. 圓柱的側面展開後是平行四邊形</p><p>D. 圓錐的母線比高長</p>",
+          "answer": "D",
+          "explanation": "<p>圓錐的高、底面半徑、母線形成<strong>直角三角形</strong>，母線是斜邊，所以<strong>母線 $>$ 高</strong>、母線 $>$ 半徑。A 不一定（柱可矮可高）；B 與事實相反；C 圓柱側面展開是長方形。答案 D。</p>"
+        },
+        {
+          "id": "g6b_ch2_1_q14",
+          "number": 14,
+          "type": "single_choice",
+          "content": "<p>製作一個圓柱形紙筒，底面半徑 $4$ 公分、高 $10$ 公分。側面所需長方形紙的面積是多少平方公分？（$\\pi \\approx 3.14$）</p><p>A. $40$</p><p>B. $125.6$</p><p>C. $251.2$</p><p>D. $502.4$</p>",
+          "answer": "C",
+          "explanation": "<p>側面長方形<strong>長 $=$ 底面圓周長 $= 2\\pi r = 2 \\times 3.14 \\times 4 = 25.12$</strong> 公分，<strong>寬 $=$ 高 $= 10$ 公分</strong>，所以面積 $= 25.12 \\times 10 = 251.2$ 平方公分。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch2_1_q15",
+          "number": 15,
+          "type": "single_choice",
+          "content": "<p>一個圓錐形冰淇淋甜筒，底面半徑 $3$ 公分、高 $9$ 公分，裝滿冰淇淋（剛好平面）。一球冰淇淋約 $30$ 立方公分，這個甜筒大約裝幾球？（$\\pi \\approx 3.14$）</p><p>A. $1$ 球</p><p>B. $2$ 球</p><p>C. $3$ 球</p><p>D. $5$ 球</p>",
+          "answer": "C",
+          "explanation": "<p>甜筒體積 $= \\dfrac{1}{3} \\times \\pi r^2 \\times h = \\dfrac{1}{3} \\times 3.14 \\times 3^2 \\times 9 = \\dfrac{1}{3} \\times 3.14 \\times 81 = \\dfrac{1}{3} \\times 254.34 = 84.78$ 立方公分。$84.78 \\div 30 \\approx 2.83$，<strong>大約 $3$ 球</strong>（取最接近的整數）。答案 C。</p>"
+        }
+      ]
+    }
+  ]
 }

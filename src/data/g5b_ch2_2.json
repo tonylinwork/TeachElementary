@@ -1,5 +1,138 @@
 {
   "title": "小五下 2-2 分數的除法",
-  "summary": "<h1>小五　分數的除法　教學重點</h1>\n\n    <!-- 知識點 1 -->\n    <h2>知識點 1：倒數的定義與性質</h2>\n\n    <h3>核心定理／公式</h3>\n    <ul>\n      <li><strong>倒數定義</strong>：兩數相乘等於 <code>1</code>，這兩個數互為倒數</li>\n      <li>分數 <code>a/b</code>（a、b 皆不為 0）的倒數是 <code>b/a</code></li>\n      <li>整數 <code>n</code>（n ≠ 0）可看成 <code>n/1</code>，其倒數為 <code>1/n</code></li>\n      <li><code>1</code> 的倒數是 <code>1</code>；<strong><code>0</code> 沒有倒數</strong>（無法找到一數使 0 × ? = 1）</li>\n      <li>帶分數要<strong>先化為假分數</strong>再取倒數，例：<code>2⅓ = 7/3</code>，倒數為 <code>3/7</code></li>\n    </ul>\n\n    <h3>常見考法／注意事項</h3>\n    <ul>\n      <li>直接問「X 的倒數是多少」要先判斷 X 是整數、分數還是帶分數</li>\n      <li>看到帶分數務必先化假分數，不能把整數部分跟分數部分分別取倒數</li>\n      <li>「<code>0</code> 沒有倒數」是常考觀念，跟「除數不能為 0」相呼應</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 2 -->\n    <h2>知識點 2：整數除以分數</h2>\n\n    <h3>核心定理／公式</h3>\n    <ul>\n      <li><strong>公式</strong>：<code>n ÷ a/b = n × b/a</code></li>\n      <li><strong>原理</strong>：<code>n ÷ a/b</code> 在問「<code>n</code> 裡有幾個 <code>a/b</code>」\n        <ul>\n          <li>例：<code>1 ÷ 1/4 = 4</code>，因為 1 裡面有 4 個 1/4</li>\n          <li>例：<code>6 ÷ 2/3 = 6 × 3/2 = 9</code>，因為 6 裡面有 9 個 2/3</li>\n        </ul>\n      </li>\n      <li><strong>觀察重點</strong>：除以一個小於 1 的分數，商會<strong>變大</strong>（被切得更細的份數更多）</li>\n    </ul>\n\n    <h3>常見考法／注意事項</h3>\n    <ul>\n      <li>整數要先寫成 <code>n/1</code> 比較好操作，熟練後可直接乘倒數</li>\n      <li>結果若可約分要<strong>先約分再算</strong>；先約分後相乘比較不會算錯</li>\n      <li>「商比被除數大」這件事跟整數除法直覺相反，學生易誤判</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 3 -->\n    <h2>知識點 3：分數除以整數</h2>\n\n    <h3>核心定理／公式</h3>\n    <ul>\n      <li><strong>公式</strong>：<code>a/b ÷ n = a/b × 1/n = a/(b × n)</code></li>\n      <li><strong>原理</strong>：把 <code>a/b</code> 平均分成 <code>n</code> 份，每份是原來的 <code>1/n</code>\n        <ul>\n          <li>例：<code>3/4 ÷ 2 = 3/4 × 1/2 = 3/8</code></li>\n          <li>例：<code>6/7 ÷ 3 = 6/(7 × 3) = 6/21 = 2/7</code></li>\n        </ul>\n      </li>\n      <li>整數可看成 <code>n/1</code>，其倒數為 <code>1/n</code>，再套乘倒數規則</li>\n    </ul>\n\n    <h3>常見考法／注意事項</h3>\n    <ul>\n      <li>別把整數寫到分母錯位置：<code>a/b ÷ n</code> 是<strong>分母乘 n</strong>，不是分子</li>\n      <li>若分子能被整數整除，直接讓分子除以該整數會更快（例：<code>6/7 ÷ 3 = 2/7</code>）</li>\n      <li>結果務必約到最簡分數</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 4 -->\n    <h2>知識點 4：分數除以分數</h2>\n\n    <h3>核心定理／公式</h3>\n    <ul>\n      <li><strong>公式</strong>：<code>a/b ÷ c/d = a/b × d/c = (a × d) / (b × c)</code></li>\n      <li><strong>口訣</strong>：「<strong>除以一個數，等於乘以它的倒數</strong>」</li>\n    </ul>\n\n    <h3>步驟</h3>\n    <ol>\n      <li>確認被除數、除數都是分數（帶分數先化假分數）</li>\n      <li>除號改乘號，除數取倒數</li>\n      <li>能約分先約分（交叉約分更快）</li>\n      <li>相乘並化為最簡分數，必要時化為帶分數</li>\n    </ol>\n\n    <h3>原理（為什麼除以分數等於乘以倒數）</h3>\n    <ul>\n      <li>利用「分子分母同乘」不改變分數值：<br>\n        <code>(a/b) ÷ (c/d) = (a/b × d/c) / (c/d × d/c) = (a/b × d/c) / 1 = a/b × d/c</code></li>\n      <li>直觀說：<code>c/d</code> 的倒數 <code>d/c</code> 是「讓 <code>c/d</code> 變成 <code>1</code> 的放大倍數」，除法用倒數轉成乘法</li>\n    </ul>\n\n    <h3>常見考法／注意事項</h3>\n    <ul>\n      <li><strong>只取除數的倒數</strong>，被除數不要動（這是最常見的錯誤）</li>\n      <li>除號改成乘號之後才取倒數，順序不要顛倒</li>\n      <li>帶分數忘記化假分數會整題錯</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 5 -->\n    <h2>知識點 5：帶分數的除法</h2>\n\n    <h3>核心定理／公式</h3>\n    <ul>\n      <li><strong>第一步永遠是</strong>：把帶分數化成假分數</li>\n      <li>帶分數 <code>n a/b = (n × b + a) / b</code></li>\n      <li>例：<code>2⅓ = (2 × 3 + 1)/3 = 7/3</code></li>\n      <li>化完之後就是分數 ÷ 分數，套用乘倒數規則</li>\n    </ul>\n\n    <h3>例題：1½ ÷ 2¼</h3>\n    <ol>\n      <li>化假分數：<code>3/2 ÷ 9/4</code></li>\n      <li>乘倒數：<code>3/2 × 4/9</code></li>\n      <li>約分：<code>(3 × 4) / (2 × 9) = 12/18 = 2/3</code></li>\n    </ol>\n\n    <h3>常見考法／注意事項</h3>\n    <ul>\n      <li><strong>不可以</strong>把帶分數的整數部分跟分數部分分開除</li>\n      <li>結果若大於 <code>1</code>，依題目要求決定要不要再化回帶分數</li>\n      <li>計算過程中盡量保持假分數，最後再轉換</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 6 -->\n    <h2>知識點 6：應用題三大情境</h2>\n\n    <h3>情境 A：平均分配（分數 ÷ 整數）</h3>\n    <ul>\n      <li>「把 X 平均分給 N 個人，每人多少」→ <code>X ÷ N</code></li>\n      <li>例：<code>3/4</code> 公升的果汁平均分給 2 個人，每人喝 <code>3/4 ÷ 2 = 3/8</code> 公升</li>\n    </ul>\n\n    <h3>情境 B：求單位量（總量 ÷ 數量 = 每單位的量）</h3>\n    <ul>\n      <li>「N 個東西共重 X，每個重多少」→ <code>X ÷ N</code></li>\n      <li>例：5 條繩子共 <code>2/3</code> 公尺，每條 <code>2/3 ÷ 5 = 2/15</code> 公尺</li>\n    </ul>\n\n    <h3>情境 C：求單位數（總量 ÷ 每單位的量 = 共有幾單位）</h3>\n    <ul>\n      <li>「X 裡面有幾個 Y」→ <code>X ÷ Y</code>（這類題目除數通常是分數）</li>\n      <li>例：3 公升的水，每杯裝 <code>1/4</code> 公升，可裝 <code>3 ÷ 1/4 = 12</code> 杯</li>\n      <li>例：<code>5/6</code> 公尺的緞帶，每段 <code>1/6</code> 公尺，可剪 <code>5/6 ÷ 1/6 = 5</code> 段</li>\n    </ul>\n\n    <h3>常見考法／注意事項</h3>\n    <ul>\n      <li>看到「平均分」「每人」「每個」→ 通常是<strong>除以整數</strong></li>\n      <li>看到「每……可以裝幾杯／剪幾段／包幾包」→ 通常是<strong>除以分數</strong></li>\n      <li><strong>判斷誰是被除數、誰是除數</strong>比會不會算還重要；列式前先想清楚單位</li>\n    </ul>\n\n    <hr>\n\n    <!-- 知識點 7 -->\n    <h2>知識點 7：「÷ a/b = × b/a」口訣與整體規則</h2>\n\n    <h3>核心口訣</h3>\n    <ul>\n      <li><strong>除以一個數 = 乘以它的倒數</strong>（除以非零數皆成立，包含整數、分數、帶分數）</li>\n      <li>應用時三件事一次做完：\n        <ol>\n          <li><strong>除號</strong> → 改成 <strong>乘號</strong></li>\n          <li><strong>除數</strong> → 取 <strong>倒數</strong></li>\n          <li><strong>被除數</strong> → <strong>不動</strong></li>\n        </ol>\n      </li>\n    </ul>\n\n    <h3>整數、分數、帶分數通用比較</h3>\n    <table>\n      <thead>\n        <tr>\n          <th>算式型態</th>\n          <th>處理方式</th>\n          <th>範例</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td>整數 ÷ 整數</td>\n          <td>直接算或寫成分數</td>\n          <td>6 ÷ 4 = 6/4 = 3/2</td>\n        </tr>\n        <tr>\n          <td>整數 ÷ 分數</td>\n          <td>整數 × 分數倒數</td>\n          <td>6 ÷ 2/3 = 6 × 3/2 = 9</td>\n        </tr>\n        <tr>\n          <td>分數 ÷ 整數</td>\n          <td>分數 × 整數倒數</td>\n          <td>3/4 ÷ 2 = 3/4 × 1/2 = 3/8</td>\n        </tr>\n        <tr>\n          <td>分數 ÷ 分數</td>\n          <td>分數 × 除數倒數</td>\n          <td>3/4 ÷ 2/5 = 3/4 × 5/2 = 15/8</td>\n        </tr>\n        <tr>\n          <td>帶分數參與</td>\n          <td>先化假分數再套上面</td>\n          <td>1½ ÷ 2¼ = 3/2 × 4/9 = 2/3</td>\n        </tr>\n      </tbody>\n    </table>\n\n    <hr>\n\n    <!-- 易錯點 -->\n    <h2>易錯點整理</h2>\n    <ul>\n      <li><strong>把被除數也取倒數</strong>：<code>a/b ÷ c/d</code> 只取 <code>c/d</code> 的倒數，<code>a/b</code> 保持不動</li>\n      <li><strong>帶分數沒先化假分數</strong>：直接拆開算整數和分數，必錯</li>\n      <li><strong>以為商一定比被除數小</strong>：除以小於 <code>1</code> 的分數，商會變大</li>\n      <li><strong><code>0</code> 也找倒數</strong>：<code>0</code> 沒有倒數，除數也不能為 <code>0</code></li>\n      <li><strong>整數除分數時整數忘記寫成 <code>n/1</code></strong>：寫成 <code>n/1</code> 比較不會把整數放錯位置</li>\n      <li><strong>最後沒約分到最簡</strong>：分數答案規定要化最簡，必要時再轉帶分數</li>\n    </ul>\n\n    <hr>\n\n    <!-- 常見題型 -->\n    <div class=\"exam-section\">\n      <h2>常見題型</h2>\n      <ol>\n        <li><strong>直接計算題</strong>：給一個分數除法算式，化帶分數→乘倒數→約分→化最簡分數。</li>\n        <li><strong>倒數判斷</strong>：給整數、真分數、假分數、帶分數，問其倒數；陷阱常出現在帶分數與 <code>0</code>。</li>\n        <li><strong>平均分配</strong>：「X 平均分給 N 人，每人多少」，列式 <code>X ÷ N</code>。</li>\n        <li><strong>單位量</strong>：「N 個東西共 X，每個多少」，列式 <code>X ÷ N</code>。</li>\n        <li><strong>單位數（容器／段數）</strong>：「總量 X，每份 Y，可分幾份」，列式 <code>X ÷ Y</code>（除數為分數，商會變大）。</li>\n        <li><strong>連除與混合運算</strong>：<code>a ÷ b ÷ c</code> 同時改乘倒數，或結合加減乘除依運算順序計算。</li>\n        <li><strong>逆推題</strong>：給商與除數求被除數（<code>被除數 = 商 × 除數</code>），或給商與被除數求除數（<code>除數 = 被除數 ÷ 商</code>）。</li>\n      </ol>\n    </div>\n\n    <hr>\n\n    <!-- 教材來源 -->\n    <h2>💡 教材來源說明</h2>\n    <ul>\n      <li>本章依台灣國小數學標準課綱整理，無對應影片逐字稿。</li>\n    </ul>",
-  "sections": []
+  "summary": "<ul><li><strong>倒數定義</strong>：兩數相乘為 $1$ 時互為倒數。分數 $\\dfrac{a}{b}$ 的倒數是 $\\dfrac{b}{a}$（$a, b \\neq 0$），整數 $n$ 的倒數是 $\\dfrac{1}{n}$，<strong>$0$ 沒有倒數</strong>。</li><li><strong>除以分數的核心公式</strong>：$a \\div \\dfrac{b}{c} = a \\times \\dfrac{c}{b}$。除號改乘號、除數取倒數、被除數不動，三件事一次做完。</li><li><strong>原理</strong>：「$a \\div \\dfrac{b}{c}$」在問「$a$ 裡有幾個 $\\dfrac{b}{c}$」，例如 $1 \\div \\dfrac{1}{4} = 4$（$1$ 裡有 $4$ 個 $\\dfrac{1}{4}$）。</li><li><strong>分數除以整數</strong>：$\\dfrac{a}{b} \\div n = \\dfrac{a}{b \\times n}$，把整數寫成 $\\dfrac{n}{1}$ 取倒數變 $\\dfrac{1}{n}$，再相乘。</li><li><strong>除以 $< 1$ 的分數商會變大</strong>：和「除法讓結果變小」的直覺相反，例如 $6 \\div \\dfrac{2}{3} = 9 > 6$。</li><li><strong>應用題判斷</strong>：看到「平均分／每人」常是除以整數；看到「每……可裝幾杯／剪幾段」常是除以分數。</li></ul>",
+  "sections": [
+    {
+      "type": "true_false",
+      "name": "是非題",
+      "questions": [
+        {
+          "id": "g5b_ch2_2_q1",
+          "number": 1,
+          "type": "true_false",
+          "content": "<p>$0$ 的倒數是 $0$。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。倒數的定義是「兩數相乘為 $1$」，但 $0 \\times $ 任何數 $= 0 \\neq 1$，所以<strong>$0$ 沒有倒數</strong>。這也是「除數不能為 $0$」的同一個觀念。</p>"
+        },
+        {
+          "id": "g5b_ch2_2_q2",
+          "number": 2,
+          "type": "true_false",
+          "content": "<p>計算 $\\dfrac{3}{4} \\div \\dfrac{2}{5}$ 時，要把 $\\dfrac{3}{4}$ 和 $\\dfrac{2}{5}$ 都取倒數再相乘。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。<strong>只取除數的倒數</strong>，被除數不動：$\\dfrac{3}{4} \\div \\dfrac{2}{5} = \\dfrac{3}{4} \\times \\dfrac{5}{2} = \\dfrac{15}{8}$。如果兩個都倒過來會算錯。</p>"
+        },
+        {
+          "id": "g5b_ch2_2_q3",
+          "number": 3,
+          "type": "true_false",
+          "content": "<p>$6 \\div \\dfrac{2}{3}$ 的商會比 $6$ 還大。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。<strong>除以小於 $1$ 的數，商會變大</strong>：$6 \\div \\dfrac{2}{3} = 6 \\times \\dfrac{3}{2} = 9 > 6$。意義是「$6$ 裡有 $9$ 個 $\\dfrac{2}{3}$」。和整數除法「越除越少」的直覺相反，要特別注意。</p>"
+        },
+        {
+          "id": "g5b_ch2_2_q4",
+          "number": 4,
+          "type": "true_false",
+          "content": "<p>$1\\dfrac{1}{2} \\div 2\\dfrac{1}{4}$ 可以直接算成 $(1 \\div 2)$ 加上 $(\\dfrac{1}{2} \\div \\dfrac{1}{4})$。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。帶分數<strong>不能</strong>把整數和分數部分分開除。正確做法：先化假分數 $1\\dfrac{1}{2} = \\dfrac{3}{2}$、$2\\dfrac{1}{4} = \\dfrac{9}{4}$，再乘倒數：$\\dfrac{3}{2} \\times \\dfrac{4}{9} = \\dfrac{12}{18} = \\dfrac{2}{3}$。</p>"
+        },
+        {
+          "id": "g5b_ch2_2_q5",
+          "number": 5,
+          "type": "true_false",
+          "content": "<p>$\\dfrac{3}{4}$ 公升的果汁平均分給 $3$ 個人，每人喝 $\\dfrac{1}{4}$ 公升。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。平均分 $= $ 除法：$\\dfrac{3}{4} \\div 3 = \\dfrac{3}{4} \\times \\dfrac{1}{3} = \\dfrac{3}{12} = \\dfrac{1}{4}$ 公升。或直接想：$\\dfrac{3}{4}$ 有 $3$ 個 $\\dfrac{1}{4}$，平均分給 $3$ 人剛好每人 $\\dfrac{1}{4}$。</p>"
+        }
+      ]
+    },
+    {
+      "type": "single_choice",
+      "name": "單選題",
+      "questions": [
+        {
+          "id": "g5b_ch2_2_q6",
+          "number": 6,
+          "type": "single_choice",
+          "content": "<p>$2\\dfrac{1}{3}$ 的倒數是？</p><p>A. $\\dfrac{3}{1}$</p><p>B. $\\dfrac{1}{2}\\dfrac{1}{3}$</p><p>C. $\\dfrac{3}{7}$</p><p>D. $\\dfrac{7}{3}$</p>",
+          "answer": "C",
+          "explanation": "<p>帶分數要<strong>先化假分數</strong>再取倒數：$2\\dfrac{1}{3} = \\dfrac{7}{3}$，倒數是 $\\dfrac{3}{7}$。檢查：$\\dfrac{7}{3} \\times \\dfrac{3}{7} = 1$ ✓。不能把 $2$ 和 $\\dfrac{1}{3}$ 分開取倒數。答案 C。</p>"
+        },
+        {
+          "id": "g5b_ch2_2_q7",
+          "number": 7,
+          "type": "single_choice",
+          "content": "<p>$1 \\div \\dfrac{1}{5} = ?$</p><p>A. $\\dfrac{1}{5}$</p><p>B. $5$</p><p>C. $\\dfrac{5}{1}$（與 $5$ 相同）</p><p>D. $\\dfrac{1}{6}$</p>",
+          "answer": "B",
+          "explanation": "<p>$1 \\div \\dfrac{1}{5} = 1 \\times \\dfrac{5}{1} = 5$。意義是「$1$ 裡有 $5$ 個 $\\dfrac{1}{5}$」。選項 C 雖然數值也等於 $5$，但題目要的是<strong>標準答案形式</strong>。答案 B。</p>"
+        },
+        {
+          "id": "g5b_ch2_2_q8",
+          "number": 8,
+          "type": "single_choice",
+          "content": "<p>$\\dfrac{6}{7} \\div 3 = ?$</p><p>A. $\\dfrac{6}{21}$</p><p>B. $\\dfrac{2}{7}$</p><p>C. $\\dfrac{18}{7}$</p><p>D. $\\dfrac{1}{7}$</p>",
+          "answer": "B",
+          "explanation": "<p>分數除以整數 $= $ 乘以該整數的倒數：$\\dfrac{6}{7} \\div 3 = \\dfrac{6}{7} \\times \\dfrac{1}{3} = \\dfrac{6}{21} = \\dfrac{2}{7}$。或<strong>更快</strong>：分子 $6$ 可被 $3$ 整除，直接 $\\dfrac{6 \\div 3}{7} = \\dfrac{2}{7}$。答案 B。</p>"
+        },
+        {
+          "id": "g5b_ch2_2_q9",
+          "number": 9,
+          "type": "single_choice",
+          "content": "<p>$\\dfrac{5}{8} \\div \\dfrac{15}{16} = ?$</p><p>A. $\\dfrac{75}{128}$</p><p>B. $\\dfrac{2}{3}$</p><p>C. $\\dfrac{3}{2}$</p><p>D. $\\dfrac{8}{15}$</p>",
+          "answer": "B",
+          "explanation": "<p>除號改乘號、除數取倒數：$\\dfrac{5}{8} \\div \\dfrac{15}{16} = \\dfrac{5}{8} \\times \\dfrac{16}{15}$。約分：$5$ 與 $15$ 同除 $5$（變 $1$ 與 $3$）、$16$ 與 $8$ 同除 $8$（變 $2$ 與 $1$）→ $\\dfrac{1 \\times 2}{1 \\times 3} = \\dfrac{2}{3}$。答案 B。</p>"
+        },
+        {
+          "id": "g5b_ch2_2_q10",
+          "number": 10,
+          "type": "single_choice",
+          "content": "<p>$1\\dfrac{1}{2} \\div 2\\dfrac{1}{4} = ?$</p><p>A. $\\dfrac{2}{3}$</p><p>B. $\\dfrac{3}{8}$</p><p>C. $\\dfrac{27}{8}$</p><p>D. $\\dfrac{8}{3}$</p>",
+          "answer": "A",
+          "explanation": "<p>先化假分數：$1\\dfrac{1}{2} = \\dfrac{3}{2}$、$2\\dfrac{1}{4} = \\dfrac{9}{4}$。$\\dfrac{3}{2} \\div \\dfrac{9}{4} = \\dfrac{3}{2} \\times \\dfrac{4}{9}$。約分：$3$ 與 $9$ 同除 $3$（變 $1$ 與 $3$）、$4$ 與 $2$ 同除 $2$（變 $2$ 與 $1$）→ $\\dfrac{1 \\times 2}{1 \\times 3} = \\dfrac{2}{3}$。答案 A。</p>"
+        },
+        {
+          "id": "g5b_ch2_2_q11",
+          "number": 11,
+          "type": "single_choice",
+          "content": "<p>下列哪一個算式的<strong>商最大</strong>？</p><p>A. $4 \\div \\dfrac{1}{2}$</p><p>B. $4 \\div 2$</p><p>C. $4 \\div \\dfrac{1}{4}$</p><p>D. $4 \\div 4$</p>",
+          "answer": "C",
+          "explanation": "<p>被除數都是 $4$，<strong>除數越小、商越大</strong>。A：$4 \\div \\dfrac{1}{2} = 8$；B：$4 \\div 2 = 2$；C：$4 \\div \\dfrac{1}{4} = 16$；D：$4 \\div 4 = 1$。$16 > 8 > 2 > 1$，所以 C 最大。答案 C。</p>"
+        },
+        {
+          "id": "g5b_ch2_2_q12",
+          "number": 12,
+          "type": "single_choice",
+          "content": "<p>$3$ 公升的水，每杯裝 $\\dfrac{1}{4}$ 公升，可以裝幾杯？</p><p>A. $\\dfrac{3}{4}$ 杯</p><p>B. $3\\dfrac{1}{4}$ 杯</p><p>C. $12$ 杯</p><p>D. $\\dfrac{4}{3}$ 杯</p>",
+          "answer": "C",
+          "explanation": "<p>「總量 $\\div $ 每杯量 $= $ 杯數」：$3 \\div \\dfrac{1}{4} = 3 \\times 4 = 12$ 杯。意義是「$3$ 裡有 $12$ 個 $\\dfrac{1}{4}$」。答案 C。</p>"
+        },
+        {
+          "id": "g5b_ch2_2_q13",
+          "number": 13,
+          "type": "single_choice",
+          "content": "<p>$\\dfrac{5}{6}$ 公尺的緞帶，每段剪 $\\dfrac{1}{6}$ 公尺，可剪幾段？</p><p>A. $5$ 段</p><p>B. $6$ 段</p><p>C. $\\dfrac{5}{36}$ 段</p><p>D. $30$ 段</p>",
+          "answer": "A",
+          "explanation": "<p>$\\dfrac{5}{6} \\div \\dfrac{1}{6} = \\dfrac{5}{6} \\times \\dfrac{6}{1}$，$6$ 與 $6$ 消掉 $= 5$ 段。<strong>同分母分數相除可直接看分子</strong>：$\\dfrac{5}{6}$ 有 $5$ 個 $\\dfrac{1}{6}$。答案 A。</p>"
+        },
+        {
+          "id": "g5b_ch2_2_q14",
+          "number": 14,
+          "type": "single_choice",
+          "content": "<p>$5$ 條一樣長的繩子共長 $\\dfrac{2}{3}$ 公尺，每條繩子多長？</p><p>A. $\\dfrac{2}{15}$ 公尺</p><p>B. $\\dfrac{10}{3}$ 公尺</p><p>C. $\\dfrac{5}{6}$ 公尺</p><p>D. $\\dfrac{15}{2}$ 公尺</p>",
+          "answer": "A",
+          "explanation": "<p>平均分：$\\dfrac{2}{3} \\div 5 = \\dfrac{2}{3} \\times \\dfrac{1}{5} = \\dfrac{2}{15}$ 公尺。<strong>除以整數 = 分母乘以該整數</strong>。答案 A。</p>"
+        },
+        {
+          "id": "g5b_ch2_2_q15",
+          "number": 15,
+          "type": "single_choice",
+          "content": "<p>某數除以 $\\dfrac{3}{4}$ 後得到 $\\dfrac{8}{9}$，這個數是多少？</p><p>A. $\\dfrac{2}{3}$</p><p>B. $\\dfrac{32}{27}$</p><p>C. $\\dfrac{27}{32}$</p><p>D. $\\dfrac{8}{27}$</p>",
+          "answer": "A",
+          "explanation": "<p>逆推：「被除數 $= $ 商 $\\times $ 除數」。某數 $= \\dfrac{8}{9} \\times \\dfrac{3}{4}$。約分：$8$ 與 $4$ 同除 $4$（變 $2$ 與 $1$）、$3$ 與 $9$ 同除 $3$（變 $1$ 與 $3$）→ $\\dfrac{2 \\times 1}{3 \\times 1} = \\dfrac{2}{3}$。驗算：$\\dfrac{2}{3} \\div \\dfrac{3}{4} = \\dfrac{2}{3} \\times \\dfrac{4}{3} = \\dfrac{8}{9}$ ✓。答案 A。</p>"
+        }
+      ]
+    }
+  ]
 }
