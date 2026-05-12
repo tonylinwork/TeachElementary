@@ -45,6 +45,46 @@
           "content": "<p>圓有無限多條對稱軸。</p>",
           "answer": "○",
           "explanation": "<p>正確。圓的<strong>任一條直徑</strong>都是對稱軸（沿任何一條直徑對折，兩半都會完全重合），而直徑有無限多條，所以圓有無限多條對稱軸。圓心則同時是對稱中心。</p>"
+        },
+        {
+          "id": "g6b_ch4_1_q16",
+          "number": 16,
+          "type": "true_false",
+          "content": "<p>正五邊形有 $5$ 條對稱軸。</p>",
+          "answer": "○",
+          "explanation": "<p>正 $n$ 邊形有 $n$ 條對稱軸，所以正五邊形有 $5$ 條對稱軸。每一條對稱軸都會通過一個頂點和對邊的中點。</p>"
+        },
+        {
+          "id": "g6b_ch4_1_q17",
+          "number": 17,
+          "type": "true_false",
+          "content": "<p>兩個圖形面積相等，就一定全等。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。面積相等只代表大小的面積相同，不代表形狀完全相同。例如 $2 \times 6$ 和 $3 \times 4$ 的長方形面積都是 $12$，但形狀不同，不全等。</p>"
+        },
+        {
+          "id": "g6b_ch4_1_q18",
+          "number": 18,
+          "type": "true_false",
+          "content": "<p>線對稱圖形中，對應點的連線一定會被對稱軸垂直平分。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。線對稱的對應點到對稱軸距離相等，且對應點連線與對稱軸垂直，所以對稱軸會垂直平分對應點的連線。</p>"
+        },
+        {
+          "id": "g6b_ch4_1_q19",
+          "number": 19,
+          "type": "true_false",
+          "content": "<p>兩個全等三角形的周長一定相等。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。全等三角形的三組對應邊都相等，所以三邊相加後的周長也一定相等。</p>"
+        },
+        {
+          "id": "g6b_ch4_1_q20",
+          "number": 20,
+          "type": "true_false",
+          "content": "<p>只要兩個三角形有兩邊分別相等，就一定全等。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。只有兩邊相等還不夠，第三邊或夾角可能不同。判定全等需要像 SSS、SAS、ASA 這類足夠條件。</p>"
         }
       ]
     },
@@ -131,6 +171,86 @@
           "content": "<p>$\\triangle ABC$ 中，$\\overline{AB} = \\overline{AC} = 5\\text{ cm}$、$\\overline{BC} = 6\\text{ cm}$；$\\triangle DEF$ 中，$\\overline{DE} = \\overline{DF} = 5\\text{ cm}$、$\\overline{EF} = 6\\text{ cm}$。兩三角形的關係是？</p><p>A. 相似但不全等</p><p>B. 全等（由 SSS 判定）</p><p>C. 全等（由 ASA 判定）</p><p>D. 形狀完全不同</p>",
           "answer": "B",
           "explanation": "<p>三組對應邊都相等：$\\overline{AB} = \\overline{DE} = 5$、$\\overline{AC} = \\overline{DF} = 5$、$\\overline{BC} = \\overline{EF} = 6$，符合 <strong>SSS（邊邊邊）</strong>條件，所以 $\\triangle ABC \\cong \\triangle DEF$。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch4_1_q21",
+          "number": 21,
+          "type": "single_choice",
+          "content": "<p>下列哪一個圖形通常沒有對稱軸？</p><p>A. 正方形</p><p>B. 圓</p><p>C. 一般平行四邊形</p><p>D. 等腰梯形</p>",
+          "answer": "C",
+          "explanation": "<p>正方形有 $4$ 條，圓有無限多條，等腰梯形有 $1$ 條。一般平行四邊形無法沿任何直線對折重合，所以沒有對稱軸。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch4_1_q22",
+          "number": 22,
+          "type": "single_choice",
+          "content": "<p>長方形（非正方形）有幾條對稱軸？</p><p>A. $0$ 條</p><p>B. $1$ 條</p><p>C. $2$ 條</p><p>D. $4$ 條</p>",
+          "answer": "C",
+          "explanation": "<p>長方形有水平中線和垂直中線兩條對稱軸；對角線不是長方形的對稱軸（除非是正方形）。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch4_1_q23",
+          "number": 23,
+          "type": "single_choice",
+          "content": "<p>$\triangle PQR cong \triangle XYZ$，則 $angle Q$ 對應哪一個角？</p><p>A. $angle X$</p><p>B. $angle Y$</p><p>C. $angle Z$</p><p>D. 不能確定</p>",
+          "answer": "B",
+          "explanation": "<p>依字母順序對應：$P leftrightarrow X$、$Q leftrightarrow Y$、$R leftrightarrow Z$，所以 $angle Q$ 對應 $angle Y$。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch4_1_q24",
+          "number": 24,
+          "type": "single_choice",
+          "content": "<p>$\triangle PQR cong \triangle XYZ$，若 $overline{QR}=12\text{ cm}$，則下列哪一邊也是 $12\text{ cm}$？</p><p>A. $overline{XY}$</p><p>B. $overline{XZ}$</p><p>C. $overline{YZ}$</p><p>D. $overline{PX}$</p>",
+          "answer": "C",
+          "explanation": "<p>$Q leftrightarrow Y$、$R leftrightarrow Z$，所以 $overline{QR}$ 對應 $overline{YZ}$。全等圖形對應邊相等，因此 $overline{YZ}=12\text{ cm}$。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch4_1_q25",
+          "number": 25,
+          "type": "single_choice",
+          "content": "<p>下列哪一組條件可以判定兩三角形全等？</p><p>A. AAA</p><p>B. 只有一邊相等</p><p>C. SSS</p><p>D. 周長相等</p>",
+          "answer": "C",
+          "explanation": "<p>SSS 表示三組對應邊都相等，可以判定三角形全等。AAA 只能判定相似，周長相等或只有一邊相等都不足以判定全等。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch4_1_q26",
+          "number": 26,
+          "type": "single_choice",
+          "content": "<p>一個等腰三角形（非正三角形）的對稱軸會通過哪裡？</p><p>A. 兩個底角</p><p>B. 頂角與底邊中點</p><p>C. 任意兩邊中點</p><p>D. 三個頂點</p>",
+          "answer": "B",
+          "explanation": "<p>等腰三角形的唯一對稱軸會通過頂角，並垂直平分底邊，也就是通過頂角和底邊中點。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch4_1_q27",
+          "number": 27,
+          "type": "single_choice",
+          "content": "<p>若兩個全等圖形中的一個面積是 $48\text{ cm}^2$，另一個面積是多少？</p><p>A. $24\text{ cm}^2$</p><p>B. $48\text{ cm}^2$</p><p>C. $96\text{ cm}^2$</p><p>D. 不能確定</p>",
+          "answer": "B",
+          "explanation": "<p>全等圖形的形狀和大小都相同，所以面積也相同。另一個圖形面積是 $48\text{ cm}^2$。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch4_1_q28",
+          "number": 28,
+          "type": "single_choice",
+          "content": "<p>下列哪一個字母通常有水平對稱軸？</p><p>A. $B$</p><p>B. $C$</p><p>C. $T$</p><p>D. $L$</p>",
+          "answer": "B",
+          "explanation": "<p>以一般印刷大寫字母觀察，$C$ 上下可以對折重合，有水平對稱軸；$T$ 通常是垂直對稱，$L$ 沒有對稱軸。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch4_1_q29",
+          "number": 29,
+          "type": "single_choice",
+          "content": "<p>兩個三角形符合 SAS 全等條件時，SAS 中的 A 必須是什麼角？</p><p>A. 任意一個角</p><p>B. 兩邊的夾角</p><p>C. 最大的角</p><p>D. 最小的角</p>",
+          "answer": "B",
+          "explanation": "<p>SAS 是「兩邊及其夾角」對應相等，其中角必須是那兩條邊夾住的角，才足以判定全等。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch4_1_q30",
+          "number": 30,
+          "type": "single_choice",
+          "content": "<p>如果把一個圖形平移後能和另一個圖形完全重合，這兩個圖形的關係是？</p><p>A. 全等</p><p>B. 一定不相等</p><p>C. 只有面積相等</p><p>D. 只有周長相等</p>",
+          "answer": "A",
+          "explanation": "<p>平移不會改變圖形的形狀和大小。如果平移後能完全重合，表示兩個圖形全等。答案 A。</p>"
         }
       ]
     }

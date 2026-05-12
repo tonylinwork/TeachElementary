@@ -45,6 +45,46 @@
           "content": "<p>在圓形圖中，整個圓代表全部 $100\\%$，對應角度是 $360^\\circ$，所以 $25\\%$ 的扇形對應 $90^\\circ$。</p>",
           "answer": "○",
           "explanation": "<p>正確。<strong>扇形角度 $=$ 比率 $\\times 360^\\circ$</strong>。$25\\% \\times 360^\\circ = \\dfrac{1}{4} \\times 360^\\circ = 90^\\circ$。檢驗：$25\\%$ 是四分之一，所以剛好是 $360^\\circ$ 的四分之一 $= 90^\\circ$。</p>"
+        },
+        {
+          "id": "g6b_ch6_1_q16",
+          "number": 16,
+          "type": "true_false",
+          "content": "<p>一組資料若有極端值，平均數可能會被明顯拉高或拉低。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。平均數使用所有資料的總和計算，所以特別大或特別小的值會影響總和，進而影響平均數。</p>"
+        },
+        {
+          "id": "g6b_ch6_1_q17",
+          "number": 17,
+          "type": "true_false",
+          "content": "<p>資料 $2、4、6、8$ 的中位數是 $5$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。偶數筆資料取中間兩筆平均：$(4+6)div 2=5$。</p>"
+        },
+        {
+          "id": "g6b_ch6_1_q18",
+          "number": 18,
+          "type": "true_false",
+          "content": "<p>折線圖最適合呈現各部分占整體的百分比。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。各部分占整體的百分比通常用圓形圖呈現；折線圖適合呈現隨時間變化的趨勢。</p>"
+        },
+        {
+          "id": "g6b_ch6_1_q19",
+          "number": 19,
+          "type": "true_false",
+          "content": "<p>如果一組資料每個數都只出現一次，可能沒有眾數。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。眾數是出現次數最多的資料值；若每個值出現次數都一樣，通常可說沒有眾數。</p>"
+        },
+        {
+          "id": "g6b_ch6_1_q20",
+          "number": 20,
+          "type": "true_false",
+          "content": "<p>圓形圖中 $10%$ 的扇形角度是 $10^circ$。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。整個圓是 $360^circ$，$10%$ 的角度是 $0.1\times 360^circ=36^circ$。</p>"
         }
       ]
     },
@@ -131,6 +171,86 @@
           "content": "<p>袋中有 $10$ 顆球，其中 $7$ 顆紅球、$2$ 顆白球、$1$ 顆藍球。從袋中隨機抽出 $1$ 顆球，下列敘述何者<strong>正確</strong>？</p><p>A. 抽到藍球的可能性最大</p><p>B. 抽到紅球的可能性最大</p><p>C. 抽到三種顏色的可能性都一樣</p><p>D. 抽到白球的可能性最大</p>",
           "answer": "B",
           "explanation": "<p>同一袋中的球數越多，抽到的可能性越大。紅球 $7$ 顆 $>$ 白球 $2$ 顆 $>$ 藍球 $1$ 顆，所以<strong>抽到紅球的可能性最大</strong>。用機率語言：$P(\\text{紅}) = \\dfrac{7}{10}$、$P(\\text{白}) = \\dfrac{2}{10}$、$P(\\text{藍}) = \\dfrac{1}{10}$。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch6_1_q21",
+          "number": 21,
+          "type": "single_choice",
+          "content": "<p>資料 $64、70、76、80、90$ 的平均數是多少？</p><p>A. $70$</p><p>B. $74$</p><p>C. $76$</p><p>D. $80$</p>",
+          "answer": "C",
+          "explanation": "<p>總和 $=64+70+76+80+90=380$，平均 $=380div 5=76$。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch6_1_q22",
+          "number": 22,
+          "type": "single_choice",
+          "content": "<p>資料 $9、3、6、12、15$ 的中位數是多少？</p><p>A. $6$</p><p>B. $9$</p><p>C. $12$</p><p>D. $15$</p>",
+          "answer": "B",
+          "explanation": "<p>先排序：$3、6、9、12、15$，中間第 $3$ 筆是 $9$，所以中位數是 $9$。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch6_1_q23",
+          "number": 23,
+          "type": "single_choice",
+          "content": "<p>資料 $4、4、5、6、6、6、8$ 的眾數是多少？</p><p>A. $4$</p><p>B. $5$</p><p>C. $6$</p><p>D. $8$</p>",
+          "answer": "C",
+          "explanation": "<p>$6$ 出現 $3$ 次，次數最多，所以眾數是 $6$。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch6_1_q24",
+          "number": 24,
+          "type": "single_choice",
+          "content": "<p>某項目占全部的 $40%$，在圓形圖上的扇形角度是多少？</p><p>A. $40^circ$</p><p>B. $90^circ$</p><p>C. $120^circ$</p><p>D. $144^circ$</p>",
+          "answer": "D",
+          "explanation": "<p>扇形角度 $=40%\times 360^circ=0.4\times 360^circ=144^circ$。答案 D。</p>"
+        },
+        {
+          "id": "g6b_ch6_1_q25",
+          "number": 25,
+          "type": "single_choice",
+          "content": "<p>下列哪一種圖最適合比較四個班級的人數？</p><p>A. 長條圖</p><p>B. 折線圖</p><p>C. 圓形圖</p><p>D. 地圖</p>",
+          "answer": "A",
+          "explanation": "<p>比較不同類別的數量高低，最適合用長條圖。四個班級是四個類別，所以選 A。</p>"
+        },
+        {
+          "id": "g6b_ch6_1_q26",
+          "number": 26,
+          "type": "single_choice",
+          "content": "<p>小美前 $3$ 次測驗平均 $82$ 分，第 $4$ 次考 $94$ 分，四次平均是多少？</p><p>A. $84$</p><p>B. $85$</p><p>C. $86$</p><p>D. $88$</p>",
+          "answer": "B",
+          "explanation": "<p>前三次總分 $=82\times 3=246$，加第 $4$ 次後總分 $=246+94=340$，平均 $=340div 4=85$。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch6_1_q27",
+          "number": 27,
+          "type": "single_choice",
+          "content": "<p>袋中有 $3$ 顆紅球、$5$ 顆白球、$2$ 顆黑球，抽到哪一種球的可能性最大？</p><p>A. 紅球</p><p>B. 白球</p><p>C. 黑球</p><p>D. 一樣大</p>",
+          "answer": "B",
+          "explanation": "<p>白球有 $5$ 顆最多，所以抽到白球的可能性最大。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch6_1_q28",
+          "number": 28,
+          "type": "single_choice",
+          "content": "<p>某班 $60$ 人中有 $15$ 人喜歡游泳，喜歡游泳的人占全班幾％？</p><p>A. $15%$</p><p>B. $20%$</p><p>C. $25%$</p><p>D. $30%$</p>",
+          "answer": "C",
+          "explanation": "<p>比率 $=15div 60=dfrac{1}{4}=25%$。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch6_1_q29",
+          "number": 29,
+          "type": "single_choice",
+          "content": "<p>資料 $10、20、30、40、200$ 中，哪一個數是極端值？</p><p>A. $10$</p><p>B. $30$</p><p>C. $40$</p><p>D. $200$</p>",
+          "answer": "D",
+          "explanation": "<p>$200$ 和其他資料相差很大，是明顯的極端值，會使平均數被拉高。答案 D。</p>"
+        },
+        {
+          "id": "g6b_ch6_1_q30",
+          "number": 30,
+          "type": "single_choice",
+          "content": "<p>資料 $2、2、3、3、4、5$ 的眾數情形為何？</p><p>A. 只有 $2$</p><p>B. 只有 $3$</p><p>C. $2$ 和 $3$ 都是眾數</p><p>D. 沒有眾數</p>",
+          "answer": "C",
+          "explanation": "<p>$2$ 出現 $2$ 次，$3$ 也出現 $2$ 次，並列最多，所以 $2$ 和 $3$ 都是眾數。答案 C。</p>"
         }
       ]
     }
