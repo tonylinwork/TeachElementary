@@ -45,6 +45,46 @@
           "content": "<p>$72\\text{ km/hr}$ 換算成 $\\text{m/s}$ 是 $20\\text{ m/s}$。</p>",
           "answer": "○",
           "explanation": "<p>正確。$72\\text{ km/hr} = \\dfrac{72 \\times 1000\\text{ m}}{3600\\text{ s}} = \\dfrac{72000}{3600} = \\mathbf{20}\\text{ m/s}$。快速口訣：<strong>km/hr 換 m/s 時除以 $3.6$</strong>，$72 \\div 3.6 = 20$ ✓。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q16",
+          "number": 16,
+          "type": "true_false",
+          "content": "<p>路程可以用速率乘以時間求得。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。三量關係為：路程 $=$ 速率 $\\times$ 時間。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q17",
+          "number": 17,
+          "type": "true_false",
+          "content": "<p>平均速率一定等於兩段速率相加後除以 $2$。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。平均速率應用總路程除以總時間，不能直接平均兩段速率。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q18",
+          "number": 18,
+          "type": "true_false",
+          "content": "<p>$1$ 小時等於 $3600$ 秒。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。$1$ 小時 $=60$ 分，$1$ 分 $=60$ 秒，所以 $1$ 小時 $=3600$ 秒。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q19",
+          "number": 19,
+          "type": "true_false",
+          "content": "<p>相遇問題中，兩人相向而行時要把速率相加。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。相向而行時兩人共同縮短距離，所以用合速率。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q20",
+          "number": 20,
+          "type": "true_false",
+          "content": "<p>追及問題中，快者追慢者時要用速率和來消耗距離差。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。同向追及時要用速率差，因為只有快者比慢者多出的部分會縮短距離差。</p>"
         }
       ]
     },
@@ -131,6 +171,86 @@
           "content": "<p>火車甲以 $90\\text{ km/hr}$ 行駛，火車乙以 $60\\text{ km/hr}$ 行駛，兩列火車同時從同一地點往同方向開出，$2$ 小時後甲比乙多走多少公里？</p><p>A. $30\\text{ km}$</p><p>B. $60\\text{ km}$</p><p>C. $150\\text{ km}$</p><p>D. $300\\text{ km}$</p>",
           "answer": "B",
           "explanation": "<p>方法一（直接相減）：甲走 $90 \\times 2 = 180$、乙走 $60 \\times 2 = 120$，差 $180 - 120 = \\mathbf{60}\\text{ km}$。方法二（速率差）：每小時甲比乙多走 $90 - 60 = 30\\text{ km}$，$2$ 小時多走 $30 \\times 2 = 60\\text{ km}$。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q21",
+          "number": 21,
+          "type": "single_choice",
+          "content": "<p>每分鐘走 $80$ 公尺，走 $15$ 分鐘，共走多少公尺？</p><p>A. $95$</p><p>B. $1200$</p><p>C. $800$</p><p>D. $1500$</p>",
+          "answer": "B",
+          "explanation": "<p>路程 $=80\\times15=1200$ 公尺。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q22",
+          "number": 22,
+          "type": "single_choice",
+          "content": "<p>$180$ 公里走了 $3$ 小時，平均速率是多少？</p><p>A. $30$ km/hr</p><p>B. $60$ km/hr</p><p>C. $90$ km/hr</p><p>D. $540$ km/hr</p>",
+          "answer": "B",
+          "explanation": "<p>速率 $=180\\div3=60$ km/hr。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q23",
+          "number": 23,
+          "type": "single_choice",
+          "content": "<p>速率 $45$ km/hr，走 $2$ 小時，路程是多少？</p><p>A. $22.5$ km</p><p>B. $47$ km</p><p>C. $90$ km</p><p>D. $135$ km</p>",
+          "answer": "C",
+          "explanation": "<p>路程 $=45\\times2=90$ km。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q24",
+          "number": 24,
+          "type": "single_choice",
+          "content": "<p>$36$ km/hr 等於多少 m/s？</p><p>A. $6$</p><p>B. $10$</p><p>C. $18$</p><p>D. $36$</p>",
+          "answer": "B",
+          "explanation": "<p>km/hr 換 m/s 除以 $3.6$，$36\\div3.6=10$。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q25",
+          "number": 25,
+          "type": "single_choice",
+          "content": "<p>$12$ m/s 等於多少 km/hr？</p><p>A. $3.33$</p><p>B. $24$</p><p>C. $43.2$</p><p>D. $120$</p>",
+          "answer": "C",
+          "explanation": "<p>m/s 換 km/hr 乘以 $3.6$，$12\\times3.6=43.2$。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q26",
+          "number": 26,
+          "type": "single_choice",
+          "content": "<p>兩地相距 $70$ km，甲 $8$ km/hr、乙 $6$ km/hr 相向而行，幾小時相遇？</p><p>A. $4$</p><p>B. $5$</p><p>C. $7$</p><p>D. $10$</p>",
+          "answer": "B",
+          "explanation": "<p>合速率 $=8+6=14$，時間 $=70\\div14=5$ 小時。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q27",
+          "number": 27,
+          "type": "single_choice",
+          "content": "<p>快車 $90$ km/hr、慢車 $70$ km/hr，同向相距 $60$ km，快車幾小時追上？</p><p>A. $2$</p><p>B. $3$</p><p>C. $4$</p><p>D. $6$</p>",
+          "answer": "B",
+          "explanation": "<p>速率差 $=90-70=20$，時間 $=60\\div20=3$ 小時。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q28",
+          "number": 28,
+          "type": "single_choice",
+          "content": "<p>去程 $40$ km 用 $1$ 小時，回程 $40$ km 用 $2$ 小時，平均速率是多少？</p><p>A. $20$ km/hr</p><p>B. $26\\dfrac{2}{3}$ km/hr</p><p>C. $30$ km/hr</p><p>D. $40$ km/hr</p>",
+          "answer": "B",
+          "explanation": "<p>總路程 $80$ km，總時間 $3$ hr，平均速率 $=80\\div3=26\\dfrac{2}{3}$ km/hr。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q29",
+          "number": 29,
+          "type": "single_choice",
+          "content": "<p>小明每秒跑 $5$ 公尺，跑 $2$ 分鐘共跑多少公尺？</p><p>A. $10$</p><p>B. $100$</p><p>C. $300$</p><p>D. $600$</p>",
+          "answer": "D",
+          "explanation": "<p>$2$ 分鐘 $=120$ 秒，路程 $=5\\times120=600$ 公尺。答案 D。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q30",
+          "number": 30,
+          "type": "single_choice",
+          "content": "<p>走 $18$ 公里需要 $3$ 小時，若速率加倍，走同樣距離要多久？</p><p>A. $1.5$ 小時</p><p>B. $2$ 小時</p><p>C. $3$ 小時</p><p>D. $6$ 小時</p>",
+          "answer": "A",
+          "explanation": "<p>同樣路程下，速率加倍，時間減半，$3\\div2=1.5$ 小時。答案 A。</p>"
         }
       ]
     }

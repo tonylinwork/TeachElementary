@@ -45,6 +45,46 @@
           "content": "<p>$\\dfrac{1}{3}$ 化成小數會變成一個有限小數。</p>",
           "answer": "╳",
           "explanation": "<p>錯誤。$\\dfrac{1}{3} = 0.3333\\ldots$ 是<strong>循環小數</strong>（無限不終止）。要把分數化為有限小數，分母約分後只能含有 $2$ 或 $5$ 的因數，$3$ 不行，所以 $\\dfrac{1}{3}$ 不能寫成有限小數。</p>"
+        },
+        {
+          "id": "g6b_ch1_1_q16",
+          "number": 16,
+          "type": "true_false",
+          "content": "<p>$0.125$ 化成最簡分數是 $\\dfrac{1}{8}$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。$0.125=\\dfrac{125}{1000}$，分子分母同除以 $125$，得到 $\\dfrac{1}{8}$。</p>"
+        },
+        {
+          "id": "g6b_ch1_1_q17",
+          "number": 17,
+          "type": "true_false",
+          "content": "<p>計算 $\\dfrac{3}{5} - \\dfrac{1}{2}$ 時，可以直接得到 $\\dfrac{2}{3}$。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。分數加減要先通分母：$\\dfrac{3}{5}=\\dfrac{6}{10}$、$\\dfrac{1}{2}=\\dfrac{5}{10}$，所以差是 $\\dfrac{1}{10}$。</p>"
+        },
+        {
+          "id": "g6b_ch1_1_q18",
+          "number": 18,
+          "type": "true_false",
+          "content": "<p>計算 $2.4 \\div 0.6$ 的結果是 $4$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。$2.4 \\div 0.6=24\\div 6=4$。小數除法可同時把被除數和除數乘以 $10$ 變整數。</p>"
+        },
+        {
+          "id": "g6b_ch1_1_q19",
+          "number": 19,
+          "type": "true_false",
+          "content": "<p>四則混合運算中，有括號時要先算括號內。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。四則混合運算順序是先括號，再乘除，最後加減；同級運算由左到右。</p>"
+        },
+        {
+          "id": "g6b_ch1_1_q20",
+          "number": 20,
+          "type": "true_false",
+          "content": "<p>$\\dfrac{5}{6} \\div \\dfrac{5}{6}$ 的結果是 $0$。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。任何非 $0$ 的數除以自己都等於 $1$，所以 $\\dfrac{5}{6} \\div \\dfrac{5}{6}=1$。</p>"
         }
       ]
     },
@@ -131,6 +171,86 @@
           "content": "<p>小明有 $1000$ 元，先花了全部的 $\\dfrac{1}{4}$ 買書，再花剩下的 $\\dfrac{1}{3}$ 買飲料，最後還剩多少元？</p><p>A. $500$ 元</p><p>B. $400$ 元</p><p>C. $450$ 元</p><p>D. $550$ 元</p>",
           "answer": "A",
           "explanation": "<p>步驟一：買書花 $1000 \\times \\dfrac{1}{4} = 250$ 元，<strong>剩下 $1000 - 250 = 750$ 元</strong>。步驟二：買飲料花「剩下」的 $\\dfrac{1}{3}$，即 $750 \\times \\dfrac{1}{3} = 250$ 元。最後剩 $750 - 250 = 500$ 元。<strong>陷阱：第二次的 $\\dfrac{1}{3}$ 是「剩下的」不是「全部的」</strong>。答案 A。</p>"
+        },
+        {
+          "id": "g6b_ch1_1_q21",
+          "number": 21,
+          "type": "single_choice",
+          "content": "<p>$0.48$ 化成最簡分數是多少？</p><p>A. $\\dfrac{12}{25}$</p><p>B. $\\dfrac{24}{50}$</p><p>C. $\\dfrac{48}{10}$</p><p>D. $\\dfrac{4}{8}$</p>",
+          "answer": "A",
+          "explanation": "<p>$0.48=\\dfrac{48}{100}$，分子分母同除以 $4$，得 $\\dfrac{12}{25}$。答案 A。</p>"
+        },
+        {
+          "id": "g6b_ch1_1_q22",
+          "number": 22,
+          "type": "single_choice",
+          "content": "<p>計算 $\\dfrac{5}{6}+\\dfrac{1}{4}$ 的結果是？</p><p>A. $\\dfrac{6}{10}$</p><p>B. $\\dfrac{7}{12}$</p><p>C. $\\dfrac{13}{12}$</p><p>D. $\\dfrac{5}{24}$</p>",
+          "answer": "C",
+          "explanation": "<p>通分成 $12$：$\\dfrac{5}{6}=\\dfrac{10}{12}$，$\\dfrac{1}{4}=\\dfrac{3}{12}$，相加得 $\\dfrac{13}{12}$。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch1_1_q23",
+          "number": 23,
+          "type": "single_choice",
+          "content": "<p>計算 $3.5-1\\dfrac{1}{4}$ 的結果是？</p><p>A. $1.25$</p><p>B. $2.25$</p><p>C. $2.5$</p><p>D. $4.75$</p>",
+          "answer": "B",
+          "explanation": "<p>$1\\dfrac{1}{4}=1.25$，所以 $3.5-1.25=2.25$。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch1_1_q24",
+          "number": 24,
+          "type": "single_choice",
+          "content": "<p>計算 $\\dfrac{4}{7} \\times \\dfrac{21}{8}$ 的結果是？</p><p>A. $\\dfrac{3}{2}$</p><p>B. $\\dfrac{1}{6}$</p><p>C. $\\dfrac{84}{56}$</p><p>D. $\\dfrac{7}{4}$</p>",
+          "answer": "A",
+          "explanation": "<p>先約分：$4$ 和 $8$ 約成 $1$ 和 $2$，$21$ 和 $7$ 約成 $3$ 和 $1$，得 $\\dfrac{3}{2}$。答案 A。</p>"
+        },
+        {
+          "id": "g6b_ch1_1_q25",
+          "number": 25,
+          "type": "single_choice",
+          "content": "<p>計算 $18-(2+3)\\times 2$ 的結果是？</p><p>A. $8$</p><p>B. $13$</p><p>C. $26$</p><p>D. $30$</p>",
+          "answer": "A",
+          "explanation": "<p>先算括號 $2+3=5$，再算乘法 $5\\times2=10$，最後 $18-10=8$。答案 A。</p>"
+        },
+        {
+          "id": "g6b_ch1_1_q26",
+          "number": 26,
+          "type": "single_choice",
+          "content": "<p>下列哪一個分數可以化成有限小數？</p><p>A. $\\dfrac{1}{3}$</p><p>B. $\\dfrac{2}{7}$</p><p>C. $\\dfrac{3}{8}$</p><p>D. $\\dfrac{5}{6}$</p>",
+          "answer": "C",
+          "explanation": "<p>分母約分後只含 $2$ 或 $5$ 的因數，才能化成有限小數。$8=2^3$，所以 $\\dfrac{3}{8}$ 可化成有限小數。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch1_1_q27",
+          "number": 27,
+          "type": "single_choice",
+          "content": "<p>計算 $0.75\\times 16$ 最方便先把 $0.75$ 看成哪一個分數？</p><p>A. $\\dfrac{1}{2}$</p><p>B. $\\dfrac{2}{3}$</p><p>C. $\\dfrac{3}{4}$</p><p>D. $\\dfrac{4}{5}$</p>",
+          "answer": "C",
+          "explanation": "<p>$0.75=\\dfrac{3}{4}$，所以 $0.75\\times16=\\dfrac{3}{4}\\times16=12$。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch1_1_q28",
+          "number": 28,
+          "type": "single_choice",
+          "content": "<p>計算 $\\dfrac{7}{9} \\div \\dfrac{14}{15}$ 的結果是？</p><p>A. $\\dfrac{5}{6}$</p><p>B. $\\dfrac{6}{5}$</p><p>C. $\\dfrac{98}{135}$</p><p>D. $\\dfrac{21}{14}$</p>",
+          "answer": "A",
+          "explanation": "<p>除以分數要乘倒數：$\\dfrac{7}{9}\\times\\dfrac{15}{14}$。約分後得 $\\dfrac{5}{6}$。答案 A。</p>"
+        },
+        {
+          "id": "g6b_ch1_1_q29",
+          "number": 29,
+          "type": "single_choice",
+          "content": "<p>利用分配律，$2.5\\times 9.8+2.5\\times0.2$ 可改寫成？</p><p>A. $2.5\\times(9.8+0.2)$</p><p>B. $2.5\\times(9.8-0.2)$</p><p>C. $(2.5+9.8)\\times0.2$</p><p>D. $9.8\\times(2.5+0.2)$</p>",
+          "answer": "A",
+          "explanation": "<p>兩項都有共同因數 $2.5$，可提出：$2.5\\times(9.8+0.2)$。答案 A。</p>"
+        },
+        {
+          "id": "g6b_ch1_1_q30",
+          "number": 30,
+          "type": "single_choice",
+          "content": "<p>一瓶果汁 $1.2$ 公升，喝掉 $\\dfrac{1}{3}$ 瓶，還剩多少公升？</p><p>A. $0.4$ 公升</p><p>B. $0.6$ 公升</p><p>C. $0.8$ 公升</p><p>D. $1.0$ 公升</p>",
+          "answer": "C",
+          "explanation": "<p>喝掉 $\\dfrac{1}{3}$，剩下 $\\dfrac{2}{3}$。$1.2\\times\\dfrac{2}{3}=0.8$ 公升。答案 C。</p>"
         }
       ]
     }

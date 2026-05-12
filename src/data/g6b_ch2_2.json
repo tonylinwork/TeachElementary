@@ -45,6 +45,46 @@
           "content": "<p>體積的單位是立方公分（$\\text{cm}^3$），表面積的單位是平方公分（$\\text{cm}^2$）。</p>",
           "answer": "○",
           "explanation": "<p>正確。<strong>體積是三維</strong>（長 $\\times$ 寬 $\\times$ 高），單位用立方（$\\text{cm}^3$、$\\text{m}^3$）；<strong>表面積是二維</strong>（每個面的面積總和），單位用平方（$\\text{cm}^2$、$\\text{m}^2$）。考試時單位寫錯會被扣分，要看清楚題目問什麼。</p>"
+        },
+        {
+          "id": "g6b_ch2_2_q16",
+          "number": 16,
+          "type": "true_false",
+          "content": "<p>柱體的側面積可以用「底面周長 $\\times$ 高」計算。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。直柱體側面展開後可看成長方形，長是底面周長，寬是柱高。</p>"
+        },
+        {
+          "id": "g6b_ch2_2_q17",
+          "number": 17,
+          "type": "true_false",
+          "content": "<p>長方體體積的單位應寫成平方公分。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。體積是立方單位，應寫成 $\\text{cm}^3$；平方公分是面積單位。</p>"
+        },
+        {
+          "id": "g6b_ch2_2_q18",
+          "number": 18,
+          "type": "true_false",
+          "content": "<p>正方體表面積是 $6\\times$ 一個面的面積。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。正方體有 $6$ 個全等正方形面，所以表面積是單面面積的 $6$ 倍。</p>"
+        },
+        {
+          "id": "g6b_ch2_2_q19",
+          "number": 19,
+          "type": "true_false",
+          "content": "<p>$1$ 公升等於 $1000$ 立方公分。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。容量與體積常用換算：$1$ 公升 $=1000$ 毫升 $=1000\\text{ cm}^3$。</p>"
+        },
+        {
+          "id": "g6b_ch2_2_q20",
+          "number": 20,
+          "type": "true_false",
+          "content": "<p>底面積相同的兩個柱體，體積一定相同。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。柱體體積 $=$ 底面積 $\\times$ 高；底面積相同但高不同，體積也會不同。</p>"
         }
       ]
     },
@@ -131,6 +171,86 @@
           "content": "<p>甲、乙兩個四角柱柱高相同，甲的底面積是 $24\\text{ cm}^2$，乙的底面積是 $40\\text{ cm}^2$，則甲與乙的體積比是？</p><p>A. $24\\colon 40$</p><p>B. $3\\colon 5$</p><p>C. $5\\colon 3$</p><p>D. $40\\colon 24$</p>",
           "answer": "B",
           "explanation": "<p>柱高相同時，體積比 $=$ 底面積比（高約掉）。$24\\colon 40$ 同除以 $8$ 得 $\\mathbf{3\\colon 5}$。A 沒有約分（雖然也是對的比，但要化最簡），B 才是最簡整數比。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch2_2_q21",
+          "number": 21,
+          "type": "single_choice",
+          "content": "<p>長方體長 $9$、寬 $4$、高 $5$ 公分，體積是多少？</p><p>A. $18$</p><p>B. $90$</p><p>C. $180$</p><p>D. $360$</p>",
+          "answer": "C",
+          "explanation": "<p>體積 $=9\\times4\\times5=180\\text{ cm}^3$。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch2_2_q22",
+          "number": 22,
+          "type": "single_choice",
+          "content": "<p>正方體邊長 $8$ 公分，體積是多少？</p><p>A. $64$</p><p>B. $384$</p><p>C. $512$</p><p>D. $1024$</p>",
+          "answer": "C",
+          "explanation": "<p>正方體體積 $=8\\times8\\times8=512\\text{ cm}^3$。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch2_2_q23",
+          "number": 23,
+          "type": "single_choice",
+          "content": "<p>正方體邊長 $5$ 公分，表面積是多少？</p><p>A. $25$</p><p>B. $100$</p><p>C. $125$</p><p>D. $150$</p>",
+          "answer": "D",
+          "explanation": "<p>表面積 $=6\\times5\\times5=150\\text{ cm}^2$。答案 D。</p>"
+        },
+        {
+          "id": "g6b_ch2_2_q24",
+          "number": 24,
+          "type": "single_choice",
+          "content": "<p>一個柱體底面積 $36\\text{ cm}^2$、高 $12\\text{ cm}$，體積是多少？</p><p>A. $48$</p><p>B. $216$</p><p>C. $432$</p><p>D. $864$</p>",
+          "answer": "C",
+          "explanation": "<p>柱體體積 $=$ 底面積 $\\times$ 高 $=36\\times12=432\\text{ cm}^3$。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch2_2_q25",
+          "number": 25,
+          "type": "single_choice",
+          "content": "<p>三角柱底面三角形底 $8$、高 $5$ 公分，柱高 $10$ 公分，體積是多少？</p><p>A. $100$</p><p>B. $200$</p><p>C. $400$</p><p>D. $800$</p>",
+          "answer": "B",
+          "explanation": "<p>底面積 $=8\\times5\\div2=20$，體積 $=20\\times10=200$。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch2_2_q26",
+          "number": 26,
+          "type": "single_choice",
+          "content": "<p>$3$ 公升等於多少立方公分？</p><p>A. $30$</p><p>B. $300$</p><p>C. $3000$</p><p>D. $30000$</p>",
+          "answer": "C",
+          "explanation": "<p>$1$ 公升 $=1000\\text{ cm}^3$，所以 $3$ 公升 $=3000\\text{ cm}^3$。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch2_2_q27",
+          "number": 27,
+          "type": "single_choice",
+          "content": "<p>底面周長 $28$ 公分、高 $9$ 公分的柱體，側面積是多少？</p><p>A. $37$</p><p>B. $126$</p><p>C. $252$</p><p>D. $504$</p>",
+          "answer": "C",
+          "explanation": "<p>側面積 $=$ 底面周長 $\\times$ 高 $=28\\times9=252\\text{ cm}^2$。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch2_2_q28",
+          "number": 28,
+          "type": "single_choice",
+          "content": "<p>一水箱底面積 $500\\text{ cm}^2$，放入石頭後水位上升 $4$ 公分，石頭體積是多少？</p><p>A. $125$</p><p>B. $504$</p><p>C. $1000$</p><p>D. $2000$</p>",
+          "answer": "D",
+          "explanation": "<p>排水體積 $=$ 底面積 $\\times$ 高度差 $=500\\times4=2000\\text{ cm}^3$。答案 D。</p>"
+        },
+        {
+          "id": "g6b_ch2_2_q29",
+          "number": 29,
+          "type": "single_choice",
+          "content": "<p>長方體長 $6$、寬 $5$、高 $4$ 公分，表面積是多少？</p><p>A. $74$</p><p>B. $120$</p><p>C. $148$</p><p>D. $240$</p>",
+          "answer": "C",
+          "explanation": "<p>表面積 $=2(6\\times5+6\\times4+5\\times4)=2(30+24+20)=148$。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch2_2_q30",
+          "number": 30,
+          "type": "single_choice",
+          "content": "<p>一個正方體體積是 $216\\text{ cm}^3$，邊長是多少？</p><p>A. $4$ 公分</p><p>B. $5$ 公分</p><p>C. $6$ 公分</p><p>D. $8$ 公分</p>",
+          "answer": "C",
+          "explanation": "<p>$6\\times6\\times6=216$，所以邊長是 $6$ 公分。答案 C。</p>"
         }
       ]
     }

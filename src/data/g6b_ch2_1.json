@@ -45,6 +45,46 @@
           "content": "<p>圓錐展開後，側面是一個三角形。</p>",
           "answer": "╳",
           "explanation": "<p>錯誤。圓錐的側面是「<strong>曲面</strong>」展開後變成<strong>扇形</strong>（不是三角形）。扇形的半徑等於母線長，弧長等於底面圓周長。</p>"
+        },
+        {
+          "id": "g6b_ch2_1_q16",
+          "number": 16,
+          "type": "true_false",
+          "content": "<p>圓柱有兩個圓形底面，圓錐只有一個圓形底面。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。圓柱上下各一個圓形底面；圓錐只有一個圓形底面和一個頂點。</p>"
+        },
+        {
+          "id": "g6b_ch2_1_q17",
+          "number": 17,
+          "type": "true_false",
+          "content": "<p>圓錐的高是頂點到底面圓周上任一點的距離。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。圓錐的高是頂點到底面圓心的垂直距離；頂點到底面圓周上任一點的線段叫母線。</p>"
+        },
+        {
+          "id": "g6b_ch2_1_q18",
+          "number": 18,
+          "type": "true_false",
+          "content": "<p>圓柱側面展開後的長方形，寬等於圓柱的高。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。圓柱側面展開圖的長是底面圓周長，寬是圓柱的高。</p>"
+        },
+        {
+          "id": "g6b_ch2_1_q19",
+          "number": 19,
+          "type": "true_false",
+          "content": "<p>同底同高的圓柱體積是圓錐體積的 $3$ 倍。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。圓錐體積是同底同高圓柱的 $\\dfrac{1}{3}$，所以圓柱是圓錐的 $3$ 倍。</p>"
+        },
+        {
+          "id": "g6b_ch2_1_q20",
+          "number": 20,
+          "type": "true_false",
+          "content": "<p>圓錐展開圖中的扇形弧長等於圓錐底面圓的半徑。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。扇形弧長等於底面圓的圓周長，不是半徑。</p>"
         }
       ]
     },
@@ -131,6 +171,86 @@
           "content": "<p>一個圓錐形冰淇淋甜筒，底面半徑 $3$ 公分、高 $9$ 公分，裝滿冰淇淋（剛好平面）。一球冰淇淋約 $30$ 立方公分，這個甜筒大約裝幾球？（$\\pi \\approx 3.14$）</p><p>A. $1$ 球</p><p>B. $2$ 球</p><p>C. $3$ 球</p><p>D. $5$ 球</p>",
           "answer": "C",
           "explanation": "<p>甜筒體積 $= \\dfrac{1}{3} \\times \\pi r^2 \\times h = \\dfrac{1}{3} \\times 3.14 \\times 3^2 \\times 9 = \\dfrac{1}{3} \\times 3.14 \\times 81 = \\dfrac{1}{3} \\times 254.34 = 84.78$ 立方公分。$84.78 \\div 30 \\approx 2.83$，<strong>大約 $3$ 球</strong>（取最接近的整數）。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch2_1_q21",
+          "number": 21,
+          "type": "single_choice",
+          "content": "<p>圓柱側面展開圖的長方形，長等於什麼？</p><p>A. 圓柱的高</p><p>B. 底面圓周長</p><p>C. 底面半徑</p><p>D. 底面面積</p>",
+          "answer": "B",
+          "explanation": "<p>圓柱側面展開後，長方形的長等於底面圓周長，寬等於高。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch2_1_q22",
+          "number": 22,
+          "type": "single_choice",
+          "content": "<p>圓錐側面展開後是什麼圖形？</p><p>A. 長方形</p><p>B. 正方形</p><p>C. 扇形</p><p>D. 圓形</p>",
+          "answer": "C",
+          "explanation": "<p>圓錐的側面展開後是扇形，底面另有一個圓。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch2_1_q23",
+          "number": 23,
+          "type": "single_choice",
+          "content": "<p>底面半徑 $6$ 公分的圓，圓周長約是多少？（$\\pi\\approx3.14$）</p><p>A. $18.84$ 公分</p><p>B. $37.68$ 公分</p><p>C. $113.04$ 公分</p><p>D. $12$ 公分</p>",
+          "answer": "B",
+          "explanation": "<p>圓周長 $=2\\pi r=2\\times3.14\\times6=37.68$ 公分。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch2_1_q24",
+          "number": 24,
+          "type": "single_choice",
+          "content": "<p>一個圓柱底面半徑 $3$ 公分、高 $8$ 公分，體積約是多少？</p><p>A. $75.36$</p><p>B. $150.72$</p><p>C. $226.08$</p><p>D. $301.44$</p>",
+          "answer": "C",
+          "explanation": "<p>體積 $=\\pi r^2h=3.14\\times9\\times8=226.08$ 立方公分。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch2_1_q25",
+          "number": 25,
+          "type": "single_choice",
+          "content": "<p>一個圓錐底面半徑 $6$ 公分、高 $5$ 公分，體積約是多少？</p><p>A. $188.4$</p><p>B. $565.2$</p><p>C. $94.2$</p><p>D. $60$</p>",
+          "answer": "A",
+          "explanation": "<p>圓錐體積 $=\\dfrac13\\times3.14\\times6^2\\times5=188.4$。答案 A。</p>"
+        },
+        {
+          "id": "g6b_ch2_1_q26",
+          "number": 26,
+          "type": "single_choice",
+          "content": "<p>同底同高的圓柱體積是 $96$，對應圓錐體積是多少？</p><p>A. $24$</p><p>B. $32$</p><p>C. $96$</p><p>D. $288$</p>",
+          "answer": "B",
+          "explanation": "<p>圓錐體積是同底同高圓柱的 $\\dfrac13$，$96\\div3=32$。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch2_1_q27",
+          "number": 27,
+          "type": "single_choice",
+          "content": "<p>同底同高的圓錐體積是 $45$，對應圓柱體積是多少？</p><p>A. $15$</p><p>B. $90$</p><p>C. $135$</p><p>D. $180$</p>",
+          "answer": "C",
+          "explanation": "<p>圓柱體積是圓錐的 $3$ 倍，$45\\times3=135$。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch2_1_q28",
+          "number": 28,
+          "type": "single_choice",
+          "content": "<p>下列哪一個是圓錐有、圓柱沒有的構造？</p><p>A. 圓形底面</p><p>B. 側面</p><p>C. 頂點</p><p>D. 高</p>",
+          "answer": "C",
+          "explanation": "<p>圓錐有一個頂點，圓柱沒有頂點。兩者都有底面、側面與高。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch2_1_q29",
+          "number": 29,
+          "type": "single_choice",
+          "content": "<p>圓錐的母線在展開圖中會成為扇形的什麼？</p><p>A. 弧長</p><p>B. 半徑</p><p>C. 圓心角</p><p>D. 面積</p>",
+          "answer": "B",
+          "explanation": "<p>圓錐母線是頂點到底面圓周的線段，展開後就是扇形半徑。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch2_1_q30",
+          "number": 30,
+          "type": "single_choice",
+          "content": "<p>圓柱底面直徑 $10$ 公分、高 $7$ 公分，側面展開長方形的寬是多少？</p><p>A. $5$ 公分</p><p>B. $7$ 公分</p><p>C. $10$ 公分</p><p>D. $31.4$ 公分</p>",
+          "answer": "B",
+          "explanation": "<p>側面展開長方形的寬等於圓柱的高，所以是 $7$ 公分。答案 B。</p>"
         }
       ]
     }
