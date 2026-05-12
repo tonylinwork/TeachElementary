@@ -22,7 +22,7 @@ type ChapterOption = {
 };
 
 const parseChapterTitle = (chapter: { id: string; title: string }): ChapterOption => {
-    const match = chapter.title.match(/^(小[四五六][上下])\s+(.+)$/);
+    const match = chapter.title.match(/^(小[四五六](?:上|下|挑戰))\s+(.+)$/);
 
     return {
         ...chapter,

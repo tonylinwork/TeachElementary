@@ -1,0 +1,138 @@
+{
+  "title": "小六挑戰 10-1 平行與截角（國中銜接）",
+  "summary": "<ul><li><strong>平行的定義</strong>：在同一平面上<strong>永不相交</strong>的兩條直線稱為平行線，記作 $L_1 \\parallel L_2$。判別法：若兩條直線都與<strong>同一條第三線垂直</strong>，則此兩線必平行。</li><li><strong>平行線的性質</strong>：兩平行線之間的<strong>距離（垂直距離）處處相等</strong>，且兩線永不相交。這也是火車鐵軌、五線譜可以保持等距的數學依據。</li><li><strong>截線與三種截角名稱</strong>：當一條<strong>截線</strong>同時與兩條直線相交，會產生 $8$ 個角。把截線左右、兩條被截直線上下劃分後：①<strong>同位角</strong>＝兩交點同一側、同一上下位置的角（呈「F」形）；②<strong>內錯角</strong>＝兩條被截直線之間（內側）、截線兩側交錯的角（呈「Z」形）；③<strong>同側內角</strong>＝兩條被截直線之間、截線同一側的角（呈「ㄈ」形）。</li><li><strong>平行線截角三大性質（兩線平行才成立）</strong>：①同位角<strong>相等</strong>；②內錯角<strong>相等</strong>；③同側內角<strong>互補</strong>（兩角和 $= 180°$）。這三條性質是國中幾何的基石。</li><li><strong>由部分角求未知角</strong>：先判斷兩個角是哪一種截角關係，再套用對應規則。常用輔助：對頂角相等、直線上的兩角互補（和 $= 180°$）。</li><li><strong>平行四邊形的性質</strong>：①兩組<strong>對邊互相平行</strong>；②兩組對邊<strong>等長</strong>；③兩組對角<strong>相等</strong>；④鄰角<strong>互補</strong>（和 $= 180°$）；⑤兩條<strong>對角線互相平分</strong>（但不一定相等、不一定垂直）。對角線把平行四邊形分成兩個全等三角形。</li><li><strong>特殊四邊形包含關係</strong>：「正方形」是同時是「矩形」也是「菱形」的特例；矩形、菱形、正方形<strong>都是</strong>平行四邊形；但平行四邊形<strong>不一定</strong>是矩形或菱形。<strong>梯形與平行四邊形互不包含</strong>（梯形只有一組對邊平行）。</li><li><strong>對角線特徵分類</strong>：對角線<strong>互相平分</strong>者為平行四邊形類；對角線<strong>互相垂直</strong>者包含菱形、正方形、箏形；對角線<strong>等長</strong>者包含矩形、正方形、等腰梯形。正方形同時具備「平分、垂直、等長」三特徵。</li></ul>",
+  "sections": [
+    {
+      "type": "true_false",
+      "name": "是非題",
+      "questions": [
+        {
+          "id": "g6c_ch10_1_q1",
+          "number": 1,
+          "type": "true_false",
+          "content": "<p>在同一平面上，若直線 $L_1$ 與直線 $L_3$ 垂直，直線 $L_2$ 也與 $L_3$ 垂直，則 $L_1 \\parallel L_2$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。這正是平行的<strong>判別法</strong>：兩條直線若同時與第三條直線垂直，則此兩線平行。<br/>畫面：$L_3$ 為一條鉛直線，$L_1$、$L_2$ 都與 $L_3$ 成 $90°$，所以 $L_1$、$L_2$ 都是水平線 $\\to$ 永不相交、距離處處相等 $\\to$ $L_1 \\parallel L_2$。這是國中幾何的基本性質。</p>"
+        },
+        {
+          "id": "g6c_ch10_1_q2",
+          "number": 2,
+          "type": "true_false",
+          "content": "<p>兩條平行線之間任何兩點的距離都相等。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。<strong>必須是「垂直距離」才處處相等</strong>，斜著量任意兩點的距離並不相等。<br/>例：$L_1$ 與 $L_2$ 平行，$A$、$B$ 為 $L_1$ 上相距 $5$ 公分的兩點，$C$ 為 $L_2$ 上某點。若兩線垂直距離是 $3$ 公分，則 $AC$、$BC$ 通常都大於 $3$ 公分（斜邊長於垂直距離）。所以正確說法是「<strong>兩平行線之間的垂直距離處處相等</strong>」。</p>"
+        },
+        {
+          "id": "g6c_ch10_1_q3",
+          "number": 3,
+          "type": "true_false",
+          "content": "<p>兩條直線被第三條直線所截時，若同位角相等，就可以判斷這兩條直線一定平行。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。這是<strong>平行的判別定理（同位角相等 $\\Rightarrow$ 兩線平行）</strong>，與「平行 $\\Rightarrow$ 同位角相等」互為逆敘述，都成立。<br/>同理可推：若內錯角相等，或同側內角互補，也都可以判定兩線平行。這三條既是平行線的性質，也是平行的判別法（雙向皆對）。</p>"
+        },
+        {
+          "id": "g6c_ch10_1_q4",
+          "number": 4,
+          "type": "true_false",
+          "content": "<p>若 $L_1 \\parallel L_2$，截線 $L_3$ 與 $L_1$、$L_2$ 各形成一組同側內角，分別為 $\\angle 1$ 與 $\\angle 2$。若 $\\angle 1 = 110°$，則 $\\angle 2 = 110°$。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。同位角才相等，<strong>同側內角是「互補」</strong>（和 $= 180°$）。<br/>所以 $\\angle 2 = 180° - 110° = 70°$，不是 $110°$。<br/>記憶口訣：「F 形同位等、Z 形內錯等、ㄈ 形同側補」。三種截角名稱用形狀記，套錯規則是這類題最常見錯誤。</p>"
+        },
+        {
+          "id": "g6c_ch10_1_q5",
+          "number": 5,
+          "type": "true_false",
+          "content": "<p>正方形是矩形，也是菱形，更是平行四邊形。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。<strong>正方形 $=$ 矩形 $\\cap$ 菱形</strong>（四角都直 $+$ 四邊都等），所以它同時繼承兩者的性質，也是平行四邊形的一種特例。<br/>包含關係：平行四邊形 $\\supset$ 矩形 $\\supset$ 正方形；平行四邊形 $\\supset$ 菱形 $\\supset$ 正方形。所以「正方形是矩形」「正方形是菱形」「正方形是平行四邊形」三句都對，但反過來不對（矩形不一定是正方形）。</p>"
+        }
+      ]
+    },
+    {
+      "type": "single_choice",
+      "name": "單選題",
+      "questions": [
+        {
+          "id": "g6c_ch10_1_q6",
+          "number": 6,
+          "type": "single_choice",
+          "content": "<p>如圖，兩直線 $L_1 \\parallel L_2$，截線 $L_3$ 與 $L_1$、$L_2$ 相交。已知 $L_3$ 與 $L_1$ 形成的某銳角為 $\\angle a = 65°$，且 $\\angle a$ 與 $\\angle b$ 為一對<strong>同位角</strong>（位於兩交點同一側的相同上下位置）。請問 $\\angle b$ 為多少度？</p><p>A. $25°$</p><p>B. $65°$</p><p>C. $115°$</p><p>D. $130°$</p>",
+          "answer": "B",
+          "explanation": "<p>由<strong>平行線截角性質一：同位角相等</strong>，因為 $L_1 \\parallel L_2$，所以 $\\angle b = \\angle a = \\mathbf{65°}$。<br/>畫面示意：<br/>$\\quad L_1\\!:\\!=\\!=\\!=\\!=\\!\\bullet\\!=\\!=\\!=\\!=$（$\\angle a$ 在交點右上）<br/>$\\quad L_2\\!:\\!=\\!=\\!=\\!=\\!\\bullet\\!=\\!=\\!=\\!=$（$\\angle b$ 也在交點右上）<br/>兩角位置相同（皆右上），呈「F」形，所以是同位角。常見錯誤陷阱：C 是把它當「同側內角互補」算出 $115°$。答案 B。</p>"
+        },
+        {
+          "id": "g6c_ch10_1_q7",
+          "number": 7,
+          "type": "single_choice",
+          "content": "<p>兩直線 $L_1 \\parallel L_2$，截線 $L_3$ 同時與兩者相交。$\\angle 1$ 位於 $L_1$ 下方且在 $L_3$ 右側、$\\angle 2$ 位於 $L_2$ 上方且在 $L_3$ 左側（即兩角都在兩平行線之間、且分居截線兩側）。已知 $\\angle 1 = 72°$，求 $\\angle 2$。</p><p>A. $18°$</p><p>B. $72°$</p><p>C. $108°$</p><p>D. $144°$</p>",
+          "answer": "B",
+          "explanation": "<p>關鍵：先<strong>判斷截角名稱</strong>。<br/>$\\angle 1$ 在 $L_1$ 下方（內側）、截線右側；$\\angle 2$ 在 $L_2$ 上方（內側）、截線左側。兩角都在兩平行線之間（內側）、且分居截線兩側 $\\to$ 形狀像「Z」 $\\to$ <strong>內錯角</strong>。<br/>由平行線截角性質二：<strong>內錯角相等</strong>，所以 $\\angle 2 = \\angle 1 = \\mathbf{72°}$。<br/>常見錯誤：誤判為同側內角而算 $180° - 72° = 108°$（選項 C 即此陷阱）。答案 B。</p>"
+        },
+        {
+          "id": "g6c_ch10_1_q8",
+          "number": 8,
+          "type": "single_choice",
+          "content": "<p>$L_1 \\parallel L_2$，截線 $L_3$ 與兩線各形成一組角。若兩條平行線之間、截線同一側的兩個角分別為 $(3x + 20)°$ 和 $(2x + 10)°$，求 $x$。</p><p>A. $20$</p><p>B. $25$</p><p>C. $30$</p><p>D. $35$</p>",
+          "answer": "C",
+          "explanation": "<p>「兩條平行線之間、截線同一側」 $\\to$ 這兩個角是<strong>同側內角</strong>，兩角<strong>互補</strong>（和 $= 180°$）。<br/>列式：$(3x + 20) + (2x + 10) = 180$<br/>$\\to 5x + 30 = 180 \\to 5x = 150 \\to x = \\mathbf{30}$。<br/>檢驗：兩角分別為 $3 \\times 30 + 20 = 110°$ 與 $2 \\times 30 + 10 = 70°$，$110 + 70 = 180$ ✓。答案 C。<br/>陷阱：若誤以為「內錯角相等」而列 $3x + 20 = 2x + 10$ 會得 $x = -10$（負值，不合理），這時要回頭檢查截角名稱是否選錯。</p>"
+        },
+        {
+          "id": "g6c_ch10_1_q9",
+          "number": 9,
+          "type": "single_choice",
+          "content": "<p>下列敘述哪一個<strong>不能</strong>用來判斷兩直線平行？</p><p>A. 兩直線同時與第三條直線垂直</p><p>B. 一條截線與兩直線所成的同位角相等</p><p>C. 一條截線與兩直線所成的內錯角相等</p><p>D. 一條截線與兩直線所成的<strong>對頂角</strong>相等</p>",
+          "answer": "D",
+          "explanation": "<p>這是一題<strong>策略判斷／概念辨析題</strong>。檢視各選項：<br/>A. 同垂直於第三線 $\\to$ 平行（標準判別法）。✓<br/>B. 同位角相等 $\\to$ 平行（標準判別定理）。✓<br/>C. 內錯角相等 $\\to$ 平行（標準判別定理）。✓<br/>D. <strong>對頂角永遠相等</strong>（不論兩線是否平行，每一條截線在每個交點上的對頂角自動相等），所以「對頂角相等」<strong>不能提供任何平行的資訊</strong>。<br/>答案 D。<br/>常見陷阱：對頂角相等是「角的位置關係」，與平行無關；同位角／內錯角／同側內角才是與平行有關的三大性質。</p>"
+        },
+        {
+          "id": "g6c_ch10_1_q10",
+          "number": 10,
+          "type": "single_choice",
+          "content": "<p>如圖，$L_1 \\parallel L_2$，一條折線 $A$-$P$-$B$ 從 $L_1$ 上的 $A$ 走到 $L_2$ 上的 $B$，中途轉折於兩線之間的 $P$ 點。已知 $\\angle PAL_1 = 35°$（$AP$ 與 $L_1$ 在右側的夾角），$\\angle PBL_2 = 45°$（$BP$ 與 $L_2$ 在右側的夾角），求折線在 $P$ 點的轉折角 $\\angle APB$。<br/>提示：過 $P$ 作 $L_3 \\parallel L_1$，把 $\\angle APB$ 拆成 $\\angle APL_3$ 與 $\\angle L_3 PB$。</p><p>A. $10°$</p><p>B. $35°$</p><p>C. $45°$</p><p>D. $80°$</p>",
+          "answer": "D",
+          "explanation": "<p>這是<strong>輔助線策略題</strong>。<br/>過 $P$ 作 $L_3 \\parallel L_1$。因為 $L_1 \\parallel L_2$ 且 $L_3 \\parallel L_1$，所以 $L_3 \\parallel L_2$（平行的遞移性）。<br/>① $AP$ 截 $L_1$、$L_3$ 兩平行線：$\\angle PAL_1$ 與 $\\angle APL_3$ 是內錯角 $\\to$ $\\angle APL_3 = 35°$。<br/>② $BP$ 截 $L_3$、$L_2$ 兩平行線：$\\angle PBL_2$ 與 $\\angle L_3 PB$ 是內錯角 $\\to$ $\\angle L_3 PB = 45°$。<br/>所以 $\\angle APB = \\angle APL_3 + \\angle L_3 PB = 35° + 45° = \\mathbf{80°}$。<br/>畫面：<br/>$\\quad L_1\\!=\\!=\\!=\\!A\\!=\\!=\\!=$<br/>$\\quad\\ \\ \\ \\backslash$<br/>$\\quad\\ \\ \\ \\ P\\!-\\!-\\!L_3\\!-\\!-$<br/>$\\quad\\ \\ \\ \\ /$<br/>$\\quad L_2\\!=\\!=\\!B\\!=\\!=\\!=$<br/>答案 D。這是國中最常考的「平行線中間夾折線」題型。</p>"
+        },
+        {
+          "id": "g6c_ch10_1_q11",
+          "number": 11,
+          "type": "single_choice",
+          "content": "<p>平行四邊形 $ABCD$ 中，若 $\\angle A = 70°$，則 $\\angle B$、$\\angle C$、$\\angle D$ 分別是多少度？</p><p>A. $\\angle B = 70°,\\ \\angle C = 110°,\\ \\angle D = 110°$</p><p>B. $\\angle B = 110°,\\ \\angle C = 70°,\\ \\angle D = 110°$</p><p>C. $\\angle B = 110°,\\ \\angle C = 110°,\\ \\angle D = 70°$</p><p>D. $\\angle B = 70°,\\ \\angle C = 70°,\\ \\angle D = 70°$</p>",
+          "answer": "B",
+          "explanation": "<p>用平行四邊形兩大角度性質：<br/>① <strong>對角相等</strong>：$\\angle A = \\angle C$、$\\angle B = \\angle D$。所以 $\\angle C = 70°$。<br/>② <strong>鄰角互補</strong>（因為 $AD \\parallel BC$，$AB$ 為截線，$\\angle A$ 與 $\\angle B$ 是同側內角）：$\\angle A + \\angle B = 180°$ $\\to$ $\\angle B = 180° - 70° = 110°$，同理 $\\angle D = 110°$。<br/>所以 $\\angle B = 110°,\\ \\angle C = 70°,\\ \\angle D = 110°$。答案 B。<br/>檢驗：四角之和 $= 70 + 110 + 70 + 110 = 360°$ ✓（任何四邊形內角和都是 $360°$）。</p>"
+        },
+        {
+          "id": "g6c_ch10_1_q12",
+          "number": 12,
+          "type": "single_choice",
+          "content": "<p>平行四邊形 $ABCD$ 中，$AB = 8$ 公分，$BC = 5$ 公分。兩條對角線 $AC$、$BD$ 相交於 $O$ 點，且 $AC = 12$ 公分、$BD = 10$ 公分。則 $AO$、$BO$ 分別是多少公分？</p><p>A. $AO = 6,\\ BO = 5$</p><p>B. $AO = 4,\\ BO = 4$</p><p>C. $AO = 8,\\ BO = 5$</p><p>D. $AO = 12,\\ BO = 10$</p>",
+          "answer": "A",
+          "explanation": "<p>平行四邊形的關鍵性質：<strong>兩條對角線互相平分</strong>（但不一定相等、不一定垂直）。<br/>所以 $O$ 是 $AC$ 與 $BD$ 的<strong>共同中點</strong>：<br/>$AO = OC = AC \\div 2 = 12 \\div 2 = \\mathbf{6}$ 公分；<br/>$BO = OD = BD \\div 2 = 10 \\div 2 = \\mathbf{5}$ 公分。<br/>答案 A。<br/>易錯：誤以為「對角線等長」（這是矩形性質），或誤以為「對角線垂直」（這是菱形性質）。一般平行四邊形<strong>只保證互相平分</strong>。</p>"
+        },
+        {
+          "id": "g6c_ch10_1_q13",
+          "number": 13,
+          "type": "single_choice",
+          "content": "<p>下列關於四邊形的敘述，哪一個是<strong>正確</strong>的？</p><p>A. 所有梯形都是平行四邊形</p><p>B. 所有平行四邊形都是矩形</p><p>C. 所有正方形都是菱形</p><p>D. 所有菱形都是正方形</p>",
+          "answer": "C",
+          "explanation": "<p>這是<strong>包含關係策略判斷題</strong>。逐項分析：<br/>A. 梯形只有一組對邊平行，平行四邊形有兩組對邊平行，兩者<strong>互不包含</strong>。✗<br/>B. 平行四邊形<strong>不一定</strong>有直角，所以不一定是矩形。✗<br/>C. 正方形是「四邊等長 $+$ 四角直角」的特例，<strong>滿足菱形的所有要求（四邊等長）</strong>，所以正方形<strong>是</strong>菱形的一種。✓<br/>D. 菱形只要求四邊等長，<strong>四角不一定直角</strong>，所以菱形不一定是正方形。✗<br/>答案 C。<br/>記憶圖：正方形 $\\subset$ 矩形 $\\subset$ 平行四邊形；正方形 $\\subset$ 菱形 $\\subset$ 平行四邊形。「子集是父集的特例」是判斷包含的關鍵。</p>"
+        },
+        {
+          "id": "g6c_ch10_1_q14",
+          "number": 14,
+          "type": "single_choice",
+          "content": "<p>已知一個四邊形的兩條對角線<strong>互相平分</strong>且<strong>互相垂直</strong>，但<strong>不等長</strong>。請問這個四邊形最精確的分類是什麼？</p><p>A. 任意平行四邊形（但不是菱形）</p><p>B. 矩形</p><p>C. 菱形（但不是正方形）</p><p>D. 正方形</p>",
+          "answer": "C",
+          "explanation": "<p>這是<strong>性質反推分類的策略題</strong>。把線索逐條翻譯為四邊形類別：<br/>① 對角線「互相平分」$\\to$ 是平行四邊形（必要條件）。<br/>② 在平行四邊形中，對角線「互相垂直」$\\to$ 是<strong>菱形</strong>。<br/>③ 對角線「不等長」$\\to$ <strong>不是矩形、也不是正方形</strong>（正方形的對角線又平分又垂直又等長）。<br/>所以是菱形但不是正方形。答案 C。<br/>對角線判別速記：<br/>　平行四邊形 $\\to$ 互相平分；<br/>　矩形 $\\to$ 平分 $+$ 等長；<br/>　菱形 $\\to$ 平分 $+$ 垂直；<br/>　正方形 $\\to$ 平分 $+$ 垂直 $+$ 等長（三特徵全到齊）。</p>"
+        },
+        {
+          "id": "g6c_ch10_1_q15",
+          "number": 15,
+          "type": "single_choice",
+          "content": "<p>如圖，$L_1 \\parallel L_2$，三條截線 $\\ell_a$、$\\ell_b$、$\\ell_c$ 在 $L_1$ 上分別形成 $80°$、$x°$、$50°$ 的角（都是與 $L_1$ 在右上方的夾角）。這三條截線在 $L_2$ 上形成的對應角分別記作 $\\alpha$、$\\beta$、$\\gamma$（位置與 $80°$、$x°$、$50°$ 都是同位角關係）。若 $\\alpha + \\beta + \\gamma = 200°$，求 $x$。</p><p>A. $50$</p><p>B. $60$</p><p>C. $70$</p><p>D. $80$</p>",
+          "answer": "C",
+          "explanation": "<p>這是<strong>多截線同位角整合題（策略判斷型）</strong>。<br/>核心觀察：由<strong>同位角相等</strong>，$L_2$ 上的對應角分別等於 $L_1$ 上對應角：<br/>$\\alpha = 80°$，$\\beta = x°$，$\\gamma = 50°$。<br/>列式：$\\alpha + \\beta + \\gamma = 80 + x + 50 = 200$<br/>$\\to x + 130 = 200 \\to x = \\mathbf{70}$。<br/>答案 C。<br/>檢驗：$80 + 70 + 50 = 200$ ✓。<br/>關鍵策略：多截線題只要兩線平行，所有「對應位置」的角都同位角相等，不必把每對都重畫，可直接把已知角度「下放」到另一條線上參與計算。</p>"
+        }
+      ]
+    }
+  ]
+}

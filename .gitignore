@@ -28,3 +28,4 @@ dist-ssr
 # src/data/
 # public/assets/images_ans/
 src/data/raw/
+.scratch/

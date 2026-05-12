@@ -6,7 +6,7 @@ interface LandingPageProps {
     onChallenge: () => void;
 }
 
-const books = ['小四上', '小四下', '小五上', '小五下', '小六上', '小六下'];
+const books = ['小四上', '小四下', '小五上', '小五下', '小六上', '小六下', '小六挑戰'];
 
 export function LandingPage({ onStart, onChallenge }: LandingPageProps) {
     const itemVariants = {

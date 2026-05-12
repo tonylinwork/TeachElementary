@@ -1,0 +1,138 @@
+{
+  "title": "小六挑戰 2-1 分小數四則（進階）",
+  "summary": "<ul><li><strong>多層括號運算順序</strong>：遇到 $\\{ \\, [ \\, ( \\, ) \\, ] \\, \\}$ 三層括號時，<strong>由內而外逐層計算</strong>：先小括號 $($、再中括號 $[$、最後大括號 $\\{$。每層內部仍遵守「先乘除、後加減」。</li><li><strong>分數小數混合策略</strong>：①若含 $\\dfrac{1}{3}$、$\\dfrac{1}{7}$ 等不能化為有限小數的分數 $\\to$ 全部統一<strong>用分數</strong>計算；②若全是 $0.25、0.5、0.75、0.125$ 等可整除的小數 $\\to$ 可用小數方便；③記憶常用：$\\dfrac{1}{4} = 0.25$、$\\dfrac{1}{8} = 0.125$、$\\dfrac{3}{8} = 0.375$。</li><li><strong>循環小數轉分數</strong>：$0.\\overline{a} = \\dfrac{a}{9}$（如 $0.\\overline{3} = \\dfrac{1}{3}$）；$0.\\overline{ab} = \\dfrac{ab}{99}$（如 $0.\\overline{27} = \\dfrac{27}{99} = \\dfrac{3}{11}$）。<strong>循環節幾位</strong>分母就放幾個 $9$。</li><li><strong>速算技巧</strong>：①<strong>分配律巧用</strong> $a \\times b + a \\times c = a \\times (b + c)$、$a \\times b - a \\times c = a \\times (b - c)$；②<strong>湊整</strong>：把 $7.98$ 看作 $8 - 0.02$、$1.99$ 看作 $2 - 0.01$；③<strong>提取公因數</strong>：$\\dfrac{2}{15} + \\dfrac{4}{15} = \\dfrac{1}{15}(2 + 4)$。</li><li><strong>帶分數計算</strong>：先化為假分數再運算。例 $1\\dfrac{2}{3} = \\dfrac{5}{3}$。乘除運算一律假分數；加減運算可保留帶分數但要注意分子借位／進位。</li><li><strong>倒推法</strong>：題目給「某數經過運算後等於 $K$」時，從 $K$ 出發，<strong>把所有運算反過來逐步回推</strong>。$+a$ 倒成 $-a$、$\\times b$ 倒成 $\\div b$。<strong>運算順序也要逆向</strong>（最後一步先反推）。</li><li><strong>約分／通分時機</strong>：①乘除運算<strong>先約分後相乘</strong>，避免分子分母變大；②加減運算必須先通分；③<strong>連續乘除中</strong>可跨分數約分（分子與另一分數的分母）。</li><li><strong>$\\square$ 填空判斷</strong>：若 $\\square$ 出現在加減項，用「總和／差關係」反推；若在乘除項，用「商／積關係」反推。多步混合時用<strong>等量公理</strong>逐項分離 $\\square$。</li></ul>",
+  "sections": [
+    {
+      "type": "true_false",
+      "name": "是非題",
+      "questions": [
+        {
+          "id": "g6c_ch2_1_q1",
+          "number": 1,
+          "type": "true_false",
+          "content": "<p>計算 $36 - \\{12 + [8 - (5 - 3)] \\times 2\\}$ 時，應先算最內層的 $(5 - 3)$，然後依序處理中括號、大括號。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。多層括號的運算順序是<strong>由內而外</strong>：<br/>先小括號 $(5-3) = 2$ $\\to$ 中括號 $[8 - 2] = 6$ $\\to$ $6 \\times 2 = 12$ $\\to$ 大括號 $\\{12 + 12\\} = 24$ $\\to$ 最後 $36 - 24 = \\mathbf{12}$。<br/>無論幾層括號，順序都是先做最內層，逐層往外。</p>"
+        },
+        {
+          "id": "g6c_ch2_1_q2",
+          "number": 2,
+          "type": "true_false",
+          "content": "<p>循環小數 $0.\\overline{27}$（即 $0.272727\\ldots$）化為最簡分數是 $\\dfrac{3}{11}$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。循環節有<strong>兩位</strong>時，分母放兩個 $9$ 即 $99$。<br/>$0.\\overline{27} = \\dfrac{27}{99}$，分子分母同除以 $9$，得 $\\dfrac{3}{11}$ ✓。<br/>驗證：$\\dfrac{3}{11} = 3 \\div 11 = 0.272727\\ldots$ ✓。一般公式：$0.\\overline{ab} = \\dfrac{ab_{\\text{兩位數}}}{99}$。</p>"
+        },
+        {
+          "id": "g6c_ch2_1_q3",
+          "number": 3,
+          "type": "true_false",
+          "content": "<p>計算 $0.25 \\times 36 + 0.25 \\times 64$ 時，提取公因數 $0.25$ 後可改成 $0.25 \\times (36 + 64) = 25$，這個做法是正確的。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。這是<strong>分配律</strong>的逆向應用：兩項都有共同因數 $0.25$，所以可以提出來：<br/>$0.25 \\times 36 + 0.25 \\times 64 = 0.25 \\times (36 + 64) = 0.25 \\times 100 = \\mathbf{25}$ ✓。<br/>原本要算兩次乘法，<strong>湊整成 $100$</strong> 後只需一次即可。這就是「速算」的精髓：先看有沒有共同因數可以提取。</p>"
+        },
+        {
+          "id": "g6c_ch2_1_q4",
+          "number": 4,
+          "type": "true_false",
+          "content": "<p>計算 $\\dfrac{1}{2} + \\dfrac{1}{3} \\times \\dfrac{6}{5}$ 的結果是 $\\dfrac{9}{10}$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。<strong>先乘除後加減</strong>，先算 $\\dfrac{1}{3} \\times \\dfrac{6}{5}$：約分後 $\\dfrac{1}{1} \\times \\dfrac{2}{5} = \\dfrac{2}{5}$。<br/>再加上 $\\dfrac{1}{2}$：$\\dfrac{1}{2} + \\dfrac{2}{5} = \\dfrac{5}{10} + \\dfrac{4}{10} = \\dfrac{9}{10}$ ✓。<br/>常見錯誤：先算 $\\dfrac{1}{2} + \\dfrac{1}{3} = \\dfrac{5}{6}$ 再乘 $\\dfrac{6}{5} = 1$（這是先加後乘，違反運算順序）。</p>"
+        },
+        {
+          "id": "g6c_ch2_1_q5",
+          "number": 5,
+          "type": "true_false",
+          "content": "<p>已知 $\\square \\div \\dfrac{2}{3} - 5 = 7$，則 $\\square = 8$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。用<strong>倒推法</strong>從等號右邊回推：<br/>最後一步是「$- 5$」，反推前的值 $= 7 + 5 = 12$，即 $\\square \\div \\dfrac{2}{3} = 12$。<br/>再前一步是「$\\div \\dfrac{2}{3}$」，反推 $\\square = 12 \\times \\dfrac{2}{3} = \\mathbf{8}$ ✓。<br/>檢驗：$8 \\div \\dfrac{2}{3} - 5 = 8 \\times \\dfrac{3}{2} - 5 = 12 - 5 = 7$ ✓。<br/><strong>倒推口訣</strong>：從最後一個運算反過來，逐步剝離。</p>"
+        }
+      ]
+    },
+    {
+      "type": "single_choice",
+      "name": "單選題",
+      "questions": [
+        {
+          "id": "g6c_ch2_1_q6",
+          "number": 6,
+          "type": "single_choice",
+          "content": "<p>計算 $100 - \\{20 + [(15 - 7) \\times 3 - 4]\\}$ 的結果是？</p><p>A. $40$</p><p>B. $54$</p><p>C. $60$</p><p>D. $66$</p>",
+          "answer": "C",
+          "explanation": "<p><strong>由內而外</strong>逐層計算：<br/>第 $1$ 層（小括號）：$15 - 7 = 8$。<br/>第 $2$ 層（中括號內）：$8 \\times 3 - 4 = 24 - 4 = 20$。<br/>第 $3$ 層（大括號）：$20 + 20 = 40$。<br/>最後：$100 - 40 = \\mathbf{60}$。<br/>答案 C。<br/><strong>陷阱</strong>：中括號內仍要遵守「先乘除後加減」，$8 \\times 3 - 4$ 不能寫成 $8 \\times (3 - 4) = -8$。</p>"
+        },
+        {
+          "id": "g6c_ch2_1_q7",
+          "number": 7,
+          "type": "single_choice",
+          "content": "<p>計算 $\\dfrac{3}{4} + 0.\\overline{3} \\times \\dfrac{3}{5}$ 的結果是？</p><p>A. $\\dfrac{19}{20}$</p><p>B. $\\dfrac{21}{20}$</p><p>C. $\\dfrac{27}{40}$</p><p>D. $\\dfrac{29}{40}$</p>",
+          "answer": "A",
+          "explanation": "<p><strong>第一步：循環小數轉分數</strong>。$0.\\overline{3} = \\dfrac{3}{9} = \\dfrac{1}{3}$。<br/><strong>第二步：先乘後加</strong>。$\\dfrac{1}{3} \\times \\dfrac{3}{5} = \\dfrac{1}{5}$。<br/><strong>第三步</strong>：$\\dfrac{3}{4} + \\dfrac{1}{5} = \\dfrac{15}{20} + \\dfrac{4}{20} = \\dfrac{19}{20}$。<br/>答案 A。<br/><strong>策略</strong>：題目混合循環小數與分數時，<strong>一律先把循環小數轉分數</strong>，再做運算。直接用 $0.333\\ldots$ 小數計算會失精度。</p>"
+        },
+        {
+          "id": "g6c_ch2_1_q8",
+          "number": 8,
+          "type": "single_choice",
+          "content": "<p>下列哪一種<strong>速算策略</strong>最適合計算 $1.25 \\times 56 \\times 8$？</p><p>A. 先算 $1.25 \\times 56 = 70$，再 $70 \\times 8 = 560$</p><p>B. 先算 $56 \\times 8 = 448$，再 $1.25 \\times 448$</p><p>C. 將 $1.25 \\times 8 = 10$ 結合，再乘 $56$ 得 $560$</p><p>D. 將 $1.25$ 化成 $\\dfrac{125}{100}$ 後通分</p>",
+          "answer": "C",
+          "explanation": "<p>本題是<strong>策略判斷題</strong>。<br/>三個數連乘有結合律自由，<strong>關鍵是找到能湊整的兩個</strong>。$1.25 \\times 8 = 10$ 剛好湊整！<br/>$1.25 \\times 56 \\times 8 = 56 \\times (1.25 \\times 8) = 56 \\times 10 = \\mathbf{560}$。<br/>方法 A、B 雖然答案也對，但要做兩次<strong>乘法且其中一次是 $1.25 \\times$ 多位數</strong>，速度慢；D 通分繞遠路。答案 C。<br/><strong>口訣</strong>：看到 $1.25$ 找 $8$、看到 $2.5$ 找 $4$、看到 $0.25$ 找 $4$ — 都會湊整。</p>"
+        },
+        {
+          "id": "g6c_ch2_1_q9",
+          "number": 9,
+          "type": "single_choice",
+          "content": "<p>計算 $2\\dfrac{1}{3} \\times \\dfrac{9}{14} - \\dfrac{1}{2}$ 的結果是？</p><p>A. $\\dfrac{2}{3}$</p><p>B. $\\dfrac{3}{4}$</p><p>C. $1$</p><p>D. $\\dfrac{5}{6}$</p>",
+          "answer": "C",
+          "explanation": "<p><strong>第一步：帶分數化假分數</strong>。$2\\dfrac{1}{3} = \\dfrac{7}{3}$。<br/><strong>第二步：先乘再減</strong>。$\\dfrac{7}{3} \\times \\dfrac{9}{14}$，約分：$7$ 與 $14$ 約成 $1$ 與 $2$，$3$ 與 $9$ 約成 $1$ 與 $3$，得 $\\dfrac{1 \\times 3}{1 \\times 2} = \\dfrac{3}{2}$。<br/><strong>第三步</strong>：$\\dfrac{3}{2} - \\dfrac{1}{2} = \\dfrac{2}{2} = \\mathbf{1}$。<br/>答案 C。<br/><strong>陷阱</strong>：別忘了帶分數先化假分數；$2\\dfrac{1}{3}$ 直接乘 $\\dfrac{9}{14}$ 容易算錯。</p>"
+        },
+        {
+          "id": "g6c_ch2_1_q10",
+          "number": 10,
+          "type": "single_choice",
+          "content": "<p>計算 $7.98 \\times 25$ 最快的方法是？</p><p>A. 直接列豎式</p><p>B. $7.98 \\times 25 = (8 - 0.02) \\times 25 = 200 - 0.5 = 199.5$</p><p>C. $7.98 \\times 25 = 7.98 \\times 100 \\div 4 = 199.5$</p><p>D. B 和 C 都可以</p>",
+          "answer": "D",
+          "explanation": "<p>本題是<strong>策略判斷題</strong>，兩種速算法都很有效：<br/>方法 B 用<strong>湊整法</strong>：$7.98$ 接近 $8$，差 $0.02$。$(8 - 0.02) \\times 25 = 8 \\times 25 - 0.02 \\times 25 = 200 - 0.5 = \\mathbf{199.5}$。<br/>方法 C 用<strong>$\\times 25 = \\times 100 \\div 4$</strong>：$7.98 \\times 100 = 798$，$798 \\div 4 = 199.5$。<br/>兩種都是常用的速算技巧，<strong>遇到 $\\times 25$ 想到「乘 $100$ 除 $4$」、遇到接近整數的數字想到湊整</strong>。答案 D。</p>"
+        },
+        {
+          "id": "g6c_ch2_1_q11",
+          "number": 11,
+          "type": "single_choice",
+          "content": "<p>計算 $\\left(\\dfrac{5}{6} - \\dfrac{1}{4}\\right) \\div \\dfrac{7}{12} + \\dfrac{1}{2}$ 的結果是？</p><p>A. $\\dfrac{3}{2}$</p><p>B. $\\dfrac{7}{12}$</p><p>C. $\\dfrac{1}{2}$</p><p>D. $\\dfrac{13}{14}$</p>",
+          "answer": "A",
+          "explanation": "<p><strong>先括號</strong>：$\\dfrac{5}{6} - \\dfrac{1}{4} = \\dfrac{10}{12} - \\dfrac{3}{12} = \\dfrac{7}{12}$。<br/><strong>再除法</strong>：$\\dfrac{7}{12} \\div \\dfrac{7}{12} = 1$（任何非 $0$ 數除以自己 $= 1$）。<br/><strong>最後加法</strong>：$1 + \\dfrac{1}{2} = \\dfrac{3}{2}$。<br/>答案 A。<br/><strong>觀察技巧</strong>：發現括號結果剛好等於除數，立刻知道商是 $1$，省去一次乘倒數。</p>"
+        },
+        {
+          "id": "g6c_ch2_1_q12",
+          "number": 12,
+          "type": "single_choice",
+          "content": "<p>若 $(\\square + 3.6) \\times \\dfrac{5}{4} = 10$，則 $\\square$ 等於多少？</p><p>A. $4.4$</p><p>B. $5$</p><p>C. $6.4$</p><p>D. $8$</p>",
+          "answer": "A",
+          "explanation": "<p>用<strong>倒推法</strong>，從等號右邊回推。<br/>最後一步是「$\\times \\dfrac{5}{4}$」，反推前 $= 10 \\div \\dfrac{5}{4} = 10 \\times \\dfrac{4}{5} = 8$，即 $\\square + 3.6 = 8$。<br/>前一步是「$+ 3.6$」，反推 $\\square = 8 - 3.6 = \\mathbf{4.4}$。<br/>答案 A。<br/>檢驗：$(4.4 + 3.6) \\times \\dfrac{5}{4} = 8 \\times \\dfrac{5}{4} = 10$ ✓。</p>"
+        },
+        {
+          "id": "g6c_ch2_1_q13",
+          "number": 13,
+          "type": "single_choice",
+          "content": "<p>下列哪一個是計算 $\\dfrac{3}{8} + 0.625 \\times \\dfrac{4}{5}$ 的<strong>最佳第一步</strong>？</p><p>A. 把 $\\dfrac{3}{8}$ 化成 $0.375$，全部用小數算</p><p>B. 把 $0.625$ 化成 $\\dfrac{5}{8}$，全部用分數算</p><p>C. 把 $\\dfrac{4}{5}$ 化成 $0.8$，全部用小數算</p><p>D. 把 $\\dfrac{3}{8}$ 通分到 $\\dfrac{15}{40}$</p>",
+          "answer": "B",
+          "explanation": "<p>本題是<strong>策略判斷題</strong>，要判斷哪種轉換最有利後續計算。<br/>$0.625 = \\dfrac{625}{1000} = \\dfrac{5}{8}$（記憶值），轉成分數後：<br/>$\\dfrac{3}{8} + \\dfrac{5}{8} \\times \\dfrac{4}{5}$，乘法部分先約分得 $\\dfrac{5}{8} \\times \\dfrac{4}{5} = \\dfrac{1}{2}$，再加 $\\dfrac{3}{8} + \\dfrac{1}{2} = \\dfrac{3}{8} + \\dfrac{4}{8} = \\dfrac{7}{8}$。<br/>選 A、C 把分數變小數，會出現 $0.375 \\times 0.8 = 0.3$ 等浮點計算，比較容易算錯；D 通分後仍要面對小數，沒有幫助。答案 B。<br/><strong>準則</strong>：分母是 $8$ 的分數（$\\dfrac{1}{8}, \\dfrac{3}{8}, \\dfrac{5}{8}, \\dfrac{7}{8}$）與小數互換要熟練。</p>"
+        },
+        {
+          "id": "g6c_ch2_1_q14",
+          "number": 14,
+          "type": "single_choice",
+          "content": "<p>一筆預算分三次使用：第一次用掉全部的 $\\dfrac{1}{4}$，第二次用掉剩下的 $\\dfrac{2}{3}$，第三次又用了 $80$ 元，最後剩下 $20$ 元。原來這筆預算共多少元？</p><p>A. $360$ 元</p><p>B. $400$ 元</p><p>C. $440$ 元</p><p>D. $480$ 元</p>",
+          "answer": "B",
+          "explanation": "<p>用<strong>倒推法</strong>從最後 $20$ 元往前。<br/><strong>第三次倒推</strong>：用前 $= 20 + 80 = 100$ 元（即第二次用完後剩 $100$ 元）。<br/><strong>第二次倒推</strong>：第二次用掉「剩下的 $\\dfrac{2}{3}$」後剩 $\\dfrac{1}{3}$ 的「剩下」，所以「剩下」$= 100 \\div \\dfrac{1}{3} = 300$ 元（即第一次用完後剩 $300$ 元）。<br/><strong>第一次倒推</strong>：第一次用掉全部 $\\dfrac{1}{4}$ 後剩 $\\dfrac{3}{4}$，所以全部 $= 300 \\div \\dfrac{3}{4} = 300 \\times \\dfrac{4}{3} = \\mathbf{400}$ 元。<br/>檢驗：$400 \\to$ 用 $100$ 剩 $300 \\to$ 用 $200$ 剩 $100 \\to$ 用 $80$ 剩 $20$ ✓。答案 B。</p>"
+        },
+        {
+          "id": "g6c_ch2_1_q15",
+          "number": 15,
+          "type": "single_choice",
+          "content": "<p>甲、乙兩數之比為 $3 : 5$。若把甲增加 $\\dfrac{1}{3}$ 倍，乙減少 $\\dfrac{1}{5}$，則新的甲、乙之比是？</p><p>A. $1 : 1$</p><p>B. $1 : 2$</p><p>C. $2 : 3$</p><p>D. $5 : 6$</p>",
+          "answer": "A",
+          "explanation": "<p><strong>設原量</strong>：甲 $= 3k$、乙 $= 5k$（任意 $k > 0$）。<br/><strong>變化後</strong>：<br/>新甲 $= 3k \\times \\left(1 + \\dfrac{1}{3}\\right) = 3k \\times \\dfrac{4}{3} = 4k$。<br/>新乙 $= 5k \\times \\left(1 - \\dfrac{1}{5}\\right) = 5k \\times \\dfrac{4}{5} = 4k$。<br/>所以 新甲 : 新乙 $= 4k : 4k = \\mathbf{1 : 1}$。<br/>答案 A。<br/><strong>關鍵</strong>：「增加 $\\dfrac{1}{3}$ 倍」是變成原本的 $\\dfrac{4}{3}$ 倍；「減少 $\\dfrac{1}{5}$」是變成原本的 $\\dfrac{4}{5}$ 倍。<strong>陷阱</strong>：別把「增加 $\\dfrac{1}{3}$ 倍」誤解成「變成 $\\dfrac{1}{3}$ 倍」。</p>"
+        }
+      ]
+    }
+  ]
+}

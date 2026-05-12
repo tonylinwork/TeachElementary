@@ -1,0 +1,138 @@
+{
+  "title": "小六挑戰 7-1 放大縮小與相似圖形（進階）",
+  "summary": "<ul><li><strong>相似圖形的兩條鐵則</strong>：對應<strong>邊長成相同比</strong>（記為「邊長比」或「相似比」）；對應<strong>角完全相等</strong>。倍率／相似比可以大於 $1$（放大）也可以小於 $1$（縮小）。</li><li><strong>邊長比 → 面積比的平方律</strong>：若兩相似圖形的邊長比 $= a : b$，則<strong>面積比 $= a^2 : b^2$</strong>。例：邊長比 $2 : 5$ $\\to$ 面積比 $4 : 25$。<strong>這是國小↔國中銜接最核心的考點</strong>，因為面積是兩個長度的乘積。</li><li><strong>邊長比 → 體積比的立方律</strong>：對相似立體圖形（兩個正方體、兩個球、兩個相似圓柱…）來說，邊長比 $= a : b$ $\\to$ <strong>體積比 $= a^3 : b^3$</strong>。例：邊長比 $1 : 3$ $\\to$ 體積比 $1 : 27$。</li><li><strong>反向應用（由面積／體積比反求邊長比）</strong>：面積比 $9 : 16$ $\\to$ 邊長比 $3 : 4$（開平方）；體積比 $8 : 125$ $\\to$ 邊長比 $2 : 5$（開立方）。題目給面積或體積比要你求邊長比時，記得反向操作。</li><li><strong>比例尺多步應用</strong>：圖距 $\\colon$ 實距 $= 1 \\colon n$。<strong>面積尺度</strong>：若比例尺為 $1 \\colon n$，則圖上面積 $\\colon$ 實際面積 $= 1 : n^2$。常見錯誤：把面積比例尺當邊長比例尺直接算。<strong>單位</strong>：$1$ 公里 $= 100\\,000$ 公分、$1$ 公頃 $= 10\\,000$ 平方公尺、$1$ 平方公里 $= 1\\,000\\,000$ 平方公尺。</li><li><strong>放大縮小作圖技巧</strong>：①<strong>網格法</strong>：把原圖放在小方格上，數出每點的座標，依倍率放大成大方格上的對應點；②<strong>放射線法</strong>：取定點 $O$，連 $O$ 到原圖每個頂點，將每條 $\\overline{OA}$ 延長 $k$ 倍得到新頂點 $A'$，連接 $A'$ 即得放大圖。</li><li><strong>多邊形內角和</strong>：<strong>$n$ 邊形內角和 $= (n - 2) \\times 180^\\circ$</strong>。推導：從一頂點畫出對角線可切成 $n - 2$ 個三角形，每個三角形內角和 $180^\\circ$。<strong>正 $n$ 邊形的單一內角 $= \\dfrac{(n-2) \\times 180^\\circ}{n}$</strong>；<strong>中心角 $= \\dfrac{360^\\circ}{n}$</strong>。內角加中心角 $\\ne 180^\\circ$（這是常見迷思），實際上「內角 $+$ 外角 $= 180^\\circ$」。</li><li><strong>對稱軸數量</strong>：正 $n$ 邊形有 $n$ 條對稱軸；圓有無限多條；長方形（非正方形）$2$ 條；等腰三角形（非正三角形）$1$ 條；一般平行四邊形 $0$ 條。記住「正幾邊形就有幾條」。</li><li><strong>點對稱 vs 線對稱</strong>：<strong>點對稱</strong>＝圖形繞中心點旋轉 $180^\\circ$ 後與原圖重合（例：$Z$、$S$、$N$、平行四邊形、正方形）；<strong>線對稱</strong>＝沿某直線對折後兩半重合。兩者可同時擁有（如正方形、圓、正六邊形）也可只有其一（如平行四邊形只有點對稱）。</li></ul>",
+  "sections": [
+    {
+      "type": "true_false",
+      "name": "是非題",
+      "questions": [
+        {
+          "id": "g6c_ch7_1_q1",
+          "number": 1,
+          "type": "true_false",
+          "content": "<p>兩個相似圖形的邊長比為 $3 : 7$，則它們的面積比為 $3 : 7$。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。相似圖形的<strong>面積比 $=$ 邊長比的平方</strong>，所以邊長比 $3 : 7$ $\\to$ 面積比 $= 3^2 : 7^2 = \\mathbf{9 : 49}$，不是 $3 : 7$。<br/>直覺檢驗：邊長放大 $\\dfrac{7}{3}$ 倍時，長與寬都各放大 $\\dfrac{7}{3}$ 倍，面積要乘兩次 $\\dfrac{7}{3}$，所以面積放大 $\\left(\\dfrac{7}{3}\\right)^2 = \\dfrac{49}{9}$ 倍。<br/>記憶口訣：<strong>「邊長比平方等於面積比」</strong>，這是國中銜接最核心也最常考錯的觀念。</p>"
+        },
+        {
+          "id": "g6c_ch7_1_q2",
+          "number": 2,
+          "type": "true_false",
+          "content": "<p>兩個相似立體圖形（例如兩個正方體）的邊長比為 $1 : 4$，則它們的體積比為 $1 : 64$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。<strong>相似立體圖形體積比 $=$ 邊長比的立方</strong>。邊長比 $1 : 4$ $\\to$ 體積比 $= 1^3 : 4^3 = \\mathbf{1 : 64}$。<br/>驗證：邊長 $1$ 的正方體體積 $= 1$，邊長 $4$ 的正方體體積 $= 64$，比值正好 $1 : 64$ ✓。<br/><strong>升等記憶法</strong>：邊長（一維）比 $a : b$ $\\to$ 面積（二維）比 $a^2 : b^2$ $\\to$ 體積（三維）比 $a^3 : b^3$。維度幾就乘幾次方。</p>"
+        },
+        {
+          "id": "g6c_ch7_1_q3",
+          "number": 3,
+          "type": "true_false",
+          "content": "<p>一個八邊形的內角和是 $1080^\\circ$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。$n$ 邊形<strong>內角和 $= (n - 2) \\times 180^\\circ$</strong>。代入 $n = 8$：$(8 - 2) \\times 180 = 6 \\times 180 = \\mathbf{1080^\\circ}$ ✓。<br/>原理：從八邊形的一個頂點往其他不相鄰頂點畫對角線，可以切成 $8 - 2 = 6$ 個三角形，每個三角形內角和 $180^\\circ$，合計 $6 \\times 180 = 1080^\\circ$。<br/>若是<strong>正八邊形</strong>，每個內角 $= 1080 \\div 8 = 135^\\circ$。</p>"
+        },
+        {
+          "id": "g6c_ch7_1_q4",
+          "number": 4,
+          "type": "true_false",
+          "content": "<p>正六邊形的中心角是 $120^\\circ$。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。正 $n$ 邊形的<strong>中心角 $= \\dfrac{360^\\circ}{n}$</strong>（把圓周等分為 $n$ 份）。代入 $n = 6$：$360 \\div 6 = \\mathbf{60^\\circ}$，不是 $120^\\circ$。<br/>$120^\\circ$ 是正六邊形的<strong>單一內角</strong>（$\\dfrac{(6-2) \\times 180}{6} = \\dfrac{720}{6} = 120^\\circ$），把「中心角」和「內角」搞混了。<br/><strong>關係驗證</strong>：正六邊形可由 $6$ 個全等的正三角形組合而成，每個三角形頂角（即中心角）就是 $60^\\circ$。</p>"
+        },
+        {
+          "id": "g6c_ch7_1_q5",
+          "number": 5,
+          "type": "true_false",
+          "content": "<p>字母 $S$（標準印刷體）是點對稱圖形，但<strong>不是</strong>線對稱圖形。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。字母 $S$ 把它繞中心點旋轉 $180^\\circ$ 後，會與原來的 $S$ 完全重合，所以是<strong>點對稱</strong>。<br/>但 $S$ 不論沿垂直線或水平線對折，兩半都不會重合（上半的弧彎向左、下半的弧彎向右，無論怎麼對折都不一致），所以<strong>不是線對稱</strong>。<br/>類似情況的字母：$N$、$Z$（都點對稱、非線對稱）。<br/>反例對照：字母 $H$、$I$、$X$、$O$ 同時是點對稱和線對稱；字母 $A$、$T$、$M$ 只是線對稱、不是點對稱（旋轉 $180^\\circ$ 變反向了）。</p>"
+        }
+      ]
+    },
+    {
+      "type": "single_choice",
+      "name": "單選題",
+      "questions": [
+        {
+          "id": "g6c_ch7_1_q6",
+          "number": 6,
+          "type": "single_choice",
+          "content": "<p>兩個相似三角形的邊長比是 $2 : 7$，較小三角形的面積是 $20\\text{ cm}^2$，較大三角形的面積是多少？</p><p>A. $70\\text{ cm}^2$</p><p>B. $140\\text{ cm}^2$</p><p>C. $245\\text{ cm}^2$</p><p>D. $490\\text{ cm}^2$</p>",
+          "answer": "C",
+          "explanation": "<p>邊長比 $2 : 7$ $\\to$ <strong>面積比 $= 2^2 : 7^2 = 4 : 49$</strong>。<br/>設大三角形面積為 $S$，則 $\\dfrac{20}{S} = \\dfrac{4}{49} \\to S = \\dfrac{20 \\times 49}{4} = 5 \\times 49 = \\mathbf{245}\\text{ cm}^2$。<br/>檢驗：面積比 $20 : 245 = 4 : 49$ ✓。<br/><strong>陷阱</strong>：A 是直接用邊長比 $\\dfrac{7}{2} \\times 20 = 70$（誤把面積也按邊長比成長，少乘一次）；D 是把面積比再算一次（過頭）。答案 C。</p>"
+        },
+        {
+          "id": "g6c_ch7_1_q7",
+          "number": 7,
+          "type": "single_choice",
+          "content": "<p>兩個相似的長方體玩具，邊長比是 $1 : 5$。已知小玩具的體積是 $8\\text{ cm}^3$，大玩具的體積是多少？</p><p>A. $40\\text{ cm}^3$</p><p>B. $200\\text{ cm}^3$</p><p>C. $1000\\text{ cm}^3$</p><p>D. $5000\\text{ cm}^3$</p>",
+          "answer": "C",
+          "explanation": "<p>邊長比 $1 : 5$ $\\to$ <strong>體積比 $= 1^3 : 5^3 = 1 : 125$</strong>。<br/>大玩具體積 $= 8 \\times 125 = \\mathbf{1000}\\text{ cm}^3$。<br/>檢驗：$8 : 1000 = 1 : 125$ ✓。<br/><strong>陷阱</strong>：A 是把體積按邊長比直接放 $5$ 倍（少乘兩次）；B 是按面積比 $1 : 25$ 算（少乘一次）；D 是錯把比例尺當倍率亂套。<br/><strong>策略口訣</strong>：「體積比是邊長比的立方」，邊長 $\\times 5$ → 體積 $\\times 5 \\times 5 \\times 5 = 125$。答案 C。</p>"
+        },
+        {
+          "id": "g6c_ch7_1_q8",
+          "number": 8,
+          "type": "single_choice",
+          "content": "<p>地圖比例尺 $1 : 50\\,000$，圖上量得某矩形公園長 $4\\text{ cm}$、寬 $3\\text{ cm}$。這個公園的<strong>實際面積</strong>是多少平方公里？</p><p>A. $0.3$ 平方公里</p><p>B. $3$ 平方公里</p><p>C. $30$ 平方公里</p><p>D. $300$ 平方公里</p>",
+          "answer": "B",
+          "explanation": "<p>分兩步：先換邊長，再算面積。<br/>實際長 $= 4 \\times 50\\,000 = 200\\,000\\text{ cm} = 2\\,000\\text{ m} = 2\\text{ km}$。<br/>實際寬 $= 3 \\times 50\\,000 = 150\\,000\\text{ cm} = 1\\,500\\text{ m} = 1.5\\text{ km}$。<br/>實際面積 $= 2 \\times 1.5 = \\mathbf{3}$ 平方公里。<br/><strong>快速法</strong>：面積比例尺 $= 1 : n^2 = 1 : 2.5 \\times 10^9$。圖上面積 $= 4 \\times 3 = 12\\text{ cm}^2$，實際面積 $= 12 \\times 2.5 \\times 10^9 = 3 \\times 10^{10}\\text{ cm}^2 = 3 \\times 10^{10} \\div 10^{10}\\text{ km}^2 = 3$ 平方公里 ✓（$1$ 平方公里 $= 10^{10}\\text{ cm}^2$）。答案 B。</p>"
+        },
+        {
+          "id": "g6c_ch7_1_q9",
+          "number": 9,
+          "type": "single_choice",
+          "content": "<p>下列敘述哪一個<strong>不正確</strong>？</p><p>A. 兩個正方形一定相似</p><p>B. 兩個正三角形一定相似</p><p>C. 兩個長方形一定相似</p><p>D. 兩個圓一定相似</p>",
+          "answer": "C",
+          "explanation": "<p>相似的條件是「對應角相等且對應邊成比例」。<br/>A. 所有正方形都有四個 $90^\\circ$ 角且四邊相等，邊長比一定一致 → 一定相似 ✓<br/>B. 所有正三角形角都是 $60^\\circ$ 且三邊相等 → 一定相似 ✓<br/>D. 圓的「形狀」都一樣（只是大小不同），所以兩個圓一定相似 ✓<br/><strong>C. 不正確</strong>：兩個長方形雖然都有四個 $90^\\circ$ 角，但<strong>長寬比可能不同</strong>。例如 $2 \\times 3$ 和 $2 \\times 5$ 的長方形，角度都對但邊長比不一致（$2 : 3 \\ne 2 : 5$），所以不一定相似。<br/><strong>策略要點</strong>：要相似除了角相等，邊長比也要全部相同。正多邊形因為各邊都相等，比一定一致；長方形或一般四邊形則不保證。答案 C。</p>"
+        },
+        {
+          "id": "g6c_ch7_1_q10",
+          "number": 10,
+          "type": "single_choice",
+          "content": "<p>正十二邊形的單一內角是多少度？</p><p>A. $30^\\circ$</p><p>B. $120^\\circ$</p><p>C. $150^\\circ$</p><p>D. $165^\\circ$</p>",
+          "answer": "C",
+          "explanation": "<p>正 $n$ 邊形<strong>單一內角 $= \\dfrac{(n - 2) \\times 180^\\circ}{n}$</strong>。代入 $n = 12$：<br/>單一內角 $= \\dfrac{(12 - 2) \\times 180}{12} = \\dfrac{10 \\times 180}{12} = \\dfrac{1800}{12} = \\mathbf{150^\\circ}$。<br/><strong>另一種算法</strong>：外角 $= \\dfrac{360}{n} = \\dfrac{360}{12} = 30^\\circ$，內角 $= 180 - 30 = 150^\\circ$ ✓。<br/><strong>陷阱</strong>：A 是中心角 / 外角 $30^\\circ$（兩者數值相同，但不是內角）；B 是正六邊形的內角。答案 C。</p>"
+        },
+        {
+          "id": "g6c_ch7_1_q11",
+          "number": 11,
+          "type": "single_choice",
+          "content": "<p>正八邊形有幾條對稱軸？</p><p>A. $4$ 條</p><p>B. $6$ 條</p><p>C. $8$ 條</p><p>D. $16$ 條</p>",
+          "answer": "C",
+          "explanation": "<p><strong>正 $n$ 邊形恰有 $n$ 條對稱軸</strong>。正八邊形有 $\\mathbf{8}$ 條對稱軸。<br/>分布方式（$n$ 為偶數時）：$4$ 條穿過<strong>對邊中點</strong>$+$ $4$ 條穿過<strong>對角頂點</strong>，共 $8$ 條。<br/>$n$ 為奇數時（如正五邊形）：$5$ 條對稱軸，每條通過一個頂點和對邊的中點。<br/>記住：「正幾邊形就有幾條對稱軸」，是高頻送分題。答案 C。</p>"
+        },
+        {
+          "id": "g6c_ch7_1_q12",
+          "number": 12,
+          "type": "single_choice",
+          "content": "<p>兩個相似三角形的面積比是 $9 : 49$。較小三角形的周長是 $24\\text{ cm}$，較大三角形的周長是多少？</p><p>A. $56\\text{ cm}$</p><p>B. $84\\text{ cm}$</p><p>C. $112\\text{ cm}$</p><p>D. $168\\text{ cm}$</p>",
+          "answer": "A",
+          "explanation": "<p><strong>反向操作</strong>：面積比 $9 : 49$ 開平方 $\\to$ 邊長比 $= \\sqrt{9} : \\sqrt{49} = 3 : 7$。<br/>周長也是「一維長度」，所以周長比 $=$ 邊長比 $= 3 : 7$。<br/>設大三角形周長為 $L$：$\\dfrac{24}{L} = \\dfrac{3}{7} \\to L = \\dfrac{24 \\times 7}{3} = 8 \\times 7 = \\mathbf{56}\\text{ cm}$。<br/>檢驗：$24 : 56 = 3 : 7$ ✓，平方後 $9 : 49$ ✓。<br/><strong>關鍵策略</strong>：題目給面積比但問周長，必須先開平方換回邊長比；不可直接用面積比 $9 : 49$ 來算周長（那會錯）。答案 A。</p>"
+        },
+        {
+          "id": "g6c_ch7_1_q13",
+          "number": 13,
+          "type": "single_choice",
+          "content": "<p>有一張紙地圖比例尺是 $1 : 25\\,000$。下列關於這張地圖的敘述，<strong>哪一個是正確的</strong>？</p><p>A. 圖上 $1\\text{ cm}$ 代表實際 $250\\text{ m}$</p><p>B. 圖上 $1\\text{ cm}^2$ 代表實際 $250\\text{ m}^2$</p><p>C. 圖上面積比例尺也是 $1 : 25\\,000$</p><p>D. 圖上 $1\\text{ cm}$ 代表實際 $25\\,000\\text{ m}$</p>",
+          "answer": "A",
+          "explanation": "<p>逐項分析：<br/>A. 圖上 $1\\text{ cm} = $ 實際 $25\\,000\\text{ cm} = 250\\text{ m}$ ✓（單位換算 $25\\,000 \\div 100 = 250\\text{ m}$）。<br/>B. 錯：圖上 $1\\text{ cm}^2$ 對應實際是 $25\\,000^2 = 6.25 \\times 10^8\\text{ cm}^2 = 62\\,500\\text{ m}^2$（不是 $250\\text{ m}^2$）。<br/>C. 錯：<strong>面積比例尺 $= 1 : n^2 = 1 : 25\\,000^2 = 1 : 6.25 \\times 10^8$</strong>，不是 $1 : 25\\,000$。<br/>D. 錯：把單位寫成「公尺」結果 $25\\,000\\text{ m} = 25\\text{ km}$，太大了；正確是 $25\\,000\\text{ cm}$ 才對。<br/><strong>核心策略</strong>：比例尺是「邊長」的比，面積要用平方換算，不能直接套。答案 A。</p>"
+        },
+        {
+          "id": "g6c_ch7_1_q14",
+          "number": 14,
+          "type": "single_choice",
+          "content": "<p>下列圖形中，哪一個<strong>同時</strong>是線對稱圖形和點對稱圖形？</p><p>A. 一般等腰三角形（非正三角形）</p><p>B. 一般平行四邊形（非長方形也非菱形）</p><p>C. 正方形</p><p>D. 字母 $S$</p>",
+          "answer": "C",
+          "explanation": "<p>逐項分析：<br/>A. 等腰三角形<strong>只有線對稱</strong>（$1$ 條對稱軸），<strong>不是點對稱</strong>（旋轉 $180^\\circ$ 不重合）。<br/>B. 一般平行四邊形<strong>只有點對稱</strong>（對角線交點為對稱中心，旋轉 $180^\\circ$ 重合），<strong>不是線對稱</strong>（沒有對稱軸）。<br/>C. 正方形同時擁有：<strong>線對稱（$4$ 條對稱軸）+ 點對稱（中心為對稱中心，旋轉 $180^\\circ$ 重合）</strong> ✓<br/>D. 字母 $S$ 只是點對稱、不是線對稱。<br/><strong>記憶法</strong>：所有「正多邊形」都同時是線對稱與點對稱（當 $n$ 為偶數時都成立；正三角形、正五邊形等 $n$ 為奇數時只有線對稱不是點對稱）。正方形 $n = 4$，符合。答案 C。</p>"
+        },
+        {
+          "id": "g6c_ch7_1_q15",
+          "number": 15,
+          "type": "single_choice",
+          "content": "<p>把一個三角形按比例放大成原來的 $3$ 倍，原三角形面積為 $14\\text{ cm}^2$。下列哪一個式子<strong>正確算出</strong>放大後三角形的面積？</p><p>A. $14 \\times 3$</p><p>B. $14 \\div 3$</p><p>C. $14 \\times 3 \\times 3$</p><p>D. $14 \\times 3 \\times 3 \\times 3$</p>",
+          "answer": "C",
+          "explanation": "<p>這是<strong>列式選擇題</strong>，考核對「邊長放大 $n$ 倍 $\\to$ 面積放大 $n^2$ 倍」的辨認。<br/>放大 $3$ 倍指<strong>每一條邊都乘以 $3$</strong>，所以面積要乘以 $3 \\times 3 = 9$ 倍。<br/>正確式子：$14 \\times 3 \\times 3 = 14 \\times 9 = \\mathbf{126}\\text{ cm}^2$，選 C。<br/><strong>分析其他選項</strong>：<br/>A. $14 \\times 3$：誤把面積按邊長倍率直接乘 $3$（少乘一次，這是極常見錯誤）。<br/>B. $14 \\div 3$：誤以為放大會讓面積變小，方向完全相反。<br/>D. $14 \\times 3 \\times 3 \\times 3$：誤套體積公式（三維），但題目是平面三角形（二維），只該乘兩次。<br/><strong>口訣</strong>：「邊長 $n$ 倍 → 面積 $n^2$ 倍 → 體積 $n^3$ 倍」，依維度決定乘幾次。答案 C。</p>"
+        }
+      ]
+    }
+  ]
+}
