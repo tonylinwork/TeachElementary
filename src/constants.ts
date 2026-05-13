@@ -7,7 +7,7 @@ export const BOOKS_CONFIG = [
     { name: '小六上', chapters: 5 },
     { name: '小六下', chapters: 6 },
     { name: '小五挑戰', chapters: 7 },
-    { name: '小六挑戰', chapters: 11 },
+    { name: '小六挑戰', chapters: 19 },
 ];
 
 export const DIFFICULTIES = [

@@ -1,0 +1,138 @@
+{
+  "title": "小六挑戰 13-1 運算簡化與速算策略（進階）",
+  "summary": "<ul><li><strong>提公因式法</strong>：分配律 $a \\times b + a \\times c = a \\times (b + c)$ 反向使用。當算式中有共同因數時提出來能大幅簡化計算。例：$25 \\times 13 + 25 \\times 7 = 25 \\times (13 + 7) = 25 \\times 20 = 500$；$36 \\times 99 + 36 = 36 \\times (99 + 1) = 36 \\times 100 = 3600$。</li><li><strong>湊整法（補數技巧）</strong>：把接近整十、整百的數寫成「整數 $\\pm$ 小差」便於計算。常見湊整：$99 = 100 - 1$、$98 = 100 - 2$、$101 = 100 + 1$、$49 = 50 - 1$。例：$99 \\times 25 = (100 - 1) \\times 25 = 2500 - 25 = 2475$。</li><li><strong>分項對消（telescoping）</strong>：利用 $\\dfrac{1}{n(n+1)} = \\dfrac{1}{n} - \\dfrac{1}{n+1}$ 把分數拆成相鄰差，中間項相消只剩首尾。例：$\\dfrac{1}{1 \\times 2} + \\dfrac{1}{2 \\times 3} + \\dfrac{1}{3 \\times 4} = (1 - \\dfrac{1}{2}) + (\\dfrac{1}{2} - \\dfrac{1}{3}) + (\\dfrac{1}{3} - \\dfrac{1}{4}) = 1 - \\dfrac{1}{4} = \\dfrac{3}{4}$。</li><li><strong>等差數列速算</strong>：首項 $a_1$、末項 $a_n$、項數 $n$ 的等差數列，總和 $S = \\dfrac{(a_1 + a_n) \\times n}{2}$。例：$1 + 2 + 3 + \\cdots + 100 = \\dfrac{(1 + 100) \\times 100}{2} = \\dfrac{10100}{2} = 5050$。項數公式：$n = \\dfrac{a_n - a_1}{d} + 1$（$d$ 為公差）。</li><li><strong>配對相消／分組整理</strong>：找到使結果為整數或抵消的配對。例：$1 - 2 + 3 - 4 + 5 - 6 + \\cdots + 99 - 100$，每兩項配對 $(1-2) + (3-4) + \\cdots = (-1) \\times 50 = -50$；又如 $\\dfrac{1}{2} \\times 2 + \\dfrac{1}{3} \\times 3 + \\cdots$ 各項 $= 1$ 直接累加。</li><li><strong>變數代換</strong>：算式中重複出現某個複雜部分時，把它設為 $x$ 簡化。例：求 $(1 + 2 + 3 + 4) \\times (2 + 3 + 4) - (1 + 2 + 3 + 4 + 5) \\times (3 + 4)$，可設 $A = 1+2+3+4 = 10$、$B = 3+4 = 7$ 等化簡。</li><li><strong>平方差公式</strong>：$a^2 - b^2 = (a + b)(a - b)$。例：$101^2 - 99^2 = (101 + 99)(101 - 99) = 200 \\times 2 = 400$，比直接平方再相減快很多。</li><li><strong>易錯與選用策略</strong>：① 別把湊整當作真的等於（$99 \\neq 100$，要記得補上 $\\times (-1)$ 部分）；② 提公因式前先找最大公因數，提錯會失去簡化效果；③ 分項對消的拆法要先驗證 $\\dfrac{1}{n} - \\dfrac{1}{n+1} = \\dfrac{1}{n(n+1)}$；④ 等差數列的「項數」常算錯，記得 $+1$。</li></ul>",
+  "sections": [
+    {
+      "type": "true_false",
+      "name": "是非題",
+      "questions": [
+        {
+          "id": "g6c_ch13_1_q1",
+          "number": 1,
+          "type": "true_false",
+          "content": "<p>計算 $36 \\times 17 + 36 \\times 83$ 時，可以提公因式變成 $36 \\times (17 + 83) = 36 \\times 100 = 3600$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。<strong>分配律反向使用</strong>（提公因式）：$a \\times b + a \\times c = a \\times (b + c)$。<br/>$36 \\times 17 + 36 \\times 83 = 36 \\times (17 + 83) = 36 \\times 100 = \\mathbf{3600}$ ✓。<br/>關鍵是發現 $17 + 83 = 100$ 為整數，使簡化後計算非常容易。若直接算：$36 \\times 17 = 612$、$36 \\times 83 = 2988$，$612 + 2988 = 3600$ ✓ 結果一致但耗時多。</p>"
+        },
+        {
+          "id": "g6c_ch13_1_q2",
+          "number": 2,
+          "type": "true_false",
+          "content": "<p>等差數列 $3, 5, 7, 9, \\ldots, 99$ 的項數為 $49$，總和為 $2499$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。<strong>等差數列</strong>首項 $a_1 = 3$、末項 $a_n = 99$、公差 $d = 2$。<br/>項數 $n = \\dfrac{a_n - a_1}{d} + 1 = \\dfrac{99 - 3}{2} + 1 = 48 + 1 = \\mathbf{49}$ 項 ✓<br/>總和 $S = \\dfrac{(a_1 + a_n) \\times n}{2} = \\dfrac{(3 + 99) \\times 49}{2} = \\dfrac{102 \\times 49}{2} = 51 \\times 49 = \\mathbf{2499}$ ✓。<br/><strong>常見錯誤</strong>：項數忘記 $+1$ 算成 $48$，導致總和計算誤差。</p>"
+        },
+        {
+          "id": "g6c_ch13_1_q3",
+          "number": 3,
+          "type": "true_false",
+          "content": "<p>$\\dfrac{1}{n(n+1)} = \\dfrac{1}{n} - \\dfrac{1}{n+1}$，因此 $\\dfrac{1}{1 \\times 2} + \\dfrac{1}{2 \\times 3} + \\dfrac{1}{3 \\times 4} + \\cdots + \\dfrac{1}{9 \\times 10} = \\dfrac{9}{10}$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。<strong>分項對消（telescoping）</strong>。<br/>驗證 $\\dfrac{1}{n} - \\dfrac{1}{n+1} = \\dfrac{n+1 - n}{n(n+1)} = \\dfrac{1}{n(n+1)}$ ✓。<br/>原式 $= (1 - \\dfrac{1}{2}) + (\\dfrac{1}{2} - \\dfrac{1}{3}) + (\\dfrac{1}{3} - \\dfrac{1}{4}) + \\cdots + (\\dfrac{1}{9} - \\dfrac{1}{10})$<br/>中間項全部抵消，只剩 $1 - \\dfrac{1}{10} = \\mathbf{\\dfrac{9}{10}}$ ✓。<br/><strong>口訣</strong>：「拆首尾、相消中」。</p>"
+        },
+        {
+          "id": "g6c_ch13_1_q4",
+          "number": 4,
+          "type": "true_false",
+          "content": "<p>計算 $98 \\times 102$ 用湊整法：$98 = 100 - 2$、$102 = 100 + 2$，由平方差公式 $98 \\times 102 = 100^2 - 2^2 = 9996$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。<strong>平方差公式</strong> $(a - b)(a + b) = a^2 - b^2$。<br/>$98 \\times 102 = (100 - 2)(100 + 2) = 100^2 - 2^2 = 10000 - 4 = \\mathbf{9996}$ ✓<br/>直接算 $98 \\times 102 = 9996$ 雖然也對，但湊整法心算更快。<br/><strong>應用條件</strong>：兩數對某個整數對稱（如 $97 \\times 103$ 對稱於 $100$、$48 \\times 52$ 對稱於 $50$）才能用。</p>"
+        },
+        {
+          "id": "g6c_ch13_1_q5",
+          "number": 5,
+          "type": "true_false",
+          "content": "<p>計算 $99 \\times 25$，用湊整法 $99 \\times 25 = 100 \\times 25 = 2500$。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。湊整法<strong>不能直接把 $99$ 替換成 $100$</strong>，必須補上差值。<br/>正解：$99 \\times 25 = (100 - 1) \\times 25 = 100 \\times 25 - 1 \\times 25 = 2500 - 25 = \\mathbf{2475}$ ✓。<br/><strong>常見錯誤</strong>：以為「$99$ 接近 $100$」就直接替換，這會讓答案大 $25$。湊整法只是「拆」，最後必須完整還原原式（包含 $-1$ 那部分）。</p>"
+        }
+      ]
+    },
+    {
+      "type": "single_choice",
+      "name": "單選題",
+      "questions": [
+        {
+          "id": "g6c_ch13_1_q6",
+          "number": 6,
+          "type": "single_choice",
+          "content": "<p>計算 $1 + 2 + 3 + 4 + \\cdots + 50$ 的值。</p><p>A. $1225$</p><p>B. $1275$</p><p>C. $2500$</p><p>D. $5050$</p>",
+          "answer": "B",
+          "explanation": "<p>用<strong>等差數列求和公式</strong> $S = \\dfrac{(a_1 + a_n) \\times n}{2}$。<br/>$a_1 = 1$、$a_n = 50$、$n = 50$。<br/>$S = \\dfrac{(1 + 50) \\times 50}{2} = \\dfrac{51 \\times 50}{2} = \\dfrac{2550}{2} = \\mathbf{1275}$ ✓。<br/>選項 D 是 $1 + 2 + \\cdots + 100 = 5050$ 的陷阱；A 是 $\\dfrac{49 \\times 50}{2}$（少 $1$ 項）；C 是 $50 \\times 50$。答案 B。</p>"
+        },
+        {
+          "id": "g6c_ch13_1_q7",
+          "number": 7,
+          "type": "single_choice",
+          "content": "<p>下列哪一個算式最適合用「提公因式法」簡化？</p><p>A. $25 \\times 16 + 25 \\times 4$</p><p>B. $98 \\times 102$</p><p>C. $1 + 3 + 5 + 7 + \\cdots + 99$</p><p>D. $\\dfrac{1}{1 \\times 2} + \\dfrac{1}{2 \\times 3}$</p>",
+          "answer": "A",
+          "explanation": "<p><strong>提公因式法</strong>適用於：算式為「同因數的乘積之和（差）」。<br/>A. $25 \\times 16 + 25 \\times 4 = 25 \\times (16 + 4) = 25 \\times 20 = 500$ ✓ 經典提公因式情境。<br/>B. 適合<strong>湊整／平方差法</strong>（兩數對 $100$ 對稱）。<br/>C. 適合<strong>等差數列求和</strong>。<br/>D. 適合<strong>分項對消</strong>。<br/>每種題型有最佳工具，選擇正確策略才能事半功倍。答案 A。</p>"
+        },
+        {
+          "id": "g6c_ch13_1_q8",
+          "number": 8,
+          "type": "single_choice",
+          "content": "<p>計算 $97 \\times 103$ 的值。</p><p>A. $9991$</p><p>B. $9994$</p><p>C. $9996$</p><p>D. $9999$</p>",
+          "answer": "A",
+          "explanation": "<p><strong>湊整 + 平方差公式</strong>：兩數對 $100$ 對稱。<br/>$97 \\times 103 = (100 - 3)(100 + 3) = 100^2 - 3^2 = 10000 - 9 = \\mathbf{9991}$ ✓。<br/>選項 C 是 $98 \\times 102 = 9996$ 的陷阱；其他選項則是計算出錯時的誘答。<br/><strong>方法選擇</strong>：對 $100$ 對稱優先用平方差；不對稱（如 $98 \\times 27$）則用 $(100 - 2) \\times 27 = 2700 - 54 = 2646$。答案 A。</p>"
+        },
+        {
+          "id": "g6c_ch13_1_q9",
+          "number": 9,
+          "type": "single_choice",
+          "content": "<p>計算 $\\dfrac{1}{1 \\times 2} + \\dfrac{1}{2 \\times 3} + \\dfrac{1}{3 \\times 4} + \\cdots + \\dfrac{1}{49 \\times 50}$ 的值。</p><p>A. $\\dfrac{1}{50}$</p><p>B. $\\dfrac{49}{50}$</p><p>C. $\\dfrac{1}{2}$</p><p>D. $\\dfrac{25}{49}$</p>",
+          "answer": "B",
+          "explanation": "<p>用<strong>分項對消</strong>：$\\dfrac{1}{n(n+1)} = \\dfrac{1}{n} - \\dfrac{1}{n+1}$。<br/>原式 $= (1 - \\dfrac{1}{2}) + (\\dfrac{1}{2} - \\dfrac{1}{3}) + \\cdots + (\\dfrac{1}{49} - \\dfrac{1}{50})$<br/>中間項全部相消，只剩首項 $1$ 與末項 $-\\dfrac{1}{50}$。<br/>$= 1 - \\dfrac{1}{50} = \\mathbf{\\dfrac{49}{50}}$ ✓。答案 B。<br/><strong>檢驗</strong>：項數為 $49$ 項（從 $\\dfrac{1}{1 \\times 2}$ 到 $\\dfrac{1}{49 \\times 50}$），結果是 $\\dfrac{49}{50}$，分子分母都很乾淨，是這類題的標準答案形式。</p>"
+        },
+        {
+          "id": "g6c_ch13_1_q10",
+          "number": 10,
+          "type": "single_choice",
+          "content": "<p>計算 $999 \\times 999 + 999$ 的值。</p><p>A. $998001$</p><p>B. $999000$</p><p>C. $999999$</p><p>D. $1000000$</p>",
+          "answer": "B",
+          "explanation": "<p><strong>提公因式</strong>：$999 \\times 999 + 999 = 999 \\times 999 + 999 \\times 1 = 999 \\times (999 + 1) = 999 \\times 1000 = \\mathbf{999000}$ ✓。<br/>用湊整一氣呵成：把 $999 \\times 1000 = 999 \\times 1000$ 直接得 $999000$。<br/>選項 A 是 $999 \\times 999 = 998001$ 的陷阱（忘了加 $999$）；D 是錯算把 $999 + 999 + 1 = 1999$ 後再...的混亂思路。答案 B。</p>"
+        },
+        {
+          "id": "g6c_ch13_1_q11",
+          "number": 11,
+          "type": "single_choice",
+          "content": "<p>計算 $2 + 4 + 6 + 8 + \\cdots + 100$ 的值。</p><p>A. $2550$</p><p>B. $2600$</p><p>C. $5050$</p><p>D. $10100$</p>",
+          "answer": "A",
+          "explanation": "<p>偶數等差數列，首項 $2$、末項 $100$、公差 $2$。<br/>項數 $= \\dfrac{100 - 2}{2} + 1 = 49 + 1 = 50$ 項。<br/>總和 $= \\dfrac{(2 + 100) \\times 50}{2} = \\dfrac{102 \\times 50}{2} = 51 \\times 50 = \\mathbf{2550}$ ✓。<br/><strong>速法</strong>：$2 + 4 + \\cdots + 100 = 2 \\times (1 + 2 + \\cdots + 50) = 2 \\times 1275 = 2550$，提公因式 $2$ 後變熟悉的 $1$~$50$ 求和。答案 A。</p>"
+        },
+        {
+          "id": "g6c_ch13_1_q12",
+          "number": 12,
+          "type": "single_choice",
+          "content": "<p>計算 $1 - 2 + 3 - 4 + 5 - 6 + \\cdots + 99 - 100$ 的值。</p><p>A. $-100$</p><p>B. $-50$</p><p>C. $0$</p><p>D. $50$</p>",
+          "answer": "B",
+          "explanation": "<p>用<strong>配對相消</strong>：每兩項一組。<br/>$(1 - 2) + (3 - 4) + (5 - 6) + \\cdots + (99 - 100)$<br/>每組都是 $-1$，共 $\\dfrac{100}{2} = 50$ 組。<br/>總和 $= (-1) \\times 50 = \\mathbf{-50}$ ✓。<br/><strong>方法選擇</strong>：交錯加減題優先試「配對」。若項數是奇數則最後一項落單，需單獨加上。答案 B。</p>"
+        },
+        {
+          "id": "g6c_ch13_1_q13",
+          "number": 13,
+          "type": "single_choice",
+          "content": "<p>計算 $125 \\times 32 \\times 25$ 的值，下列哪一個列式運用了最合適的速算策略？</p><p>A. $125 \\times 32 \\times 25 = 4000 \\times 25 = 100000$</p><p>B. $125 \\times 32 \\times 25 = (125 \\times 8) \\times (4 \\times 25) = 1000 \\times 100 = 100000$</p><p>C. $125 \\times 32 \\times 25 = 125 \\times (32 + 25) = 125 \\times 57 = 7125$</p><p>D. $125 \\times 32 \\times 25 = 125 \\times 800 = 100000$</p>",
+          "answer": "B",
+          "explanation": "<p>本題考<strong>湊整拆解（湊整數倍）</strong>。<br/>B 把 $32 = 8 \\times 4$ 拆開，將 $8$ 配 $125$（湊 $1000$）、$4$ 配 $25$（湊 $100$），運算量最小且最易心算 ✓。<br/>A 雖然答案對但中間 $125 \\times 32 = 4000$ 不容易心算（要進位多次）。<br/>C 把乘法錯寫成加法，根本錯了（不能因為都是 $125$ 而合併）。<br/>D 把 $32 \\times 25 = 800$ 後再 $\\times 125$ 也對但不如 B 直觀。<br/><strong>關鍵策略</strong>：尋找「湊整搭檔」如 $125 \\leftrightarrow 8$、$25 \\leftrightarrow 4$、$2 \\leftrightarrow 5$。答案 B。</p>"
+        },
+        {
+          "id": "g6c_ch13_1_q14",
+          "number": 14,
+          "type": "single_choice",
+          "content": "<p>計算 $\\dfrac{2}{1 \\times 3} + \\dfrac{2}{3 \\times 5} + \\dfrac{2}{5 \\times 7} + \\cdots + \\dfrac{2}{19 \\times 21}$ 的值。</p><p>A. $\\dfrac{1}{21}$</p><p>B. $\\dfrac{10}{21}$</p><p>C. $\\dfrac{19}{21}$</p><p>D. $\\dfrac{20}{21}$</p>",
+          "answer": "D",
+          "explanation": "<p><strong>分項對消變體</strong>：$\\dfrac{2}{n(n+2)} = \\dfrac{1}{n} - \\dfrac{1}{n+2}$。<br/>驗證 $\\dfrac{1}{n} - \\dfrac{1}{n+2} = \\dfrac{(n+2) - n}{n(n+2)} = \\dfrac{2}{n(n+2)}$ ✓。<br/>原式 $= (1 - \\dfrac{1}{3}) + (\\dfrac{1}{3} - \\dfrac{1}{5}) + (\\dfrac{1}{5} - \\dfrac{1}{7}) + \\cdots + (\\dfrac{1}{19} - \\dfrac{1}{21})$<br/>奇數位的中間項都抵消（$\\dfrac{1}{3}, \\dfrac{1}{5}, \\ldots, \\dfrac{1}{19}$）。<br/>剩下 $1 - \\dfrac{1}{21} = \\mathbf{\\dfrac{20}{21}}$ ✓。答案 D。</p>"
+        },
+        {
+          "id": "g6c_ch13_1_q15",
+          "number": 15,
+          "type": "single_choice",
+          "content": "<p>設 $A = 1 + 2 + 3 + \\cdots + 100$。則 $A + (A + 1) + (A + 2) + \\cdots + (A + 9)$ 的值等於下列何者？</p><p>A. $5050$</p><p>B. $50545$</p><p>C. $50550$</p><p>D. $55050$</p>",
+          "answer": "B",
+          "explanation": "<p>本題運用<strong>變數代換</strong>簡化。<br/>$A = 1 + 2 + \\cdots + 100 = \\dfrac{(1 + 100) \\times 100}{2} = 5050$。<br/>原式有 $10$ 項：$A, A+1, A+2, \\ldots, A+9$<br/>$= 10A + (0 + 1 + 2 + \\cdots + 9)$<br/>$= 10 \\times 5050 + \\dfrac{(0+9) \\times 10}{2}$<br/>$= 50500 + 45$<br/>$= \\mathbf{50545}$ ✓<br/>選項 A 是只計 $A$ 一個的陷阱；C 是 $10A + 50$ 算錯；D 是把 $A$ 看成 $5500$ 的錯誤。<br/><strong>關鍵</strong>：把重複出現的長算式設為變數可大幅減少書寫量，並避免重複計算。答案 B。</p>"
+        }
+      ]
+    }
+  ]
+}

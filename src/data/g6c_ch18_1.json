@@ -1,0 +1,138 @@
+{
+  "title": "小六挑戰 18-1 工作量分配與合作完成時間（進階）",
+  "summary": "<ul><li><strong>工作量單位化</strong>：把整件工作的總量設為 $1$。若甲單獨 $a$ 天完成，則甲每天的工作率為 $\\dfrac{1}{a}$；乙每天 $\\dfrac{1}{b}$。<strong>單位化</strong>後可用「每天做幾分之幾」直接相加減，省去具體工作量。</li><li><strong>兩人合作公式</strong>：兩人合作每天做 $\\dfrac{1}{a}+\\dfrac{1}{b}=\\dfrac{a+b}{ab}$，合作完成需 $\\dfrac{1}{\\frac{1}{a}+\\frac{1}{b}}=\\dfrac{ab}{a+b}$ 天。<strong>注意</strong>：合作天數一定比任一人單獨完成的天數短，且小於 $\\min(a,b)$。</li><li><strong>三人合作</strong>：合作天數 $=\\dfrac{1}{\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}}=\\dfrac{abc}{bc+ac+ab}$。多人一起做時，每人工作率相加，總和倒數即為合作天數。</li><li><strong>輪流工作</strong>：甲乙輪流（甲做 $1$ 天、乙做 $1$ 天）時，<strong>每 $2$ 天</strong>合計做 $\\dfrac{1}{a}+\\dfrac{1}{b}$。先算「整循環」做幾天剩多少，再判斷最後一天由誰收尾。陷阱：剩餘量可能在某人的某一天「做不滿一天」就完成。</li><li><strong>中途加入或退出</strong>：甲先做 $x$ 天後乙加入合作，總方程式：$\\dfrac{x}{a}+\\left(\\dfrac{1}{a}+\\dfrac{1}{b}\\right)y=1$，解出剩餘合作天數 $y$。中途退出：甲乙合作 $y$ 天後乙離開，甲再單獨做 $z$ 天，列 $\\left(\\dfrac{1}{a}+\\dfrac{1}{b}\\right)y+\\dfrac{z}{a}=1$。</li><li><strong>注水與排水（同時開）</strong>：注水管 $A$ 單獨 $a$ 小時注滿、排水管 $B$ 單獨 $b$ 小時放空。同時開的<strong>淨速率</strong>為 $\\dfrac{1}{a}-\\dfrac{1}{b}$（必須 $a<b$ 才會注滿），注滿所需 $\\dfrac{ab}{b-a}$ 小時。若 $a>b$ 則永遠注不滿。</li><li><strong>剩餘量分配</strong>：已做完 $\\dfrac{p}{q}$ 後，剩 $1-\\dfrac{p}{q}=\\dfrac{q-p}{q}$，由新組合的工作率去除得剩餘天數。常結合「先單獨 $\\to$ 後合作」或「先合作 $\\to$ 後單獨」。</li><li><strong>解題策略</strong>：① 設總工作量 $=1$ 是最通用作法；② 若 $a,b,c$ 給定具體數字，也可把總工作量設為 $\\text{lcm}(a,b,c)$ 讓每人每天做整數份，計算更直觀；③ 注排水問題務必確認「淨速率正負」再列式。</li></ul>",
+  "sections": [
+    {
+      "type": "true_false",
+      "name": "是非題",
+      "questions": [
+        {
+          "id": "g6c_ch18_1_q1",
+          "number": 1,
+          "type": "true_false",
+          "content": "<p>一件工作甲單獨做 $12$ 天完成、乙單獨做 $18$ 天完成，則甲乙合作每天可完成全部工作的 $\\dfrac{5}{36}$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。把總工作量設為 $1$。<br/>甲每天 $\\dfrac{1}{12}$、乙每天 $\\dfrac{1}{18}$。<br/>合作每天 $=\\dfrac{1}{12}+\\dfrac{1}{18}=\\dfrac{3}{36}+\\dfrac{2}{36}=\\dfrac{5}{36}$ ✓。<br/>合作完成所需 $=\\dfrac{1}{5/36}=\\dfrac{36}{5}=7.2$ 天，符合 $\\dfrac{ab}{a+b}=\\dfrac{12\\times 18}{30}=\\dfrac{216}{30}=\\dfrac{36}{5}$。</p>"
+        },
+        {
+          "id": "g6c_ch18_1_q2",
+          "number": 2,
+          "type": "true_false",
+          "content": "<p>甲單獨 $10$ 天完成、乙單獨 $15$ 天完成，則甲乙合作完成需要 $\\dfrac{10+15}{2}=12.5$ 天。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。<strong>合作天數不是兩人天數的平均</strong>，這是工程問題最常見的陷阱。<br/>正確公式為 $\\dfrac{ab}{a+b}=\\dfrac{10\\times 15}{10+15}=\\dfrac{150}{25}=6$ 天。<br/>直覺檢驗：合作天數一定比任一人單獨完成都<strong>短</strong>，所以絕不會是 $12.5$ 天（比甲 $10$ 天還長）。</p>"
+        },
+        {
+          "id": "g6c_ch18_1_q3",
+          "number": 3,
+          "type": "true_false",
+          "content": "<p>注水管 $A$ 單獨 $4$ 小時可注滿水池、排水管 $B$ 單獨 $6$ 小時可排空滿池。若兩管同時開，則水池可在 $12$ 小時注滿。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。淨速率 $=\\dfrac{1}{4}-\\dfrac{1}{6}=\\dfrac{3}{12}-\\dfrac{2}{12}=\\dfrac{1}{12}$（每小時注滿的比例）。<br/>注滿時間 $=\\dfrac{1}{1/12}=12$ 小時 ✓。<br/>對應公式 $\\dfrac{ab}{b-a}=\\dfrac{4\\times 6}{6-4}=\\dfrac{24}{2}=12$。注意 $a<b$（注水比排水快）才會注滿。</p>"
+        },
+        {
+          "id": "g6c_ch18_1_q4",
+          "number": 4,
+          "type": "true_false",
+          "content": "<p>甲、乙、丙三人各自單獨做某件工程分別需 $6, 8, 12$ 天，三人合作每天完成 $\\dfrac{3}{8}$ 的工作量。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。三人合作每天 $=\\dfrac{1}{6}+\\dfrac{1}{8}+\\dfrac{1}{12}$。<br/>通分（公分母 $24$）$=\\dfrac{4}{24}+\\dfrac{3}{24}+\\dfrac{2}{24}=\\dfrac{9}{24}=\\dfrac{3}{8}$ ✓。<br/>合作完成需 $\\dfrac{1}{3/8}=\\dfrac{8}{3}$ 天 $\\approx 2.67$ 天。</p>"
+        },
+        {
+          "id": "g6c_ch18_1_q5",
+          "number": 5,
+          "type": "true_false",
+          "content": "<p>注水管 $A$ 單獨 $6$ 小時注滿、排水管 $B$ 單獨 $4$ 小時放空，兩管同時開，水池可在 $12$ 小時注滿。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。本題 $a=6>b=4$，即排水比注水快，淨速率 $=\\dfrac{1}{6}-\\dfrac{1}{4}=\\dfrac{2-3}{12}=-\\dfrac{1}{12}<0$。<br/>水位<strong>逐漸下降</strong>，永遠注不滿。<br/><strong>常見陷阱</strong>：學生套用 $\\dfrac{ab}{b-a}$ 不考慮正負號，會錯誤算出 $\\dfrac{24}{|-2|}=12$ 小時。注排水題務必先比較 $a, b$ 大小。</p>"
+        }
+      ]
+    },
+    {
+      "type": "single_choice",
+      "name": "單選題",
+      "questions": [
+        {
+          "id": "g6c_ch18_1_q6",
+          "number": 6,
+          "type": "single_choice",
+          "content": "<p>一件工程甲單獨做 $20$ 天完成、乙單獨做 $30$ 天完成。兩人合作，幾天可以完成？</p><p>A. $10$ 天</p><p>B. $12$ 天</p><p>C. $15$ 天</p><p>D. $25$ 天</p>",
+          "answer": "B",
+          "explanation": "<p>合作每天 $=\\dfrac{1}{20}+\\dfrac{1}{30}=\\dfrac{3}{60}+\\dfrac{2}{60}=\\dfrac{5}{60}=\\dfrac{1}{12}$。<br/>合作完成 $=\\dfrac{1}{1/12}=\\mathbf{12}$ 天。<br/>對應公式 $\\dfrac{ab}{a+b}=\\dfrac{20\\times 30}{50}=\\dfrac{600}{50}=12$ ✓。答案 B。</p>"
+        },
+        {
+          "id": "g6c_ch18_1_q7",
+          "number": 7,
+          "type": "single_choice",
+          "content": "<p>甲、乙、丙三人合作某工程，甲乙合作 $12$ 天完成、乙丙合作 $20$ 天完成、甲丙合作 $15$ 天完成。三人一起做幾天完成？</p><p>A. $8$ 天</p><p>B. $9$ 天</p><p>C. $10$ 天</p><p>D. $11$ 天</p>",
+          "answer": "C",
+          "explanation": "<p>設甲乙丙工作率為 $A, B, C$。<br/>$A+B=\\dfrac{1}{12}$，$B+C=\\dfrac{1}{20}$，$A+C=\\dfrac{1}{15}$。<br/>三式相加：$2(A+B+C)=\\dfrac{1}{12}+\\dfrac{1}{20}+\\dfrac{1}{15}$。<br/>通分（公分母 $60$）$=\\dfrac{5}{60}+\\dfrac{3}{60}+\\dfrac{4}{60}=\\dfrac{12}{60}=\\dfrac{1}{5}$。<br/>$A+B+C=\\dfrac{1}{10}$，三人合作完成需 $\\mathbf{10}$ 天。答案 C。</p>"
+        },
+        {
+          "id": "g6c_ch18_1_q8",
+          "number": 8,
+          "type": "single_choice",
+          "content": "<p>一件工作甲單獨做 $18$ 天完成、乙單獨做 $24$ 天完成。甲先單獨做 $6$ 天後，剩下的由乙單獨做。乙還要做幾天才能完成？</p><p>A. $14$ 天</p><p>B. $15$ 天</p><p>C. $16$ 天</p><p>D. $20$ 天</p>",
+          "answer": "C",
+          "explanation": "<p>甲做 $6$ 天完成 $\\dfrac{6}{18}=\\dfrac{1}{3}$。<br/>剩餘 $=1-\\dfrac{1}{3}=\\dfrac{2}{3}$。<br/>乙每天 $\\dfrac{1}{24}$，做完 $\\dfrac{2}{3}$ 需 $\\dfrac{2/3}{1/24}=\\dfrac{2}{3}\\times 24=\\mathbf{16}$ 天。答案 C。<br/>驗證：甲 $6$ 天做 $\\dfrac{1}{3}$ + 乙 $16$ 天做 $\\dfrac{16}{24}=\\dfrac{2}{3}$，合計 $1$ ✓。</p>"
+        },
+        {
+          "id": "g6c_ch18_1_q9",
+          "number": 9,
+          "type": "single_choice",
+          "content": "<p>一件工程甲單獨做 $15$ 天完成、乙單獨做 $10$ 天完成。甲先單獨做 $3$ 天後，乙加入和甲合作直到完成。乙做了幾天？</p><p>A. $4$ 天</p><p>B. $4.8$ 天</p><p>C. $5$ 天</p><p>D. $6$ 天</p>",
+          "answer": "B",
+          "explanation": "<p>甲先做 $3$ 天完成 $\\dfrac{3}{15}=\\dfrac{1}{5}$。<br/>剩餘 $=1-\\dfrac{1}{5}=\\dfrac{4}{5}$，由甲乙合作完成。<br/>合作每天 $=\\dfrac{1}{15}+\\dfrac{1}{10}=\\dfrac{2}{30}+\\dfrac{3}{30}=\\dfrac{1}{6}$。<br/>合作所需 $=\\dfrac{4/5}{1/6}=\\dfrac{4}{5}\\times 6=\\dfrac{24}{5}=\\mathbf{4.8}$ 天，即乙做了 $4.8$ 天。答案 B。</p>"
+        },
+        {
+          "id": "g6c_ch18_1_q10",
+          "number": 10,
+          "type": "single_choice",
+          "content": "<p>一個水池有注水管 $A$ 與排水管 $B$。$A$ 單獨 $3$ 小時注滿空池、$B$ 單獨 $5$ 小時排空滿池。某天水池<strong>原本是空的</strong>，技術員不小心兩管同時打開，幾小時後水池注滿？</p><p>A. $\\dfrac{15}{8}$ 小時</p><p>B. $\\dfrac{15}{2}$ 小時</p><p>C. $\\dfrac{8}{15}$ 小時</p><p>D. $\\dfrac{2}{15}$ 小時</p>",
+          "answer": "B",
+          "explanation": "<p>注水管比排水管快（$3<5$），所以水位會上升，可以注滿。<br/>淨速率 $=\\dfrac{1}{3}-\\dfrac{1}{5}=\\dfrac{5-3}{15}=\\dfrac{2}{15}$（每小時注滿的比例）。<br/>注滿時間 $=\\dfrac{1}{2/15}=\\dfrac{15}{2}$ 小時 $=7.5$ 小時。答案 B。<br/>對應公式 $\\dfrac{ab}{b-a}=\\dfrac{3\\times 5}{5-3}=\\dfrac{15}{2}$ ✓。</p>"
+        },
+        {
+          "id": "g6c_ch18_1_q11",
+          "number": 11,
+          "type": "single_choice",
+          "content": "<p>一件工程甲乙合作 $8$ 天完成，若甲單獨 $12$ 天完成，則乙單獨幾天完成？</p><p>A. $20$ 天</p><p>B. $24$ 天</p><p>C. $16$ 天</p><p>D. $32$ 天</p>",
+          "answer": "B",
+          "explanation": "<p>合作每天 $=\\dfrac{1}{8}$，甲每天 $=\\dfrac{1}{12}$。<br/>乙每天 $=\\dfrac{1}{8}-\\dfrac{1}{12}=\\dfrac{3}{24}-\\dfrac{2}{24}=\\dfrac{1}{24}$。<br/>乙單獨完成需 $\\dfrac{1}{1/24}=\\mathbf{24}$ 天。答案 B。<br/>驗證：合作 $\\dfrac{1}{12}+\\dfrac{1}{24}=\\dfrac{2}{24}+\\dfrac{1}{24}=\\dfrac{3}{24}=\\dfrac{1}{8}$ ✓。</p>"
+        },
+        {
+          "id": "g6c_ch18_1_q12",
+          "number": 12,
+          "type": "single_choice",
+          "content": "<p>一件工作甲單獨 $9$ 天完成、乙單獨 $12$ 天完成。兩人輪流做（甲先做一天、乙再做一天，如此交替），則整件工作要做<strong>幾天</strong>才能完成（最後一天若不必做滿也算一天）？</p><p>A. $9$ 天</p><p>B. $10$ 天</p><p>C. $11$ 天</p><p>D. $12$ 天</p>",
+          "answer": "C",
+          "explanation": "<p>每 $2$ 天甲乙合計做 $\\dfrac{1}{9}+\\dfrac{1}{12}=\\dfrac{4}{36}+\\dfrac{3}{36}=\\dfrac{7}{36}$。<br/>$5$ 個完整循環（$10$ 天）做 $\\dfrac{35}{36}$，剩 $\\dfrac{1}{36}$。<br/>第 $11$ 天輪到甲（單號天），甲做 $\\dfrac{1}{9}=\\dfrac{4}{36}$，只需做 $\\dfrac{1}{36}\\div\\dfrac{4}{36}=\\dfrac{1}{4}$ 天即完工。<br/>因此總共做了 $\\mathbf{11}$ 天（最後一天甲只做了 $\\dfrac{1}{4}$ 天，但仍算 $1$ 天）。答案 C。<br/><strong>關鍵</strong>：輪流工作要先算「整循環」消耗多少，再看剩餘量由哪一方收尾。</p>"
+        },
+        {
+          "id": "g6c_ch18_1_q13",
+          "number": 13,
+          "type": "single_choice",
+          "content": "<p>甲乙合作一件工程，預定 $12$ 天完成。合作 $4$ 天後乙因故離開，剩下的由甲單獨做了 $16$ 天完成。甲單獨做完整件工程需幾天？</p><p>A. $20$ 天</p><p>B. $24$ 天</p><p>C. $28$ 天</p><p>D. $30$ 天</p>",
+          "answer": "B",
+          "explanation": "<p>設甲每天 $\\dfrac{1}{x}$、乙每天 $\\dfrac{1}{y}$。<br/>合作每天 $=\\dfrac{1}{12}$，即 $\\dfrac{1}{x}+\\dfrac{1}{y}=\\dfrac{1}{12}$ ……（*）<br/>合作 $4$ 天做 $\\dfrac{4}{12}=\\dfrac{1}{3}$，剩 $\\dfrac{2}{3}$ 由甲做 $16$ 天 $\\to$ 甲每天 $=\\dfrac{2/3}{16}=\\dfrac{2}{48}=\\dfrac{1}{24}$。<br/>所以甲單獨 $\\mathbf{24}$ 天完成。答案 B。<br/>驗證：由（*）乙每天 $=\\dfrac{1}{12}-\\dfrac{1}{24}=\\dfrac{2-1}{24}=\\dfrac{1}{24}$，即乙也是 $24$ 天，合作 $\\dfrac{2}{24}=\\dfrac{1}{12}$ ✓。</p>"
+        },
+        {
+          "id": "g6c_ch18_1_q14",
+          "number": 14,
+          "type": "single_choice",
+          "content": "<p>甲、乙、丙三人各自單獨做一件工作分別需 $24, 30, 60$ 天完成。今三人一起做，但丙中途請假 $x$ 天（其他兩人都做滿），結果全部工作在 $12$ 天完成。$x$ 為何？</p><p>A. $4$ 天</p><p>B. $6$ 天</p><p>C. $8$ 天</p><p>D. $10$ 天</p>",
+          "answer": "B",
+          "explanation": "<p>甲乙每天合計 $=\\dfrac{1}{24}+\\dfrac{1}{30}=\\dfrac{5}{120}+\\dfrac{4}{120}=\\dfrac{9}{120}=\\dfrac{3}{40}$。<br/>$12$ 天中甲乙做 $12\\times\\dfrac{3}{40}=\\dfrac{36}{40}=\\dfrac{9}{10}$。<br/>剩 $\\dfrac{1}{10}$ 由丙做 $(12-x)$ 天完成：$\\dfrac{12-x}{60}=\\dfrac{1}{10}\\Rightarrow 12-x=6\\Rightarrow x=\\mathbf{6}$ 天。答案 B。<br/>驗證：丙做 $6$ 天完成 $\\dfrac{6}{60}=\\dfrac{1}{10}$，甲乙完成 $\\dfrac{9}{10}$，合計 $1$ ✓。</p>"
+        },
+        {
+          "id": "g6c_ch18_1_q15",
+          "number": 15,
+          "type": "single_choice",
+          "content": "<p>一個水池配有兩支注水管 $A, B$ 與一支排水管 $C$。$A$ 單獨 $4$ 小時注滿、$B$ 單獨 $6$ 小時注滿、$C$ 單獨 $8$ 小時排空。若三管同時打開，從空池開始幾小時可注滿？</p><p>A. $\\dfrac{24}{11}$ 小時</p><p>B. $\\dfrac{24}{7}$ 小時</p><p>C. $\\dfrac{24}{5}$ 小時</p><p>D. $\\dfrac{24}{13}$ 小時</p>",
+          "answer": "B",
+          "explanation": "<p>淨速率 $=\\dfrac{1}{4}+\\dfrac{1}{6}-\\dfrac{1}{8}$。<br/>通分（公分母 $24$）$=\\dfrac{6}{24}+\\dfrac{4}{24}-\\dfrac{3}{24}=\\dfrac{7}{24}$（每小時注滿的比例）。<br/>注滿時間 $=\\dfrac{1}{7/24}=\\dfrac{24}{7}$ 小時 $\\approx 3.43$ 小時。答案 B。<br/>檢驗：淨速率為正（$\\dfrac{6+4}{24}>\\dfrac{3}{24}$），可注滿 ✓。<br/><strong>關鍵</strong>：多管問題就是把所有注水率相加、排水率相減。</p>"
+        }
+      ]
+    }
+  ]
+}

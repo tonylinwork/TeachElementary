@@ -1,0 +1,138 @@
+{
+  "title": "小六挑戰 16-1 自訂運算與抽象符號（國中銜接）",
+  "summary": "<ul><li><strong>自訂運算符的意義</strong>：題目用一個新符號（如 $\\star, \\heartsuit, \\bigtriangleup, \\diamond$）配上一個「規則式」來定義新運算。例如 $a \\star b = 2a + b$ 表示「左邊的兩倍加上右邊」。讀題時要把符號當代號，按定義代入即可。</li><li><strong>代入計算</strong>：求 $5 \\star 3$ 時，把 $a = 5, b = 3$ 代入規則 $\\to 2 \\times 5 + 3 = 13$。記得：<strong>左右順序不可任意對調</strong>，多數自訂運算不具交換律。</li><li><strong>嵌套運算（複合計算）</strong>：像 $a \\star (b \\star c)$ 一定要<strong>先算括號內</strong>，再把結果當第二個變數代回外層。例如 $2 \\star (3 \\star 1) = 2 \\star (\\text{先算} 3 \\star 1) \\to 2 \\star (\\text{結果})$。</li><li><strong>條件型運算</strong>：規則中含「if $a > b$ then $\\ldots$ else $\\ldots$」。先比較 $a, b$ 大小，再選擇對應的式子代入。例如 $a \\bigtriangleup b = \\begin{cases} a - b, & a > b \\\\ a \\times b, & a \\le b \\end{cases}$。</li><li><strong>求未知數（反推題）</strong>：已知運算結果反求其中一個輸入。例如「$x \\star 3 = 11$，$\\star$ 定義為 $a \\star b = 2a + b$」，得 $2x + 3 = 11 \\to x = 4$。本質是<strong>解一元一次方程式</strong>。</li><li><strong>多種自訂運算混合</strong>：題目可能同時定義兩個符號（如 $\\heartsuit$ 與 $\\diamond$），要分清楚各自的規則，按括號順序逐層計算。</li><li><strong>常見陷阱</strong>：① 把 $a \\star b$ 當成乘法 $a \\times b$；② 嵌套時忘記先算括號；③ 條件型沒先判斷大小就直接代；④ 反推時忘記把運算對應到正確的方程式。</li><li><strong>解題流程</strong>：「看定義 $\\to$ 對應符號角色 $\\to$ 代入計算」三步驟。複合題就反覆使用，先內後外。</li></ul>",
+  "sections": [
+    {
+      "type": "true_false",
+      "name": "是非題",
+      "questions": [
+        {
+          "id": "g6c_ch16_1_q1",
+          "number": 1,
+          "type": "true_false",
+          "content": "<p>已定義 $a \\star b = 2a + b$，則 $5 \\star 3 = 13$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。代入 $a = 5, b = 3$：$2 \\times 5 + 3 = 10 + 3 = \\mathbf{13}$ ✓。<br/><strong>關鍵</strong>：自訂運算只要照定義代入即可，不需要把 $\\star$ 想得太神秘。</p>"
+        },
+        {
+          "id": "g6c_ch16_1_q2",
+          "number": 2,
+          "type": "true_false",
+          "content": "<p>已定義 $a \\heartsuit b = a - b$。由於減法<strong>沒有</strong>交換律，$3 \\heartsuit 5 \\ne 5 \\heartsuit 3$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。$3 \\heartsuit 5 = 3 - 5 = -2$；$5 \\heartsuit 3 = 5 - 3 = 2$。兩者相反，<strong>確實不相等</strong> ✓。<br/>除了 $a + b$、$a \\times b$ 這類本身具交換律的運算，多數自訂運算都<strong>不可任意對調左右</strong>。讀題時務必看清「誰在前、誰在後」。</p>"
+        },
+        {
+          "id": "g6c_ch16_1_q3",
+          "number": 3,
+          "type": "true_false",
+          "content": "<p>已定義 $a \\star b = a^2 + b^2$，則 $3 \\star 4 = 25$，且 $\\star$ 滿足交換律 $a \\star b = b \\star a$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。<br/>$3 \\star 4 = 3^2 + 4^2 = 9 + 16 = \\mathbf{25}$ ✓。<br/>交換律：$a \\star b = a^2 + b^2 = b^2 + a^2 = b \\star a$ ✓。<br/>當定義式對 $a, b$ <strong>對稱</strong>（左右互換結果不變）時，運算就具交換律。$a + b$、$a \\times b$、$a^2 + b^2$、$\\max(a, b)$ 都對稱。</p>"
+        },
+        {
+          "id": "g6c_ch16_1_q4",
+          "number": 4,
+          "type": "true_false",
+          "content": "<p>已定義 $a \\bigtriangleup b = \\begin{cases} a - b, & a > b \\\\ a \\times b, & a \\le b \\end{cases}$，則 $2 \\bigtriangleup 5 = 10$，$7 \\bigtriangleup 3 = 4$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。<br/>$2 \\bigtriangleup 5$：因 $2 \\le 5 \\to$ 用乘法 $\\to 2 \\times 5 = \\mathbf{10}$ ✓。<br/>$7 \\bigtriangleup 3$：因 $7 > 3 \\to$ 用減法 $\\to 7 - 3 = \\mathbf{4}$ ✓。<br/><strong>條件型運算</strong>務必先比大小再選式子代。</p>"
+        },
+        {
+          "id": "g6c_ch16_1_q5",
+          "number": 5,
+          "type": "true_false",
+          "content": "<p>已定義 $a \\diamond b = 3a + 2b$。要計算 $2 \\diamond (1 \\diamond 4)$，應該先算 $2 \\diamond 1$，再把結果與 $4$ 做 $\\diamond$。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。<strong>有括號要先算括號內</strong>。<br/>$2 \\diamond (1 \\diamond 4)$ 的算法：先算 $1 \\diamond 4 = 3 \\times 1 + 2 \\times 4 = 11$，再算 $2 \\diamond 11 = 3 \\times 2 + 2 \\times 11 = 6 + 22 = \\mathbf{28}$。<br/>不是先算 $2 \\diamond 1 = 8$ 再算 $8 \\diamond 4 = 32$，那是把括號搞錯位置。<br/><strong>關鍵</strong>：括號的位置決定運算順序。</p>"
+        }
+      ]
+    },
+    {
+      "type": "single_choice",
+      "name": "單選題",
+      "questions": [
+        {
+          "id": "g6c_ch16_1_q6",
+          "number": 6,
+          "type": "single_choice",
+          "content": "<p>已定義 $a \\star b = 3a - 2b$，則 $5 \\star 4 = ?$</p><p>A. $5$</p><p>B. $7$</p><p>C. $9$</p><p>D. $11$</p>",
+          "answer": "B",
+          "explanation": "<p>代入 $a = 5, b = 4$：$3 \\times 5 - 2 \\times 4 = 15 - 8 = \\mathbf{7}$。答案 B。</p>"
+        },
+        {
+          "id": "g6c_ch16_1_q7",
+          "number": 7,
+          "type": "single_choice",
+          "content": "<p>已定義 $a \\heartsuit b = 2a + b$，若 $x \\heartsuit 3 = 11$，則 $x = ?$</p><p>A. $2$</p><p>B. $3$</p><p>C. $4$</p><p>D. $5$</p>",
+          "answer": "C",
+          "explanation": "<p><strong>反推題</strong>。把定義代入：$2x + 3 = 11$。<br/>解一元一次方程式：$2x = 11 - 3 = 8 \\to x = \\mathbf{4}$。答案 C。<br/>檢驗：$4 \\heartsuit 3 = 2 \\times 4 + 3 = 11$ ✓。</p>"
+        },
+        {
+          "id": "g6c_ch16_1_q8",
+          "number": 8,
+          "type": "single_choice",
+          "content": "<p>已定義 $a \\star b = a^2 + b^2$，則 $2 \\star (3 \\star 1) = ?$</p><p>A. $104$</p><p>B. $108$</p><p>C. $112$</p><p>D. $116$</p>",
+          "answer": "A",
+          "explanation": "<p>先算括號內 $3 \\star 1 = 3^2 + 1^2 = 9 + 1 = 10$。<br/>再算 $2 \\star 10 = 2^2 + 10^2 = 4 + 100 = \\mathbf{104}$。答案 A。<br/><strong>關鍵</strong>：嵌套運算<strong>由內往外</strong>。</p>"
+        },
+        {
+          "id": "g6c_ch16_1_q9",
+          "number": 9,
+          "type": "single_choice",
+          "content": "<p>已定義 $a \\bigtriangleup b = \\begin{cases} a - b, & a > b \\\\ a \\times b, & a \\le b \\end{cases}$，則 $(8 \\bigtriangleup 3) \\bigtriangleup 6 = ?$</p><p>A. $11$</p><p>B. $30$</p><p>C. $42$</p><p>D. $48$</p>",
+          "answer": "B",
+          "explanation": "<p>先算內：$8 \\bigtriangleup 3$。因 $8 > 3 \\to$ 用減法 $\\to 8 - 3 = 5$。<br/>再算外：$5 \\bigtriangleup 6$。因 $5 \\le 6 \\to$ 用乘法 $\\to 5 \\times 6 = \\mathbf{30}$。答案 B。<br/><strong>條件型嵌套</strong>每一層都要重新判斷大小。</p>"
+        },
+        {
+          "id": "g6c_ch16_1_q10",
+          "number": 10,
+          "type": "single_choice",
+          "content": "<p>已定義 $a \\diamond b = a \\times b - a - b$，則 $4 \\diamond 6 = ?$</p><p>A. $12$</p><p>B. $14$</p><p>C. $16$</p><p>D. $18$</p>",
+          "answer": "B",
+          "explanation": "<p>代入 $a = 4, b = 6$：$4 \\times 6 - 4 - 6 = 24 - 10 = \\mathbf{14}$。答案 B。</p>"
+        },
+        {
+          "id": "g6c_ch16_1_q11",
+          "number": 11,
+          "type": "single_choice",
+          "content": "<p>已定義 $a \\star b = 2a + 3b$，若 $5 \\star x = 22$，則 $x = ?$</p><p>A. $3$</p><p>B. $4$</p><p>C. $5$</p><p>D. $6$</p>",
+          "answer": "B",
+          "explanation": "<p>代入定義：$2 \\times 5 + 3x = 22 \\to 10 + 3x = 22 \\to 3x = 12 \\to x = \\mathbf{4}$。答案 B。<br/>檢驗：$5 \\star 4 = 2 \\times 5 + 3 \\times 4 = 10 + 12 = 22$ ✓。</p>"
+        },
+        {
+          "id": "g6c_ch16_1_q12",
+          "number": 12,
+          "type": "single_choice",
+          "content": "<p>已同時定義 $a \\heartsuit b = a + 2b$ 與 $a \\diamond b = a \\times b$，則 $(2 \\heartsuit 3) \\diamond 4 = ?$</p><p>A. $24$</p><p>B. $28$</p><p>C. $32$</p><p>D. $36$</p>",
+          "answer": "C",
+          "explanation": "<p>先算括號內 $2 \\heartsuit 3 = 2 + 2 \\times 3 = 2 + 6 = 8$。<br/>再算 $8 \\diamond 4 = 8 \\times 4 = \\mathbf{32}$。答案 C。<br/><strong>關鍵</strong>：多種符號混合時，要看清楚每個符號各自的定義，不要混用。</p>"
+        },
+        {
+          "id": "g6c_ch16_1_q13",
+          "number": 13,
+          "type": "single_choice",
+          "content": "<p>已定義 $a \\bigtriangleup b = \\dfrac{a + b}{2}$（兩數平均），若 $x \\bigtriangleup 8 = 11$，則 $x = ?$</p><p>A. $12$</p><p>B. $13$</p><p>C. $14$</p><p>D. $15$</p>",
+          "answer": "C",
+          "explanation": "<p>代入定義：$\\dfrac{x + 8}{2} = 11 \\to x + 8 = 22 \\to x = \\mathbf{14}$。答案 C。<br/>檢驗：$14 \\bigtriangleup 8 = \\dfrac{14 + 8}{2} = 11$ ✓。</p>"
+        },
+        {
+          "id": "g6c_ch16_1_q14",
+          "number": 14,
+          "type": "single_choice",
+          "content": "<p>已定義 $a \\star b = a \\times b + a + b$。下列哪一個算式可以正確算出 $3 \\star (2 \\star 1)$？</p><p>A. $3 \\times 2 + 3 + 2 \\times 1$</p><p>B. $3 \\times 5 + 3 + 5$，其中 $5 = 2 \\times 1 + 2 + 1$</p><p>C. $(3 + 2 + 1) \\times (3 \\times 2 \\times 1)$</p><p>D. $3 \\times 2 \\times 1 + 3 + 2 + 1$</p>",
+          "answer": "B",
+          "explanation": "<p>本題是<strong>列式選擇題</strong>。<br/>先算內：$2 \\star 1 = 2 \\times 1 + 2 + 1 = 5$。<br/>再算外：$3 \\star 5 = 3 \\times 5 + 3 + 5 = 15 + 8 = 23$。<br/>對應列式：$3 \\times 5 + 3 + 5$，其中 $5 = 2 \\times 1 + 2 + 1$，正是 B。<br/>A 把括號錯誤展開、C、D 是把所有數一次代入而沒分層。答案 B。</p>"
+        },
+        {
+          "id": "g6c_ch16_1_q15",
+          "number": 15,
+          "type": "single_choice",
+          "content": "<p>已定義 $a \\diamond b = \\begin{cases} a + b, & a \\text{ 為偶數} \\\\ a \\times b, & a \\text{ 為奇數} \\end{cases}$，則 $(3 \\diamond 4) \\diamond 5 = ?$</p><p>A. $12$</p><p>B. $17$</p><p>C. $24$</p><p>D. $60$</p>",
+          "answer": "B",
+          "explanation": "<p>先算內：$3 \\diamond 4$。因 $3$ 是奇數 $\\to$ 用乘法 $\\to 3 \\times 4 = 12$。<br/>再算外：$12 \\diamond 5$。因 $12$ 是偶數 $\\to$ 用加法 $\\to 12 + 5 = \\mathbf{17}$。答案 B。<br/><strong>關鍵</strong>：條件由「左邊那個數」的<strong>奇偶</strong>決定，每層都要重新判斷。</p>"
+        }
+      ]
+    }
+  ]
+}
