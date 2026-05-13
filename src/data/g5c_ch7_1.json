@@ -1,0 +1,138 @@
+{
+  "title": "小五挑戰 7-1 距離、時間與速率（進階）",
+  "summary": "<ul><li><strong>基本公式</strong>：速率 $=$ 距離 $\\div$ 時間，可以推出另外兩個式子：距離 $=$ 速率 $\\times$ 時間、時間 $=$ 距離 $\\div$ 速率。記住「<strong>速 $\\times$ 時 $=$ 距</strong>」這個三角關係就不會混淆。</li><li><strong>單位換算（最常考）</strong>：$1$ km $= 1000$ m、$1$ hr $= 3600$ 秒。所以 km/hr $\\to$ m/s <strong>除以 $3.6$</strong>；m/s $\\to$ km/hr <strong>乘以 $3.6$</strong>。例：$72$ km/hr $= 72 \\div 3.6 = 20$ m/s。</li><li><strong>同向追及問題</strong>：兩人同方向走，初始相距 $d$、快者速率 $v_1$、慢者速率 $v_2$（$v_1 > v_2$）。雙方距離以「速率差」$v_1 - v_2$ 縮短，<strong>追及時間 $= \\dfrac{d}{v_1 - v_2}$</strong>。口訣：「同向用<strong>差</strong>」。</li><li><strong>相向（相遇）問題</strong>：兩人從相距 $D$ 的兩端對開出發，雙方距離以「速率和」$v_1 + v_2$ 縮短，<strong>相遇時間 $= \\dfrac{D}{v_1 + v_2}$</strong>。口訣：「相向用<strong>和</strong>」。</li><li><strong>過橋（隧道）問題</strong>：火車「完全通過」一座橋（或隧道）時，從「車頭上橋」算到「車尾離橋」，<strong>火車要走的總路程 $=$ 橋長 $+$ 車身長</strong>，<strong>不是只有橋長</strong>。如果是過「電線桿」這類視為長度為 $0$ 的點，則總路程 $=$ 車身長本身。</li><li><strong>流水問題</strong>：船在會流動的水中行駛，設船在靜水中的速率為 $v_\\text{船}$、水流速率為 $v_\\text{水}$。<br/><strong>順流速 $= v_\\text{船} + v_\\text{水}$</strong>（水推船）、<strong>逆流速 $= v_\\text{船} - v_\\text{水}$</strong>（水阻擋船）。</li><li><strong>流水反推</strong>：若給順流速與逆流速，可反推：船速 $= \\dfrac{\\text{順流速} + \\text{逆流速}}{2}$、水速 $= \\dfrac{\\text{順流速} - \\text{逆流速}}{2}$（典型的「和差問題」）。</li><li><strong>解題前先統一單位</strong>：若題目混用 km、m、hr、min、s，一律先換成同一組單位（最簡單：全部換成 m/s 或 km/hr），不然算到一半會出包。</li></ul>",
+  "sections": [
+    {
+      "type": "true_false",
+      "name": "是非題",
+      "questions": [
+        {
+          "id": "g5c_ch7_1_q1",
+          "number": 1,
+          "type": "true_false",
+          "content": "<p>已知速率 $72\\text{ km/hr}$ 換成 $\\text{m/s}$ 為 $20\\text{ m/s}$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。km/hr $\\to$ m/s 要<strong>除以 $3.6$</strong>。<br/>$72 \\div 3.6 = \\mathbf{20}$ m/s ✓。<br/><strong>原理</strong>：$72$ km $= 72000$ m、$1$ hr $= 3600$ s，所以 $72000 \\div 3600 = 20$ m/s。記口訣「km/hr 除以 $3.6$」就快多了。</p>"
+        },
+        {
+          "id": "g5c_ch7_1_q2",
+          "number": 2,
+          "type": "true_false",
+          "content": "<p>甲、乙兩地相距 $300$ 公里，A 車從甲地以 $60\\text{ km/hr}$、B 車從乙地以 $90\\text{ km/hr}$ 同時相向出發，經過 $2$ 小時後兩車相遇。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。相向（相遇）問題用<strong>速率和</strong>。<br/>速率和 $= 60 + 90 = 150$ km/hr。<br/>相遇時間 $= \\dfrac{\\text{距離}}{\\text{速率和}} = \\dfrac{300}{150} = \\mathbf{2}$ 小時 ✓。<br/>驗算：A 車走 $60 \\times 2 = 120$ km、B 車走 $90 \\times 2 = 180$ km，合計 $300$ km ✓。</p>"
+        },
+        {
+          "id": "g5c_ch7_1_q3",
+          "number": 3,
+          "type": "true_false",
+          "content": "<p>一列火車長 $200$ 公尺，以 $20\\text{ m/s}$ 的速率行駛，完全通過一座長 $300$ 公尺的橋需要 $15$ 秒。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。「完全通過」要算<strong>橋長 $+$ 車身長</strong>。<br/>火車要走的總路程 $= 300 + 200 = 500$ 公尺。<br/>時間 $= 500 \\div 20 = \\mathbf{25}$ 秒（不是 $15$ 秒）。<br/><strong>常見錯誤</strong>：只算橋長 $300 \\div 20 = 15$ 秒，忘了加上車身長 $200$ 公尺。</p>"
+        },
+        {
+          "id": "g5c_ch7_1_q4",
+          "number": 4,
+          "type": "true_false",
+          "content": "<p>一艘船在靜水中的速率為 $20\\text{ km/hr}$，河水流速 $5\\text{ km/hr}$，則此船順流時的速率為 $25\\text{ km/hr}$，逆流時的速率為 $15\\text{ km/hr}$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。<br/><strong>順流速 $=$ 船速 $+$ 水速</strong>（水推船，更快） $= 20 + 5 = \\mathbf{25}$ km/hr ✓<br/><strong>逆流速 $=$ 船速 $-$ 水速</strong>（水阻擋船，更慢） $= 20 - 5 = \\mathbf{15}$ km/hr ✓<br/>這是流水問題最基本的兩個式子，一定要熟記。</p>"
+        },
+        {
+          "id": "g5c_ch7_1_q5",
+          "number": 5,
+          "type": "true_false",
+          "content": "<p>甲、乙兩人相距 $400$ 公尺，甲以 $80\\text{ m/min}$ 在前、乙以 $100\\text{ m/min}$ 在後同方向走（乙追甲）。則乙追上甲需要 $20$ 分鐘。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。同向追及用<strong>速率差</strong>。<br/>速率差 $= 100 - 80 = 20$ m/min（乙每分鐘比甲多走 $20$ m）。<br/>追及時間 $= \\dfrac{\\text{距離差}}{\\text{速率差}} = \\dfrac{400}{20} = \\mathbf{20}$ 分鐘 ✓。<br/>驗算：$20$ 分鐘後甲走 $80 \\times 20 = 1600$ m、乙走 $100 \\times 20 = 2000$ m。乙原本在甲後 $400$ m，現在 $2000 - 1600 = 400$ m 剛好補上 ✓。</p>"
+        }
+      ]
+    },
+    {
+      "type": "single_choice",
+      "name": "單選題",
+      "questions": [
+        {
+          "id": "g5c_ch7_1_q6",
+          "number": 6,
+          "type": "single_choice",
+          "content": "<p>一輛汽車以 $54\\text{ km/hr}$ 的速率行駛，請問這個速率換成 $\\text{m/s}$ 是多少？</p><p>A. $9\\text{ m/s}$</p><p>B. $15\\text{ m/s}$</p><p>C. $18\\text{ m/s}$</p><p>D. $54\\text{ m/s}$</p>",
+          "answer": "B",
+          "explanation": "<p>km/hr $\\to$ m/s <strong>除以 $3.6$</strong>。<br/>$54 \\div 3.6 = \\mathbf{15}$ m/s。<br/><strong>原理</strong>：$54$ km $= 54000$ m、$1$ hr $= 3600$ s，所以 $54000 \\div 3600 = 15$ m/s。<br/>反向換算：m/s $\\to$ km/hr 是<strong>乘以 $3.6$</strong>，$15 \\times 3.6 = 54$ ✓。答案 B。</p>"
+        },
+        {
+          "id": "g5c_ch7_1_q7",
+          "number": 7,
+          "type": "single_choice",
+          "content": "<p>甲、乙兩地相距 $450$ 公里。A 車從甲地以 $60\\text{ km/hr}$、B 車從乙地以 $90\\text{ km/hr}$ 同時相向出發，請問經過多少小時後兩車相遇？</p><p>A. $2$ 小時</p><p>B. $3$ 小時</p><p>C. $4$ 小時</p><p>D. $5$ 小時</p>",
+          "answer": "B",
+          "explanation": "<p>相向（相遇）問題用<strong>速率和</strong>。<br/>速率和 $= 60 + 90 = 150$ km/hr。<br/>相遇時間 $= \\dfrac{\\text{距離}}{\\text{速率和}} = \\dfrac{450}{150} = \\mathbf{3}$ 小時。<br/>驗算：A 走 $60 \\times 3 = 180$ km、B 走 $90 \\times 3 = 270$ km，合計 $180 + 270 = 450$ km ✓。答案 B。</p>"
+        },
+        {
+          "id": "g5c_ch7_1_q8",
+          "number": 8,
+          "type": "single_choice",
+          "content": "<p>哥哥從家裡騎單車出門 $10$ 分鐘後，弟弟才以 $200\\text{ m/min}$ 的速率沿同方向追趕。已知哥哥的速率是 $150\\text{ m/min}$，請問弟弟出發後幾分鐘才能追上哥哥？</p><p>A. $20$ 分鐘</p><p>B. $30$ 分鐘</p><p>C. $40$ 分鐘</p><p>D. $50$ 分鐘</p>",
+          "answer": "B",
+          "explanation": "<p>弟弟出發那一刻，哥哥已先走 $10$ 分鐘，<strong>距離差 $= 150 \\times 10 = 1500$ 公尺</strong>。<br/>同向追及用速率差：$200 - 150 = 50$ m/min。<br/>追及時間 $= \\dfrac{1500}{50} = \\mathbf{30}$ 分鐘（從弟弟出發起算）。<br/>驗算：弟弟走 $200 \\times 30 = 6000$ m；哥哥共走 $150 \\times (10 + 30) = 150 \\times 40 = 6000$ m ✓。答案 B。</p>"
+        },
+        {
+          "id": "g5c_ch7_1_q9",
+          "number": 9,
+          "type": "single_choice",
+          "content": "<p>一列火車以 $20\\text{ m/s}$ 的速率行駛，完全通過一座長 $400$ 公尺的橋共花 $25$ 秒（從車頭上橋到車尾離橋）。請問此火車車身長度為多少公尺？</p><p>A. $80$ 公尺</p><p>B. $100$ 公尺</p><p>C. $120$ 公尺</p><p>D. $150$ 公尺</p>",
+          "answer": "B",
+          "explanation": "<p>「完全通過」的總路程 $=$ 橋長 $+$ 車身長。<br/>總路程 $=$ 速率 $\\times$ 時間 $= 20 \\times 25 = 500$ 公尺。<br/>車身長 $= 500 - 400 = \\mathbf{100}$ 公尺。<br/>驗算：橋 $400 +$ 車身 $100 = 500 = 20 \\times 25$ ✓。<br/><strong>常見錯誤</strong>：以為總路程只有橋長 $400$ 公尺。答案 B。</p>"
+        },
+        {
+          "id": "g5c_ch7_1_q10",
+          "number": 10,
+          "type": "single_choice",
+          "content": "<p>一艘輪船順流而下從 $A$ 港到 $B$ 港花了 $4$ 小時，逆流而上從 $B$ 港回 $A$ 港花了 $6$ 小時。已知 $A$、$B$ 兩港相距 $48$ 公里。請問河水流速為多少？</p><p>A. $1\\text{ km/hr}$</p><p>B. $2\\text{ km/hr}$</p><p>C. $3\\text{ km/hr}$</p><p>D. $4\\text{ km/hr}$</p>",
+          "answer": "B",
+          "explanation": "<p><strong>先求順流速與逆流速</strong>：<br/>順流速 $= 48 \\div 4 = 12$ km/hr<br/>逆流速 $= 48 \\div 6 = 8$ km/hr<br/><strong>再用和差公式</strong>：<br/>船速 $= \\dfrac{\\text{順} + \\text{逆}}{2} = \\dfrac{12 + 8}{2} = 10$ km/hr<br/>水速 $= \\dfrac{\\text{順} - \\text{逆}}{2} = \\dfrac{12 - 8}{2} = \\mathbf{2}$ km/hr。<br/>驗算：船速 $+$ 水速 $= 10 + 2 = 12$ ✓、船速 $-$ 水速 $= 10 - 2 = 8$ ✓。答案 B。</p>"
+        },
+        {
+          "id": "g5c_ch7_1_q11",
+          "number": 11,
+          "type": "single_choice",
+          "content": "<p>一列火車以 $108\\text{ km/hr}$ 的速率行駛，請問通過一根電線桿（電線桿視為長度為 $0$ 的點）需要 $4$ 秒，則此火車的車身長度為多少公尺？</p><p>A. $108$ 公尺</p><p>B. $120$ 公尺</p><p>C. $300$ 公尺</p><p>D. $432$ 公尺</p>",
+          "answer": "B",
+          "explanation": "<p><strong>關鍵</strong>：通過一個「點」（電線桿），火車要走的距離 $=$ 車身長本身（從車頭碰到電線桿，到車尾離開電線桿，剛好走過一個車身）。<br/>先換單位：$108$ km/hr $= 108 \\div 3.6 = 30$ m/s。<br/>車身長 $=$ 速率 $\\times$ 時間 $= 30 \\times 4 = \\mathbf{120}$ 公尺。<br/><strong>常見錯誤</strong>：忘了換單位，直接 $108 \\times 4 = 432$（D）。答案 B。</p>"
+        },
+        {
+          "id": "g5c_ch7_1_q12",
+          "number": 12,
+          "type": "single_choice",
+          "content": "<p>甲、乙兩人在環形跑道上同地點同時出發（周長 $300$ 公尺），甲每秒 $7$ 公尺、乙每秒 $5$ 公尺。若兩人<strong>反向</strong>出發，請問多少秒後第一次相遇？</p><p>A. $20$ 秒</p><p>B. $25$ 秒</p><p>C. $30$ 秒</p><p>D. $50$ 秒</p>",
+          "answer": "B",
+          "explanation": "<p><strong>反向繞圈</strong>：兩人合起來走完一整圈正好相遇 $\\to$ 用<strong>速率和</strong>。<br/>合速率 $= 7 + 5 = 12$ m/s。<br/>相遇時間 $= \\dfrac{300}{12} = \\mathbf{25}$ 秒。<br/>驗算：甲走 $7 \\times 25 = 175$ m、乙走 $5 \\times 25 = 125$ m，合計 $175 + 125 = 300$ m（剛好一圈）✓。<br/><strong>對比</strong>：若同向出發，要用速率差，時間 $= 300 \\div (7 - 5) = 150$ 秒。答案 B。</p>"
+        },
+        {
+          "id": "g5c_ch7_1_q13",
+          "number": 13,
+          "type": "single_choice",
+          "content": "<p>一艘船在靜水中的速率為 $15\\text{ km/hr}$，要從 $A$ 港順流而下到 $30$ 公里外的 $B$ 港，剛好花 $1.5$ 小時。請問此河的水流速率為多少？</p><p>A. $3\\text{ km/hr}$</p><p>B. $5\\text{ km/hr}$</p><p>C. $7\\text{ km/hr}$</p><p>D. $10\\text{ km/hr}$</p>",
+          "answer": "B",
+          "explanation": "<p><strong>先求實際順流速</strong>：順流速 $= \\dfrac{\\text{距離}}{\\text{時間}} = \\dfrac{30}{1.5} = 20$ km/hr。<br/><strong>再用順流速公式</strong>：順流速 $=$ 船速 $+$ 水速 $\\to 20 = 15 + v_\\text{水} \\to v_\\text{水} = \\mathbf{5}$ km/hr。<br/>驗算：靜水 $15 +$ 水流 $5 =$ 順流 $20$ km/hr；$20 \\times 1.5 = 30$ km ✓。答案 B。</p>"
+        },
+        {
+          "id": "g5c_ch7_1_q14",
+          "number": 14,
+          "type": "single_choice",
+          "content": "<p>甲、乙兩地相距 $360$ 公里。A 車從甲地以 $80\\text{ km/hr}$ 出發、B 車從乙地以 $100\\text{ km/hr}$ 同時相向出發。請問<strong>相遇時 A 車走了多少公里</strong>？</p><p>A. $140$ km</p><p>B. $160$ km</p><p>C. $180$ km</p><p>D. $200$ km</p>",
+          "answer": "B",
+          "explanation": "<p><strong>先求相遇時間</strong>：相向用速率和。<br/>相遇時間 $= \\dfrac{360}{80 + 100} = \\dfrac{360}{180} = 2$ 小時。<br/><strong>再求 A 車走的距離</strong>：$80 \\times 2 = \\mathbf{160}$ km。<br/>驗算：B 車走 $100 \\times 2 = 200$ km，$160 + 200 = 360$ ✓。<br/><strong>常見錯誤</strong>：誤算 B 車的距離選 $200$（D）。注意題目問的是 A。答案 B。</p>"
+        },
+        {
+          "id": "g5c_ch7_1_q15",
+          "number": 15,
+          "type": "single_choice",
+          "content": "<p>下列哪一個情境，<strong>必須</strong>使用「速率差」（而非速率和）來計算？</p><p>A. 甲、乙從相距 $300$ km 的兩地同時相向出發，求多久相遇。</p><p>B. 哥哥先走 $10$ 分鐘後，弟弟同方向出發追哥哥，求追及時間。</p><p>C. 環形跑道上，甲、乙從同一點反向出發，求第一次相遇時間。</p><p>D. 船在靜水中速率 $v_1$、水流速 $v_2$，求順流時的航行速率。</p>",
+          "answer": "B",
+          "explanation": "<p>分清「同向用差」、「相向用和」是行程問題的核心。<br/>A. 相向 $\\to$ 兩人共同消耗距離 $\\to$ 用<strong>速率和</strong>。<br/>B. 同向追及 $\\to$ 距離差以「速率差」縮短 $\\to$ <strong>必須用速率差</strong> ✓。<br/>C. 環形反向 $\\to$ 兩人合走一圈 $\\to$ 用<strong>速率和</strong>。<br/>D. 順流 $\\to$ 水推船一把 $\\to$ 順流速 $=$ 船速 $+$ 水速，用<strong>速率和</strong>。<br/>只有 B 用速率差。答案 B。</p>"
+        }
+      ]
+    }
+  ]
+}

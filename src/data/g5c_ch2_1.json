@@ -1,0 +1,138 @@
+{
+  "title": "小五挑戰 2-1 量的計算與單位換算（進階）",
+  "summary": "<ul><li><strong>長度單位</strong>：$1 \\text{ km} = 1000 \\text{ m}$、$1 \\text{ m} = 100 \\text{ cm} = 1000 \\text{ mm}$、$1 \\text{ cm} = 10 \\text{ mm}$。換算口訣：大單位 $\\to$ 小單位用「乘」，小單位 $\\to$ 大單位用「除」。</li><li><strong>面積單位</strong>：$1 \\text{ km}^2 = 100 \\text{ 公頃} = 10000 \\text{ 公畝} = 1000000 \\text{ m}^2$；$1 \\text{ 公頃} = 10000 \\text{ m}^2 = 100 \\text{ 公畝}$；$1 \\text{ m}^2 = 10000 \\text{ cm}^2$。<strong>陷阱</strong>：邊長變 $n$ 倍，面積變 $n^2$ 倍；$1 \\text{ m} = 100 \\text{ cm}$ 但 $1 \\text{ m}^2 = 10000 \\text{ cm}^2$（不是 $100$）。</li><li><strong>體積／容積單位</strong>：$1 \\text{ 公秉} = 1 \\text{ m}^3 = 1000 \\text{ L}$；$1 \\text{ L} = 1000 \\text{ mL} = 1000 \\text{ cm}^3$；$1 \\text{ mL} = 1 \\text{ cm}^3$。即<strong>容積（L、mL）與體積（$\\text{cm}^3$、$\\text{m}^3$）可互相換算</strong>。陷阱：$1 \\text{ m}^3 \\ne 100 \\text{ cm}^3$，而是 $1000000 \\text{ cm}^3$。</li><li><strong>重量單位</strong>：$1 \\text{ 公噸（t）} = 1000 \\text{ kg}$、$1 \\text{ kg} = 1000 \\text{ g}$、$1 \\text{ g} = 1000 \\text{ mg}$。每兩個鄰近單位差 $1000$ 倍。</li><li><strong>速度（複合單位）</strong>：速度 $=$ 距離 $\\div$ 時間；$1 \\text{ km/h} = \\dfrac{1000 \\text{ m}}{3600 \\text{ s}} = \\dfrac{5}{18} \\text{ m/s}$，反之 $1 \\text{ m/s} = 3.6 \\text{ km/h}$。換算公式：km/h $\\div 3.6 = $ m/s、m/s $\\times 3.6 = $ km/h。</li><li><strong>密度（複合單位）</strong>：密度 $= \\dfrac{\\text{質量}}{\\text{體積}}$，常用單位 g/cm³ 或 kg/m³。質量 $=$ 密度 $\\times$ 體積；體積 $=$ 質量 $\\div$ 密度。水的密度為 $1 \\text{ g/cm}^3$，所以<strong>$1 \\text{ L}$ 純水重 $1 \\text{ kg}$</strong>。</li><li><strong>流量（複合單位）</strong>：流量 $= \\dfrac{\\text{體積}}{\\text{時間}}$，常用 L/min（公升／分鐘）或 m³/h。時間 $=$ 體積 $\\div$ 流量；體積 $=$ 流量 $\\times$ 時間。注水題的關鍵：把容積算清楚再除以流量。</li><li><strong>單位換算策略</strong>：① 先把所有量轉成同一單位再運算；② 複合單位用「分子、分母分開換算」；③ 答案要符合題目要求的單位；④ 大數字盡量保留為分數，最後再化小數，避免誤差。</li></ul>",
+  "sections": [
+    {
+      "type": "true_false",
+      "name": "是非題",
+      "questions": [
+        {
+          "id": "g5c_ch2_1_q1",
+          "number": 1,
+          "type": "true_false",
+          "content": "<p>$1$ 平方公尺等於 $10000$ 平方公分。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。<br/>$1 \\text{ m} = 100 \\text{ cm}$，所以 $1 \\text{ m}^2 = (100 \\text{ cm})^2 = 100 \\times 100 = \\mathbf{10000} \\text{ cm}^2$ ✓。<br/><strong>易錯點</strong>：邊長換算用「乘 $100$」，面積換算要用「乘 $100^2 = 10000$」，不是直接乘 $100$。</p>"
+        },
+        {
+          "id": "g5c_ch2_1_q2",
+          "number": 2,
+          "type": "true_false",
+          "content": "<p>$1$ 公升的水重 $1$ 公斤（在室溫下）。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。水的密度為 $1 \\text{ g/cm}^3$。<br/>$1 \\text{ L} = 1000 \\text{ mL} = 1000 \\text{ cm}^3$。<br/>水質量 $= 1 \\text{ g/cm}^3 \\times 1000 \\text{ cm}^3 = 1000 \\text{ g} = \\mathbf{1 \\text{ kg}}$ ✓。<br/>這是日常生活中很實用的記憶：「$1$ 公升水 $= 1$ 公斤」。</p>"
+        },
+        {
+          "id": "g5c_ch2_1_q3",
+          "number": 3,
+          "type": "true_false",
+          "content": "<p>$1$ 立方公尺等於 $100$ 立方公分。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。<br/>$1 \\text{ m} = 100 \\text{ cm}$，所以 $1 \\text{ m}^3 = (100 \\text{ cm})^3 = 100 \\times 100 \\times 100 = \\mathbf{1000000} \\text{ cm}^3$（一百萬立方公分），不是 $100$。<br/><strong>規律</strong>：邊長換算乘 $100$，面積乘 $100^2$，體積乘 $100^3$。</p>"
+        },
+        {
+          "id": "g5c_ch2_1_q4",
+          "number": 4,
+          "type": "true_false",
+          "content": "<p>一輛汽車的速度為 $54$ 公里／小時，換算成公尺／秒為 $15$ 公尺／秒。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。<strong>km/h $\\to$ m/s 的換算公式：$\\div 3.6$</strong>。<br/>$54 \\div 3.6 = \\mathbf{15}$ m/s ✓。<br/>原理：$1 \\text{ km/h} = \\dfrac{1000 \\text{ m}}{3600 \\text{ s}} = \\dfrac{5}{18} \\text{ m/s}$，$54 \\times \\dfrac{5}{18} = 3 \\times 5 = 15$ ✓。</p>"
+        },
+        {
+          "id": "g5c_ch2_1_q5",
+          "number": 5,
+          "type": "true_false",
+          "content": "<p>$1$ 公頃等於 $100$ 平方公尺。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。<br/>$1 \\text{ 公頃} = \\mathbf{10000} \\text{ m}^2$（一萬平方公尺），不是 $100$ 平方公尺。<br/><strong>整理</strong>：$1$ 公頃 $= 100$ 公畝、$1$ 公畝 $= 100$ 平方公尺。所以 $1$ 公頃 $= 100 \\times 100 = 10000$ 平方公尺。$1$ 公頃約相當於一個邊長 $100$ m 的正方形。</p>"
+        }
+      ]
+    },
+    {
+      "type": "single_choice",
+      "name": "單選題",
+      "questions": [
+        {
+          "id": "g5c_ch2_1_q6",
+          "number": 6,
+          "type": "single_choice",
+          "content": "<p>一塊長方形田地，長 $200$ 公尺、寬 $150$ 公尺，面積<strong>用公頃表示</strong>為多少？</p><p>A. $0.3$ 公頃</p><p>B. $3$ 公頃</p><p>C. $30$ 公頃</p><p>D. $300$ 公頃</p>",
+          "answer": "B",
+          "explanation": "<p>面積 $= 200 \\times 150 = 30000 \\text{ m}^2$。<br/>換算：$1$ 公頃 $= 10000 \\text{ m}^2$，所以 $30000 \\div 10000 = \\mathbf{3}$ 公頃 ✓。答案 B。<br/><strong>提醒</strong>：「平方公尺 $\\to$ 公頃」用<strong>除以 $10000$</strong>，移動小數點 $4$ 位。</p>"
+        },
+        {
+          "id": "g5c_ch2_1_q7",
+          "number": 7,
+          "type": "single_choice",
+          "content": "<p>一個水族箱長 $50$ cm、寬 $30$ cm、高 $40$ cm，<strong>裝滿水</strong>時可裝多少公升？</p><p>A. $6$ 公升</p><p>B. $12$ 公升</p><p>C. $60$ 公升</p><p>D. $120$ 公升</p>",
+          "answer": "C",
+          "explanation": "<p>體積 $= 50 \\times 30 \\times 40 = 60000 \\text{ cm}^3$。<br/>換算：$1 \\text{ cm}^3 = 1 \\text{ mL}$，所以 $60000 \\text{ mL} = \\mathbf{60}$ 公升 ✓。答案 C。<br/><strong>關鍵公式</strong>：$1 \\text{ L} = 1000 \\text{ mL} = 1000 \\text{ cm}^3$，所以體積（cm³）$\\div 1000 = $ 容積（L）。</p>"
+        },
+        {
+          "id": "g5c_ch2_1_q8",
+          "number": 8,
+          "type": "single_choice",
+          "content": "<p>一個容量 $24$ 公升的水桶，水龍頭的<strong>流量為 $3$ 公升／分</strong>，要裝滿這個水桶需要多少時間？</p><p>A. $6$ 分鐘</p><p>B. $7$ 分鐘</p><p>C. $8$ 分鐘</p><p>D. $9$ 分鐘</p>",
+          "answer": "C",
+          "explanation": "<p>時間 $=$ 體積 $\\div$ 流量。<br/>$24 \\div 3 = \\mathbf{8}$ 分鐘 ✓。答案 C。<br/><strong>檢驗</strong>：流量 $\\times$ 時間 $= 3 \\times 8 = 24$ 公升，與水桶容量相符 ✓。</p>"
+        },
+        {
+          "id": "g5c_ch2_1_q9",
+          "number": 9,
+          "type": "single_choice",
+          "content": "<p>一塊金屬體積為 $250 \\text{ cm}^3$，密度為 $7.8 \\text{ g/cm}^3$，這塊金屬的質量是多少？</p><p>A. $1.95 \\text{ kg}$</p><p>B. $19.5 \\text{ kg}$</p><p>C. $32.05 \\text{ g}$</p><p>D. $195 \\text{ kg}$</p>",
+          "answer": "A",
+          "explanation": "<p>質量 $=$ 密度 $\\times$ 體積。<br/>$7.8 \\times 250 = 1950 \\text{ g} = \\mathbf{1.95 \\text{ kg}}$ ✓。答案 A。<br/><strong>單位換算</strong>：$1 \\text{ kg} = 1000 \\text{ g}$，$1950 \\div 1000 = 1.95$ kg。<br/>提示：鐵的密度約為 $7.8 \\text{ g/cm}^3$。</p>"
+        },
+        {
+          "id": "g5c_ch2_1_q10",
+          "number": 10,
+          "type": "single_choice",
+          "content": "<p>一輛機車以 $15$ 公尺／秒的速度行駛，<strong>$3$ 分鐘</strong>可以走多少公里？</p><p>A. $0.45$ 公里</p><p>B. $2.7$ 公里</p><p>C. $4.5$ 公里</p><p>D. $27$ 公里</p>",
+          "answer": "B",
+          "explanation": "<p>先統一單位。$3$ 分鐘 $= 180$ 秒。<br/>距離 $=$ 速度 $\\times$ 時間 $= 15 \\times 180 = 2700$ 公尺 $= \\mathbf{2.7}$ 公里 ✓。答案 B。<br/><strong>另解</strong>：$15$ m/s $\\times 3.6 = 54$ km/h；$54 \\div 60 \\times 3 = 2.7$ km ✓。<br/><strong>關鍵</strong>：時間單位（秒、分、時）與速度單位的分母要對齊。</p>"
+        },
+        {
+          "id": "g5c_ch2_1_q11",
+          "number": 11,
+          "type": "single_choice",
+          "content": "<p>$2$ 公秉 $+ 350$ 公升 $+ 600$ 毫升 $=$ ？ 公升</p><p>A. $2350.6$ 公升</p><p>B. $2950.6$ 公升</p><p>C. $2350.06$ 公升</p><p>D. $5350.6$ 公升</p>",
+          "answer": "A",
+          "explanation": "<p>單位換算：<br/>$1$ 公秉 $= 1000$ 公升，所以 $2$ 公秉 $= 2000$ 公升。<br/>$1$ 公升 $= 1000$ 毫升，所以 $600$ 毫升 $= 0.6$ 公升。<br/>合計 $= 2000 + 350 + 0.6 = \\mathbf{2350.6}$ 公升 ✓。答案 A。<br/><strong>記憶</strong>：公秉 $\\to$ 公升 $\\to$ 毫升，每階差 $1000$ 倍。</p>"
+        },
+        {
+          "id": "g5c_ch2_1_q12",
+          "number": 12,
+          "type": "single_choice",
+          "content": "<p>一座工廠的儲油槽，底面積為 $4 \\text{ m}^2$、高 $2.5 \\text{ m}$，<strong>儲滿油</strong>時可儲多少公秉？又油的密度為 $0.8 \\text{ g/cm}^3$，這些油重多少公噸？</p><p>A. $10$ 公秉、$8$ 公噸</p><p>B. $10$ 公秉、$12.5$ 公噸</p><p>C. $40$ 公秉、$32$ 公噸</p><p>D. $40$ 公秉、$50$ 公噸</p>",
+          "answer": "A",
+          "explanation": "<p><strong>第一步：體積</strong>。$V = 4 \\times 2.5 = 10 \\text{ m}^3 = \\mathbf{10 \\text{ 公秉}}$（因為 $1$ 公秉 $= 1 \\text{ m}^3$）。<br/><strong>第二步：質量</strong>。$10 \\text{ m}^3 = 10000000 \\text{ cm}^3$（$\\times 100^3$）。<br/>質量 $= 0.8 \\times 10000000 = 8000000 \\text{ g} = 8000 \\text{ kg} = \\mathbf{8 \\text{ 公噸}}$ ✓。答案 A。<br/><strong>快速法</strong>：$1 \\text{ m}^3$ 水重 $1$ 公噸，油密度 $0.8$ $\\Rightarrow$ $1 \\text{ m}^3$ 油重 $0.8$ 公噸，$10 \\times 0.8 = 8$ 公噸 ✓。</p>"
+        },
+        {
+          "id": "g5c_ch2_1_q13",
+          "number": 13,
+          "type": "single_choice",
+          "content": "<p>甲水管每分鐘注水 $12$ 公升，乙水管每分鐘注水 $8$ 公升。兩管同時開，要把一個容量 $0.5$ 公秉的水池注滿，需要多少分鐘？</p><p>A. $20$ 分鐘</p><p>B. $25$ 分鐘</p><p>C. $30$ 分鐘</p><p>D. $40$ 分鐘</p>",
+          "answer": "B",
+          "explanation": "<p><strong>單位統一</strong>：$0.5$ 公秉 $= 500$ 公升。<br/>合計流量 $= 12 + 8 = 20$ 公升／分。<br/>時間 $= 500 \\div 20 = \\mathbf{25}$ 分鐘 ✓。答案 B。<br/><strong>檢驗</strong>：$20 \\times 25 = 500$ 公升 ✓。<br/>提醒：要先把公秉換成公升，因為流量是用「公升／分」。</p>"
+        },
+        {
+          "id": "g5c_ch2_1_q14",
+          "number": 14,
+          "type": "single_choice",
+          "content": "<p>一塊正方形土地的<strong>邊長為 $300$ 公尺</strong>，面積<strong>用公頃表示</strong>為多少？</p><p>A. $0.9$ 公頃</p><p>B. $9$ 公頃</p><p>C. $90$ 公頃</p><p>D. $900$ 公頃</p>",
+          "answer": "B",
+          "explanation": "<p>面積 $= 300 \\times 300 = 90000 \\text{ m}^2$。<br/>換算：$90000 \\div 10000 = \\mathbf{9}$ 公頃 ✓。答案 B。<br/><strong>驗證</strong>：$1$ 公頃 $=$ 邊長 $100$ m 的正方形 $= 100 \\times 100 = 10000 \\text{ m}^2$。邊長 $300$ m 是 $100$ m 的 $3$ 倍，面積是 $3^2 = 9$ 倍，所以是 $9$ 公頃。</p>"
+        },
+        {
+          "id": "g5c_ch2_1_q15",
+          "number": 15,
+          "type": "single_choice",
+          "content": "<p>一個游泳池長 $25$ 公尺、寬 $10$ 公尺、平均深 $1.5$ 公尺。用一支流量 $250$ 公升／分的水管<strong>注滿這個池</strong>需要多少小時？</p><p>A. $20$ 小時</p><p>B. $25$ 小時</p><p>C. $30$ 小時</p><p>D. $50$ 小時</p>",
+          "answer": "B",
+          "explanation": "<p><strong>第一步：池容積</strong>。$V = 25 \\times 10 \\times 1.5 = 375 \\text{ m}^3$。<br/><strong>第二步：換成公升</strong>。$375 \\text{ m}^3 = 375 \\times 1000 = 375000$ 公升（因 $1 \\text{ m}^3 = 1000$ 公升）。<br/><strong>第三步：時間</strong>。$375000 \\div 250 = 1500$ 分鐘 $= 1500 \\div 60 = \\mathbf{25}$ 小時 ✓。答案 B。<br/><strong>檢驗</strong>：$250 \\times 60 \\times 25 = 375000$ 公升 ✓。</p>"
+        }
+      ]
+    }
+  ]
+}

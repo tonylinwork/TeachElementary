@@ -1,0 +1,138 @@
+{
+  "title": "小五挑戰 6-1 數列與規律（進階）",
+  "summary": "<ul><li><strong>等差數列定義</strong>：每一項與前一項的差都相同的數列，這個固定差稱為「公差」$d$。例如 $3, 7, 11, 15, \\ldots$ 公差 $d = 4$；遞減數列公差為負，如 $20, 17, 14, \\ldots$ 公差 $d = -3$。</li><li><strong>第 $n$ 項公式</strong>：$a_n = a_1 + (n - 1) \\times d$，<strong>記得是 $(n-1)$ 不是 $n$</strong>，因為第 $1$ 項不需要加公差，第 $2$ 項才加一次。</li><li><strong>項數公式</strong>：若已知首項 $a_1$、末項 $a_n$、公差 $d$，則項數 $n = \\dfrac{a_n - a_1}{d} + 1$（這個 $+1$ 是「植樹原理」：兩端都要種，所以間隔數 $+ 1 =$ 樹數）。</li><li><strong>等差級數和（高斯公式）</strong>：$S = \\dfrac{(a_1 + a_n) \\times n}{2}$（首項加末項，乘項數，除以 $2$）。例：$1 + 2 + \\cdots + 100 = \\dfrac{(1 + 100) \\times 100}{2} = 5050$。</li><li><strong>分項對消（裂項相消）</strong>：利用 $\\dfrac{1}{k(k+1)} = \\dfrac{1}{k} - \\dfrac{1}{k+1}$ 把每一項拆成兩個分數的差，相鄰項互相抵消，只剩第一項的前半和最後一項的後半。例：$\\dfrac{1}{1 \\times 2} + \\dfrac{1}{2 \\times 3} + \\dfrac{1}{3 \\times 4} = \\left(1 - \\dfrac{1}{2}\\right) + \\left(\\dfrac{1}{2} - \\dfrac{1}{3}\\right) + \\left(\\dfrac{1}{3} - \\dfrac{1}{4}\\right) = 1 - \\dfrac{1}{4} = \\dfrac{3}{4}$。</li><li><strong>簡易等比數列</strong>：每一項與前一項的比都相同（稱公比 $r$）。例：$1, 2, 4, 8, 16, \\ldots$ 公比 $2$；$1, 3, 9, 27, \\ldots$ 公比 $3$。$2$ 的連續次方求和有個技巧：$1 + 2 + 4 + \\cdots + 2^k = 2^{k+1} - 1$（總和 $=$ 下一項 $- 1$）。</li><li><strong>圖形堆疊規律</strong>：火柴棒、正方形、三角形等堆疊，常常出現等差（每多一層多固定數量）或平方數列（如 $1, 4, 9, 16, \\ldots$ 就是 $1^2, 2^2, 3^2, \\ldots$）。先列前 3-4 項找規律，再驗證第 $5$ 項。</li><li><strong>找規律的口訣</strong>：相鄰兩項作差，差固定 $\\to$ 等差；作差後再作差才固定 $\\to$ 二階等差（如平方數列）；相鄰兩項作比，比固定 $\\to$ 等比。</li></ul>",
+  "sections": [
+    {
+      "type": "true_false",
+      "name": "是非題",
+      "questions": [
+        {
+          "id": "g5c_ch6_1_q1",
+          "number": 1,
+          "type": "true_false",
+          "content": "<p>數列 $5, 9, 13, 17, 21, \\ldots$ 是公差為 $4$ 的等差數列，其第 $10$ 項為 $41$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。首項 $a_1 = 5$、公差 $d = 4$。<br/>第 $n$ 項公式：$a_n = a_1 + (n - 1) \\times d$。<br/>$a_{10} = 5 + (10 - 1) \\times 4 = 5 + 36 = \\mathbf{41}$ ✓。<br/><strong>常見錯誤</strong>：算成 $5 + 10 \\times 4 = 45$，忘了「第 $1$ 項不加公差」，所以是 $(n - 1)$ 而不是 $n$。</p>"
+        },
+        {
+          "id": "g5c_ch6_1_q2",
+          "number": 2,
+          "type": "true_false",
+          "content": "<p>$1 + 2 + 3 + \\cdots + 100$ 的和等於 $5050$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。這就是著名的高斯求和。用等差級數公式：$S = \\dfrac{(a_1 + a_n) \\times n}{2}$。<br/>$a_1 = 1$、$a_n = 100$、項數 $n = 100$。<br/>$S = \\dfrac{(1 + 100) \\times 100}{2} = \\dfrac{101 \\times 100}{2} = \\mathbf{5050}$ ✓。<br/><strong>口訣</strong>：「首加末，乘項數，除以 $2$」。</p>"
+        },
+        {
+          "id": "g5c_ch6_1_q3",
+          "number": 3,
+          "type": "true_false",
+          "content": "<p>等差數列 $7, 10, 13, \\ldots, 64$ 共有 $20$ 項。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。首項 $a_1 = 7$、末項 $a_n = 64$、公差 $d = 10 - 7 = 3$。<br/>項數 $n = \\dfrac{a_n - a_1}{d} + 1 = \\dfrac{64 - 7}{3} + 1 = \\dfrac{57}{3} + 1 = 19 + 1 = \\mathbf{20}$ 項 ✓。<br/><strong>植樹原理</strong>：間隔有 $19$ 個（$57 \\div 3$），但兩端都要算，所以項數要 $+1$。常見錯誤是漏掉 $+1$ 算成 $19$ 項。</p>"
+        },
+        {
+          "id": "g5c_ch6_1_q4",
+          "number": 4,
+          "type": "true_false",
+          "content": "<p>$\\dfrac{1}{1 \\times 2} + \\dfrac{1}{2 \\times 3} + \\dfrac{1}{3 \\times 4} + \\dfrac{1}{4 \\times 5} = \\dfrac{4}{5}$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。利用分項對消：$\\dfrac{1}{k(k+1)} = \\dfrac{1}{k} - \\dfrac{1}{k+1}$。<br/>原式 $= \\left(1 - \\dfrac{1}{2}\\right) + \\left(\\dfrac{1}{2} - \\dfrac{1}{3}\\right) + \\left(\\dfrac{1}{3} - \\dfrac{1}{4}\\right) + \\left(\\dfrac{1}{4} - \\dfrac{1}{5}\\right)$<br/>$= 1 - \\dfrac{1}{5} = \\dfrac{\\mathbf{4}}{\\mathbf{5}}$ ✓。<br/>中間 $\\dfrac{1}{2}, \\dfrac{1}{3}, \\dfrac{1}{4}$ 都被前後抵消，只剩頭尾兩個。</p>"
+        },
+        {
+          "id": "g5c_ch6_1_q5",
+          "number": 5,
+          "type": "true_false",
+          "content": "<p>數列 $2, 6, 18, 54, \\ldots$ 是公差為 $4$ 的等差數列。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。檢查相鄰兩項的差：$6 - 2 = 4$、$18 - 6 = 12$、$54 - 18 = 36$，<strong>差不固定</strong>，所以不是等差數列。<br/>再檢查相鄰兩項的比：$6 \\div 2 = 3$、$18 \\div 6 = 3$、$54 \\div 18 = 3$，<strong>比固定為 $3$</strong>。所以這是公<strong>比</strong>為 $3$ 的等<strong>比</strong>數列，不是等差。</p>"
+        }
+      ]
+    },
+    {
+      "type": "single_choice",
+      "name": "單選題",
+      "questions": [
+        {
+          "id": "g5c_ch6_1_q6",
+          "number": 6,
+          "type": "single_choice",
+          "content": "<p>等差數列 $4, 9, 14, 19, \\ldots$ 的第 $30$ 項是多少？</p><p>A. $144$</p><p>B. $149$</p><p>C. $150$</p><p>D. $154$</p>",
+          "answer": "B",
+          "explanation": "<p>首項 $a_1 = 4$、公差 $d = 9 - 4 = 5$。<br/>第 $n$ 項：$a_n = a_1 + (n - 1) \\times d$。<br/>$a_{30} = 4 + (30 - 1) \\times 5 = 4 + 29 \\times 5 = 4 + 145 = \\mathbf{149}$。<br/><strong>常見錯誤</strong>：用 $4 + 30 \\times 5 = 154$（選項 D），忘了減 $1$。答案 B。</p>"
+        },
+        {
+          "id": "g5c_ch6_1_q7",
+          "number": 7,
+          "type": "single_choice",
+          "content": "<p>計算 $2 + 4 + 6 + 8 + \\cdots + 50$ 的和（從 $2$ 開始的所有偶數加到 $50$）。</p><p>A. $625$</p><p>B. $650$</p><p>C. $676$</p><p>D. $1300$</p>",
+          "answer": "B",
+          "explanation": "<p>這是首項 $2$、末項 $50$、公差 $2$ 的等差數列。<br/>項數 $n = \\dfrac{50 - 2}{2} + 1 = 24 + 1 = 25$ 項。<br/>和 $S = \\dfrac{(a_1 + a_n) \\times n}{2} = \\dfrac{(2 + 50) \\times 25}{2} = \\dfrac{52 \\times 25}{2} = \\dfrac{1300}{2} = \\mathbf{650}$。<br/>選項 D 是漏除 $2$ 的錯誤，A、C 是項數算錯。答案 B。</p>"
+        },
+        {
+          "id": "g5c_ch6_1_q8",
+          "number": 8,
+          "type": "single_choice",
+          "content": "<p>等差數列 $3, 8, 13, 18, \\ldots, 198$，請問共有幾項？</p><p>A. $38$ 項</p><p>B. $39$ 項</p><p>C. $40$ 項</p><p>D. $41$ 項</p>",
+          "answer": "C",
+          "explanation": "<p>首項 $a_1 = 3$、末項 $a_n = 198$、公差 $d = 8 - 3 = 5$。<br/>項數 $n = \\dfrac{a_n - a_1}{d} + 1 = \\dfrac{198 - 3}{5} + 1 = \\dfrac{195}{5} + 1 = 39 + 1 = \\mathbf{40}$ 項。<br/><strong>常見錯誤</strong>：漏掉 $+1$ 答 $39$（B），這是「植樹原理」：間隔 $39$ 段，但兩端都要算，所以項數是 $40$。答案 C。</p>"
+        },
+        {
+          "id": "g5c_ch6_1_q9",
+          "number": 9,
+          "type": "single_choice",
+          "content": "<p>某等差數列的第 $3$ 項為 $11$、第 $7$ 項為 $27$，則此數列的首項為何？</p><p>A. $1$</p><p>B. $3$</p><p>C. $5$</p><p>D. $7$</p>",
+          "answer": "B",
+          "explanation": "<p>從第 $3$ 項到第 $7$ 項共增加 $4$ 個公差：$27 - 11 = 16$，所以公差 $d = 16 \\div 4 = 4$。<br/>從首項 $a_1$ 到第 $3$ 項是加了 $2$ 個公差：$a_1 + 2d = 11 \\to a_1 + 8 = 11 \\to a_1 = \\mathbf{3}$。<br/>檢驗：$3, 7, 11, 15, 19, 23, 27, \\ldots$ 第 $3$ 項 $= 11$ ✓、第 $7$ 項 $= 27$ ✓。答案 B。</p>"
+        },
+        {
+          "id": "g5c_ch6_1_q10",
+          "number": 10,
+          "type": "single_choice",
+          "content": "<p>計算 $\\dfrac{1}{1 \\times 2} + \\dfrac{1}{2 \\times 3} + \\dfrac{1}{3 \\times 4} + \\cdots + \\dfrac{1}{9 \\times 10}$ 的值。</p><p>A. $\\dfrac{1}{10}$</p><p>B. $\\dfrac{9}{10}$</p><p>C. $\\dfrac{1}{2}$</p><p>D. $1$</p>",
+          "answer": "B",
+          "explanation": "<p>用<strong>分項對消</strong>：$\\dfrac{1}{k(k+1)} = \\dfrac{1}{k} - \\dfrac{1}{k+1}$。<br/>原式 $= \\left(1 - \\dfrac{1}{2}\\right) + \\left(\\dfrac{1}{2} - \\dfrac{1}{3}\\right) + \\cdots + \\left(\\dfrac{1}{9} - \\dfrac{1}{10}\\right)$<br/>中間項全部對消，只剩首尾：$= 1 - \\dfrac{1}{10} = \\dfrac{\\mathbf{9}}{\\mathbf{10}}$。<br/>選項 A 是「剩下的那部分」誤當答案。答案 B。</p>"
+        },
+        {
+          "id": "g5c_ch6_1_q11",
+          "number": 11,
+          "type": "single_choice",
+          "content": "<p>計算 $1 + 2 + 4 + 8 + 16 + 32 + 64 + 128$ 的和。</p><p>A. $128$</p><p>B. $200$</p><p>C. $255$</p><p>D. $256$</p>",
+          "answer": "C",
+          "explanation": "<p>這是公比 $2$ 的等比數列（$2$ 的次方）。<br/><strong>技巧</strong>：$1 + 2 + 4 + \\cdots + 2^k = 2^{k+1} - 1$（總和等於「下一項減 $1$」）。<br/>原式末項 $128 = 2^7$，下一項 $= 256$，所以總和 $= 256 - 1 = \\mathbf{255}$。<br/>直接驗算：$1 + 2 = 3$、$+ 4 = 7$、$+ 8 = 15$、$+ 16 = 31$、$+ 32 = 63$、$+ 64 = 127$、$+ 128 = 255$ ✓。答案 C。</p>"
+        },
+        {
+          "id": "g5c_ch6_1_q12",
+          "number": 12,
+          "type": "single_choice",
+          "content": "<p>觀察下列圖形堆疊規律：第 $1$ 層 $1$ 顆球、第 $2$ 層 $3$ 顆、第 $3$ 層 $5$ 顆、第 $4$ 層 $7$ 顆、$\\ldots$（每層比前一層多 $2$ 顆）。則前 $10$ 層的球總共有幾顆？</p><p>A. $90$ 顆</p><p>B. $95$ 顆</p><p>C. $100$ 顆</p><p>D. $110$ 顆</p>",
+          "answer": "C",
+          "explanation": "<p>每層球數為等差數列：首項 $1$、公差 $2$。<br/>第 $10$ 層球數 $= 1 + (10 - 1) \\times 2 = 1 + 18 = 19$ 顆。<br/>前 $10$ 層總和 $= \\dfrac{(1 + 19) \\times 10}{2} = \\dfrac{200}{2} = \\mathbf{100}$ 顆。<br/><strong>有趣的事實</strong>：前 $n$ 個奇數的和剛好等於 $n^2$，這裡 $10^2 = 100$ ✓。答案 C。</p>"
+        },
+        {
+          "id": "g5c_ch6_1_q13",
+          "number": 13,
+          "type": "single_choice",
+          "content": "<p>下列數列 $1, 4, 9, 16, 25, \\ldots$ 的第 $8$ 項是多少？</p><p>A. $49$</p><p>B. $56$</p><p>C. $64$</p><p>D. $81$</p>",
+          "answer": "C",
+          "explanation": "<p>觀察：$1 = 1^2$、$4 = 2^2$、$9 = 3^2$、$16 = 4^2$、$25 = 5^2$，<strong>每一項都是序號的平方</strong>，所以是平方數列。<br/>第 $8$ 項 $= 8^2 = \\mathbf{64}$。<br/><strong>驗證規律</strong>：相鄰兩項作差為 $3, 5, 7, 9, \\ldots$（奇數列），是「二階等差」。差不固定但「差的差」固定，這是平方數列的特徵。答案 C。</p>"
+        },
+        {
+          "id": "g5c_ch6_1_q14",
+          "number": 14,
+          "type": "single_choice",
+          "content": "<p>等差數列 $3, 7, 11, 15, \\ldots, 99$ 的所有項數加起來的總和是多少？</p><p>A. $1224$</p><p>B. $1275$</p><p>C. $1326$</p><p>D. $1428$</p>",
+          "answer": "B",
+          "explanation": "<p><strong>先求項數</strong>：首項 $3$、末項 $99$、公差 $4$。<br/>$n = \\dfrac{99 - 3}{4} + 1 = \\dfrac{96}{4} + 1 = 24 + 1 = 25$ 項。<br/><strong>再求和</strong>：$S = \\dfrac{(3 + 99) \\times 25}{2} = \\dfrac{102 \\times 25}{2} = \\dfrac{2550}{2} = \\mathbf{1275}$。<br/><strong>常見錯誤</strong>：項數算成 $24$（漏 $+1$）會得 $1224$（A）。答案 B。</p>"
+        },
+        {
+          "id": "g5c_ch6_1_q15",
+          "number": 15,
+          "type": "single_choice",
+          "content": "<p>觀察規律：$1, 1, 2, 3, 5, 8, 13, \\ldots$（每一項都是前兩項相加），則第 $10$ 項是多少？</p><p>A. $34$</p><p>B. $55$</p><p>C. $89$</p><p>D. $144$</p>",
+          "answer": "B",
+          "explanation": "<p>這是著名的<strong>費氏數列（Fibonacci）</strong>：每一項都是前兩項之和。<br/>第 $1$ 項 $= 1$<br/>第 $2$ 項 $= 1$<br/>第 $3$ 項 $= 1 + 1 = 2$<br/>第 $4$ 項 $= 1 + 2 = 3$<br/>第 $5$ 項 $= 2 + 3 = 5$<br/>第 $6$ 項 $= 3 + 5 = 8$<br/>第 $7$ 項 $= 5 + 8 = 13$<br/>第 $8$ 項 $= 8 + 13 = 21$<br/>第 $9$ 項 $= 13 + 21 = 34$<br/>第 $10$ 項 $= 21 + 34 = \\mathbf{55}$ ✓。<br/><strong>注意</strong>：費氏數列不是等差也不是等比，要老實一項一項算。答案 B。</p>"
+        }
+      ]
+    }
+  ]
+}
