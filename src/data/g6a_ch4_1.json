@@ -1,6 +1,6 @@
 {
-  "title": "小六上 4-1 圓周長與圓面積",
-  "summary": "<ul><li><strong>圓的元素</strong>：圓心、半徑 $r$（圓心到圓周的距離）、直徑 $d$（過圓心的弦，$d = 2r$）。圓周率 $\\pi$ 是圓周長與直徑的比值，國小用 $\\pi \\approx 3.14$ 計算。</li><li><strong>圓周長公式</strong>：$C = \\pi \\times d = 2\\pi r$。例 半徑 $5$ 公分的圓周長 $\\approx 2 \\times 3.14 \\times 5 = 31.4$ 公分。題目用 $3.14$ 時答案前要寫「<strong>約</strong>」。</li><li><strong>圓面積公式</strong>：$S = \\pi r^2$（半徑 $\\times$ 半徑 $\\times \\pi$）。例 半徑 $5$ 公分的圓面積 $\\approx 5 \\times 5 \\times 3.14 = 78.5$ 平方公分。<strong>面積單位是「平方」公分</strong>。</li><li><strong>半圓與扇形</strong>：圓心角 $\\theta$ 的扇形，弧長 $= 2\\pi r \\times \\dfrac{\\theta}{360^\\circ}$、面積 $= \\pi r^2 \\times \\dfrac{\\theta}{360^\\circ}$。常用比例 $90^\\circ = \\dfrac{1}{4}$ 圓、$180^\\circ = \\dfrac{1}{2}$ 圓。</li><li><strong>半圓周長</strong>：等於「半圓弧」$+$「<strong>一條直徑</strong>」$= \\dfrac{1}{2} \\times 2\\pi r + 2r = \\pi r + 2r$。直徑那條直線不可以漏掉，這是常考陷阱。</li><li><strong>比例關係</strong>：兩圓<strong>周長比 $=$ 半徑比</strong>；<strong>面積比 $=$ 半徑平方比</strong>。半徑放大 $2$ 倍，周長變 $2$ 倍但面積變 $4$ 倍。計算習慣：$\\pi$ 留到最後才乘，先把整數部分約分。</li></ul>",
+  "title": "小六上 4-1 小數除法",
+  "summary": "<ul><li><strong>小數 ÷ 整數</strong>：用直式除法時，<strong>商的小數點對齊被除數的小數點</strong>。例：$8.4 \\div 4$，$84 \\div 4 = 21$，商點上小數點 $\\to 2.1$。</li><li><strong>小數 ÷ 小數（移動小數點法）</strong>：把除數變成整數 — 除數有幾位小數，被除數和除數的小數點就<strong>同時向右移幾位</strong>，商不變。例：$2.88 \\div 0.4 \\to 28.8 \\div 4 = 7.2$；$0.96 \\div 0.08 \\to 96 \\div 8 = 12$。</li><li><strong>商小於被除數的情況</strong>：除數<strong>大於 $1$</strong> 商會變小（$5 \\div 2.5 = 2 < 5$）；除數<strong>小於 $1$</strong> 商反而變大（$5 \\div 0.5 = 10 > 5$）。這和「乘以小於 $1$ 變小」剛好相反。</li><li><strong>取概數</strong>：題目說「商取到小數第 $1$ 位」表示<strong>多除一位</strong>（除到小數第 $2$ 位），再用四捨五入法處理。例：$10 \\div 3 = 3.33\\ldots \\approx 3.3$（取到小數第 $1$ 位）。</li><li><strong>有餘數的小數除法</strong>：直式中<strong>餘數的小數點要對齊被除數原本的小數點</strong>，不能跟著移動。例：$5.7 \\div 0.4$，商 $14$、餘 $0.1$（不是 $1$）。等分／裝瓶題常用<strong>無條件捨去</strong>（最多裝幾瓶）。</li><li><strong>驗算</strong>：除法 $\\to$ 乘法 $\\to$ 還原。<strong>被除數 $=$ 除數 $\\times$ 商 $+$ 餘數</strong>。例：$5.7 \\div 0.4 = 14 \\cdots 0.1$，驗算 $0.4 \\times 14 + 0.1 = 5.6 + 0.1 = 5.7$ ✓。</li></ul>",
   "sections": [
     {
       "type": "true_false",
@@ -10,41 +10,41 @@
           "id": "g6a_ch4_1_q1",
           "number": 1,
           "type": "true_false",
-          "content": "<p>圓的直徑是半徑的 $2$ 倍，所以同一個圓的圓周長是直徑的 $\\pi$ 倍。</p>",
+          "content": "<p>計算 $7.5 \\div 5$ 時，可以先算 $75 \\div 5 = 15$，再把商的小數點對齊被除數，得 $1.5$。</p>",
           "answer": "○",
-          "explanation": "<p>正確。$d = 2r$，圓周長 $C = 2\\pi r = \\pi \\times d$，即<strong>圓周率 $\\pi$ 就是圓周長與直徑的比值</strong>。這也是 $\\pi$ 的定義，國小用 $\\pi \\approx 3.14$ 計算。</p>"
+          "explanation": "<p>正確。小數除以整數時，<strong>商的小數點與被除數的小數點對齊</strong>：$7.5 \\div 5 = 1.5$。驗算 $1.5 \\times 5 = 7.5$ ✓。</p>"
         },
         {
           "id": "g6a_ch4_1_q2",
           "number": 2,
           "type": "true_false",
-          "content": "<p>圓周長的單位是「公分」，圓面積的單位是「平方公分」。</p>",
+          "content": "<p>計算 $3.6 \\div 0.04$ 時，被除數和除數的小數點要同時向右移 $2$ 位，變成 $360 \\div 4 = 90$。</p>",
           "answer": "○",
-          "explanation": "<p>正確。<strong>周長</strong>是長度，單位是公分／公尺等一次方單位；<strong>面積</strong>是平面範圍，單位是「平方」公分／公尺。面積公式 $\\pi r^2$ 用到 $r$ 兩次，所以單位也是「兩次方」。</p>"
+          "explanation": "<p>正確。除數 $0.04$ 有 <strong>$2$ 位小數</strong>，所以被除數和除數同時向右移 $2$ 位：$3.6 \\to 360$（位數不夠補 $0$）、$0.04 \\to 4$，$360 \\div 4 = 90$。被除數和除數同乘以相同的數（這裡是 $\\times 100$），<strong>商不變</strong>。</p>"
         },
         {
           "id": "g6a_ch4_1_q3",
           "number": 3,
           "type": "true_false",
-          "content": "<p>半徑 $10$ 公分的半圓，它的周長等於 $10 \\times 3.14 = 31.4$ 公分。</p>",
+          "content": "<p>因為「除法會讓數字變小」，所以 $6 \\div 0.5$ 的結果一定比 $6$ 小。</p>",
           "answer": "╳",
-          "explanation": "<p>錯誤。<strong>半圓周長 $=$ 半圓弧 $+$ 直徑</strong>，不可以只算弧。半圓弧 $= \\dfrac{1}{2} \\times 2\\pi r = \\pi r \\approx 10 \\times 3.14 = 31.4$ 公分，再加直徑 $20$ 公分，總共約 $51.4$ 公分。$31.4$ 漏掉了直徑那一段直線。</p>"
+          "explanation": "<p>錯誤。除以<strong>小於 $1$ 的數</strong>，商反而會<strong>變大</strong>。$6 \\div 0.5 = 12 > 6$。可以這樣想：$0.5$ 表示「半個」，$6$ 裡可以裝下 $12$ 個「半個」。只有除以<strong>大於 $1$</strong> 的數，商才會比被除數小。</p>"
         },
         {
           "id": "g6a_ch4_1_q4",
           "number": 4,
           "type": "true_false",
-          "content": "<p>當圓的半徑變成原來的 $3$ 倍時，圓面積也會變成原來的 $3$ 倍。</p>",
+          "content": "<p>$5.7 \\div 0.4$ 計算後商是 $14$，餘數是 $1$。</p>",
           "answer": "╳",
-          "explanation": "<p>錯誤。<strong>面積與半徑的「平方」成正比</strong>。半徑變 $3$ 倍，面積變 $3^2 = 9$ 倍，不是 $3$ 倍。例 原半徑 $1$，面積 $\\pi$；新半徑 $3$，面積 $9\\pi$。$\\dfrac{9\\pi}{\\pi} = 9$ 倍。</p>"
+          "explanation": "<p>錯誤。雖然直式上把小數點都向右移後變成 $57 \\div 4 = 14 \\cdots 1$，但<strong>餘數的小數點要對齊被除數原本的位置</strong>，所以實際餘數是 $0.1$，不是 $1$。驗算：$0.4 \\times 14 + 0.1 = 5.6 + 0.1 = 5.7$ ✓；若餘 $1$ 則 $5.6 + 1 = 6.6 \\neq 5.7$。</p>"
         },
         {
           "id": "g6a_ch4_1_q5",
           "number": 5,
           "type": "true_false",
-          "content": "<p>圓心角 $90^\\circ$ 的扇形面積等於整圓面積的 $\\dfrac{1}{4}$。</p>",
+          "content": "<p>$10 \\div 3$ 商取到小數第 $1$ 位（四捨五入）等於 $3.3$。</p>",
           "answer": "○",
-          "explanation": "<p>正確。整圓圓心角 $= 360^\\circ$，所以 $90^\\circ$ 的扇形占整圓的 $\\dfrac{90}{360} = \\dfrac{1}{4}$。同理 $180^\\circ$ 是 $\\dfrac{1}{2}$（半圓）、$120^\\circ$ 是 $\\dfrac{1}{3}$、$60^\\circ$ 是 $\\dfrac{1}{6}$。</p>"
+          "explanation": "<p>正確。「取到小數第 $1$ 位」表示<strong>要除到小數第 $2$ 位</strong>再四捨五入。$10 \\div 3 = 3.33\\ldots$，第 $2$ 位是 $3 < 5$，無條件捨去 $\\to 3.3$。<strong>多算一位才能正確四捨五入</strong>是重要技巧。</p>"
         }
       ]
     },
@@ -56,81 +56,81 @@
           "id": "g6a_ch4_1_q6",
           "number": 6,
           "type": "single_choice",
-          "content": "<p>半徑 $4$ 公分的圓，圓周長約多少公分？（$\\pi \\approx 3.14$）</p><p>A. $約 12.56$ 公分</p><p>B. $約 25.12$ 公分</p><p>C. $約 50.24$ 公分</p><p>D. $約 6.28$ 公分</p>",
+          "content": "<p>計算 $9.6 \\div 8 = ?$</p><p>A. $0.12$</p><p>B. $1.2$</p><p>C. $12$</p><p>D. $0.2$</p>",
           "answer": "B",
-          "explanation": "<p>$C = 2\\pi r \\approx 2 \\times 3.14 \\times 4 = 25.12$ 公分。可以先算 $2 \\times 4 = 8$，再乘 $3.14$ 得 $25.12$。<strong>$\\pi$ 放最後乘</strong>是個好習慣。答案 B。</p>"
+          "explanation": "<p>小數除以整數：$96 \\div 8 = 12$，<strong>商的小數點對齊被除數</strong>，得 $1.2$。驗算 $1.2 \\times 8 = 9.6$ ✓。答案 B。</p>"
         },
         {
           "id": "g6a_ch4_1_q7",
           "number": 7,
           "type": "single_choice",
-          "content": "<p>直徑 $20$ 公分的圓，圓面積約多少平方公分？（$\\pi \\approx 3.14$）</p><p>A. $約 31.4$</p><p>B. $約 62.8$</p><p>C. $約 314$</p><p>D. $約 1256$</p>",
+          "content": "<p>計算 $7.5 \\div 0.3 = ?$</p><p>A. $0.25$</p><p>B. $2.5$</p><p>C. $25$</p><p>D. $250$</p>",
           "answer": "C",
-          "explanation": "<p>直徑 $20$ 公分 $\\Rightarrow$ 半徑 $r = 10$ 公分。$S = \\pi r^2 \\approx 3.14 \\times 10 \\times 10 = 3.14 \\times 100 = 314$ 平方公分。注意要用<strong>半徑</strong>不是直徑。答案 C。</p>"
+          "explanation": "<p>除數 $0.3$ 有 $1$ 位小數，<strong>同時向右移 $1$ 位</strong>：$7.5 \\div 0.3 = 75 \\div 3 = 25$。驗算 $0.3 \\times 25 = 7.5$ ✓。答案 C。</p>"
         },
         {
           "id": "g6a_ch4_1_q8",
           "number": 8,
           "type": "single_choice",
-          "content": "<p>一個半徑 $10$ 公分的半圓，周長約多少公分？（$\\pi \\approx 3.14$）</p><p>A. $約 31.4$ 公分</p><p>B. $約 41.4$ 公分</p><p>C. $約 51.4$ 公分</p><p>D. $約 62.8$ 公分</p>",
+          "content": "<p>計算 $1.44 \\div 0.12 = ?$</p><p>A. $0.12$</p><p>B. $1.2$</p><p>C. $12$</p><p>D. $120$</p>",
           "answer": "C",
-          "explanation": "<p><strong>半圓周長 $=$ 半圓弧 $+$ 直徑</strong>。半圓弧 $= \\pi r \\approx 3.14 \\times 10 = 31.4$ 公分；直徑 $= 2r = 20$ 公分。合計 $31.4 + 20 = 51.4$ 公分。<strong>不要忘記加直徑</strong>。答案 C。</p>"
+          "explanation": "<p>除數 $0.12$ 有 $2$ 位小數，被除數和除數<strong>同時向右移 $2$ 位</strong>：$1.44 \\div 0.12 = 144 \\div 12 = 12$。驗算 $0.12 \\times 12 = 1.44$ ✓。答案 C。</p>"
         },
         {
           "id": "g6a_ch4_1_q9",
           "number": 9,
           "type": "single_choice",
-          "content": "<p>圓心角 $90^\\circ$、半徑 $6$ 公分的扇形面積約多少平方公分？（$\\pi \\approx 3.14$）</p><p>A. $約 9.42$</p><p>B. $約 14.13$</p><p>C. $約 18.84$</p><p>D. $約 28.26$</p>",
-          "answer": "D",
-          "explanation": "<p>$90^\\circ$ 扇形佔整圓的 $\\dfrac{1}{4}$。先算整圓面積 $\\pi r^2 \\approx 3.14 \\times 6 \\times 6 = 113.04$ 平方公分；扇形 $= 113.04 \\div 4 = 28.26$ 平方公分。答案 D。</p>"
+          "content": "<p>$2.4 \\div 0.08 = ?$</p><p>A. $0.3$</p><p>B. $3$</p><p>C. $30$</p><p>D. $300$</p>",
+          "answer": "C",
+          "explanation": "<p>除數 $0.08$ 有 $2$ 位小數，被除數和除數同時向右移 $2$ 位：$2.4 \\to 240$（位數不夠補 $0$）、$0.08 \\to 8$，$240 \\div 8 = 30$。除以小於 $1$ 的數，<strong>商變大</strong>是合理的（$30 > 2.4$）。答案 C。</p>"
         },
         {
           "id": "g6a_ch4_1_q10",
           "number": 10,
           "type": "single_choice",
-          "content": "<p>腳踏車輪直徑 $50$ 公分，車輪滾 $100$ 圈，腳踏車前進約多少公尺？（$\\pi \\approx 3.14$）</p><p>A. $約 15.7$ 公尺</p><p>B. $約 157$ 公尺</p><p>C. $約 314$ 公尺</p><p>D. $約 1570$ 公尺</p>",
+          "content": "<p>$10 \\div 7$ 的商取到小數第 $2$ 位（四捨五入），答案約為多少？</p><p>A. $1.42$</p><p>B. $1.43$</p><p>C. $1.4$</p><p>D. $1.5$</p>",
           "answer": "B",
-          "explanation": "<p>輪子滾一圈前進距離 $=$ 圓周長 $\\approx 3.14 \\times 50 = 157$ 公分。滾 $100$ 圈 $= 157 \\times 100 = 15700$ 公分 $= 157$ 公尺（$100$ 公分 $= 1$ 公尺）。<strong>單位換算</strong>是常考點。答案 B。</p>"
+          "explanation": "<p>「取到小數第 $2$ 位」要<strong>算到第 $3$ 位</strong>再四捨五入。$10 \\div 7 = 1.428\\ldots$，第 $3$ 位是 $8 \\geq 5$，<strong>進位</strong> $\\to 1.43$。答案 B。</p>"
         },
         {
           "id": "g6a_ch4_1_q11",
           "number": 11,
           "type": "single_choice",
-          "content": "<p>甲圓半徑是乙圓半徑的 $3$ 倍，則甲圓面積是乙圓面積的幾倍？</p><p>A. $3$ 倍</p><p>B. $6$ 倍</p><p>C. $9$ 倍</p><p>D. $12$ 倍</p>",
-          "answer": "C",
-          "explanation": "<p>面積比 $=$ 半徑的平方比。半徑變 $3$ 倍，面積變 $3^2 = 9$ 倍。驗證：若乙 $r = 1$，面積 $= \\pi$；甲 $r = 3$，面積 $= 9\\pi$，倍數 $\\dfrac{9\\pi}{\\pi} = 9$ 倍。答案 C。</p>"
+          "content": "<p>$8.7 \\div 0.3$ 用直式計算，商和餘數各是多少？</p><p>A. 商 $29$，餘 $0$</p><p>B. 商 $29$，餘 $0.1$</p><p>C. 商 $28$，餘 $0.3$</p><p>D. 商 $2.9$，餘 $0$</p>",
+          "answer": "A",
+          "explanation": "<p>小數點同時向右移 $1$ 位：$87 \\div 3 = 29$ 整除，餘 $0$。所以 $8.7 \\div 0.3 = 29$，沒有餘數。驗算 $0.3 \\times 29 = 8.7$ ✓。答案 A。</p>"
         },
         {
           "id": "g6a_ch4_1_q12",
           "number": 12,
           "type": "single_choice",
-          "content": "<p>一個正方形邊長 $20$ 公分，內切一個最大的圓，這個圓的面積約多少平方公分？（$\\pi \\approx 3.14$）</p><p>A. $約 78.5$</p><p>B. $約 157$</p><p>C. $約 314$</p><p>D. $約 400$</p>",
-          "answer": "C",
-          "explanation": "<p>正方形<strong>內切圓</strong>的直徑 $=$ 正方形邊長 $= 20$ 公分，所以圓半徑 $r = 10$ 公分。圓面積 $= \\pi r^2 \\approx 3.14 \\times 10 \\times 10 = 314$ 平方公分。答案 C。</p>"
+          "content": "<p>一瓶飲料 $1.5$ 公升，要分裝到 $0.3$ 公升的小杯中，可以裝<strong>幾杯</strong>？</p><p>A. $3$ 杯</p><p>B. $5$ 杯</p><p>C. $10$ 杯</p><p>D. $0.5$ 杯</p>",
+          "answer": "B",
+          "explanation": "<p>「總量 $\\div$ 每杯 $=$ 杯數」：$1.5 \\div 0.3 = 15 \\div 3 = 5$ 杯。直覺檢驗：$0.3 \\times 5 = 1.5$，剛好分完。除以<strong>小於 $1$</strong> 的數時，商會比被除數大（$5 > 1.5$），符合「分成小份會變多份」的常識。答案 B。</p>"
         },
         {
           "id": "g6a_ch4_1_q13",
           "number": 13,
           "type": "single_choice",
-          "content": "<p>環狀面積：大圓半徑 $10$ 公分、小圓半徑 $6$ 公分，環狀（甜甜圈）面積約多少平方公分？（$\\pi \\approx 3.14$）</p><p>A. $約 12.56$</p><p>B. $約 100.48$</p><p>C. $約 200.96$</p><p>D. $約 314$</p>",
-          "answer": "C",
-          "explanation": "<p>環狀面積 $=$ 大圓面積 $-$ 小圓面積 $= \\pi \\times 10^2 - \\pi \\times 6^2 = \\pi(100 - 36) = 64\\pi \\approx 64 \\times 3.14 = 200.96$ 平方公分。<strong>$\\pi$ 提出先做整數相減</strong>較不易算錯。答案 C。</p>"
+          "content": "<p>一條 $7.3$ 公尺長的繩子，每 $0.5$ 公尺剪一段，<strong>最多可以剪成幾段</strong>（剪不滿 $0.5$ 公尺的不算）？</p><p>A. $13$ 段</p><p>B. $14$ 段</p><p>C. $15$ 段</p><p>D. $14.6$ 段</p>",
+          "answer": "B",
+          "explanation": "<p>$7.3 \\div 0.5 = 73 \\div 5 = 14 \\cdots 3$，但餘數小數點要對回原位 $\\to$ 商 $14$、餘 $0.3$ 公尺。「最多幾段」表示<strong>不滿一段的捨去</strong>（無條件捨去），所以是 $14$ 段，剩下 $0.3$ 公尺不夠剪。<strong>段數不可能是小數</strong>，D 答案不合理。答案 B。</p>"
         },
         {
           "id": "g6a_ch4_1_q14",
           "number": 14,
           "type": "single_choice",
-          "content": "<p>一條繩子長 $62.8$ 公分，圍成一個圓，這個圓的半徑約多少公分？（$\\pi \\approx 3.14$）</p><p>A. $約 5$ 公分</p><p>B. $約 10$ 公分</p><p>C. $約 20$ 公分</p><p>D. $約 31.4$ 公分</p>",
+          "content": "<p>$2.4$ 公斤的米賣 $96$ 元，<strong>每公斤</strong>多少元？</p><p>A. $30$ 元</p><p>B. $40$ 元</p><p>C. $230.4$ 元</p><p>D. $48$ 元</p>",
           "answer": "B",
-          "explanation": "<p>繩長 $=$ 圓周長 $= 2\\pi r$。反求 $r = \\dfrac{周長}{2\\pi} = \\dfrac{62.8}{2 \\times 3.14} = \\dfrac{62.8}{6.28} = 10$ 公分。也可先求直徑 $= 62.8 \\div 3.14 = 20$，再除以 $2$ 得半徑 $10$ 公分。答案 B。</p>"
+          "explanation": "<p>「總價 $\\div$ 公斤數 $=$ 單價」：$96 \\div 2.4 = 960 \\div 24 = 40$ 元/公斤。驗算 $2.4 \\times 40 = 96$ 元 ✓。注意題目問「每公斤」，要用<strong>總價除以重量</strong>，不是反過來。答案 B。</p>"
         },
         {
           "id": "g6a_ch4_1_q15",
           "number": 15,
           "type": "single_choice",
-          "content": "<p>一個半圓的直徑為 $20$ 公分，半圓的面積約多少平方公分？（$\\pi \\approx 3.14$）</p><p>A. $約 31.4$</p><p>B. $約 78.5$</p><p>C. $約 157$</p><p>D. $約 314$</p>",
-          "answer": "C",
-          "explanation": "<p>直徑 $20$ 公分 $\\Rightarrow$ 半徑 $r = 10$ 公分。整圓面積 $\\pi r^2 \\approx 3.14 \\times 100 = 314$ 平方公分；半圓 $= 314 \\div 2 = 157$ 平方公分。<strong>半圓面積 $= \\dfrac{1}{2} \\pi r^2$</strong>。答案 C。</p>"
+          "content": "<p>小華 $3$ 天共讀了 $8$ 頁書，平均<strong>一天讀幾頁</strong>（取到小數第 $2$ 位，四捨五入）？</p><p>A. $約 2.66$ 頁</p><p>B. $約 2.67$ 頁</p><p>C. $約 2.6$ 頁</p><p>D. $約 2.7$ 頁</p>",
+          "answer": "B",
+          "explanation": "<p>「總頁數 $\\div$ 天數 $=$ 平均」：$8 \\div 3 = 2.666\\ldots$。要取到小數第 $2$ 位，<strong>多算一位到第 $3$ 位</strong>：第 $3$ 位是 $6 \\geq 5$，進位 $\\to 2.67$。答案 B。</p>"
         }
       ]
     }

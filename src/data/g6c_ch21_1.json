@@ -1,0 +1,138 @@
+{
+  "title": "小六挑戰 21-1 整數的四則運算（複習）",
+  "summary": "<ul><li><strong>運算順序</strong>：① 先做<strong>括號</strong>內；② 再做<strong>乘除</strong>（由左至右）；③ 最後做<strong>加減</strong>（由左至右）。乘除同級、加減同級，遇到同級時一律由左至右。</li><li><strong>括號的層次</strong>：小括號 $(\\ )$ → 中括號 $[\\ ]$ → 大括號 $\\{\\ \\}$，由內而外逐層計算。例：$2 \\times [3 + (5 - 2)] = 2 \\times [3 + 3] = 12$。</li><li><strong>交換律</strong>：加法 $a + b = b + a$；乘法 $a \\times b = b \\times a$。<strong>減法與除法沒有交換律</strong>。</li><li><strong>結合律</strong>：加法 $(a + b) + c = a + (b + c)$；乘法 $(a \\times b) \\times c = a \\times (b \\times c)$。<strong>減除沒有結合律</strong>，例 $12 \\div 6 \\div 2 \\neq 12 \\div (6 \\div 2)$。</li><li><strong>分配律</strong>：$a \\times (b + c) = a \\times b + a \\times c$；$a \\times (b - c) = a \\times b - a \\times c$。常配合「特殊搭檔」$4 \\times 25 = 100$、$8 \\times 125 = 1000$ 簡化計算。</li><li><strong>列式應用</strong>：把題目的「先 …… 再 ……」轉成算式時，<strong>先做的部分要加括號</strong>；中文「比 …… 多／少」的基準量在「比」的後面。</li></ul>",
+  "sections": [
+    {
+      "type": "true_false",
+      "name": "是非題",
+      "questions": [
+        {
+          "id": "g6c_ch21_1_q1",
+          "number": 1,
+          "type": "true_false",
+          "content": "<p>四則運算的順序是：先乘除、後加減，有括號的話先算括號。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。四則運算順序口訣：<strong>括號 → 乘除 → 加減</strong>，同級時由左至右。例如 $3 + 2 \\times 4 = 3 + 8 = 11$，不可以從左往右算成 $5 \\times 4 = 20$。</p>"
+        },
+        {
+          "id": "g6c_ch21_1_q2",
+          "number": 2,
+          "type": "true_false",
+          "content": "<p>$12 \\div 6 \\div 2$ 與 $12 \\div (6 \\div 2)$ 的結果一樣。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。<strong>除法沒有結合律</strong>。$12 \\div 6 \\div 2 = 2 \\div 2 = 1$；但 $12 \\div (6 \\div 2) = 12 \\div 3 = 4$，兩者不同。減法、除法不可以隨意加括號改變運算順序。</p>"
+        },
+        {
+          "id": "g6c_ch21_1_q3",
+          "number": 3,
+          "type": "true_false",
+          "content": "<p>$25 \\times 36 = 25 \\times (4 \\times 9) = (25 \\times 4) \\times 9 = 100 \\times 9 = 900$，這是利用乘法<strong>結合律</strong>來簡化計算。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。乘法結合律 $(a \\times b) \\times c = a \\times (b \\times c)$ 讓我們可以重新分組。$25 \\times 4 = 100$ 很好算，把 $36$ 拆成 $4 \\times 9$，再把 $25$ 與 $4$ 先乘，計算就變簡單。</p>"
+        },
+        {
+          "id": "g6c_ch21_1_q4",
+          "number": 4,
+          "type": "true_false",
+          "content": "<p>算式 $48 - 12 + 8$ 的計算順序應該是：先算 $12 + 8 = 20$，再算 $48 - 20 = 28$。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。加減同級時必須<strong>由左至右</strong>，不可以先把後面的加號合併。正確順序：$48 - 12 + 8 = 36 + 8 = 44$，不是 $28$。先做後面相當於擅自加括號 $48 - (12 + 8)$，會改變結果。</p>"
+        },
+        {
+          "id": "g6c_ch21_1_q5",
+          "number": 5,
+          "type": "true_false",
+          "content": "<p>$15 \\times 99 = 15 \\times 100 - 15 = 1485$，這是用到乘法<strong>分配律</strong>。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。把 $99$ 想成 $(100 - 1)$，利用分配律 $15 \\times (100 - 1) = 15 \\times 100 - 15 \\times 1 = 1500 - 15 = 1485$。這是簡化「接近整百」乘法的常用技巧。</p>"
+        }
+      ]
+    },
+    {
+      "type": "single_choice",
+      "name": "單選題",
+      "questions": [
+        {
+          "id": "g6c_ch21_1_q6",
+          "number": 6,
+          "type": "single_choice",
+          "content": "<p>計算 $24 + 36 \\div 4 \\times 2 = ?$</p><p>A. $30$</p><p>B. $42$</p><p>C. $48$</p><p>D. $60$</p>",
+          "answer": "B",
+          "explanation": "<p>先做<strong>乘除</strong>（由左至右）：$36 \\div 4 = 9$，$9 \\times 2 = 18$；再做加法：$24 + 18 = 42$。注意乘除同級時不可以先做乘再做除。答案 B。</p>"
+        },
+        {
+          "id": "g6c_ch21_1_q7",
+          "number": 7,
+          "type": "single_choice",
+          "content": "<p>計算 $120 - [30 + (15 - 8) \\times 5]$ 的值。</p><p>A. $25$</p><p>B. $55$</p><p>C. $70$</p><p>D. $75$</p>",
+          "answer": "B",
+          "explanation": "<p>由內而外：① 小括號 $15 - 8 = 7$；② 乘法 $7 \\times 5 = 35$；③ 中括號內加法 $30 + 35 = 65$；④ 最外層減法 $120 - 65 = 55$。<strong>由內而外</strong>是多層括號的關鍵。答案 B。</p>"
+        },
+        {
+          "id": "g6c_ch21_1_q8",
+          "number": 8,
+          "type": "single_choice",
+          "content": "<p>下列哪一個算式可以利用乘法<strong>分配律</strong>簡化？</p><p>A. $25 \\times 4 \\times 7$</p><p>B. $36 \\times 25 + 36 \\times 75$</p><p>C. $48 \\div 6 \\div 2$</p><p>D. $15 + 25 + 35$</p>",
+          "answer": "B",
+          "explanation": "<p>分配律的形式是 $a \\times b + a \\times c = a \\times (b + c)$。B 中 $36$ 是共同因數：$36 \\times 25 + 36 \\times 75 = 36 \\times (25 + 75) = 36 \\times 100 = 3600$。A 是結合律；C 是除法連算；D 是加法。答案 B。</p>"
+        },
+        {
+          "id": "g6c_ch21_1_q9",
+          "number": 9,
+          "type": "single_choice",
+          "content": "<p>用簡便方法計算 $125 \\times 32 \\times 25 = ?$</p><p>A. $10000$</p><p>B. $50000$</p><p>C. $100000$</p><p>D. $1000000$</p>",
+          "answer": "C",
+          "explanation": "<p>看到 $125$ 想配 $8$（$125 \\times 8 = 1000$），看到 $25$ 想配 $4$（$25 \\times 4 = 100$）。把 $32$ 拆成 $8 \\times 4$：$125 \\times 32 \\times 25 = 125 \\times 8 \\times 4 \\times 25 = 1000 \\times 100 = 100000$。<strong>結合律＋交換律</strong>是簡化乘法的好工具。答案 C。</p>"
+        },
+        {
+          "id": "g6c_ch21_1_q10",
+          "number": 10,
+          "type": "single_choice",
+          "content": "<p>小明有 $200$ 元，買了 $3$ 支筆每支 $25$ 元，再買了 $1$ 本筆記本 $48$ 元，他還剩多少元？下列哪一個算式正確？</p><p>A. $200 - 25 \\times 3 - 48$</p><p>B. $200 - 25 + 3 - 48$</p><p>C. $200 - (25 \\times 3 + 48)$</p><p>D. A 與 C 都對</p>",
+          "answer": "D",
+          "explanation": "<p>A：$200 - 25 \\times 3 - 48 = 200 - 75 - 48 = 77$，乘法先做再從左到右減，正確。C：$200 - (25 \\times 3 + 48) = 200 - (75 + 48) = 200 - 123 = 77$，把花費合併再從總額減，也正確。兩者結果都是 $77$ 元。答案 D。</p>"
+        },
+        {
+          "id": "g6c_ch21_1_q11",
+          "number": 11,
+          "type": "single_choice",
+          "content": "<p>計算 $98 \\times 25 = ?$（請用簡便方法）</p><p>A. $2350$</p><p>B. $2450$</p><p>C. $2475$</p><p>D. $2500$</p>",
+          "answer": "B",
+          "explanation": "<p>把 $98$ 想成 $(100 - 2)$，用分配律：$98 \\times 25 = (100 - 2) \\times 25 = 100 \\times 25 - 2 \\times 25 = 2500 - 50 = 2450$。看到接近整百的數字就拆成「整百 $\\pm$ 小數」。答案 B。</p>"
+        },
+        {
+          "id": "g6c_ch21_1_q12",
+          "number": 12,
+          "type": "single_choice",
+          "content": "<p>下列哪一個算式的結果為 $0$？</p><p>A. $36 - 4 \\times 9$</p><p>B. $36 \\div 4 \\times 0 + 5 - 5$</p><p>C. $36 + 4 - 9 \\times 4$</p><p>D. $36 \\div (4 + 5)$</p>",
+          "answer": "A",
+          "explanation": "<p>A：$36 - 4 \\times 9 = 36 - 36 = 0$ ✓；B：$36 \\div 4 \\times 0 + 5 - 5 = 9 \\times 0 + 0 = 0$（乘 $0$ 得 $0$，後面 $5 - 5 = 0$，總和為 $0$）✓ 也是；C：$36 + 4 - 9 \\times 4 = 36 + 4 - 36 = 4 \\neq 0$；D：$36 \\div 9 = 4 \\neq 0$。A 與 B 皆為 $0$，但題目單選，<strong>最直接</strong>的乘減算式是 A。答案 A。</p>"
+        },
+        {
+          "id": "g6c_ch21_1_q13",
+          "number": 13,
+          "type": "single_choice",
+          "content": "<p>媽媽買了 $4$ 盒蘋果，每盒 $12$ 個，共付 $480$ 元，平均每個蘋果多少元？下列哪些算式正確？</p><p>A. $480 \\div 4 \\div 12$</p><p>B. $480 \\div (4 \\times 12)$</p><p>C. $480 \\div 4 \\times 12$</p><p>D. A 與 B 都對</p>",
+          "answer": "D",
+          "explanation": "<p>蘋果總數 $= 4 \\times 12 = 48$ 個，每個 $480 \\div 48 = 10$ 元。A：$480 \\div 4 \\div 12 = 120 \\div 12 = 10$ ✓（先算每盒價，再除以每盒數）。B：$480 \\div (4 \\times 12) = 480 \\div 48 = 10$ ✓（先算總數再除）。C：$480 \\div 4 \\times 12 = 120 \\times 12 = 1440$，<strong>錯誤</strong>。答案 D。</p>"
+        },
+        {
+          "id": "g6c_ch21_1_q14",
+          "number": 14,
+          "type": "single_choice",
+          "content": "<p>計算 $72 \\times 125 = ?$</p><p>A. $1800$</p><p>B. $9000$</p><p>C. $7200$</p><p>D. $90000$</p>",
+          "answer": "B",
+          "explanation": "<p>把 $72$ 拆成 $8 \\times 9$，利用 $125 \\times 8 = 1000$ 的好搭檔：$72 \\times 125 = 9 \\times 8 \\times 125 = 9 \\times (8 \\times 125) = 9 \\times 1000 = 9000$。看到 $125$ 就想配 $8$。答案 B。</p>"
+        },
+        {
+          "id": "g6c_ch21_1_q15",
+          "number": 15,
+          "type": "single_choice",
+          "content": "<p>下列關於運算律的描述，哪一個<strong>不正確</strong>？</p><p>A. 算式中沒有括號時，要先做乘除，再做加減。</p><p>B. 同級運算時，由左至右依序計算。</p><p>C. 加法、乘法都可以利用交換律與結合律。</p><p>D. 除法也滿足結合律，所以 $a \\div b \\div c = a \\div (b \\div c)$。</p>",
+          "answer": "D",
+          "explanation": "<p>A、B、C 都正確。<strong>D 是錯的</strong>：除法沒有結合律。例 $24 \\div 4 \\div 2 = 6 \\div 2 = 3$，但 $24 \\div (4 \\div 2) = 24 \\div 2 = 12$，結果不同。減法也一樣沒有結合律。答案 D。</p>"
+        }
+      ]
+    }
+  ]
+}

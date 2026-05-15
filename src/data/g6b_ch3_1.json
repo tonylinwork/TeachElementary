@@ -1,6 +1,6 @@
 {
-  "title": "小六下 3-1 速率",
-  "summary": "<ul><li><strong>速率的意義</strong>：每單位時間移動的距離，用來描述「快慢」。例如 $60$ 公里/小時表示「每 $1$ 小時走 $60$ 公里」。常用單位有 $\\text{公里/小時}$（$\\text{km/hr}$）、$\\text{公尺/秒}$（$\\text{m/s}$）、$\\text{公尺/分}$ 等。</li><li><strong>三量關係</strong>：路程 $=$ 速率 $\\times$ 時間；速率 $=$ 路程 $\\div$ 時間；時間 $=$ 路程 $\\div$ 速率。記法：列出已知兩量，求第三量直接代公式。</li><li><strong>平均速率</strong>：總路程 $\\div$ 總時間（<strong>不是</strong>兩段速率的平均）。例：去 $60\\text{ km/hr}$、回 $40\\text{ km/hr}$，要用總路程除總時間算，不能直接寫成 $50\\text{ km/hr}$。</li><li><strong>單位換算</strong>：$1$ 小時 $= 60$ 分 $= 3600$ 秒；$1$ 公里 $= 1000$ 公尺。$60\\text{ km/hr} = \\dfrac{60000\\text{ m}}{3600\\text{ s}} = \\dfrac{50}{3}\\text{ m/s} \\approx 16.67\\text{ m/s}$。題目單位不一致時，<strong>先換算成相同單位再計算</strong>。</li><li><strong>相遇問題</strong>：兩人從兩地相向而行，速率分別 $v_1$、$v_2$，相距 $D$，相遇時間 $= \\dfrac{D}{v_1 + v_2}$（兩速率相加因為共同消耗距離）。</li><li><strong>追及問題</strong>：兩人同向而行，慢的先出發或在前，快的在後追，追上時間 $= \\dfrac{\\text{距離差}}{\\text{速率差}}$（用速率差消耗距離差）。例：甲 $5\\text{ km/hr}$、乙 $3\\text{ km/hr}$，乙先走 $6\\text{ km}$，甲追上時間 $= \\dfrac{6}{5-3} = 3$ 小時。</li></ul>",
+  "title": "小六下 3-1 柱體體積與表面積",
+  "summary": "<ul><li><strong>柱體的定義</strong>：上下兩個底面完全相同、側面與底面垂直的立體。常見有長方體、正方體、三角柱、圓柱。$N$ 角柱有 $2N$ 個頂點、$3N$ 條邊、$N+2$ 個面。</li><li><strong>圓錐的構造</strong>：一個圓形底面 + 一個頂點。<strong>頂點到底面圓心的垂直距離 = 高</strong>；頂點到底面圓周上任一點的線段叫<strong>母線</strong>。三者形成直角三角形（母線 > 高、母線 > 半徑）。</li><li><strong>側面展開圖</strong>：圓柱側面展開後是長方形（長 = 底面圓周長 = $2\\pi r$，寬 = 圓柱的高 $h$）；圓錐側面展開後是<strong>扇形</strong>（半徑 = 母線長，弧長 = 底面圓周長）。</li><li><strong>體積公式</strong>：所有直柱體積 = 底面積 × 高。長方體 = 長 × 寬 × 高；正方體 = 邊長$^3$；三角柱 = $\\dfrac{1}{2}$ × 底 × 高 × 柱高；圓柱 = $\\pi r^2 h$。<strong>圓錐體積 = $\\dfrac{1}{3}\\pi r^2 h$</strong>（同底同高圓柱的 $\\dfrac{1}{3}$，記憶「三錐裝一柱」）。</li><li><strong>表面積</strong>：柱體表面積 = 底面積 × 2 + 側面積。<strong>側面積 = 底面周長 × 高</strong>。正方體 = $6 \\times$ 邊長$^2$；長方體 = $2($長×寬+長×高+寬×高$)$；圓柱表面積 = $2\\pi r^2 + 2\\pi rh$。</li><li><strong>單位換算與排水法</strong>：$1$ 立方公尺 = $1000000$ 立方公分；$1$ 公升 = $1000$ 立方公分 = $1000$ 毫升。<strong>排水法</strong>：物體體積 = 水位上升的體積 = 容器底面積 × 水面高度差。記住：體積用立方單位、表面積用平方單位，<strong>絕對不可混用</strong>。</li></ul>",
   "sections": [
     {
       "type": "true_false",
@@ -10,81 +10,161 @@
           "id": "g6b_ch3_1_q1",
           "number": 1,
           "type": "true_false",
-          "content": "<p>「速率」表示每單位時間走的路程，所以速率愈大表示愈快。</p>",
+          "content": "<p>圓柱的兩個底面是大小相同的圓形。</p>",
           "answer": "○",
-          "explanation": "<p>正確。速率 $=$ 路程 $\\div$ 時間，意思是「每 $1$ 單位時間走多少路程」。例如 $A$ 每小時走 $80$ 公里、$B$ 每小時走 $50$ 公里，$A$ 速率比較大，自然比較快。</p>"
+          "explanation": "<p>正確。圓柱由<strong>兩個全等（大小完全一樣）的圓形底面</strong>與一個側面構成。若兩底不一樣大就不是圓柱，而是圓臺。</p>"
         },
         {
           "id": "g6b_ch3_1_q2",
           "number": 2,
           "type": "true_false",
-          "content": "<p>$1$ 公里 $/$ 小時等於 $1000$ 公尺 $/$ 秒。</p>",
+          "content": "<p>圓柱側面展開後是一個長方形，這個長方形的長就是圓柱底面圓的<strong>直徑</strong>。</p>",
           "answer": "╳",
-          "explanation": "<p>錯誤。$1$ 公里 $= 1000$ 公尺，$1$ 小時 $= 3600$ 秒，所以 $1\\text{ km/hr} = \\dfrac{1000\\text{ m}}{3600\\text{ s}} = \\dfrac{5}{18}\\text{ m/s} \\approx 0.278\\text{ m/s}$，<strong>遠小於</strong> $1000\\text{ m/s}$。換算時要同時處理「上下」單位。</p>"
+          "explanation": "<p>錯誤。圓柱側面展開圖的<strong>長等於底面圓的「圓周長」</strong>，也就是 $2\\pi r$，不是直徑 $2r$。寬才是圓柱的高。</p>"
         },
         {
           "id": "g6b_ch3_1_q3",
           "number": 3,
           "type": "true_false",
-          "content": "<p>小明去學校速率 $4\\text{ km/hr}$、回家速率 $6\\text{ km/hr}$，他來回的平均速率是 $5\\text{ km/hr}$。</p>",
-          "answer": "╳",
-          "explanation": "<p>錯誤。平均速率 $=$ 總路程 $\\div$ 總時間，<strong>不能</strong>直接把兩個速率平均。設單程 $12\\text{ km}$，去時間 $12 \\div 4 = 3\\text{ hr}$，回時間 $12 \\div 6 = 2\\text{ hr}$，總路程 $24\\text{ km}$、總時間 $5\\text{ hr}$，平均速率 $= 24 \\div 5 = \\mathbf{4.8\\text{ km/hr}}$（不是 $5$）。</p>"
+          "content": "<p>底面積與高都相同時，圓錐的體積是圓柱體積的 $\\dfrac{1}{3}$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。這是圓柱與圓錐最重要的關係：<strong>圓錐體積 $= \\dfrac{1}{3} \\times$ 底面積 $\\times$ 高</strong>，而圓柱體積 $=$ 底面積 $\\times$ 高，所以圓錐恰為圓柱的 $\\dfrac{1}{3}$。可以記成「三個錐剛好倒滿一個柱」。</p>"
         },
         {
           "id": "g6b_ch3_1_q4",
           "number": 4,
           "type": "true_false",
-          "content": "<p>甲、乙兩人從相距 $30\\text{ km}$ 的兩地相向而行，甲 $7\\text{ km/hr}$、乙 $8\\text{ km/hr}$，他們經過 $2$ 小時相遇。</p>",
+          "content": "<p>圓錐有一個頂點，圓柱沒有頂點。</p>",
           "answer": "○",
-          "explanation": "<p>正確。相向而行兩人共同消耗距離，<strong>合速率 $= 7 + 8 = 15\\text{ km/hr}$</strong>，相遇時間 $= 30 \\div 15 = \\mathbf{2}$ 小時。檢驗：甲走 $7 \\times 2 = 14$、乙走 $8 \\times 2 = 16$，合計剛好 $30\\text{ km}$ ✓。</p>"
+          "explanation": "<p>正確。<strong>圓錐有一個尖尖的頂點</strong>，側面從這個頂點延伸到底面圓周；圓柱兩端都是平面圓形，<strong>沒有頂點</strong>。</p>"
         },
         {
           "id": "g6b_ch3_1_q5",
           "number": 5,
           "type": "true_false",
-          "content": "<p>$72\\text{ km/hr}$ 換算成 $\\text{m/s}$ 是 $20\\text{ m/s}$。</p>",
+          "content": "<p>圓錐展開後，側面是一個三角形。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。圓錐的側面是「<strong>曲面</strong>」展開後變成<strong>扇形</strong>（不是三角形）。扇形的半徑等於母線長，弧長等於底面圓周長。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q6",
+          "number": 6,
+          "type": "true_false",
+          "content": "<p>圓柱有兩個圓形底面，圓錐只有一個圓形底面。</p>",
           "answer": "○",
-          "explanation": "<p>正確。$72\\text{ km/hr} = \\dfrac{72 \\times 1000\\text{ m}}{3600\\text{ s}} = \\dfrac{72000}{3600} = \\mathbf{20}\\text{ m/s}$。快速口訣：<strong>km/hr 換 m/s 時除以 $3.6$</strong>，$72 \\div 3.6 = 20$ ✓。</p>"
+          "explanation": "<p>正確。圓柱上下各一個圓形底面；圓錐只有一個圓形底面和一個頂點。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q7",
+          "number": 7,
+          "type": "true_false",
+          "content": "<p>圓錐的高是頂點到底面圓周上任一點的距離。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。圓錐的高是頂點到底面圓心的垂直距離；頂點到底面圓周上任一點的線段叫母線。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q8",
+          "number": 8,
+          "type": "true_false",
+          "content": "<p>圓柱側面展開後的長方形，寬等於圓柱的高。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。圓柱側面展開圖的長是底面圓周長，寬是圓柱的高。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q9",
+          "number": 9,
+          "type": "true_false",
+          "content": "<p>同底同高的圓柱體積是圓錐體積的 $3$ 倍。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。圓錐體積是同底同高圓柱的 $\\dfrac{1}{3}$，所以圓柱是圓錐的 $3$ 倍。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q10",
+          "number": 10,
+          "type": "true_false",
+          "content": "<p>圓錐展開圖中的扇形弧長等於圓錐底面圓的半徑。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。扇形弧長等於底面圓的圓周長，不是半徑。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q11",
+          "number": 11,
+          "type": "true_false",
+          "content": "<p>所有直柱體的體積都可以用「底面積 $\\times$ 高」來計算。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。不論底面是長方形、三角形、梯形還是圓形，只要是<strong>直柱體</strong>（側面與底面垂直），體積公式都是「底面積 $\\times$ 高」。例如三角柱：先算三角形底面積，再乘以柱的高即可。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q12",
+          "number": 12,
+          "type": "true_false",
+          "content": "<p>$1$ 立方公尺等於 $10000$ 立方公分。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。$1$ 公尺 $= 100$ 公分，所以 $1$ 立方公尺 $= 100 \\times 100 \\times 100 = \\mathbf{1000000}$ 立方公分（一百萬，不是一萬）。<strong>$10000$ 平方公分</strong>才等於 $1$ 平方公尺，要小心區別平方和立方。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q13",
+          "number": 13,
+          "type": "true_false",
+          "content": "<p>把一個正方體的邊長變成原來的 $2$ 倍，新正方體的體積也會變成原來的 $2$ 倍。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。正方體體積 $=$ 邊長 $\\times$ 邊長 $\\times$ 邊長，邊長變 $2$ 倍 → 體積變 $\\mathbf{2 \\times 2 \\times 2 = 8}$ 倍。例：邊長 $3$ 體積 $27$；邊長 $6$ 體積 $216 = 27 \\times 8$。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q14",
+          "number": 14,
+          "type": "true_false",
+          "content": "<p>圓柱的側面展開後是一個長方形，這個長方形的長等於圓柱底面的周長。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。想像把圓柱的側面沿一條高剪開攤平，會得到一個<strong>長方形</strong>：長 $=$ 底面圓周長 $= 2 \\times$ 半徑 $\\times \\pi$，寬 $=$ 柱高。所以側面積 $=$ 底面周長 $\\times$ 高，這也是所有柱體共通的規則。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q15",
+          "number": 15,
+          "type": "true_false",
+          "content": "<p>體積的單位是立方公分（$\\text{cm}^3$），表面積的單位是平方公分（$\\text{cm}^2$）。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。<strong>體積是三維</strong>（長 $\\times$ 寬 $\\times$ 高），單位用立方（$\\text{cm}^3$、$\\text{m}^3$）；<strong>表面積是二維</strong>（每個面的面積總和），單位用平方（$\\text{cm}^2$、$\\text{m}^2$）。考試時單位寫錯會被扣分，要看清楚題目問什麼。</p>"
         },
         {
           "id": "g6b_ch3_1_q16",
           "number": 16,
           "type": "true_false",
-          "content": "<p>路程可以用速率乘以時間求得。</p>",
+          "content": "<p>柱體的側面積可以用「底面周長 $\\times$ 高」計算。</p>",
           "answer": "○",
-          "explanation": "<p>正確。三量關係為：路程 $=$ 速率 $\\times$ 時間。</p>"
+          "explanation": "<p>正確。直柱體側面展開後可看成長方形，長是底面周長，寬是柱高。</p>"
         },
         {
           "id": "g6b_ch3_1_q17",
           "number": 17,
           "type": "true_false",
-          "content": "<p>平均速率一定等於兩段速率相加後除以 $2$。</p>",
+          "content": "<p>長方體體積的單位應寫成平方公分。</p>",
           "answer": "╳",
-          "explanation": "<p>錯誤。平均速率應用總路程除以總時間，不能直接平均兩段速率。</p>"
+          "explanation": "<p>錯誤。體積是立方單位，應寫成 $\\text{cm}^3$；平方公分是面積單位。</p>"
         },
         {
           "id": "g6b_ch3_1_q18",
           "number": 18,
           "type": "true_false",
-          "content": "<p>$1$ 小時等於 $3600$ 秒。</p>",
+          "content": "<p>正方體表面積是 $6\\times$ 一個面的面積。</p>",
           "answer": "○",
-          "explanation": "<p>正確。$1$ 小時 $=60$ 分，$1$ 分 $=60$ 秒，所以 $1$ 小時 $=3600$ 秒。</p>"
+          "explanation": "<p>正確。正方體有 $6$ 個全等正方形面，所以表面積是單面面積的 $6$ 倍。</p>"
         },
         {
           "id": "g6b_ch3_1_q19",
           "number": 19,
           "type": "true_false",
-          "content": "<p>相遇問題中，兩人相向而行時要把速率相加。</p>",
+          "content": "<p>$1$ 公升等於 $1000$ 立方公分。</p>",
           "answer": "○",
-          "explanation": "<p>正確。相向而行時兩人共同縮短距離，所以用合速率。</p>"
+          "explanation": "<p>正確。容量與體積常用換算：$1$ 公升 $=1000$ 毫升 $=1000\\text{ cm}^3$。</p>"
         },
         {
           "id": "g6b_ch3_1_q20",
           "number": 20,
           "type": "true_false",
-          "content": "<p>追及問題中，快者追慢者時要用速率和來消耗距離差。</p>",
+          "content": "<p>底面積相同的兩個柱體，體積一定相同。</p>",
           "answer": "╳",
-          "explanation": "<p>錯誤。同向追及時要用速率差，因為只有快者比慢者多出的部分會縮短距離差。</p>"
+          "explanation": "<p>錯誤。柱體體積 $=$ 底面積 $\\times$ 高；底面積相同但高不同，體積也會不同。</p>"
         }
       ]
     },
@@ -93,164 +173,324 @@
       "name": "單選題",
       "questions": [
         {
-          "id": "g6b_ch3_1_q6",
-          "number": 6,
-          "type": "single_choice",
-          "content": "<p>一輛汽車以 $80\\text{ km/hr}$ 的速率行駛了 $3$ 小時，共走了多少公里？</p><p>A. $83\\text{ km}$</p><p>B. $240\\text{ km}$</p><p>C. $77\\text{ km}$</p><p>D. $26.7\\text{ km}$</p>",
-          "answer": "B",
-          "explanation": "<p>路程 $=$ 速率 $\\times$ 時間 $= 80 \\times 3 = \\mathbf{240}\\text{ km}$。A 把速率和時間相加（錯）；D 是把速率除以時間（錯）。答案 B。</p>"
-        },
-        {
-          "id": "g6b_ch3_1_q7",
-          "number": 7,
-          "type": "single_choice",
-          "content": "<p>小芳騎腳踏車 $2$ 小時走了 $24$ 公里，她的平均速率是多少？</p><p>A. $48\\text{ km/hr}$</p><p>B. $26\\text{ km/hr}$</p><p>C. $12\\text{ km/hr}$</p><p>D. $22\\text{ km/hr}$</p>",
-          "answer": "C",
-          "explanation": "<p>速率 $=$ 路程 $\\div$ 時間 $= 24 \\div 2 = \\mathbf{12}\\text{ km/hr}$。A 把兩數相乘（錯）；B 是相加（錯）。答案 C。</p>"
-        },
-        {
-          "id": "g6b_ch3_1_q8",
-          "number": 8,
-          "type": "single_choice",
-          "content": "<p>家裡到學校 $1500$ 公尺，小明每分鐘走 $75$ 公尺，要多久才能走到？</p><p>A. $15$ 分鐘</p><p>B. $20$ 分鐘</p><p>C. $25$ 分鐘</p><p>D. $30$ 分鐘</p>",
-          "answer": "B",
-          "explanation": "<p>時間 $=$ 路程 $\\div$ 速率 $= 1500 \\div 75 = \\mathbf{20}$ 分鐘。檢驗：每分鐘 $75\\text{ m}$，$20$ 分鐘正好 $1500\\text{ m}$ ✓。答案 B。</p>"
-        },
-        {
-          "id": "g6b_ch3_1_q9",
-          "number": 9,
-          "type": "single_choice",
-          "content": "<p>一輛車以 $54\\text{ km/hr}$ 的速率行駛，相當於每秒走多少公尺？</p><p>A. $9\\text{ m/s}$</p><p>B. $15\\text{ m/s}$</p><p>C. $54\\text{ m/s}$</p><p>D. $90\\text{ m/s}$</p>",
-          "answer": "B",
-          "explanation": "<p>$54\\text{ km/hr} = \\dfrac{54 \\times 1000}{3600} = \\dfrac{54000}{3600} = \\mathbf{15}\\text{ m/s}$。或用口訣 $54 \\div 3.6 = 15$。答案 B。</p>"
-        },
-        {
-          "id": "g6b_ch3_1_q10",
-          "number": 10,
-          "type": "single_choice",
-          "content": "<p>甲、乙兩地相距 $36\\text{ km}$，小華從甲走到乙花了 $4$ 小時，回程速率改為去程的 $2$ 倍，回程花了多少小時？</p><p>A. $1$ 小時</p><p>B. $2$ 小時</p><p>C. $3$ 小時</p><p>D. $4$ 小時</p>",
-          "answer": "B",
-          "explanation": "<p>去程速率 $= 36 \\div 4 = 9\\text{ km/hr}$；回程速率 $= 9 \\times 2 = 18\\text{ km/hr}$；回程時間 $= 36 \\div 18 = \\mathbf{2}$ 小時。<strong>速率變 $2$ 倍 → 時間變 $\\frac{1}{2}$ 倍</strong>，這是反比關係。答案 B。</p>"
-        },
-        {
-          "id": "g6b_ch3_1_q11",
-          "number": 11,
-          "type": "single_choice",
-          "content": "<p>甲、乙兩人從相距 $48\\text{ km}$ 的兩地同時相向而行，甲 $6\\text{ km/hr}$、乙 $10\\text{ km/hr}$，幾小時後相遇？</p><p>A. $2$ 小時</p><p>B. $3$ 小時</p><p>C. $4$ 小時</p><p>D. $4.8$ 小時</p>",
-          "answer": "B",
-          "explanation": "<p>相向而行兩速率相加：<strong>合速率 $= 6 + 10 = 16\\text{ km/hr}$</strong>，相遇時間 $= 48 \\div 16 = \\mathbf{3}$ 小時。檢驗：甲走 $18$、乙走 $30$，合計 $48\\text{ km}$ ✓。答案 B。</p>"
-        },
-        {
-          "id": "g6b_ch3_1_q12",
-          "number": 12,
-          "type": "single_choice",
-          "content": "<p>哥哥以 $5\\text{ km/hr}$ 的速率走，弟弟比哥哥晚 $2$ 小時出發，以 $7\\text{ km/hr}$ 的速率追，幾小時後弟弟追上哥哥？</p><p>A. $2$ 小時</p><p>B. $3$ 小時</p><p>C. $5$ 小時</p><p>D. $10$ 小時</p>",
-          "answer": "C",
-          "explanation": "<p>弟弟出發時哥哥已走 $5 \\times 2 = 10\\text{ km}$（距離差）；弟弟每小時比哥哥多走 $7 - 5 = 2\\text{ km}$（速率差）。<strong>追及時間 $=$ 距離差 $\\div$ 速率差 $= 10 \\div 2 = \\mathbf{5}$ 小時</strong>。答案 C。</p>"
-        },
-        {
-          "id": "g6b_ch3_1_q13",
-          "number": 13,
-          "type": "single_choice",
-          "content": "<p>一段路程小明先用 $50\\text{ km/hr}$ 走了 $2$ 小時，再用 $80\\text{ km/hr}$ 走了 $3$ 小時，整段路的平均速率是多少？</p><p>A. $65\\text{ km/hr}$</p><p>B. $68\\text{ km/hr}$</p><p>C. $70\\text{ km/hr}$</p><p>D. $130\\text{ km/hr}$</p>",
-          "answer": "B",
-          "explanation": "<p>總路程 $= 50 \\times 2 + 80 \\times 3 = 100 + 240 = 340\\text{ km}$；總時間 $= 2 + 3 = 5\\text{ hr}$。<strong>平均速率 $=$ 總路程 $\\div$ 總時間 $= 340 \\div 5 = 68\\text{ km/hr}$</strong>（不是 $\\dfrac{50+80}{2}=65$，因為兩段時間不同要加權）。答案 B。</p>"
-        },
-        {
-          "id": "g6b_ch3_1_q14",
-          "number": 14,
-          "type": "single_choice",
-          "content": "<p>一隻獵豹每秒跑 $25$ 公尺，換算成「公里 $/$ 小時」是多少？</p><p>A. $25\\text{ km/hr}$</p><p>B. $60\\text{ km/hr}$</p><p>C. $90\\text{ km/hr}$</p><p>D. $250\\text{ km/hr}$</p>",
-          "answer": "C",
-          "explanation": "<p>$25\\text{ m/s} = 25 \\times 3600 = 90000\\text{ m/hr} = 90000 \\div 1000 = \\mathbf{90}\\text{ km/hr}$。或用口訣：<strong>m/s 換 km/hr 時乘以 $3.6$</strong>，$25 \\times 3.6 = 90$。答案 C。</p>"
-        },
-        {
-          "id": "g6b_ch3_1_q15",
-          "number": 15,
-          "type": "single_choice",
-          "content": "<p>火車甲以 $90\\text{ km/hr}$ 行駛，火車乙以 $60\\text{ km/hr}$ 行駛，兩列火車同時從同一地點往同方向開出，$2$ 小時後甲比乙多走多少公里？</p><p>A. $30\\text{ km}$</p><p>B. $60\\text{ km}$</p><p>C. $150\\text{ km}$</p><p>D. $300\\text{ km}$</p>",
-          "answer": "B",
-          "explanation": "<p>方法一（直接相減）：甲走 $90 \\times 2 = 180$、乙走 $60 \\times 2 = 120$，差 $180 - 120 = \\mathbf{60}\\text{ km}$。方法二（速率差）：每小時甲比乙多走 $90 - 60 = 30\\text{ km}$，$2$ 小時多走 $30 \\times 2 = 60\\text{ km}$。答案 B。</p>"
-        },
-        {
           "id": "g6b_ch3_1_q21",
           "number": 21,
           "type": "single_choice",
-          "content": "<p>每分鐘走 $80$ 公尺，走 $15$ 分鐘，共走多少公尺？</p><p>A. $95$</p><p>B. $1200$</p><p>C. $800$</p><p>D. $1500$</p>",
-          "answer": "B",
-          "explanation": "<p>路程 $=80\\times15=1200$ 公尺。答案 B。</p>"
+          "content": "<p>下列哪一項<strong>不是</strong>圓柱的特徵？</p><p>A. 有兩個底面</p><p>B. 兩底面是大小相同的圓形</p><p>C. 側面展開後是長方形</p><p>D. 有一個頂點</p>",
+          "answer": "D",
+          "explanation": "<p>圓柱兩端是<strong>兩個全等的圓形</strong>，側面展開為長方形，<strong>沒有頂點</strong>。有頂點的是圓錐，故 D 不是圓柱的特徵。答案 D。</p>"
         },
         {
           "id": "g6b_ch3_1_q22",
           "number": 22,
           "type": "single_choice",
-          "content": "<p>$180$ 公里走了 $3$ 小時，平均速率是多少？</p><p>A. $30$ km/hr</p><p>B. $60$ km/hr</p><p>C. $90$ km/hr</p><p>D. $540$ km/hr</p>",
-          "answer": "B",
-          "explanation": "<p>速率 $=180\\div3=60$ km/hr。答案 B。</p>"
+          "content": "<p>圓錐的「母線」是指哪一條線段？</p><p>A. 底面圓的半徑</p><p>B. 從頂點到底面圓心的垂直線</p><p>C. 從頂點到底面圓周上任一點的線段</p><p>D. 底面圓的直徑</p>",
+          "answer": "C",
+          "explanation": "<p><strong>母線</strong>是圓錐側面上由<strong>頂點延伸到底面圓周</strong>的線段，是側面展開後扇形的半徑。B 是「高」，A、D 都在底面，不是母線。答案 C。</p>"
         },
         {
           "id": "g6b_ch3_1_q23",
           "number": 23,
           "type": "single_choice",
-          "content": "<p>速率 $45$ km/hr，走 $2$ 小時，路程是多少？</p><p>A. $22.5$ km</p><p>B. $47$ km</p><p>C. $90$ km</p><p>D. $135$ km</p>",
-          "answer": "C",
-          "explanation": "<p>路程 $=45\\times2=90$ km。答案 C。</p>"
+          "content": "<p>一個圓柱底面半徑 $5$ 公分、高 $10$ 公分，側面展開後的長方形，長是多少公分？（$\\pi \\approx 3.14$）</p><p>A. $31.4$</p><p>B. $15.7$</p><p>C. $10$</p><p>D. $50$</p>",
+          "answer": "A",
+          "explanation": "<p>側面展開後長方形的<strong>長 $=$ 底面圓周長 $= 2\\pi r$</strong>。代入 $r = 5$：$2 \\times 3.14 \\times 5 = 31.4$ 公分。（寬則是高 $= 10$，不要混淆。）答案 A。</p>"
         },
         {
           "id": "g6b_ch3_1_q24",
           "number": 24,
           "type": "single_choice",
-          "content": "<p>$36$ km/hr 等於多少 m/s？</p><p>A. $6$</p><p>B. $10$</p><p>C. $18$</p><p>D. $36$</p>",
-          "answer": "B",
-          "explanation": "<p>km/hr 換 m/s 除以 $3.6$，$36\\div3.6=10$。答案 B。</p>"
+          "content": "<p>底面半徑 $2$ 公分、高 $5$ 公分的圓柱，體積是多少立方公分？（$\\pi \\approx 3.14$）</p><p>A. $20$</p><p>B. $31.4$</p><p>C. $62.8$</p><p>D. $125.6$</p>",
+          "answer": "C",
+          "explanation": "<p>圓柱體積 $= \\pi r^2 \\times h = 3.14 \\times 2^2 \\times 5 = 3.14 \\times 4 \\times 5 = 3.14 \\times 20 = 62.8$ 立方公分。<strong>注意先算 $r^2 = 4$，再乘 $\\pi$ 與 $h$</strong>。答案 C。</p>"
         },
         {
           "id": "g6b_ch3_1_q25",
           "number": 25,
           "type": "single_choice",
-          "content": "<p>$12$ m/s 等於多少 km/hr？</p><p>A. $3.33$</p><p>B. $24$</p><p>C. $43.2$</p><p>D. $120$</p>",
-          "answer": "C",
-          "explanation": "<p>m/s 換 km/hr 乘以 $3.6$，$12\\times3.6=43.2$。答案 C。</p>"
+          "content": "<p>一個圓錐的底面半徑 $3$ 公分、高 $4$ 公分，體積是多少立方公分？（$\\pi \\approx 3.14$）</p><p>A. $12.56$</p><p>B. $37.68$</p><p>C. $113.04$</p><p>D. $9.42$</p>",
+          "answer": "B",
+          "explanation": "<p>圓錐體積 $= \\dfrac{1}{3} \\times \\pi r^2 \\times h = \\dfrac{1}{3} \\times 3.14 \\times 3^2 \\times 4 = \\dfrac{1}{3} \\times 3.14 \\times 9 \\times 4 = \\dfrac{1}{3} \\times 113.04 = 37.68$ 立方公分。<strong>別忘了乘 $\\dfrac{1}{3}$</strong>，否則會算成 $113.04$（那是同尺寸圓柱的體積）。答案 B。</p>"
         },
         {
           "id": "g6b_ch3_1_q26",
           "number": 26,
           "type": "single_choice",
-          "content": "<p>兩地相距 $70$ km，甲 $8$ km/hr、乙 $6$ km/hr 相向而行，幾小時相遇？</p><p>A. $4$</p><p>B. $5$</p><p>C. $7$</p><p>D. $10$</p>",
-          "answer": "B",
-          "explanation": "<p>合速率 $=8+6=14$，時間 $=70\\div14=5$ 小時。答案 B。</p>"
+          "content": "<p>圓柱與圓錐的底面積與高都相同，圓柱的體積是 $30$ 立方公分，圓錐的體積是多少立方公分？</p><p>A. $10$</p><p>B. $15$</p><p>C. $30$</p><p>D. $90$</p>",
+          "answer": "A",
+          "explanation": "<p>底面積與高都一樣時，<strong>圓錐 $= \\dfrac{1}{3} \\times$ 圓柱</strong>。所以 $30 \\times \\dfrac{1}{3} = 10$ 立方公分。答案 A。</p>"
         },
         {
           "id": "g6b_ch3_1_q27",
           "number": 27,
           "type": "single_choice",
-          "content": "<p>快車 $90$ km/hr、慢車 $70$ km/hr，同向相距 $60$ km，快車幾小時追上？</p><p>A. $2$</p><p>B. $3$</p><p>C. $4$</p><p>D. $6$</p>",
-          "answer": "B",
-          "explanation": "<p>速率差 $=90-70=20$，時間 $=60\\div20=3$ 小時。答案 B。</p>"
+          "content": "<p>一個圓柱形水桶底面半徑 $10$ 公分、高 $20$ 公分，裝滿水。將水全部倒入一個底面積與高都相同的圓錐形容器，會發生什麼？</p><p>A. 圓錐裝得下，還有空間</p><p>B. 圓錐剛好裝滿</p><p>C. 圓錐裝不下，水會滿出來</p><p>D. 無法判斷</p>",
+          "answer": "C",
+          "explanation": "<p>同底同高時，<strong>圓柱體積 $= 3 \\times$ 圓錐體積</strong>。圓柱裝滿的水有圓錐的 $3$ 倍，當然<strong>裝不下</strong>，會溢出 $2$ 個圓錐的量。答案 C。</p>"
         },
         {
           "id": "g6b_ch3_1_q28",
           "number": 28,
           "type": "single_choice",
-          "content": "<p>去程 $40$ km 用 $1$ 小時，回程 $40$ km 用 $2$ 小時，平均速率是多少？</p><p>A. $20$ km/hr</p><p>B. $26\\dfrac{2}{3}$ km/hr</p><p>C. $30$ km/hr</p><p>D. $40$ km/hr</p>",
-          "answer": "B",
-          "explanation": "<p>總路程 $80$ km，總時間 $3$ hr，平均速率 $=80\\div3=26\\dfrac{2}{3}$ km/hr。答案 B。</p>"
+          "content": "<p>下列敘述何者<strong>正確</strong>？</p><p>A. 圓柱的高一定比底面半徑長</p><p>B. 圓錐的母線比高短</p><p>C. 圓柱的側面展開後是平行四邊形</p><p>D. 圓錐的母線比高長</p>",
+          "answer": "D",
+          "explanation": "<p>圓錐的高、底面半徑、母線形成<strong>直角三角形</strong>，母線是斜邊，所以<strong>母線 $>$ 高</strong>、母線 $>$ 半徑。A 不一定（柱可矮可高）；B 與事實相反；C 圓柱側面展開是長方形。答案 D。</p>"
         },
         {
           "id": "g6b_ch3_1_q29",
           "number": 29,
           "type": "single_choice",
-          "content": "<p>小明每秒跑 $5$ 公尺，跑 $2$ 分鐘共跑多少公尺？</p><p>A. $10$</p><p>B. $100$</p><p>C. $300$</p><p>D. $600$</p>",
-          "answer": "D",
-          "explanation": "<p>$2$ 分鐘 $=120$ 秒，路程 $=5\\times120=600$ 公尺。答案 D。</p>"
+          "content": "<p>製作一個圓柱形紙筒，底面半徑 $4$ 公分、高 $10$ 公分。側面所需長方形紙的面積是多少平方公分？（$\\pi \\approx 3.14$）</p><p>A. $40$</p><p>B. $125.6$</p><p>C. $251.2$</p><p>D. $502.4$</p>",
+          "answer": "C",
+          "explanation": "<p>側面長方形<strong>長 $=$ 底面圓周長 $= 2\\pi r = 2 \\times 3.14 \\times 4 = 25.12$</strong> 公分，<strong>寬 $=$ 高 $= 10$ 公分</strong>，所以面積 $= 25.12 \\times 10 = 251.2$ 平方公分。答案 C。</p>"
         },
         {
           "id": "g6b_ch3_1_q30",
           "number": 30,
           "type": "single_choice",
-          "content": "<p>走 $18$ 公里需要 $3$ 小時，若速率加倍，走同樣距離要多久？</p><p>A. $1.5$ 小時</p><p>B. $2$ 小時</p><p>C. $3$ 小時</p><p>D. $6$ 小時</p>",
+          "content": "<p>一個圓錐形冰淇淋甜筒，底面半徑 $3$ 公分、高 $9$ 公分，裝滿冰淇淋（剛好平面）。一球冰淇淋約 $30$ 立方公分，這個甜筒大約裝幾球？（$\\pi \\approx 3.14$）</p><p>A. $1$ 球</p><p>B. $2$ 球</p><p>C. $3$ 球</p><p>D. $5$ 球</p>",
+          "answer": "C",
+          "explanation": "<p>甜筒體積 $= \\dfrac{1}{3} \\times \\pi r^2 \\times h = \\dfrac{1}{3} \\times 3.14 \\times 3^2 \\times 9 = \\dfrac{1}{3} \\times 3.14 \\times 81 = \\dfrac{1}{3} \\times 254.34 = 84.78$ 立方公分。$84.78 \\div 30 \\approx 2.83$，<strong>大約 $3$ 球</strong>（取最接近的整數）。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q31",
+          "number": 31,
+          "type": "single_choice",
+          "content": "<p>圓柱側面展開圖的長方形，長等於什麼？</p><p>A. 圓柱的高</p><p>B. 底面圓周長</p><p>C. 底面半徑</p><p>D. 底面面積</p>",
+          "answer": "B",
+          "explanation": "<p>圓柱側面展開後，長方形的長等於底面圓周長，寬等於高。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q32",
+          "number": 32,
+          "type": "single_choice",
+          "content": "<p>圓錐側面展開後是什麼圖形？</p><p>A. 長方形</p><p>B. 正方形</p><p>C. 扇形</p><p>D. 圓形</p>",
+          "answer": "C",
+          "explanation": "<p>圓錐的側面展開後是扇形，底面另有一個圓。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q33",
+          "number": 33,
+          "type": "single_choice",
+          "content": "<p>底面半徑 $6$ 公分的圓，圓周長約是多少？（$\\pi\\approx3.14$）</p><p>A. $18.84$ 公分</p><p>B. $37.68$ 公分</p><p>C. $113.04$ 公分</p><p>D. $12$ 公分</p>",
+          "answer": "B",
+          "explanation": "<p>圓周長 $=2\\pi r=2\\times3.14\\times6=37.68$ 公分。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q34",
+          "number": 34,
+          "type": "single_choice",
+          "content": "<p>一個圓柱底面半徑 $3$ 公分、高 $8$ 公分，體積約是多少？</p><p>A. $75.36$</p><p>B. $150.72$</p><p>C. $226.08$</p><p>D. $301.44$</p>",
+          "answer": "C",
+          "explanation": "<p>體積 $=\\pi r^2h=3.14\\times9\\times8=226.08$ 立方公分。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q35",
+          "number": 35,
+          "type": "single_choice",
+          "content": "<p>一個圓錐底面半徑 $6$ 公分、高 $5$ 公分，體積約是多少？</p><p>A. $188.4$</p><p>B. $565.2$</p><p>C. $94.2$</p><p>D. $60$</p>",
           "answer": "A",
-          "explanation": "<p>同樣路程下，速率加倍，時間減半，$3\\div2=1.5$ 小時。答案 A。</p>"
+          "explanation": "<p>圓錐體積 $=\\dfrac13\\times3.14\\times6^2\\times5=188.4$。答案 A。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q36",
+          "number": 36,
+          "type": "single_choice",
+          "content": "<p>同底同高的圓柱體積是 $96$，對應圓錐體積是多少？</p><p>A. $24$</p><p>B. $32$</p><p>C. $96$</p><p>D. $288$</p>",
+          "answer": "B",
+          "explanation": "<p>圓錐體積是同底同高圓柱的 $\\dfrac13$，$96\\div3=32$。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q37",
+          "number": 37,
+          "type": "single_choice",
+          "content": "<p>同底同高的圓錐體積是 $45$，對應圓柱體積是多少？</p><p>A. $15$</p><p>B. $90$</p><p>C. $135$</p><p>D. $180$</p>",
+          "answer": "C",
+          "explanation": "<p>圓柱體積是圓錐的 $3$ 倍，$45\\times3=135$。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q38",
+          "number": 38,
+          "type": "single_choice",
+          "content": "<p>下列哪一個是圓錐有、圓柱沒有的構造？</p><p>A. 圓形底面</p><p>B. 側面</p><p>C. 頂點</p><p>D. 高</p>",
+          "answer": "C",
+          "explanation": "<p>圓錐有一個頂點，圓柱沒有頂點。兩者都有底面、側面與高。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q39",
+          "number": 39,
+          "type": "single_choice",
+          "content": "<p>圓錐的母線在展開圖中會成為扇形的什麼？</p><p>A. 弧長</p><p>B. 半徑</p><p>C. 圓心角</p><p>D. 面積</p>",
+          "answer": "B",
+          "explanation": "<p>圓錐母線是頂點到底面圓周的線段，展開後就是扇形半徑。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q40",
+          "number": 40,
+          "type": "single_choice",
+          "content": "<p>圓柱底面直徑 $10$ 公分、高 $7$ 公分，側面展開長方形的寬是多少？</p><p>A. $5$ 公分</p><p>B. $7$ 公分</p><p>C. $10$ 公分</p><p>D. $31.4$ 公分</p>",
+          "answer": "B",
+          "explanation": "<p>側面展開長方形的寬等於圓柱的高，所以是 $7$ 公分。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q41",
+          "number": 41,
+          "type": "single_choice",
+          "content": "<p>一個長方體，長 $8\\text{ cm}$、寬 $5\\text{ cm}$、高 $6\\text{ cm}$，體積是多少？</p><p>A. $19\\text{ cm}^3$</p><p>B. $120\\text{ cm}^3$</p><p>C. $240\\text{ cm}^3$</p><p>D. $480\\text{ cm}^3$</p>",
+          "answer": "C",
+          "explanation": "<p>長方體體積 $=$ 長 $\\times$ 寬 $\\times$ 高 $= 8 \\times 5 \\times 6 = \\mathbf{240}\\text{ cm}^3$。A 是把三邊相加（錯）；B 漏乘高；D 是體積的 $2$ 倍。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q42",
+          "number": 42,
+          "type": "single_choice",
+          "content": "<p>一個正方體的邊長是 $7\\text{ cm}$，它的表面積是多少？</p><p>A. $49\\text{ cm}^2$</p><p>B. $147\\text{ cm}^2$</p><p>C. $294\\text{ cm}^2$</p><p>D. $343\\text{ cm}^2$</p>",
+          "answer": "C",
+          "explanation": "<p>正方體有 $6$ 個全等的正方形面，每面面積 $= 7 \\times 7 = 49\\text{ cm}^2$，所以表面積 $= \\mathbf{6 \\times 49 = 294}\\text{ cm}^2$。A 只算一面；D 是體積 $7^3 = 343\\text{ cm}^3$，單位也不對。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q43",
+          "number": 43,
+          "type": "single_choice",
+          "content": "<p>一個三角柱，底面是底邊 $10\\text{ cm}$、高 $6\\text{ cm}$ 的三角形，柱的高是 $12\\text{ cm}$，體積是多少？</p><p>A. $180\\text{ cm}^3$</p><p>B. $360\\text{ cm}^3$</p><p>C. $720\\text{ cm}^3$</p><p>D. $60\\text{ cm}^3$</p>",
+          "answer": "B",
+          "explanation": "<p>先算底面三角形面積 $= \\dfrac{1}{2} \\times 10 \\times 6 = 30\\text{ cm}^2$。再用柱體公式：體積 $=$ 底面積 $\\times$ 高 $= \\mathbf{30 \\times 12 = 360}\\text{ cm}^3$。C 忘了三角形面積要除以 $2$。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q44",
+          "number": 44,
+          "type": "single_choice",
+          "content": "<p>一個圓柱，底面半徑 $5\\text{ cm}$、高 $10\\text{ cm}$，體積約是多少？（$\\pi \\approx 3.14$）</p><p>A. $約\\ 157\\text{ cm}^3$</p><p>B. $約\\ 314\\text{ cm}^3$</p><p>C. $約\\ 785\\text{ cm}^3$</p><p>D. $約\\ 1570\\text{ cm}^3$</p>",
+          "answer": "C",
+          "explanation": "<p>圓柱體積 $=$ 半徑 $\\times$ 半徑 $\\times \\pi \\times$ 高 $= 5 \\times 5 \\times 3.14 \\times 10 = 25 \\times 3.14 \\times 10 = \\mathbf{785}\\text{ cm}^3$。用到 $3.14$ 所以要加「約」。A 是底面周長 $\\times$ 高（錯把周長當底面積）。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q45",
+          "number": 45,
+          "type": "single_choice",
+          "content": "<p>一個長方體的長、寬、高分別是 $4\\text{ cm}$、$3\\text{ cm}$、$5\\text{ cm}$，表面積是多少？</p><p>A. $47\\text{ cm}^2$</p><p>B. $60\\text{ cm}^2$</p><p>C. $94\\text{ cm}^2$</p><p>D. $120\\text{ cm}^2$</p>",
+          "answer": "C",
+          "explanation": "<p>長方體有<strong>三組對面</strong>：長$\\times$寬 $= 4 \\times 3 = 12$、長$\\times$高 $= 4 \\times 5 = 20$、寬$\\times$高 $= 3 \\times 5 = 15$，每組兩面所以總表面積 $= 2 \\times (12+20+15) = 2 \\times 47 = \\mathbf{94}\\text{ cm}^2$。A 只算一組對面之和。B 是體積。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q46",
+          "number": 46,
+          "type": "single_choice",
+          "content": "<p>一個圓柱底面半徑 $4\\text{ cm}$、高 $9\\text{ cm}$，表面積約是多少？（$\\pi \\approx 3.14$）</p><p>A. $約\\ 226.08\\text{ cm}^2$</p><p>B. $約\\ 326.56\\text{ cm}^2$</p><p>C. $約\\ 100.48\\text{ cm}^2$</p><p>D. $約\\ 452.16\\text{ cm}^2$</p>",
+          "answer": "B",
+          "explanation": "<p>兩個底面積 $= 2 \\times 4 \\times 4 \\times 3.14 = 32 \\times 3.14 = 100.48$；側面積 $=$ 底面周長 $\\times$ 高 $= 2 \\times 4 \\times 3.14 \\times 9 = 72 \\times 3.14 = 226.08$。<strong>總和 $= 100.48 + 226.08 = 326.56\\text{ cm}^2$</strong>。技巧：先把 $32 + 72 = 104$ 再乘 $3.14$，$104 \\times 3.14 = 326.56$。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q47",
+          "number": 47,
+          "type": "single_choice",
+          "content": "<p>一個內邊長 $20\\text{ cm}$ 的正方體水箱裝水 $4\\text{ 公升}$，水深是多少？</p><p>A. $5\\text{ cm}$</p><p>B. $10\\text{ cm}$</p><p>C. $15\\text{ cm}$</p><p>D. $20\\text{ cm}$</p>",
+          "answer": "B",
+          "explanation": "<p>$4$ 公升 $= 4000\\text{ cm}^3$。水的體積 $=$ 底面積 $\\times$ 水深，所以水深 $= \\dfrac{4000}{20 \\times 20} = \\dfrac{4000}{400} = \\mathbf{10}\\text{ cm}$。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q48",
+          "number": 48,
+          "type": "single_choice",
+          "content": "<p>一個內部底面是 $30 \\times 20$ 的長方體水箱，水深 $5\\text{ cm}$，放入一塊鐵塊完全沉入水中後水深變成 $8\\text{ cm}$，鐵塊的體積是多少？</p><p>A. $600\\text{ cm}^3$</p><p>B. $1800\\text{ cm}^3$</p><p>C. $3000\\text{ cm}^3$</p><p>D. $4800\\text{ cm}^3$</p>",
+          "answer": "B",
+          "explanation": "<p>用<strong>排水法</strong>：鐵塊體積 $=$ 水位上升的體積 $=$ 底面積 $\\times$ 高度差。高度差 $= 8 - 5 = 3\\text{ cm}$，底面積 $= 30 \\times 20 = 600\\text{ cm}^2$，所以鐵塊體積 $= \\mathbf{600 \\times 3 = 1800}\\text{ cm}^3$。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q49",
+          "number": 49,
+          "type": "single_choice",
+          "content": "<p>一個正方體的表面積是 $216\\text{ cm}^2$，它的邊長是多少？</p><p>A. $4\\text{ cm}$</p><p>B. $5\\text{ cm}$</p><p>C. $6\\text{ cm}$</p><p>D. $9\\text{ cm}$</p>",
+          "answer": "C",
+          "explanation": "<p>正方體表面積 $= 6 \\times$ 邊長 $\\times$ 邊長 $= 216$，所以邊長 $\\times$ 邊長 $= 216 \\div 6 = 36$，<strong>邊長 $= 6\\text{ cm}$</strong>（因 $6 \\times 6 = 36$）。檢驗：$6 \\times 36 = 216$ ✓。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q50",
+          "number": 50,
+          "type": "single_choice",
+          "content": "<p>甲、乙兩個四角柱柱高相同，甲的底面積是 $24\\text{ cm}^2$，乙的底面積是 $40\\text{ cm}^2$，則甲與乙的體積比是？</p><p>A. $24\\colon 40$</p><p>B. $3\\colon 5$</p><p>C. $5\\colon 3$</p><p>D. $40\\colon 24$</p>",
+          "answer": "B",
+          "explanation": "<p>柱高相同時，體積比 $=$ 底面積比（高約掉）。$24\\colon 40$ 同除以 $8$ 得 $\\mathbf{3\\colon 5}$。A 沒有約分（雖然也是對的比，但要化最簡），B 才是最簡整數比。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q51",
+          "number": 51,
+          "type": "single_choice",
+          "content": "<p>長方體長 $9$、寬 $4$、高 $5$ 公分，體積是多少？</p><p>A. $18$</p><p>B. $90$</p><p>C. $180$</p><p>D. $360$</p>",
+          "answer": "C",
+          "explanation": "<p>體積 $=9\\times4\\times5=180\\text{ cm}^3$。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q52",
+          "number": 52,
+          "type": "single_choice",
+          "content": "<p>正方體邊長 $8$ 公分，體積是多少？</p><p>A. $64$</p><p>B. $384$</p><p>C. $512$</p><p>D. $1024$</p>",
+          "answer": "C",
+          "explanation": "<p>正方體體積 $=8\\times8\\times8=512\\text{ cm}^3$。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q53",
+          "number": 53,
+          "type": "single_choice",
+          "content": "<p>正方體邊長 $5$ 公分，表面積是多少？</p><p>A. $25$</p><p>B. $100$</p><p>C. $125$</p><p>D. $150$</p>",
+          "answer": "D",
+          "explanation": "<p>表面積 $=6\\times5\\times5=150\\text{ cm}^2$。答案 D。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q54",
+          "number": 54,
+          "type": "single_choice",
+          "content": "<p>一個柱體底面積 $36\\text{ cm}^2$、高 $12\\text{ cm}$，體積是多少？</p><p>A. $48$</p><p>B. $216$</p><p>C. $432$</p><p>D. $864$</p>",
+          "answer": "C",
+          "explanation": "<p>柱體體積 $=$ 底面積 $\\times$ 高 $=36\\times12=432\\text{ cm}^3$。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q55",
+          "number": 55,
+          "type": "single_choice",
+          "content": "<p>三角柱底面三角形底 $8$、高 $5$ 公分，柱高 $10$ 公分，體積是多少？</p><p>A. $100$</p><p>B. $200$</p><p>C. $400$</p><p>D. $800$</p>",
+          "answer": "B",
+          "explanation": "<p>底面積 $=8\\times5\\div2=20$，體積 $=20\\times10=200$。答案 B。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q56",
+          "number": 56,
+          "type": "single_choice",
+          "content": "<p>$3$ 公升等於多少立方公分？</p><p>A. $30$</p><p>B. $300$</p><p>C. $3000$</p><p>D. $30000$</p>",
+          "answer": "C",
+          "explanation": "<p>$1$ 公升 $=1000\\text{ cm}^3$，所以 $3$ 公升 $=3000\\text{ cm}^3$。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q57",
+          "number": 57,
+          "type": "single_choice",
+          "content": "<p>底面周長 $28$ 公分、高 $9$ 公分的柱體，側面積是多少？</p><p>A. $37$</p><p>B. $126$</p><p>C. $252$</p><p>D. $504$</p>",
+          "answer": "C",
+          "explanation": "<p>側面積 $=$ 底面周長 $\\times$ 高 $=28\\times9=252\\text{ cm}^2$。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q58",
+          "number": 58,
+          "type": "single_choice",
+          "content": "<p>一水箱底面積 $500\\text{ cm}^2$，放入石頭後水位上升 $4$ 公分，石頭體積是多少？</p><p>A. $125$</p><p>B. $504$</p><p>C. $1000$</p><p>D. $2000$</p>",
+          "answer": "D",
+          "explanation": "<p>排水體積 $=$ 底面積 $\\times$ 高度差 $=500\\times4=2000\\text{ cm}^3$。答案 D。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q59",
+          "number": 59,
+          "type": "single_choice",
+          "content": "<p>長方體長 $6$、寬 $5$、高 $4$ 公分，表面積是多少？</p><p>A. $74$</p><p>B. $120$</p><p>C. $148$</p><p>D. $240$</p>",
+          "answer": "C",
+          "explanation": "<p>表面積 $=2(6\\times5+6\\times4+5\\times4)=2(30+24+20)=148$。答案 C。</p>"
+        },
+        {
+          "id": "g6b_ch3_1_q60",
+          "number": 60,
+          "type": "single_choice",
+          "content": "<p>一個正方體體積是 $216\\text{ cm}^3$，邊長是多少？</p><p>A. $4$ 公分</p><p>B. $5$ 公分</p><p>C. $6$ 公分</p><p>D. $8$ 公分</p>",
+          "answer": "C",
+          "explanation": "<p>$6\\times6\\times6=216$，所以邊長是 $6$ 公分。答案 C。</p>"
         }
       ]
     }

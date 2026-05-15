@@ -1,0 +1,138 @@
+{
+  "title": "小六挑戰 20-1 分數的乘法（複習）",
+  "summary": "<ul><li><strong>分數乘法公式</strong>：分子乘分子、分母乘分母 — $\\dfrac{a}{b} \\times \\dfrac{c}{d} = \\dfrac{a \\times c}{b \\times d}$。分數乘整數時把整數看成 $\\dfrac{n}{1}$，分母不變。</li><li><strong>「的」字翻成乘以</strong>：「$\\dfrac{2}{3}$ 的 $\\dfrac{6}{7}$」就是 $\\dfrac{2}{3} \\times \\dfrac{6}{7}$；「$\\dfrac{a}{b}$ 倍」「$\\dfrac{a}{b}$ 的」都用乘法處理。</li><li><strong>帶分數先化假分數</strong>：$a\\dfrac{b}{c} = \\dfrac{a \\times c + b}{c}$，<strong>不可以</strong>整數對整數、分數對分數分開乘。例：$1\\dfrac{1}{2} \\times 2\\dfrac{1}{3} = \\dfrac{3}{2} \\times \\dfrac{7}{3} = \\dfrac{21}{6} = \\dfrac{7}{2} = 3\\dfrac{1}{2}$。</li><li><strong>先約分再相乘</strong>：可用「對角約分」— 一個分數的分子與另一個分數的分母約分，數字變小不易算錯。連乘時任一分子可與任一分母約分。</li><li><strong>真分數相乘變小</strong>：兩個小於 $1$ 的真分數相乘，結果比兩者都小（和「乘越乘越大」直覺相反）。例：$\\dfrac{1}{2} \\times \\dfrac{1}{3} = \\dfrac{1}{6}$ 比 $\\dfrac{1}{2}$、$\\dfrac{1}{3}$ 都小。</li><li><strong>最後要化最簡</strong>：算完檢查分子分母是否還有公因數；若為假分數依題目需要化成帶分數。應用題答案要記得帶單位。</li></ul>",
+  "sections": [
+    {
+      "type": "true_false",
+      "name": "是非題",
+      "questions": [
+        {
+          "id": "g6c_ch20_1_q1",
+          "number": 1,
+          "type": "true_false",
+          "content": "<p>$\\dfrac{2}{3} \\times \\dfrac{4}{5} = \\dfrac{2 \\times 4}{3 \\times 5} = \\dfrac{8}{15}$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。分數乘分數的法則就是<strong>分子乘分子、分母乘分母</strong>：$\\dfrac{2}{3} \\times \\dfrac{4}{5} = \\dfrac{2 \\times 4}{3 \\times 5} = \\dfrac{8}{15}$。$\\dfrac{8}{15}$ 已經是最簡分數（$8$ 與 $15$ 沒有大於 $1$ 的公因數），不必再約分。</p>"
+        },
+        {
+          "id": "g6c_ch20_1_q2",
+          "number": 2,
+          "type": "true_false",
+          "content": "<p>$1\\dfrac{1}{2} \\times 2\\dfrac{1}{3} = 2\\dfrac{1}{6}$（整數部分相乘、分數部分相乘）。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。帶分數乘法<strong>不可以</strong>整數對整數、分數對分數分開算。正解：先化假分數 $1\\dfrac{1}{2} = \\dfrac{3}{2}$、$2\\dfrac{1}{3} = \\dfrac{7}{3}$，相乘得 $\\dfrac{3}{2} \\times \\dfrac{7}{3} = \\dfrac{21}{6} = \\dfrac{7}{2} = 3\\dfrac{1}{2}$，不是 $2\\dfrac{1}{6}$。</p>"
+        },
+        {
+          "id": "g6c_ch20_1_q3",
+          "number": 3,
+          "type": "true_false",
+          "content": "<p>$\\dfrac{3}{4} \\times \\dfrac{5}{6}$ 的結果比 $\\dfrac{3}{4}$ 還小。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。$\\dfrac{5}{6} < 1$，<strong>任何數乘以一個小於 $1$ 的數，結果會變小</strong>。實算：$\\dfrac{3}{4} \\times \\dfrac{5}{6} = \\dfrac{15}{24} = \\dfrac{5}{8}$，而 $\\dfrac{3}{4} = \\dfrac{6}{8}$，確實 $\\dfrac{5}{8} < \\dfrac{6}{8}$。</p>"
+        },
+        {
+          "id": "g6c_ch20_1_q4",
+          "number": 4,
+          "type": "true_false",
+          "content": "<p>$5 \\times \\dfrac{2}{3} = \\dfrac{10}{15}$。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。整數乘分數時，整數要寫成 $\\dfrac{5}{1}$，<strong>分母不變、只乘分子</strong>：$5 \\times \\dfrac{2}{3} = \\dfrac{5}{1} \\times \\dfrac{2}{3} = \\dfrac{5 \\times 2}{1 \\times 3} = \\dfrac{10}{3} = 3\\dfrac{1}{3}$。錯誤算法是把整數也乘到分母上。</p>"
+        },
+        {
+          "id": "g6c_ch20_1_q5",
+          "number": 5,
+          "type": "true_false",
+          "content": "<p>$\\dfrac{6}{12}$ 是最簡分數。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。$\\dfrac{6}{12}$ 的分子 $6$ 與分母 $12$ 有公因數 $6$，可以再約分為 $\\dfrac{1}{2}$。<strong>最簡分數</strong>是指分子分母只有 $1$ 這個公因數的分數。分數乘法算完後務必檢查是否還能再約分。</p>"
+        }
+      ]
+    },
+    {
+      "type": "single_choice",
+      "name": "單選題",
+      "questions": [
+        {
+          "id": "g6c_ch20_1_q6",
+          "number": 6,
+          "type": "single_choice",
+          "content": "<p>$\\dfrac{3}{5} \\times \\dfrac{2}{7} = ?$</p><p>A. $\\dfrac{6}{35}$</p><p>B. $\\dfrac{5}{12}$</p><p>C. $\\dfrac{6}{12}$</p><p>D. $\\dfrac{21}{10}$</p>",
+          "answer": "A",
+          "explanation": "<p>分子乘分子、分母乘分母：$\\dfrac{3}{5} \\times \\dfrac{2}{7} = \\dfrac{3 \\times 2}{5 \\times 7} = \\dfrac{6}{35}$。$6$ 與 $35$ 沒有公因數，已是最簡分數。答案 A。</p>"
+        },
+        {
+          "id": "g6c_ch20_1_q7",
+          "number": 7,
+          "type": "single_choice",
+          "content": "<p>$\\dfrac{4}{9} \\times \\dfrac{3}{8} = ?$（要化最簡）</p><p>A. $\\dfrac{12}{72}$</p><p>B. $\\dfrac{7}{17}$</p><p>C. $\\dfrac{1}{6}$</p><p>D. $\\dfrac{2}{3}$</p>",
+          "answer": "C",
+          "explanation": "<p>用<strong>對角約分</strong>：$4$ 與 $8$ 約成 $1$ 與 $2$，$3$ 與 $9$ 約成 $1$ 與 $3$，剩 $\\dfrac{1 \\times 1}{3 \\times 2} = \\dfrac{1}{6}$。也可硬算 $\\dfrac{12}{72} = \\dfrac{1}{6}$，但對角約分更快。答案 C。</p>"
+        },
+        {
+          "id": "g6c_ch20_1_q8",
+          "number": 8,
+          "type": "single_choice",
+          "content": "<p>$2\\dfrac{1}{4} \\times \\dfrac{8}{9} = ?$</p><p>A. $2\\dfrac{8}{36}$</p><p>B. $2$</p><p>C. $\\dfrac{9}{4}$</p><p>D. $\\dfrac{17}{9}$</p>",
+          "answer": "B",
+          "explanation": "<p><strong>帶分數先化假分數</strong>：$2\\dfrac{1}{4} = \\dfrac{2 \\times 4 + 1}{4} = \\dfrac{9}{4}$。再乘：$\\dfrac{9}{4} \\times \\dfrac{8}{9}$，用對角約分 — $9$ 與 $9$ 約成 $1$ 與 $1$、$4$ 與 $8$ 約成 $1$ 與 $2$，得 $\\dfrac{1 \\times 2}{1 \\times 1} = 2$。答案 B。</p>"
+        },
+        {
+          "id": "g6c_ch20_1_q9",
+          "number": 9,
+          "type": "single_choice",
+          "content": "<p>$\\dfrac{5}{6} \\times \\dfrac{3}{10} \\times \\dfrac{4}{9} = ?$</p><p>A. $\\dfrac{1}{9}$</p><p>B. $\\dfrac{60}{540}$</p><p>C. $\\dfrac{12}{45}$</p><p>D. $\\dfrac{2}{9}$</p>",
+          "answer": "A",
+          "explanation": "<p>連乘採<strong>一次到底</strong>對角約分：分子 $5 \\times 3 \\times 4$、分母 $6 \\times 10 \\times 9$。$5$ 與 $10$ 約成 $1$ 與 $2$；$3$ 與 $6$ 約成 $1$ 與 $2$；$4$ 與 $9$ 不能再約；剩 $\\dfrac{1 \\times 1 \\times 4}{2 \\times 2 \\times 9} = \\dfrac{4}{36} = \\dfrac{1}{9}$。答案 A。</p>"
+        },
+        {
+          "id": "g6c_ch20_1_q10",
+          "number": 10,
+          "type": "single_choice",
+          "content": "<p>下列算式哪一個的結果<strong>大於</strong> $\\dfrac{3}{4}$？</p><p>A. $\\dfrac{3}{4} \\times \\dfrac{1}{2}$</p><p>B. $\\dfrac{3}{4} \\times \\dfrac{2}{3}$</p><p>C. $\\dfrac{3}{4} \\times 1$</p><p>D. $\\dfrac{3}{4} \\times 1\\dfrac{1}{5}$</p>",
+          "answer": "D",
+          "explanation": "<p>關鍵概念：乘以「小於 $1$」會變小、乘以「等於 $1$」不變、<strong>乘以「大於 $1$」才會變大</strong>。A、B 都是真分數（$< 1$），乘完更小；C 乘 $1$ 不變；D 的 $1\\dfrac{1}{5} = \\dfrac{6}{5} > 1$，所以 $\\dfrac{3}{4} \\times \\dfrac{6}{5} = \\dfrac{18}{20} = \\dfrac{9}{10}$，比 $\\dfrac{3}{4}$ 大。答案 D。</p>"
+        },
+        {
+          "id": "g6c_ch20_1_q11",
+          "number": 11,
+          "type": "single_choice",
+          "content": "<p>$0.6 \\times \\dfrac{5}{9} = ?$</p><p>A. $\\dfrac{1}{3}$</p><p>B. $\\dfrac{3}{14}$</p><p>C. $\\dfrac{30}{9}$</p><p>D. $\\dfrac{5}{15}$</p>",
+          "answer": "A",
+          "explanation": "<p>把小數化成分數最保險：$0.6 = \\dfrac{6}{10} = \\dfrac{3}{5}$。再相乘 $\\dfrac{3}{5} \\times \\dfrac{5}{9}$，<strong>對角約分</strong> — $5$ 與 $5$ 約成 $1$ 與 $1$、$3$ 與 $9$ 約成 $1$ 與 $3$，得 $\\dfrac{1 \\times 1}{1 \\times 3} = \\dfrac{1}{3}$。答案 A。</p>"
+        },
+        {
+          "id": "g6c_ch20_1_q12",
+          "number": 12,
+          "type": "single_choice",
+          "content": "<p>一個長方形的長 $\\dfrac{5}{6}$ 公尺、寬 $\\dfrac{3}{4}$ 公尺，面積是多少平方公尺？</p><p>A. $\\dfrac{8}{10}$ 平方公尺</p><p>B. $\\dfrac{5}{8}$ 平方公尺</p><p>C. $\\dfrac{15}{24}$ 平方公尺</p><p>D. $\\dfrac{1}{2}$ 平方公尺</p>",
+          "answer": "B",
+          "explanation": "<p>長方形面積 $= 長 \\times 寬 = \\dfrac{5}{6} \\times \\dfrac{3}{4}$。對角約分：$3$ 與 $6$ 約成 $1$ 與 $2$，得 $\\dfrac{5 \\times 1}{2 \\times 4} = \\dfrac{5}{8}$ 平方公尺。C 雖然數值相等但<strong>沒有化最簡</strong>，正式答案要寫 $\\dfrac{5}{8}$。答案 B。</p>"
+        },
+        {
+          "id": "g6c_ch20_1_q13",
+          "number": 13,
+          "type": "single_choice",
+          "content": "<p>水桶裝水 $6\\dfrac{2}{3}$ 公升，倒掉 $\\dfrac{3}{5}$，還剩幾公升？</p><p>A. $4$ 公升</p><p>B. $2\\dfrac{2}{3}$ 公升</p><p>C. $\\dfrac{2}{5}$ 公升</p><p>D. $\\dfrac{20}{15}$ 公升</p>",
+          "answer": "B",
+          "explanation": "<p>「倒掉 $\\dfrac{3}{5}$」表示<strong>剩下 $1 - \\dfrac{3}{5} = \\dfrac{2}{5}$</strong>。剩餘量 $= 6\\dfrac{2}{3} \\times \\dfrac{2}{5} = \\dfrac{20}{3} \\times \\dfrac{2}{5}$，$20$ 與 $5$ 約成 $4$ 與 $1$，得 $\\dfrac{4 \\times 2}{3 \\times 1} = \\dfrac{8}{3} = 2\\dfrac{2}{3}$ 公升。答案 B。</p>"
+        },
+        {
+          "id": "g6c_ch20_1_q14",
+          "number": 14,
+          "type": "single_choice",
+          "content": "<p>一塊蛋糕，哥哥吃了全部的 $\\dfrac{1}{3}$，剩下的妹妹吃了一半，妹妹吃了全部的幾分之幾？</p><p>A. $\\dfrac{1}{2}$</p><p>B. $\\dfrac{1}{6}$</p><p>C. $\\dfrac{1}{3}$</p><p>D. $\\dfrac{2}{3}$</p>",
+          "answer": "C",
+          "explanation": "<p>哥哥吃 $\\dfrac{1}{3}$，<strong>剩下 $1 - \\dfrac{1}{3} = \\dfrac{2}{3}$</strong>。妹妹吃「剩下的一半」，是以剩下的量為基準：$\\dfrac{2}{3} \\times \\dfrac{1}{2} = \\dfrac{2}{6} = \\dfrac{1}{3}$。所以妹妹吃了全部的 $\\dfrac{1}{3}$。答案 C。</p>"
+        },
+        {
+          "id": "g6c_ch20_1_q15",
+          "number": 15,
+          "type": "single_choice",
+          "content": "<p>媽媽買 $3\\dfrac{1}{2}$ 公斤的蘋果，每公斤 $80$ 元，共要多少元？</p><p>A. $240$ 元</p><p>B. $260$ 元</p><p>C. $280$ 元</p><p>D. $320$ 元</p>",
+          "answer": "C",
+          "explanation": "<p>總價 $= 單價 \\times 重量 = 80 \\times 3\\dfrac{1}{2} = 80 \\times \\dfrac{7}{2}$。<strong>對角約分</strong>：$80$ 與 $2$ 約成 $40$ 與 $1$，得 $40 \\times 7 = 280$ 元。也可拆開算：$80 \\times 3 = 240$，$80 \\times \\dfrac{1}{2} = 40$，合 $240 + 40 = 280$ 元。答案 C。</p>"
+        }
+      ]
+    }
+  ]
+}

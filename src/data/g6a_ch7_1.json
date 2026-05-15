@@ -1,0 +1,138 @@
+{
+  "title": "小六上 7-1 圓面積與扇形面積",
+  "summary": "<ul><li><strong>圓面積公式</strong>：$S = \\pi r^2$（半徑 $\\times$ 半徑 $\\times \\pi$）。例 半徑 $5$ 公分的圓面積 $\\approx 5 \\times 5 \\times 3.14 = 78.5$ 平方公分。<strong>面積單位是「平方」公分</strong>，因為公式中 $r$ 用了兩次。題目給直徑時要先除以 $2$ 得半徑。</li><li><strong>扇形面積</strong>：圓心角 $\\theta$ 的扇形面積 $= \\pi r^2 \\times \\dfrac{\\theta}{360^\\circ}$。常用比例 $90^\\circ = \\dfrac{1}{4}$ 圓、$120^\\circ = \\dfrac{1}{3}$ 圓、$180^\\circ = \\dfrac{1}{2}$ 圓（半圓面積 $= \\dfrac{1}{2}\\pi r^2$）。</li><li><strong>環狀（甜甜圈）面積</strong>：大圓面積 $-$ 小圓面積 $= \\pi R^2 - \\pi r^2 = \\pi(R^2 - r^2)$。<strong>先把 $\\pi$ 提出來，整數先平方相減</strong>，計算又快又準。</li><li><strong>面積比例</strong>：兩圓<strong>面積比 $=$ 半徑平方比</strong>。半徑放大 $k$ 倍，面積變 $k^2$ 倍（半徑變 $2$ 倍面積變 $4$ 倍、半徑變 $3$ 倍面積變 $9$ 倍）。和周長比例（$k$ 倍）不同，這是常考陷阱。</li><li><strong>正方形內切／外接圓</strong>：邊長 $a$ 的正方形<strong>內切圓直徑 $= a$</strong>（半徑 $\\dfrac{a}{2}$）；外接圓直徑 $=$ 對角線 $= \\sqrt{2}\\,a$（國中再學）。國小常考內切圓。</li><li><strong>組合圖形與陰影面積</strong>：常見方法（一）整體 $-$ 空白：用大圖形面積減去未塗色部分；（二）切割相加：把陰影拆成幾個熟悉圖形。<strong>$\\pi$ 留到最後才乘</strong>，先約分整數部分可減少運算錯誤。</li></ul>",
+  "sections": [
+    {
+      "type": "true_false",
+      "name": "是非題",
+      "questions": [
+        {
+          "id": "g6a_ch7_1_q1",
+          "number": 1,
+          "type": "true_false",
+          "content": "<p>圓周長的單位是「公分」，圓面積的單位是「平方公分」。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。<strong>周長</strong>是長度，單位是公分／公尺等一次方單位；<strong>面積</strong>是平面範圍，單位是「平方」公分／公尺。面積公式 $\\pi r^2$ 用到 $r$ 兩次，所以單位也是「兩次方」。</p>"
+        },
+        {
+          "id": "g6a_ch7_1_q2",
+          "number": 2,
+          "type": "true_false",
+          "content": "<p>當圓的半徑變成原來的 $3$ 倍時，圓面積也會變成原來的 $3$ 倍。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。<strong>面積與半徑的「平方」成正比</strong>。半徑變 $3$ 倍，面積變 $3^2 = 9$ 倍，不是 $3$ 倍。例 原半徑 $1$，面積 $\\pi$；新半徑 $3$，面積 $9\\pi$。$\\dfrac{9\\pi}{\\pi} = 9$ 倍。</p>"
+        },
+        {
+          "id": "g6a_ch7_1_q3",
+          "number": 3,
+          "type": "true_false",
+          "content": "<p>圓心角 $90^\\circ$ 的扇形面積等於整圓面積的 $\\dfrac{1}{4}$。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。整圓圓心角 $= 360^\\circ$，所以 $90^\\circ$ 的扇形占整圓的 $\\dfrac{90}{360} = \\dfrac{1}{4}$。同理 $180^\\circ$ 是 $\\dfrac{1}{2}$（半圓）、$120^\\circ$ 是 $\\dfrac{1}{3}$、$60^\\circ$ 是 $\\dfrac{1}{6}$。</p>"
+        },
+        {
+          "id": "g6a_ch7_1_q4",
+          "number": 4,
+          "type": "true_false",
+          "content": "<p>邊長 $10$ 公分的正方形，其內切圓的半徑是 $10$ 公分。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。正方形的<strong>內切圓直徑等於正方形邊長</strong>，所以邊長 $10$ 公分的正方形，內切圓的<strong>直徑</strong>是 $10$ 公分、<strong>半徑</strong>是 $5$ 公分。常見錯誤是把邊長當半徑。</p>"
+        },
+        {
+          "id": "g6a_ch7_1_q5",
+          "number": 5,
+          "type": "true_false",
+          "content": "<p>環狀面積（甜甜圈面積）等於「大圓面積 $-$ 小圓面積」，可以寫成 $\\pi(R^2 - r^2)$，先把 $\\pi$ 提出來計算比較快。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。$\\pi R^2 - \\pi r^2 = \\pi(R^2 - r^2)$，這是<strong>提出公因數</strong>的應用。先做整數的平方差再乘 $\\pi$，可以避開兩次小數乘法，大幅減少錯誤。例 $R = 10, r = 6$：$\\pi(100 - 36) = 64\\pi \\approx 200.96$。</p>"
+        }
+      ]
+    },
+    {
+      "type": "single_choice",
+      "name": "單選題",
+      "questions": [
+        {
+          "id": "g6a_ch7_1_q6",
+          "number": 6,
+          "type": "single_choice",
+          "content": "<p>直徑 $20$ 公分的圓，圓面積約多少平方公分？（$\\pi \\approx 3.14$）</p><p>A. $約 31.4$</p><p>B. $約 62.8$</p><p>C. $約 314$</p><p>D. $約 1256$</p>",
+          "answer": "C",
+          "explanation": "<p>直徑 $20$ 公分 $\\Rightarrow$ 半徑 $r = 10$ 公分。$S = \\pi r^2 \\approx 3.14 \\times 10 \\times 10 = 3.14 \\times 100 = 314$ 平方公分。注意要用<strong>半徑</strong>不是直徑。答案 C。</p>"
+        },
+        {
+          "id": "g6a_ch7_1_q7",
+          "number": 7,
+          "type": "single_choice",
+          "content": "<p>圓心角 $90^\\circ$、半徑 $6$ 公分的扇形面積約多少平方公分？（$\\pi \\approx 3.14$）</p><p>A. $約 9.42$</p><p>B. $約 14.13$</p><p>C. $約 18.84$</p><p>D. $約 28.26$</p>",
+          "answer": "D",
+          "explanation": "<p>$90^\\circ$ 扇形佔整圓的 $\\dfrac{1}{4}$。先算整圓面積 $\\pi r^2 \\approx 3.14 \\times 6 \\times 6 = 113.04$ 平方公分；扇形 $= 113.04 \\div 4 = 28.26$ 平方公分。答案 D。</p>"
+        },
+        {
+          "id": "g6a_ch7_1_q8",
+          "number": 8,
+          "type": "single_choice",
+          "content": "<p>甲圓半徑是乙圓半徑的 $3$ 倍，則甲圓面積是乙圓面積的幾倍？</p><p>A. $3$ 倍</p><p>B. $6$ 倍</p><p>C. $9$ 倍</p><p>D. $12$ 倍</p>",
+          "answer": "C",
+          "explanation": "<p>面積比 $=$ 半徑的平方比。半徑變 $3$ 倍，面積變 $3^2 = 9$ 倍。驗證：若乙 $r = 1$，面積 $= \\pi$；甲 $r = 3$，面積 $= 9\\pi$，倍數 $\\dfrac{9\\pi}{\\pi} = 9$ 倍。答案 C。</p>"
+        },
+        {
+          "id": "g6a_ch7_1_q9",
+          "number": 9,
+          "type": "single_choice",
+          "content": "<p>一個正方形邊長 $20$ 公分，內切一個最大的圓，這個圓的面積約多少平方公分？（$\\pi \\approx 3.14$）</p><p>A. $約 78.5$</p><p>B. $約 157$</p><p>C. $約 314$</p><p>D. $約 400$</p>",
+          "answer": "C",
+          "explanation": "<p>正方形<strong>內切圓</strong>的直徑 $=$ 正方形邊長 $= 20$ 公分，所以圓半徑 $r = 10$ 公分。圓面積 $= \\pi r^2 \\approx 3.14 \\times 10 \\times 10 = 314$ 平方公分。答案 C。</p>"
+        },
+        {
+          "id": "g6a_ch7_1_q10",
+          "number": 10,
+          "type": "single_choice",
+          "content": "<p>環狀面積：大圓半徑 $10$ 公分、小圓半徑 $6$ 公分，環狀（甜甜圈）面積約多少平方公分？（$\\pi \\approx 3.14$）</p><p>A. $約 12.56$</p><p>B. $約 100.48$</p><p>C. $約 200.96$</p><p>D. $約 314$</p>",
+          "answer": "C",
+          "explanation": "<p>環狀面積 $=$ 大圓面積 $-$ 小圓面積 $= \\pi \\times 10^2 - \\pi \\times 6^2 = \\pi(100 - 36) = 64\\pi \\approx 64 \\times 3.14 = 200.96$ 平方公分。<strong>$\\pi$ 提出先做整數相減</strong>較不易算錯。答案 C。</p>"
+        },
+        {
+          "id": "g6a_ch7_1_q11",
+          "number": 11,
+          "type": "single_choice",
+          "content": "<p>一個半圓的直徑為 $20$ 公分，半圓的面積約多少平方公分？（$\\pi \\approx 3.14$）</p><p>A. $約 31.4$</p><p>B. $約 78.5$</p><p>C. $約 157$</p><p>D. $約 314$</p>",
+          "answer": "C",
+          "explanation": "<p>直徑 $20$ 公分 $\\Rightarrow$ 半徑 $r = 10$ 公分。整圓面積 $\\pi r^2 \\approx 3.14 \\times 100 = 314$ 平方公分；半圓 $= 314 \\div 2 = 157$ 平方公分。<strong>半圓面積 $= \\dfrac{1}{2} \\pi r^2$</strong>。答案 C。</p>"
+        },
+        {
+          "id": "g6a_ch7_1_q12",
+          "number": 12,
+          "type": "single_choice",
+          "content": "<p>圓心角 $120^\\circ$、半徑 $6$ 公分的扇形面積約多少平方公分？（$\\pi \\approx 3.14$）</p><p>A. $約 18.84$</p><p>B. $約 28.26$</p><p>C. $約 37.68$</p><p>D. $約 56.52$</p>",
+          "answer": "C",
+          "explanation": "<p>$120^\\circ$ 占整圓 $\\dfrac{120}{360} = \\dfrac{1}{3}$。整圓面積 $= \\pi r^2 \\approx 3.14 \\times 36 = 113.04$ 平方公分；扇形面積 $= 113.04 \\div 3 = 37.68$ 平方公分。或用 $\\pi r^2 \\times \\dfrac{\\theta}{360^\\circ} = 3.14 \\times 36 \\times \\dfrac{1}{3} = 37.68$。答案 C。</p>"
+        },
+        {
+          "id": "g6a_ch7_1_q13",
+          "number": 13,
+          "type": "single_choice",
+          "content": "<p>邊長 $10$ 公分的正方形內，畫一個最大的內切圓，<strong>正方形內、圓外</strong>的陰影面積約多少平方公分？（$\\pi \\approx 3.14$）</p><p>A. $約 14.5$</p><p>B. $約 21.5$</p><p>C. $約 28.5$</p><p>D. $約 78.5$</p>",
+          "answer": "B",
+          "explanation": "<p>用<strong>整體 $-$ 空白</strong>。正方形面積 $= 10 \\times 10 = 100$ 平方公分；內切圓半徑 $5$ 公分，圓面積 $= 3.14 \\times 5 \\times 5 = 78.5$ 平方公分。陰影 $= 100 - 78.5 = 21.5$ 平方公分。答案 B。</p>"
+        },
+        {
+          "id": "g6a_ch7_1_q14",
+          "number": 14,
+          "type": "single_choice",
+          "content": "<p>一個正方形邊長 $10$ 公分，在正方形的<strong>一個頂點</strong>當圓心，以邊長 $10$ 公分為半徑，在正方形內畫一個 $90^\\circ$ 的扇形。<strong>正方形內、扇形外</strong>的陰影面積約多少平方公分？（$\\pi \\approx 3.14$）</p><p>A. $約 21.5$</p><p>B. $約 28.5$</p><p>C. $約 50$</p><p>D. $約 78.5$</p>",
+          "answer": "A",
+          "explanation": "<p>用<strong>整體 $-$ 空白</strong>。正方形面積 $= 10 \\times 10 = 100$ 平方公分；$90^\\circ$ 扇形面積 $= \\pi r^2 \\times \\dfrac{1}{4} \\approx 3.14 \\times 100 \\times \\dfrac{1}{4} = 78.5$ 平方公分。陰影 $= 100 - 78.5 = 21.5$ 平方公分。答案 A。</p>"
+        },
+        {
+          "id": "g6a_ch7_1_q15",
+          "number": 15,
+          "type": "single_choice",
+          "content": "<p>一個操場造型：中間是長 $20$ 公分、寬 $10$ 公分的長方形，兩個短邊（寬邊）各外接一個直徑 $10$ 公分的半圓。整個操場（含長方形與兩個半圓）的<strong>面積</strong>約多少平方公分？（$\\pi \\approx 3.14$）</p><p>A. $約 178.5$</p><p>B. $約 200$</p><p>C. $約 257$</p><p>D. $約 278.5$</p>",
+          "answer": "D",
+          "explanation": "<p>面積 $=$ 長方形 $+$ 兩個半圓（拼起來剛好是一個整圓）。長方形 $= 20 \\times 10 = 200$ 平方公分；兩個半徑 $5$ 公分的半圓合計 $=$ 整圓面積 $= 3.14 \\times 5 \\times 5 = 78.5$ 平方公分。合計 $200 + 78.5 = 278.5$ 平方公分。答案 D。</p>"
+        }
+      ]
+    }
+  ]
+}

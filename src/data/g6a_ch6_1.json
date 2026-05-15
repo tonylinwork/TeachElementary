@@ -1,0 +1,138 @@
+{
+  "title": "小六上 6-1 圓周長與扇形周長",
+  "summary": "<ul><li><strong>圓的基本元素</strong>：圓心、半徑 $r$（圓心到圓周的距離）、直徑 $d = 2r$。圓周率 $\\pi$ 是「圓周長 $\\div$ 直徑」的比值，國小用 $\\pi \\approx 3.14$ 計算，答案前要寫「<strong>約</strong>」。</li><li><strong>圓周長公式</strong>：$C = \\pi \\times d = 2\\pi r$。例 半徑 $5$ 公分的圓周長 $\\approx 2 \\times 3.14 \\times 5 = 31.4$ 公分。<strong>已知周長反求半徑</strong>：$r = \\dfrac{C}{2\\pi}$，或先求直徑 $d = \\dfrac{C}{\\pi}$ 再除以 $2$。</li><li><strong>扇形弧長</strong>：圓心角 $\\theta$ 的扇形弧長 $= 2\\pi r \\times \\dfrac{\\theta}{360^\\circ}$。常用比例 $90^\\circ = \\dfrac{1}{4}$ 圓、$120^\\circ = \\dfrac{1}{3}$ 圓、$180^\\circ = \\dfrac{1}{2}$ 圓（半圓）。</li><li><strong>扇形周長（陷阱題）</strong>：扇形周長 $=$ <strong>弧長 $+$ 兩條半徑</strong>，半徑那兩條直線不可漏掉。半圓周長 $=$ 半圓弧 $+$ 一條直徑 $= \\pi r + 2r$。</li><li><strong>滾動與軌跡</strong>：車輪滾一圈前進的距離 $=$ 圓周長。滾 $n$ 圈走 $n \\times C$，常配合單位換算（$100$ 公分 $= 1$ 公尺）。</li><li><strong>周長比例</strong>：兩圓<strong>周長比 $=$ 半徑比 $=$ 直徑比</strong>。半徑放大 $k$ 倍，周長也變 $k$ 倍。計算技巧：先把整數部分約分，<strong>$\\pi$ 留到最後才乘</strong>，可避免小數運算錯誤。</li></ul>",
+  "sections": [
+    {
+      "type": "true_false",
+      "name": "是非題",
+      "questions": [
+        {
+          "id": "g6a_ch6_1_q1",
+          "number": 1,
+          "type": "true_false",
+          "content": "<p>圓的直徑是半徑的 $2$ 倍，所以同一個圓的圓周長是直徑的 $\\pi$ 倍。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。$d = 2r$，圓周長 $C = 2\\pi r = \\pi \\times d$，即<strong>圓周率 $\\pi$ 就是圓周長與直徑的比值</strong>。這也是 $\\pi$ 的定義，國小用 $\\pi \\approx 3.14$ 計算。</p>"
+        },
+        {
+          "id": "g6a_ch6_1_q2",
+          "number": 2,
+          "type": "true_false",
+          "content": "<p>半徑 $10$ 公分的半圓，它的周長等於 $10 \\times 3.14 = 31.4$ 公分。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。<strong>半圓周長 $=$ 半圓弧 $+$ 直徑</strong>，不可以只算弧。半圓弧 $= \\dfrac{1}{2} \\times 2\\pi r = \\pi r \\approx 10 \\times 3.14 = 31.4$ 公分，再加直徑 $20$ 公分，總共約 $51.4$ 公分。$31.4$ 漏掉了直徑那一段直線。</p>"
+        },
+        {
+          "id": "g6a_ch6_1_q3",
+          "number": 3,
+          "type": "true_false",
+          "content": "<p>圓心角 $90^\\circ$、半徑 $4$ 公分的扇形，它的周長等於 $2\\pi r \\times \\dfrac{1}{4} \\approx 6.28$ 公分。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。<strong>扇形周長 $=$ 弧長 $+$ 兩條半徑</strong>。弧長 $= 2 \\times 3.14 \\times 4 \\times \\dfrac{1}{4} = 6.28$ 公分；加上兩條半徑 $4 + 4 = 8$ 公分，總周長約 $14.28$ 公分。$6.28$ 只算了弧長，漏掉兩條半徑。</p>"
+        },
+        {
+          "id": "g6a_ch6_1_q4",
+          "number": 4,
+          "type": "true_false",
+          "content": "<p>甲圓半徑是乙圓半徑的 $2$ 倍，則甲圓周長是乙圓周長的 $2$ 倍。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。<strong>周長 $= 2\\pi r$，與半徑成正比</strong>。半徑變 $k$ 倍，周長就變 $k$ 倍。但要注意：面積會變 $k^2$ 倍，<strong>周長比例和面積比例不一樣</strong>。本題只問周長故答案為對。</p>"
+        },
+        {
+          "id": "g6a_ch6_1_q5",
+          "number": 5,
+          "type": "true_false",
+          "content": "<p>一個輪子直徑 $50$ 公分，滾動一圈會前進 $50 \\times 3.14 = 157$ 公分。</p>",
+          "answer": "○",
+          "explanation": "<p>正確。輪子滾一圈，圓上每一點貼地一次，前進的距離恰好等於<strong>圓周長</strong>。$C = \\pi \\times d \\approx 3.14 \\times 50 = 157$ 公分。這也是「圓周長 $=$ 直徑 $\\times \\pi$」的應用。</p>"
+        }
+      ]
+    },
+    {
+      "type": "single_choice",
+      "name": "單選題",
+      "questions": [
+        {
+          "id": "g6a_ch6_1_q6",
+          "number": 6,
+          "type": "single_choice",
+          "content": "<p>半徑 $4$ 公分的圓，圓周長約多少公分？（$\\pi \\approx 3.14$）</p><p>A. $約 12.56$ 公分</p><p>B. $約 25.12$ 公分</p><p>C. $約 50.24$ 公分</p><p>D. $約 6.28$ 公分</p>",
+          "answer": "B",
+          "explanation": "<p>$C = 2\\pi r \\approx 2 \\times 3.14 \\times 4 = 25.12$ 公分。可以先算 $2 \\times 4 = 8$，再乘 $3.14$ 得 $25.12$。<strong>$\\pi$ 放最後乘</strong>是個好習慣。答案 B。</p>"
+        },
+        {
+          "id": "g6a_ch6_1_q7",
+          "number": 7,
+          "type": "single_choice",
+          "content": "<p>一個半徑 $10$ 公分的半圓，周長約多少公分？（$\\pi \\approx 3.14$）</p><p>A. $約 31.4$ 公分</p><p>B. $約 41.4$ 公分</p><p>C. $約 51.4$ 公分</p><p>D. $約 62.8$ 公分</p>",
+          "answer": "C",
+          "explanation": "<p><strong>半圓周長 $=$ 半圓弧 $+$ 直徑</strong>。半圓弧 $= \\pi r \\approx 3.14 \\times 10 = 31.4$ 公分；直徑 $= 2r = 20$ 公分。合計 $31.4 + 20 = 51.4$ 公分。<strong>不要忘記加直徑</strong>。答案 C。</p>"
+        },
+        {
+          "id": "g6a_ch6_1_q8",
+          "number": 8,
+          "type": "single_choice",
+          "content": "<p>腳踏車輪直徑 $50$ 公分，車輪滾 $100$ 圈，腳踏車前進約多少公尺？（$\\pi \\approx 3.14$）</p><p>A. $約 15.7$ 公尺</p><p>B. $約 157$ 公尺</p><p>C. $約 314$ 公尺</p><p>D. $約 1570$ 公尺</p>",
+          "answer": "B",
+          "explanation": "<p>輪子滾一圈前進距離 $=$ 圓周長 $\\approx 3.14 \\times 50 = 157$ 公分。滾 $100$ 圈 $= 157 \\times 100 = 15700$ 公分 $= 157$ 公尺（$100$ 公分 $= 1$ 公尺）。<strong>單位換算</strong>是常考點。答案 B。</p>"
+        },
+        {
+          "id": "g6a_ch6_1_q9",
+          "number": 9,
+          "type": "single_choice",
+          "content": "<p>一條繩子長 $62.8$ 公分，圍成一個圓，這個圓的半徑約多少公分？（$\\pi \\approx 3.14$）</p><p>A. $約 5$ 公分</p><p>B. $約 10$ 公分</p><p>C. $約 20$ 公分</p><p>D. $約 31.4$ 公分</p>",
+          "answer": "B",
+          "explanation": "<p>繩長 $=$ 圓周長 $= 2\\pi r$。反求 $r = \\dfrac{周長}{2\\pi} = \\dfrac{62.8}{2 \\times 3.14} = \\dfrac{62.8}{6.28} = 10$ 公分。也可先求直徑 $= 62.8 \\div 3.14 = 20$，再除以 $2$ 得半徑 $10$ 公分。答案 B。</p>"
+        },
+        {
+          "id": "g6a_ch6_1_q10",
+          "number": 10,
+          "type": "single_choice",
+          "content": "<p>圓心角 $90^\\circ$、半徑 $4$ 公分的扇形，弧長約多少公分？（$\\pi \\approx 3.14$）</p><p>A. $約 3.14$</p><p>B. $約 6.28$</p><p>C. $約 12.56$</p><p>D. $約 25.12$</p>",
+          "answer": "B",
+          "explanation": "<p>$90^\\circ$ 扇形占整圓 $\\dfrac{1}{4}$。整圓周長 $= 2\\pi r \\approx 2 \\times 3.14 \\times 4 = 25.12$ 公分；弧長 $= 25.12 \\div 4 = 6.28$ 公分。答案 B。注意這題只問<strong>弧長</strong>，不含半徑。</p>"
+        },
+        {
+          "id": "g6a_ch6_1_q11",
+          "number": 11,
+          "type": "single_choice",
+          "content": "<p>圓心角 $90^\\circ$、半徑 $4$ 公分的扇形，扇形的<strong>周長</strong>約多少公分？（$\\pi \\approx 3.14$）</p><p>A. $約 6.28$</p><p>B. $約 10.28$</p><p>C. $約 14.28$</p><p>D. $約 25.12$</p>",
+          "answer": "C",
+          "explanation": "<p><strong>扇形周長 $=$ 弧長 $+$ 兩條半徑</strong>。$90^\\circ$ 扇形弧長 $= 2 \\times 3.14 \\times 4 \\times \\dfrac{1}{4} = 6.28$ 公分；兩條半徑 $= 4 + 4 = 8$ 公分。合計 $6.28 + 8 = 14.28$ 公分。<strong>不要忘了加兩條半徑</strong>。答案 C。</p>"
+        },
+        {
+          "id": "g6a_ch6_1_q12",
+          "number": 12,
+          "type": "single_choice",
+          "content": "<p>圓心角 $120^\\circ$、半徑 $6$ 公分的扇形，弧長約多少公分？（$\\pi \\approx 3.14$）</p><p>A. $約 6.28$</p><p>B. $約 12.56$</p><p>C. $約 18.84$</p><p>D. $約 25.12$</p>",
+          "answer": "B",
+          "explanation": "<p>$120^\\circ$ 占整圓 $\\dfrac{120}{360} = \\dfrac{1}{3}$。整圓周長 $= 2 \\times 3.14 \\times 6 = 37.68$ 公分；弧長 $= 37.68 \\div 3 = 12.56$ 公分。或用公式 $2\\pi r \\times \\dfrac{\\theta}{360^\\circ} = 2 \\times 3.14 \\times 6 \\times \\dfrac{1}{3} = 12.56$。答案 B。</p>"
+        },
+        {
+          "id": "g6a_ch6_1_q13",
+          "number": 13,
+          "type": "single_choice",
+          "content": "<p>一個操場跑道造型：中間是長 $20$ 公分、寬 $10$ 公分的長方形，兩個短邊（寬邊）各外接一個直徑 $10$ 公分的半圓。跑道一圈的周長約多少公分？（$\\pi \\approx 3.14$）</p><p>A. $約 51.4$</p><p>B. $約 61.4$</p><p>C. $約 71.4$</p><p>D. $約 81.4$</p>",
+          "answer": "C",
+          "explanation": "<p>跑道一圈 $=$ 兩條長邊 $+$ 兩個半圓弧（短邊已被半圓取代，不再計入）。兩條長邊 $= 20 \\times 2 = 40$ 公分；兩個半徑 $5$ 公分的半圓拼起來剛好 $=$ 一個整圓，弧長合計 $= 2 \\times 3.14 \\times 5 = 31.4$ 公分。總周長 $= 40 + 31.4 = 71.4$ 公分。答案 C。</p>"
+        },
+        {
+          "id": "g6a_ch6_1_q14",
+          "number": 14,
+          "type": "single_choice",
+          "content": "<p>一個圓的周長是 $94.2$ 公分，這個圓的直徑是多少公分？（$\\pi \\approx 3.14$）</p><p>A. $15$ 公分</p><p>B. $20$ 公分</p><p>C. $30$ 公分</p><p>D. $60$ 公分</p>",
+          "answer": "C",
+          "explanation": "<p>周長 $=$ 直徑 $\\times \\pi$，所以 $d = \\dfrac{C}{\\pi} = \\dfrac{94.2}{3.14} = 30$ 公分。可用直式 $94.2 \\div 3.14$：$3.14 \\times 30 = 94.2$，剛好整除。答案 C。</p>"
+        },
+        {
+          "id": "g6a_ch6_1_q15",
+          "number": 15,
+          "type": "single_choice",
+          "content": "<p>大圓直徑 $20$ 公分、小圓直徑 $8$ 公分，兩圓周長相差約多少公分？（$\\pi \\approx 3.14$）</p><p>A. $約 12$</p><p>B. $約 25.12$</p><p>C. $約 37.68$</p><p>D. $約 62.8$</p>",
+          "answer": "C",
+          "explanation": "<p>周長差 $=$ 大圓周長 $-$ 小圓周長 $= \\pi \\times 20 - \\pi \\times 8 = \\pi \\times (20 - 8) = 12\\pi \\approx 12 \\times 3.14 = 37.68$ 公分。<strong>先把 $\\pi$ 提出來，整數先相減</strong>，計算又快又不易錯。答案 C。</p>"
+        }
+      ]
+    }
+  ]
+}

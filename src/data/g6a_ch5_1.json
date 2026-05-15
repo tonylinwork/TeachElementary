@@ -1,6 +1,6 @@
 {
-  "title": "小六上 5-1 因數",
-  "summary": "<ul><li><strong>因數的定義</strong>：若 $A \\div B$ 沒有餘數（整除），則 $B$ 是 $A$ 的因數，$A$ 是 $B$ 的倍數。例 $12 = 2 \\times 6$，所以 $2$ 與 $6$ 都是 $12$ 的因數。</li><li><strong>找一個數所有的因數</strong>：用「成對找」法。從 $1$ 開始試，$1 \\times 12, 2 \\times 6, 3 \\times 4$ → $12$ 的全部因數是 $\\{1, 2, 3, 4, 6, 12\\}$。<strong>$1$ 與本身永遠是因數</strong>。</li><li><strong>質數與合數</strong>：恰有 $2$ 個因數（$1$ 與本身）的叫<strong>質數</strong>，例 $2, 3, 5, 7, 11, 13$；超過 $2$ 個因數的叫<strong>合數</strong>。$1$ 既不是質數也不是合數。$2$ 是<strong>唯一的偶數質數</strong>。</li><li><strong>公因數</strong>：兩數共同的因數。例 $12$ 的因數 $\\{1, 2, 3, 4, 6, 12\\}$、$18$ 的因數 $\\{1, 2, 3, 6, 9, 18\\}$，公因數為 $\\{1, 2, 3, 6\\}$，<strong>最大公因數（GCD）</strong> $= 6$。</li><li><strong>短除法求最大公因數</strong>：用兩數的<strong>共同質因數</strong>逐次去除，直到兩商互質為止；左邊所有除數相乘 $=$ 最大公因數。例 求 $(24, 36)$：用 $2$ 除 $\\to 12, 18$；用 $2$ 除 $\\to 6, 9$；用 $3$ 除 $\\to 2, 3$（互質），GCD $= 2 \\times 2 \\times 3 = 12$。</li><li><strong>應用題訣竅</strong>：看到「<strong>平均分成若干堆</strong>」、「<strong>切成同樣大小</strong>」、「<strong>剩餘為 $0$</strong>」要想到<strong>公因數／最大公因數</strong>。例 將 $24$ 顆糖與 $36$ 顆餅平均分給最多幾人 → 求 $(24, 36) = 12$。</li></ul>",
+  "title": "小六上 5-1 比與比值",
+  "summary": "<ul><li><strong>比的寫法與名稱</strong>：兩個量的相對關係寫成 $a \\colon b$（讀「$a$ 比 $b$」）。<strong>前項</strong> $a$ 在比號前、<strong>後項</strong> $b$ 在比號後。後項<strong>不可為 $0$</strong>。</li><li><strong>比值</strong>：前項除以後項，$\\dfrac{a}{b} = a \\div b$。比值是一個「數」，比是一種「關係」。比值相同的兩個比視為相等的比。</li><li><strong>相等的比</strong>：前後項<strong>同乘或同除以同一個非零數</strong>，比值不變。<strong>不可以同加或同減</strong>同一個數，例 $3 \\colon 5 \\neq (3+2) \\colon (5+2) = 5 \\colon 7$。</li><li><strong>最簡整數比</strong>：化簡步驟 ① 含小數同乘 $10, 100\\ldots$；② 含分數同乘分母最小公倍數；③ 整數比再除以最大公因數。前後項<strong>互質</strong>就是最簡。</li><li><strong>比例式</strong>：兩個相等的比連等號 $a \\colon b = c \\colon d$。$a, d$ 是<strong>外項</strong>，$b, c$ 是<strong>內項</strong>，並滿足<strong>內項積 $=$ 外項積</strong>：$a \\times d = b \\times c$。</li><li><strong>按比例分配</strong>：總量按 $a \\colon b$ 分配，總份數 $= a + b$，<strong>一份 $=$ 總量 $\\div$ 總份數</strong>，再各乘對應份數。</li></ul>",
   "sections": [
     {
       "type": "true_false",
@@ -10,41 +10,41 @@
           "id": "g6a_ch5_1_q1",
           "number": 1,
           "type": "true_false",
-          "content": "<p>$1$ 是所有正整數的因數。</p>",
-          "answer": "○",
-          "explanation": "<p>正確。任何整數 $N$ 都可以寫成 $N = 1 \\times N$，所以 $1$ 永遠能整除 $N$，$1$ 是 $N$ 的因數。同樣地，$N$ 本身也是 $N$ 的因數。所以每個數至少有 $1$ 與本身兩個因數。</p>"
+          "content": "<p>「$5 \\colon 3$」與「$3 \\colon 5$」是相同的比。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。比的前後項<strong>不可以顛倒</strong>。$5 \\colon 3$ 的比值是 $\\dfrac{5}{3}$，$3 \\colon 5$ 的比值是 $\\dfrac{3}{5}$，兩者不同。在情境中，「甲比乙」與「乙比甲」是不同的意思。</p>"
         },
         {
           "id": "g6a_ch5_1_q2",
           "number": 2,
           "type": "true_false",
-          "content": "<p>$1$ 是質數。</p>",
+          "content": "<p>比的前項與後項<strong>同時加上</strong>或<strong>減去</strong>同一個非零數，比值不變。</p>",
           "answer": "╳",
-          "explanation": "<p>錯誤。質數的定義是<strong>恰好有 $2$ 個因數</strong>（$1$ 與本身），但 $1$ 的因數只有 $1$ 一個。所以 $1$ <strong>既不是質數也不是合數</strong>，是特例。最小的質數是 $2$。</p>"
+          "explanation": "<p>錯誤。比的性質是<strong>同乘或同除</strong>非零數時比值不變，不是同加減。例如 $3 \\colon 5$ 比值 $\\dfrac{3}{5}$；同加 $2$ 變 $5 \\colon 7$ 比值 $\\dfrac{5}{7}$，兩者不同。</p>"
         },
         {
           "id": "g6a_ch5_1_q3",
           "number": 3,
           "type": "true_false",
-          "content": "<p>$2$ 是唯一的偶數質數。</p>",
+          "content": "<p>比例式 $a \\colon b = c \\colon d$ 中，內項積等於外項積，即 $b \\times c = a \\times d$。</p>",
           "answer": "○",
-          "explanation": "<p>正確。除了 $2$ 之外，其他偶數都可以被 $2$ 整除（多了 $2$ 這個因數），所以一定是合數。例 $4 = 2 \\times 2$、$6 = 2 \\times 3$，都有超過 $2$ 個因數。<strong>$2$ 是質數中唯一的偶數</strong>。</p>"
+          "explanation": "<p>正確。比例式的核心性質：<strong>內項積 $=$ 外項積</strong>。例 $2 \\colon 3 = 4 \\colon 6$，內項積 $3 \\times 4 = 12$，外項積 $2 \\times 6 = 12$，相等。這個性質是解未知項的關鍵工具。</p>"
         },
         {
           "id": "g6a_ch5_1_q4",
           "number": 4,
           "type": "true_false",
-          "content": "<p>兩數的最大公因數一定<strong>小於或等於</strong>這兩數中較小的那個。</p>",
-          "answer": "○",
-          "explanation": "<p>正確。公因數必須是<strong>兩個數的因數</strong>，而一個數的因數不會超過它本身。所以公因數最大也只能等於兩數中較小的那一個（當小數能整除大數時）。例 $(6, 18) = 6$，等於較小的 $6$。</p>"
+          "content": "<p>$1$ 公尺 $\\colon 50$ 公分 化成最簡整數比是 $1 \\colon 50$。</p>",
+          "answer": "╳",
+          "explanation": "<p>錯誤。前後項的<strong>單位要先統一</strong>。$1$ 公尺 $= 100$ 公分，所以是 $100 \\colon 50$，再除以最大公因數 $50$ 得 $2 \\colon 1$，不是 $1 \\colon 50$。</p>"
         },
         {
           "id": "g6a_ch5_1_q5",
           "number": 5,
           "type": "true_false",
-          "content": "<p>$15$ 與 $28$ 的最大公因數是 $1$，所以這兩數<strong>互質</strong>。</p>",
+          "content": "<p>$\\dfrac{1}{2} \\colon \\dfrac{1}{3}$ 化成最簡整數比是 $3 \\colon 2$。</p>",
           "answer": "○",
-          "explanation": "<p>正確。$15 = 3 \\times 5$，$28 = 2 \\times 2 \\times 7$，沒有共同質因數，所以最大公因數 $= 1$。最大公因數為 $1$ 的兩數稱為<strong>互質</strong>。互質不代表兩數本身是質數，例 $15$ 與 $28$ 都不是質數但互質。</p>"
+          "explanation": "<p>正確。前後項<strong>同乘分母的最小公倍數</strong> $6$：$\\dfrac{1}{2} \\times 6 = 3$，$\\dfrac{1}{3} \\times 6 = 2$，得 $3 \\colon 2$，前後項已互質。也可從比值驗證：$\\dfrac{1/2}{1/3} = \\dfrac{1}{2} \\times 3 = \\dfrac{3}{2}$ ✓。</p>"
         }
       ]
     },
@@ -56,81 +56,81 @@
           "id": "g6a_ch5_1_q6",
           "number": 6,
           "type": "single_choice",
-          "content": "<p>$24$ 的全部因數共有幾個？</p><p>A. $6$ 個</p><p>B. $7$ 個</p><p>C. $8$ 個</p><p>D. $10$ 個</p>",
+          "content": "<p>$24 \\colon 18$ 的最簡整數比是？</p><p>A. $12 \\colon 9$</p><p>B. $8 \\colon 6$</p><p>C. $4 \\colon 3$</p><p>D. $3 \\colon 2$</p>",
           "answer": "C",
-          "explanation": "<p>用<strong>成對找</strong>：$1 \\times 24, 2 \\times 12, 3 \\times 8, 4 \\times 6$。$24$ 的因數是 $\\{1, 2, 3, 4, 6, 8, 12, 24\\}$，共 $8$ 個。注意 $5, 7$ 不是 $24$ 的因數（不能整除）。答案 C。</p>"
+          "explanation": "<p>$24$ 與 $18$ 的最大公因數是 $6$（$24 = 6 \\times 4$、$18 = 6 \\times 3$），同除以 $6$ 得 $4 \\colon 3$。A、B 雖然是相等的比但還沒最簡（公因數還沒除盡）。答案 C。</p>"
         },
         {
           "id": "g6a_ch5_1_q7",
           "number": 7,
           "type": "single_choice",
-          "content": "<p>下列哪一個數<strong>不是</strong>質數？</p><p>A. $11$</p><p>B. $17$</p><p>C. $21$</p><p>D. $23$</p>",
-          "answer": "C",
-          "explanation": "<p>檢查每個數的因數。$11, 17, 23$ 只有 $1$ 與本身兩個因數，是質數。<strong>$21 = 3 \\times 7$</strong>，多了 $3$ 與 $7$ 兩個因數，所以 $21$ 是合數，不是質數。容易誤判，要小心。答案 C。</p>"
+          "content": "<p>下列哪一組比的比值是 $\\dfrac{3}{4}$？</p><p>A. $4 \\colon 3$</p><p>B. $6 \\colon 8$</p><p>C. $3 \\colon 7$</p><p>D. $4 \\colon 7$</p>",
+          "answer": "B",
+          "explanation": "<p>比值 $=$ 前項 $\\div$ 後項。A：$\\dfrac{4}{3}$ ✗；B：$\\dfrac{6}{8} = \\dfrac{3}{4}$ ✓；C：$\\dfrac{3}{7}$ ✗；D：$\\dfrac{4}{7}$ ✗。$6 \\colon 8$ 化簡為 $3 \\colon 4$，與 $\\dfrac{3}{4}$ 同值。答案 B。</p>"
         },
         {
           "id": "g6a_ch5_1_q8",
           "number": 8,
           "type": "single_choice",
-          "content": "<p>$18$ 與 $24$ 的最大公因數是？</p><p>A. $2$</p><p>B. $3$</p><p>C. $6$</p><p>D. $12$</p>",
+          "content": "<p>下列哪一個比例式<strong>不成立</strong>？</p><p>A. $2 \\colon 3 = 4 \\colon 6$</p><p>B. $5 \\colon 8 = 10 \\colon 16$</p><p>C. $3 \\colon 4 = 9 \\colon 16$</p><p>D. $6 \\colon 9 = 8 \\colon 12$</p>",
           "answer": "C",
-          "explanation": "<p>用<strong>短除法</strong>：$\\begin{array}{r|rr}2 & 18 & 24 \\\\ 3 & 9 & 12 \\\\ & 3 & 4\\end{array}$（$3, 4$ 互質停止）。GCD $= 2 \\times 3 = 6$。驗算：$18 = 6 \\times 3$、$24 = 6 \\times 4$ ✓。答案 C。</p>"
+          "explanation": "<p>用<strong>內項積 $=$ 外項積</strong>檢驗。A：$2 \\times 6 = 12 = 3 \\times 4$ ✓；B：$5 \\times 16 = 80 = 8 \\times 10$ ✓；<strong>C：$3 \\times 16 = 48$ 但 $4 \\times 9 = 36$，不相等</strong>；D：$6 \\times 12 = 72 = 9 \\times 8$ ✓。答案 C。</p>"
         },
         {
           "id": "g6a_ch5_1_q9",
           "number": 9,
           "type": "single_choice",
-          "content": "<p>$36$、$48$、$60$ 三個數的最大公因數是？</p><p>A. $4$</p><p>B. $6$</p><p>C. $12$</p><p>D. $24$</p>",
+          "content": "<p>解比例式 $3 \\colon 4 = x \\colon 20$，$x$ 的值是？</p><p>A. $5$</p><p>B. $12$</p><p>C. $15$</p><p>D. $80$</p>",
           "answer": "C",
-          "explanation": "<p>三數短除法：用 $2$ 除 $\\to 18, 24, 30$；用 $2$ 除 $\\to 9, 12, 15$；用 $3$ 除 $\\to 3, 4, 5$（三數互質）。GCD $= 2 \\times 2 \\times 3 = 12$。三數最大公因數必須是<strong>三數共同的</strong>因數。答案 C。</p>"
+          "explanation": "<p>用<strong>內項積 $=$ 外項積</strong>：$3 \\times 20 = 4 \\times x$，$60 = 4x$，$x = 15$。也可從相等的比看出：後項 $4 \\to 20$ 是同乘 $5$，前項也要同乘 $5$，$3 \\times 5 = 15$。答案 C。</p>"
         },
         {
           "id": "g6a_ch5_1_q10",
           "number": 10,
           "type": "single_choice",
-          "content": "<p>$45$ 的因數中是質數的有哪些？</p><p>A. $1, 3, 5$</p><p>B. $3, 5$</p><p>C. $3, 5, 9$</p><p>D. $3, 5, 15$</p>",
-          "answer": "B",
-          "explanation": "<p>$45 = 3 \\times 3 \\times 5$，因數為 $\\{1, 3, 5, 9, 15, 45\\}$。其中是質數的：$3$ ✓、$5$ ✓；$1$ 不是質數，$9 = 3 \\times 3$、$15 = 3 \\times 5$、$45 = 3 \\times 3 \\times 5$ 都是合數。所以是 $\\{3, 5\\}$。答案 B。</p>"
+          "content": "<p>把 $240$ 元按 $3 \\colon 5$ 分給甲、乙兩人，乙得到多少元？</p><p>A. $80$ 元</p><p>B. $90$ 元</p><p>C. $120$ 元</p><p>D. $150$ 元</p>",
+          "answer": "D",
+          "explanation": "<p>總份數 $= 3 + 5 = 8$；<strong>一份 $= 240 \\div 8 = 30$ 元</strong>；甲 $= 3 \\times 30 = 90$ 元，乙 $= 5 \\times 30 = 150$ 元。驗算：$90 + 150 = 240$ ✓。答案 D。</p>"
         },
         {
           "id": "g6a_ch5_1_q11",
           "number": 11,
           "type": "single_choice",
-          "content": "<p>下列哪一組數<strong>互質</strong>？</p><p>A. $6$ 與 $9$</p><p>B. $10$ 與 $15$</p><p>C. $8$ 與 $9$</p><p>D. $14$ 與 $21$</p>",
+          "content": "<p>$0.6 \\colon 1.5$ 化成最簡整數比是？</p><p>A. $6 \\colon 15$</p><p>B. $3 \\colon 7$</p><p>C. $2 \\colon 5$</p><p>D. $5 \\colon 2$</p>",
           "answer": "C",
-          "explanation": "<p>互質：最大公因數 $= 1$。A：$(6, 9) = 3$ ✗；B：$(10, 15) = 5$ ✗；<strong>C：$8 = 2^3$、$9 = 3^2$，沒有共同質因數，$(8, 9) = 1$ ✓</strong>；D：$(14, 21) = 7$ ✗。答案 C。</p>"
+          "explanation": "<p>先去小數，前後項<strong>同乘 $10$</strong>：$0.6 \\colon 1.5 = 6 \\colon 15$；再除以最大公因數 $3$：$6 \\div 3 = 2$、$15 \\div 3 = 5$，得 $2 \\colon 5$。答案 C。</p>"
         },
         {
           "id": "g6a_ch5_1_q12",
           "number": 12,
           "type": "single_choice",
-          "content": "<p>$72$ 的質因數分解是？</p><p>A. $2 \\times 3 \\times 12$</p><p>B. $2 \\times 2 \\times 2 \\times 9$</p><p>C. $2 \\times 2 \\times 2 \\times 3 \\times 3$</p><p>D. $8 \\times 9$</p>",
-          "answer": "C",
-          "explanation": "<p>質因數分解必須每個因數都是<strong>質數</strong>。$72 = 8 \\times 9 = 2^3 \\times 3^2 = 2 \\times 2 \\times 2 \\times 3 \\times 3$。A 中 $12$、B 中 $9$、D 中 $8, 9$ 都不是質數，所以只有 C 符合。答案 C。</p>"
+          "content": "<p>調糖水時，糖與水的重量比是 $1 \\colon 4$。要調出 $200$ 公克糖水，需要多少公克糖？</p><p>A. $40$ 公克</p><p>B. $50$ 公克</p><p>C. $80$ 公克</p><p>D. $160$ 公克</p>",
+          "answer": "A",
+          "explanation": "<p>總份數 $= 1 + 4 = 5$；一份 $= 200 \\div 5 = 40$ 公克；糖 $= 1 \\times 40 = 40$ 公克，水 $= 4 \\times 40 = 160$ 公克。注意「糖水」是糖加水的總和，總份數要把糖也算進去。答案 A。</p>"
         },
         {
           "id": "g6a_ch5_1_q13",
           "number": 13,
           "type": "single_choice",
-          "content": "<p>媽媽要把 $24$ 顆蘋果與 $36$ 顆橘子<strong>平均分裝</strong>成同樣的禮盒（每盒蘋果一樣多、橘子也一樣多），不可有剩。最多可分裝成幾盒？</p><p>A. $6$ 盒</p><p>B. $12$ 盒</p><p>C. $18$ 盒</p><p>D. $24$ 盒</p>",
+          "content": "<p>長方形長與寬的比是 $5 \\colon 3$，若周長是 $48$ 公分，則長是多少公分？</p><p>A. $9$ 公分</p><p>B. $15$ 公分</p><p>C. $18$ 公分</p><p>D. $30$ 公分</p>",
           "answer": "B",
-          "explanation": "<p>看到「<strong>平均分</strong>不剩」要想到<strong>公因數</strong>，要「最多」就取<strong>最大公因數</strong>。$(24, 36) = 12$，最多可分裝成 $12$ 盒。每盒 $24 \\div 12 = 2$ 顆蘋果、$36 \\div 12 = 3$ 顆橘子。答案 B。</p>"
+          "explanation": "<p>周長 $=$（長 $+$ 寬）$\\times 2$，所以長 $+$ 寬 $= 48 \\div 2 = 24$ 公分。長 : 寬 $= 5 \\colon 3$，總份數 $5 + 3 = 8$，<strong>一份 $= 24 \\div 8 = 3$</strong>。長 $= 5 \\times 3 = 15$ 公分，寬 $= 3 \\times 3 = 9$ 公分。答案 B。</p>"
         },
         {
           "id": "g6a_ch5_1_q14",
           "number": 14,
           "type": "single_choice",
-          "content": "<p>一塊長 $48$ 公分、寬 $36$ 公分的長方形紙板，要切成大小相同的正方形且不剩，正方形邊長最大可以是幾公分？</p><p>A. $4$ 公分</p><p>B. $6$ 公分</p><p>C. $9$ 公分</p><p>D. $12$ 公分</p>",
-          "answer": "D",
-          "explanation": "<p>正方形邊長必須同時是 $48$ 與 $36$ 的因數（這樣才能整齊切完），「最大」邊長就是<strong>最大公因數</strong>：$(48, 36) = 12$ 公分。共可切 $(48 \\div 12) \\times (36 \\div 12) = 4 \\times 3 = 12$ 塊。答案 D。</p>"
+          "content": "<p>解比例式 $\\dfrac{2}{3} \\colon x = 4 \\colon 9$，$x$ 等於多少？</p><p>A. $\\dfrac{3}{2}$</p><p>B. $\\dfrac{8}{3}$</p><p>C. $6$</p><p>D. $\\dfrac{2}{27}$</p>",
+          "answer": "A",
+          "explanation": "<p>內項積 $=$ 外項積：$\\dfrac{2}{3} \\times 9 = 4 \\times x$，$\\dfrac{18}{3} = 4x$，$6 = 4x$，$x = \\dfrac{6}{4} = \\dfrac{3}{2}$。答案 A。</p>"
         },
         {
           "id": "g6a_ch5_1_q15",
           "number": 15,
           "type": "single_choice",
-          "content": "<p>$120$ 與 $80$ 的公因數共有幾個？</p><p>A. $4$ 個</p><p>B. $6$ 個</p><p>C. $8$ 個</p><p>D. $10$ 個</p>",
+          "content": "<p>已知 $A \\colon B = 2 \\colon 3$，$B \\colon C = 4 \\colon 5$，則連比 $A \\colon B \\colon C$ 是？</p><p>A. $2 \\colon 3 \\colon 5$</p><p>B. $2 \\colon 4 \\colon 5$</p><p>C. $8 \\colon 12 \\colon 15$</p><p>D. $10 \\colon 15 \\colon 12$</p>",
           "answer": "C",
-          "explanation": "<p>關鍵性質：<strong>所有公因數 $=$ 最大公因數的因數</strong>。先求 $(120, 80)$：短除法 $2, 2, 2, 5$ 共除完，GCD $= 40$。再找 $40$ 的因數：$\\{1, 2, 4, 5, 8, 10, 20, 40\\}$，共 $8$ 個。答案 C。</p>"
+          "explanation": "<p>合併連比要<strong>對齊共同項 $B$</strong>。$B$ 在第一比是 $3$、在第二比是 $4$，最小公倍數 $= 12$。第一比同乘 $4$：$A \\colon B = 8 \\colon 12$；第二比同乘 $3$：$B \\colon C = 12 \\colon 15$。合併得 $A \\colon B \\colon C = 8 \\colon 12 \\colon 15$。答案 C。</p>"
         }
       ]
     }
