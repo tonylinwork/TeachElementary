@@ -60,7 +60,7 @@
           "type": "true_false",
           "content": "<p>兩個圖形面積相等，就一定全等。</p>",
           "answer": "╳",
-          "explanation": "<p>錯誤。面積相等只代表大小的面積相同，不代表形狀完全相同。例如 $2 \times 6$ 和 $3 \times 4$ 的長方形面積都是 $12$，但形狀不同，不全等。</p>"
+          "explanation": "<p>錯誤。面積相等只代表大小的面積相同，不代表形狀完全相同。例如 $2 \\times 6$ 和 $3 \\times 4$ 的長方形面積都是 $12$，但形狀不同，不全等。</p>"
         },
         {
           "id": "g6c_ch22_1_q18",
@@ -192,17 +192,17 @@
           "id": "g6c_ch22_1_q23",
           "number": 23,
           "type": "single_choice",
-          "content": "<p>$\triangle PQR cong \triangle XYZ$，則 $angle Q$ 對應哪一個角？</p><p>A. $angle X$</p><p>B. $angle Y$</p><p>C. $angle Z$</p><p>D. 不能確定</p>",
+          "content": "<p>$\\triangle PQR \\cong \\triangle XYZ$，則 $\\angle Q$ 對應哪一個角？</p><p>A. $\\angle X$</p><p>B. $\\angle Y$</p><p>C. $\\angle Z$</p><p>D. 不能確定</p>",
           "answer": "B",
-          "explanation": "<p>依字母順序對應：$P leftrightarrow X$、$Q leftrightarrow Y$、$R leftrightarrow Z$，所以 $angle Q$ 對應 $angle Y$。答案 B。</p>"
+          "explanation": "<p>依字母順序對應：$P \\leftrightarrow X$、$Q \\leftrightarrow Y$、$R \\leftrightarrow Z$，所以 $\\angle Q$ 對應 $\\angle Y$。答案 B。</p>"
         },
         {
           "id": "g6c_ch22_1_q24",
           "number": 24,
           "type": "single_choice",
-          "content": "<p>$\triangle PQR cong \triangle XYZ$，若 $overline{QR}=12\text{ cm}$，則下列哪一邊也是 $12\text{ cm}$？</p><p>A. $overline{XY}$</p><p>B. $overline{XZ}$</p><p>C. $overline{YZ}$</p><p>D. $overline{PX}$</p>",
+          "content": "<p>$\\triangle PQR \\cong \\triangle XYZ$，若 $\\overline{QR}=12\\text{ cm}$，則下列哪一邊也是 $12\\text{ cm}$？</p><p>A. $\\overline{XY}$</p><p>B. $\\overline{XZ}$</p><p>C. $\\overline{YZ}$</p><p>D. $\\overline{PX}$</p>",
           "answer": "C",
-          "explanation": "<p>$Q leftrightarrow Y$、$R leftrightarrow Z$，所以 $overline{QR}$ 對應 $overline{YZ}$。全等圖形對應邊相等，因此 $overline{YZ}=12\text{ cm}$。答案 C。</p>"
+          "explanation": "<p>$Q \\leftrightarrow Y$、$R \\leftrightarrow Z$，所以 $\\overline{QR}$ 對應 $\\overline{YZ}$。全等圖形對應邊相等，因此 $\\overline{YZ}=12\\text{ cm}$。答案 C。</p>"
         },
         {
           "id": "g6c_ch22_1_q25",
@@ -224,9 +224,9 @@
           "id": "g6c_ch22_1_q27",
           "number": 27,
           "type": "single_choice",
-          "content": "<p>若兩個全等圖形中的一個面積是 $48\text{ cm}^2$，另一個面積是多少？</p><p>A. $24\text{ cm}^2$</p><p>B. $48\text{ cm}^2$</p><p>C. $96\text{ cm}^2$</p><p>D. 不能確定</p>",
+          "content": "<p>若兩個全等圖形中的一個面積是 $48\\text{ cm}^2$，另一個面積是多少？</p><p>A. $24\\text{ cm}^2$</p><p>B. $48\\text{ cm}^2$</p><p>C. $96\\text{ cm}^2$</p><p>D. 不能確定</p>",
           "answer": "B",
-          "explanation": "<p>全等圖形的形狀和大小都相同，所以面積也相同。另一個圖形面積是 $48\text{ cm}^2$。答案 B。</p>"
+          "explanation": "<p>全等圖形的形狀和大小都相同，所以面積也相同。另一個圖形面積是 $48\\text{ cm}^2$。答案 B。</p>"
         },
         {
           "id": "g6c_ch22_1_q28",
