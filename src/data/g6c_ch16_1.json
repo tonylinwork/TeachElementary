@@ -1,5 +1,5 @@
 {
-  "title": "小六挑戰 16-1 自訂運算與抽象符號（國中銜接）",
+  "title": "小六挑戰 16 自訂運算與抽象符號（國中銜接）",
   "summary": "<ul><li><strong>自訂運算符的意義</strong>：題目用一個新符號（如 $\\star, \\heartsuit, \\bigtriangleup, \\diamond$）配上一個「規則式」來定義新運算。例如 $a \\star b = 2a + b$ 表示「左邊的兩倍加上右邊」。讀題時要把符號當代號，按定義代入即可。</li><li><strong>代入計算</strong>：求 $5 \\star 3$ 時，把 $a = 5, b = 3$ 代入規則 $\\to 2 \\times 5 + 3 = 13$。記得：<strong>左右順序不可任意對調</strong>，多數自訂運算不具交換律。</li><li><strong>嵌套運算（複合計算）</strong>：像 $a \\star (b \\star c)$ 一定要<strong>先算括號內</strong>，再把結果當第二個變數代回外層。例如 $2 \\star (3 \\star 1) = 2 \\star (\\text{先算} 3 \\star 1) \\to 2 \\star (\\text{結果})$。</li><li><strong>條件型運算</strong>：規則中含「if $a > b$ then $\\ldots$ else $\\ldots$」。先比較 $a, b$ 大小，再選擇對應的式子代入。例如 $a \\bigtriangleup b = \\begin{cases} a - b, & a > b \\\\ a \\times b, & a \\le b \\end{cases}$。</li><li><strong>求未知數（反推題）</strong>：已知運算結果反求其中一個輸入。例如「$x \\star 3 = 11$，$\\star$ 定義為 $a \\star b = 2a + b$」，得 $2x + 3 = 11 \\to x = 4$。本質是<strong>解一元一次方程式</strong>。</li><li><strong>多種自訂運算混合</strong>：題目可能同時定義兩個符號（如 $\\heartsuit$ 與 $\\diamond$），要分清楚各自的規則，按括號順序逐層計算。</li><li><strong>常見陷阱</strong>：① 把 $a \\star b$ 當成乘法 $a \\times b$；② 嵌套時忘記先算括號；③ 條件型沒先判斷大小就直接代；④ 反推時忘記把運算對應到正確的方程式。</li><li><strong>解題流程</strong>：「看定義 $\\to$ 對應符號角色 $\\to$ 代入計算」三步驟。複合題就反覆使用，先內後外。</li></ul>",
   "sections": [
     {

@@ -1,5 +1,5 @@
 {
-  "title": "小六挑戰 21-1 整數的四則運算（複習）",
+  "title": "小六挑戰 21 整數的四則運算（複習）",
   "summary": "<ul><li><strong>運算順序</strong>：① 先做<strong>括號</strong>內；② 再做<strong>乘除</strong>（由左至右）；③ 最後做<strong>加減</strong>（由左至右）。乘除同級、加減同級，遇到同級時一律由左至右。</li><li><strong>括號的層次</strong>：小括號 $(\\ )$ → 中括號 $[\\ ]$ → 大括號 $\\{\\ \\}$，由內而外逐層計算。例：$2 \\times [3 + (5 - 2)] = 2 \\times [3 + 3] = 12$。</li><li><strong>交換律</strong>：加法 $a + b = b + a$；乘法 $a \\times b = b \\times a$。<strong>減法與除法沒有交換律</strong>。</li><li><strong>結合律</strong>：加法 $(a + b) + c = a + (b + c)$；乘法 $(a \\times b) \\times c = a \\times (b \\times c)$。<strong>減除沒有結合律</strong>，例 $12 \\div 6 \\div 2 \\neq 12 \\div (6 \\div 2)$。</li><li><strong>分配律</strong>：$a \\times (b + c) = a \\times b + a \\times c$；$a \\times (b - c) = a \\times b - a \\times c$。常配合「特殊搭檔」$4 \\times 25 = 100$、$8 \\times 125 = 1000$ 簡化計算。</li><li><strong>列式應用</strong>：把題目的「先 …… 再 ……」轉成算式時，<strong>先做的部分要加括號</strong>；中文「比 …… 多／少」的基準量在「比」的後面。</li></ul>",
   "sections": [
     {

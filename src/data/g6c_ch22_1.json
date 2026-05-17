@@ -1,5 +1,5 @@
 {
-  "title": "小六挑戰 22-1 線對稱與全等（複習）",
+  "title": "小六挑戰 22 線對稱與全等（複習）",
   "summary": "<ul><li><strong>線對稱圖形</strong>：沿一條直線對折後，兩側能完全重合的圖形。這條線稱為<strong>對稱軸</strong>。對應點到對稱軸的距離相等，且對應點連線垂直於對稱軸並被平分。</li><li><strong>常見對稱軸數量</strong>：正方形 $4$ 條、正三角形 $3$ 條、長方形 $2$ 條、等腰三角形 $1$ 條、等腰梯形 $1$ 條、圓有無限多條（任一直徑都是）；<strong>平行四邊形（非長方形或菱形）沒有對稱軸</strong>，這是常見陷阱。</li><li><strong>全等圖形</strong>：形狀和大小完全相同的兩個圖形，記號 $\\cong$（讀作「全等於」），例如 $\\triangle ABC \\cong \\triangle DEF$。對應頂點、對應邊、對應角依字母順序一一對應：$A \\leftrightarrow D$、$\\overline{AB} \\leftrightarrow \\overline{DE}$、$\\angle A \\leftrightarrow \\angle D$ 等。</li><li><strong>全等的性質</strong>：兩個全等圖形可透過平移、旋轉、翻轉互相對應。對應邊相等、對應角相等、面積與周長也相等。</li><li><strong>全等判定（國小直觀）</strong>：<strong>SSS</strong>（三邊對應相等）、<strong>SAS</strong>（兩邊及夾角對應相等）、<strong>ASA</strong>（兩角及夾邊對應相等）即可確定兩三角形全等。注意 SAS 中角必須是兩邊「夾」住的角；ASA 中邊必須是兩角「夾」住的邊。</li><li><strong>AAA 不是全等條件</strong>：三個角分別相等只能保證兩三角形<strong>相似</strong>（形狀相同），大小可能不同。例如所有正三角形都互相相似但不一定全等。</li></ul>",
   "sections": [
     {
