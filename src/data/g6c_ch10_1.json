@@ -20,7 +20,7 @@
           "type": "true_false",
           "content": "<p>兩條平行線之間任何兩點的距離都相等。</p>",
           "answer": "╳",
-          "explanation": "<p>錯誤。<strong>必須是「垂直距離」才處處相等</strong>，斜著量任意兩點的距離並不相等。<br/>例：$L_1$ 與 $L_2$ 平行，$A$、$B$ 為 $L_1$ 上相距 $5$ 公分的兩點，$C$ 為 $L_2$ 上某點。若兩線垂直距離是 $3$ 公分，則 $AC$、$BC$ 通常都大於 $3$ 公分（斜邊長於垂直距離）。所以正確說法是「<strong>兩平行線之間的垂直距離處處相等</strong>」。</p>"
+          "explanation": "<p>錯誤。<strong>必須是「垂直距離」才處處相等</strong>，斜著量任意兩點的距離並不相等。<br/>例：$L_1$ 與 $L_2$ 平行，$A$、$B$ 為 $L_1$ 上相距 $5$ 公分的兩點，$C$ 為 $L_2$ 上某點。若兩線垂直距離是 $3$ 公分，則 $\\overline{AC}$、$\\overline{BC}$ 通常都大於 $3$ 公分（斜邊長於垂直距離）。所以正確說法是「<strong>兩平行線之間的垂直距離處處相等</strong>」。</p>"
         },
         {
           "id": "g6c_ch10_1_q3",
@@ -90,7 +90,7 @@
           "type": "single_choice",
           "content": "<p>如圖，$L_1 \\parallel L_2$，一條折線 $A$-$P$-$B$ 從 $L_1$ 上的 $A$ 走到 $L_2$ 上的 $B$，中途轉折於兩線之間的 $P$ 點。已知 $\\angle PAL_1 = 35°$、$\\angle PBL_2 = 45°$，求折線在 $P$ 點的轉折角 $\\angle APB$。<br/>提示：過 $P$ 作 $L_3 \\parallel L_1$，把 $\\angle APB$ 拆成 $\\angle APL_3$ 與 $\\angle L_3 PB$。</p><div style=\"text-align:center;margin:10px 0;\"><svg width=\"340\" height=\"240\" viewBox=\"0 0 340 240\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"50\" x2=\"310\" y2=\"50\" stroke=\"#333\" stroke-width=\"2\"/><text x=\"315\" y=\"55\" font-size=\"14\" font-weight=\"bold\" fill=\"#333\">L₁</text><line x1=\"20\" y1=\"200\" x2=\"310\" y2=\"200\" stroke=\"#333\" stroke-width=\"2\"/><text x=\"315\" y=\"205\" font-size=\"14\" font-weight=\"bold\" fill=\"#333\">L₂</text><line x1=\"220\" y1=\"50\" x2=\"130\" y2=\"125\" stroke=\"#1f3d7a\" stroke-width=\"2\"/><line x1=\"240\" y1=\"200\" x2=\"130\" y2=\"125\" stroke=\"#1f3d7a\" stroke-width=\"2\"/><circle cx=\"220\" cy=\"50\" r=\"3\" fill=\"#333\"/><text x=\"216\" y=\"42\" font-size=\"14\" font-weight=\"bold\" fill=\"#333\">A</text><circle cx=\"240\" cy=\"200\" r=\"3\" fill=\"#333\"/><text x=\"236\" y=\"222\" font-size=\"14\" font-weight=\"bold\" fill=\"#333\">B</text><circle cx=\"130\" cy=\"125\" r=\"4\" fill=\"#c00\"/><text x=\"114\" y=\"122\" font-size=\"14\" font-weight=\"bold\" fill=\"#c00\">P</text><path d=\"M 206 50 A 14 14 0 0 1 210 60\" fill=\"none\" stroke=\"#c00\" stroke-width=\"1.5\"/><text x=\"194\" y=\"68\" text-anchor=\"middle\" font-size=\"13\" fill=\"#c00\" font-weight=\"bold\">35°</text><path d=\"M 226 200 A 14 14 0 0 0 229 191\" fill=\"none\" stroke=\"#c00\" stroke-width=\"1.5\"/><text x=\"212\" y=\"187\" text-anchor=\"middle\" font-size=\"13\" fill=\"#c00\" font-weight=\"bold\">45°</text><text x=\"180\" y=\"132\" font-size=\"13\" fill=\"#0a7\" font-weight=\"bold\">∠APB = ?</text></svg></div><p>A. $10°$　B. $35°$　C. $45°$　D. $80°$</p>",
           "answer": "D",
-          "explanation": "<p>這是<strong>輔助線策略題</strong>。<br/>過 $P$ 作 $L_3 \\parallel L_1$。因為 $L_1 \\parallel L_2$ 且 $L_3 \\parallel L_1$，所以 $L_3 \\parallel L_2$（平行的遞移性）。<br/>① $AP$ 截 $L_1$、$L_3$ 兩平行線：$\\angle PAL_1$ 與 $\\angle APL_3$ 是內錯角 $\\to$ $\\angle APL_3 = 35°$。<br/>② $BP$ 截 $L_3$、$L_2$ 兩平行線：$\\angle PBL_2$ 與 $\\angle L_3 PB$ 是內錯角 $\\to$ $\\angle L_3 PB = 45°$。<br/>所以 $\\angle APB = \\angle APL_3 + \\angle L_3 PB = 35° + 45° = \\mathbf{80°}$。<br/>畫面：<br/>$\\quad L_1\\!=\\!=\\!=\\!A\\!=\\!=\\!=$<br/>$\\quad\\ \\ \\ \\backslash$<br/>$\\quad\\ \\ \\ \\ P\\!-\\!-\\!L_3\\!-\\!-$<br/>$\\quad\\ \\ \\ \\ /$<br/>$\\quad L_2\\!=\\!=\\!B\\!=\\!=\\!=$<br/>答案 D。這是國中最常考的「平行線中間夾折線」題型。</p>"
+          "explanation": "<p>這是<strong>輔助線策略題</strong>。<br/>過 $P$ 作 $L_3 \\parallel L_1$。因為 $L_1 \\parallel L_2$ 且 $L_3 \\parallel L_1$，所以 $L_3 \\parallel L_2$（平行的遞移性）。<br/>① $\\overline{AP}$ 截 $L_1$、$L_3$ 兩平行線：$\\angle PAL_1$ 與 $\\angle APL_3$ 是內錯角 $\\to$ $\\angle APL_3 = 35°$。<br/>② $\\overline{BP}$ 截 $L_3$、$L_2$ 兩平行線：$\\angle PBL_2$ 與 $\\angle L_3 PB$ 是內錯角 $\\to$ $\\angle L_3 PB = 45°$。<br/>所以 $\\angle APB = \\angle APL_3 + \\angle L_3 PB = 35° + 45° = \\mathbf{80°}$。<br/>畫面：<br/>$\\quad L_1\\!=\\!=\\!=\\!A\\!=\\!=\\!=$<br/>$\\quad\\ \\ \\ \\backslash$<br/>$\\quad\\ \\ \\ \\ P\\!-\\!-\\!L_3\\!-\\!-$<br/>$\\quad\\ \\ \\ \\ /$<br/>$\\quad L_2\\!=\\!=\\!B\\!=\\!=\\!=$<br/>答案 D。這是國中最常考的「平行線中間夾折線」題型。</p>"
         },
         {
           "id": "g6c_ch10_1_q11",
@@ -98,15 +98,15 @@
           "type": "single_choice",
           "content": "<p>平行四邊形 $ABCD$ 中，若 $\\angle A = 70°$，則 $\\angle B$、$\\angle C$、$\\angle D$ 分別是多少度？</p><p>A. $\\angle B = 70°,\\ \\angle C = 110°,\\ \\angle D = 110°$</p><p>B. $\\angle B = 110°,\\ \\angle C = 70°,\\ \\angle D = 110°$</p><p>C. $\\angle B = 110°,\\ \\angle C = 110°,\\ \\angle D = 70°$</p><p>D. $\\angle B = 70°,\\ \\angle C = 70°,\\ \\angle D = 70°$</p>",
           "answer": "B",
-          "explanation": "<p>用平行四邊形兩大角度性質：<br/>① <strong>對角相等</strong>：$\\angle A = \\angle C$、$\\angle B = \\angle D$。所以 $\\angle C = 70°$。<br/>② <strong>鄰角互補</strong>（因為 $AD \\parallel BC$，$AB$ 為截線，$\\angle A$ 與 $\\angle B$ 是同側內角）：$\\angle A + \\angle B = 180°$ $\\to$ $\\angle B = 180° - 70° = 110°$，同理 $\\angle D = 110°$。<br/>所以 $\\angle B = 110°,\\ \\angle C = 70°,\\ \\angle D = 110°$。答案 B。<br/>檢驗：四角之和 $= 70 + 110 + 70 + 110 = 360°$ ✓（任何四邊形內角和都是 $360°$）。</p>"
+          "explanation": "<p>用平行四邊形兩大角度性質：<br/>① <strong>對角相等</strong>：$\\angle A = \\angle C$、$\\angle B = \\angle D$。所以 $\\angle C = 70°$。<br/>② <strong>鄰角互補</strong>（因為 $\\overline{AD} \\parallel \\overline{BC}$，$\\overline{AB}$ 為截線，$\\angle A$ 與 $\\angle B$ 是同側內角）：$\\angle A + \\angle B = 180°$ $\\to$ $\\angle B = 180° - 70° = 110°$，同理 $\\angle D = 110°$。<br/>所以 $\\angle B = 110°,\\ \\angle C = 70°,\\ \\angle D = 110°$。答案 B。<br/>檢驗：四角之和 $= 70 + 110 + 70 + 110 = 360°$ ✓（任何四邊形內角和都是 $360°$）。</p>"
         },
         {
           "id": "g6c_ch10_1_q12",
           "number": 12,
           "type": "single_choice",
-          "content": "<p>平行四邊形 $ABCD$ 中，兩條對角線 $AC$、$BD$ 相交於 $O$ 點，且 $AC = 12$ 公分、$BD = 10$ 公分。則 $AO$、$BO$ 分別是多少公分？</p><p>A. $AO = 6,\\ BO = 5$</p><p>B. $AO = 4,\\ BO = 4$</p><p>C. $AO = 8,\\ BO = 5$</p><p>D. $AO = 12,\\ BO = 10$</p>",
+          "content": "<p>平行四邊形 $ABCD$ 中，兩條對角線 $\\overline{AC}$、$\\overline{BD}$ 相交於 $O$ 點，且 $\\overline{AC} = 12$ 公分、$\\overline{BD} = 10$ 公分。則 $\\overline{AO}$、$\\overline{BO}$ 分別是多少公分？</p><p>A. $\\overline{AO} = 6,\\ \\overline{BO} = 5$</p><p>B. $\\overline{AO} = 4,\\ \\overline{BO} = 4$</p><p>C. $\\overline{AO} = 8,\\ \\overline{BO} = 5$</p><p>D. $\\overline{AO} = 12,\\ \\overline{BO} = 10$</p>",
           "answer": "A",
-          "explanation": "<p>平行四邊形的關鍵性質：<strong>兩條對角線互相平分</strong>（但不一定相等、不一定垂直）。<br/>所以 $O$ 是 $AC$ 與 $BD$ 的<strong>共同中點</strong>：<br/>$AO = OC = AC \\div 2 = 12 \\div 2 = \\mathbf{6}$ 公分；<br/>$BO = OD = BD \\div 2 = 10 \\div 2 = \\mathbf{5}$ 公分。<br/>答案 A。<br/>易錯：誤以為「對角線等長」（這是矩形性質），或誤以為「對角線垂直」（這是菱形性質）。一般平行四邊形<strong>只保證互相平分</strong>。</p>"
+          "explanation": "<p>平行四邊形的關鍵性質：<strong>兩條對角線互相平分</strong>（但不一定相等、不一定垂直）。<br/>所以 $O$ 是 $\\overline{AC}$ 與 $\\overline{BD}$ 的<strong>共同中點</strong>：<br/>$\\overline{AO} = \\overline{OC} = \\overline{AC} \\div 2 = 12 \\div 2 = \\mathbf{6}$ 公分；<br/>$\\overline{BO} = \\overline{OD} = \\overline{BD} \\div 2 = 10 \\div 2 = \\mathbf{5}$ 公分。<br/>答案 A。<br/>易錯：誤以為「對角線等長」（這是矩形性質），或誤以為「對角線垂直」（這是菱形性質）。一般平行四邊形<strong>只保證互相平分</strong>。</p>"
         },
         {
           "id": "g6c_ch10_1_q13",
