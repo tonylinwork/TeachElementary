@@ -34,9 +34,9 @@
           "id": "g5a_ch3_1_q4",
           "number": 4,
           "type": "true_false",
-          "content": "<p>$\\dfrac{3}{4} + \\dfrac{1}{12} = \\dfrac{10}{12}$。</p>",
+          "content": "<p>$\\dfrac{3}{4} + \\dfrac{1}{12}$ 化為最簡分數後是 $\\dfrac{10}{12}$。</p>",
           "answer": "╳",
-          "explanation": "<p>錯誤。雖然算出 $\\dfrac{3}{4} = \\dfrac{9}{12}$，所以 $\\dfrac{9}{12} + \\dfrac{1}{12} = \\dfrac{10}{12}$ 的計算過程沒錯，但 $\\dfrac{10}{12}$ 可以<strong>約分</strong>為 $\\dfrac{5}{6}$。標準答案應寫最簡分數 $\\dfrac{5}{6}$。</p>"
+          "explanation": "<p>錯誤。先通分 $\\dfrac{3}{4} = \\dfrac{9}{12}$，所以 $\\dfrac{9}{12} + \\dfrac{1}{12} = \\dfrac{10}{12}$ 算式本身對，但 $\\dfrac{10}{12}$ 還可以再約分（分子分母同除以 $2$）：$\\dfrac{10}{12} = \\dfrac{5}{6}$。<strong>最簡分數</strong>是 $\\dfrac{5}{6}$ 而非 $\\dfrac{10}{12}$。</p>"
         },
         {
           "id": "g5a_ch3_1_q5",

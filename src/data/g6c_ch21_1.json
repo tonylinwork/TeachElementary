@@ -104,9 +104,9 @@
           "id": "g6c_ch21_1_q12",
           "number": 12,
           "type": "single_choice",
-          "content": "<p>下列哪一個算式的結果為 $0$？</p><p>A. $36 - 4 \\times 9$</p><p>B. $36 \\div 4 \\times 0 + 5 - 5$</p><p>C. $36 + 4 - 9 \\times 4$</p><p>D. $36 \\div (4 + 5)$</p>",
+          "content": "<p>下列哪一個算式的結果為 $0$？</p><p>A. $36 - 4 \\times 9$</p><p>B. $36 \\div 4 \\times 0 + 5 - 4$</p><p>C. $36 + 4 - 9 \\times 4$</p><p>D. $36 \\div (4 + 5)$</p>",
           "answer": "A",
-          "explanation": "<p>A：$36 - 4 \\times 9 = 36 - 36 = 0$ ✓；B：$36 \\div 4 \\times 0 + 5 - 5 = 9 \\times 0 + 0 = 0$（乘 $0$ 得 $0$，後面 $5 - 5 = 0$，總和為 $0$）✓ 也是；C：$36 + 4 - 9 \\times 4 = 36 + 4 - 36 = 4 \\neq 0$；D：$36 \\div 9 = 4 \\neq 0$。A 與 B 皆為 $0$，但題目單選，<strong>最直接</strong>的乘減算式是 A。答案 A。</p>"
+          "explanation": "<p>逐題計算（記得先乘除後加減）：<br/>A：$36 - 4 \\times 9 = 36 - 36 = 0$ ✓<br/>B：$36 \\div 4 \\times 0 + 5 - 4 = 9 \\times 0 + 5 - 4 = 0 + 1 = 1 \\neq 0$<br/>C：$36 + 4 - 9 \\times 4 = 36 + 4 - 36 = 4 \\neq 0$<br/>D：$36 \\div 9 = 4 \\neq 0$。<br/>只有 A 為 $0$。答案 A。</p>"
         },
         {
           "id": "g6c_ch21_1_q13",

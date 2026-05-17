@@ -1,6 +1,6 @@
 {
   "title": "小六上 1-1 最大公因數與最小公倍數",
-  "summary": "<ul><li><strong>因數的定義</strong>：若 $A \\div B$ 沒有餘數，則 $B$ 是 $A$ 的因數。例 $12 = 2 \\times 6$，所以 $2, 6$ 都是 $12$ 的因數。<strong>$ 與本身永遠是因數</strong>。</li><li><strong>倍數的定義</strong>：一個數乘以 $1, 2, 3, \\ldots$ 的結果。例 $4$ 的倍數有 $4, 8, 12, 16, \\ldots$，最小的倍數是<strong>它本身</strong>。倍數有無限多個。</li><li><strong>質數與合數</strong>：恰有 $2$ 個因數的叫<strong>質數</strong>（如 $2, 3, 5, 7$），超過 $2$ 個的叫<strong>合數</strong>。<strong>$ 既不是質數也不是合數</strong>。$ 是唯一的偶數質數。</li><li><strong>最大公因數（GCD）</strong>：兩數共同的因數中最大的。用<strong>短除法</strong>：用兩數的共同質因數逐次去除直到互質，<strong>左邊所有除數相乘 = GCD</strong>。例 $(24, 36)$：, 2, 3$ → GCD = 12。</li><li><strong>最小公倍數（LCM）</strong>：兩數公倍數中最小的。短除法：<strong>左邊所有除數 × 底下兩商全部相乘 = LCM</strong>。例 $[12, 18]$：, 3$，底下 , 3$ → LCM =  \\times 3 \\times 2 \\times 3 = 36$。</li><li><strong>應用題訣竅</strong>：看到「<strong>平均分</strong>、<strong>切同樣大</strong>、<strong>不剩</strong>」想 GCD；看到「<strong>再相遇</strong>、<strong>同時發生</strong>、<strong>下一次一起</strong>」想 LCM。<strong>互質</strong>：GCD = 1 的兩數，如 $ 與 $。</li></ul>",
+  "summary": "<ul><li><strong>因數的定義</strong>：若 $A \\div B$ 沒有餘數，則 $B$ 是 $A$ 的因數。例 $12 = 2 \\times 6$，所以 $2, 6$ 都是 $12$ 的因數。<strong>$1$ 與本身永遠是因數</strong>。</li><li><strong>倍數的定義</strong>：一個數乘以 $1, 2, 3, \\ldots$ 的結果。例 $4$ 的倍數有 $4, 8, 12, 16, \\ldots$，最小的倍數是<strong>它本身</strong>。倍數有無限多個。</li><li><strong>質數與合數</strong>：恰有 $2$ 個因數的叫<strong>質數</strong>（如 $2, 3, 5, 7$），超過 $2$ 個的叫<strong>合數</strong>。<strong>$1$ 既不是質數也不是合數</strong>。$2$ 是唯一的偶數質數。</li><li><strong>最大公因數（GCD）</strong>：兩數共同的因數中最大的。用<strong>短除法</strong>：用兩數的共同質因數逐次去除直到互質，<strong>左邊所有除數相乘 = GCD</strong>。例 $(24, 36)$：$2, 2, 3$ → GCD $= 12$。</li><li><strong>最小公倍數（LCM）</strong>：兩數公倍數中最小的。短除法：<strong>左邊所有除數 × 底下兩商全部相乘 = LCM</strong>。例 $[12, 18]$：左邊 $2, 3$，底下 $2, 3$ → LCM $= 2 \\times 3 \\times 2 \\times 3 = 36$。</li><li><strong>應用題訣竅</strong>：看到「<strong>平均分</strong>、<strong>切同樣大</strong>、<strong>不剩</strong>」想 GCD；看到「<strong>再相遇</strong>、<strong>同時發生</strong>、<strong>下一次一起</strong>」想 LCM。<strong>互質</strong>：GCD = 1 的兩數，如 $8$ 與 $9$。</li></ul>",
   "sections": [
     {
       "type": "true_false",
@@ -176,9 +176,9 @@
           "id": "g6a_ch1_1_q21",
           "number": 21,
           "type": "single_choice",
-          "content": "<p>下列哪一個數<strong>同時</strong>是 $2$、$3$、$5$ 的倍數？</p><p>A. $120$</p><p>B. $125$</p><p>C. $135$</p><p>D. $150$</p>",
+          "content": "<p>下列哪一個數<strong>同時</strong>是 $2$、$3$、$5$ 的倍數？</p><p>A. $120$</p><p>B. $125$</p><p>C. $135$</p><p>D. $100$</p>",
           "answer": "A",
-          "explanation": "<p>同時是 $2, 3, 5$ 的倍數 $=$ $[2, 3, 5] = 30$ 的倍數。$30$ 的倍數中個位是 $0$。檢查：A $120 = 30 \\times 4$ ✓；B $125$ 個位是 $5$ 不是 $2$ 倍數 ✗；D $150 = 30 \\times 5$ 也對。<strong>$120$ 與 $150$ 都對，但本題只看第一個</strong>：$120$ 數字和 $1+2+0 = 3$ 是 $3$ 倍數，是 $30$ 倍數。答案 A。</p>"
+          "explanation": "<p>同時是 $2, 3, 5$ 的倍數 $=$ $[2, 3, 5] = 30$ 的倍數。檢查：A $120 = 30 \\times 4$ ✓；B $125$ 個位是 $5$ 不是 $2$ 倍數 ✗；C $135$ 個位 $5$ 不是 $2$ 倍數 ✗；D $100 = 2^2 \\times 5^2$ 不是 $3$ 倍數（$1+0+0=1$）✗。只有 A 滿足。答案 A。</p>"
         },
         {
           "id": "g6a_ch1_1_q22",

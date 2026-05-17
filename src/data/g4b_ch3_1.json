@@ -112,7 +112,7 @@
           "id": "g4b_ch3_1_q13",
           "number": 13,
           "type": "single_choice",
-          "content": "<p>下圖是一個 L 形圖形，由兩個長方形組成：大長方形長 $10$ 公分、寬 $6$ 公分；右下角缺一個長 $4$ 公分、寬 $3$ 公分的小長方形。L 形面積是多少平方公分？</p><p>A. $60$ cm²</p><p>B. $48$ cm²</p><p>C. $72$ cm²</p><p>D. $42$ cm²</p>",
+          "content": "<p>下圖是一個 L 形圖形，由兩個長方形組成：大長方形長 $10$ 公分、寬 $6$ 公分；右下角缺一個長 $4$ 公分、寬 $3$ 公分的小長方形。L 形面積是多少平方公分？</p><div style=\"text-align:center;margin:10px 0;\"><svg width=\"260\" height=\"170\" viewBox=\"0 0 260 170\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"30,30 230,30 230,90 150,90 150,150 30,150\" fill=\"#cfe2ff\" stroke=\"#1f3d7a\" stroke-width=\"2\"/><text x=\"130\" y=\"22\" text-anchor=\"middle\" font-size=\"13\" fill=\"#333\">10 公分</text><text x=\"245\" y=\"63\" font-size=\"13\" fill=\"#333\">3</text><text x=\"190\" y=\"85\" text-anchor=\"middle\" font-size=\"13\" fill=\"#666\">4</text><text x=\"158\" y=\"125\" font-size=\"13\" fill=\"#666\">3</text><text x=\"90\" y=\"165\" text-anchor=\"middle\" font-size=\"13\" fill=\"#333\">6</text><text x=\"18\" y=\"95\" font-size=\"13\" fill=\"#333\">6</text></svg></div><p>A. $60$ cm²　B. $48$ cm²　C. $72$ cm²　D. $42$ cm²</p>",
           "answer": "B",
           "explanation": "<p>用「<strong>補形再扣</strong>」法：先補成完整大長方形 $10 \\times 6 = 60$ cm²，再扣掉缺角小長方形 $4 \\times 3 = 12$ cm²，得 L 形面積 $= 60 - 12 = \\mathbf{48}$ 平方公分。也可用切割法分成兩個長方形相加。答案 B。</p>"
         },
